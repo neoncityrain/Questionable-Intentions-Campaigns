@@ -1,0 +1,5 @@
+Template: VS_SettingsTemplate_Sewer
+Palette: 35
+PlacedObjects: DangleFruit><366.9978><465.3><0~0~2~3, DangleFruit><345.814><514.4264><0~0~2~3, 
+AmbientSounds: OMNI><waterGurgleLOOP1.wav><725.6159><567.8984><0.3586957><1, 
+FadePalette: 33, 0.5434783

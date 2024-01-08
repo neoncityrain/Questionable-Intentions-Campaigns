@@ -1,0 +1,17 @@
+DangerType: Blizzard
+CeilingDrips: 0
+WaveSpeed: 0.3403963
+WaveLength: 0.9201981
+WaveAmplitude: 1.082988E-14
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.1956522
+BkgDroneVolume: 0.2469565
+Palette: 0
+EffectColorA: 0
+EffectColorB: 2
+Effects: Flies-0-15-10, LightBurn-0.08695652-18-62, Coldness-1-20-117, Dustpuffs-1-274-11, 
+PlacedObjects: CustomDecal><310.3696><1142.402><-20~387~187~510~158~-33~-373~-45~0.6304348~1~0~Rust1~0.5~0.8695652~0.5~0.8695652~0.2065217~0.8695652~0.5652174~0.8695652, CustomDecal><678.0038><286.95><-58~158~190~183~194~-14~-366~-146~0.2173913~1~0~junkGraffiti6~0.4673913~0.2717391~0.4565217~0.2717391~1~0.2717391~0.5108696~0.2717391, CustomDecal><692.5501><319.2562><-3~91~98~102~105~-9~-731~-40~0.326087~0.3913043~0~WhiteTag~0.2826087~0.1630435~0.6413044~0.1630435~1~0.1630435~0~0.1630435, InsectGroup><735.0502><359.492><74~118~-290~332~StandardFly~0.1847826, WhiteToken><919.5975><380.8705><-48~-77~-243~116~0~Chatlog_Broadcast5~White|Yellow|Red|Rivulet|Artificer|Saint~0~1~0, 
+AmbientSounds: OMNI><AM_ENV-Outside.ogg><832.3298><640.8949><0><1, OMNI><AM_ENV-LightWind.ogg><833.3755><564.6558><0><1, OMNI><AM_ENV-WinterTrees.ogg><834.7211><486.0521><0.4021739><1, 
+FadePalette: 15, 0.5869565, 0.5760869
+WetTerrain: OFF

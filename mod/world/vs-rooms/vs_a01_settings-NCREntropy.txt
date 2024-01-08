@@ -1,0 +1,17 @@
+Template: VS_SettingsTemplate_Surface
+DangerType: None
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 5.605194E-45
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.2065217
+Grime: 0.4130435
+Palette: 30
+Effects: Coldness-0-23-73, Fog-0.3170629-30-109, ElectricDeath-0.1338768-11-144, DayNight-0-139.099-90.02221, DustWave-1-324.5438-123.8667, BorderPushBack-0-30-30, 
+PlacedObjects: DeadSeedCob><767.4113><304.9292><, DeadSeedCob><-16.65851><476.8719><, DeadSeedCob><-147.545><560.9448><, DeadSeedCob><136.6539><298.7444><, DayNightSettings><251.4853><268.9206><5~8.660254~16~10, 
+Triggers: RegionBump<tA>event<tB>MusicEvent<eA>songName<eB>RW_7 - Rooftops<eA>vol<eB>0.3<eA>prio<eB>0.5<eA>mxThrt<eB>1<eA>loop<eB>0<eA>droneTol<eB>0<eA>rooms<eB>-1<eA>rest<eB>5<eA>fadeIn<eB>0<eA>oneSongPerCycle<eB>0<eA>stopAtDeath<eB>0<eA>stopAtGate<eB>0<tA>multiUse<tB>0<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>704.5569<tB>446.1979<tA>fireChance<tB>1<tA>entrance<tB>-1<tA>karma<tB>0<tA>slugcats<tB>, 
+FadePalette: 9, 0.2178215

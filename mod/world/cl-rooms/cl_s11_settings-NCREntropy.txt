@@ -1,0 +1,16 @@
+Template: CL_SettingsTemplate_DarkSun
+DangerType: None
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 5.605194E-45
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.2282609
+EffectColorA: 14
+Effects: LightBurn-0.2934783-14-119, Fog-0.5217391-20-20, Bloom-0.6847826-16-66, WaterDepth-0.1847826-30-30, Coldness-0-30-30, 
+PlacedObjects: LightSource><562.3428><291.3763><0.06521744~EffectColor1~196~60~217~-254.3975~0~1~None~0~0, LightSource><412.4426><286.804><0.05434779~EffectColor1~193~-146~215~-303.3975~1~1~Fade~0.6086956~0, LightSource><429.0202><328.699><0.4021739~EffectColor1~178~-7~50~86.60254~0~0~None~0~0, BrokenShelterWaterLevel><416.9303><355.6634><, 
+FadePalette: 9, 0.3152174
+WetTerrain: OFF

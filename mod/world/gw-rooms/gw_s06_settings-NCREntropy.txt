@@ -1,0 +1,14 @@
+Template: NONE
+DangerType: Blizzard
+RainIntensity: 0.3695652
+RumbleIntensity: 0
+WaveSpeed: 0.4950352
+WaveLength: 0.9577681
+WaveAmplitude: 0.008770006
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0
+Palette: 33
+Effects: Coldness-0-20-20, Darkness-0.5-30-30, 
+AmbientSounds: SPOT><waterGurgleLOOP1.wav><722.0153><553.1994><0.1521739><1><727.0153><185.1994><-81.35535><-54.35535><0><0.1760871, OMNI><AM_ENV-NatWind.ogg><863.1548><641.4259><0.2282609><1, 
+FadePalette: 23, 0.423913

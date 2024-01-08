@@ -1,0 +1,11 @@
+Template: MS_SettingsTemplate_Vents
+RumbleIntensity: 0.7826087
+WaveSpeed: 0.5652174
+WaveAmplitude: 0.5
+SecondWaveAmplitude: 0
+Clouds: 1
+Effects: Darkness-0.6086956-279-20, Fog-0.04347826-280-75, WaterDepth-0.04347826-278-133, BrokenZeroG-0.4347826-263-189, ElectricDeath-0.4021739-20-20, 
+PlacedObjects: LightSource><2464.706><472.554><0.7173913~EffectColor1~-641~352~151~-306.3975~0~0~Fade~0.3918338~0, LightSource><2465.46><473.0541><0.2826087~EffectColor1~643~-411~73.93164~-35.38193~0~0~None~0~0, LightFixture><2368.144><580.2766><RedLight~183.181~-222.77~35, LightFixture><2544.914><365.9948><RedLight~11.3205~-93.99997~0, BubbleGrass><2490.888><588.4142><-219~-256~4~9, BubbleGrass><2510.996><588.0818><-261~-248~4~9, BubbleGrass><2445.273><590.4755><-466~-117~4~9, 
+AmbientSounds: SPOT><SO_WAT-OpenFlow.ogg><802.9911><612.3002><0.5108696><1><2208.027><387.2844><143.6447><24.64465><0><0.328261, SPOT><SO_WAT-OpenFlow.ogg><802.1907><501.5601><0.5760869><1><2771.19><378.5601><-162.3553><29.64465><0><0.328261, SPOT><SO_ENV-StrongWnd.ogg><733.3942><204.8614><0.3043478><1.782609><3060.419><504.8959><-264.3553><-209.3553><0><1, OMNI><AM_SUB-MysticCave2.ogg><804.4164><420.611><0.3043478><1, OMNI><SO_WAT-MoreDrips.ogg><630.5792><493.646><0.6956522><1.234783, 
+Triggers: Spot<tA>event<tB>MusicEvent<eA>songName<eB>RW_74 - Aquaphobia<eA>vol<eB>0.3<eA>prio<eB>0.5<eA>mxThrt<eB>1<eA>loop<eB>0<eA>droneTol<eB>0<eA>rooms<eB>-1<eA>rest<eB>5<eA>fadeIn<eB>0<eA>oneSongPerCycle<eB>0<eA>stopAtDeath<eB>0<eA>stopAtGate<eB>0<tA>multiUse<tB>0<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>834.3804<tB>437.9016<tA>fireChance<tB>1<tA>entrance<tB>-1<tA>karma<tB>0<tA>slugcats<tB><tA>pos<tB>2459.38<tB>458.9016<tA>handlePos<tB>-170.3553<tB>-213.3553, 
+FadePalette: 17, 0.3043478

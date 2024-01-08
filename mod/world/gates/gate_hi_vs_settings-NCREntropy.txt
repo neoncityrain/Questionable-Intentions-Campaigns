@@ -1,0 +1,16 @@
+Template: NONE
+DangerType: Flood
+RumbleIntensity: 1
+WaveSpeed: 0.5
+WaveLength: 0.75
+WaveAmplitude: 0.04917884
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+BkgDroneVolume: 0
+Palette: 32
+EffectColorA: 2
+EffectColorB: 1
+Effects: WaterDepth-0-20-20, SilenceWater-1-22-84, Coldness-0-30-30, DayNight-0-40-40, 
+PlacedObjects: NoSpearStickZone><476.7><239.0046><-5~269, DayNightSettings><71.87039><324.0794><5~8.660254~16~10, 
+AmbientSounds: OMNI><AM_ENV-SubTerr.ogg><855.4125><632.6335><0.3369565><1, OMNI><AM_IND-Warehouse01.ogg><857.6808><555.4377><0.4456522><0.8826087, SPOT><AM_WIN-HowlingWnd.ogg><682.0507><594.267><0.3043478><0.6282609><482.0507><-52.73303><-112.3553><207.6447><0><0.4695654, 
+FadePalette: 4, 0.7133945

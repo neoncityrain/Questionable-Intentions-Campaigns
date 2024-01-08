@@ -1,0 +1,10 @@
+DangerType: None
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+Grime: 0.1392438
+Palette: 30
+Effects: ElectricDeath-0.5026608-20-20, DayNight-0-30-30, Coldness-0-40-40, 
+PlacedObjects: DayNightSettings><299.1244><406.492><5~8.660254~16~10, 
+AmbientSounds: SPOT><AM_IND-Factory02.ogg><773.014><426.5505><0.2717391><1><854.014><723.5505><-146.3553><-197.3553><0><0.9260871, 
+FadePalette: 8, 0.6630435, 0.6521739

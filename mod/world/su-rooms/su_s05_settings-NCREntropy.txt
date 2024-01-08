@@ -1,0 +1,7 @@
+Template: SU_SettingsTemplate_Inside
+BkgDroneVolume: 0
+EffectColorB: 8
+Effects: Desaturation-0.3043478-17-77, Coldness-0.05434782-30-30, 
+PlacedObjects: BrokenShelterWaterLevel><272.2907><264.4458><, 
+AmbientSounds: OMNI><AM_ENV-Outside.ogg><764.0152><469.9494><0.2282609><1, 
+FadePalette: 4, 0.3152174

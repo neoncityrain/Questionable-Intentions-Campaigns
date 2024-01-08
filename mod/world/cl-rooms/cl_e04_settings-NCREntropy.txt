@@ -1,0 +1,15 @@
+DangerType: FloodAndRain
+CeilingDrips: 0.827457
+RainIntensity: 1
+RumbleIntensity: 1
+WaveSpeed: 0.5
+WaveLength: 1
+SecondWaveLength: 0.1666667
+Clouds: 1
+EffectColorA: 2
+EffectColorB: 6
+Effects: Coldness-1-20-20, SilenceWater-0.4891304-23-79, HeavyRain-0.04639949-30-30, 
+PlacedObjects: DangleFruit><751.8429><3629.877><0~0~2~3, DangleFruit><803.8312><3588.894><0~0~2~3, 
+AmbientSounds: OMNI><AM_IND-SuperStructure.ogg><865.8893><645.6666><0.1086956><1, SPOT><AM_ENV-NatWind.ogg><870.9966><530.7><0.2282609><1><-77.00336><216.7><448.6447><48.64465><0><0.6869566, OMNI><MSC-StructureStrain.ogg><689.3109><646.815><0.4021739><0.1586957, SPOT><AM_WIN-StrongWnd2.ogg><691.0595><529.4391><0.2173913><1><-54.94049><3627.439><425.6447><-361.3553><0><0.752174, 
+FadePalette: 0, 0.3369565, 0.3043478, 0.2717391, 0.2391304, 0.2173913
+WetTerrain: OFF

@@ -1,0 +1,16 @@
+DangerType: Flood
+CeilingDrips: 0.4949274
+RainIntensity: 1
+RumbleIntensity: 1
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 5.605194E-45
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.6195652
+EffectColorB: 15
+Effects: LightBurn-0.4565217-20-20, FastFloodPullDown-0.03866627-30-30, 
+PlacedObjects: LightSource><1485.699><1674.057><0.2934783~White~274~540~50~86.60254~1~0~None~0~0, LightSource><1456.813><1100.928><0.2608696~White~459~-227~177~50.60254~1~0~None~0~0, DangleFruit><1483.232><1869.071><0~0~8~16, Corruption><1959.126><2020.132><21.34375~154.0444, 
+AmbientSounds: OMNI><AM_ENV-CityTone.ogg><853.3845><582.3367><0.1847826><1, 
+FadePalette: 0, 0.3695652, 0.3804348, 0.3152174, 0.2391304
+WetTerrain: OFF

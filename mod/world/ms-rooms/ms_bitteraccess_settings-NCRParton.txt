@@ -1,0 +1,9 @@
+Template: MS_SettingsTemplate_Array
+Clouds: 0.2282609
+Palette: 51
+EffectColorA: 11
+EffectColorB: 8
+Effects: Fog-0-21-76, LightBurn-0.07608695-26-135, BrokenZeroG-0.1956522-279-23, 
+PlacedObjects: LightFixture><442.3338><353.6387><RedLight~17.32051~-10~0, LightFixture><906.6196><177.9102><RedLight~17.32051~-10~22, ExitSymbolHidden><146.0062><106.0501><, 
+AmbientSounds: OMNI><AM_WIN-NiceWnd.ogg><35.06439><245.5745><0.3586957><1, SPOT><AM_IND-Utility02.ogg><41.55139><392.2263><0.4130435><1><323.5514><769.2263><-173.3553><-262.3553><0><0.4152175, SPOT><AM_IND-SuperStructure.ogg><829.5571><609.1971><0.2065217><0.9413043><128.5571><61.19708><234.6447><244.6447><0><1, 
+FadePalette: 37, 0.2391304, 0.06521739

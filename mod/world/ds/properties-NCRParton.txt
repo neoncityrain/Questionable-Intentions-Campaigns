@@ -1,0 +1,35 @@
+Palette: 10
+batDepleteCyclesMin: 2
+batDepleteCyclesMax: 7
+batDepleteCyclesMaxIfLessThanTwoLeft: 3
+batDepleteCyclesMaxIfLessThanFiveLeft: 4
+overseersSpawnChance: 0.2
+overseersMin: 0
+overseersMax: 2
+playerGuideOverseerSpawnChance: 0.0
+earlyCycleChance: 0.01
+earlyCycleFloodChance: 0.1
+pupSpawnChance: 0.05
+Subregion: Drainage System
+Room Setting Templates: Inside
+Room_Attr: DS_B02: DropBug-Like,
+Room_Attr: DS_A22: DropBug-Avoid,
+Room_Attr: DS_A02: DropBug-Avoid,
+Room_Attr: DS_B03: Snail-Forbidden,
+Room_Attr: DS_A15: DropBug-Like,
+Room_Attr: DS_A23: DropBug-Like,
+Room_Attr: DS_A19: DropBug-Like,
+Room_Attr: DS_B04: Snail-Like,DropBug-Like,
+Room_Attr: DS_A08: Snail-Like,
+Room_Attr: DS_B07: Salamander-Like,Snail-Stay,DropBug-Like,
+Room_Attr: DS_A24: DropBug-Avoid,
+Room_Attr: DS_A11: DropBug-Avoid,
+Room_Attr: DS_C04: DropBug-Avoid,
+Room_Attr: DS_A14: Snail-Forbidden,DropBug-Avoid,
+Room_Attr: DS_B08: DropBug-Avoid,
+Room_Attr: DS_D01: DropBug-Avoid,
+Room_Attr: DS_A05: Snail-Stay,DropBug-Avoid,
+Room_Attr: DS_D03: DropBug-Avoid,
+Room_Attr: DS_B06: Snail-Forbidden,
+Room_Attr: DS_A13: Snail-Forbidden,
+Room_Attr: DS_A10: Snail-Forbidden,DropBug-Avoid,

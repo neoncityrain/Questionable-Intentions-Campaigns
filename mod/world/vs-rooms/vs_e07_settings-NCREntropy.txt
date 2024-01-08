@@ -1,0 +1,14 @@
+DangerType: None
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.4106326
+WaveLength: 0.9716206
+WaveAmplitude: 0.0003458388
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Palette: 30
+Effects: Darkness-0.3478261-21-70, Desaturation-0.1413043-19-113, Hue-0.9673913-20-20, DustWave-0-30-30, DayNight-0-40-40, ElectricDeath-0.75-50-50, 
+PlacedObjects: CustomDecal><660.1996><3306.737><-42~95~66~121~83~22~135~-408~0.25~1~0.4456522~VultureWarning~0.6521739~0.04347826~0.6521739~0.04347826~0.6521739~0.04347826~0.6521739~0.04347826, DayNightSettings><5.496826><3384.493><5~8.660254~16~10, 
+AmbientSounds: OMNI><AM_ENV-NatWind.ogg><764.3011><480.2711><0.3913043><1, SPOT><SO_WAT-Splashes.ogg><763.023><371.1987><0.1847826><1><-158.977><2262.199><-277.3553><-324.3553><0><0.502174, SPOT><SO_WAT-Splashes.ogg><764.1802><370.0867><0.1847826><1><1130.18><2420.087><-501.3553><-193.3553><0><0.502174, 
+FadePalette: 3, 0.5760869, 0.423913, 0.2608696, 0.2826087, 0.2934783

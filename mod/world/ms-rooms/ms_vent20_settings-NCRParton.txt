@@ -1,0 +1,6 @@
+Template: MS_SettingsTemplate_Vents
+Palette: 51
+Effects: ElectricDeath-0.07608695-20-138, 
+PlacedObjects: LightSource><640.4008><243.3105><0.1749294~EffectColor2~-757~263~-194~-214.3975~0~0~None~0~0, LightSource><1350.195><404.4999><0.1521739~EffectColor2~599~-294~-340~-242.3975~0~0~None~0~0, LightFixture><1684.201><658.9944><RedLight~-57.66205~-95.05334~95, LightFixture><1505.913><32.79698><RedSubmersible~17.32051~-10~0, LightFixture><1978.026><288.3016><RedSubmersible~17.32051~-10~0, BubbleGrass><1205.36><449.5829><0~0~4~9, BubbleGrass><1275.174><461.5649><0~0~4~9, BubbleGrass><1388.051><470.7696><0~0~4~9, 
+AmbientSounds: SPOT><SO_SFX-Heartbeat1.ogg><812.3407><602.1783><0.5652174><0.4717391><1778.366><382.1916><-650.3553><-92.35535><0><0.8717393, 
+FadePalette: 35, 0.3478261, 0.3478261

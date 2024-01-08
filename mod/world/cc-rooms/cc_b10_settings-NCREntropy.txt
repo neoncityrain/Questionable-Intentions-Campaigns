@@ -1,0 +1,19 @@
+Template: CC_SettingsTemplate_Inside
+DangerType: Blizzard
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0.1847826
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 5.605194E-45
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.3586957
+Grime: 0.3586957
+BkgDroneVolume: 0.2869565
+Palette: 0
+Effects: Fog-0.2282609-20-20, Coldness-0-30-30, LightBurn-0.1195652-40-40, SkyAndLightBloom-0.05434782-50-50, 
+PlacedObjects: DangleFruit><529.5568><2875.551><0~0~2~27, DangleFruit><456.0904><2831.38><0~0~2~20, 
+AmbientSounds: SPOT><AM_WIN-StrongWnd2.ogg><750.5905><407.9283><0.3478261><1.273913><479.5905><10.92834><46.64465><306.6447><0><1, OMNI><AM_ENV-LightWind.ogg><820.1393><601.5834><0><1, OMNI><AM_ENV-NatWind.ogg><817.0517><522.5259><0.3582609><1, 
+FadePalette: 8, 0.4565217, 0.5, 0.5434783, 0.5760869
+WetTerrain: OFF

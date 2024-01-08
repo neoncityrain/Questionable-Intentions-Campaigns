@@ -1,0 +1,14 @@
+DangerType: None
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 3.266209E-23
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Palette: 30
+Effects: Coldness-0-30-30, ElectricDeath-0.6495923-20-20, DayNight-0-39.28854-101.1555, 
+PlacedObjects: DangleFruit><751.0965><400.3718><0~0~5~14, 
+FadePalette: 10, 0.6195652
+WetTerrain: OFF

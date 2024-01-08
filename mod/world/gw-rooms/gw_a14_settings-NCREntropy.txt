@@ -1,0 +1,12 @@
+Template: NONE
+DangerType: Flood
+CeilingDrips: 1
+Clouds: 1
+BkgDroneVolume: 0.202174
+Palette: 33
+EffectColorA: 4
+EffectColorB: 1
+Effects: WaterFluxMinLevel-0.01086957-20-20, WaterFluxMaxLevel-0.01086957-37-19, WaterFluxSpeed-1-39-101, Coldness-0-50-125, SilenceWater-1-53-111, LethalWater-0.01086957-30-30, LavaSurface-0-40-40, MossWater-0-50-50, MossWaterRGB-0-439-513-Red:255-Blue:255-Green:0, 
+PlacedObjects: LightSource><427.7191><531.5524><0.3043478~EffectColor2~-8~-393~165~-33.39749~0~0~None~0~0, DataPearl><508.564><345.5736><0~0~0~0~Misc~0, 
+AmbientSounds: DIR><AM_WAT-Sea01.ogg><711.3741><187.1555><0.2065217><1><-2.64763><0, 
+FadePalette: 23, 0.3695652

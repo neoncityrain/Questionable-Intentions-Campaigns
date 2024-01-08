@@ -1,0 +1,13 @@
+DangerType: Rain
+WaveSpeed: 0.2642612
+WaveLength: 0.8821306
+WaveAmplitude: 9.00009E-05
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Grime: 0.3369565
+Palette: 39
+Effects: Flies-0.5869565-18-74, HeatWave-0.2934783-158-93, DirtyWater-1-40-40, 
+PlacedObjects: CustomDecal><59.55023><396.0094><-2~124~501~130~504~-14~-58~-639~0.6630435~0.8695652~0.2173913~YellowBubbly~0.6847826~0.5217391~0.4673913~0.75~0.4021739~1~0~0.9565217, CustomDecal><499.2579><360.1998><-51~206~432~246~368~6~-294~-600~0.4565217~1~0~Rust2~1~1~0.1086956~1~0.3804348~1~1~1, CustomDecal><228.5654><359.3269><-25~268~556~289~465~-68~250~-629~0~1~0~Rust1~1~1~1~1~0.2934783~1~0.2934783~1, CustomDecal><1701.441><182.4412><116~486~-571~460~-509~12~-614~-55~0~1~0~Rust1~0.5~1~0.5~1~0.3695652~1~0.7282609~1, CustomDecal><106.8256><374.9021><0~129.964~325.1326~123.964~280.1326~33~229~-562~0.5978261~1~0~WhiteBigTag~0.8913044~0.3586957~1~0~0.6195652~0.7173913~0~1, CustomDecal><553.302><429.722><-2~80~216~96~238~22~201~-561~0.6521739~1~0~WhiteTag7~0.5543478~0~0.1521739~0~0.8152174~1~0.6521739~0.9891304, InsectGroup><670.5564><401.9497><0~100~0~0~RockFlea~0.5, SteamPipe><415.6732><337.3499><-5~48, SteamPipe><409.3869><335.4149><12~38, SteamPipe><214.146><318.5792><19~61, SteamPipe><1638.802><629.4742><-45~-66, SteamPipe><1644.132><627.3501><5~-54, DevToken><429.4406><453.0607><16~-61~0~0~0~~NCREntropy~0~0~0~1, Vine><174.3127><368.5703><177~213, Vine><362.8735><364.3451><-41~215, Vine><824.5623><455.319><-82~136, Vine><1259.269><519.1978><172~60, Vine><1257.363><524.8679><301~29, Vine><1716.953><503.6999><-31~-51, Vine><1912.394><514.8342><-179~36, 
+Triggers: Spot<tA>event<tB>MusicEvent<eA>songName<eB>NA_22 - They Say<eA>vol<eB>0.3108693<eA>prio<eB>0.6086956<eA>mxThrt<eB>1<eA>loop<eB>1<eA>droneTol<eB>0<eA>rooms<eB>-1<eA>rest<eB>0<eA>fadeIn<eB>163.0435<eA>oneSongPerCycle<eB>0<eA>stopAtDeath<eB>1<eA>stopAtGate<eB>1<tA>multiUse<tB>0<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>642.603<tB>563.0786<tA>fireChance<tB>1<tA>entrance<tB>0<tA>karma<tB>0<tA>slugcats<tB><tA>pos<tB>266.603<tB>448.0786<tA>handlePos<tB>-97.35535<tB>-227.3553, 
+FadePalette: 9, 0.7391304, 0.4456522
+WetTerrain: OFF

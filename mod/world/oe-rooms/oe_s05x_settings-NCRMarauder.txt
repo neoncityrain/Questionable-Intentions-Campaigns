@@ -1,0 +1,14 @@
+Template: OE_SettingsTemplate_Cave
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 0
+SecondWaveLength: 0
+SecondWaveAmplitude: 0
+Palette: 41
+EffectColorA: 21
+Effects: LightBurn-0.3703802-277-17, RockFlea-0-293-76, Darkness-0.4891304-269-220, DayNight-0.0326087-284-160, 
+PlacedObjects: DayNightSettings><-16.29468><389.0551><5~8.660254~76~10, Vine><640.2552><533.6849><-166.4813~-10.93335, 
+AmbientSounds: SPOT><AM_ENV-NatWind.ogg><774.6168><521.3508><0.2282609><1><896.6167><699.3508><-116.3553><-134.3553><0><0.3934784, SPOT><AM_ENV-Outside.ogg><595.3781><518.9036><0.2608696><1><-40.62195><610.9036><-93.35535><-116.3553><0><0.752174, SPOT><AM_ENV-Pasture.ogg><777.9474><403.5322><0.4130435><1><-173.0526><629.5322><-174.3553><-241.3553><0><0.9804349, SPOT><SO_IND-HVAC.ogg><602.1616><401.1794><0.326087><1><426.1616><-42.82059><-122.3553><-137.3553><0><0.3826088, SPOT><SO_WAT-Splashes.ogg><778.5518><281.4734><0.1304348><0.9413043><-95.44824><667.4734><-66.35535><-145.3553><0><0.4586958, 
+FadePalette: 4, 0.3192142

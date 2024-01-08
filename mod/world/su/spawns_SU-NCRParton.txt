@@ -1,0 +1,24 @@
+SU_CAVE03 : 5-Black, 6-Black
+SU_CAVE05 : 4-Black
+SU_A04 : 5-Mimic-{8}, 4-Pink, 2-CicadaB-2, 3-CicadaB
+SU_A07 : 4-Green, 5-Pink
+SU_A10 : 3-Strawberry
+SU_A17 : 2-White
+SU_A20 : 5-SmallCentipede
+SU_A31 : 3-Mimic-{6}
+SU_B02 : 4-CicadaB, 5-CicadaB
+SU_B04 : 4-Caramel, 5-Salamander-{Night}, 3-Pink
+SU_B06 : 6-CicadaB, 7-CicadaB
+SU_B09 : 4-DropBug-2
+SU_B11 : 4-CicadaB, 5-CicadaA
+SU_C02 : 2-BigNeedleWorm, 3-SmallNeedleWorm-3
+
+OFFSCREEN : 0-KingVulture-2, 0-Vulture-3, 0-Scavenger-15
+
+LINEAGE : SU_CAVE02 : 5 : White-1.0, Red-0
+LINEAGE : SU_A04 : 5 : NONE-0.05, TentaclePlant-0
+LINEAGE : SU_A06 : 3 : Green-1.0, White-0.8, Yellow-0.01, NONE-0.5, Red-0
+LINEAGE : SU_A20 : 6 : Pink-0.1, NONE-0.5, Blue-0.2, Red-0
+LINEAGE : SU_A30 : 2 : EggBug-0.05, FireBug-0
+LINEAGE : SU_A31 : 3 : NONE-0.1, Small Centipede-1.0, Centipede-{0.3}-1.0, Centipede-{0.5}-1.0, Centipede-{0.7}-1.0, RedCentipede-0
+LINEAGE : SU_B01 : 6 : Mimic-{24}-1, NONE-0.5, TentaclePlant-0

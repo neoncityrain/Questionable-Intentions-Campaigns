@@ -1,0 +1,15 @@
+{
+	"id": "Ghost_NCREntropy",
+	"scene_folder": "scenes/slugcat - prototype",
+	"images": [
+		{ "name": "entropycollar", "pos": [0, 0], "depth": 3.7, "shader": "Basic" },
+		{ "name": "entropyglow",    "pos": [0, 0], "depth": 2.2, "shader": "Basic" },
+		{ "name": "sparkle",    "pos": [0, 0], "depth": 2.0, "shader": "Basic" },
+		{ "name": "entropy",    "pos": [0, 0], "depth": 1.8, "shader": "Basic" }
+	],
+	"idle_depths": [ 2.8 ],
+	"glow_pos": [688, 484],
+	"mark_pos": [689, 583],
+	"select_menu_pos": [0, 0],
+	"slugcat_depth": 2.8
+}

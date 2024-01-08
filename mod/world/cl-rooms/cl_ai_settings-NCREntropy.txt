@@ -1,0 +1,17 @@
+Template: CL_SettingsTemplate_DarkSun
+DangerType: Rain
+CeilingDrips: 0.5434783
+RumbleIntensity: 0.5
+WaveSpeed: 0.491247
+WaveLength: 0.9627038
+WaveAmplitude: 0.009820695
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.1086956
+EffectColorA: 18
+EffectColorB: 21
+Effects: Coldness-1-18-68, Dustpuffs-1-20-119, LightRain-0.1195652-30-30, CorruptionSpores-0.01086957-40-40, 
+PlacedObjects: LightSource><1971.586><627.8195><0.1195652~Environment~1261~723~211~-37.39746~1~1~None~0~0, LightFixture><122.6805><539.3362><RedLight~17.32051~-10~64, LightFixture><904.4985><667.45><RedLight~-268.6795~-20~0, LightSource><413.8597><406.0828><0.1847826~EffectColor1~1385~-130~377~-356.3975~0~0~Fade~0.3043478~0, SteamPipe><156.6851><405.0757><69~-49, SteamPipe><145.3958><406.8293><31~-47, SteamPipe><378.9144><254.4229><30~56, SteamPipe><291.8569><705.3898><28~-60, SteamPipe><283.1054><694.4199><-2~-19, SteamPipe><264.8086><496.1921><28~-48, SteamPipe><175.9247><617.4353><57~16, UniqueDataPearl><2544.383><137.3506><0~0~0~0~RM~0, CorruptionTube><1171.357><407.6283><390~280, 
+AmbientSounds: OMNI><AM_ENV-CityTone.ogg><868.4235><647.6505><0.2065217><1, SPOT><AM_ENV-NatWind.ogg><696.868><613.0885><0.2391304><1><2133.868><782.0885><548.6447><-398.3553><0><0.4260871, SPOT><AM_WIN-SubWnd.ogg><868.86><529.333><0.3913043><1><491.86><252.333><427.6447><290.6447><0><0.4369566, SPOT><MSC-ElectricPulse.ogg><695.5552><496.7049><0.1956522><1.313043><115.5552><484.7049><149.6447><123.6447><0><0.2195653, SPOT><SO_IND-HeatDuct.ogg><869.052><419.2218><0.1413043><1><12.052><12.2218><317.6447><151.6447><0><0.5565219, SPOT><SO_SFX-DataTones.ogg><702.2><386.0045><0.3804348><0.1><479.2><739.0045><-20.35535><-266.3553><0><0.7739132, SPOT><AM_ENV-NatWind.ogg><754.5344><254.303><0.2391304><1><969.5344><17.30298><-250.3553><130.6447><0><0.1978262, 
+FadePalette: 0, 0.09782609, 0.1956522, 0.3369565
+WetTerrain: OFF

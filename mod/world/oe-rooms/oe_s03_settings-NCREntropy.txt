@@ -1,0 +1,10 @@
+Template: NONE
+RumbleIntensity: 0
+Clouds: 1
+Grime: 0.1956522
+Palette: 15
+EffectColorA: 18
+EffectColorB: 18
+Effects: Coldness-0-20-20, 
+PlacedObjects: Lantern><463.3045><441.7923><0~0~0~9, CorruptionDarkness><557.8295><435.3545><-153~42, 
+FadePalette: 8, 1

@@ -1,0 +1,11 @@
+DangerType: None
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+Clouds: 1
+Grime: 0.2065217
+Palette: 30
+Effects: Coldness-0-20-20, 
+PlacedObjects: BrokenShelterWaterLevel><597.1018><312.4222><, DayNightSettings><715.9105><373.1194><5~8.660254~16~10, 
+FadePalette: 8, 0.4347826
+WetTerrain: OFF

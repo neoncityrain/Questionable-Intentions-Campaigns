@@ -1,0 +1,17 @@
+DangerType: FloodAndRain
+CeilingDrips: 0
+WaveSpeed: 0.51
+WaveLength: 1
+WaveAmplitude: 0.0001
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.8695652
+Palette: 11
+EffectColorA: 21
+EffectColorB: 19
+Effects: Fog-0-277-80, SilenceWater-0.3695652-19-133, FireFlies-0.326087-20-20, WaterDepth-0.1195652-30-60, 
+PlacedObjects: DangleFruit><1674.789><611.0538><-6~28~2~3, InsectGroup><1795.612><536.8343><-180~-102~92.00006~-440~Ant~0.6521739, LightSource><1308.2><447.9922><0.1521739~EffectColor2~812~-438~301~-445.3975~0~0~None~0~0, LightSource><1306.199><477.0207><0.3586957~EffectColor2~129~-181~8~-460.3975~0~1~None~0~0, LightSource><1321.868><455.0884><0.1847826~EffectColor2~724~-411~-266~-435.3975~0~0~Fade~0.2608696~0, InsectGroup><1547.355><307.6126><443~-115~-42~73~FireFly~0.6304348, Vine><1697.939><378.3896><149~295, Vine><1704.847><206.6756><196~87, Vine><1340.567><711.4875><296~107, Vine><1696.967><382.4966><209~-219, Vine><1410.748><983.3904><197~-63, Vine><1624.446><1010.582><74~266, Vine><1529.43><1280.542><68~-224, Vine><1532.558><1283.694><-96~-211, Vine><1327.54><793.6877><449~-375, Vine><1938.548><538.6179><-194~146, Vine><1330.785><758.2435><335~-46, Vine><1157.259><479.2162><163~228, Vine><1446.441><317.2097><-141~367, Vine><1539.695><255.4848><159~123, Vine><1133.429><295.3588><-40~140, Vine><1340.807><224.3698><-245~203, Vine><1459.708><316.6808><152~583, Vine><1135.632><205.7387><304~121, Vine><1264.645><656.6935><689~-198, Vine><1288.301><658.8181><322~330, Vine><779.5793><1008.44><-133~170, Vine><672.4666><1229.056><80~-7, Vine><652.4454><1133.065><65~246, 
+AmbientSounds: OMNI><AM_IND-Utility02.ogg><837.3013><645.9775><0><1, OMNI><SO_IND-HeatDuct.ogg><819.5117><569.3004><0><1, OMNI><AM_ENV-CricketsWnd.ogg><641.1636><565.115><0.3804348><1, SPOT><AM_ENV-LushNight.ogg><671.0734><442.8439><0.3695652><1><760.0734><1053.844><727.6447><-540.3553><0><1, SPOT><waterGurgleLOOP1.wav><845.1887><439.4335><0.4782609><1><703.1887><1396.434><-118.3553><-146.3553><0><0.6652175, SPOT><AM_SUB-BlankState.ogg><846.6647><324.9309><0.2934783><1><1442.665><90.93091><811.6447><154.6447><0><1, SPOT><SO_WAT-MoreDrips.ogg><672.0591><327.3098><0.5><1><1449.059><418.3098><-330.3553><-137.3553><0><0.4913045, SPOT><AM_WIN-SubWnd.ogg><842.7711><201.6989><0.3478261><1><1529.771><706.6989><-392.3553><80.64465><0><0.404348, SPOT><SO_WAT-RunningWater.ogg><672.1725><193.8513><0.173913><0.4913043><68.17249><1083.851><544.6447><-32.35535><0><0.7086958, SPOT><AM_ENV-NatWind.ogg><480.0836><528.4317><0.3152174><1><958.0835><1443.432><-7.355347><-197.3553><0><0.8065219, SPOT><SO_WAT-OpenFlow.ogg><834.9499><81.75699><0.3478261><0.9021739><1532.95><-6.243011><-163.3553><-93.35535><0><0.1978262, 
+Triggers: RegionBump<tA>event<tB>MusicEvent<eA>songName<eB>RW_94 - Weathered Steps<eA>vol<eB>0.2347823<eA>prio<eB>0.5<eA>mxThrt<eB>1<eA>loop<eB>0<eA>droneTol<eB>0<eA>rooms<eB>-1<eA>rest<eB>5<eA>fadeIn<eB>0<eA>oneSongPerCycle<eB>0<eA>stopAtDeath<eB>0<eA>stopAtGate<eB>0<tA>multiUse<tB>0<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>773.8324<tB>405.6823<tA>fireChance<tB>1<tA>entrance<tB>4<tA>karma<tB>0<tA>slugcats<tB>, 
+FadePalette: 39, 0.5434783, 0.6413044, 0.9239131
+WetTerrain: OFF

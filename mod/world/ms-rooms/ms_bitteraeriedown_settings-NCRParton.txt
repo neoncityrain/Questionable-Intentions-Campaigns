@@ -1,0 +1,13 @@
+Template: MS_SettingsTemplate_Aerie
+DangerType: Rain
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 0.01932979
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Palette: 50
+EffectColorA: 11
+EffectColorB: 8
+Effects: LightRain-0.1521739-63-159, 
+PlacedObjects: CustomDecal><233.4656><79.94702><-56~744~675~756~696~40~-159~109~0.01086957~1~0~Rust2~0.4456522~1~0.4456522~1~0.4456522~1~0.4456522~1, 
+FadePalette: 40, 0.5108696, 0.3913043, 0.2717391

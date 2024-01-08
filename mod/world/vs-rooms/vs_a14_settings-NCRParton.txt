@@ -1,0 +1,3 @@
+DangerType: FloodAndRain
+PlacedObjects: ScavengerTreasury><385.2345><208.8006><142~127, LanternOnStick><253.7604><315.6997><29~-167, LanternOnStick><315.5889><295.3815><-41~-117, LanternOnStick><573.868><346.6615><34~-159, DataPearl><163.1846><247.8271><242~-237~0~0~Misc~0, DataPearl><257.0118><406.0504><-109~-396~0~0~Misc~0, LightSource><539.8515><320.616><0.4782609~Environment~296~392~50~86.60254~1~0~None~0~0, ScavengerTreasury><586.024><246.6986><107~140, DeadTokenStalk><268.5626><485.93><20~38, DeadTokenStalk><238.7679><467.1992><18~51, DeadTokenStalk><376.8812><494.1509><-20~36, BlueToken><338.6736><475.6848><-19~50~67~-73~1~Pearl~~0~0~0, 
+FadePalette: 33, 0.7065217

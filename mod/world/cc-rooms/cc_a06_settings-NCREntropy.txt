@@ -1,0 +1,15 @@
+DangerType: Blizzard
+WaveSpeed: 0.5099405
+WaveLength: 0.9950297
+WaveAmplitude: 3.073348E-14
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.4456522
+BkgDroneVolume: 0.2869565
+Palette: 5
+EffectColorA: 10
+EffectColorB: 10
+Effects: Fog-0.2391304-20-20, Flies-0-30-30, Coldness-1-40-40, Dustpuffs-1-50-50, SkyAndLightBloom-0.2065217-60-60, 
+PlacedObjects: CustomDecal><428.8882><525.3555><20~49~64~39~46~-8~-541~-286~0~1~0~ScavMark Ghost~1~0~1~0~1~0.3586957~1~0.4021739, SnowSource><525.9344><340.0771><None~1270~763~50~86.60254~0.4891304~1, 
+AmbientSounds: OMNI><AM_ENV-LightWind.ogg><711.424><492.3486><0><1, OMNI><AM_ENV-WinterHum.ogg><722.3046><423.2073><0.326087><1, 
+FadePalette: 15, 0.7826087

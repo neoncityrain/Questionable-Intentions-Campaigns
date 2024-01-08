@@ -1,0 +1,15 @@
+[MERGE]
+CONDITIONAL LINKS
+ //Access to Moon's City
+NCRParton : MS_MEM06 : 1 : MS_ARTERY12
+NCRParton : MS_ARTERY12 : 1 : MS_MEM06
+NCRParton : MS_CAPI04 : 1 : MS_bitteraccess
+NCRParton : MS_bitteraccess : 1 : MS_CAPI04
+NCRParton : EXCLUSIVEROOM : MS_ARTERY12
+NCRParton : EXCLUSIVEROOM : MS_CAPI04
+
+//No Moon's Heart access
+// NCRParton : MS_ARTERY07 : DISCONNECTED, MS_ARTERY09, MS_ARTERY01, MS_VENT06 - did not work
+
+END CONDITIONAL LINKS
+[ENDMERGE]

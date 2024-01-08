@@ -1,0 +1,16 @@
+DangerType: Blizzard
+RumbleIntensity: 0
+WaveSpeed: 0.4927444
+WaveLength: 0.9522359
+WaveAmplitude: 0.01217976
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 1
+Grime: 0.04347826
+BkgDroneVolume: 0
+Palette: 26
+EffectColorB: 21
+Effects: Coldness-0-20-20, 
+PlacedObjects: DeadSeedCob><239.7815><365.8503><, SnowSource><846.9491><315.7689><Strip~-5~71~50~86.60254~0.4544611~0, VoidSpawnEgg><401.9679><361.0014><0~0~0~3~1, 
+AmbientSounds: OMNI><SO_WAT-LilDrips.ogg><647.6005><638.8672><0.1847826><1, OMNI><AM_SUB-CaveTone.ogg><830.9134><641.8197><0.3152174><1, OMNI><AM_SUB-BlankState.ogg><831.8081><556.9437><0.2065217><1, 
+FadePalette: 1, 0.423913

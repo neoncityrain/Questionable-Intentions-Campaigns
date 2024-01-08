@@ -1,0 +1,12 @@
+Template: OE_SettingsTemplate_Ruins
+RainIntensity: 0.05217378
+WaveSpeed: 0.5003808
+WaveLength: 0.9894489
+WaveAmplitude: 0.002110385
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Palette: 40
+Effects: BorderPushBack-1-269-238, Fog-0-284-70, LightBurn-0-19-131, SkyBloom-1-260-294, DayNight-0.25-271-181, 
+PlacedObjects: Vine><487.0132><257.5505><193~189, Vine><430.8134><336.678><245~95, Vine><667.9052><402.6262><-117~293, Vine><752.8359><223.8856><-304~124, GooieDuck><845.6479><629.1155><0~0~2~3, GooieDuck><871.3069><579.3022><0~0~2~3, DayNightSettings><252.6776><510.5636><5~8.660254~76~10, SnowSource><112.0051><390.0593><Radial~631.0636~31.02222~50~86.60254~1~0, SnowSource><749.4727><93.49663><Radial~-83.95209~492.5334~50~86.60254~1~0, SnowSource><800.7107><547.9769><Radial~-134.4656~-191.5556~50~86.60254~1~0, 
+AmbientSounds: OMNI><AM_ENV-Pasture.ogg><123.1469><530.1714><0.5><1, OMNI><AM_ENV-NatWind.ogg><127.1314><457.339><0.5><1, 
+FadePalette: 41, 0.3563745

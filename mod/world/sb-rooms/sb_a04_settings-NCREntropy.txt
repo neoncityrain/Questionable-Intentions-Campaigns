@@ -1,0 +1,15 @@
+Template: SB_SettingsTemplate_Temple
+DangerType: Blizzard
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 5.605194E-45
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Grime: 0.06521739
+BkgDroneVolume: 0
+Palette: 26
+Effects: Coldness-0-30-30, 
+FadePalette: 10, 0.0326087
+WetTerrain: OFF

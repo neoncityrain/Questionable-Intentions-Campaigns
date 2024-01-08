@@ -1,0 +1,7 @@
+Grime: 0.25
+BkgDroneVolume: 0.2569565
+Palette: 1
+Effects: Coldness-0-20-20, ZeroG-1-30-30, 
+PlacedObjects: Mushroom><491.9127><322.6338><-582~121~2~14, 
+AmbientSounds: OMNI><AM_ENV-LightWind.ogg><824.597><647.3788><0.3152174><0.6673913, SPOT><AM_ENV-Outside.ogg><731.1926><471.9462><0.3152174><0.7847826><844.1927><175.9462><-78.35535><-32.35535><0><0.2847827, 
+FadePalette: 8, 0.3043478

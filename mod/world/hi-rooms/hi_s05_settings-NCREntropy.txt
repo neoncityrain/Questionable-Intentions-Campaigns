@@ -1,0 +1,5 @@
+DangerType: Flood
+RainIntensity: 0.326087
+RumbleIntensity: 0.3152174
+AmbientSounds: OMNI><AM_ENV-Outside.ogg><832.3298><640.8949><0><1, OMNI><AM_ENV-LightWind.ogg><760.3755><521.6558><0><1, OMNI><AM_ENV-NatWind.ogg><780.4401><438.9408><0.2608696><1, 
+FadePalette: 20, 0.1956522

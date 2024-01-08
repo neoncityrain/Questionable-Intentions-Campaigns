@@ -1,0 +1,7 @@
+Template: SU_SettingsTemplate_Inside
+DangerType: FloodAndRain
+EffectColorA: 18
+EffectColorB: 6
+Effects: Darkness-0.2065217-16-74, Desaturation-0.4347826-9-133, Coldness-1-30-30, 
+PlacedObjects: DangleFruit><833.9724><332.3019><0~0~2~3, 
+FadePalette: 8, 0.4565217

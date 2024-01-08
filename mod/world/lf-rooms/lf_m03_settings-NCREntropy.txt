@@ -1,0 +1,8 @@
+Clouds: 0.5869565
+Grime: 0.1847826
+Palette: 1
+EffectColorB: 1
+Effects: Coldness-0-20-20, ZeroG-1-30-30, 
+PlacedObjects: PuffBall><112.1552><214.6262><0~0~2~5, 
+AmbientSounds: OMNI><AM_ENV-Outside.ogg><822.7051><641.1949><0.3152174><1, OMNI><AM_ENV-LightWind.ogg><645.0795><641.3165><0.2826087><1, OMNI><SO_WAT-ProperDrips.ogg><830.4429><565.0529><0.2826087><1, 
+FadePalette: 8, 0.3913043

@@ -1,0 +1,13 @@
+DangerType: Rain
+CeilingDrips: 0
+WaveSpeed: 0.51
+WaveLength: 1
+WaveAmplitude: 0.0001
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+EffectColorB: 13
+Effects: HeatWave-0.6956522-32-129, Coldness-0-30-30, 
+PlacedObjects: SteamPipe><635.6314><387.411><61~-36, SteamPipe><651.5837><326.3611><-25~85, SteamPipe><652.5519><329.2773><28~38, LightSource><524.9493><377.0169><0.07608695~Environment~-404~34~50~86.60254~1~1~None~0~0, LightFixture><290.8367><247.8845><RedLight~17.32051~-10~69, 
+AmbientSounds: OMNI><MSC-Subtundra.ogg><850.0941><642.3235><0.1956522><1, SPOT><SO_IND-HeatDuct.ogg><853.1201><528.098><0.2065217><1><88.12006><572.098><312.6447><-231.3553><0><0.6978262, 
+FadePalette: 0, 0.2608696
+WetTerrain: OFF

@@ -1,0 +1,17 @@
+Template: SI_SettingsTemplate_Inside
+DangerType: Rain
+CeilingDrips: 1
+WaveSpeed: 0.5121954
+WaveLength: 0.9801523
+WaveAmplitude: 0.03532993
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.1956522
+Grime: 0.1521739
+Palette: 3
+EffectColorA: 10
+EffectColorB: 2
+Effects: SkyAndLightBloom-0.1195652-20-20, Hue-0.9347826-291-73, Desaturation-0.2282609-36-70, Contrast-0.05434782-291-132, Darkness-0.2934783-37-130, Coldness-0-30-30, 
+PlacedObjects: Mushroom><505.8296><145.4335><-649~357~2~3, Mushroom><486.8595><133.6674><-619~262~2~3, Mushroom><523.9319><138.8331><-683~161~2~3, BlueToken><727.1782><325.1592><-10~51~5~-185~1~Centiwing~~0~0~0~0, DeadTokenStalk><663.1824><325.3321><9~52, 
+AmbientSounds: OMNI><SO_WAT-LilDrips.ogg><600.2534><433.7><0.5><0.9608696, OMNI><SO_WAT-MoreDrips.ogg><541.6971><548.2163><0.5434783><1.019565, 
+FadePalette: 27, 0.5434783

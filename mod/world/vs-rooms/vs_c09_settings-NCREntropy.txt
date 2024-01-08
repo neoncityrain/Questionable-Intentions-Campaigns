@@ -1,0 +1,9 @@
+DangerType: None
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+Grime: 0.25
+Palette: 30
+Effects: Coldness-0-20-20, DayNight-0-30-30, ElectricDeath-0.5-40-40, 
+PlacedObjects: DayNightSettings><622.0774><1965.399><5~8.660254~16~10, 
+FadePalette: 8, 0.4673913, 0.4782609, 0.5

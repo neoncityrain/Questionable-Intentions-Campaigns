@@ -1,0 +1,5 @@
+Palette: 1
+Effects: Coldness-1-60-60, 
+PlacedObjects: BrokenShelterWaterLevel><614.0516><351.9432><, 
+AmbientSounds: SPOT><AM_IND-Utility03.ogg><775.0753><447.1527><0.3804348><1><356.0753><410.1527><-232.3553><-56.35535><0><0.2630436, 
+FadePalette: 8, 0.1847826

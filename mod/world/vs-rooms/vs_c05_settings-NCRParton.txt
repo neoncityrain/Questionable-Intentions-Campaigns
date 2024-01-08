@@ -1,0 +1,5 @@
+Template: VS_SettingsTemplate_Surface
+Effects: LightRain-0.09782609-20-20, 
+PlacedObjects: DevToken><2245.399><147.6163><5~-68~0~0~0~~~0~0~0~1, FirecrackerPlant><686.0845><284.3623><0~0~2~3, FirecrackerPlant><508.3514><318.0776><0~0~2~3, FirecrackerPlant><457.2878><308.0536><0~0~2~3, FlyLure><1587.399><175.6168><0~0~4~9, FlyLure><2476.909><256.6216><0~0~4~9, FirecrackerPlant><2716.44><146.8118><0~0~2~3, FirecrackerPlant><2879.089><138.8687><0~0~2~3, 
+AmbientSounds: SPOT><AM_ENV-LightWind.ogg><737.9443><522.2026><0.4021739><1><3049.944><696.2026><-522.3553><-540.3553><0><0.6978262, 
+FadePalette: 33, 0.6521739, 0.6630435, 0.6630435

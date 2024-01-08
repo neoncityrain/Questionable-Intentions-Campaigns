@@ -1,0 +1,18 @@
+Template: CL_SettingsTemplate_DarkSun
+DangerType: Flood
+CeilingDrips: 0
+RainIntensity: 1
+RumbleIntensity: 1
+WaveSpeed: 0.51
+WaveLength: 1
+WaveAmplitude: 0.0001
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.4347826
+Grime: 0.2173913
+EffectColorB: 12
+Effects: HeatWave-0.6521739-17-69, Coldness-0-30-30, WaterFluxMinLevel-0.3804348-40-40, WaterFluxMaxLevel-0.6521739-50-50, WaterFluxSpeed-0.1304348-60-60, 
+PlacedObjects: LightSource><560.343><256.1239><0.06521739~White~-645~415~50~86.60254~1~1~None~0~0, LightFixture><842.855><194.8298><RedLight~17.32051~-10~46, LightFixture><34.95><430.0013><RedLight~17.32051~-10~28, LightSource><1206.185><298.9248><0.2173913~White~425~174~50~86.60254~1~0~None~0~0, LightFixture><1942.321><197.1868><RedLight~17.32051~-10~57, 
+AmbientSounds: SPOT><SO_WAT-MoreDrips.ogg><870.1816><608.9163><0.5><1><814.1816><423.9163><-332.3553><-141.3553><0><1, SPOT><SO_WAT-Splashes.ogg><694.6731><606.0654><0.423913><1><409.6731><178.0654><-154.3553><46.64465><0><0.328261, SPOT><SO_WAT-OpenFlow.ogg><875.8368><487.3656><0.3043478><1><404.8368><318.3656><190.6447><-100.3553><0><0.4913045, SPOT><SO_WAT-Splashes.ogg><696.6877><485.069><0.4130435><1><1356.688><192.069><-236.3553><-157.3553><0><0.502174, SPOT><SO_WAT-OpenFlow.ogg><880.6218><374.6535><0.3913041><1><1363.622><411.6535><-200.3553><-146.3553><0><0.3717393, OMNI><MSC-Subtundra.ogg><519.1362><649.6465><0.4130435><1, SPOT><AM_WIN-SubWnd.ogg><697.3625><369.3953><0.5><1><1475.363><361.3953><-337.3553><-184.3553><0><0.8826088, 
+FadePalette: 0, 0.1304348, 0.1413043
+WetTerrain: OFF

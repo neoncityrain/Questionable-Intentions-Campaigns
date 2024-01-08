@@ -1,0 +1,16 @@
+Template: VS_SettingsTemplate_Filter
+DangerType: None
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 0
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Palette: 30
+Effects: WaterDepth-0.1086956-20-20, Coldness-0-30-30, DayNight-0-40-40, ElectricDeath-0.5326087-50-50, 
+PlacedObjects: LillyPuck><1493.448><332.527><0~0~2~3, DayNightSettings><92.97218><386.9157><5~8.660254~16~10, 
+Triggers: Spot<tA>event<tB>StopMusicEvent<eA>songName<eB>RW_93 - Veiled Northstar<eA>prio<eB>1<eA>type<eB>SpecificSong<eA>fadeOut<eB>552.1736<tA>multiUse<tB>1<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>729.9537<tB>467.6946<tA>fireChance<tB>1<tA>entrance<tB>-1<tA>karma<tB>0<tA>slugcats<tB><tA>pos<tB>1453.954<tB>324.6946<tA>handlePos<tB>-226.3553<tB>-238.3553, 
+FadePalette: 20, 0.5434783, 0.5543478, 0.4347826, 0.423913
+WetTerrain: OFF

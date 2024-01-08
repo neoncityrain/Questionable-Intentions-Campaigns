@@ -1,0 +1,30 @@
+OFFSCREEN : 0-Vulture-2, 0-Deer-4
+
+LF_A03 : 3-SmallCentipede, 3-Cent-{0.2}
+LF_A05 : 3-SmallCentipede, 4-Cent-{0.3}
+LF_B03 : 3-Blue
+LF_C01 : 2-Red, 4-Green
+LF_C03 : 3-Yeek-{Winter}-2, 4-Yeek
+LF_D02 : 3-Needle, 3-SmallNeedle-2
+LF_D03 : 6-Caramel, 4-Needle, 5-SmallNeedle-3, 2-Centiwing
+LF_D04 : 3-Cicada-{TentacleImmune}-4
+LF_D07 : 2-Centiwing, 5-Centiwing
+LF_D08 : 9-Blue
+LF_D09 : 2-Caramel
+LF_E01 : 4-Mimic-{8}, 5-Blue, 3-Centiwing
+LF_E02 : 4-SmallCentipede-{TentacleImmune}-2, 5-Mimic-{6}, 3-Red-{TentacleImmune}
+LF_E04 : 4-Caramel, 3-Mimic-{4}, 2-Blue-{Mean:0.9}
+LF_E05 : 3-Eel, 5-Snail-2
+LF_F02 : 3-Needle, 4-SmallNeedle, 5-Centiwing-2
+LF_H01 : 4-SmallNeedle, 5-Needle
+LF_M02 : 4-Mimic-{8}, 2-Blue-{TentacleImmune}
+LF_M05 : 3-RedCentipede
+
+LF_C02 : 7-Caramel, 3-Strawberry, 8-Cicada-2
+LF_D01 : 2-Centiwing, 4-Strawberry
+LF_E03 : 2-Yeek-2
+
+
+
+
+LINEAGE : LF_A13 : 4 : EggBug-0.5, NONE-1, FireBug-0

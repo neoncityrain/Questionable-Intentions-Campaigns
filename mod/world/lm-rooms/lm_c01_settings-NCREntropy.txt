@@ -1,0 +1,15 @@
+DangerType: Blizzard
+RainIntensity: 0.4565217
+RumbleIntensity: 0.3913043
+WaveSpeed: 0.4967619
+WaveLength: 0.998381
+WaveAmplitude: 5.605194E-45
+SecondWaveLength: 0
+SecondWaveAmplitude: 0.3478261
+Clouds: 0.8586956
+Palette: 25
+Effects: Fog-0.4891304-0-0, ElectricDeath-0-5-40, GreenSparks-0.2934783-510-6, ZeroGSpecks-1-252-8, BkgOnlyLightning-0.08695652-10-122, WaterDepth-0-258-183, 
+PlacedObjects: DataPearl><875.166><2026.932><23~157~0~0~Misc~0, VoidSpawnEgg><178.8722><1630.842><-309~-137~1~3~0, InsectGroup><748.3096><2048.691><-99~147~-864~232~Wasp~0.1847826, DeadTokenStalk><97.52063><2074.801><19~-54, NoSpearStickZone><88.80743><1099.554><2~99, VoidSpawnEgg><179.0751><2073.847><0~0~1~3~0, SteamPipe><492.3953><469.6374><0~100, SteamPipe><487.1136><469.3537><0~100, SteamPipe><495.4365><474.5721><0~100, SteamPipe><501.27><472.699><0~100, 
+AmbientSounds: OMNI><AM_ENV-LightWind.ogg><755.9301><522.163><0.3804348><0.8434783, SPOT><AM_ENV-NatWind.ogg><677.8002><33.50815><0.3369565><1><745.8002><2041.509><-166.3553><-23.35535><0><0.3826088, OMNI><AM_WAT-Sea01.ogg><755.5734><444.9061><0.02173913><0.1, OMNI><AM_RAIN-QuietThunder.ogg><749.5503><322.0107><0.3586957><1, SPOT><SO_WAT-OpenFlow.ogg><763.3093><594.9396><0.4021739><1><655.3093><1075.94><-87.35535><121.6447><0><0.6869566, SPOT><SO_WAT-Splashes.ogg><576.057><443.6976><0.2934783><1><658.057><983.6975><-116.3553><83.64465><0><0.4369566, 
+FadePalette: 10, 0.05434782, 0.06521739, 0.08695652, 1, 1
+WetTerrain: OFF

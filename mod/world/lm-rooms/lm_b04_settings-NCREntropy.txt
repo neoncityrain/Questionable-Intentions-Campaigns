@@ -1,0 +1,13 @@
+DangerType: Blizzard
+RainIntensity: 0.3478261
+RumbleIntensity: 0.25
+WaveSpeed: 0.4982863
+WaveLength: 0.9991431
+WaveAmplitude: 5.605194E-45
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Palette: 25
+Effects: Fog-0.3152174-10-19, ElectricDeath-0.01086957-262-246, GreenSparks-0.2717391-20-132, BkgOnlyLightning-0.2717391-262-84, Coldness-0.1521739-20-20, 
+PlacedObjects: WhiteToken><392.9553><2267.555><0~-57~132~-72~0~Chatlog_LM0~~0~1~0~0, UniqueDataPearl><601.4471><2011.193><0~0~0~0~SL_chimney~0, 
+AmbientSounds: OMNI><AM_ENV-LightWind.ogg><852.3806><631.4104><0.3586957><0.6869565, OMNI><AM_WIN-MedWind.ogg><776.9497><248.4891><0.3913043><1, OMNI><AM_RAIN-RollingThunder.ogg><781.0909><319.1781><0.3804348><1, OMNI><AM_WAT-Sea01.ogg><804.1245><557.5935><0.01086957><0.1, OMNI><AM_RAIN-Rumbles.ogg><784.4658><383.0529><0.326087><1, OMNI><MSC-StructureStrain.ogg><625.3441><563.3235><0.2282609><0.1, 
+FadePalette: 10, 0.0326087, 0.05434782, 0.06521739, 0.07608695

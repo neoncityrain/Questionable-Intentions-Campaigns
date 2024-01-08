@@ -1,0 +1,2 @@
+Template: VS_SettingsTemplate_Filter
+FadePalette: 33, 0.5217391, 0.5217391, 0.5326087, 0.4673913, 0.4565217, 0.4456522

@@ -1,0 +1,18 @@
+Template: NONE
+DangerType: None
+CeilingDrips: 0.5760869
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5481076
+WaveLength: 0.7259462
+WaveAmplitude: 0.04999999
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Grime: 0
+BkgDroneVolume: 0
+Palette: 17
+EffectColorA: 19
+PlacedObjects: LightSource><4443.142><240.1169><0.3478261~White~0~100~50~86.60254~0~0~None~0~0, LightSource><59.44836><356.7756><0.2391304~Environment~616~-156~50~86.60254~1~0~None~0~0, 
+AmbientSounds: OMNI><AM_WIN-StrongWnd2.ogg><751.8123><507.319><0.6847826><1, OMNI><SO_SFX-Drowning.ogg><751.6582><580.1277><0.2173913><1, OMNI><Weird Deep Hole.wav><751.0591><431.3089><0.5543478><1, 
+FadePalette: 18, 0, 0, 0.2065217, 0.2282609, 0.2282609
+RoomSpecificScriptActive: ON

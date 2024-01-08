@@ -1,0 +1,19 @@
+DangerType: Blizzard
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 5.605194E-45
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.8308988
+RandomItemDensity: 0
+RandomItemSpearChance: 0
+Palette: 26
+EffectColorA: 0
+EffectColorB: 0
+Effects: WaterDepth-0.06521739-25-63, HeatWave-0.2282609-20-20, SilenceWater-0.6847826-30-30, 
+PlacedObjects: Vine><127.8><327.4977><-74~2, Vine><326.9747><265.6984><-262~7, Vine><67.8313><271.6075><113~46, Vine><19.09375><219.3234><260~92, LanternOnStick><520.6714><345.6031><19~-92, LanternOnStick><736.4163><321.6816><19~-70, LanternOnStick><770.6982><336.4734><3~-91, DeadTokenStalk><512.8003><595.2393><22~20, DeadTokenStalk><492.7221><626.4481><-22~-33, Vine><707.3147><429.1747><227~-75, Vine><414.2208><395.8022><146~28, Vine><28.974><563.9483><73~36, Vine><218.1353><315.8528><-187~-148, ShelterBhvrSpawnPosition><599.3629><274.0947><, ShelterBhvrManager><-126.0343><290.7798><804~65~False~False~4~False~3~6~20~40~60~120~120~120~True, BrokenShelterWaterLevel><618.358><269.5442><, SteamPipe><57.5802><99.14421><-1~56, SteamPipe><142.4624><93.6964><2~30, SteamPipe><349.0963><102.1221><0~56, SteamPipe><415.0548><95.04332><1~32, SteamPipe><675.45><96.25523><-2~21, Vine><340.4372><467.3206><24~49, Vine><557.9262><469.0947><-68~48, SteamPipe><96.65125><268.3261><0~35, SteamPipe><278.326><269.315><-13~10, RedToken><415.4442><581.2976><-28~11~0~0~0~SB~White|Yellow|Red|Rivulet|Artificer|Saint|Spear|Gourmand~0~0~1~0~0~0~1~0, SteamPipe><213.3137><269.4396><0~17, 
+AmbientSounds: SPOT><so_wat-runningwater.ogg><730.4122><358.1169><0.4456522><1.273913><86.41223><89.11694><32.64465><84.64465><0><0.1434784, SPOT><weird deep hole.wav><736.5843><554.3621><0.2608696><0.9413043><796.5843><522.3621><-3.355347><-45.35535><0><0.05652187, SPOT><watergurgleloop2.wav><672.5982><276.0758><0.2934783><1><110.5982><100.0758><-102.3553><-9.355347><0><0.1, SPOT><msc-subtundra.ogg><716.0001><564.05><0.5><1><793.0001><552.05><-16.35535><-27.35535><0><0.1, OMNI><AM_SUB-MysticCave1.ogg><791.8276><232.9343><0.1413043><1, 
+FadePalette: 1, 0.2968296

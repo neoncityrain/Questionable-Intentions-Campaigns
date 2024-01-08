@@ -1,0 +1,7 @@
+Template: MS_SettingsTemplate_Artery
+RumbleIntensity: 0.8369565
+Clouds: 0.7826087
+Palette: 50
+Effects: WaterDepth-0.0326087-277-20, ElectricDeath-0.1413043-268-71, 
+PlacedObjects: LightFixture><638.7415><911.3><RedSubmersible~17.32051~-10~0, LightFixture><192.9465><765.501><RedSubmersible~17.32051~-10~0, LightFixture><477.9567><1265.479><RedSubmersible~17.32051~-10~40, LightFixture><587.8744><232.8443><RedSubmersible~17.32051~-10~0, LightFixture><899.8391><517.1188><RedSubmersible~17.32051~-10~0, ExitSymbolHidden><88.69257><831.304><, Filter><94.62805><845.022><-1~45~0~0~Rivulet, 
+FadePalette: 27, 0.1413043, 0.1413043

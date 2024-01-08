@@ -1,0 +1,16 @@
+DangerType: Blizzard
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 5.605194E-45
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 1
+Grime: 0.2391304
+Palette: 10
+EffectColorB: 9
+Effects: Darkness-0.25-25-95, Coldness-0-20-20, Desaturation-0.3015964-30-30, Dustpuffs-0-40-40, 
+PlacedObjects: BrokenShelterWaterLevel><501.2264><347.5237><, SnowSource><452.0762><327.6452><Strip~57.62811~-34.39999~50~86.60254~1~0, SnowSource><411.9986><325.9694><UnSnow~24.18964~6.133331~50~86.60254~1~0, 
+AmbientSounds: OMNI><AM_ENV-SubTerr.ogg><843.3016><639.9432><0.1521739><1, OMNI><AM_ENV-NatWind.ogg><729.5192><490.5509><0.25><1, 
+FadePalette: 26, 0.3576654

@@ -1,0 +1,13 @@
+{
+	"id": "Sleep_NCREntropy",
+	"scene_folder": "scenes/entropysleep",
+	"images": [
+		{"name": "coolsymbolthing", "pos": [672, 236], "depth": 5.5, "shader": "Basic"},
+		{"name": "backgrass2", "pos": [685, 138], "depth": 4.8, "shader": "Basic"},
+		{"name": "backgrass1", "pos": [740, 138], "depth": 4, "shader": "Basic"},
+		{"name": "entropy", "pos": [0, 0], "depth": 3, "shader": "Basic"},
+		{"name": "frontgrass", "pos": [498, -38], "depth": 1.8, "shader": "Basic"}
+	],
+	"idle_depths": [2.9],
+	"sleep scene_depth": 3.0
+}

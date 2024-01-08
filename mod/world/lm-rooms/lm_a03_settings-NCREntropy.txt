@@ -1,0 +1,19 @@
+Template: LM_SettingsTemplate_Sewer
+DangerType: Blizzard
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0.08695652
+WaveSpeed: 0.4999605
+WaveLength: 0.9999802
+WaveAmplitude: 1.989979E-06
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 1
+Grime: 0.3043478
+Palette: 25
+Effects: Coldness-1-30-30, WaterLights-0.1082654-20-20, WaterFluxMinDelay-0.1778647-40-40, WaterFluxMaxDelay-0.02319983-50-50, WaterFluxSpeed-0.4871944-60-60, WaterFluxMinLevel-0.3015966-70-70, WaterFluxMaxLevel-0.8506569-80-80, Darkness-0.3325295-144.0708-129.8222, ElectricDeath-0-90-90, ZeroGSpecks-0.02173913-100-100, GreenSparks-0.07608695-284-292, 
+PlacedObjects: CustomDecal><496.5865><22.38478><35.08408~795.2388~-578.8871~654.9025~-397.6194~-35.08408~280~-237~0.05434782~1~0~Rust3~1~1~1~1~0.01086957~1~0.1847826~1, GlowWeed><512.0846><128.2554><0~0~2~3, 
+AmbientSounds: SPOT><SO_WAT-OpenFlow.ogg><870.0305><462.8023><0.4891304><0.9804348><649.0305><358.8023><-118.3553><-28.35535><0><0.5565219, SPOT><SO_WAT-OpenFlow.ogg><865.5902><340.3215><0.5><1><308.5902><361.3215><-68.35535><-56.35535><0><0.502174, SPOT><SO_WAT-RunningWater.ogg><850.1359><213.3967><0.5><1><505.1359><326.3967><-56.35535><-48.35535><0><0.4804349, 
+Triggers: Spot<tA>event<tB>ShowProjectedImageEvent<eA>afterEncounter<eB>0<eA>fromCycle<eB>0<eA>onlyWhenShowingDirection<eB>0<tA>multiUse<tB>1<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>50.14563<tB>277.8629<tA>fireChance<tB>1<tA>entrance<tB>-1<tA>karma<tB>0<tA>slugcats<tB><tA>pos<tB>426.1456<tB>424.8629<tA>handlePos<tB>-104.3553<tB>-411.3553, 
+FadePalette: 10, 0.4782609
+WetTerrain: OFF

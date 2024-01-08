@@ -1,0 +1,18 @@
+Template: NONE
+DangerType: Blizzard
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 0
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.2173913
+Grime: 0.2391304
+Palette: 0
+EffectColorA: 1
+EffectColorB: 1
+Effects: Darkness-0.5652174-20-20, Coldness-0-30-30, 
+PlacedObjects: ExitSymbolShelter><911.8006><226.0081><, CustomDecal><412.5989><19.86902><0~570~671~288~518~-142~-452~99~0.326087~0.4347826~0~zGWMarks - B07~0.8043478~0~0.9021739~0~0.7717391~0.173913~0.7282609~0.2391304, NoSpearStickZone><475.7291><262.4489><-251~104, LightSource><874.9358><434.0741><0.5~EffectColor1~-38~-277~-396~32.60254~0~0~None~0~0, 
+AmbientSounds: OMNI><AM_ENV-Outside.ogg><832.3298><640.8949><0><1, OMNI><AM_ENV-LightWind.ogg><834.3755><562.6558><0><1, OMNI><AM_ENV-NatWind.ogg><832.9948><489.8001><0.2717391><1, 
+FadePalette: 33, 0.5652174

@@ -1,0 +1,13 @@
+DangerType: Blizzard
+RainIntensity: 0.3695652
+RumbleIntensity: 0.07608695
+WaveSpeed: 0.4980344
+WaveLength: 0.9990172
+WaveAmplitude: 5.97644E-26
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Palette: 25
+Effects: GreenSparks-0.2282609-4-37, ElectricDeath-0.01086957-265-88, BkgOnlyLightning-0.25-264-0, Fog-0.5543478-10-134, Coldness-0.326087-20-20, 
+PlacedObjects: DangleFruit><115.6923><480.555><0~0~2~3, DangleFruit><186.445><1233.791><0~0~2~3, DangleFruit><235.1732><1183.934><0~0~2~3, CustomDecal><197.0571><1730.053><-70~499~476~520~591~-264~-137~-488~0.326087~0.6413044~1~PJs~0.1521739~0.9565217~0.7826087~0.9565217~0~0.9565217~0~0.9565217, CustomDecal><68.84406><1754.626><-144~716~844~727~918~26~5~-404~0.0326087~1~1~Rust3~0.326087~1~0.326087~1~0.326087~1~0.326087~1, 
+AmbientSounds: OMNI><AM_RAIN-Rumbles.ogg><821.1138><467.8965><0.326087><1, OMNI><AM_RAIN-RollingThunder.ogg><814.6445><392.1699><0.3804348><1, OMNI><AM_WIN-MedWind.ogg><815.0605><317.314><0.3913043><1, OMNI><AM_WAT-Sea01.ogg><830.1245><551.5935><0.01086957><0.1, 
+FadePalette: 10, 0.04347826, 0.04347826, 0.05434782

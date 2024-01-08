@@ -1,0 +1,11 @@
+Template: SU_SettingsTemplate_Inside
+DangerType: Flood
+Clouds: 1
+Grime: 0.3804348
+BkgDroneVolume: 0.006521806
+RandomItemDensity: 0
+EffectColorA: 5
+EffectColorB: 5
+Effects: Desaturation-0.3043478-30-30, Coldness-0-40-40, 
+AmbientSounds: OMNI><AM_ENV-LightWind.ogg><665.2393><652.6997><0.2826087><0.7065217, OMNI><SO_WAT-DripTap.ogg><662.3217><572.5906><0.3043478><1, 
+FadePalette: 4, 0.6086956

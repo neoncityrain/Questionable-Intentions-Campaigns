@@ -1,0 +1,15 @@
+Template: NONE
+DangerType: Flood
+CeilingDrips: 0.9021739
+Clouds: 0.3043478
+Grime: 0.3586957
+BkgDroneVolume: 0.2769565
+WaterReflectionAlpha: 0.2717391
+Palette: 23
+EffectColorA: 13
+EffectColorB: 1
+Effects: RockFlea-0.09782609-20-20, Desaturation-0.3043478-30-30, Coldness-0-40-40, Darkness-0.6630435-50-50, LavaSurface-1-129-91, WaterDepth-0.1546649-110-124, LethalWater-0-188-188, WaterFluxFrequency-0.9021739-153-215, WaterFluxMinLevel-0.04347826-159-230, WaterFluxMaxLevel-0.2826087-99-144, WaterFluxSpeed-0.423913-5-220, HeatWave-0.1847826-72-50, MossWater-0-60-60, MossWaterRGB-0-564-502-Red:255-Blue:255-Green:0, 
+PlacedObjects: WaterNut><2829.829><308.353><0~0~18~31, WaterNut><2798.431><316.6874><0~0~16~37, CustomDecal><2885.945><170.4534><-25~388~906~417~822~0~460~-219~0.6195652~1~0~zGWMarks - A12~0.8804348~0~1~0~0.8478261~0.0326087~0.9456522~0, DeadTokenStalk><3272.127><375.6581><-6~80, LightSource><2151.632><51.19212><0.3043478~EffectColor2~-796~318~50~86.60254~0~0~None~0~0, LightSource><1271.619><79.56059><0.3043478~EffectColor2~834~445~50~86.60254~0~0~None~0~0, SteamPipe><1260.822><55.23057><-1~46, SteamPipe><2090.547><42.76087><1~43, SteamPipe><2200.316><63.98682><2~43, SteamPipe><1206.605><211.4775><-1~51, SteamPipe><1411.511><117.9895><0~55, SteamPipe><1996.554><79.57088><2~55, SteamPipe><2412.436><121.2125><1~40, SteamPipe><2177.794><154.1369><3~42, SteamPipe><1101.825><146.9108><0~38, Corruption><3902.089><437.1537><-83~24, CorruptionDarkness><3939.303><350.7157><-96~-5, CorruptionDarkness><3264.2><319.7453><-61~26, 
+AmbientSounds: SPOT><SO_NAT-LilDrips.ogg><42.3197><492.8365><0.3152174><1><1395.32><330.8365><-140.3553><-89.35535><0><0.4152175, SPOT><SO_WAT-LilDrips.ogg><229.8019><490.5276><0.2608696><1><2058.802><360.5276><-115.3553><-42.35535><0><0.2739132, SPOT><waterGurgleLOOP3.wav><46.80493><372.7059><0.2173913><0.823913><1468.805><220.7059><-159.3553><-71.35535><0><0.3717393, SPOT><SO_NAT-LilDrips.ogg><228.8><365.9989><0.3478261><1><459.8><226.9989><-219.3553><-39.35535><0><0.3608697, SPOT><waterGurgleLOOP3.wav><52.81641><237.9387><0.2065217><1><647.8164><185.9387><-109.3553><-39.35535><0><0.2956523, SPOT><SO_WAT-OpenFlow.ogg><228.5527><242.9676><0.2282609><1><70.55267><338.9676><-74.35535><-149.3553><0><0.6000001, OMNI><waterGurgleLOOP2.wav><830.8516><642.134><0.326087><1, SPOT><SO_WAT-DripTap.ogg><57.59192><119.0724><0.5><1><2855.592><239.0724><-199.3553><-47.35535><0><0.3717393, SPOT><SO_WAT-ProperDrips.ogg><230.2578><117.0501><0.423913><1><3476.258><211.0501><-214.3553><-54.35535><0><0.328261, 
+Triggers: Spot<tA>event<tB>MusicEvent<eA>songName<eB>RW_39 - Lack of Comfort<eA>vol<eB>0.1913047<eA>prio<eB>0.5<eA>mxThrt<eB>1<eA>loop<eB>0<eA>droneTol<eB>0<eA>rooms<eB>7<eA>rest<eB>5<eA>fadeIn<eB>104.3478<eA>oneSongPerCycle<eB>0<eA>stopAtDeath<eB>0<eA>stopAtGate<eB>0<tA>multiUse<tB>0<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>660.4412<tB>473.1912<tA>fireChance<tB>1<tA>entrance<tB>-1<tA>karma<tB>0<tA>slugcats<tB><tA>pos<tB>1374.438<tB>288.1939<tA>handlePos<tB>-212.3553<tB>-180.3553, 
+FadePalette: 33, 0.5108696, 0.5108696, 0.5, 0.4673913

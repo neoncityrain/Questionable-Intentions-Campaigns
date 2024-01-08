@@ -1,0 +1,17 @@
+Template: NONE
+CeilingDrips: 0.9021739
+WaveSpeed: 0.5033627
+WaveLength: 0.8133647
+WaveAmplitude: 0.04494349
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 1
+Grime: 0.2934783
+Palette: 23
+EffectColorA: 4
+EffectColorB: 1
+Effects: Desaturation-0.3043478-20-20, FastFloodDrain-0.4347826-27-83, Coldness-0-30-30, SkyAndLightBloom-0.1304348-40-40, Bloom-0.06521739-50-50, LethalWater-0-60-60, LavaSurface-1-70-70, Darkness-0.3152174-80-80, MossWater-0-90-90, MossWaterRGB-0-461-553, 
+PlacedObjects: ScavengerOutpost><1481.135><152.5862><-55~187~-360~365~0.1955838~81~24, CustomDecal><986.9249><-34.42353><-6~97~662~89~668~0~840~-248~0~0.1630435~0~Scav Wedges2~1~0~1~0~0~1~0~1, CustomDecal><978.2142><140.4468><-47.82605~-188.1556~1015~-86~935~169~-858~-8~0.3043478~0.3478261~0~zGWMarks - A01~1~0.07608695~1~0.2065217~0.6630435~0~0.6956522~0, CustomDecal><2419.833><321.5681><0~205~663~364~768~212~-301~2~0.3043478~0.3586957~0~zGWMarks - C06~1~0~1~0~0.5217391~0.1847826~0.5~0.3152174, LanternOnStick><1400.522><103.3613><18~-65, LanternOnStick><1435.557><143.2568><1~-107, ScavengerTreasury><1791.42><195.3413><-116.0906~-42.04445, LightBeam><1410.282><32.98093><-340~682~-427~681~-238~-12~0~0~0.389131~0.09782609~1~1~Fade~0.2173913~0, LightSource><1037.879><714.375><0.2065217~EffectColor2~120~-295~50~86.60254~1~0~Fade~0.1521739~0, 
+AmbientSounds: OMNI><AM_ENV-LightWind.ogg><836.3834><647.1625><0.3043478><0.9217392, OMNI><SO_WAT-LilDrips.ogg><663.4489><647.729><0.1847826><1, 
+FadePalette: 33, 0.6739131, 0.6739131, 0.6739131
+WetTerrain: OFF

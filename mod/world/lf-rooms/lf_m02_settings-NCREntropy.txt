@@ -1,0 +1,14 @@
+Template: LF_SettingsTemplate_Farms
+DangerType: Flood
+WaveSpeed: 0.5002567
+WaveLength: 0.9998717
+WaveAmplitude: 0.04829921
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.4456522
+Grime: 0.326087
+Palette: 1
+Effects: Fog-1-2-59, SilenceWater-1-0-0, LightRain-0.3369565-20-20, Hue-0.04347826-16-134, Desaturation-0.1521739-34-154, Coldness-1-0-0, ZeroG-1-30-30, BorderPushBack-0-40-40, BulletRain-0.08695652-50-50, BulletRainFlux-0.1956522-60-60, 
+PlacedObjects: DeadSeedCob><316.067><1331.669><, DeadSeedCob><341.1917><1266.941><, DeadSeedCob><1444.898><1303.384><, DeadSeedCob><1504.879><1322.097><, DeadSeedCob><1529.891><1278.392><, DeadSeedCob><2099.113><1310.605><, DeadSeedCob><2184.163><1350.57><, DeadSeedCob><2633.266><1282.949><, DeadSeedCob><2688.121><1385.597><, DeadSeedCob><2733.259><1306.95><, SporePlant><1882.923><1250.6><0~0~7~10, SporePlant><1981.597><1351.371><0~0~7~10, WallMycelia><267.2374><1138.927><-6~113, WallMycelia><386.4487><1090.604><13~62, WallMycelia><513.8546><1038.797><0~100, WallMycelia><686.8658><1129.539><-64~75, ScavengerOutpost><1026.973><1149.753><4~330~0~0~0.3279286~10~46, ScavengerTreasury><1034.689><1476.695><8~66, PlayerPushback><260.5815><1662.323><-7~-183, PlayerPushback><679.5677><1655.348><-1~-100, PlayerPushback><831.7074><1655.626><0~-85, PlayerPushback><974.8209><1656.117><4~-74, PlayerPushback><1113.544><1657.188><-3~-75, PlayerPushback><1248.702><1656.742><-2~-70, PlayerPushback><1374.365><1655.774><3~-73, PlayerPushback><1494.586><1655.013><1~-70, PlayerPushback><1616.104><1657.878><1~-70, PlayerPushback><1760.338><1664.012><-1~-81, PlayerPushback><1907.884><1654.61><1~-85, PlayerPushback><2059.292><1655.16><-1~-81, PlayerPushback><2221.518><1659.303><-4~-100, PlayerPushback><2692.027><1653.612><9~-199, PlayerPushback><3221.299><1659.785><2~-130, PlayerPushback><3662.047><1646.641><1~-144, PlayerPushback><-210.2972><1649.491><62~-160, 
+AmbientSounds: OMNI><AM_ENV-Outside.ogg><795.2116><650.8037><0.4456522><1, OMNI><AM_ENV-Pasture.ogg><620.1922><647.4447><0.173913><1, OMNI><AM_ENV-LightWind.ogg><793.9233><575.1847><0.1630435><1, SPOT><AM_ENV-WindGrass.ogg><785.0834><461.1107><0.2826087><1><503.0834><1136.111><-188.3553><151.6447><0><1, SPOT><waterGurgleLOOP1.wav><782.3387><353.0707><0.5><1><4181.339><284.0707><-605.3553><82.64465><0><0.01086957, 
+FadePalette: 11, 0.07608695, 0.08695652, 0.06521739, 0.07608695, 1

@@ -1,0 +1,9 @@
+Template: NONE
+Clouds: 0.06521739
+Grime: 0.02173913
+Palette: 37
+EffectColorA: 11
+EffectColorB: 8
+Effects: LightRain-0.2065217-64-159, 
+AmbientSounds: OMNI><AM_WIN-MedWind.ogg><745.869><537.4011><0.6521739><1, OMNI><AM_WIN-HowlingWnd.ogg><741.3217><463.5906><0.5652174><0.7847826, OMNI><MSC-MetalVariety.ogg><744.6196><382.6603><0.2173913><0.6869565, 
+FadePalette: 40, 0.2826087, 0.2173913, 0.1304348

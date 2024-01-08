@@ -1,0 +1,10 @@
+Template: NONE
+DangerType: Flood
+Clouds: 1
+Grime: 0.326087
+BkgDroneVolume: 0
+Palette: 14
+EffectColorB: 18
+PlacedObjects: LightSource><1376.162><736.383><0.2717391~White~-807~-522~204~-138.3975~0~0~Fade~0.5108696~0, LightSource><1151.18><460.5571><0.5760869~White~-2~144~50~86.60254~0~0~None~0~0, LightSource><1838.836><621.8011><1~White~0~100~50~86.60254~0~0~None~0.05434782~1, LightSource><1954.328><203.1705><1~White~-118~65~50~86.60254~0~0~None~0~0, LightSource><1459.584><185.3077><1~White~-12~157~50~86.60254~0~0~None~0~0, Corruption><1910.779><68.89455><0~100, Corruption><1237.936><685.256><135~68, Corruption><1658.567><470.1555><148~242, CorruptionTube><1240.248><678.5201><137~-401, Corruption><1415.271><188.8605><0~100, 
+AmbientSounds: OMNI><Mech Basic.wav><674.355><641.6378><0.25><1, OMNI><Deep Weird Wind.wav><849.8116><645.3173><0.1413043><1, SPOT><SO_WAT-OpenFlow.ogg><852.3345><415.3876><0.5><1><1794.334><248.3876><-159.3553><27.64465><0><1, SPOT><SO_IND-HeatDuct.ogg><850.2924><527.9454><0.4347826><1><1383.292><784.9454><61.64465><-265.3553><0><0.5347828, 
+FadePalette: 8, 0.9130435, 0.9130435

@@ -1,0 +1,18 @@
+Template: NONE
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 2.515779E-40
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 1
+BkgDroneVolume: 0
+Palette: 45
+EffectColorA: 12
+Effects: Darkness-0.06521739-20-20, HeatWave-0.3695652-14-74, 
+PlacedObjects: ExitSymbolShelter><228.8396><111.9288><, LightFixture><829.2729><262.3013><RedLight~17.32051~-10~46, LightFixture><-6.598389><428.6304><RedLight~17.32051~-10~38, NoSpearStickZone><471.5625><250.3196><87~267, 
+AmbientSounds: OMNI><MSC-WetConduits.ogg><828.0715><618.3132><0.2826087><1, 
+FadePalette: 35, 0.2717391
+WetTerrain: OFF

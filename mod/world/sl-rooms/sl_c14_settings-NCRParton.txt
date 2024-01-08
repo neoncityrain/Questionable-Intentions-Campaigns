@@ -1,0 +1,5 @@
+Template: SL_SettingsTemplate_Sewer
+Clouds: 1
+Palette: 35
+PlacedObjects: GlowWeed><-245.1237><314.0537><0~0~2~3, GlowWeed><489.271><476.2307><0~0~2~3, LightSource><103.6668><573.2687><1~White~383~-281~50~86.60254~0~0~None~0~0, LightSource><859.8818><390.1256><1~White~-297~-337~50~86.60254~1~0~None~0~0, 
+FadePalette: 10, 0.6304348, 0.7065217, 0.8369565

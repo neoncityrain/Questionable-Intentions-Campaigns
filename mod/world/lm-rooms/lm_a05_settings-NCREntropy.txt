@@ -1,0 +1,15 @@
+Template: LM_SettingsTemplate_Sewer
+DangerType: Blizzard
+RainIntensity: 0.04347826
+RumbleIntensity: 0
+WaveSpeed: 0.4999761
+WaveLength: 0.999988
+WaveAmplitude: 1.362777E-40
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Palette: 10
+Effects: Contrast-0.01086957-466-329, Darkness-0.4525253-462-285, Coldness-0-20-20, Fog-0-30-30, WaterFluxMinDelay-1-40-40, WaterFluxMaxDelay-0.1521739-50-50, WaterFluxMinLevel-0.1956522-60-60, WaterFluxMaxLevel-0.5217391-70-70, ElectricDeath-0-54-148, 
+PlacedObjects: DataPearl><147.911><565.3813><-253~-98~0~0~Misc~0, DangleFruit><723.5715><593.1868><-253~-178~2~3, 
+AmbientSounds: SPOT><AM_IND-Utility02.ogg><845.1892><403.5649><0.4891304><0.7847826><272.1892><444.5649><-131.3553><-19.35535><0><0.3826088, SPOT><Basic Mech.ogg><838.0535><260.2125><0><0.9021739><352.0535><384.2125><-80.35535><-33.35535><0><0.3173914, 
+Triggers: Spot<tA>event<tB>MusicEvent<eA>songName<eB>RW_18 - The Captain<eA>vol<eB>0.3<eA>prio<eB>0.5<eA>mxThrt<eB>1<eA>loop<eB>0<eA>droneTol<eB>0<eA>rooms<eB>7<eA>rest<eB>5<eA>fadeIn<eB>0<eA>oneSongPerCycle<eB>0<eA>stopAtDeath<eB>0<eA>stopAtGate<eB>0<tA>multiUse<tB>0<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>789.6877<tB>430.81<tA>fireChance<tB>1<tA>entrance<tB>-1<tA>karma<tB>0<tA>slugcats<tB>Gourmand<tA>pos<tB>381.6877<tB>297.8099<tA>handlePos<tB>-173.3553<tB>-105.3553, 
+FadePalette: 25, 0.6304348

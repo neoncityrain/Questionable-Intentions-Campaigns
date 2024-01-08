@@ -1,0 +1,16 @@
+Template: NONE
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 0
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.4130435
+Grime: 0.2282609
+Palette: 1
+EffectColorA: 2
+EffectColorB: 1
+Effects: Flies-0-20-20, Coldness-1-25-83, ZeroG-0.1413043-30-30, 
+PlacedObjects: CustomDecal><115.6615><186.618><-31~94~55~126~74~14~610~-472~0.2826087~1~0~ScavMark Deer~0~0~0~0~0~0~0~0.8913044, CustomDecal><115.177><186.5638><-31~94~55~126~74~14~-104~-460~0.3152174~1~0~ScavMark Deer~0.3586957~0~1~0~0~0~1~0.5978261, NoSpearStickZone><464.6483><241.8658><-244~118, 
+FadePalette: 10, 0.4021739

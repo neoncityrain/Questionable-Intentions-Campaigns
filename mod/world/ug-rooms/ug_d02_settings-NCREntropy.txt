@@ -1,0 +1,15 @@
+Template: NONE
+DangerType: Flood
+WaveSpeed: 0.5112712
+WaveLength: 0.9943644
+WaveAmplitude: 0.04250573
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+WaterReflectionAlpha: 0
+Palette: 39
+EffectColorB: 19
+Effects: HeatWave-0.173913-20-20, WaterDepth-0.08695652-21-94, SilenceWater-0.4673913-277-19, FireFlies-0.1521739-30-30, 
+PlacedObjects: LightSource><744.0528><394.7832><0.2934783~EffectColor2~-598~-252~-151~151.6025~0~0~None~0~0, LightSource><755.5953><405.1268><0.1304348~EffectColor2~-353~-66~-425~150.6026~0~1~None~0~0, WaterNut><606.5524><305.7194><0~0~2~3, WaterNut><656.5547><321.7069><0~0~2~3, 
+AmbientSounds: SPOT><AM_IND-Utility02.ogg><637.8159><519.9388><0.4565217><0.9608696><444.8159><1422.939><-122.3553><-164.3553><0><1, OMNI><SO_WAT-LilDrips.ogg><824.8148><643.9392><0.2391304><1, OMNI><SO_WAT-MoreDrips.ogg><621.5636><645.9275><0.2282609><1, OMNI><AM_SUB-BlankState.ogg><823.1013><565.3837><0.2608696><1, 
+FadePalette: 10, 0.4782609, 0.8478261, 0.9021739, 0.9782609
+WetTerrain: OFF

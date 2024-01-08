@@ -1,0 +1,10 @@
+Template: VS_SettingsTemplate_Filter
+DangerType: None
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+Clouds: 0.6210712
+Palette: 30
+Effects: WaterDepth-0.1304348-20-20, ElectricDeath-0.06959915-30-30, DayNight-0-40-40, Coldness-0-50-50, 
+PlacedObjects: Stowaway><1312.699><504.3066><-6~-76, Filter><1326.433><527.4197><7~64~0~0~Yellow|Rivulet|Saint|NCREntropy, DayNightSettings><166.4058><408.2253><5~8.660254~16~10, 
+FadePalette: 10, 0.5543478, 0.5652174

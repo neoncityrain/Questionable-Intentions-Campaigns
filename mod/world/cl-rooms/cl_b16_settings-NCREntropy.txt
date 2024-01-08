@@ -1,0 +1,14 @@
+DangerType: Flood
+CeilingDrips: 0.5954596
+RainIntensity: 1
+RumbleIntensity: 1
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 4.148792E-28
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Effects: Coldness-1-20-20, 
+PlacedObjects: KarmaFlower><530.4185><169.6422><-424.1396~286.3111~11~31, VoidSpawnEgg><627.1208><295.1722><-700~292~2~3~0, VoidSpawnEgg><398.3546><267.0796><-674~131~12~25~0, 
+AmbientSounds: OMNI><AM_ENV-CityTone.ogg><835.9832><639.3007><0.2173913><0.823913, OMNI><SO_WAT-DripTap.ogg><652.1797><640.1873><0.3043478><1, SPOT><AM_WIN-SubWnd.ogg><837.8732><512.1575><0.2717391><1><1923.873><172.1575><-313.3553><44.64465><0><1, 
+FadePalette: 0, 0.1847826, 0.1521739
+WetTerrain: OFF

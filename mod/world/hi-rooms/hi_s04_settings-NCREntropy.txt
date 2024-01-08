@@ -1,0 +1,13 @@
+DangerType: Blizzard
+RainIntensity: 0.2717391
+RumbleIntensity: 0.2391304
+WaveSpeed: 0.497795
+WaveLength: 0.9988975
+WaveAmplitude: 0.0008516662
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Palette: 0
+Effects: Coldness-0-30-30, 
+PlacedObjects: BrokenShelterWaterLevel><288.4385><328.5668><, 
+AmbientSounds: OMNI><AM_ENV-Outside.ogg><832.3298><640.8949><0><1, OMNI><AM_ENV-LightWind.ogg><834.3755><566.6558><0><1, OMNI><AM_ENV-WinterTrees.ogg><833.838><492.5704><0.3478261><1, 
+FadePalette: 20, 0.06521739

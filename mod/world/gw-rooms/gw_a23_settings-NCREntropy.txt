@@ -1,0 +1,17 @@
+Template: NONE
+DangerType: Flood
+CeilingDrips: 0.9021739
+WaveSpeed: 0.5047048
+WaveLength: 0.8973229
+WaveAmplitude: 0.04705624
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.75
+Grime: 0.25
+Palette: 33
+EffectColorA: 4
+EffectColorB: 1
+Effects: Darkness-0.4891304-63-125, Coldness-0-35-73, MossWater-0-20-20, MossWaterRGB-0-444-489-Red:255-Green:0-Blue:255, LethalWater-0.01086957-40-40, LavaSurface-0-50-50, 
+PlacedObjects: InsectGroup><749.6346><214.3521><-105~122~-249~-231~RockFlea~0.5, 
+AmbientSounds: OMNI><AM_ENV-LightWind.ogg><832.1823><651.6882><0.3695652><0.9217392, OMNI><SO_WAT-LilDrips.ogg><653.2384><650.3004><0.1847826><1, 
+FadePalette: 23, 0.3043478

@@ -1,0 +1,18 @@
+Template: SU_SettingsTemplate_Inside
+DangerType: Rain
+CeilingDrips: 0.9021739
+WaveSpeed: 0.5336002
+WaveLength: 0.7332
+WaveAmplitude: 0.000935
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 1
+Grime: 0.4347826
+BkgDroneVolume: 0.2769565
+Palette: 50
+EffectColorA: 9
+EffectColorB: 9
+Effects: Flies-0.1195652-20-20, Desaturation-0.3043478-30-30, 
+PlacedObjects: DangleFruit><611.7652><544.1995><-645~-304~2~3, DangleFruit><522.3256><583.6521><-577~-249~2~3, DangleFruit><571.5944><574.1763><-631~-140~2~3, 
+AmbientSounds: OMNI><AM_ENV-LightWind.ogg><733.6951><571.4561><0.3043478><0.6673913, 
+FadePalette: 4, 0.8043478

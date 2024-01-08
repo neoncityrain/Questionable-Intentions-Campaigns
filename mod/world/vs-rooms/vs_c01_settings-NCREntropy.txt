@@ -1,0 +1,10 @@
+DangerType: FloodAndRain
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+WaterReflectionAlpha: 0.4021739
+Palette: 30
+Effects: WaterDepth-0.08695652-20-81, Fog-0.4485281-30-11, Darkness-0.3043478-295-8, Coldness-0-20-20, ElectricDeath-0.1005322-30-30, DayNight-0-20.07916-118.2222, 
+PlacedObjects: ReliableSpear><2184.317><118.8312><, ReliableSpear><2272.663><117.8665><, ReliableSpear><2381.479><128.5511><, ReliableSpear><1087.051><95.48315><, ReliableSpear><1372.168><137.6822><, ReliableSpear><1506.414><142.3859><, ReliableSpear><1587.103><96.63507><, ReliableSpear><452.8251><99.40308><, ReliableSpear><571.1847><76.42328><, ReliableSpear><700.8024><112.5306><, LillyPuck><2474.317><206.4185><0~0~2~24, LillyPuck><939.8259><209.815><0~0~19~50, LillyPuck><1268.576><206.9009><0~0~12~22, LillyPuck><1711.943><201.9492><0~0~21~26, LillyPuck><600.8649><211.8363><0~0~44~50, DayNightSettings><14.04903><294.1948><5~8.660254~16~10, 
+AmbientSounds: SPOT><SO_IND-HeatDuct.ogg><762.3771><444.8423><0.3804348><1><741.3771><717.8423><-221.3553><-174.3553><0><0.4478262, SPOT><SO_IND-HVAC.ogg><592.6961><593.7109><0.3804348><1><1624.696><720.7109><-28.35535><-196.3553><0><0.5130436, SPOT><AM_WIN-WndTone.ogg><598.3243><485.4357><0.3152174><1><2371.324><447.4357><-282.3553><-212.3553><0><0.6869566, SPOT><SO_WAT-MoreDrips.ogg><592.8703><364.0977><0.3586957><1><799.8703><435.0977><-268.3553><-218.3553><0><1, 
+FadePalette: 10, 0.7065217, 0.7282609, 0.7391304

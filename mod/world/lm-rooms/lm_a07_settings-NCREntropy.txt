@@ -1,0 +1,16 @@
+Template: LM_SettingsTemplate_Sewer
+DangerType: Blizzard
+CeilingDrips: 0.7173913
+RainIntensity: 0
+RumbleIntensity: 0.04347826
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 2.43511E-13
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Palette: 10
+EffectColorB: 6
+Effects: Contrast-0.0326087-524-235, Darkness-0.2065217-199-116, Coldness-0-20-20, Fog-0-30-30, 
+AmbientSounds: SPOT><AM_IND-Utility02.ogg><761.8668><460.9123><0.3586957><1.058696><447.8668><534.9124><-141.3553><-30.35535><0><0.3608697, OMNI><AM_ENV-LightWind.ogg><825.4364><637.3225><0.3043478><0.8434783, 
+FadePalette: 25, 0.6086956
+WetTerrain: OFF

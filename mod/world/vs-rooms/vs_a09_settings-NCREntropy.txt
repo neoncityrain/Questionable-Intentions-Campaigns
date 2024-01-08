@@ -1,0 +1,16 @@
+Template: VS_SettingsTemplate_Sewer
+DangerType: None
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 1.667671E-40
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Palette: 30
+Effects: Coldness-0-40-40, WaterDepth-0.1159986-20-20, DayNight-0-30-30, ElectricDeath-0.4562613-227.8646-113.2889, 
+PlacedObjects: DayNightSettings><12.59294><275.1322><5~8.660254~16~10, 
+Triggers: RegionBump<tA>event<tB>MusicEvent<eA>songName<eB>RW_93 - Veiled Northstar<eA>vol<eB>0.18<eA>prio<eB>0.6630435<eA>mxThrt<eB>1<eA>loop<eB>0<eA>droneTol<eB>0<eA>rooms<eB>-1<eA>rest<eB>5<eA>fadeIn<eB>19.56522<eA>oneSongPerCycle<eB>0<eA>stopAtDeath<eB>0<eA>stopAtGate<eB>0<tA>multiUse<tB>0<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>156<tA>panPos<tB>609.8<tB>424.999<tA>fireChance<tB>1<tA>entrance<tB>1<tA>karma<tB>0<tA>slugcats<tB>, 
+FadePalette: 10, 0.6521739
+WetTerrain: OFF

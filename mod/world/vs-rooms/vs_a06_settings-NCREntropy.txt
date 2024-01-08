@@ -1,0 +1,15 @@
+DangerType: Thunder
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 1.598409E-36
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Grime: 0.2717391
+Palette: 30
+Effects: Fog-0.04639949-20-20, Coldness-0-32.84583-56.31111, Darkness-0.1956522-257.7458-121.8222, ElectricDeath-0.06186626-40.07916-109.0667, 
+PlacedObjects: ReliableSpear><795.5182><458.9492><, ReliableSpear><865.5632><552.5603><, ReliableSpear><856.3109><459.8152><, DangleFruit><594.3156><437.189><0~0~5~9, CustomDecal><474.8254><202.1852><-3~161~303~240~316~-9~-359~22~0.6086956~1~0.1086956~hoko cutcables~0.877253~0.1643342~0.9376579~0~0.9013134~0.1204257~0.857189~0.1931613, DayNightSettings><24.65057><307.6931><5~8.660254~10~10, 
+FadePalette: 10, 0.8369565
+WetTerrain: OFF

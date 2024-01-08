@@ -1,0 +1,17 @@
+Template: SI_SettingsTemplate_Inside
+DangerType: Rain
+CeilingDrips: 1
+WaveSpeed: 0.5049679
+WaveLength: 0.9512661
+WaveAmplitude: 0.03999782
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.3043478
+Grime: 0.3586957
+Palette: 2
+EffectColorA: 11
+EffectColorB: 2
+Effects: Hue-0.9456522-298-65, Desaturation-0.1956522-37-63, Contrast-0.06521739-301-124, Darkness-0.3043478-44-126, 
+PlacedObjects: FirecrackerPlant><429.5569><221.3021><-535~325~2~50, FirecrackerPlant><471.064><219.3236><-581~158~2~28, FirecrackerPlant><526.9263><221.3141><-623~-16~2~42, InsectGroup><524.5516><194.7758><-84~130~0~0~Beetle~0.3152174, 
+AmbientSounds: SPOT><Basic Mech.ogg><747.3741><159.0946><0.1956522><1><479.3741><78.09457><-110.3553><-29.35535><0><0.4804349, OMNI><SO_WAT-MoreDrips.ogg><746.9452><507.2065><0.6413044><0.9804348, OMNI><SO_WAT-LilDrips.ogg><755.9485><519.9757><0.5108696><1.019565, 
+FadePalette: 27, 0.5326087

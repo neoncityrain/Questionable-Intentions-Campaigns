@@ -1,0 +1,22 @@
+Template: NONE
+DangerType: None
+CeilingDrips: 0.5543478
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 5.605194E-45
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Grime: 0.1521739
+BkgDroneVolume: 0
+RandomItemDensity: 0.4130435
+RandomItemSpearChance: 0.1021738
+Palette: 27
+EffectColorA: 5
+EffectColorB: 14
+Effects: Fog-1-39-59, WaterDepth-0.0326087-24-215, BorderPushBack-0-20-20, FireFlies-0.2173913-314-120, SilenceWater-0.8351905-53-130, WaterLights-1-39-142, GlowingSwimmers-0.2826087-69-145, WaterGlowworm-0.4021739-24-184, MossWater-0.07608695-295-69, Darkness-0.2173913-9-254, 
+PlacedObjects: UpsideDownWaterFall><3374.874><257.465><90~2141~1~5~1~0~0~1.956522~Background~True~1, UpsideDownWaterFall><2849.928><256.5803><83~2142~1~5~1~0~0~2.01087~Background~True~1, UpsideDownWaterFall><2068.146><251.0871><88~2145~1~5~1~0~0~2.01087~Background~True~1, CGCosmeticWater><4294.35><2402.747><-3627^140, PlayerPushback><4261.484><2109.879><-63~-79, PlayerPushback><4295.543><1964.411><-126~-23, PlayerPushback><4289.53><1844.089><-125~-3, PlayerPushback><4280.958><1755.802><-114~15, InsectGroup><2597.872><1224.968><815~-128~0~0~FireFly~0.7026619, InsectGroup><3872.292><1182.727><-22~64~0~0~FireFly~0.2717391, LillyPuck><2029.903><1142.797><0~0~10~19, Vine><3989.131><1758.096><123~-196, Vine><97.4509><2213.756><339~95, Vine><604.5158><1699.587><262~-256, Vine><589.4528><1535.385><260~-127, Vine><333.7639><1885.969><81~157, ColouredLightSource><2619.609><2535.178><24.89648~-458.8392~00FFE9~1379^-966~0.8260869~False~0.1956522~0~0.5~Always~0~100, LillyPuck><3492.754><1141.129><0~0~13~29, Vine><462.1866><2391.903><210~-67, Vine><392.9591><1998.699><241.6959~388.1111, Vine><143.5408><2295.421><307~-11, Vine><81.48335><2177.422><572~187, Vine><325.8223><1811.526><347~511, Hazer><2758.972><338.4405><0~0~39~47, Vine><4254.255><1983.982><-34.86145~176.0889, ColouredLightSource><2572.027><272.4856><24.89648~-458.8392~00FFE9~645^344~0.8260869~False~0.1956522~0~0.5~Always~0~100, InsectGroup><3454.365><1132.149><80~42~0~0~GlowingSwimmerInsect~0, ClimbablePoleH><582.0392><1506.735><12^0, ClimbablePoleH><617.4392><1619.213><10^0, ClimbablePoleV><747.9013><1626.874><0^-14, InsectGroup><743.3042><1528.889><119~112~0~0~ColoredCamoBeetle~0.5978261, 
+AmbientSounds: OMNI><AM_ENV-SubTerr.ogg><832.0314><646.9475><0.1457765><1.763044, OMNI><AM_SUB-BlankState.ogg><654.0513><645.4775><0.06092569><1.050891, SPOT><AM_WIN-SubWnd.ogg><51.90277><501.5752><0.3909194><1.280332><898.9028><2102.575><-461.3553><-88.35535><0><0.5891306, SPOT><SO_WAT-DripTap.ogg><42.30688><388.1979><0.288066><1.332608><343.3069><2143.198><133.6447><-319.3553><0><0.4695654, OMNI><waterGurgleLOOP3.wav><826.5567><575.9487><0.2443728><1.073003, SPOT><SO_SFX-LakeBottom.ogg><223.867><504.6494><0.1651492><1><2148.867><1549.649><-326.3553><-405.3553><0><0.5347828, SPOT><SO_WAT-DripTap.ogg><772.9585><314.3044><0.3775137><1.332609><4004.958><1473.304><-183.3553><-271.3553><0><0.3934784, SPOT><AM_ENV-NatWind.ogg><667.1249><439.594><0.3440897><1><3513.125><1619.594><-200.3553><-283.3553><0><0.3500001, 
+Triggers: Spot<tA>event<tB>StopMusicEvent<eA>songName<eB>NA_38 - Else7<eA>prio<eB>1<eA>type<eB>AllSongs<eA>fadeOut<eB>395.6521<tA>multiUse<tB>1<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>998.6068<tB>354.1691<tA>fireChance<tB>1<tA>entrance<tB>-1<tA>karma<tB>0<tA>slugcats<tB><tA>pos<tB>2600.607<tB>550.2732<tA>handlePos<tB>-374.3553<tB>-85.35535, 
+FadePalette: 16, 0.2065217, 0.2065217, 0.2065217, 0.2065217, 0.2065217, 0.2065217, 0.2065217, 0.2065217, 0.2065217

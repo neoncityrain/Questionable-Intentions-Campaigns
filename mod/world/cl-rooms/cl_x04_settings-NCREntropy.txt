@@ -1,0 +1,14 @@
+DangerType: Rain
+CeilingDrips: 0.317063
+RainIntensity: 1
+RumbleIntensity: 1
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 8.033408E-33
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 1
+Grime: 0
+AmbientSounds: OMNI><SO_WAT-ProperDrips.ogg><853.0804><505.3939><0.5><1, SPOT><AM_ENV-NatWind.ogg><857.6891><387.3152><0.1413043><1><132.6891><19.31519><292.6447><143.6447><0><0.3934784, OMNI><AM_ENV-CityTone.ogg><862.9061><581.8749><0.1847826><1, SPOT><AM_ENV-NatWind.ogg><684.2008><527.6938><0.2717391><1><457.2008><712.6938><-110.3553><-119.3553><0><0.2956523, 
+FadePalette: 0, 0.4565217
+WetTerrain: OFF

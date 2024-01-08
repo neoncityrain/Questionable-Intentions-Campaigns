@@ -1,0 +1,15 @@
+Template: CL_SettingsTemplate_DarkSun
+DangerType: Rain
+CeilingDrips: 0.8369565
+WaveSpeed: 0.5042326
+WaveLength: 0.9953762
+WaveAmplitude: 0.004292294
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.1521739
+EffectColorB: 15
+Effects: LightBurn-0.3043478-30-30, LightRain-0.1086956-20-20, HeavyRain-0.01546644-40-40, 
+PlacedObjects: LanternOnStick><416.9922><579.9498><-37~-167, LanternOnStick><361.9194><507.567><14~-99, CustomDecal><616.4399><146.4371><-29~250~298~274~331~-59~-108~-343~0~1~0~ScavMark BigSun~0.423913~0.423913~0.8586956~0.423913~0.7608696~0.423913~0.5978261~0.423913, Corruption><692.9323><1278.058><4.268738~87.9111, Corruption><871.2458><1402.895><0~100, Corruption><664.5273><3543.99><-7.82605~77.24445, 
+AmbientSounds: OMNI><AM_ENV-NatWind.ogg><830.0891><640.8209><0.2717391><0.7912024, OMNI><AM_ENV-CityTone.ogg><844.5981><560.9243><0.3152174><1, SPOT><AM_WIN-StrongWnd2.ogg><844.3027><430.6929><0.5326087><1><-60.69727><3548.693><1207.645><-529.3553><0><1, SPOT><AM_WIN-HowlingWnd.ogg><845.6244><310.8434><0.2934783><1><72.62439><754.8434><1277.645><739.6447><0><1, 
+FadePalette: 0, 0.5326087, 0.5217391, 0.5108696, 0.4891304, 0.5
+WetTerrain: OFF

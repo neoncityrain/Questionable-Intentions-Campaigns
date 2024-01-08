@@ -1,0 +1,8 @@
+DangerType: Flood
+RainIntensity: 1
+RumbleIntensity: 1
+Grime: 0.1521739
+Palette: 9
+Effects: SilenceWater-0.4021739-17-136, RockFlea-0.75-30-30, Fog-0.2608696-275-82, WaterDepth-1-305-132, WaterFluxMinLevel-0-335-221, WaterFluxMaxLevel-0-332-169, WaterFluxSpeed-0.9021739-287-371, 
+AmbientSounds: OMNI><AM_ENV-LushNight.ogg><624.937><564.6898><0.3804348><1, 
+FadePalette: 39, 0.4021739, 0.423913, 0.4456522

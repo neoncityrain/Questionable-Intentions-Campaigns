@@ -1,0 +1,14 @@
+Template: NONE
+DangerType: Flood
+Clouds: 1
+Grime: 0.1956522
+BkgDroneVolume: 0
+RandomItemDensity: 0
+WaterReflectionAlpha: 0
+Palette: 14
+EffectColorA: 9
+EffectColorB: 9
+PlacedObjects: LightSource><4488.921><688.6837><0.1956522~White~-1665~-546~90~-220.3975~0~0~Fade~0.5978261~0, LightSource><4860.695><370.5576><1~White~-38~105~50~86.60254~0~0~None~0~0, LightSource><4018.56><560.6908><1~White~30~130~50~86.60254~0~0~None~0~0, LightSource><4234.426><27.15541><1~White~137~327~-323~-18.39747~0~0~None~0~0, LightSource><2965.936><45.55128><1~White~19~412~50~86.60254~0~0~None~0~0, LightSource><1829.452><272.1389><1~White~88~246~50~86.60254~0~0~None~0~0, LightSource><566.9971><57.66093><1~White~61~308~50~86.60254~1~0~None~0~0, Corruption><3894.789><130.2963><37~193, StuckDaddy><3940.803><148.3509><0~100, Corruption><4037.434><404.3146><95~247, Corruption><4902.095><101.5687><29~214, 
+AmbientSounds: OMNI><Mech Basic.wav><606.3081><653.3064><0.2282609><1, OMNI><Deep Weird Wind.wav><786.6104><653.3932><0.1413043><1, SPOT><SO_IND-Generator.ogg><790.6301><538.3481><0.2826087><0.8630434><5102.63><330.3481><-1282.355><-22.35535><0><1, SPOT><SO_IND-HeatDuct.ogg><796.0894><424.6308><0.4456522><1><3947.088><538.6309><134.6447><-55.35535><0><0.2195653, 
+FadePalette: 8, 0.8695652, 0.8586956, 0.8478261, 0.8369565, 0.8369565
+RoomSpecificScriptActive: ON

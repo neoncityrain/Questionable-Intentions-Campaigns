@@ -1,0 +1,8 @@
+Template: CC_SettingsTemplate_Gutter
+DangerType: None
+Clouds: 0.8695652
+Grime: 0.3586957
+Palette: 4
+Effects: LightRain-0.01086957-30-30, 
+PlacedObjects: BrokenShelterWaterLevel><477.8003><204.261><, 
+FadePalette: 21, 0.8804348

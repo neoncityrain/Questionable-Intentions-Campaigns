@@ -1,0 +1,11 @@
+Template: MS_SettingsTemplate_Sewers
+DangerType: Flood
+WaveSpeed: 0.5543478
+WaveLength: 1
+SecondWaveLength: 0.1666667
+EffectColorA: 11
+EffectColorB: 8
+Effects: Darkness-0.5108696-21-131, ZeroG-0.1630435-274-22, 
+PlacedObjects: LightFixture><442.7566><457.0501><RedLight~-312.6795~49~4, LightFixture><848.0443><46.80493><RedSubmersible~17.32051~-10~65, SteamPipe><533.4785><165.0511><0~100, SteamPipe><500.6909><144.1903><0~100, SteamPipe><468.4576><159.0545><0~100, SteamPipe><434.5537><156.0573><0~100, SteamPipe><391.5523><188.057><0~100, MSArteryPush><-114.8333><171.6395><400~-7, MSArteryPush><314.2506><136.3><91~34, LightFixture><1450.441><453.191><RedLight~17.32051~-10~54, LightSource><660.5609><434.0649><0.05434782~Environment~-666~151~-157~108.6025~1~1~None~0~0, SteamPipe><1412.05><294.2437><-14~92, SteamPipe><1406.292><291.0544><-36~43, SteamPipe><1546.058><658.6937><-31~-34, SteamPipe><1579.442><628.8071><17~-30, PlayerPushback><-155.0243><329.0515><3~-166, PlayerPushback><-148.3607><-35.64357><-4~190, PlayerPushback><43.80811><270.9438><1~-105, PlayerPushback><45.02545><47.19835><0~100, PlayerPushback><483.3353><24.63658><-6~91, PlayerPushback><380.6441><30.61131><18~98, 
+AmbientSounds: SPOT><waterGurgleLOOP3.wav><787.5696><423.5625><0.4456522><0.7065217><250.5696><89.5625><-458.3553><-89.35535><0><0.2086958, SPOT><SO_WAT-Splashes.ogg><791.1642><308.1358><0.3152174><0.3543478><455.1642><108.1358><-154.3553><-130.3553><0><0.3391306, SPOT><SO_WAT-RunningWater.ogg><622.0504><421.9875><0.2065217><0.2369565><96.05042><162.9875><-220.3553><-229.3553><0><0.5130436, 
+FadePalette: 51, 0.8152174, 0.8804348

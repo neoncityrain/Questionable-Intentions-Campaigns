@@ -1,0 +1,12 @@
+Template: NONE
+DangerType: Flood
+Clouds: 1
+Grime: 0.2717391
+BkgDroneVolume: 0
+Palette: 14
+EffectColorA: 18
+EffectColorB: 18
+Effects: Coldness-0-20-20, 
+PlacedObjects: LightSource><760.161><642.5709><0.3804348~EffectColor2~-926~-656~-140~-455.3975~0~0~Fade~0.5434783~0, LightFixture><236.9471><257.2839><RedSubmersible~17.32051~-10~17, LightFixture><775.7161><660.4471><RedLight~17.32051~-10~80, DeadTokenStalk><671.1524><431.9246><-6~-71, DeadTokenStalk><724.1162><411.6013><-15~-66, DeadTokenStalk><559.1734><392.5652><19~-67, Corruption><55.38403><219.6629><16~78, Corruption><280.3199><606.4129><153~19, Corruption><771.8217><611.4094><-135~144, 
+AmbientSounds: OMNI><Mech Basic.wav><801.1936><637.9499><0.1956522><1, OMNI><Deep Weird Wind.wav><803.6378><561.9156><0.1304348><1, SPOT><AM_IND-ElectricHum03.ogg><801.1324><446.8999><0.3695652><1><852.1324><655.8999><-130.3553><-152.3553><0><0.252174, OMNI><SO_WAT-ProperDrips.ogg><623.8724><636.0959><0.3478261><1.273913, SPOT><SO_IND-Boiler.ogg><799.9193><334.067><0.3478261><1><147.9193><658.067><175.6447><-95.35535><0><0.3934784, SPOT><AM_ENV-LightWind.ogg><625.078><528.1021><0.5869565><1><496.078><713.1021><5.644653><-276.3553><0><0.3608697, 
+FadePalette: 8, 0.9782609

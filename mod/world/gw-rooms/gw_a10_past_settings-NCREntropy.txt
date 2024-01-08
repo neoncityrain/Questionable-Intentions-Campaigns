@@ -1,0 +1,16 @@
+Template: NONE
+DangerType: Rain
+WaveSpeed: 0.5202019
+WaveLength: 0.989899
+WaveAmplitude: 1.422306E-14
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.7173913
+BkgDroneVolume: 0.2769565
+Palette: 23
+EffectColorA: 4
+EffectColorB: 1
+Effects: WaterViscosity-0.6086956-20-76, SilenceWater-1-287-18, Darkness-0.2608696-20-20, LethalWater-1-286-78, HeatWave-0.6304348-280-140, Coldness-0-30-30, LavaSurface-1-40-40, MossWater-0-50-50, MossWaterRGB-0-451-545-Red:255-Blue:255-Green:0, 
+PlacedObjects: LightSource><442.8535><73.86383><0.4673913~EffectColor2~-629~474~195~-84.39746~0~0~None~0~0, SteamPipe><451.1918><355.6933><-18~41, SteamPipe><315.043><357.9453><8~32, SteamPipe><603.0171><357.9493><-20~33, SteamPipe><519.829><145.6462><0~100, SteamPipe><318.1362><168.6036><0~100, SteamPipe><434.4449><112.7945><0~100, SteamPipe><565.0574><182.804><0~100, ExitSymbolHidden><349.0719><589.1591><, CorruptionTube><250.0218><451.9598><101.8656~-49.0889, ClimbablePoleH><471.8225><430.5921><4^0, ClimbablePoleH><330.0556><408.3079><4^0, ClimbablePoleH><332.8976><372.3282><4^0, ClimbablePoleH><474.7445><398.3001><4^0, 
+AmbientSounds: OMNI><waterGurgleLOOP1.wav><849.6308><645.4013><0.4347826><0.5891304, OMNI><SO_NAT-Burning.ogg><668.0651><648.5761><0.4347826><0.6478261, SPOT><AM_IND-Utility02.ogg><666.6594><528.8708><0.3804348><1><243.6594><111.8708><-158.3553><-74.35535><0><0.6326088, SPOT><AM_IND-Utility04.ogg><853.212><526.0536><0.3478261><1><712.212><123.0536><-112.3553><-77.35535><0><0.5673915, 
+FadePalette: 33, 0.6195652

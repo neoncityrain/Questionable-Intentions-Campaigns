@@ -1,0 +1,21 @@
+vDangerType: Blizzard
+CeilingDrips: 0
+RainIntensity: 0.01
+RumbleIntensity: 0
+WaveSpeed: 0.75
+WaveLength: 0.5
+WaveAmplitude: 0
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 100
+Grime: 0
+BkgDroneVolume: 0.3
+BkgDroneNoThreatVolume: 1
+RandomItemDensity: 0.5
+RandomItemSpearChance: 0.2
+WaterReflectionAlpha: 1
+Palette: 40
+EffectColorA: 9
+EffectColorB: 21
+Effects: DayNight-0.30-266-186, LightBurn-0.2391304-282-76, Contrast-0.7173913-286-10, Desaturation-0.8478261-18-76, Fog-0.4130435-20-132, Moth-0.4782609-276-130, Coldness-1-20-20,
+AmbientSounds: OMNI><SO_SFX-DeepStoneBass.ogg><46.12927><152.9094><0.15><1, OMNI><AM_SUB-BlankState.ogg><39.88135><224.4008><0.20><1, DIR><AM_ENV-LightWind.ogg><743.1793><517.6614><0.3043478><1><-0.599934><0, 

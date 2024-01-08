@@ -1,0 +1,13 @@
+Template: NONE
+DangerType: FloodAndRain
+WaveSpeed: 0.5130922
+WaveLength: 0.9934539
+WaveAmplitude: 0.0009918559
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+WaterReflectionAlpha: 0
+Palette: 23
+EffectColorA: 1
+Effects: Darkness-0.8260869-20-20, LightRain-1-20-80, Coldness-0-38-117, WaterFluxMinLevel-0.0326087-30-30, WaterFluxMaxLevel-0.05434782-40-40, WaterFluxSpeed-1-50-50, LethalWater-0-60-60, LavaSurface-1-70-70, MossWater-0-80-80, MossWaterRGB-0-408-485-Red:255-Green:0-Blue:255, 
+PlacedObjects: LanternOnStick><695.0989><1107.369><-12~-114, LanternOnStick><633.1255><1157.344><39~-154, CustomDecal><152.5664><923.9207><6~339~231~337~245~-15~-403~-67~0.5326087~1~0~ScavMark Stonehead3~0.173913~0~0.173913~0~0.173913~0~0.173913~0, CustomDecal><88.65912><1050.822><-14~350~786~329~771~-32~-391~-41~0.5652174~1~0~ScavMark HI_A27~0.2826087~0.1086956~0.2826087~0.1086956~0.2826087~0.1086956~0.2826087~0.1086956, CustomDecal><614.2091><966.1958><-33~341~253~381~260~-38~-129~-356~0.5869565~1~0~ScavMark Stonehead2~0.25~0.4021739~0.25~0.4021739~0.25~0.4021739~0.25~0.4021739, LightSource><264.7574><304.7914><0.3913043~EffectColor2~326~341~-375~-58.39746~0~0~None~0~0, SteamPipe><331.7255><294.7415><0~100, SteamPipe><200.0441><357.6177><0~100, SteamPipe><213.3668><356.6108><8~41, 
+FadePalette: 33, 0.423913, 0.423913

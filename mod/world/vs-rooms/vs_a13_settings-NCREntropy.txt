@@ -1,0 +1,13 @@
+Template: VS_SettingsTemplate_Filter
+DangerType: Thunder
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 5.605194E-45
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Palette: 30
+Effects: Coldness-0-20-20, ElectricDeath-0.6573256-34.26874-78.35555, DayNight-0-26.4823-135.2889, 
+FadePalette: 10, 0.4565217

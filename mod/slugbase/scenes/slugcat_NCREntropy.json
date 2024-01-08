@@ -1,0 +1,16 @@
+{
+	"id": "Slugcat_NCREntropy",
+	"scene_folder": "scenes/entropyselect",
+	"images": [
+		{ "name": "storm", "pos": [400, 300], "depth": 3.7, "shader": "Basic" },
+		{ "name": "snow",    "pos": [400, 350], "depth": 3.2, "shader": "Basic" },
+		{ "name": "cage",    "pos": [400, 300], "depth": 3.0, "shader": "Basic" },
+		{ "name": "butt",    "pos": [400, 300], "depth": 1.8, "shader": "Basic" },
+		{ "name": "head",    "pos": [400, 300], "depth": 1.5, "shader": "Basic" }
+	],
+	"idle_depths": [ 2.8 ],
+	"glow_pos": [688, 484],
+	"mark_pos": [689, 583],
+	"select_menu_pos": [0, 0],
+	"slugcat_depth": 1.5
+}

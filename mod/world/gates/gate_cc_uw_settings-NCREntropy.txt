@@ -1,0 +1,9 @@
+Template: NONE
+DangerType: Rain
+Clouds: 0.3586957
+Grime: 0.1956522
+BkgDroneVolume: 0
+Palette: 27
+Effects: Darkness-0.3586957-20-20, 
+PlacedObjects: NoSpearStickZone><479.6824><242.1882><-259~110, 
+FadePalette: 33, 0.6521739

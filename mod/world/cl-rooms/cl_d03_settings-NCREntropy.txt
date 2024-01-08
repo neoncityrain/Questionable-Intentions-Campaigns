@@ -1,0 +1,16 @@
+Template: CL_SettingsTemplate_DarkSun
+DangerType: Rain
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.51
+WaveLength: 1
+WaveAmplitude: 0.0001
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+EffectColorB: 12
+Effects: SilenceWater-0.5652174-21-69, HeatWave-0.2608696-19-131, Coldness-0-30-30, 
+PlacedObjects: LightSource><458.3735><1268.155><0.1413043~Environment~-506~139~-585~-37.39746~1~0~None~0~0, LightFixture><57.37769><1049.154><RedLight~-183.6795~99~15, LightFixture><953.2141><1505.197><RedLight~-319.6795~-157~39, LightFixture><1873.164><1505.386><RedLight~-164.6795~-124~25, LightFixture><1520.088><934.6801><RedLight~17.32051~-10~6, LightFixture><214.8914><608.3915><RedLight~17.32051~-10~63, LightFixture><1595.553><465.2818><RedLight~17.32051~-10~3, LightSource><1031.986><778.8004><0.06521739~White~317~425~50~86.60254~1~1~None~0~0, SuperStructureFuses><1252.827><1102.4><393~86, SuperStructureFuses><1553.615><791.3977><76~105, SuperStructureFuses><670.242><1093.55><140~54, SuperStructureFuses><668.3272><1486.851><259~39, SuperStructureFuses><-91.10535><253.42><124~45, SuperStructureFuses><-78.55798><546.444><305~37, CosmeticSlimeMold2><938.9329><463.581><0~100, CosmeticSlimeMold><1372.449><471.4783><0~100, CosmeticSlimeMold2><246.4663><948.1971><2~158, LightFixture><246.3605><947.6667><SlimeMoldLight~17.32051~-10~6, LightFixture><1366.105><468.33><SlimeMoldLight~17.32051~-10~76, CorruptionTube><633.8568><1236.915><-469~-226, CorruptionTube><2024.103><1384.176><-297~-108, 
+AmbientSounds: OMNI><AM_ENV-CityTone.ogg><875.8915><641.832><0.2717391><1, SPOT><AM_ENV-NatWind.ogg><881.2606><524.1997><0.2282609><1><-133.7394><300.1997><449.6447><221.6447><0><0.3152174, SPOT><AM_WIN-StrongWnd2.ogg><706.1686><600.4327><0.4782609><1><-157.8314><404.4327><458.6447><36.64465><0><1, SPOT><MSC-Subtundra.ogg><700.5582><489.0568><0.4021739><1><1944.558><1345.057><-744.3553><-29.35535><0><1, SPOT><SO_WAT-MoreDrips.ogg><875.6696><406.356><0.5><1><487.6696><1232.356><-319.3553><-313.3553><0><0.3717393, SPOT><SO_SFX-DeepStoneBass.ogg><849.27><288.551><0.2173913><1><1801.27><113.551><-647.3553><-47.35535><0><0.6760871, SPOT><AM_IND-DeepHum.ogg><682.2472><368.2><0.5><1><1279.247><1212.2><520.6447><18.64465><0><0.904348, SPOT><SO_SFX-DataTones.ogg><676.1998><247.741><0.2608696><0.1><1133.2><1307.741><-344.3553><-126.3553><0><0.6086956, 
+FadePalette: 0, 0.173913, 0.1086956, 0.2391304, 0.173913
+WetTerrain: OFF

@@ -1,0 +1,16 @@
+Template: LM_SettingsTemplate_Sewer
+DangerType: Blizzard
+RainIntensity: 0.1195652
+RumbleIntensity: 0
+WaveSpeed: 0.4998172
+WaveLength: 0.9999086
+WaveAmplitude: 4.580969E-09
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+BkgDroneVolume: 0.2769565
+Palette: 10
+EffectColorB: 6
+Effects: Darkness-0.8043478-367-237, Contrast-0.02173913-529-381, Coldness-0-30-30, WaterFluxMaxLevel-0.3043478-40-40, WaterFluxMinLevel-0-50-50, Fog-0-20-20, 
+PlacedObjects: CustomDecal><556.9921><24.30017><-33~737.9239~189.7536~716.9239~142.7536~0~-411~-130~0.07608695~1~0~Rust1~1~1~1~1~0~1~0~1, 
+AmbientSounds: SPOT><SO_WAT-RunningWater.ogg><63.44745><500.4681><0.5><1><636.4474><80.46806><-170.3553><-52.35535><0><0.3065219, SPOT><SO_WAT-Splashes.ogg><243.3859><501.9142><0.423913><1><646.3859><623.9142><-60.35535><-56.35535><0><0.1869567, 
+FadePalette: 25, 0.6086956

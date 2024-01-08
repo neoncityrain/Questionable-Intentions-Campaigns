@@ -1,0 +1,10 @@
+Template: VS_SettingsTemplate_Surface
+DangerType: None
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+Palette: 30
+Effects: Coldness-0-20-20, ElectricDeath-0.510394-30-30, DayNight-0-20.79062-77.68889, DustWave-0-40-40, 
+PlacedObjects: FirecrackerPlant><508.3514><318.0776><0~0~16~25, FlyLure><1587.399><175.6168><0~0~18~49, DayNightSettings><74.65449><392.0354><5~8.660254~16~10, 
+AmbientSounds: SPOT><AM_ENV-LightWind.ogg><737.9443><522.2026><0.4021739><1><3049.944><696.2026><-522.3553><-540.3553><0><0.6978262, 
+FadePalette: 9, 0.4565217, 0.4673913, 0.4782609

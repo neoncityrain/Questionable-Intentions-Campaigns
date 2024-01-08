@@ -1,0 +1,16 @@
+Template: SB_SettingsTemplate_Filter
+DangerType: Blizzard
+WaveSpeed: 0.5303531
+WaveLength: 0.870049
+WaveAmplitude: 0.02517029
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 1
+Grime: 0
+Palette: 26
+EffectColorA: 18
+EffectColorB: 21
+Effects: Coldness-0-20-20, 
+PlacedObjects: GooieDuck><167.683><329.0805><0~0~13~18, 
+AmbientSounds: OMNI><AM_SUB-BlankState.ogg><866.2988><585.944><0.3369565><1, OMNI><AM_ENV-SubTerr.ogg><443.5765><405.3152><0.3478261><1, SPOT><SO_IND-FlourLight.ogg><745.09><493.87><0.3369565><1><1834.09><54.87><-35.35534><-35.35534><0><0.1652175, SPOT><SO_IND-FlourLight.ogg><745.0676><493.668><0.3369565><1><1360.068><347.668><-35.35534><-35.35534><0><0.1652175, SPOT><SO_IND-FlourLight.ogg><745.4489><493.7292><0.3369565><1><2152.449><626.7291><-35.35534><-35.35534><0><0.1652175, SPOT><SO_IND-FlourLight.ogg><745.4489><493.7292><0.3369565><1><803.4489><674.7292><-35.35534><-35.35534><0><0.1652175, SPOT><SO_IND-FlourLight.ogg><745.064><493.8234><0.3369565><1><965.064><-0.1766357><-35.35534><-35.35534><0><0.1652175, SPOT><SO_IND-FlourLight.ogg><745.0516><493.7755><0.3369565><1><574.0516><650.7755><-35.35534><-35.35534><0><0.1652175, SPOT><SO_IND-FlourLight.ogg><745.2328><493.9493><0.3369565><1><85.23285><393.9493><-39.35535><-56.35535><0><0.1652175, SPOT><SO_IND-FlourLight.ogg><745.2692><493.9491><0.3369565><1><379.2692><277.9491><-43.35535><-63.35535><0><0.1652175, SPOT><SO_IND-FlourLight.ogg><744.1243><492.5933><0.3369565><1><2880.124><114.5933><-35.35534><-35.35534><0><0.1652175, SPOT><SO_IND-FlourLight.ogg><745.0359><491.5533><0.3369565><1><2982.036><582.5533><-35.35534><-35.35534><0><0.1652175, SPOT><SO_IND-FlourLight.ogg><621.9984><532.55><0.3369565><1><2362.998><191.5501><-35.35534><-35.35534><0><0.1652175, SPOT><AM_IND-Utility02.ogg><748.0094><374.0502><0.3586957><1><482.0094><665.0502><-47.35535><-114.3553><0><0.4695654, SPOT><SO_IND-Turbine.ogg><748.7561><260.1999><0.2826087><1><2815.756><38.19997><-143.3553><-127.3553><0><0.4913045, SPOT><AM_IND-DeepHum.ogg><750.4188><154.6428><0.3804348><1><-16.58118><192.6428><-291.3553><-254.3553><0><0.7956523, 
+Triggers: RegionBump<tA>event<tB>MusicEvent<eA>songName<eB>BM_SB_FILTER<eA>vol<eB>0.4506954<eA>prio<eB>0.5<eA>mxThrt<eB>1<eA>loop<eB>0<eA>droneTol<eB>0<eA>rooms<eB>-1<eA>rest<eB>5<eA>fadeIn<eB>0<eA>oneSongPerCycle<eB>0<eA>stopAtDeath<eB>0<eA>stopAtGate<eB>0<tA>multiUse<tB>0<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>517.3635<tB>392.9147<tA>fireChance<tB>1<tA>entrance<tB>0<tA>karma<tB>0<tA>slugcats<tB>, 

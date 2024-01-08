@@ -1,0 +1,7 @@
+DangerType: None
+Clouds: 1
+Palette: 16
+EffectColorA: 7
+Effects: DustWave-1-171-73, Coldness-0-51-135, LightRain-0.09782609-65-101, Fog-0.04347826-30-30, 
+PlacedObjects: DangleFruit><701.0309><474.6976><0~0~30~50, LightSource><109.9082><720.8777><0.75~Environment~245~-375~624~-241.3975~1~0~None~0~0, SnowSource><-137.8155><482.0771><Radial~253~-98~-21~-393.3975~0.4130435~0, SnowSource><210.3901><498.6428><Radial~155~33~50~86.60254~0.2173913~0, LocalBlizzard><45.11011><720.8571><419~-279~414~-278.3975~0.326087~0.4456522~0.6413044, 
+FadePalette: 20, 0.4456522, 0.3369565

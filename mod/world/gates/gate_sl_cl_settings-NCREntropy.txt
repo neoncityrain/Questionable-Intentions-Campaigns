@@ -1,0 +1,16 @@
+Template: NONE
+WaveSpeed: 0.4902136
+WaveLength: 0.7451068
+WaveAmplitude: 0
+SecondWaveLength: 0.4710143
+SecondWaveAmplitude: 0
+Clouds: 1
+Grime: 0.2717391
+BkgDroneVolume: 0
+Palette: 17
+EffectColorA: 18
+Effects: SilenceWater-0.6413044-30-133, WaterDepth-0-27-19, Coldness-0-30-68, 
+PlacedObjects: LightFixture><186.6669><95.86029><RedLight~17.32051~-10~51, LightFixture><712.6985><226.774><RedLight~-101.6795~-250~70, NoSpearStickZone><475.0604><254.564><194~167, SteamPipe><265.5827><382.1404><-22~-66, SteamPipe><258.9109><387.1315><-17~-24, 
+AmbientSounds: SPOT><SO_WAT-MoreDrips.ogg><819.2827><230.6973><0.5><1><509.2827><249.6973><-372.3553><-214.3553><0><1, SPOT><MSC-HeavyCreaking.ogg><820.597><113.1749><0.2173913><0.1586957><970.5969><316.1749><-625.3553><-207.3553><0><1, SPOT><SO_IND-HeatDuct.ogg><825.7065><-1.195221><0.2391304><0.8434783><510.7065><477.8049><-67.35535><-153.3553><0><0.7304349, OMNI><MSC-ShadowAlley.ogg><814.1993><433.233><0.4021739><1, 
+FadePalette: 16, 0.326087
+WetTerrain: OFF

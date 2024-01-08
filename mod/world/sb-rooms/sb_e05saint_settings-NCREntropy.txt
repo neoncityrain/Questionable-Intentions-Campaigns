@@ -1,0 +1,11 @@
+DangerType: Blizzard
+RumbleIntensity: 0
+WaveSpeed: 0.4450492
+WaveLength: 0.8571373
+WaveAmplitude: 0.02515529
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Palette: 26
+Effects: Coldness-1-20-20, 
+PlacedObjects: LocalBlizzard><10.97931><1406.449><400~-1~50~86.60254~1~0.5~0.7608696, LocalBlizzard><920><1484><580~-30~50~86.60254~1~0.5~0.7608696, DeathFallFocus><626.4755><872.0515><, 
+FadePalette: 1, 0.1847826, 0.09782609

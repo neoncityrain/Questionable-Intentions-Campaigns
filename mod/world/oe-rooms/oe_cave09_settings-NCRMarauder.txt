@@ -1,0 +1,14 @@
+Template: OE_SettingsTemplate_Cave
+CeilingDrips: 0
+WaveSpeed: 0.5000778
+WaveLength: 0.9982398
+WaveAmplitude: 0.0003562404
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Palette: 41
+EffectColorA: 9
+Effects: Darkness-0-277-85, DayNight-0.3586957-263-148, AboveCloudsView-1-15-135, 
+PlacedObjects: LanternOnStick><263.3049><473.7045><-31~-132, LanternOnStick><278.6669><444.6398><-45~-103, DayNightSettings><449.0347><486.697><5~8.660254~10~76, 
+AmbientSounds: SPOT><Deep Weird Wind.wav><749.8811><418.599><0.25><1><435.8812><457.599><274.6447><-59.35535><0><0.9478262, OMNI><SO_WAT-ProperDrips.ogg><745.0795><226.0665><0.5><1, OMNI><SO_WAT-MoreDrips.ogg><557.1462><226.4209><0.5><1, 
+FadePalette: 6, 0.5217391, 0.6521739
+WetTerrain: OFF

@@ -1,0 +1,8 @@
+Template: CL_SettingsTemplate_DarkSun
+DangerType: Flood
+CeilingDrips: 0.7391304
+Clouds: 0
+Effects: LightBurn-0.3369565-30-30, Coldness-0-20-20, 
+AmbientSounds: OMNI><AM_ENV-CityTone.ogg><867.6812><651.8347><0.2282609><1, SPOT><AM_ENV-NatWind.ogg><692.0601><610.1873><0.2826087><1><-138.9399><11.18723><361.6447><85.64465><0><0.7086958, SPOT><AM_WIN-SubWnd.ogg><844.6493><429.9228><0.3804348><1><115.6493><696.9228><180.6447><-75.35535><0><0.2956523, 
+FadePalette: 0, 0.3913043
+WetTerrain: OFF

@@ -1,0 +1,14 @@
+Template: SB_SettingsTemplate_Filter
+DangerType: Blizzard
+WaveSpeed: 0.5072333
+WaveLength: 0.8830813
+WaveAmplitude: 0.02470878
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Grime: 0
+Palette: 26
+EffectColorA: 0
+Effects: Coldness-0-20-20, 
+PlacedObjects: BrokenShelterWaterLevel><417.0063><350.5501><, LightFixture><278.7746><446.1985><RedLight~17.32051~-10~100, LightFixture><963.7654><369.8005><RedLight~17.32051~-10~13, SSLightRod><620.0521><320.4709><-26.6795~-238~0.1195652~90~270~0.1404891, SSLightRod><621.1188><419.651><-289.6795~-335~0.1086956~90~319.5652~0.1570766, 
+AmbientSounds: OMNI><AM_SUB-BlankState.ogg><847.6862><644.8104><0.3369565><1, OMNI><AM_ENV-SubTerr.ogg><846.9485><573.6932><0.3478261><1, 
+WetTerrain: OFF

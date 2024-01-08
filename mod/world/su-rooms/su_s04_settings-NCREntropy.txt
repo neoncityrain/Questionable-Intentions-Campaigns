@@ -1,0 +1,4 @@
+DangerType: Flood
+Grime: 0.2065217
+Effects: Coldness-1-30-30, Desaturation-0.3043478-17-77,
+FadePalette: 4, 0.1847826

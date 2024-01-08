@@ -1,0 +1,14 @@
+Template: CL_SettingsTemplate_DarkSun
+DangerType: Flood
+CeilingDrips: 0.5108696
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 2.027556E-06
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+EffectColorB: 13
+Effects: SilenceWater-0.4891304-20-77, HeatWave-0.3586957-277-15, WaterDepth-0.0326087-291-70, Coldness-0-30-30, 
+PlacedObjects: LightFixture><285.6075><319.5814><RedLight~-89.6795~208~43, SteamPipe><482.1317><450.8495><55~-50, SteamPipe><468.9844><453.1994><-14~-56, SteamPipe><593.0938><443.8233><24~-41, SteamPipe><839.1049><353.1124><-51~17, 
+AmbientSounds: OMNI><MSC-Subtundra.ogg><843.9965><642.7><0.3913043><1, OMNI><SO_IND-HeatDuct.ogg><843.1452><567.6124><0.2065217><1.058696, SPOT><SO_IND-FlourLight.ogg><674.5282><598.448><0.2826087><1><297.5282><311.448><-35.35534><-35.35534><0><0.252174, 
+FadePalette: 0, 0.2717391
+WetTerrain: OFF

@@ -1,0 +1,10 @@
+DangerType: None
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+Palette: 30
+Effects: Coldness-0-20-20, DayNight-0-30-30, ElectricDeath-0.3586957-40-40, 
+PlacedObjects: DayNightSettings><2703.938><424.4324><5~8.660254~16~10, 
+AmbientSounds: SPOT><waterGurgleLOOP1.wav><767.1993><438.2336><0.4891304><1><3018.199><643.2335><-246.3553><-120.3553><0><0.6108697, 
+FadePalette: 8, 0.5978261, 0.6195652, 0.6086956
+WetTerrain: OFF

@@ -1,0 +1,11 @@
+CeilingDrips: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 5.605194E-45
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Effects: Coldness-0-30-30, 
+PlacedObjects: BrokenShelterWaterLevel><473.7945><377.195><, 
+AmbientSounds: OMNI><AM_ENV-CityTone.ogg><832.3001><644.744><0.2826087><0.7847826, OMNI><AM_WIN-SubWnd.ogg><651.1884><647.5673><0.2826087><1, 
+FadePalette: 0, 0.2608696
+WetTerrain: OFF

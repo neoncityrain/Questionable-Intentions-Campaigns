@@ -1,0 +1,17 @@
+Template: CL_SettingsTemplate_DarkSun
+DangerType: FloodAndRain
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 5.605194E-45
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.5108696
+EffectColorB: 13
+Effects: Coldness-1-19-72, 
+PlacedObjects: LightSource><391.6599><321.1298><0.09782609~Environment~524~356~50~86.60254~1~1~None~0~0, Corruption><336.9944><589.95><0~100, Corruption><759.8681><545.9004><0~100, Corruption><1427.643><549.36><0~100, Corruption><1643.301><507.4853><0~100, LightFixture><2317.807><322.1982><RedLight~17.32051~-10~18, LightFixture><2839.145><251.3876><RedLight~-196.6795~186~7, SteamPipe><2894.082><206.8916><-58~-24, SteamPipe><2883.283><205.1972><-62~34, LightSource><1536.04><244.8041><0.2173913~Environment~336~416~50~86.60254~1~0~None~0~0, SnowSource><329.6854><244.6893><Radial~-277~145~50~86.60254~0.4782609~1, DeadTokenStalk><1046.378><555.5961><-70~16, DeadTokenStalk><973.4419><441.6936><-25~76, BlueToken><1005.084><498.3617><-37~55~66~-233~1~BrotherLongLegs~White|Yellow|Red|Rivulet|Artificer|Spear|Gourmand|NCREntropy~0~0~0~0, DevToken><212.0026><320.95><-26~-55~0~0~0~~NCREntropy~0~0~0~1, 
+AmbientSounds: SPOT><SO_WAT-OpenFlow.ogg><863.1917><606.307><0.5><1><1370.192><363.307><-325.3553><-39.35535><0><0.4152175, SPOT><SO_WAT-Splashes.ogg><860.8002><485.5085><0.5><1><1377.8><197.5086><-267.3553><-28.35535><0><0.4152175, OMNI><AM_ENV-CityTone.ogg><688.3415><649.6779><0.2282609><1, OMNI><AM_WIN-SubWnd.ogg><691.5327><573.4473><0.3586957><1, SPOT><SO_WAT-ProperDrips.ogg><691.7156><457.553><0.5><1><430.7156><375.553><-316.3553><-206.3553><0><1, SPOT><AM_ENV-NatWind.ogg><864.7189><374.1976><0.4021739><1><2647.719><304.1976><-212.3553><-175.3553><0><1, SPOT><SO_WAT-RunningWater.ogg><857.5506><259.9844><0.5><1><2580.551><258.9844><-129.3553><161.6447><0><0.2847827, SPOT><SO_WAT-Splashes.ogg><873.1984><121.7251><0.5><1><2579.198><247.7251><-89.35535><-102.3553><0><0.1978261, SPOT><SO_IND-HeatDuct.ogg><689.067><337.9384><0.5><1><3123.067><319.9384><-393.3553><-201.3553><0><1, 
+FadePalette: 0, 0.423913, 0.3152174, 0.2282609
+WetTerrain: OFF

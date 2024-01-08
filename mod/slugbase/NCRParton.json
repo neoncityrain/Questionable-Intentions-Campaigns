@@ -1,0 +1,63 @@
+{
+	"id": "NCRParton",
+	"name": "The Viviated",
+	"description": "Corrupted to the core and cruel despite any intentions.<LINE>Living will grow progressively more difficult the longer you survive.",
+	"features": {
+		"color": "23265F",
+		"custom_colors": [
+      { "name": "Body", "story": "8184CF" },
+      { "name": "Eyes", "story": "FFFFFF" },
+	  { "name": "Fluff", "story" : "FFFFFF" },
+	  { "name": "Paws", "story" : "FFFFFF" }
+    ],
+		
+		"NCRParton/partondeath": true,
+		"NCRParton/stickyjump": 0.25,
+		
+		"can_maul": true,
+		"auto_grab_batflies": false,
+		"the_glow": true,
+		"use_default_dreams": false,
+		"timeline_after": "yellow",
+		"world_state": ["NCRParton","Rivulet","White"],
+		"karma": 9,
+		"karma_cap": 9,
+		"food_min": 10,
+		"food_max": 10,
+		
+		"diet": 
+		{
+			"meat": 0.5,
+			"corpses": 1,
+			"plants": -1,
+			"overrides": 
+			{
+				"Fly": 0.25,
+				"EggBugEgg": 1,
+				"FireEgg": 1,
+				"GlowWeed": -1,
+				"LillyPuck": -1,
+				"SlimeMold": 1				
+			}
+		},
+		
+		"alignments": {
+			"Lizards": { "like": -1.0, "strength": 0.7 },
+			"Scavengers": { "like": -0.85 }
+			},
+		
+		"weight": [2.3, 1.7],
+		"tunnel_speed": [1.4, 1.2],
+		"climb_speed": [1.5, 1.7],
+		"walk_speed": [1, 0.9],
+		"throw_skill": [1.5, 3],
+		"loudness": [2, 1.4],
+		"lung_capacity": [1.4, 1.5],
+		
+		"start_room": "OE_S03",
+		
+		"select_menu_scene": "Slugcat_NCRParton",
+		"sleep_scene": "Sleep_NCRParton",
+		"select_menu_scene_ascended": "Ghost_NCRParton"
+	}
+}

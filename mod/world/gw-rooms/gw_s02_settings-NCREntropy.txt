@@ -1,0 +1,10 @@
+Template: GW_SettingsTemplate_Inside
+WaveSpeed: 0.4870554
+WaveLength: 0.8392676
+WaveAmplitude: 0.0308597
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Palette: 9
+Effects: Flies-0-20-20, Coldness-0-30-30, Darkness-0.6195652-40-40, 
+AmbientSounds: SPOT><AM_IND-Utility02.ogg><760.8157><456.3276><0.4347826><1><399.8157><344.3276><-207.3553><-73.35535><0><0.328261, 
+FadePalette: 12, 0.6630435

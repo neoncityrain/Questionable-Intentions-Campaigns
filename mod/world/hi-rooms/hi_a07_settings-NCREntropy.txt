@@ -1,0 +1,19 @@
+Template: HI_SettingsTemplate_Inside
+DangerType: Blizzard
+CeilingDrips: 0
+RainIntensity: 0.2391304
+RumbleIntensity: 0.2065217
+WaveSpeed: 0.4997924
+WaveLength: 0.9998962
+WaveAmplitude: 3.381083E-09
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.04347826
+Grime: 0.2717391
+BkgDroneVolume: 0.2469565
+Palette: 0
+Effects: Coldness-0-20-20, 
+AmbientSounds: SPOT><SO_IND-HeatDuct.ogg><755.5559><336.9518><0.4130435><1><517.5559><243.9518><-35.35534><-35.35534><0><0.2847827, SPOT><SO_IND-HeatDuct.ogg><154.1091><471.0824><0.2717391><0.9217392><252.1091><252.0824><-35.35534><-35.35534><0><0.3173913, 
+Triggers: Spot<tA>event<tB>MusicEvent<eA>songName<eB>RW_91 - Sheer Ice Torrent<eA>vol<eB>0.2456519<eA>prio<eB>0.5<eA>mxThrt<eB>1<eA>loop<eB>0<eA>droneTol<eB>0<eA>rooms<eB>10<eA>rest<eB>5<eA>fadeIn<eB>130.4348<eA>oneSongPerCycle<eB>0<eA>stopAtDeath<eB>0<eA>stopAtGate<eB>0<tA>multiUse<tB>0<tA>toCycle<tB>-1<tA>fromCycle<tB>15<tA>delay<tB>0<tA>panPos<tB>765.9584<tB>464.9456<tA>fireChance<tB>0.5<tA>entrance<tB>-1<tA>karma<tB>0<tA>slugcats<tB><tA>pos<tB>391.9584<tB>110.9456<tA>handlePos<tB>-140.3553<tB>-38.35535, 
+FadePalette: 20, 0.2282609
+WetTerrain: OFF

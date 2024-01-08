@@ -1,0 +1,15 @@
+Template: CL_SettingsTemplate_DarkSun
+DangerType: Rain
+CeilingDrips: 1
+WaveSpeed: 0.51
+WaveLength: 1
+WaveAmplitude: 0.0001
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.2608696
+EffectColorB: 13
+Effects: HeatWave-0.01259066-26-77, LightBurn-0.03866627-30-30, BrokenZeroG-0.2319973-20-20, CorruptionSpores-0.09279881-40-40, 
+PlacedObjects: LightSource><422.1306><1116.401><0.08695652~Environment~-587~447~50~86.60254~1~1~None~0~0, LightSource><548.3563><442.8609><0.09782609~Environment~-458~160~-594~-381.3975~1~0~None~0~0, LightFixture><876.0898><922.6787><RedLight~17.32051~-10~14, LightFixture><211.1721><617.3982><RedLight~17.32051~-10~76, LightFixture><755.8146><119.5751><RedLight~17.32051~-10~0, 
+AmbientSounds: OMNI><MSC-Subtundra.ogg><871.4238><639.0991><0.4021739><1, SPOT><AM_WIN-SubWnd.ogg><878.0622><524.1812><0.3586957><1><475.0622><1237.181><-298.3553><-259.3553><0><1, SPOT><SO_WAT-ProperDrips.ogg><875.0604><414.0637><0.4347826><1><214.0604><309.0637><303.6447><-177.3553><0><0.9369566, SPOT><SO_WAT-OpenFlow.ogg><697.1548><598.9259><0.25><1><-158.8452><1271.926><234.6447><-64.35535><0><0.4913045, SPOT><SO_WAT-Splashes.ogg><700.6735><481.1848><0.2391304><1><-143.3265><1159.185><176.6447><9.644653><0><0.328261, SPOT><SO_IND-FlourLight.ogg><691.8787><342.8411><0.2391304><1><201.8787><631.8411><-35.35534><-35.35534><0><0.2739132, SPOT><SO_IND-FlourLight.ogg><873.3821><294.4001><0.304348><1><898.3821><938.4001><-35.35534><-35.35534><0><0.2739132, SPOT><SO_IND-FlourLight.ogg><706.3334><217.6393><0.2173913><1><750.3334><123.6398><-35.35534><-35.35534><0><0.3500001, 
+FadePalette: 0, 0.1521739, 0.1086956
+WetTerrain: OFF

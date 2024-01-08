@@ -1,0 +1,15 @@
+Template: CL_SettingsTemplate_DarkSun
+DangerType: FloodAndRain
+CeilingDrips: 0.3015963
+WaveSpeed: 0.5004463
+WaveLength: 0.9839075
+WaveAmplitude: 0.003514912
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.25
+BkgDroneVolume: 0
+Effects: LightBurn-0.5217391-26-144, Coldness-1-20-20, 
+PlacedObjects: LightSource><286.3416><201.6221><0.5760869~Environment~43~209~-102~-142.3975~1~0~None~0~0, LightSource><139.0191><447.4491><0.5405924~Environment~112~161~50~86.60254~1~0~None~0~0, LightSource><299.142><386.1091><0.4781189~Environment~9~101~69.99997~189.6026~1~0~None~0~0, CosmeticSlimeMold><869.7322><591.1992><26~-98, LightFixture><885.8303><618.8168><SlimeMoldLight~17.32051~-10~38, LightFixture><757.9359><404.8123><SlimeMoldLight~-193.6795~-185~41, CosmeticSlimeMold><768.5098><426.7077><15~70, SlimeMold><898.5107><607.6997><-236~-161~2~21, InsectGroup><143.5516><104.275><32~97~0~0~RockFlea~0.3996829, 
+AmbientSounds: SPOT><AM_ENV-CityTone.ogg><718.8509><568.1333><0.3152174><1><766.8509><539.1333><-158.3553><-48.35535><0><0.6434784, OMNI><AM_ENV-CityTone.ogg><824.2921><653.3045><0.4021739><0.8630434, 
+FadePalette: 0, 0.2717391
+WetTerrain: OFF

@@ -1,0 +1,6 @@
+Template: SI_SettingsTemplate_Inside
+Palette: 8
+Effects: Coldness-0-30-30, 
+PlacedObjects: BrokenShelterWaterLevel><499.861><176.1438><, 
+AmbientSounds: SPOT><AM_IND-Utility02.ogg><770.7397><385.9497><0.423913><1><727.7397><177.9497><-138.3553><-69.35535><0><0.2847827, 
+FadePalette: 28, 0.4130435

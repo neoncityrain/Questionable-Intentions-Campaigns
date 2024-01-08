@@ -1,0 +1,15 @@
+Template: CL_SettingsTemplate_DarkSun
+DangerType: Rain
+CeilingDrips: 0.6630435
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 5.605194E-45
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.1413043
+EffectColorB: 13
+Effects: HeatWave-0.06002045-24-67, BorderPushBack-1-15-117, LightBurn-0.03866627-30-30, 
+PlacedObjects: LightSource><614.9774><318.6987><0.06521739~Environment~725~390~-485.015~166.5741~1~1~None~0~0, LightSource><1884.115><355.8979><0.06521739~Environment~-615~228~-485.9951~209.6216~1~1~None~0~0, LightSource><2911.67><312.8942><0.2934783~Environment~-90~327~-188~239.6025~1~0~None~0~0, LightFixture><2486.573><20.34253><RedLight~17.32051~-10~81, LightFixture><323.901><46.09001><RedLight~17.32051~-10~96, LightFixture><1544.857><144.3679><RedLight~17.32051~-10~42, LightSource><4325.259><564.4498><0.3152174~Environment~-1208~-461~-491~7.602539~1~0~None~0~0, SuperStructureFuses><2371.551><550.2631><65~50, SuperStructureFuses><2209.74><533.0503><125~70, DangleFruit><1827.575><459.3194><0~0~2~3, 
+AmbientSounds: SPOT><MSC-Subtundra.ogg><875.8158><614.9388><0.4130435><0.2065686><770.8158><381.9388><1276.645><764.6447><0><1, SPOT><AM_ENV-NatWind.ogg><703.6536><620.9253><0.2826087><1><4334.653><655.9253><-1749.355><-446.3553><0><1, SPOT><AM_WIN-HowlingWnd.ogg><491.9396><404.6865><0.2391304><0.7065217><4330.972><724.2045><-400.3553><-190.3553><0><0.7304349, SPOT><SO_IND-FlourLight.ogg><873.4306><496.5859><0.3369563><1><2479.773><-13.41405><-35.35534><-35.35534><0><0.2630436, 
+FadePalette: 0, 0.1630435, 0.2173913, 0.2826087, 0.4782609
+WetTerrain: OFF

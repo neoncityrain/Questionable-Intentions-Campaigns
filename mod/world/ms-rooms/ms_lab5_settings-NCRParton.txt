@@ -1,0 +1,10 @@
+WaveSpeed: 0.4983562
+WaveLength: 0.9692435
+WaveAmplitude: 0.04825793
+SecondWaveLength: 0.1775363
+SecondWaveAmplitude: 0
+Grime: 0.1521739
+Palette: 50
+Effects: LightBurn-0.4130435-261-71, BrokenZeroG-0.4021739-261-129, ElectricDeath-0-261-190, 
+PlacedObjects: SuperStructureFuses><390.699><588.0206><42~125, SuperStructureFuses><931.6086><31.29935><38~157, LightFixture><143.769><373.5509><RedLight~17.32051~-10~78, 
+FadePalette: 13, 0.1521739

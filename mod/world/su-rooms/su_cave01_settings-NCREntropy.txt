@@ -1,0 +1,4 @@
+DangerType: FloodAndRain
+EffectColorB: 6
+Effects: Desaturation-0.3043478-20-75, Coldness-0.5-30-30, 
+FadePalette: 4, 0.3586957

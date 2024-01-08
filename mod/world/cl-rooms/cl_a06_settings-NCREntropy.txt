@@ -1,0 +1,15 @@
+Template: CL_SettingsTemplate_DarkSun
+DangerType: Rain
+CeilingDrips: 0.4782609
+WaveSpeed: 0.51
+WaveLength: 1
+WaveAmplitude: 0.0001
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.3695652
+EffectColorB: 13
+Effects: HeatWave-0.7065217-25-81, 
+PlacedObjects: LightSource><456.6276><161.1541><0.09782609~Environment~-547~494~228~-178.3974~1~1~None~0~0, SteamPipe><176.3904><486.8575><34~-51, SteamPipe><400.1307><242.8395><37~-21, SteamPipe><492.2366><251.8004><-42~-8, LightFixture><616.4418><519.1913><RedLight~17.32051~-10~46, LightFixture><47.31873><103.6878><RedLight~17.32051~-10~80, CentipedeAttractor><447.1173><231.8997><11~116, CosmeticSlimeMold><458.6019><195.0779><-36~177, SlimeMold><528.1592><272.1782><0~0~2~3, SlimeMold><510.3563><235.8306><0~0~2~3, CosmeticSlimeMold2><488.9236><289.3492><8~153, 
+AmbientSounds: OMNI><MSC-Subtundra.ogg><859.0507><645.7666><0.326087><1, SPOT><AM_WIN-SubWnd.ogg><684.3687><609.911><0.423913><1><248.3687><428.911><-106.3553><-164.3553><0><0.4369566, SPOT><SO_WAT-MoreDrips.ogg><859.4147><532.8635><0.1413043><1><581.4147><242.8635><-205.3553><-129.3553><0><0.328261, SPOT><SO_IND-HeatDuct.ogg><855.5919><412.8224><0.1630435><1><288.5919><-43.17761><368.6447><301.6447><0><0.9152175, SPOT><waterGurgleLOOP1.wav><675.7736><487.8014><0.2282609><1><-104.2264><211.8014><302.6447><-98.35535><0><0.3826088, 
+FadePalette: 0, 0.1847826
+WetTerrain: OFF

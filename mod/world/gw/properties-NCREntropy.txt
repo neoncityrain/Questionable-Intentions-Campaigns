@@ -1,0 +1,8 @@
+Palette: 23
+corruptionEffectColor: 1,0,0
+corruptionEyeColor: 1,0,0
+kelpColor: 0, 0.74, 0.71
+waterColorOverride: 0.35, 0.15, 0.15
+pupSpawnChance: 0.35
+Subregion: The Neon City
+GlacialWasteland: 1

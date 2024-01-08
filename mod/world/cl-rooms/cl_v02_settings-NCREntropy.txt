@@ -1,0 +1,13 @@
+DangerType: Flood
+CeilingDrips: 0.4175952
+RainIntensity: 1
+RumbleIntensity: 1
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 5.054383E-22
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Effects: Coldness-1-20-20, FastFloodDrain-0.1391985-30-30, 
+AmbientSounds: OMNI><AM_ENV-CityTone.ogg><829.9454><622.5576><0.2934783><1, OMNI><SO_WAT-ProperDrips.ogg><643.8356><626.6361><0.5><1, SPOT><SO_WAT-Splashes.ogg><745.3165><479.6886><0.4021739><1><299.3165><514.6886><132.6447><-98.35535><0><0.6217393, SPOT><SO_WAT-OpenFlow.ogg><852.1563><352.3234><0.4456522><1><290.1563><654.3234><-35.35534><-35.35534><0><0.404348, 
+FadePalette: 0, 0.2934783
+WetTerrain: OFF

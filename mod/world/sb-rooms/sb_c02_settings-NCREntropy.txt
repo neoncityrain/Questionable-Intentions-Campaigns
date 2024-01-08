@@ -1,0 +1,20 @@
+DangerType: Blizzard
+CeilingDrips: 0.8369565
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 5.605194E-45
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 1
+Grime: 0.1413043
+BkgDroneVolume: 0
+RandomItemDensity: 0.1195652
+RandomItemSpearChance: 0.1456521
+Palette: 27
+EffectColorA: 5
+Effects: FireFlies-0.5217391-27-41, LightBurn-0.3804348-29-96, Coldness-0.2826087-20-20, SilenceWater-1-210-111, GlowingSwimmers-0.4347826-30-30, WaterGlowworm-0.2826087-40-40, MossWater-0.02173913-50-50, Darkness-0.4565217-60-60, Fog-1-70-70, 
+PlacedObjects: Vine><1950.896><515.9658><295~79, Vine><1951.146><562.6304><295~31, Vine><2605.915><408.2034><-44~64, Vine><2503.873><548.5417><-225~7, Vine><2873.509><365.1621><-176~100, Vine><1427.525><469.7194><-35~35, LanternOnStick><2151.621><352.1836><1~-88, LanternOnStick><2176.266><309.3263><-10~-58, WormgrassRect><1437.352><402.7056><3^-1, ColouredLightSource><1258.038><716.0541><378~-334~00FFAC~357^-479~0.5434783~False~0.5~0~0.5~Before~0.9021739~100, LanternOnStick><269.1749><371.8821><17~-127, LanternOnStick><326.3312><314.6979><-14~-71, LanternOnStick><116.3387><343.8113><40~-94, Vine><444.5728><517.1996><255.6167~11.57776, Vine><186.8265><449.7808><255.3281~79.26666, DataPearl><1410.287><41.01306><0~0~0~0~SB_filtration~0, DeadSeedCob><1322.18><390.6015><, DeadSeedCob><1241.85><415.0871><, Mushroom><1474.659><549.8622><0~0~7~19, DangleFruit><1522.618><113.4042><0~0~8~15, DangleFruit><1315.589><81.95137><0~0~2~7, Vine><1288.979><160.523><123~-30, LightSource><1403.751><31.08894><0.3043478~Environment~85~372~50~86.60254~1~0~None~0~0, Vine><2612.563><336.1016><-325~273, Vine><451.7529><511.4678><-254.7021~-64.26666, 
+AmbientSounds: OMNI><AM_ENV-SubTerr.ogg><830.5414><646.9457><0.4021739><1.156522, OMNI><SO_SFX-LakeBottom.ogg><826.7858><564.5532><0.5><1, OMNI><SO_WAT-MoreDrips.ogg><826.3246><488.4355><0.5><1, SPOT><AM_WIN-SubWnd.ogg><830.6945><369.7967><0.5><1><1160.694><523.7967><731.6447><-46.35535><0><1, 
+FadePalette: 16, 0.4565217, 0.3478261, 0.2065217

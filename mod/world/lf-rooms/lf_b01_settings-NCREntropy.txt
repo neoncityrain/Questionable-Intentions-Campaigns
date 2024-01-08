@@ -1,0 +1,8 @@
+Template: LF_SettingsTemplate_Farms
+Palette: 1
+EffectColorA: 7
+EffectColorB: 1
+Effects: LightRain-0.09782609-30-30, Hue-0.1630435-51-89, Desaturation-0.1521739-45-116, Coldness-1-40-40, DarkenLights-0.05434782-199-116, Fog-1-20-20, BorderPushBack-0-50-50, ZeroG-1-60-60, SSSwarmers-0.1086956-70-70, 
+PlacedObjects: GhostSpot><581.0605><1443.559><, CustomDecal><643.9451><1200.058><-9~67~44~80~50~10~-90~-456~0~1~0~ScavMark Ghost~0~0~1~0~0.5~0.3369565~0.5~0.6304348, Rainbow><425.6837><1252.561><-136~200~-352~-73~0,0,0.2826087,0.3804348,0.7826087,0.3369565, PlayerPushback><-1.831818><1561.311><262~-231, PlayerPushback><1374.213><1559.71><-295~-268, PlayerPushback><943.3514><1558.152><-16~-194, PlayerPushback><318.5706><1559.979><48~-166, PlayerPushback><500.4265><1571.818><9~-185, PlayerPushback><734.4042><1562.208><-7~-195, Vine><369.4749><1102.588><482~81, 
+AmbientSounds: OMNI><AM_ENV-LightWind.ogg><646.9356><646.6755><0.3804348><0.9413043, OMNI><AM_ENV-Outside.ogg><833.7><648.9951><0.3695652><0.9217392, SPOT><AM_ENV-WindGrass.ogg><776.0961><412.1754><0.423913><1><744.0961><171.1754><-256.3553><-11.35535><0><0.5673915, 
+FadePalette: 11, 0.1086956, 0.1086956

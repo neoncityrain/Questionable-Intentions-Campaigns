@@ -1,0 +1,6 @@
+Template: SU_SettingsTemplate_Inside
+DangerType: FloodAndRain
+Clouds: 0.09782609
+Effects: Desaturation-0.3152174-30-30, Coldness-1-40-40, 
+PlacedObjects: LightBeam><558.6733><39.93472><-531~629~393~678~40~0~0~0~0.8021738~0~0~1~None~0~0, LightSource><811.5599><536.6908><0.3152174~Environment~-2~47~50~86.60254~1~0~None~0~0, 
+FadePalette: 4, 0.5217391

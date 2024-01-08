@@ -1,0 +1,16 @@
+DangerType: Blizzard
+CeilingDrips: 0
+RainIntensity: 1
+RumbleIntensity: 0
+WaveSpeed: 0.4956355
+WaveLength: 0.9562801
+WaveAmplitude: 0.01150001
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+BkgDroneVolume: 0
+Palette: 26
+EffectColorB: 9
+Effects: Coldness-0-20-20, 
+PlacedObjects: WormgrassRect><306.6619><289.083><10^1, 
+AmbientSounds: OMNI><AM_SUB-BlankState.ogg><832.1908><651.941><0.2717391><1, OMNI><AM_SUB-CaveTone.ogg><656.9767><653.4486><0.3369565><1, 
+FadePalette: 1, 0.4782609

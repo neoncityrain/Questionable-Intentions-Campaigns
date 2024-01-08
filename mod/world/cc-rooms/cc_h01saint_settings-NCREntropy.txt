@@ -1,0 +1,20 @@
+DangerType: Blizzard
+CeilingDrips: 0
+RainIntensity: 1
+RumbleIntensity: 1
+WaveSpeed: 0.4543591
+WaveLength: 0.9771795
+WaveAmplitude: 0.0002572095
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.3043478
+Grime: 0.3804348
+BkgDroneVolume: 0.2869565
+Palette: 0
+EffectColorA: 10
+Effects: Fog-0.4021739-20-20, Flies-0-30-30, Coldness-1-40-40, Dustpuffs-1-50-50, SkyAndLightBloom-0.2010644-60-60, 
+PlacedObjects: SnowSource><865.0397><171.2105><Radial~1274~728~50~86.60254~0.4565217~0.203476, SnowSource><-150.6227><358.592><Radial~1272~-345~50~86.60254~0.4609033~0.1493431, SnowSource><2767.375><337.6563><Radial~-1282~-520~-347~117.6025~0.7276154~0.1261437, SnowSource><2852.892><210.8897><Radial~520.7876~-153.1555~50~86.60254~0.6288041~0.1237322, SnowSource><1233.831><165.5538><Radial~0~100~50~86.60254~0.7680027~0.04639933, SnowSource><1426.648><166.7283><Radial~9.248962~46.66667~50~86.60254~1~0, SnowSource><1339.821><520.4496><Radial~0~100~27.94482~-68.41968~0.5360054~0.2319966, 
+AmbientSounds: SPOT><AM_WIN-StrongWnd2.ogg><779.95><218.5051><0.3695652><1.195652><3483.95><250.5051><-229.3553><32.64465><0><0.8826088, SPOT><AM_WIN-MedWind.ogg><779.332><100.8914><0.2391304><1><5070.332><231.8914><-157.3553><90.64465><0><0.654348, OMNI><AM_ENV-LightWind.ogg><711.424><492.3486><0><1, OMNI><AM_ENV-WinterHum.ogg><712.856><418.0804><0.3152174><1, 
+Triggers: Spot<tA>event<tB>MusicEvent<eA>songName<eB>BM_CC_CANOPY<eA>vol<eB>0.3<eA>prio<eB>1<eA>mxThrt<eB>1<eA>loop<eB>0<eA>droneTol<eB>0<eA>rooms<eB>-1<eA>rest<eB>3<eA>fadeIn<eB>0<eA>oneSongPerCycle<eB>0<eA>stopAtDeath<eB>0<eA>stopAtGate<eB>0<tA>multiUse<tB>0<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>669.1569<tB>404.323<tA>fireChance<tB>1<tA>entrance<tB>-1<tA>karma<tB>0<tA>slugcats<tB><tA>pos<tB>3357.157<tB>254.323<tA>handlePos<tB>-328.3553<tB>-36.35535, 
+FadePalette: 15, 0.7608696, 0.7717391, 0.7717391, 0.7717391, 0.7608696, 0.75, 0.7608696
+WetTerrain: OFF

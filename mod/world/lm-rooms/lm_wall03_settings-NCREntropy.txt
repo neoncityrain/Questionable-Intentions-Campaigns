@@ -1,0 +1,15 @@
+Template: LM_SettingsTemplate_Wall
+DangerType: Blizzard
+RainIntensity: 0.7282609
+RumbleIntensity: 0.5652174
+WaveSpeed: 0.4759173
+WaveLength: 0.9125836
+WaveAmplitude: 0.0363745
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.8369565
+Palette: 35
+Effects: ElectricDeath-0.01086957-261-253, Fog-0.6413044-24-21, GreenSparks-0.02173913-266-199, AboveCloudsView-1-17-134, Coldness-0-30-30, 
+PlacedObjects: DeathFallFocus><625.061><394.8156><, DeadSeedCob><1502.438><600.0598><, DeadSeedCob><1670.699><633.2645><, DeadSeedCob><1547.791><651.0543><, 
+AmbientSounds: SPOT><AM_ENV-WallHum.ogg><840.6641><530.1144><0.4347826><1><2361.664><419.1144><-763.3553><-210.3553><0><0.9152175, OMNI><AM_ENV-CityTone.ogg><664.1885><577.3167><0.2065217><1, SPOT><SO_IND-MechHum03.ogg><649.041><457.5543><0.2391304><1><2366.041><128.5543><-199.3553><-141.3553><0><0.4913045, OMNI><SO_WAT-Splashes.ogg><841.86><449.1071><0.1086956><0.7065217, 
+FadePalette: 6, 0.6739131, 0.6521739

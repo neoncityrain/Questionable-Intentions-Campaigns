@@ -1,0 +1,16 @@
+Template: CL_SettingsTemplate_DarkSun
+DangerType: Rain
+CeilingDrips: 0
+RumbleIntensity: 0.3369565
+WaveSpeed: 0.5003236
+WaveLength: 0.9998382
+WaveAmplitude: 0.002187504
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.2826087
+WaterReflectionAlpha: 0
+Effects: Coldness-1-18-74, Dustpuffs-0-16-132, LightBurn-0.3804348-24-15, WaterDepth-0.05434782-279-15, SilenceWater-0.5-275-69, LightRain-0.1086956-30-30, HeavyRain-0.05434782-40-40, 
+PlacedObjects: LightSource><1409.985><1704.699><0.09782609~Environment~-1570~1252~50~86.60254~1~1~None~0~0, DangleFruit><2125.632><1758.9><0~0~2~3, DangleFruit><612.9785><2652.301><0~0~2~3, DangleFruit><652.1783><2617.409><0~0~1~5, CorruptionTube><1797.308><824.7166><-472~-202, 
+AmbientSounds: OMNI><AM_ENV-NatWind.ogg><869.4029><645.6211><0.25><1, OMNI><AM_ENV-CityTone.ogg><693.6045><643.6128><0.2173913><1, SPOT><AM_WIN-StrongWnd2.ogg><514.3737><603.9072><0.4347826><1><1318.374><1687.907><935.6447><-298.3553><0><1, SPOT><AM_WIN-SubWnd.ogg><700.1521><528.5756><0.4021739><1><2496.152><1753.576><-597.3553><-188.3553><0><0.752174, SPOT><AM_IND-SuperStructure.ogg><873.158><527.6776><0.2065219><1><1175.158><499.6776><416.6447><926.6447><0><0.404348, 
+FadePalette: 0, 0.3804348, 0.3913043, 0.3695652, 0.3695652, 0.3695652, 0.3695652, 0.3695652, 0.3586957
+WetTerrain: OFF

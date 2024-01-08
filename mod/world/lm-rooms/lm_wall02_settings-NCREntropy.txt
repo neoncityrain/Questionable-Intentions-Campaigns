@@ -1,0 +1,15 @@
+Template: LM_SettingsTemplate_Wall
+DangerType: Blizzard
+RainIntensity: 1
+RumbleIntensity: 0.4347826
+WaveSpeed: 0.6349474
+WaveLength: 0.9325263
+WaveAmplitude: 0.03354489
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Palette: 35
+Effects: ElectricDeath-0.01086957-276-85, Fog-0.5326087-30-30, PixelShift-0.5-32-65, AboveCloudsView-1-23-131, Coldness-0-20-20, 
+PlacedObjects: CustomDecal><224.8276><3228.85><-24~164~230~176~254~2~-317~-35~0.5108696~1~0.3913043~OrangeCat~0.4347826~0.3478261~0.4347826~0.3478261~0.4347826~0.3478261~0.4347826~0.3478261, CustomDecal><593.3><1042.755><-18~318~399~313~248~49~-282~-300~0.2826087~1~0~PipeMonsters~0.5~0.08695652~0.5~0.08695652~0.5~0.08695652~0.5~0.08695652, CustomDecal><765.3758><1097.093><-52~216~114~212~224~36~-728~-415~0.3043478~0.8695652~0~BlackRust1~0.9347826~1~0.9347826~1~0.9347826~1~0.9347826~1, CustomDecal><-4.911682><1319.071><-154~86~340~84~328~-8~-8~-320~0.6304348~1~0~Birdy~0.5869565~0.1956522~0.5869565~0.1956522~0.5869565~0.1956522~0.5869565~0.1956522, CustomDecal><277.8><1305.254><2~184~274~182~302~0~305~-584~0.3695652~1~0.4347826~CrudeGrey~0.5869565~0.4782609~0.5869565~0.4782609~0.5869565~0.4782609~0.5869565~0.4782609, DangleFruit><288.13><1870.553><0~0~2~50, DevToken><678.5541><1221.71><20~-79~0~0~0~~~0~0~0~1, 
+AmbientSounds: DIR><AM_ENV-WallHum.ogg><837.7882><552.1963><0.3695652><1><75.96376><0, OMNI><AM_ENV-CityTone.ogg><668.3378><575.1169><0.2065217><1, SPOT><AM_IND-Utility03.ogg><831.1996><430.2617><0.3586957><1><609.1996><2702.262><-204.3553><-159.3553><0><0.4586958, SPOT><AM_IND-Fabrik02.ogg><660.3202><462.1873><0.3369565><1><963.3202><3400.187><-199.3553><-122.3553><0><0.6978262, SPOT><AM_WIN-MedWind.ogg><836.0693><322.4144><0.5><1><-166.9308><3684.414><-350.3553><-517.3553><0><1, OMNI><SO_WAT-Splashes.ogg><664.1357><383.4141><0.1086956><0.7065217, SPOT><AM_IND-Utility02.ogg><841.6943><207.2975><0.3043478><1><442.6943><226.2975><-301.3553><-83.35535><0><0.4586958, 
+Triggers: Spot<tA>event<tB>MusicEvent<eA>songName<eB>BM_UW_UPPERWALL<eA>vol<eB>0.3<eA>prio<eB>0.5869565<eA>mxThrt<eB>1<eA>loop<eB>0<eA>droneTol<eB>0<eA>rooms<eB>-1<eA>rest<eB>5<eA>fadeIn<eB>0<eA>oneSongPerCycle<eB>0<eA>stopAtDeath<eB>0<eA>stopAtGate<eB>0<tA>multiUse<tB>0<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>912.1175<tB>427.3502<tA>fireChance<tB>1<tA>entrance<tB>1<tA>karma<tB>0<tA>slugcats<tB><tA>pos<tB>653.1175<tB>438.3502<tA>handlePos<tB>-222.3553<tB>-148.3553, Spot<tA>event<tB>MusicEvent<eA>songName<eB>BM_UW_UPPERWALL<eA>vol<eB>0.3<eA>prio<eB>0.5869565<eA>mxThrt<eB>1<eA>loop<eB>0<eA>droneTol<eB>0<eA>rooms<eB>-1<eA>rest<eB>5<eA>fadeIn<eB>0<eA>oneSongPerCycle<eB>0<eA>stopAtDeath<eB>0<eA>stopAtGate<eB>0<tA>multiUse<tB>0<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>656.2078<tB>341.5545<tA>fireChance<tB>1<tA>entrance<tB>0<tA>karma<tB>0<tA>slugcats<tB><tA>pos<tB>668.2078<tB>3631.554<tA>handlePos<tB>-261.3553<tB>-197.3553, 
+FadePalette: 6, 0.8043478, 0.7717391, 0.7065217, 0.6847826, 0.6847826

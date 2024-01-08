@@ -1,0 +1,12 @@
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 0
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Palette: 9
+Effects: HeatWave-0-275-23, Fog-0-279-80, Flies-0-17-81, Coldness-0-20-20, 
+PlacedObjects: BrokenShelterWaterLevel><439.198><493.7213><, 
+AmbientSounds: OMNI><AM_IND-Utility02.ogg><837.3013><645.9775><0><1, OMNI><SO_IND-HeatDuct.ogg><819.5117><569.3004><0><1, SPOT><AM_ENV-NatWind.ogg><809.9034><452.3716><0.326087><1><103.9034><493.3716><250.6447><-76.35535><0><0.9804349, 
+FadePalette: 36, 0.326087

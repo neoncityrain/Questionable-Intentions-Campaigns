@@ -1,0 +1,16 @@
+Template: SU_SettingsTemplate_Inside
+DangerType: FloodAndRain
+WaveSpeed: 0.5339395
+WaveLength: 0.9830303
+WaveAmplitude: 0
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.1304348
+Grime: 0.3478261
+Palette: 50
+EffectColorA: 5
+EffectColorB: 5
+Effects: Desaturation-0.2934783-30-30, 
+PlacedObjects: CentipedeAttractor><358.5591><231.0595><-151~233, DangleFruit><397.0182><288.1992><156~282~22~26, DangleFruit><159.8455><327.1231><395~164~9~14, DangleFruit><364.2957><345.3053><190~66~20~23, 
+AmbientSounds: SPOT><SO_IND-Turbine.ogg><761.0931><221.323><0.3586957><0.9217392><255.0931><237.323><157.6447><-64.35535><0><0.4478262, SPOT><SO_IND-Fridge.ogg><733.8184><369.9162><0.2282609><1><213.8184><484.9162><-35.35534><-35.35534><0><0.3500001, 
+FadePalette: 4, 0.6086956

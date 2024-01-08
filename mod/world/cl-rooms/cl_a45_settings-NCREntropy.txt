@@ -1,0 +1,16 @@
+DangerType: Rain
+CeilingDrips: 0.75
+RainIntensity: 1
+RumbleIntensity: 1
+WaveSpeed: 0.51
+WaveLength: 1
+WaveAmplitude: 0.0001
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.3369565
+EffectColorB: 13
+Effects: SilenceWater-0.5978261-20-20, HeatWave-0.7282609-21-72, WaterDepth-0.06521739-24-126, 
+PlacedObjects: LightSource><479.4433><341.9487><0.04347826~Environment~-636~269~-660~97.60254~1~0~None~0~0, Corruption><786.697><627.2841><18~209, Corruption><220.6101><342.3929><0~100, Corruption><242.3522><92.3653><-2~71, LightFixture><182.1213><551.4031><RedLight~17.32051~-10~26, LightFixture><589.1868><178.4398><RedLight~17.32051~-10~80, 
+AmbientSounds: OMNI><MSC-Subtundra.ogg><849.6998><635.7589><0.3804348><1, OMNI><AM_WIN-SubWnd.ogg><674.1812><639.6652><0.3913043><1, SPOT><AM_ENV-CityTone.ogg><846.1867><520.1783><0.2608696><1><1118.187><505.1783><-539.3553><-99.35535><0><1, SPOT><SO_WAT-MoreDrips.ogg><851.1379><404.8948><0.5><1><241.1379><286.8948><17.64465><-362.3553><0><0.7195653, 
+FadePalette: 0, 0.173913
+WetTerrain: OFF

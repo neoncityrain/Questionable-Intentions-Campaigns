@@ -1,0 +1,14 @@
+Template: CL_SettingsTemplate_DarkSun
+DangerType: Rain
+CeilingDrips: 0
+WaveSpeed: 0.4928615
+WaveLength: 0.8002954
+WaveAmplitude: 0.03999174
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+EffectColorB: 15
+Effects: Coldness-1-26-62, Dustpuffs-1-28-113, LightRain-0-30-30, HeavyRain-0.007733221-166.6396-218.4889, 
+PlacedObjects: LightSource><998.947><729.9429><0.06521739~White~-1141~-740~-716~-226.3975~1~1~None~0~0, SnowSource><922.6166><866.7992><Radial~1208~-533~886~-700.3906~0~1, ScavengerOutpost><1027.6><298.6783><42~330~96~-21.00073~0.4031419~2~46, LanternOnStick><757.1603><298.8213><-41~-177, LanternOnStick><1261.382><423.1506><-14~-136, LanternOnStick><1066.449><386.0151><-40~-119, ScavengerTreasury><1385.313><351.409><21.09894~198.6223, CorruptionTube><537.2563><491.4066><399.1282~-188, 
+AmbientSounds: OMNI><AM_ENV-CityTone.ogg><865.3578><645.5815><0.2826087><1, SPOT><AM_WIN-SubWnd.ogg><686.3872><602.5848><0.3152174><1><108.3872><166.6713><415.6447><257.6447><0><1, SPOT><AM_ENV-NatWind.ogg><731.8058><487.558><0.2934783><1><1954.806><656.558><-480.3553><-115.3553><0><1, SPOT><AM_WIN-HowlingWnd.ogg><865.897><372.6144><0.1086956><1><1013.897><860.6144><467.6447><-41.35535><0><0.6217393, 
+FadePalette: 0, 0.6739131, 0.6630435
+WetTerrain: OFF

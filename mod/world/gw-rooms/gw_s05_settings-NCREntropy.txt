@@ -1,0 +1,16 @@
+Template: NONE
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 2.238936E-27
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Grime: 0.2608696
+Palette: 23
+EffectColorA: 4
+Effects: Coldness-0-20-20, Darkness-0.6304348-30-30, 
+PlacedObjects: CorruptionDarkness><457.1><474.1177><34~-8, 
+FadePalette: 33, 0.2391304
+WetTerrain: OFF

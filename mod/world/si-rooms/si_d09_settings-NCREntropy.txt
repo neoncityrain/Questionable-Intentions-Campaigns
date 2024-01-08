@@ -1,0 +1,4 @@
+Effects: Contrast-0.1086956-20-20, Hue-0.9456522-24-70, Desaturation-0.173913-270-65, Darkness-0.3043478-278-16, LightRain-0.4021739-264-115, HeavyRain-0.01086957-30-30, Coldness-0-40-40, 
+PlacedObjects: DandelionPatch><279.5109><1103.45><-3~160, DandelionPatch><347.1329><160.6511><1~101, DandelionPeach><332.733><1124.551><0~0~2~3, DandelionPeach><289.7158><1117.947><0~0~2~3, 
+AmbientSounds: OMNI><AM_ENV-LightWind.ogg><686.054><587.2898><0.2934783><1, 
+FadePalette: 18, 0.326087, 0.25, 0.2173913, 0.1630435

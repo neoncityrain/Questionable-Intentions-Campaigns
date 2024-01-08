@@ -1,0 +1,14 @@
+Template: OE_SettingsTemplate_Ruins
+RainIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 0
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+BkgDroneVolume: 0
+Effects: LightBurn-0.1005322-281-76, Fog-0.3015966-20-138, SkyBloom-0.326087-261-238, DayNight-0.5217391-263-183, LightRain-0-20-20, Coldness-1-30-30, 
+PlacedObjects: Vine><511.9263><1030.406><200~356, Vine><541.7117><1016.304><245~490, Vine><384.3179><928.3326><-177~68, Vine><406.3756><1099.093><-12~348, Vine><655.6989><920.9786><-115~207, Vine><471.3621><1707.084><-162~-145, Vine><470.056><1668.298><158~-97, Vine><472.296><1695.445><325~-206, LightSource><508.5948><2253.658><0.1413043~Environment~-273~-2248~77~-189.3975~1~1~None~0~0, Vine><107.5792><285.0663><164~28, Vine><266.481><126.0509><-142~200, OEsphere><424.3032><371.1928><-55~217~-561~143.6025~10~0.1195652, LightSource><458.7><539.2468><0.08695652~EffectColor1~681~-305~195~153.6025~0~1~None~0~1, DayNightSettings><643.0475><226.6942><5~8.660254~76~10, DeadTokenStalk><525.3475><1554.87><-18~-41, DeadTokenStalk><455.3114><1726.933><11~-60, DeadTokenStalk><521.5223><1692.801><-41~-52, DeadTokenStalk><408.5666><1677.811><31~-72, SnowSource><362.9713><395.4377><Radial~-270.3542~294.1333~50~86.60254~1~0, SnowSource><722.4755><64.19357><Radial~0~100~50~86.60254~1~0, SnowSource><757.6129><792.0322><Radial~-311.6187~242.9333~50~86.60254~1~0, SnowSource><514.7252><907.4042><Radial~-334.3854~136.9778~50~86.60254~1~0, SnowSource><529.2504><1337.312><Radial~-414.7802~258.5778~50~86.60254~1~0, 
+AmbientSounds: OMNI><AM_ENV-Outside.ogg><103.1786><455.9101><0.326087><1, OMNI><AM_ENV-WinterTrees.ogg><111.0734><534.564><0.5217391><1, SPOT><AM_ENV-NatWind.ogg><838.6397><599.6669><0.3695652><1><484.6397><1493.667><-544.3553><-619.3553><0><1, SPOT><AM_WIN-NiceWnd.ogg><837.3203><484.4123><0.423913><1><477.3203><1783.412><-35.35535><-715.3553><0><1, SPOT><AM_WIN-StrongWnd2.ogg><835.5635><367.1896><0.326087><1><493.5635><2234.19><-21.35535><-540.3553><0><1, SPOT><AM_ENV-NatWind.ogg><833.9><245.6323><0.326087><1><501.9><1.632296><64.64465><506.6447><0><0.328261, SPOT><AM_ENV-Pasture.ogg><834.6374><6.604645><0.3586957><1><348.6374><4.604647><502.6447><119.6447><0><1, 
+Triggers: Spot<tA>event<tB>MusicEvent<eA>songName<eB>NA_11 - Reminiscence<eA>vol<eB>0.419565<eA>prio<eB>0.4347826<eA>mxThrt<eB>1<eA>loop<eB>0<eA>droneTol<eB>0<eA>rooms<eB>-1<eA>rest<eB>-1<eA>fadeIn<eB>0<eA>oneSongPerCycle<eB>0<eA>stopAtDeath<eB>0<eA>stopAtGate<eB>0<tA>multiUse<tB>0<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>889.3956<tB>469.1706<tA>fireChance<tB>1<tA>entrance<tB>-1<tA>karma<tB>0<tA>slugcats<tB><tA>pos<tB>476.3956<tB>2046.17<tA>handlePos<tB>89.64465<tB>-274.3553, 
+FadePalette: 40, 0.8119905, 0.841678, 0.7662364
+RoomSpecificScriptActive: ON

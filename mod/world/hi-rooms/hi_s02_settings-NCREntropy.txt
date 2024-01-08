@@ -1,0 +1,15 @@
+Template: NONE
+DangerType: Blizzard
+RainIntensity: 0.173913
+RumbleIntensity: 0.173913
+WaveSpeed: 0.5003881
+WaveLength: 0.9563277
+WaveAmplitude: 0.008695646
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+BkgDroneVolume: 0
+Palette: 0
+Effects: Coldness-0-20-20, 
+PlacedObjects: BrokenShelterWaterLevel><468.0244><253.1985><, 
+AmbientSounds: SPOT><Basic Mech.ogg><720.6788><158.4104><0.1956522><1><472.6788><460.4104><-41.35535><-46.35535><0><0.4478262, 
+FadePalette: 8, 0.2826087

@@ -1,0 +1,9 @@
+DangerType: Rain
+RainIntensity: 0
+RumbleIntensity: 0
+Clouds: 1
+Palette: 9
+Effects: HeatWave-0.06521739-30-30, 
+PlacedObjects: BrokenShelterWaterLevel><499.3615><353.4161><, 
+AmbientSounds: OMNI><AM_ENV-LushNight.ogg><843.4801><499.449><0.1956522><1, OMNI><AM_IND-Utility02.ogg><837.3013><645.9775><0><1, OMNI><SO_IND-HeatDuct.ogg><840.5117><572.3004><0><1, 
+FadePalette: 39, 0.4782609

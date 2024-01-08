@@ -1,0 +1,17 @@
+Template: NONE
+DangerType: Blizzard
+RainIntensity: 0.2282609
+RumbleIntensity: 0.2608696
+WaveSpeed: 0.4997503
+WaveLength: 0.9998752
+WaveAmplitude: 5.871087E-05
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.2282609
+Grime: 0.05434782
+BkgDroneVolume: 0.2869565
+Palette: 0
+Effects: Coldness-0-20-20, SkyAndLightBloom-0.1082654-30-30, 
+PlacedObjects: SnowSource><344.2718><108.3128><Strip~-1.422913~69.42223~50~86.60254~0.6520041~0.5746719, LocalBlizzard><350.9821><658.5668><-7.114624~56.62225~50~86.60254~0.6288047~0.2989356~0.7578576, 
+AmbientSounds: SPOT><AM_IND-Utility02.ogg><723.817><613.4385><0.326087><1><403.817><597.4385><-53.35535><-41.35535><0><0.5130436, OMNI><AM_ENV-LightWind.ogg><751.1393><523.5834><0><1, OMNI><AM_ENV-NatWind.ogg><748.6302><453.4102><0.2608696><1, 
+FadePalette: 8, 0.4565217

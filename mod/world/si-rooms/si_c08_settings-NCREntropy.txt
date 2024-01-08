@@ -1,0 +1,10 @@
+Clouds: 0.2608696
+Grime: 0.2717391
+BkgDroneVolume: 0.2608696
+Palette: 2
+EffectColorA: 10
+EffectColorB: 2
+Effects: LightRain-0.4021739-30-30, Contrast-0.05434782-40-40, Darkness-0.3043478-50-50, Desaturation-0.1847826-60-60, Hue-0.9456522-70-70, SkyDandelions-0-20-20, Coldness-0-80-80, HeavyRain-0.01086957-90-90, 
+PlacedObjects: CustomDecal><-144.0096><-24.44977><-86~783~730~880~670~240~-20~202~0.02173913~1~0~BlackRust1~1~1~0.5434783~1~0~1~0.4891304~1, UniqueDataPearl><801.3054><115.7963><0~0~0~0~SI_chat4~0, DandelionPatch><284.3234><1084.436><18~182, DandelionPatch><679.4456><837.1794><0~100, DeadSeedCob><342.8135><1192.928><, DeadSeedCob><579.1693><1245.894><, DandelionPatch><2906.36><837.1677><1~101, DeathFallFocus><2565.505><1183.45><, DeathFallFocus><1626.885><1192.602><, 
+AmbientSounds: OMNI><AM_ENV-LightWind.ogg><687.6282><589.3465><0.326087><0.8043478, SPOT><AM_IND-Utility02.ogg><725.8702><464.6599><0.3804348><1><125.8703><139.6599><-112.3553><212.6447><0><0.5891306, SPOT><AM_WIN-StrongWnd2.ogg><760.278><220.198><0.2173913><1><1643.278><226.198><-295.3553><103.6447><0><0.654348, 
+FadePalette: 15, 0.2826087, 0.2391304, 0.1413043, 0.2826087, 0.2391304, 0.1413043

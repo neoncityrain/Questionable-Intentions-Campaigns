@@ -1,0 +1,20 @@
+Template: NONE
+DangerType: Blizzard
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 5.605194E-45
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0
+Grime: 0
+BkgDroneVolume: 0
+Palette: 26
+Effects: Coldness-0-20-20, 
+PlacedObjects: CGGravityGradient><526.0521><1701.278><100~50~23^206~0.2173913~1~0.6742402, ClimbablePoleV><529.2106><416.804><0^-4, Corruption><341.6495><2129.97><102~-92, Corruption><350.1823><1958.342><79~-17, Corruption><395.4579><2312.11><-4~77, Corruption><363.9449><2595.104><45~139, Corruption><352.2725><2439.815><10~126, CorruptionTube><353.669><1918.11><242~25, CorruptionTube><598.9732><1944.182><-103~157, CorruptionTube><523.4044><2184.813><67~-48, CorruptionTube><463.9332><2704.428><229~-126, CorruptionTube><354.1159><1598.768><260~131, CorruptionTube><361.7936><1855.492><237~136, CorruptionTube><616.6725><1582.33><-271~219, Corruption><736.428><1893.271><14~60, Corruption><371.2668><354.3701><0~104, CorruptionTube><618.6332><1659.775><-263~380, CorruptionTube><593.5998><1840.251><-122~119, CorruptionTube><505.2657><2047.517><83~325, CorruptionTube><605.019><2435.701><-95~124, CorruptionTube><514.6681><2488.579><177~46, CorruptionTube><365.8407><936.0034><236~235, Corruption><604.4756><1152.119><10~78, CorruptionTube><362.3047><715.5366><241~-61, CorruptionTube><361.439><686.0065><8~338, Corruption><588.5439><1615.055><-3~-79, 
+AmbientSounds: OMNI><AM_ENV-SubTerr.ogg><832.1979><646.2787><0.3586957><1, OMNI><AM_SUB-BlankState.ogg><653.5513><643.8067><0.3695652><1, SPOT><SO_IND-Turbine.ogg><64.53638><506.3033><0.5217391><1><464.5364><2291.303><-303.3553><86.64465><0><0.5673915, SPOT><SO_IND-FlourLight.ogg><241.4064><506.8232><0.2826087><1><474.4064><2916.823><-35.35534><-35.35534><0><0.3391306, SPOT><SO_IND-FlourLight.ogg><244.4585><390.5544><0.2608696><1><374.4585><2610.554><-35.35534><-35.35534><0><0.4152175, SPOT><SO_IND-FlourLight.ogg><253.7352><270.9495><0.2717391><1.03913><549.7352><2587.949><-35.35534><-35.35534><0><0.3608697, SPOT><SO_NAT-LilDrips.ogg><257.0999><150.8267><0.1521739><1><482.0999><301.8267><-145.3553><-65.35535><0><0.4913045, OMNI><Weird Deep Hole.wav><831.1954><564.5576><0.2608696><1, 
+Triggers: Spot<tA>event<tB>StopMusicEvent<eA>songName<eB>NA_27 - Silent Construct<eA>prio<eB>1<eA>type<eB>AllSongs<eA>fadeOut<eB>317.3911<tA>multiUse<tB>1<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>704.8414<tB>219.4279<tA>fireChance<tB>1<tA>entrance<tB>-1<tA>karma<tB>0<tA>slugcats<tB><tA>pos<tB>487.8414<tB>1922.428<tA>handlePos<tB>-182.3553<tB>-71.35535, 
+FadePalette: 1, 0.3152174, 0.3152174, 0.3152174, 0.3152174
+WetTerrain: OFF

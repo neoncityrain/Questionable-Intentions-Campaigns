@@ -1,0 +1,7 @@
+Template: MS_SettingsTemplate_Vents
+RumbleIntensity: 0.9456522
+Clouds: 0.2173913
+Palette: 50
+Effects: Darkness-0.5108696-283-12, LightBurn-0.2282609-275-68, WaterDepth-0.1086956-271-118, BrokenZeroG-0.5-275-171, ElectricDeath-0.09782609-20-19, 
+PlacedObjects: LightSource><340.5168><354.3007><0.3369565~Environment~770~-131~-142~95.60254~1~0~None~0~0, LightFixture><939.6125><391.8547><RedLight~17.32051~-10~11, LightFixture><616.6137><32.14636><RedSubmersible~17.32051~-10~0, 
+FadePalette: 13, 0.02173913

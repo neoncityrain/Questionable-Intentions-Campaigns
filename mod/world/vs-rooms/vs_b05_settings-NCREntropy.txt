@@ -1,0 +1,17 @@
+Template: VS_SettingsTemplate_Sewer
+DangerType: Blizzard
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 5.892894E-13
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.8260869
+Grime: 0
+Palette: 30
+EffectColorA: 10
+EffectColorB: 2
+Effects: Fog-0.09782609-20-20, Coldness-0-30-30, 
+PlacedObjects: LillyPuck><1516.288><225.767><0~0~9~19, 
+FadePalette: 10, 0.5326087, 0.5217391

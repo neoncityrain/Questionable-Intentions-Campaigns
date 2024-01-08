@@ -1,0 +1,15 @@
+Template: MS_SettingsTemplate_Sewers
+DangerType: FloodAndRain
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 5.605194E-45
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.8586956
+Palette: 68
+EffectColorA: 11
+EffectColorB: 8
+Effects: BrokenZeroG-0.02173913-21-137, 
+PlacedObjects: LightFixture><713.9933><617.4499><RedLight~17.32051~-10~73, LightFixture><913.9303><119.4375><RedLight~17.32051~-10~0, LightFixture><145.1534><307.3783><RedLight~17.32051~-10~0, SteamPipe><616.5062><315.0501><-39~-45, SteamPipe><705.3987><220.4224><-36~-21, SteamPipe><705.6987><216.2724><-12~-31, DangleFruit><276.5723><405.1865><0~0~2~3, DangleFruit><259.5385><444.8037><0~0~2~3, DangleFruit><240.3989><363.8274><0~0~2~3, DangleFruit><384.5128><321.1996><0~0~2~3, 
+AmbientSounds: SPOT><SO_IND-HeatDuct.ogg><787.6739><421.5651><0.3478261><1><723.6739><320.5651><-120.3553><-81.35535><0><0.3500001, SPOT><SO_WAT-ProperDrips.ogg><617.8019><425.7778><0.5><1><346.8019><361.7778><-66.35535><-312.3553><0><0.2413045, 
+FadePalette: 51, 0.9130435

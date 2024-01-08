@@ -1,0 +1,15 @@
+DangerType: None
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 5.605194E-45
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.6597373
+Grime: 0.1195652
+Palette: 30
+Effects: Fog-0.06186593-20-20, Coldness-0-24.34793-62.75555, DayNight-0-35.05939-119.6889, ElectricDeath-0.409862-30-30, 
+PlacedObjects: DayNightSettings><-18.50026><1074.266><5~8.660254~16~10, 
+FadePalette: 10, 0.520539, 0.645471

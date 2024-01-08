@@ -1,0 +1,12 @@
+Template: NONE
+DangerType: Flood
+CeilingDrips: 0.9021739
+Clouds: 0.75
+BkgDroneVolume: 0.2769565
+Palette: 33
+EffectColorA: 4
+EffectColorB: 21
+Effects: Desaturation-0.06521739-20-20, Darkness-0.5217391-28-86, Coldness-0-30-30, WaterFluxMinLevel-0.01086957-231-95, WaterFluxMaxLevel-0.01086957-265-43, WaterFluxSpeed-0-193-130, SilenceWater-1-40-40, MossWater-0-50-50, MossWaterRGB-0-467-495-Red:255-Blue:255-Green:0, 
+PlacedObjects: CustomDecal><121.337><829.4301><0~644.9026~730.8896~644.9026~730.8896~0~-267~81~0.326087~1~0~zGWMarks - B07~0.9456522~0~0.8804348~0~1~0.04347826~1~0.06521739, 
+AmbientSounds: OMNI><AM_ENV-LightWind.ogg><832.9372><644.9399><0.2173913><0.9217392, 
+FadePalette: 23, 0.25, 0.25

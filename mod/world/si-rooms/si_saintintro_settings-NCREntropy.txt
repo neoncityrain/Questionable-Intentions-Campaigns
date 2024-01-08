@@ -1,0 +1,11 @@
+WaveSpeed: 0.6382304
+WaveLength: 0.9308848
+WaveAmplitude: 0.001149092
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.3369565
+EffectColorB: 14
+Effects: Desaturation-0.1847826-20-20, Hue-0.9456522-22-73, Darkness-0.3043478-24-126, Contrast-0.05434782-272-23, LightRain-0.4021739-277-75, HeavyRain-0.08695652-30-30, Coldness-0-112-126, SkyDandelions-0-174-167, 
+PlacedObjects: DandelionPatch><1001.08><1125.395><24~76, NoSpearStickZone><1184.296><1061.695><0~100, DandelionPatch><333.3672><81.89951><-5~74, DandelionPatch><646.4182><44.5675><0~100, ReliableSpear><893.4486><215.774><, ReliableSpear><852.0504><221.7636><, ReliableSpear><788.0852><205.6368><, ReliableSpear><414.2247><98.55161><, ReliableSpear><276.4017><92.88031><, ReliableSpear><614.0703><90.83771><, ReliableSpear><656.0796><50.8546><, ReliableSpear><700.421><67.85381><, ReliableSpear><526.2344><95.5506><, ReliableSpear><450.4367><93.67819><, SeedCob><397.1647><220.6366><-118~240~7~10, SeedCob><336.0406><317.5541><-65~231~7~10, DeadSeedCob><290.0927><218.1234><, DeadSeedCob><673.4481><238.0268><, DeadSeedCob><483.2122><242.8036><, 
+AmbientSounds: OMNI><AM_ENV-Outside.ogg><688.9422><583.9447><0.4130435><1, OMNI><AM_ENV-LightWind.ogg><743.1696><519.1439><0.2826087><1, SPOT><AM_IND-Utility03.ogg><745.7552><406.9499><0.3804348><1><98.75525><374.95><109.6447><-70.35535><0><0.3717393, SPOT><SO_IND-FlourLight.ogg><746.6072><270.89><0.3586957><1><137.6072><226.89><164.6447><-42.35535><0><1, SPOT><SO_IND-HeatDuct.ogg><892.8687><367.5992><0.3913043><1><1189.869><490.5992><-124.3553><-213.3553><0><0.3173914, 
+FadePalette: 18, 0.1086956, 0.1630435, 0.2173913

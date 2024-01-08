@@ -1,0 +1,12 @@
+CeilingDrips: 0
+WaveSpeed: 0.5013993
+WaveLength: 0.9993004
+WaveAmplitude: 0.0001739489
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 1
+Palette: 41
+Effects: Bloom-0.2065217-40-40, FireFlies-0-50-50, 
+PlacedObjects: LightSource><414.1394><362.6666><0.3804348~Environment~525~-276~471~-396.3975~1~0~None~0~0, LightSource><414.8413><375.6283><0.09782609~Environment~380~-305~50~86.60254~1~1~None~0~0, 
+FadePalette: 40, 0.6847826
+WetTerrain: OFF

@@ -1,0 +1,9 @@
+Template: GW_SettingsTemplate_Inside
+Clouds: 0.3586957
+BkgDroneVolume: 0
+Palette: 12
+EffectColorB: 18
+Effects: Fog-1-20-20, Bloom-0.2934783-25-79, LightBurn-0.1847826-28-123, Darkness-0.5543478-280-19, RockFlea-0.1847826-286-132, FireFlies-0.1956522-284-78, 
+PlacedObjects: LightSource><510.696><716.7103><0.1304348~Environment~575~-743~-10~-421.3975~1~0~None~0~0, LanternOnStick><411.0007><249.05><-62~-125, DangleFruit><152.5519><413.2773><0~0~2~7, DangleFruit><195.8878><335.395><0~0~2~7, DangleFruit><199.6286><419.0911><0~0~2~7, DangleFruit><822.6159><224.913><0~0~2~6, DangleFruit><848.3329><183.8599><0~0~2~6, DangleFruit><847.3351><247.6367><0~0~2~6, DangleFruit><865.4084><212.5722><0~0~2~6, DangleFruit><880.6597><249.8705><0~0~2~6, 
+AmbientSounds: OMNI><MSC-ShadowGully.ogg><866.5173><644.9492><0.4565217><1, OMNI><SO_WAT-MoreDrips.ogg><869.1735><558.0995><0.5><1, OMNI><waterGurgleLOOP1.wav><869.5854><483.4309><0.5217391><0.8826087, SPOT><Deep Weird Wind.wav><872.4269><373.4068><0.2934781><1.313041><498.4269><-30.59323><73.64465><140.6447><0><0.3608695, OMNI><AM_ENV-CityTone.ogg><693.6639><643.8854><0.3152174><1, 
+FadePalette: 11, 0.5108696

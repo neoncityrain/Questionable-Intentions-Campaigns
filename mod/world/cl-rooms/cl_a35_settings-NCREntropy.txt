@@ -1,0 +1,15 @@
+DangerType: Rain
+CeilingDrips: 0.5217391
+RainIntensity: 1
+RumbleIntensity: 1
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 5.605194E-45
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+EffectColorA: 21
+EffectColorB: 3
+Effects: Coldness-1-20-20, 
+AmbientSounds: SPOT><AM_ENV-NatWind.ogg><754.3254><494.3148><0.2391304><1><964.3254><553.3148><-216.3553><-71.35535><0><0.328261, SPOT><AM_ENV-NatWind.ogg><746.2575><385.3001><0.2826087><1><122.2575><637.3002><33.64465><-150.3553><0><0.2630436, OMNI><AM_ENV-CityTone.ogg><752.5109><610.1997><0.173913><1, SPOT><SO_WAT-MoreDrips.ogg><742.5629><268.6794><0.3152174><1><147.5629><380.6794><298.6447><14.64465><0><1, 
+FadePalette: 0, 0.3586957
+WetTerrain: OFF

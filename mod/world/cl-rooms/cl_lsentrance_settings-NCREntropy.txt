@@ -1,0 +1,15 @@
+Template: CL_SettingsTemplate_DarkSun
+DangerType: Rain
+CeilingDrips: 0.326087
+WaveSpeed: 0.51
+WaveLength: 1
+WaveAmplitude: 0.0001
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.2934783
+EffectColorB: 21
+Effects: HeatWave-0.4021739-20-20, LightBurn-0.6413044-17-87, SilenceWater-0.3913043-14-135, Coldness-0-30-30, 
+PlacedObjects: LightFixture><149.3007><229.7669><RedLight~232.3205~-228~31, LightFixture><835.6548><143.6233><RedLight~17.32051~-10~49, LightFixture><1666.559><482.5588><RedLight~-92.6795~110~27, LightSource><1202.847><222.8707><0.1413043~White~575~337~-239~219.6025~1~0~None~0~0, SteamPipe><1816.319><339.6653><-56~43, SteamPipe><1603.653><619.621><-11~-53, SteamPipe><1250.598><577.5754><-34~-2, SteamPipe><1258.521><593.9489><21~-63, SteamPipe><112.7859><411.4467><53~48, SteamPipe><502.871><385.4092><20~-36, SteamPipe><484.8827><398.3996><-41~-37, SteamPipe><227.7112><397.0538><36~-63, SteamPipe><142.8033><261.0573><-12~53, SteamPipe><165.95><261.2536><78~37, CosmeticSlimeMold2><1675.814><301.0607><10~138, SlimeMold><1691.914><267.3193><0~0~2~3, CosmeticSlimeMold><672.397><271.3859><0~100, LightFixture><671.806><271.5486><SlimeMoldLight~17.32051~-10~84, LightFixture><1656.943><242.551><SlimeMoldLight~17.32051~-10~50, 
+AmbientSounds: OMNI><MSC-Subtundra.ogg><843.4634><638.5533><0.3913043><1, SPOT><SO_WAT-ProperDrips.ogg><853.8791><512.9093><0.5><1><778.8791><309.9093><-280.3553><-40.35535><0><1, SPOT><SO_WAT-MoreDrips.ogg><856.8734><392.5952><0.5><1><1821.873><371.5952><-305.3553><10.64465><0><1, SPOT><AM_WIN-SubWnd.ogg><669.8876><593.3549><0.5><1><1833.888><556.3549><-366.3553><-200.3553><0><0.6760871, 
+FadePalette: 0, 0.1521739, 0.1521739
+WetTerrain: OFF

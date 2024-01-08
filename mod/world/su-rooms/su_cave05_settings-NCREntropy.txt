@@ -1,0 +1,4 @@
+Template: SU_SettingsTemplate_Inside
+Effects: Desaturation-0.4130435-30-30, Coldness-1-40-40, 
+AmbientSounds: SPOT><AM_ENV-LightWind.ogg><757.1162><541.3513><0.326087><1><97.11621><1554.351><289.6447><-434.3553><0><0.3500001, 
+FadePalette: 8, 0.5652174, 0.5869565

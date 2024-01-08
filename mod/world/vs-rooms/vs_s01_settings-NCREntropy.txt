@@ -1,0 +1,13 @@
+DangerType: None
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 0.0045
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Palette: 30
+Effects: Darkness-0.5656024-17-90, Coldness-0-20-20, DayNight-0-30-30, ReplaceEffectColorB-1-241.3427-43.55556-Color-0.2724629-0.2351791-0, 
+PlacedObjects: BrokenShelterWaterLevel><757.8417><84.84628><, DayNightSettings><218.4043><268.6811><5~8.660254~16~10, 
+FadePalette: 22, 0.289957

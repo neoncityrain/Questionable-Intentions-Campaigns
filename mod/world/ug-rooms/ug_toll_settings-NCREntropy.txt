@@ -1,0 +1,14 @@
+DangerType: FloodAndRain
+WaveSpeed: 0.5056365
+WaveLength: 0.9971817
+WaveAmplitude: 0.0004243926
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.8091305
+Palette: 9
+EffectColorA: 2
+EffectColorB: 2
+Effects: SilenceWater-0.5108696-20-135, WaterDepth-0.06521739-281-81, Fog-0.02173913-282-136, Flies-0-20-75, 
+PlacedObjects: LanternOnStick><1033.568><345.9172><49~-168, LanternOnStick><2351.872><302.3415><20~-168, SteamPipe><194.301><524.3066><23~-20, SteamPipe><210.0786><603.3969><21~-27, SteamPipe><402.3661><587.6628><9~-32, SteamPipe><603.4158><587.6118><-19~-36, SteamPipe><607.3235><587.686><13~-17, 
+AmbientSounds: OMNI><AM_ENV-NatWind.ogg><639.3325><564.1407><0.2282609><1, OMNI><AM_IND-Utility02.ogg><837.3013><645.9775><0><1, SPOT><AM_ENV-NatWind.ogg><801.9622><441.9464><0.4565217><1><1428.962><712.9464><53.64465><-518.3553><0><1, 
+FadePalette: 39, 0.3152174, 0.326087, 0.3369565

@@ -1,0 +1,11 @@
+Template: NONE
+Clouds: 0.7391304
+Grime: 0.3913043
+BkgDroneVolume: 0.2769565
+Palette: 33
+EffectColorA: 4
+EffectColorB: 1
+Effects: Flies-0.1304348-20-20, Fog-0.5-22-79, Coldness-0-30-30, LightRain-0.1304348-40-40, 
+PlacedObjects: DangleFruit><328.1791><749.9113><0~0~5~7, CustomDecal><317.457><931.0549><-4~186~117~192~116~-2~-418~-1~0~1~0.4130435~Fear Iterator~0.8152174~0.01086957~0.6413044~0.01086957~0.4456522~0.01086957~0.6956522~0.01086957, DeadTokenStalk><485.6653><352.3188><-28~-48, DeadTokenStalk><481.6951><253.6924><-36~28, DeadTokenStalk><419.5521><219.5286><10~56, LightSource><44.32011><2162.948><0.5~EffectColor2~184~-9~50~86.60254~0~0~None~0~0, LightSource><40.93272><1979.013><0.5~EffectColor2~184~-9~50~86.60254~0~0~None~0~0, LightSource><-42.06728><866.2607><0.5~EffectColor2~184~-9~50~86.60254~0~0~None~0~0, LightSource><-54.06728><523.6943><0.5~EffectColor2~184~-9~50~86.60254~0~0~None~0~0, LightSource><-48.06728><699.6943><0.5~EffectColor2~184~-9~50~86.60254~0~0~None~0~0, 
+AmbientSounds: OMNI><AM_ENV-WinterTrees.ogg><830.2435><653.4499><0.3913043><1, OMNI><AM_ENV-LightWind.ogg><651.8005><656.4855><0.2934783><0.9217392, SPOT><AM_ENV-CricketsWnd.ogg><831.8198><532.1631><0.5><1><812.8198><-17.83679><-225.3553><-59.35535><0><0.8173915, SPOT><AM_ENV-NatWind.ogg><654.9088><534.1216><0.4021739><1><1168.909><2134.122><-708.3553><-176.3553><0><1, 
+FadePalette: 23, 0.8152174, 0.7717391, 0.7065217

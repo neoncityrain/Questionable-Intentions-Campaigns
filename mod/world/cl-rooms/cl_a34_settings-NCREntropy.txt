@@ -1,0 +1,15 @@
+Template: CL_SettingsTemplate_DarkSun
+DangerType: Rain
+CeilingDrips: 0
+WaveSpeed: 0.4863942
+WaveLength: 0.8843074
+WaveAmplitude: 0.02396575
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.1521739
+EffectColorA: 11
+EffectColorB: 24
+Effects: LightBurn-0.1847826-17-16, Coldness-1-18-69, Dustpuffs-0-18-127, HeavyRain-0.100532-30-30, 
+PlacedObjects: ScavengerOutpost><37.89261><44.1098><171~420~49~76~0.6190738~38~59, LanternOnStick><500.1435><324.3893><36~-149, LanternOnStick><437.1525><275.1294><-14~-114, LanternOnStick><284.962><368.8036><18~-179, ScavengerTreasury><212.9227><245.6491><0~100, ScavengerTreasury><447.2657><222.1994><0~100, LightSource><631.7047><793.0301><0.5978264~Environment~611~-502~-654~-206.3975~1~0~None~0~0, ScavengerTreasury><312.1165><253.1489><163~99, Corruption><992.4674><485.7721><-1.422974~52.35556, 
+FadePalette: 0, 0.75
+WetTerrain: OFF

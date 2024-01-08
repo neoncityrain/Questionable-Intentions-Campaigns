@@ -1,0 +1,17 @@
+Template: NONE
+DangerType: FloodAndRain
+WaveSpeed: 0.4230433
+WaveLength: 1
+WaveAmplitude: 0.1087958
+SecondWaveLength: 0.7173913
+SecondWaveAmplitude: 0
+Clouds: 0
+Grime: 0.2391304
+Palette: 39
+EffectColorA: 4
+EffectColorB: 1
+Effects: Coldness-0-30-30, Darkness-0.5-20-20, LavaSurface-1-40-40, WaterDepth-0.2717391-130-119, HeatWave-0.0326087-50-50, 
+PlacedObjects: ExitSymbolShelter><913.1998><269.9436><, NoSpearStickZone><483.6084><243.3913><-147~221, ColouredLightSource><737.1616><121.4294><94.99994~273~FF00FF~-100^91~0.5434783~False~0.5~0~0.5~Always~0~100, CGCosmeticWater><221.8202><-64.91229><478^-139, SteamPipe><546.1578><-53.07248><1~46, SteamPipe><596.4098><-69.37024><-1~47, SteamPipe><418.0737><-68.34448><0~49, 
+AmbientSounds: OMNI><AM_ENV-NatWind.ogg><855.4485><616.4755><0.2391304><1, OMNI><AM_ENV-LushNight.ogg><853.4493><540.0161><0.3152174><0.9413043, 
+FadePalette: 33, 0.8260869
+WetTerrain: OFF

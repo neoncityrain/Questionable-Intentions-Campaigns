@@ -1,0 +1,9 @@
+Template: NONE
+RumbleIntensity: 0
+Clouds: 1
+Grime: 0.1956522
+Palette: 14
+EffectColorA: 9
+EffectColorB: 9
+PlacedObjects: BrokenShelterWaterLevel><496.3025><444.557><, CorruptionDarkness><581.7538><418.7><-113~-103, 
+FadePalette: 8, 0.9565217

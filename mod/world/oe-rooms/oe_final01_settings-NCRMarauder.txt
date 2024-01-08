@@ -1,0 +1,12 @@
+Template: OE_SettingsTemplate_Ruins
+WaveSpeed: 0.4987891
+WaveLength: 0.9979932
+WaveAmplitude: 0.006833191
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Palette: 41
+Effects: LightBurn-0-291-75, SkyAndLightBloom-0.1847826-280-251, Darkness-0.3804348-292-314, DayNight-0.06521739-258-190, LightRain-0-20-20, 
+PlacedObjects: LightSource><960.3027><503.2828><0.3152174~Environment~-620~-515~-440~-172.3975~1~0~None~0~0, LightSource><961.1812><505.0622><0.2608696~Environment~-229~-449~-374~-81.39746~1~1~None~0~0, DayNightSettings><1409.81><547.0638><5~8.660254~76~10, SnowSource><866.0986><245.7279><Radial~76.83746~103.5555~50~86.60254~0.203476~0, SnowSource><938.4796><409.836><Radial~0~100~50~86.60254~0.2034756~0, SnowSource><991.5297><585.0601><Radial~46.95627~-109.0667~50~86.60254~0.1570766~0, 
+AmbientSounds: SPOT><SO_WAT-Splashes.ogg><739.0731><418.8432><0><1><953.073><525.8433><-104.3553><-112.3553><0><0.6217393, SPOT><AM_ENV-LushNight.ogg><743.5708><533.3387><0.4130435><1><1854.571><316.3387><-417.3553><-5.355347><0><0.5673915, SPOT><SO_WAT-Splashes.ogg><562.3969><532.8643><0><1><-119.6031><316.8643><330.6447><-0.3553467><0><0.4913045, OMNI><SO_WAT-Splashes.ogg><118.95><305.7476><0><1, 
+FadePalette: 3, 0.2717391, 0.2608696
+RoomSpecificScriptActive: ON

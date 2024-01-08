@@ -1,0 +1,5 @@
+room: GW_A21
+defaultflip: -1
+radius: 0
+priming: false
+size: 0.25

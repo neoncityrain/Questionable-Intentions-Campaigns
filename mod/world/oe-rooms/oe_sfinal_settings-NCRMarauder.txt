@@ -1,0 +1,13 @@
+Template: OE_SettingsTemplate_RuinsInside
+WaveSpeed: 0.4998346
+WaveLength: 0.9979115
+WaveAmplitude: 0.0001010432
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.2934783
+Palette: 41
+EffectColorB: 10
+Effects: Fog-0-12-134, Desaturation-0-24-81, Contrast-0.0326087-297-15, AboveCloudsView-1-282-258, SkyAndLightBloom-0.6847826-543-261, DayNight-0.6195652-276-204, Coldness-0.1546649-30-30, Moth-0-20-20, 
+PlacedObjects: DayNightSettings><490.9235><359.1848><-66~175.6602~76~10, 
+AmbientSounds: OMNI><AM_ENV-NatWind.ogg><746.3958><613.6368><0.3804348><0.9413043, SPOT><AM_ENV-Pasture.ogg><749.6595><397.3216><0.4347826><1><874.6596><344.3217><-348.3553><-155.3553><0><1, 
+FadePalette: 1, 0.3586957

@@ -1,0 +1,19 @@
+Template: NONE
+DangerType: Blizzard
+CeilingDrips: 0
+RainIntensity: 0.3043478
+RumbleIntensity: 0.2826087
+WaveSpeed: 0.496895
+WaveLength: 0.9642591
+WaveAmplitude: 0.01521739
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.1521739
+Grime: 0.3369565
+BkgDroneVolume: 0.2469565
+Palette: 0
+Effects: Coldness-0-20-20, 
+PlacedObjects: SnowSource><451.5768><349.0653><Radial~665~-403~66~-102.3975~0.4456522~1, LanternOnStick><436.3355><435.3863><23~-127, 
+AmbientSounds: OMNI><AM_IND-Warehouse01.ogg><826.1883><641.9325><0.5><1, OMNI><AM_IND-Utility01.ogg><643.6929><640.5583><0.326087><1, SPOT><SO_WAT-LilDrips.ogg><749.8047><281.3076><0.3043478><1><455.8047><312.3076><-98.35535><-65.35535><0><0.3608697, 
+FadePalette: 20, 0.25
+WetTerrain: OFF

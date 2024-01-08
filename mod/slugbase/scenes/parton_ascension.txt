@@ -1,0 +1,80 @@
+{
+  "id": "Ascension_NCRParton",
+  "slideshow_folder": "scenes/partonascension",
+  "next_process": "Statistics",
+  "music": {
+    "name": "RW_Intro_Theme",
+    "fade_in": 40
+  },
+  "scenes": [
+    {
+      "name": "Swim",
+      "fade_in_start": 0,
+      "fade_out_start": 7,
+      "images": [
+        {"name": "1- swim", "pos": [0,0], "depth": -1, "shader": "Basic"}
+      ],
+      "camera_path": [ [10, 15, 0], [8.7, 5, 0.5] ]
+    },
+    {
+      "name": "See",
+      "fade_in_start": 8,
+      "fade_in_end": 11.25,
+      "fade_out_start": 17,
+      "images": [
+        {"name": "2- see", "pos": [0,0], "depth": -1, "shader": "Basic"}
+      ],
+      "movements": [ [-10,-25], [-2.5,4], [-3,7] ]
+    },
+    {
+      "name": "Another",
+      "fade_in_start": 18,
+      "fade_in_end": 21.25,
+      "fade_out_start": 27,
+      "images": [
+        {"name": "3- another", "pos": [0,0], "depth": -1, "shader": "Basic"}
+      ],
+      "movements": [ [-10,-25], [-2.5,4], [-3,7] ]
+    },
+    {
+      "name": "Invite",
+      "fade_in_start": 28,
+      "fade_in_end": 31.25,
+      "fade_out_start": 37,
+      "images": [
+        {"name": "4- invite", "pos": [0,0], "depth": -1, "shader": "Basic"}
+      ],
+      "movements": [ [-10,-25], [-2.5,4], [-3,7] ]
+    },
+    {
+      "name": "Close",
+      "fade_in_start": 38,
+      "fade_in_end": 41.25,
+      "fade_out_start": 47,
+      "images": [
+        {"name": "5- close", "pos": [0,0], "depth": -1, "shader": "Basic"}
+      ],
+      "movements": [ [-10,-25], [-2.5,4], [-3,7] ]
+    },
+    {
+      "name": "Affection",
+      "fade_in_start": 48.1,
+      "fade_in_end": 51.25,
+      "fade_out_start": 57,
+      "images": [
+        {"name": "6- affection", "pos": [0,0], "depth": -1, "shader": "Basic"}
+      ],
+      "movements": [ [-10,-25], [-2.5,4], [-3,7] ]
+    },
+    {
+      "name": "End",
+      "fade_in_start": 58,
+      "fade_in_end": 61.25,
+      "fade_out_start": 70,
+      "images": [
+        {"name": "7- end", "pos": [0,0], "depth": -1, "shader": "Basic"}
+      ],
+      "movements": [ [-10,-25], [-2.5,4], [-3,7] ]
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+Clouds: 1
+Grime: 0.2475092
+Effects: WaterViscosity-0.5026608-20-20, Coldness-0-30-30, 
+FadePalette: 8, 0.6847826, 0.7065217

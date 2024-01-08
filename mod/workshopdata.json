@@ -1,0 +1,18 @@
+{
+  "Title": "The Entropy Slugcat",
+  "Description": "A little slugpup awakens in a chaotic new place...\r\n[b]This is a custom campaign.[/b] As such, no information is necessary to know before playing.\r\nFor more information, check [url=https://rainworldmods.miraheze.org/wiki/Entropy]Entropy's wiki page[/url]. To see more of its gallery, check [url=https://toyhou.se/23744691.entropy]their Toyhouse[/url].\r\n\n\n- I am not associated with Nyctophobia. Witness and Entropy have (or will have?) a very similar ability; this is not intentional.\n- This campaign is not based on anything but Rain World. I do not know Fallout or Entropy Zero references. They get old very fast, refrain from bringing them up please.",
+  "ID": "neoncityrain.NCREntropy",
+  "Version": "0.2.1",
+  "TargetGameVersion": "v1.9.06",
+  "Requirements": "slime-cubed.slugbase,moreslugcats,regionkit,pom",
+  "RequirementNames": "SlugBase,More Slugcats,Region Kit,POM",
+  "Authors": "NeonCityRain",
+  "Visibility": "Public",
+  "Tags": [
+    "Campaigns",
+    "Custom Slugcat"
+  ],
+  "WorkshopID": 3075403759,
+  "UploadFilesOnly": true,
+  "UploadThumbnail": false
+}

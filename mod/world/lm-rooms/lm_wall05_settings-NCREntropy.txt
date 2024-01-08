@@ -1,0 +1,13 @@
+Template: LM_SettingsTemplate_Leg
+DangerType: Blizzard
+RainIntensity: 0
+RumbleIntensity: 0.2934783
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 1.373093E-17
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 1
+Effects: Fog-0.5869565-283-30, BrokenZeroG-0.4565217-30-80, ElectricDeath-0.5978261-285-85, Lightning-0-30-30, Coldness-0-20-20, 
+PlacedObjects: LightSource><2286.531><397.5524><0.3478261~Environment~0~116~50~86.60254~0~0~None~0~0, LightSource><1814.877><390.5921><0.3695652~Environment~0~116~-302~138.6025~0~0~None~0~0, LightFixture><2990.195><42.70551><DeepProcessing~17.32051~-10~78, LightFixture><2808.098><696.5762><DeepProcessing~17.32051~-10~85, LightFixture><2268.199><194.7548><DeepProcessing~17.32051~-10~51, LightSource><1325.694><388.7029><0.3695652~Environment~10~156~100~-7.397461~0~0~None~0~0, LightSource><611.1445><386.8882><0.3913043~Environment~-14~160~24~86.60254~0~0~None~0~0, 
+FadePalette: 10, 0.7391304, 0.8043478, 0.8695652

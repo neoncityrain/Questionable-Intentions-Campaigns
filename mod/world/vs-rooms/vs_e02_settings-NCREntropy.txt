@@ -1,0 +1,11 @@
+Template: VS_SettingsTemplate_Filter
+DangerType: None
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+Palette: 30
+Effects: DayNight-0-20-20, ElectricDeath-0.6413044-30-30, Coldness-0-40-40, 
+PlacedObjects: DeadTokenStalk><417.0815><1731.567><-37~24, DeadTokenStalk><423.166><1772.862><-44~0, DeadTokenStalk><412.8511><1850.617><-33~-43, DangleFruit><475.6573><1205.378><0~0~2~3, DangleFruit><506.488><1159.7><0~0~2~3, DayNightSettings><1240.449><1990.231><5~8.660254~16~10, 
+AmbientSounds: SPOT><waterGurgleLOOP1.wav><858.0381><454.5536><0.5><1><1657.038><2268.554><-211.3553><-291.3553><0><0.6760871, 
+FadePalette: 20, 0.4456522, 0.4456522, 0.4456522, 0.4456522, 0.25
+WetTerrain: OFF

@@ -1,0 +1,15 @@
+DangerType: None
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5080503
+WaveLength: 0.7424253
+WaveAmplitude: 0.005
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.5434783
+RandomItemDensity: 0
+RandomItemSpearChance: 0
+Palette: 24
+Effects: Darkness-0.1469315-20-20, 
+FadePalette: 12, 0.7758605

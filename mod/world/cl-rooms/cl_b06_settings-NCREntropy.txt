@@ -1,0 +1,16 @@
+DangerType: Rain
+CeilingDrips: 0.7826087
+RainIntensity: 1
+RumbleIntensity: 1
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 3.643376E-44
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Grime: 0
+BkgDroneVolume: 0
+Effects: VoidSpawn-0.2065217-20-20, Coldness-1-20-73, 
+PlacedObjects: CosmeticSlimeMold2><844.6611><433.2928><-54~167, CosmeticSlimeMold><462.0641><527.8105><-67~-98, CosmeticSlimeMold><648.3019><475.0273><23~-95, LightFixture><801.5886><428.3809><SlimeMoldLight~-452.6795~-335.0123~48, LightFixture><454.3196><543.4375><SlimeMoldLight~-418.6795~-226~46, 
+AmbientSounds: SPOT><Weird Deep Hole.wav><833.9169><576.6102><0.1847826><1><507.9169><963.6102><-218.3553><-49.35535><0><0.3934784, SPOT><Weird Deep Hole.wav><738.5601><386.6907><0.1847826><1.03913><475.5601><444.6907><-185.3553><16.64465><0><0.3608697, SPOT><SO_WAT-LilDrips.ogg><18.4101><357.6786><0.1195652><1><88.41846><397.6786><-158.3553><-45.35535><0><0.3934782, SPOT><SO_NAT-LilDrips.ogg><737.8153><267.0768><0.2391304><1><927.8152><417.0768><-161.3553><42.64465><0><0.4695654, OMNI><SO_WAT-DripTap.ogg><638.032><611.0526><0.2391304><1, 
+FadePalette: 0, 0.1086956, 0.1086956
+WetTerrain: OFF

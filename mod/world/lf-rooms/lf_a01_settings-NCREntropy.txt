@@ -1,0 +1,15 @@
+Template: NONE
+DangerType: Flood
+WaveSpeed: 0.5
+WaveLength: 0.75
+WaveAmplitude: 0.04709252
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+BkgDroneVolume: 0.2569565
+Palette: 1
+EffectColorA: 7
+Effects: Hue-0.04347826-5-106, Desaturation-0.1521739-19-112, Coldness-1-5-115, Fog-1-226-182, ZeroG-0.9922668-72-171, WaterFluxMaxLevel-0.3043478-20-20, WaterFluxMinDelay-0.1521739-115-10, WaterFluxSpeed-0.1521739-78-109, BulletRain-0.4565217-30-30, BulletRainFlux-1-40-40, LightRain-0.1237319-50-50, 
+PlacedObjects: NoSpearStickZone><961.155><441.1265><-44~125, NoSpearStickZone><104.3746><628.8435><-1~65, CustomDecal><203.5695><148.0862><0~131~736~148~741~22~-299~84.99998~0.326087~0.3913043~0~JellyFish~0.3478261~0.2934783~0.5108696~0.1630435~0.4021739~1~1~0.3804348, CustomDecal><162.5812><23.85724><-11~297~686~343~724~-31~198~331~0.3043478~0.4782609~0~Rust3~1~1~0.8152174~1~0~1~0.7826087~1, Hazer><431.6849><122.326><0~0~15~35, PlayerPushback><-25.56079><708.4406><135~-113, PlayerPushback><1106.675><563.4022><-163~66, PlayerPushback><193.4498><715.241><8~-109, PlayerPushback><345.3572><714.6099><-1~-109, PlayerPushback><525.1324><720.8999><1~-114, PlayerPushback><659.2986><712.556><0~-113, PlayerPushback><806.3845><718.1633><1~-114, PlayerPushback><1013.116><659.3984><-114~-119, 
+AmbientSounds: OMNI><AM_ENV-Outside.ogg><831.8484><652.0759><0.4673913><0.9021739, OMNI><AM_ENV-LightWind.ogg><656.8224><652.9364><0.423913><0.6869565, 
+Triggers: Spot<tA>event<tB>MusicEvent<eA>songName<eB>RW_49 - Nest in Metal<eA>vol<eB>0.256<eA>prio<eB>0.5<eA>mxThrt<eB>1<eA>loop<eB>0<eA>droneTol<eB>0<eA>rooms<eB>4<eA>rest<eB>5<eA>fadeIn<eB>163.0435<eA>oneSongPerCycle<eB>0<eA>stopAtDeath<eB>0<eA>stopAtGate<eB>0<tA>multiUse<tB>0<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>651.7761<tB>558.1983<tA>fireChance<tB>1<tA>entrance<tB>-1<tA>karma<tB>0<tA>slugcats<tB><tA>pos<tB>495.7761<tB>385.1983<tA>handlePos<tB>-419.3553<tB>-255.3553, 
+FadePalette: 11, 0.09782609

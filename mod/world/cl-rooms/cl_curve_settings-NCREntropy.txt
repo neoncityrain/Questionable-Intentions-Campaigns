@@ -1,0 +1,15 @@
+DangerType: Rain
+CeilingDrips: 0.9381339
+RainIntensity: 1
+RumbleIntensity: 1
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 1.895067E-31
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.3586957
+Effects: LightBurn-0.2065217-20-20, Coldness-0-30-30, LightRain-0.01086957-40-40, 
+PlacedObjects: SnowSource><147.3313><339.3926><Strip~27~162~121~-155.3975~0.5217391~1, LightSource><337.1198><318.3398><0.25~Environment~430~396~118~-90.39746~1~0~None~0~0, DangleFruit><240.0613><484.8164><0~0~2~3, DangleFruit><286.5651><444.9391><0~0~2~3, 
+AmbientSounds: DIR><AM_RAIN-Rumbles.ogg><790.687><548.9291><0><0.7847826><90.19421><0, OMNI><MSC-Subtundra.ogg><789.2864><641.1967><0.2391304><0.6673913, 
+FadePalette: 0, 0.326087, 0.2391304
+WetTerrain: OFF

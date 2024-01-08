@@ -1,0 +1,9 @@
+Template: NONE
+DangerType: Blizzard
+Clouds: 1
+Grime: 0
+BkgDroneVolume: 0
+Palette: 2
+Effects: VoidMelt-0.2065217-20-20, 
+AmbientSounds: OMNI><AM_SUB-BlankState.ogg><775.0836><586.9317><0.4021739><1, OMNI><AM_SUB-MysticCave2.ogg><655.6835><474.0796><0.3152174><1, 
+FadePalette: 26, 0.6521739

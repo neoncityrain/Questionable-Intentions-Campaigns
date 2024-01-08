@@ -1,0 +1,13 @@
+Template: NONE
+DangerType: Rain
+RainIntensity: 0
+RumbleIntensity: 0
+Clouds: 0.8804348
+Grime: 0.07608695
+Palette: 50
+EffectColorA: 9
+EffectColorB: 12
+Effects: SilenceWater-0.6630435-292-141, 
+PlacedObjects: Corruption><404.0532><2414.31><84~-15, Corruption><698.8071><2329.946><-1~61, Corruption><707.3355><2482.807><-69~-47, LightFixture><821.8615><2396.79><RedLight~17.32051~-10~0, LightFixture><275.2043><2074.843><RedLight~17.32051~-10~0, LightFixture><634.0766><1543.85><RedLight~17.32051~-10~55, LightFixture><815.8774><898.6542><RedSubmersible~17.32051~-10~87, LightFixture><952.1591><783.6102><RedSubmersible~17.32051~-10~81, LightFixture><322.6404><137.8958><RedSubmersible~17.32051~-10~0, LightFixture><1015.141><419.892><RedSubmersible~-297.6795~-125~0, SuperStructureFuses><854.1049><990.17><64~75, Corruption><309.4454><151.7066><64~186, Filter><319.4309><159.4867><0~100~59.61755~70.29341~White|Yellow|Red|Rivulet|Artificer|Spear|Gourmand, SteamPipe><301.1126><2223.834><-10~-12, SteamPipe><340.8963><2197.829><7~13, SteamPipe><607.0724><2041.813><-15~-12, SteamPipe><693.9464><2159.192><15~21, SteamPipe><631.8035><2157.037><-14~5, SteamPipe><754.8294><2068.895><13~-28, SteamPipe><703.1466><2059.135><-17~22, SteamPipe><896.9741><2276.801><14~19, SteamPipe><943.8064><2246.05><-8~-18, 
+AmbientSounds: OMNI><SO_WAT-RunningWater.ogg><704.9373><191.5702><0.1413043><0.4326087, OMNI><SO_WAT-TubWater.ogg><708.9369><291.4288><0.173913><0.3347826, 
+FadePalette: 15, 0.2934783, 0.3043478, 0.3043478, 0.3043478

@@ -1,0 +1,9 @@
+Template: VS_SettingsTemplate_Filter
+DangerType: None
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+Palette: 30
+Effects: Coldness-0-20-20, Darkness-0.193331-30-30, ElectricDeath-0.25-40-40, DayNight-0-31-103, 
+PlacedObjects: DayNightSettings><2638.591><1234.128><5~8.660254~16~10, 
+FadePalette: 10, 0.5217391, 0.5217391, 0.5326087, 0.4673913, 0.4565217, 0.4456522

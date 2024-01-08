@@ -1,0 +1,6 @@
+Template: MS_SettingsTemplate_Vents
+CeilingDrips: 0.6521739
+Palette: 50
+Effects: Darkness-0.3152174-276-22, LightBurn-0.1195652-284-81, BrokenZeroG-0.2608696-281-137, ElectricDeath-0.07608695-30-30, 
+PlacedObjects: LightSource><459.9889><435.949><0.09827854~Environment~354~-492~50~86.60254~1~1~None~0~0, SuperStructureFuses><620.3527><226.1716><75~218, LightFixture><299.4985><285.1944><RedLight~-8.679474~-95~68, 
+FadePalette: 35, 0.1304348

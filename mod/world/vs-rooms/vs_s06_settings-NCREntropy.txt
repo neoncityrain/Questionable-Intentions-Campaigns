@@ -1,0 +1,12 @@
+Template: VS_SettingsTemplate_Sewer
+DangerType: None
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+Clouds: 0.7173913
+Palette: 30
+Effects: Coldness-0-20-20, 
+PlacedObjects: DayNightSettings><61.36182><334.9158><5~8.660254~16~10, BrokenShelterWaterLevel><255.0869><206.6158><, 
+AmbientSounds: OMNI><AM_WIN-SubWnd.ogg><724.3123><641.6812><0.2173913><0.8434783, 
+FadePalette: 10, 0.5
+WetTerrain: OFF

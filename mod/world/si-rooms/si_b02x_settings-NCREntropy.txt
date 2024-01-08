@@ -1,0 +1,3 @@
+Effects: Contrast-0.05434782-45-132, Desaturation-0.1956522-299-136, Darkness-0.3043478-296-82, Hue-0.9456522-39-78, LightRain-0.4021739-491-47, SkyDandelions-0-30-30, HeavyRain-0.01086957-40-40, Coldness-0-20-20, 
+PlacedObjects: DeadSeedCob><1810.146><350.8631><, DeadSeedCob><1834.828><323.8988><, DeadSeedCob><624.6057><351.3616><, SeedCob><687.0821><336.8587><0~0~7~10, DandelionPeach><1530.311><236.4404><0~0~4~10, 
+FadePalette: 18, 0.1956522, 0.2282609

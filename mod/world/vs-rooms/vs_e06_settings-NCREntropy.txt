@@ -1,0 +1,17 @@
+Template: VS_SettingsTemplate_Filter
+DangerType: None
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 0.75
+WaveAmplitude: 0.03430947
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.2173913
+Palette: 22
+Effects: Darkness-0.173913-20-20, Coldness-0-30-30, DayNight-0-40-40, ElectricDeath-0.5869565-50-50, 
+PlacedObjects: LightSource><273.3716><1465.403><0.2717391~Environment~439~-460~-366~-182.3975~1~1~None~0~0, LightSource><660.692><894.9414><0.1630435~Environment~-650~388~-133~62.60254~1~1~None~0~0, LightBeam><486.2><812.0038><-542~747~27~743~531~99~-622~219~0.4326087~0.1521739~0~1~None~0~0, LightSource><362.8957><1325.043><0.1413043~Environment~1798~-1362~53~-174.3975~1~0~None~0~0, LightSource><1223.166><386.3618><0.5543478~Environment~514~-245~50~86.60254~1~0~None~0~0, LillyPuck><2018.864><168.4147><0~0~10~25, DangleFruit><1082.629><1215.909><-62~132~2~3, DeadTokenStalk><1384.444><1174.2><-22~58, DeadTokenStalk><1236.036><1197.447><16~42, DeadTokenStalk><1338.056><1204.058><-22~33, DayNightSettings><55.9711><486.7307><5~8.660254~16~10, 
+AmbientSounds: SPOT><AM_ENV-NatWind.ogg><862.1575><453.3733><0.423913><1><311.1575><1514.373><-84.35535><-303.3553><0><1, SPOT><AM_WIN-SubWnd.ogg><685.6711><605.6035><0.5><1><980.6938><758.5236><-397.3553><-266.3553><0><1, 
+FadePalette: 21, 0.8913044, 0.8586956, 0.8152174, 0.7717391, 0.7391304
+WetTerrain: OFF

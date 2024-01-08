@@ -1,0 +1,14 @@
+DangerType: Flood
+WaveSpeed: 0.4986442
+WaveLength: 0.9993221
+WaveAmplitude: 0.04828818
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.09782609
+Grime: 0.2282609
+Palette: 39
+EffectColorA: 2
+Effects: SilenceWater-0.4456522-22-71, WaterDepth-0.06521739-21-129, HeatWave-0.0326087-268-22, 
+PlacedObjects: WaterNut><1589.45><235.2477><0~0~2~3, WaterNut><1607.12><251.4016><0~0~2~3, 
+AmbientSounds: SPOT><SO_WAT-OpenFlow.ogg><848.8434><456.8232><0.2826087><1><525.8434><696.8232><50.64465><-180.3553><0><0.404348, OMNI><SO_WAT-MoreDrips.ogg><655.3406><567.8708><0.5><1, OMNI><AM_IND-Utility02.ogg><837.3013><645.9775><0><1, OMNI><SO_IND-HeatDuct.ogg><857.5117><573.3004><0><1, SPOT><AM_ENV-NatWind.ogg><668.4225><449.1012><0.1847826><1><-12.57751><299.1012><225.6447><-103.3553><0><1, 
+FadePalette: 4, 0.6413044, 0.7282609

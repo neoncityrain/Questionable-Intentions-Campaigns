@@ -1,0 +1,5 @@
+EffectColorA: 5
+EffectColorB: 13
+PlacedObjects: BrokenShelterWaterLevel><390.09><438.37><, 
+AmbientSounds: SPOT><AM_IND-Utility02.ogg><768.4536><459.4445><0.3913043><1><243.4536><275.4445><-221.3553><-94.35535><0><0.4260871, SPOT><SO_WAT-Splashes.ogg><770.5466><346.8055><0.2934783><1><350.5466><176.8055><-88.35535><-72.35535><0><0.3717393, 
+FadePalette: 33, 0.1413043

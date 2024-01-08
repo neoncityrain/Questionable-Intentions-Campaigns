@@ -1,0 +1,33 @@
+Palette: 10
+batDepleteCyclesMin: 2
+batDepleteCyclesMax: 7
+batDepleteCyclesMaxIfLessThanTwoLeft: 3
+batDepleteCyclesMaxIfLessThanFiveLeft: 4
+overseersSpawnChance: 0.2
+overseersMin: 0
+overseersMax: 4
+playerGuideOverseerSpawnChance: 0.7
+Subregion: Shoreline
+Subregion: Grounded God
+earlyCycleChance: 0.08
+earlyCycleFloodChance: 0.08
+Broken Shelters: NCRParton: SL_S11
+Room Setting Templates: Fog, Sewer
+Room_Attr: SL_A08: Salamander-Forbidden,
+Room_Attr: SL_E03: Vulture-Avoid,JetFish-Forbidden,KingVulture-Avoid,
+Room_Attr: SL_F01: Salamander-Avoid,Vulture-Avoid,KingVulture-Avoid,
+Room_Attr: SL_C02: Salamander-Like,
+Room_Attr: SL_F02: Salamander-Like,Vulture-Avoid,KingVulture-Avoid,
+Room_Attr: SL_S05: Salamander-Forbidden,
+Room_Attr: SL_D06: Salamander-Like,
+Room_Attr: SL_D04: Salamander-Like,
+Room_Attr: SL_H02: Salamander-Like,Vulture-Forbidden,KingVulture-Forbidden,
+Room_Attr: SL_H03: Vulture-Avoid,KingVulture-Avoid,
+Room_Attr: SL_A15: Scavenger-Forbidden,
+Room_Attr: SL_AI: Vulture-Forbidden,BigEel-Forbidden,Scavenger-Forbidden,Overseer-Forbidden,KingVulture-Forbidden,
+Room_Attr: SL_C05: Vulture-Forbidden,KingVulture-Forbidden,
+Room_Attr: SL_D01: Vulture-Avoid,KingVulture-Avoid,
+Room_Attr: SL_D03: WhiteLizard-Forbidden,Vulture-Avoid,KingVulture-Avoid,
+Room_Attr: SL_A07: WhiteLizard-Forbidden,
+Room_Attr: SL_B04: WhiteLizard-Like,
+Room_Attr: SL_C06: Vulture-Avoid,KingVulture-Avoid,

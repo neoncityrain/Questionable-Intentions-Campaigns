@@ -1,0 +1,11 @@
+Template: NONE
+DangerType: Rain
+Clouds: 0.3586957
+Palette: 33
+EffectColorA: 4
+EffectColorB: 1
+Effects: Fog-0.4782609-19-73, LightRain-0.3478261-30-30, Coldness-0-41-115, 
+PlacedObjects: CustomDecal><422.4368><833.9397><20~159~391~85~226~-100~353~-175~0.2717391~1~0~HappyCloud~1~0~1~0~1~0~0.1086956~0, DangleFruit><79.58549><479.3862><0~0~2~8, CustomDecal><177.3313><892.1426><-57~484~424~459~356~-111~-319~17~0.5217391~1~0.5543478~ContemplativePig~0.6413044~0.09782609~0.6413044~0~0.6413044~0~0.6413044~0, ClimbablePoleH><113.4132><202.1437><-2^0, ClimbablePoleV><50.72089><555.2352><0^9, SporePlant><414.8186><969.5363><0~0~7~17, CentipedeAttractor><428.6737><1055.638><241~-24, 
+AmbientSounds: OMNI><AM_ENV-WinterTrees.ogg><831.4149><647.3868><0.5434783><0.9413043, SPOT><AM_IND-Utility02.ogg><651.8959><520.6368><0.326087><1><382.8959><185.6368><-198.3553><-198.3553><0><0.3608697, OMNI><AM_ENV-Outside.ogg><656.1536><647.6219><0.5><1, SPOT><AM_ENV-NatWind.ogg><832.9057><526.3745><0.3913043><1><501.9057><1459.375><-212.3553><-219.3553><0><0.752174, SPOT><SO_IND-HVAC.ogg><830.0724><411.658><0.2717391><1><482.0724><597.658><-193.3553><-113.3553><0><0.4478262, SPOT><AM_ENV-LushNight.ogg><657.8024><411.807><0.3586957><1><251.8024><882.807><-154.3553><-89.35535><0><0.328261, 
+Triggers: RegionBump<tA>event<tB>MusicEvent<eA>songName<eB>RW_52 - Garbage Worms<eA>vol<eB>0.2782609<eA>prio<eB>0.6195652<eA>mxThrt<eB>1<eA>loop<eB>0<eA>droneTol<eB>0<eA>rooms<eB>9<eA>rest<eB>5<eA>fadeIn<eB>84.78261<eA>oneSongPerCycle<eB>0<eA>stopAtDeath<eB>0<eA>stopAtGate<eB>0<tA>multiUse<tB>0<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>91.16101<tB>479.3813<tA>fireChance<tB>1<tA>entrance<tB>1<tA>karma<tB>0<tA>slugcats<tB>, 
+FadePalette: 23, 0.3586957, 0.3586957

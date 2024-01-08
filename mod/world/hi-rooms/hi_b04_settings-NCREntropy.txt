@@ -1,0 +1,17 @@
+DangerType: Blizzard
+CeilingDrips: 0
+WaveSpeed: 0.6079468
+WaveLength: 0.9460266
+WaveAmplitude: 0.01199196
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.2173913
+Grime: 0.3695652
+BkgDroneVolume: 0.2469565
+Palette: 0
+Effects: LightBurn-0.06521739-24-80, Coldness-1-20-139, Dustpuffs-1-275-23, Flies-0-20-27, 
+PlacedObjects: SeedCob><150.8717><675.4087><-274~-163~7~10, DeadSeedCob><153.8859><723.6642><, DeadSeedCob><854.8237><225.0944><, CustomDecal><962.0295><229.8022><33~195~-279~194~-315~-1~-334~-438~0.5869565~1~0~Big Tag~0.8586956~0.4347826~1~0.4347826~1~0.4347826~0.423913~0.4347826, CustomDecal><719.095><627.3737><-62~177~227~189~193~-24~395~-437~0~1~0~Fat Tag~0.5~0.2391304~0.173913~0.2391304~0.5~0.2391304~0.1630435~0.2391304, CustomDecal><702.8059><344.5652><-32~373~270~355~267~13~-338~-557~0.4891304~0.75~0~BoxBird~1~0.25~0.5434783~0~0~0~0.5108696~0.1195652, CustomDecal><424.9495><845.4856><0~176.5876~638.367~192.5876~585.367~-17~-517~338~0.6521739~0.7391304~0.04347826~YellowBubbly~0.7717391~0~0.06521739~0~0~0.5652174~0~0.8478261, DeadSeedCob><773.4839><280.2296><, SnowSource><386.1952><346.5436><Radial~796~413~-372~-296.3975~0.6413044~1, SnowSource><351.5806><295.817><Radial~234~187~-335~-149.3975~0.5978261~1, SnowSource><-41.42499><985.9354><Radial~246~113~-50~106.6025~1~0.423913, SnowSource><496.2389><1444.55><Radial~187~20~89~-79.39746~0.9239131~0.7717391, SnowSource><473.3769><1092.092><Radial~138~171~99~187.6025~0.6956522~0.5217391, 
+AmbientSounds: SPOT><AM_IND-Utility02.ogg><874.8892><354.1064><0.4782609><1.48913><1078.889><937.106><-84.35535><-60.35535><0><0.3826088, SPOT><AM_IND-Utility02.ogg><566.0715><295.8403><0.6304348><1.567391><741.0715><1558.841><-44.35535><-46.35535><0><0.252174, SPOT><SO_IND-Fridge.ogg><85.664><208.8645><0.1630435><1><310.664><54.86452><-35.35534><-35.35534><0><0.2413043, SPOT><AM_ENV-NatWind.ogg><300.8099><476.1879><0.4347826><1><333.8099><1293.188><-79.35535><-204.3553><0><0.2956523, OMNI><AM_ENV-LightWind.ogg><830.3755><562.6558><0><1, OMNI><AM_ENV-Outside.ogg><832.3298><640.8949><0><1, OMNI><AM_ENV-WinterTrees.ogg><834.9393><491.6906><0.3369565><1, 
+Triggers: Spot<tA>event<tB>MusicEvent<eA>songName<eB>RW_91 - Sheer Ice Torrent<eA>vol<eB>0.2021737<eA>prio<eB>0.5<eA>mxThrt<eB>1<eA>loop<eB>0<eA>droneTol<eB>0<eA>rooms<eB>6<eA>rest<eB>8<eA>fadeIn<eB>163.0435<eA>oneSongPerCycle<eB>0<eA>stopAtDeath<eB>0<eA>stopAtGate<eB>0<tA>multiUse<tB>0<tA>toCycle<tB>-1<tA>fromCycle<tB>17<tA>delay<tB>0<tA>panPos<tB>624.5659<tB>594.0782<tA>fireChance<tB>0.8043478<tA>entrance<tB>-1<tA>karma<tB>0<tA>slugcats<tB><tA>pos<tB>820.5659<tB>935.0782<tA>handlePos<tB>-123.3553<tB>1.644653, RegionBump<tA>event<tB>MusicEvent<eA>songName<eB>BM_HI_GATE<eA>vol<eB>0.3<eA>prio<eB>0.6086956<eA>mxThrt<eB>1<eA>loop<eB>0<eA>droneTol<eB>0<eA>rooms<eB>-1<eA>rest<eB>5<eA>fadeIn<eB>0<eA>oneSongPerCycle<eB>0<eA>stopAtDeath<eB>0<eA>stopAtGate<eB>0<tA>multiUse<tB>0<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>97.39691<tB>467.3286<tA>fireChance<tB>1<tA>entrance<tB>-1<tA>karma<tB>0<tA>slugcats<tB>, 
+FadePalette: 15, 0.423913, 0.423913
+WetTerrain: OFF

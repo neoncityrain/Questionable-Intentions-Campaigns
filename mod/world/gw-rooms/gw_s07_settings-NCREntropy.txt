@@ -1,0 +1,8 @@
+DangerType: Flood
+CeilingDrips: 0.9021739
+Clouds: 1
+Palette: 9
+Effects: Coldness-0-20-20, Darkness-0.5326087-30-30, Contrast-0.09782609-19-109, 
+PlacedObjects: BrokenShelterWaterLevel><587.7><84.24944><, CustomDecal><607.2762><33.19827><47~188~-140~184~-120~-32~0~0~0.2608696~0.3043478~0.2065217~godofeyes~0.4130435~0.1630435~0.3043478~0.5760869~0.6195652~0.1521739~0.4565217~0.4782609, 
+AmbientSounds: OMNI><AM_ENV-LightWind.ogg><828.85><643.6732><0.2608696><0.823913, OMNI><SO_WAT-LilDrips.ogg><650.6083><644.3912><0.1847826><1, 
+FadePalette: 12, 0.3043478

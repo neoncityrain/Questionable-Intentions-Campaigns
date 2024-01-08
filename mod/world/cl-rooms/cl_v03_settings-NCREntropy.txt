@@ -1,0 +1,16 @@
+DangerType: Rain
+CeilingDrips: 0.185598
+RainIntensity: 1
+RumbleIntensity: 1
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 9.637882E-28
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.1630435
+Grime: 0
+Effects: SilenceWater-0.2410214-20-20, Coldness-1-17-75, HeavyRain-0.03093288-30-30, 
+PlacedObjects: LightSource><438.6991><2523.019><0.2391304~White~713~-764~-515~-326.3975~1~0~None~0~0, LightBeam><444.5145><2061.199><-272~741~141~742~302~-74~-361~-35~0.1065216~1~0.3369565~1~None~0~0, 
+AmbientSounds: OMNI><AM_ENV-NatWind.ogg><828.3275><642.3512><0.1304348><1, OMNI><AM_ENV-CityTone.ogg><830.4373><566.1797><0.2173913><1, SPOT><AM_WIN-SubWnd.ogg><819.6249><451.4061><0.3478261><1><468.6249><2345.406><-207.3553><-181.3553><0><0.6108697, 
+FadePalette: 0, 0.2826087, 0.25, 0.2282609, 0.2065217
+WetTerrain: OFF

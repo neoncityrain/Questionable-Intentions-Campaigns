@@ -1,0 +1,7 @@
+Template: SB_SettingsTemplate_Filter
+RainIntensity: 0
+RumbleIntensity: 0
+Palette: 20
+PlacedObjects: BrokenShelterWaterLevel><371.1999><257.5063><, 
+AmbientSounds: OMNI><AM_SUB-BlankState.ogg><831.3393><631.821><0.3478261><1, 
+FadePalette: 10, 1

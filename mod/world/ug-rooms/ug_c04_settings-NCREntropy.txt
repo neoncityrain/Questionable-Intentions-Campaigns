@@ -1,0 +1,18 @@
+DangerType: Flood
+CeilingDrips: 0
+RainIntensity: 1
+RumbleIntensity: 1
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 1.215766E-05
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Grime: 0.173913
+Palette: 9
+EffectColorA: 18
+EffectColorB: 6
+Effects: RockFlea-0.3695652-297-273, Fog-0-294-222, WaterDepth-0.0326087-288-149, SilenceWater-0.5326087-33-119, FastFloodDrain-0.2065217-20-20, Coldness-0-40-40, HeatWave-0.25-30-30, 
+PlacedObjects: UniqueDataPearl><460.1597><1766.12><266~-29~0~0~Misc~0, InsectGroup><452.2013><1808.194><1~115~0~0~RockFlea~1, InsectGroup><455.8656><1929.663><-3~125~0~0~RockFlea~1, 
+AmbientSounds: SPOT><AM_ENV-LushNight.ogg><830.7338><454.3007><0.423913><1><450.7338><127.3007><483.6447><554.6447><0><1, OMNI><SO_IND-HeatDuct.ogg><857.5117><573.3004><0.1521739><1, OMNI><AM_IND-Utility02.ogg><837.3013><645.9775><0><1, SPOT><AM_ENV-NatWind.ogg><823.9464><336.0376><0.3152174><1><38.94641><2280.038><143.6447><-72.35535><0><1, 
+FadePalette: 39, 0.3913043, 0.5326087, 0.6739131
+WetTerrain: OFF

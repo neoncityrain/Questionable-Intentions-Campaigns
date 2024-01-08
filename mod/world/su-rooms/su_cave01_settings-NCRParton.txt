@@ -1,0 +1,7 @@
+DangerType: FloodAndRain
+Palette: 50
+EffectColorA: 9
+EffectColorB: 9
+Effects: Desaturation-0.3043478-20-75, 
+PlacedObjects: DangleFruit><210.3367><478.6346><0~0~2~3, DangleFruit><243.3143><447.6755><0~0~2~3, DangleFruit><638.3671><511.6005><0~0~2~3, DevToken><523.5842><415.3619><-15~-57~44~-129~0~~White|Yellow|Red|Rivulet|Artificer|Saint|Gourmand~0~0~0~1, 
+FadePalette: 4, 0.3586957

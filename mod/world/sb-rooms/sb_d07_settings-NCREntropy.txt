@@ -1,0 +1,17 @@
+Template: NONE
+DangerType: Blizzard
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 5.605194E-45
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Grime: 0
+BkgDroneVolume: 0
+Palette: 26
+EffectColorA: 19
+Effects: Coldness-0-30-30, Fog-0.2282609-20-20, 
+PlacedObjects: Vine><30.55247><2698.688><374~228, BlinkingFlower><236.0485><2785.874><, BlinkingFlower><173.7389><2696.868><, BlinkingFlower><261.614><2761.024><, Vine><705.0181><2643.889><-350.5458~268.8, Vine><933.073><2815.061><-145~68, Vine><352.3509><2501.066><238~-62, Vine><27.51205><2799.175><446~127, Vine><214.5367><2512.106><-183~155, Vine><616.524><2790.282><-410~137, Vine><608.8521><2743.067><-255.3583~-260.7111, Vine><9.538422><2812.311><146~126, Vine><616.8964><2801.278><-117~119, BlinkingFlower><475.6125><2770.632><, Vine><227.8704><526.8059><374~93, ClimbablePoleV><478.4514><2304.462><0^-100, Vine><312.6211><378.8941><159~103, ColouredLightSource><776.0784><233.4142><-746~-206~2CFFFF~-253^98~0.2717391~False~0.5~0.05434782~0.6413044~Always~0~100, Vine><333.107><2038.072><355~-210, Vine><279.363><1842.417><409~-18, LanternOnStick><393.0271><1824.681><-138~-83, LanternOnStick><529.3802><2045.953><104~-129, LanternOnStick><427.201><2389.241><-103~-83, LanternOnStick><593.582><1197.474><108~-49, LanternOnStick><385.0784><850.7644><-98~-140, Vine><-5.258026><2740.659><616.8344~151.911, 
+AmbientSounds: OMNI><AM_ENV-SubTerr.ogg><829.3618><647.6055><0.4347826><1, OMNI><AM_SUB-BlankState.ogg><647.0673><649.1686><0.2717391><1, 
+FadePalette: 16, 0.2608696, 0.4347826, 0.75, 0.9456522

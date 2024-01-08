@@ -1,0 +1,11 @@
+Template: VS_SettingsTemplate_Sewer
+DangerType: None
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+Clouds: 0.7293363
+Palette: 30
+Effects: Coldness-0-24.30835-117.4667, DayNight-0-20-20, ElectricDeath-0.5258605-31.42294-57.73333, 
+PlacedObjects: DayNightSettings><-39.1416><1105.353><5~8.660254~16~10, 
+AmbientSounds: SPOT><SO_WAT-Splashes.ogg><728.3713><520.5969><0.3478261><1><599.3713><292.5969><-166.3553><-150.3553><0><0.2304349, SPOT><SO_WAT-OpenFlow.ogg><731.3688><400.4109><0.4021739><0.9413043><605.3688><459.4109><-115.3553><-194.3553><0><0.2413045, 
+FadePalette: 10, 0.5652174, 0.5869565

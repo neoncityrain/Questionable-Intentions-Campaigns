@@ -1,0 +1,6 @@
+Template: VS_SettingsTemplate_Sewer
+Clouds: 1
+Effects: Fog-0.6521739-20-20, 
+PlacedObjects: WaterNut><461.6904><624.5613><0~0~2~3, WaterNut><488.6375><636.3547><0~0~2~3, WaterNut><756.5345><631.303><0~0~2~3, 
+AmbientSounds: SPOT><SO_WAT-Splashes.ogg><730.8642><521.1642><0.2608696><1><342.8642><-36.83582><-251.3553><-63.35535><0><0.3173914, OMNI><AM_WIN-HowlingWnd.ogg><556.6553><566.6761><0.3043478><0.8043478, 
+FadePalette: 10, 0.5326087, 0.5217391

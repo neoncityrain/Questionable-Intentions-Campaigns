@@ -1,0 +1,11 @@
+Template: MS_SettingsTemplate_Vents
+RumbleIntensity: 0.8586956
+Clouds: 1
+Grime: 0.4347826
+WaterReflectionAlpha: 1
+Palette: 50
+Effects: Darkness-0.1304348-288-7, BrokenZeroG-0.3586957-282-62, ElectricDeath-0.1195652-27-18, 
+PlacedObjects: LightFixture><71.0627><958.7831><RedLight~17.32051~-10~0, LightFixture><841.085><584.7818><RedLight~17.32051~-10~0, LightFixture><549.0969><140.8365><RedLight~17.32051~-10~0, LightFixture><-3.959305><534.4769><RedLight~17.32051~-10~0, LightFixture><82.4557><1604.444><RedLight~17.32051~-10~32, LightFixture><735.0508><1091.286><RedLight~17.32051~-10~88, 
+AmbientSounds: SPOT><SO_SFX-Heartbeat1.ogg><812.3322><82.35883><0.7391304><0.4326087><372.3322><-12.64117><224.6447><473.6447><0><0.9913045, SPOT><SO_WAT-MoreDrips.ogg><817.0989><237.119><0.423913><1.195652><336.1096><420.1166><-554.3553><-386.3553><0><1, 
+FadePalette: 45, 0.326087, 0.2065217, 0.09782609, 0.04347826
+WetTerrain: OFF

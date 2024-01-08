@@ -1,0 +1,11 @@
+Template: NONE
+DangerType: Flood
+CeilingDrips: 0.9021739
+Clouds: 0.75
+Palette: 32
+EffectColorA: 4
+EffectColorB: 1
+Effects: Desaturation-0.3043478-20-20, Coldness-0-30-30, Darkness-0.4891304-40-40, LethalWater-0-50-50, LavaSurface-0-60-60, MossWater-0-70-70, MossWaterRGB-0-460-463-Red:255-Blue:255-Green:0, 
+PlacedObjects: CustomDecal><130.5215><302.5511><0~618~713~618~713~0~-263~-196~0~0.02173913~0.3369565~zGWMarks - C05b~0.7065217~0.1956522~0.9130435~0.3695652~0.8152174~0.1521739~0.6739131~0.05434782, ExitSymbolHidden><549.2892><327.6765><, Shroud><532.4034><226.1216><0;0^469;-5^464;114^11;100, 
+AmbientSounds: OMNI><AM_ENV-LightWind.ogg><820.924><649.3488><0.2717391><0.7065217, OMNI><SO_WAT-LilDrips.ogg><643.5258><650.1984><0.2934783><1, 
+FadePalette: 23, 0.3043478

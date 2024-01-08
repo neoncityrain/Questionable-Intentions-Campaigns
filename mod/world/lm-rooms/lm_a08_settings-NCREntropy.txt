@@ -1,0 +1,21 @@
+Template: NONE
+DangerType: Blizzard
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0.07608695
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 5.72994E-17
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 1
+Grime: 0.326087
+BkgDroneVolume: 0.2769565
+Palette: 10
+EffectColorB: 6
+Effects: Coldness-0-30-30, WaterFluxSpeed-0.05434782-212-142, Darkness-0.7391304-205-245, 
+PlacedObjects: ProjectedImagePosition><812.381><313.4011><, CustomDecal><235.6793><61.9371><47~667~-122~649~-103~-14~-310~-222~0.02173913~1~0~Rust2~1~0.3152174~1~0.3152174~0~0.3152174~0~0.3152174, InsectGroup><384.6724><278.0657><2~79~-322~49~RockFlea~0.2065217, InsectGroup><681.3696><279.9016><-42~84~-221~141~RockFlea~0.3913043, 
+AmbientSounds: OMNI><AM_IND-Utility02.ogg><738.68><455.5872><0.3804348><1, SPOT><SO_WAT-LilDrips.ogg><272.0547><63.19235><0.2608696><1><222.0547><278.1924><-108.3553><-58.35535><0><0.3173914, SPOT><SO_NAT-LilDrips.ogg><813.0503><122.7387><0.4021739><1><646.0503><283.7387><-65.35535><-50.35535><0><0.3826088, SPOT><Basic Mech.ogg><615.8796><604.4097><0.2282609><1><306.8796><561.4097><-111.3553><-35.35535><0><0.3065219, SPOT><waterGurgleLOOP1.wav><50.29999><412.0021><0.2173913><1><27.29999><634.0021><-126.3553><-47.35535><0><0.1652174, 
+Triggers: Spot<tA>event<tB>ShowProjectedImageEvent<eA>afterEncounter<eB>0<eA>fromCycle<eB>0<eA>onlyWhenShowingDirection<eB>0<tA>multiUse<tB>1<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>711.8048<tB>497.5436<tA>fireChance<tB>1<tA>entrance<tB>-1<tA>karma<tB>0<tA>slugcats<tB><tA>pos<tB>339.8048<tB>297.5436<tA>handlePos<tB>-159.3553<tB>-94.35535, 
+FadePalette: 25, 0.6956522
+WetTerrain: OFF

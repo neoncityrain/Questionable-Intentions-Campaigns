@@ -1,0 +1,16 @@
+Template: NONE
+DangerType: FloodAndRain
+WaveSpeed: 0.5
+WaveLength: 0.75
+WaveAmplitude: 0.04984286
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.5760869
+Palette: 23
+EffectColorA: 4
+EffectColorB: 0
+Effects: Fog-0.4891304-19-73, Coldness-0-30-30, LightRain-0.1413043-40-167, WaterFluxSpeed-1-249-293, WaterFluxMinLevel-0.01086957-295-111, WaterFluxMaxLevel-0.0326087-294-38, MossWater-0-20-20, MossWaterRGB-0-472-551-Blue:255-Red:255-Green:0, LethalWater-0.01086957-40-40, SilenceWater-0.4673913-50-50, LavaSurface-0-60-60, 
+PlacedObjects: CustomDecal><183.8468><239.6214><-187~463~402~459~555~10~-305~-581~0.5869565~1~0~BigGreen~0.5543478~0.1086956~0.7065217~0.09782609~0.8369565~0~0.5869565~0.1086956, CustomDecal><142.8673><481.162><46~355~473~402~511~-31~-107~-750~0.4891304~1~0.06521739~Actual Vertical Pink~1~0.1195652~1~0~1~0~1~0, PlayerPushback><2057.947><693.0368><-187~-87, Corruption><1060.718><100.5352><149~32, ExitSymbolHidden><1698.738><101.3509><, Corruption><1997.983><636.1144><-252~-94, CorruptionTube><1016.731><271.6033><118~-169, Corruption><1183.252><91.82033><0~100, CorruptionTube><1860.751><316.5721><71~82, CorruptionTube><1932.476><496.8548><-223~-182, LightSource><-29.61403><213.5658><0.5~EffectColor2~145~35~50~86.60254~0~0~None~0~0, LightSource><-22.80666><525.8929><0.5~EffectColor2~231~-12~74~15.60254~0~0~None~0~0, LightSource><-19><709><0.5~EffectColor2~231~-12~74~15.60254~0~0~None~0~0, LightSource><2108.075><503.2695><0.5~EffectColor2~-262~-22~50~86.60254~0~0~None~0~0, 
+AmbientSounds: OMNI><AM_ENV-WinterTrees.ogg><831.4149><647.3868><0.5434783><0.9413043, OMNI><AM_ENV-Outside.ogg><656.1536><647.6219><0.5><1, SPOT><SO_IND-HVAC.ogg><828.0724><525.658><0.3369565><1><-171.9276><418.658><-193.3553><-113.3553><0><0.4478262, SPOT><AM_ENV-LightWind.ogg><654.3002><531.0564><0.3152174><1><1395.301><711.0564><-239.3553><-277.3553><0><0.4586958, SPOT><AM_IND-Utility02.ogg><818.6567><409.0731><0.5><1><2096.657><374.0731><-174.3553><-95.35535><0><0.7739132, SPOT><SO_IND-Boiler.ogg><650.338><399.6796><0.2173913><1><860.3379><11.67963><-124.3553><-170.3553><0><0.404348, 
+Triggers: RegionBump<tA>event<tB>MusicEvent<eA>songName<eB>RW_52 - Garbage Worms<eA>vol<eB>0.2782609<eA>prio<eB>0.6195652<eA>mxThrt<eB>1<eA>loop<eB>0<eA>droneTol<eB>0<eA>rooms<eB>9<eA>rest<eB>5<eA>fadeIn<eB>84.78261<eA>oneSongPerCycle<eB>0<eA>stopAtDeath<eB>0<eA>stopAtGate<eB>0<tA>multiUse<tB>0<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>91.16101<tB>479.3813<tA>fireChance<tB>1<tA>entrance<tB>1<tA>karma<tB>0<tA>slugcats<tB>, 
+FadePalette: 33, 0.3913043, 0.3913043

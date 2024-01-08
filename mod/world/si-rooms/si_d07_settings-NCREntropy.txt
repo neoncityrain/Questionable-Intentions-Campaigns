@@ -1,0 +1,4 @@
+Effects: Flies-0.1086956-38-126, Hue-0.9565217-20-20, Contrast-0.05434782-30-30, Darkness-0.3043478-40-40, Desaturation-0.1847826-321-71, LightRain-0.2065217-334-16, HeavyRain-0.01086957-50-50, SkyDandelions-0-60-60, Coldness-0-70-70, 
+PlacedObjects: InsectGroup><234.8309><361.1829><-120~316~0~0~StandardFly~0.3913043, InsectGroup><871.5719><408.591><-78~277~0~0~StandardFly~0.2173913, InsectGroup><2163.813><470.6898><-164~259~0~0~StandardFly~0.3804348, InsectGroup><949.8977><1278.578><-73~108~0~0~Wasp~0.1086545, NeedleEgg><2112.569><1224.938><-20~-344~4~9, Filter><2068.138><1173.105><0~100~26~-214~White|Yellow|Rivulet, NeedleEgg><1560.691><1311.309><0~0~4~9, Filter><1561.327><1346.315><0~100~0~41~White|Yellow|Rivulet, 
+AmbientSounds: OMNI><AM_ENV-LightWind.ogg><657.0612><645.934><0.3369565><1, DIR><AM_ENV-Outside.ogg><754.2889><477.4462><0.4456522><1><169.7449><0, 
+FadePalette: 18, 0.06521739, 0.06521739, 0, 0

@@ -1,0 +1,15 @@
+DangerType: FloodAndRain
+CeilingDrips: 0.8043478
+RainIntensity: 1
+WaveSpeed: 0.5543478
+WaveLength: 1
+WaveAmplitude: 0.0326087
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.2717391
+Grime: 0.4130435
+WaterReflectionAlpha: 0.75
+Palette: 0
+Effects: Brightness-0-19-123, Desaturation-0.3152174-21-70, LightRain-0.06521739-276-123, Coldness-1-30-30, 
+PlacedObjects: LightBeam><353.6449><263.1702><-594~564~-297~562~41~4~-124~244~0.09565204~0~0~1~None~0~0, LightSource><182.8221><143.3414><0.3369565~Environment~-129~21~-75~195.6025~1~1~None~0~0, LightSource><563.5514><139.7736><0.2934783~Environment~-18~122~50~86.60254~1~1~None~0~0, DangleFruit><484.09><606.37><0~0~2~3, Mushroom><272.87><127.59><0~0~2~3, LightSource><-61.1579><748.1227><0.5108696~Environment~126~-112~50~86.60254~1~0~None~0~0, UniqueDataPearl><179.1062><113.139><-115~98~0~0~SU_filt~0, NoSpearStickZone><8.139893><384.417><-6~236, 
+FadePalette: 4, 0.3152174

@@ -1,0 +1,8 @@
+Clouds: 0.5869565
+Grime: 0.1847826
+Palette: 10
+EffectColorA: 9
+EffectColorB: 9
+PlacedObjects: PuffBall><49.80017><238.4914><0~0~2~5, PuffBall><112.1552><214.6262><0~0~2~5, PuffBall><556.1666><219.3893><0~0~2~5, PuffBall><589.8148><184.5754><0~0~2~5, 
+AmbientSounds: OMNI><AM_ENV-Outside.ogg><822.7051><641.1949><0.3152174><1, OMNI><AM_ENV-LightWind.ogg><645.0795><641.3165><0.2826087><1, OMNI><SO_WAT-ProperDrips.ogg><830.4429><565.0529><0.2826087><1, 
+FadePalette: 12, 0.3913043

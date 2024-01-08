@@ -1,0 +1,16 @@
+Template: CL_SettingsTemplate_DarkSun
+DangerType: Rain
+CeilingDrips: 0.05413254
+WaveSpeed: 0.536815
+WaveLength: 0.7746157
+WaveAmplitude: 0.04198504
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.02173913
+Grime: 0
+EffectColorB: 10
+Effects: Coldness-1-20-20, Dustpuffs-0-23-77, LightBurn-0.1086956-23-134, HeavyRain-0.05413254-30-30, 
+PlacedObjects: DeadSeedCob><200.9948><342.5501><, DeadSeedCob><561.1964><276.7878><, DeadSeedCob><705.1174><501.5881><, 
+AmbientSounds: OMNI><AM_ENV-NatWind.ogg><843.6667><654.8604><0.3043478><1, OMNI><AM_ENV-CityTone.ogg><844.1946><577.046><0.2934783><1, 
+FadePalette: 0, 0.75
+WetTerrain: OFF

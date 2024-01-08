@@ -1,0 +1,5 @@
+Palette: 2
+Effects: PixelShift-0.5-32-65, AboveCloudsView-0-20-20, LightBurn-0.04347826-20-77, SkyDandelions-0.2282609-309-187, Hue-0.9456522-304-20, Desaturation-0.2282609-304-77, Contrast-0.05434782-301-129, Darkness-0.2065217-50-133, LightRain-0.4021739-304-248, HeavyRain-0.06521739-30-30, Coldness-0-40-40, 
+PlacedObjects: DangleFruit><463.8067><816.0511><0~0~2~3, DangleFruit><478.8087><862.9413><0~0~2~3, DangleFruit><454.8906><915.1671><0~0~2~3, DandelionPatch><491.1093><1085.832><0~100, DeadTokenStalk><417.8667><1081.399><29~-36, DeadTokenStalk><486.1271><1079.404><-14~-36, BlueToken><462.0782><1133.648><-4~-89~58~106~1~VultureMask~~0~0~0~0, 
+AmbientSounds: SPOT><AM_WIN-StrongWnd2.ogg><859.412><471.0704><0.1847826><1><459.412><1328.07><308.6447><-459.3553><0><1, 
+FadePalette: 27, 0.5434783, 0.5543478

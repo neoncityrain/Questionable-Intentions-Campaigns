@@ -1,0 +1,17 @@
+Template: NONE
+WaveSpeed: 0.4796395
+WaveLength: 0.9269965
+WaveAmplitude: 0.02576074
+SecondWaveLength: 0.1766665
+SecondWaveAmplitude: 0
+Clouds: 0.7934783
+Grime: 0.2608696
+Palette: 51
+EffectColorA: 2
+EffectColorB: 6
+Effects: Fog-0.5326087-20-20, BorderPushBack-1-22-70, RockFlea-0.1956522-24-130, WaterGlowworm-0.1521739-286-19, ElectricDeath-0.01086957-286-74, LightRain-0.1086956-64-159, 
+PlacedObjects: NoLeviathanStrandingZone><296.7502><602.6769><300~-48, NoLeviathanStrandingZone><206.0403><1094.615><556~-18, NoLeviathanStrandingZone><1082.151><1438.096><215~-2, NoLeviathanStrandingZone><2265.844><1441.416><-229~12, NoLeviathanStrandingZone><2735.197><1445.239><257~16, GlowWeed><1630.411><507.1307><0~0~2~3, GlowWeed><1686.396><603.1136><0~0~2~3, GlowWeed><1089.125><499.4061><0~0~2~3, GlowWeed><727.4415><421.3079><0~0~2~3, GlowWeed><689.2707><501.0511><0~0~2~3, DeadTokenStalk><2616.356><1564.669><-26~-91, DeadTokenStalk><2679.45><1506.248><13~-52, DeadTokenStalk><2637.059><1517.192><-24~-46, DeadTokenStalk><2566.083><1541.139><2~-62, DevToken><2339.417><1555.068><24~-94~-11~-247~0~Default~~0~0~0~1, BigJellyFish><1633.94><1437.781><50~-43, 
+AmbientSounds: OMNI><AM_ENV-LightWind.ogg><865.944><653.4514><0.5978261><0.8826087, OMNI><AM_WAT-Sea01.ogg><690.0419><656.5544><0.2391304><1, SPOT><AM_WAT-Lakeside.ogg><733.4498><200.5079><0.4891304><1><2475.45><1652.508><-553.3553><-331.3553><0><1, 
+Triggers: PreRegionBump<tA>event<tB>MusicEvent<eA>songName<eB>RW_75 - Onto A New Dawn<eA>vol<eB>0.2021737<eA>prio<eB>0.5<eA>mxThrt<eB>1<eA>loop<eB>0<eA>droneTol<eB>0<eA>rooms<eB>-1<eA>rest<eB>5<eA>fadeIn<eB>0<eA>oneSongPerCycle<eB>0<eA>stopAtDeath<eB>0<eA>stopAtGate<eB>0<tA>multiUse<tB>0<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>773.5847<tB>467.8874<tA>fireChance<tB>1<tA>entrance<tB>-1<tA>karma<tB>0<tA>slugcats<tB>, 
+FadePalette: 37, 0.1956522, 0.1956522, 0.1956522, 0.1956522, 0.1956522, 0.1956522
+RoomSpecificScriptActive: ON

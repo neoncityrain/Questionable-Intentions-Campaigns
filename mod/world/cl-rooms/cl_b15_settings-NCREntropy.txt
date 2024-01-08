@@ -1,0 +1,17 @@
+Template: NONE
+DangerType: Flood
+RainIntensity: 1
+RumbleIntensity: 1
+WaveSpeed: 0.4929393
+WaveLength: 0.9834301
+WaveAmplitude: 0.006332618
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Grime: 0.1304348
+BkgDroneVolume: 0
+Palette: 10
+Effects: Coldness-1-20-20, 
+PlacedObjects: ReliableSpear><544.0928><1151.124><, 
+AmbientSounds: SPOT><SO_NAT-LilDrips.ogg><378.6967><525.3073><0.25><1><432.6967><870.307><-120.3553><-29.35535><0><0.5239132, SPOT><SO_NAT-LilDrips.ogg><377.4191><414.1432><0.1630435><1><96.41907><484.1432><-163.3553><-34.35535><0><0.5239132, OMNI><AM_ENV-CityTone.ogg><695.804><652.7897><0.326087><0.8434783, OMNI><AM_WIN-SubWnd.ogg><865.6996><642.2628><0.2934783><1, 
+FadePalette: 0, 0.3043478, 0.2608696
+WetTerrain: OFF

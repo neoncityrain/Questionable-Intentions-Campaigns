@@ -1,0 +1,12 @@
+CeilingDrips: 0
+WaveSpeed: 0.51
+WaveLength: 1
+WaveAmplitude: 0.0001
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.1847826
+Palette: 53
+Effects: Darkness-0-262-124, Bloom-0.2065217-40-40, 
+PlacedObjects: LightSource><414.1394><362.6666><0.3804348~Environment~525~-276~471~-396.3975~1~0~None~0~0, LightSource><414.8413><375.6283><0.09782609~Environment~380~-305~50~86.60254~1~1~None~0~0, Corruption><142.8975><555.1718><-84~-207, Corruption><786.5327><108.4473><39~128, Corruption><217.6057><259.1698><0~100, CorruptionDarkness><854.1277><313.846><-12~125, 
+FadePalette: 3, 0.6847826
+WetTerrain: OFF

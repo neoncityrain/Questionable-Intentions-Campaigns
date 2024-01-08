@@ -1,0 +1,40 @@
+{
+	"id": "NCREntropy",
+	"name": "The Entropy",
+	"description": "A slugpup who has escaped from confinement and wishes for peace.<LINE>While agile, it will prove difficult to find consistent food in a changing world.",
+	"features": {
+		"color": "9B3426",
+		"custom_colors": [
+      { "name": "Body", "story": "9B3426" },
+      { "name": "Eyes", "story": "FFFFFF" }
+    ],
+		
+		"weight": 0.5,
+		"walk_speed": 1.1,
+		"start_room": "SB_L01",
+		"expedition_enabled": false,
+		"expedition_description": "A slugpup who has escaped from confinement and wishes for peace.<LINE>While agile, its world is aggressive.",
+		
+		"world_state": [ "NCREntropy", "Rivulet", "Spearmaster", "Gourmand" ],
+		"auto_grab_batflies": false,
+		
+		"karma": 0,
+		"karma_cap": 4,
+		"food_min": 2,
+		"food_max": 3,
+		
+		"diet": {"base": "White",
+		"overrides": {
+			"KarmaFlower": -1,
+			"EggBugEgg": 0.5,
+			"GooieDuck": 0.5,
+			"Fly": 0.25,
+			"Centipede": 0.5
+		}
+		},
+		
+		"select_menu_scene": "Slugcat_NCREntropy",
+		"select_menu_scene_ascended": "Ghost_NCREntropy",
+		"sleep_scene": "Sleep_NCREntropy"
+	}
+}

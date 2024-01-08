@@ -1,0 +1,15 @@
+Template: NONE
+DangerType: Blizzard
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 3.118043E-22
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Grime: 0.06521739
+BkgDroneVolume: 0
+Palette: 26
+EffectColorA: 13
+AmbientSounds: OMNI><AM_WIN-SubWnd.ogg><831.05><649.7512><0.4565217><1, OMNI><AM_SUB-CaveTone.ogg><653.1419><649.6409><0.3369565><1, SPOT><AM_SUB-MysticCave2.ogg><787.9647><238.5531><0.2717391><0.8043478><835.9647><605.5531><-92.35535><-34.35535><0><0.328261, 
+FadePalette: 1, 0.4782609

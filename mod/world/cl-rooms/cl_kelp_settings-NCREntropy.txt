@@ -1,0 +1,13 @@
+DangerType: Flood
+CeilingDrips: 0.6739131
+RainIntensity: 1
+RumbleIntensity: 1
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 5.605194E-45
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Effects: Coldness-1-20-20, 
+AmbientSounds: OMNI><Weird Deep Hole.wav><746.6843><326.3111><0.09782609><1, 
+FadePalette: 0, 0.3913043, 0.1413043
+WetTerrain: OFF

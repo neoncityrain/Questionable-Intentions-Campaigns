@@ -1,0 +1,9 @@
+DangerType: Flood
+WaveSpeed: 0.5543478
+Clouds: 0
+Grime: 0.1847826
+Palette: 50
+EffectColorB: 21
+Effects: Darkness-0.04347826-272-65, Fog-0.4782609-274-186, LightBurn-0.1304348-275-9, BrokenZeroG-0.1195652-274-121, ElectricDeath-0.01086957-275-239, 
+PlacedObjects: JellyFish><1089.685><294.7005><0~0~2~3, JellyFish><1314.658><299.603><0~0~2~3, JellyFish><2925.83><293.326><0~0~2~3, JellyFish><2475.703><289.3998><0~0~2~3, JellyFish><2623.906><294.3854><0~0~2~3, DangleFruit><498.2405><482.3002><0~0~2~3, DangleFruit><457.0541><523.5399><0~0~2~3, DangleFruit><1371.053><535.7039><0~0~2~3, DangleFruit><1836.481><564.7144><0~0~2~3, DangleFruit><1862.051><534.7772><0~0~2~3, LightSource><2455.188><346.3173><0.1831479~Environment~609~277~50~86.60254~1~0~None~0~0, LightSource><469.9762><448.4366><0.1630435~Environment~1173~-467~70.84299~-301.3766~1~0~None~0~0, LightSource><3338.085><384.1378><0.2282609~Environment~481~121~50~86.60254~1~0~None~0~0, 
+FadePalette: 12, 0.2282609, 0.2282609, 0.2282609, 0.2282609

@@ -1,0 +1,16 @@
+Template: LM_SettingsTemplate_Sewer
+DangerType: Blizzard
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 5.605194E-45
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Palette: 10
+Effects: Contrast-0.0326087-333-204, Darkness-0.05434782-314-272, Coldness-0-20-20, WaterFluxMinLevel-0.3043478-30-30, WaterFluxMaxLevel-0.4021739-40-40, WaterFluxSpeed-0.02173913-50-50, GreenSparks-0.02173913-60-60, ZeroGSpecks-0.1304348-70-70, 
+PlacedObjects: CustomDecal><326.6406><1600.358><0~1461.553~455.6256~1461.553~455.6256~0~0~0~0.04347826~1~0~BlackRust1~0.5434783~1~0.6521739~1~0.1086956~1~0~1, BigJellyFish><539.8446><1250.131><74.70319~58.04446, 
+AmbientSounds: SPOT><AM_ENV-LightWind.ogg><879.9092><461.8789><0.4456522><0.8630434><547.9092><2887.879><-103.3553><-76.35535><0><0.4695654, SPOT><AM_ENV-LightWind.ogg><204.532><420.5526><0.3043478><0.6869565><469.532><2001.553><-110.3553><-93.35535><0><0.3826088, SPOT><AM_IND-DeepHum.ogg><853.1762><124.0641><0.3695652><1><529.1762><809.0641><-111.3553><11.64465><0><0.3608697, OMNI><SO_WAT-DripTap.ogg><652.9296><629.3379><0.2391304><1, 
+Triggers: Spot<tA>event<tB>StopMusicEvent<eA>songName<eB>RW_93 - Veiled Northstar<eA>prio<eB>1<eA>type<eB>SpecificSong<eA>fadeOut<eB>630.4345<tA>multiUse<tB>1<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>679.287<tB>217.5535<tA>fireChance<tB>1<tA>entrance<tB>-1<tA>karma<tB>0<tA>slugcats<tB><tA>pos<tB>550.287<tB>600.5535<tA>handlePos<tB>-159.3553<tB>-105.3553, 
+FadePalette: 25, 0.6086956, 0.6086956, 0.6086956, 0.6086956
+WetTerrain: OFF

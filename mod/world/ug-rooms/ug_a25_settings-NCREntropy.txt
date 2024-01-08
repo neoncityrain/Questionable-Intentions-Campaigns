@@ -1,0 +1,15 @@
+DangerType: FloodAndRain
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 2.11434E-17
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Grime: 0.1956522
+BkgDroneVolume: 0
+Palette: 9
+EffectColorB: 2
+Effects: HeatWave-0-274-18, Fog-0.2717391-273-132, WaterDepth-0.1195652-277-70, DirtyWater-1-30-30, 
+PlacedObjects: WaterNut><758.9937><1033.2><-300~-139~5~11, DeadTokenStalk><722.326><527.185><0~48, SteamPipe><154.5729><1363.843><23~-23, SteamPipe><262.5891><1420.869><24~-17, SteamPipe><259.5969><1416.621><-7~-38, SteamPipe><719.9089><1431.629><27~-69, SteamPipe><720.8933><1434.89><-7~-22, Vine><218.6064><594.1708><191~-53, Vine><131.3364><477.082><176~197, Vine><423.2957><412.6303><185~320, Vine><342.1768><1211.518><82~-102, Vine><228.3895><1378.376><135~37, Vine><197.8894><794.2737><131~98, GoldToken><763.821><1090.25><-4~60~0~0~0~GW~White|Yellow|Red|Rivulet|Artificer|Saint|Spear|Gourmand~0~0~0~0, 
+AmbientSounds: OMNI><AM_ENV-LushNight.ogg><639.7988><561.944><0.2282609><1, SPOT><SO_WAT-OpenFlow.ogg><832.1503><458.6734><0.423913><1.332609><879.1503><732.6734><-97.35535><-213.3553><0><0.2413045, SPOT><SO_WAT-Splashes.ogg><816.0713><347.1602><0.423913><1><839.0713><492.1602><-129.3553><-11.35535><0><0.3173914, SPOT><AM_ENV-CricketsWnd.ogg><653.1752><444.3466><0.4456522><1><932.1752><1354.346><330.6447><-249.3553><0><0.7413045, OMNI><AM_IND-Utility02.ogg><837.3013><645.9775><0.1086956><1, OMNI><SO_IND-HeatDuct.ogg><857.5117><573.3004><0.08695652><1, SPOT><AM_ENV-NatWind.ogg><645.7073><308.8046><0.3586957><1><-18.29266><1329.805><383.6447><-173.3553><0><0.5891306, 
+FadePalette: 39, 0.6086956, 0.3913043
+WetTerrain: OFF

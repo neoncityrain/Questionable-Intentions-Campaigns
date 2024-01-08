@@ -1,0 +1,11 @@
+Template: MS_SettingsTemplate_Artery
+CeilingDrips: 0.6086956
+RumbleIntensity: 0.4673913
+WaveSpeed: 0.5326087
+WaveLength: 0.7065217
+SecondWaveLength: 0.1775363
+Grime: 0.01086957
+Palette: 50
+Effects: WaterDepth-0.1086956-273-20, BrokenZeroG-0.4891304-269-74, ElectricDeath-0.2391304-22-22, 
+PlacedObjects: LightFixture><1861.265><1288.396><RedLight~17.32051~-10~0, LightFixture><2172.321><836.452><RedSubmersible~17.32051~-10~0, LightFixture><2669.274><1337.397><RedLight~17.32051~-10~0, LightFixture><952.9766><534.4429><RedSubmersible~17.32051~-10~0, LightFixture><1085.901><1410.823><RedLight~-275.678~-418.9958~0, LightFixture><1260.441><753.687><RedSubmersible~17.32051~-10~0, LightFixture><834.916><919.814><RedSubmersible~17.32051~-10~0, LightFixture><1519.679><291.4897><RedSubmersible~17.32051~-10~0, LightFixture><739.7642><571.0594><RedSubmersible~17.32051~-10~0, LightFixture><845.7503><133.55><RedSubmersible~17.32051~-10~0, LightFixture><201.4076><1261.052><RedLight~17.32051~-10~0, LightFixture><541.3507><769.7578><RedSubmersible~17.32051~-10~0, LightFixture><244.1901><132.4527><RedSubmersible~17.32051~-10~0, 
+FadePalette: 42, 0.1195652, 0.1086956, 0.1195652, 0.1413043, 0.1304348

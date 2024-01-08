@@ -1,0 +1,4 @@
+Palette: 10
+EffectColorA: 9
+EffectColorB: 9
+PlacedObjects: BrokenShelterWaterLevel><318.348><349.7294><, 

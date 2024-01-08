@@ -1,0 +1,15 @@
+Template: CL_SettingsTemplate_DarkSun
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 5.605194E-45
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+EffectColorA: 8
+EffectColorB: 12
+Effects: Coldness-1-23-68, 
+PlacedObjects: LightFixture><686.8028><577.5333><RedLight~17.32051~-10~87, 
+FadePalette: 0, 0.2717391
+WetTerrain: OFF

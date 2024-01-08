@@ -1,0 +1,14 @@
+Template: HI_SettingsTemplate_Inside
+DangerType: Blizzard
+RainIntensity: 0.8260869
+RumbleIntensity: 0.5869565
+Clouds: 0.2717391
+Grime: 0.3152174
+BkgDroneVolume: 0.2469565
+Palette: 0
+EffectColorA: 10
+EffectColorB: 2
+Effects: Coldness-1-20-20, Dustpuffs-1-21-81, LightBurn-0.08695652-21-134, 
+PlacedObjects: SuperJumpInstruction><689.0615><280.5668><137~1~87~-11~26~-26, CustomDecal><295.0601><145.8126><17~441~481~438~472~-23~38.00244~-420~0.2934783~0.4673913~0~CaterPillar~0.1630435~0~0.5434783~0~0.4021739~0.6195652~0~0.4891304, CustomDecal><330.0349><200.303><4~103~303~132~312~-52~255.9006~-479~0.5978261~1~0~WhiteJunkArrows~0.423913~0~0.4891304~0.1847826~0.3695652~0.5652174~0.25~1, RedToken><551.9194><266.6437><-45~-73~373.8516~-306.3904~0~HI~~0~0~1, SnowSource><556.3162><665.1937><Radial~-651~-712~-653.0052~-384.5206~0.7065217~1, SnowSource><512.6888><189.4591><Radial~352~377~52~210.6029~0.7717391~1, 
+AmbientSounds: OMNI><AM_ENV-WinterTrees.ogg><743.6985><385.726><0.2608696><1, 
+FadePalette: 20, 0.1413043

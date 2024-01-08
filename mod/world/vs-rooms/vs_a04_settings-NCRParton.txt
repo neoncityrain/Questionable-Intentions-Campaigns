@@ -1,0 +1,6 @@
+DangerType: FloodAndRain
+EffectColorA: 5
+EffectColorB: 13
+PlacedObjects: DangleFruit><314.1882><438.6823><0~0~2~3, DangleFruit><282.0435><471.5548><0~0~2~3, DeadTokenStalk><155.1361><511.0856><-55~-19, DeadTokenStalk><150.4473><495.2832><-54~16, DeadTokenStalk><161.05><443.2448><-61~23, BlueToken><181.5594><457.059><-80~24~-292~-193~1~ZoopLizard~White|Yellow|Red|Rivulet|Artificer|Spear|Gourmand~0~0~0, 
+AmbientSounds: SPOT><AM_ENV-NatWind.ogg><589.8354><588.1365><0.3369565><1><904.8354><587.1365><-219.3553><-176.3553><0><0.4478262, SPOT><AM_ENV-NatWind.ogg><735.6583><488.6223><0.3478261><0.9804348><-19.34174><134.6223><288.6447><-217.3553><0><0.1760871, 
+FadePalette: 33, 0.5543478

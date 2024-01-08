@@ -1,0 +1,12 @@
+WaveSpeed: 0.51
+WaveLength: 1
+WaveAmplitude: 0.0001
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Palette: 9
+Effects: Fog-0-274-132, FireFlies-0.4021739-277-75, SilenceWater-0.3695652-23-137, WaterDepth-0.2282609-20-20, DirtyWater-1-30-30, 
+PlacedObjects: InsectGroup><376.1134><169.6039><43~153~355~-156~FireFly~0.7065217, Vine><455.9178><636.6412><-24~-647, Vine><429.7802><627.5522><60~-158, Vine><395.8135><331.9396><80~295, Vine><492.6161><334.8986><-104~157, Vine><372.9407><227.6897><120~142, Vine><374.9441><236.7983><199~-118, Vine><474.946><434.7104><-74~156, Vine><569.8486><131.924><-170~254, 
+AmbientSounds: OMNI><AM_ENV-LushNight.ogg><822.8917><491.1681><0.173913><1, OMNI><AM_ENV-CricketsWnd.ogg><638.2366><557.9496><0.25><1, SPOT><SO_WAT-OpenFlow.ogg><827.3><375.7462><0.5><1><1096.3><595.7462><-188.3553><-204.3553><0><0.5347828, 
+Triggers: Spot<tA>event<tB>StopMusicEvent<eA>songName<eB>RW_94 - Weathered Steps<eA>prio<eB>1<eA>type<eB>AllButSpecific<eA>fadeOut<eB>43.478<tA>multiUse<tB>1<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>692.8965<tB>215.6362<tA>fireChance<tB>1<tA>entrance<tB>1<tA>karma<tB>0<tA>slugcats<tB><tA>pos<tB>380.8965<tB>332.6362<tA>handlePos<tB>-219.3553<tB>-152.3553, 
+FadePalette: 39, 0.7391304
+WetTerrain: OFF

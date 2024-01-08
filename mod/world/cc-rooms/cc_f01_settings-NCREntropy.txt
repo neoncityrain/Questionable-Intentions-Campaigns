@@ -1,0 +1,14 @@
+DangerType: Blizzard
+CeilingDrips: 0
+WaveSpeed: 0.4502755
+WaveLength: 0.9071378
+WaveAmplitude: 0.0454079
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Palette: 5
+EffectColorB: 10
+Effects: Flies-0-20-20, Coldness-1-30-30, Dustpuffs-1-40-40, SkyAndLightBloom-0.2010644-5.178131-153.1111, 
+PlacedObjects: CustomDecal><1568.942><591.4432><-11~124~143~119~133~-9~-411~-188~0.3152174~0.3913043~0~SquintCat~0.2717391~0~0.1086956~0~0.4673913~0.4891304~0.173913~0.4130435, NoSpearStickZone><96.92139><1398.434><0~100, NoSpearStickZone><3095.241><1552.05><0~100, BlueToken><2279.327><658.8511><-14~-61~0~0~1~DropBug~Yellow|Rivulet|Saint~0~0~0~0, ReliableSpear><2363.908><548.8785><, SnowSource><1176.333><869.3896><None~-1289~768~-403~236.6025~0.6086956~1, SnowSource><3219.862><872.1057><Radial~-1285~771~-445~316.6025~0.7608696~1, SnowSource><-91.05365><875.6926><Radial~1269~765~50~86.60254~0.5652174~1, 
+AmbientSounds: SPOT><AM_ENV-NatWind.ogg><149.9555><478.055><0.2065217><1><389.9555><872.0551><-79.35535><-103.3553><0><0.2521739, SPOT><AM_ENV-NatWind.ogg><77.19476><345.4546><0.2717391><1><2513.195><249.4546><-223.3553><-96.35535><0><0.1869565, OMNI><AM_ENV-LightWind.ogg><711.424><492.3486><0><1, OMNI><AM_ENV-WinterHum.ogg><747.5861><399.8195><0.3043478><1, 
+FadePalette: 15, 0.7173913, 0.7391304, 0.7391304, 0.6739131, 0.6739131, 0.6847826
+WetTerrain: OFF

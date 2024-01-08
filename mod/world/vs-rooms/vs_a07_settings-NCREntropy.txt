@@ -1,0 +1,16 @@
+DangerType: None
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 6.026384E-39
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 1
+BkgDroneVolume: 0.5065218
+Palette: 30
+Effects: Coldness-0-17.94479-79.11111, ElectricDeath-0.09279865-37.19376-126.0889, DayNight-0-20-20, 
+PlacedObjects: DayNightSettings><35.31294><136.465><5~8.660254~10~10, 
+FadePalette: 10, 0.585496
+WetTerrain: OFF

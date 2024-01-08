@@ -1,0 +1,10 @@
+WaveSpeed: 0.4899513
+WaveLength: 0.8914099
+WaveAmplitude: 0.002292267
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Palette: 26
+Effects: Coldness-0-20-20, 
+PlacedObjects: BrokenShelterWaterLevel><791.4922><366.9498><, 
+AmbientSounds: OMNI><AM_ENV-SubTerr.ogg><822.4802><639.051><0.3695652><1, OMNI><AM_SUB-BlankState.ogg><649.3596><639.1674><0.3152174><1, 
+FadePalette: 10, 0.2556725

@@ -1,0 +1,4 @@
+Grime: 0.423913
+Palette: 1
+Effects: Coldness-1-60-60, 
+FadePalette: 8, 0.3152174

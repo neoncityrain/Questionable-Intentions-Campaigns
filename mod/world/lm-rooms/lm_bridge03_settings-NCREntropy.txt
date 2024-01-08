@@ -1,0 +1,17 @@
+DangerType: Blizzard
+RainIntensity: 0.8152174
+RumbleIntensity: 0.3804348
+WaveSpeed: 0.4660106
+WaveLength: 0.8167689
+WaveAmplitude: 0.04076085
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.8695652
+Grime: 0.2934783
+Palette: 35
+EffectColorA: 0
+EffectColorB: 6
+Effects: Moth-0.08695652-257-61, Fog-1-20-20, GreenSparks-0.05434782-10-137, PixelShift-0.5-32-65, AboveCloudsView-1-281-9, ElectricDeath-0.01086957-255-197, Coldness-0-30-30, 
+AmbientSounds: OMNI><AM_WAT-Sea01.ogg><832.1245><488.5935><0.01086957><0.1, OMNI><AM_WIN-MedWind.ogg><828.194><569.4513><0.4347826><1, 
+Triggers: Spot<tA>event<tB>MusicEvent<eA>songName<eB>RW_82 - Trusted Component<eA>vol<eB>0.3<eA>prio<eB>0.5<eA>mxThrt<eB>1<eA>loop<eB>0<eA>droneTol<eB>0<eA>rooms<eB>-1<eA>rest<eB>5<eA>fadeIn<eB>0<eA>oneSongPerCycle<eB>0<eA>stopAtDeath<eB>0<eA>stopAtGate<eB>0<tA>multiUse<tB>0<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>103<tA>panPos<tB>859.0341<tB>411.4471<tA>fireChance<tB>1<tA>entrance<tB>1<tA>karma<tB>0<tA>slugcats<tB><tA>pos<tB>4434.034<tB>418.4471<tA>handlePos<tB>-196.3553<tB>-170.3553, 
+FadePalette: 6, 0.7826087, 0.7608696, 0.7608696, 0.75, 0.7608696, 0.8913044, 1

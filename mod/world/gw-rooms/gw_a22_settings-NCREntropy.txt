@@ -1,0 +1,12 @@
+Template: NONE
+CeilingDrips: 0.9021739
+Clouds: 0.7608696
+Grime: 0.2934783
+Palette: 23
+EffectColorA: 4
+EffectColorB: 1
+Effects: Coldness-0-58-77, Darkness-0.5652174-39-91, LavaSurface-0-20-20, LethalWater-0.01086957-30-30, MossWater-0-40-40, MossWaterRGB-0-452-478-Red:255-Blue:255-Green:0-Red:255-Blue:255-Green:0, 
+PlacedObjects: CustomDecal><25.81354><45.56038><0~499~813~499~813~0~48~-396~0.3043478~0.3369565~0~zGWMarks - C05b~0.8478261~0~0.9239131~0~0.7826087~0.06521739~0.8586956~0.02173913, Stowaway><212.2818><362.8026><0~-40, DangleFruit><124.5791><229.1462><0~0~12~26, 
+AmbientSounds: OMNI><AM_ENV-LightWind.ogg><831.6879><651.4315><0.2608696><0.9217392, OMNI><SO_NAT-LilDrips.ogg><654.3043><650.7914><0.1847826><1, SPOT><Weird Deep Hole.wav><755.9395><505.8139><0.2173913><1><860.9395><201.8139><-76.35535><-93.35535><0><0.1108697, 
+Triggers: Spot<tA>event<tB>BringPlayerGuideToRoom<tA>multiUse<tB>0<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>32.81897<tB>318.1876<tA>fireChance<tB>1<tA>entrance<tB>0<tA>karma<tB>0<tA>slugcats<tB>Spear|Gourmand<tA>pos<tB>337.8192<tB>505.1876<tA>handlePos<tB>-157.3553<tB>-38.35535, 
+FadePalette: 33, 0.7065217

@@ -1,0 +1,12 @@
+DangerType: Rain
+RainIntensity: 0.7282609
+RumbleIntensity: 0.8478261
+Clouds: 0.8478261
+BkgDroneVolume: 0
+Palette: 23
+EffectColorA: 6
+EffectColorB: 18
+Effects: AboveCloudsView-0-24-130, SkyBloom-0.1086956-273-126, LightRain-0.05434782-277-71, Fog-1-23-78, Darkness-0.1413043-286-20, FastFloodDrain-1-268-238, DayNight-0.5-273-188, 
+PlacedObjects: LightSource><632.4178><1453.359><0.02173913~Environment~1265~-621~-786~-197.3975~1~1~None~0~0, TradeOutpost><454.7372><916.8007><-166~4, LanternOnStick><402.6734><1277.85><-32~-104, LanternOnStick><321.311><1005.816><36~-103, LanternOnStick><349.3004><980.843><-9~-80, LightSource><538.8436><1333.573><1~EffectColor2~198~23~46~-178.3975~0~0~Flash~0.4456522~0, LightSource><539.8049><1334.058><0.9130435~EffectColor2~38~-1~64~-309.3975~0~1~Flash~0.4456522~0, UniqueDataPearl><494.6674><1206.609><-119~123~0~0~OE~0, GooieDuck><356.1675><618.3177><172~-320~2~3, GooieDuck><448.0768><629.4><76~-246~2~3, GooieDuck><518.0742><614.5955><-1~-149~2~3, DayNightSettings><-26.0874><293.4299><5~8.660254~76~10, 
+AmbientSounds: OMNI><AM_WIN-StrongWnd2.ogg><820.3783><643.0913><0.5><1, OMNI><AM_WIN-HowlingWnd.ogg><644.1452><643.9203><0.3804348><0.726087, OMNI><SO_WAT-Splashes.ogg><822.6856><571.1755><0.1195652><0.7847826, OMNI><SO_WAT-RainishDrips.ogg><646.6772><571.1573><0.5><1, SPOT><SO_SFX-DataTones.ogg><822.8456><347.1229><0.5><0.2173913><510.8456><1315.123><54.64465><-102.3553><0><0.5347828, SPOT><AM_IND-ElectricHum03.ogg><815.6946><460.2961><0.2173913><1><496.6946><1308.296><-22.35535><-126.3553><0><0.4804349, 
+FadePalette: 14, 0.6847826, 0.6304348

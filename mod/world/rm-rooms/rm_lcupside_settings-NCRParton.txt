@@ -1,0 +1,14 @@
+Template: NONE
+DangerType: Rain
+CeilingDrips: 0.1086956
+RainIntensity: 0.5
+RumbleIntensity: 0.5
+Clouds: 1
+BkgDroneVolume: 0.1086956
+RandomItemDensity: 0.7173913
+RandomItemSpearChance: 0.2391304
+EffectColorA: 18
+Effects: ZeroG-0.2717391-17-22, BrokenZeroG-0-269-19, Fog-0-21-130, SilenceWater-0.3913043-261-128, CorruptionSpores-0.5108696-20-76, ZeroGSpecks-0.1304348-279-78, 
+PlacedObjects: Corruption><1599.318><568.0837><-2~72, Corruption><1333.583><518.3594><43~96, LightFixture><1740.829><19.68359><RedSubmersible~17.32051~-10~1, LightFixture><2314.699><139.3065><RedSubmersible~17.32051~-10~12, LightFixture><673.9457><-1.458618><RedSubmersible~17.32051~-10~53, LightFixture><410.4285><348.0902><RedSubmersible~-192.6795~162~74, Corruption><2516.595><324.1761><1~69, Corruption><1732.623><66.1046><31~191, Corruption><1997.479><306.2903><112~215, StuckDaddy><2019.785><221.304><0~100, 
+AmbientSounds: OMNI><SO_IND-NoiseMech.ogg><833.95><574.5002><0.0326087><0.1, OMNI><SO_NAT-LilDrips.ogg><836.6028><429.1353><0.5326087><1.469565, OMNI><SO_WAT-ProperDrips.ogg><834.84><351.6199><0.5><1, SPOT><SO_WAT-OpenFlow.ogg><838.4481><243.5279><0.423913><0.5891304><2071.448><291.5279><148.6447><-5.355347><0><0.6000001, SPOT><SO_SFX-Heartbeat1.ogg><840.9232><133.0999><0.4673913><0.5304348><1497.923><649.1><48.64465><-196.3553><0><0.7630436, SPOT><SO_WAT-OpenFlow.ogg><851.3629><22.60446><0.6521739><1.097826><673.3629><-2.395538><-13.35535><144.6447><0><0.154348, 
+FadePalette: 10, 0.6086956, 0.6086956, 0.6086956

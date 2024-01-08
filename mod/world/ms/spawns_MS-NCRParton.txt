@@ -1,0 +1,3 @@
+MS_FARSIDE : 5-Jetfish, 5-Eel-{Night}
+
+MS_bitterpipe : 2-Salamander

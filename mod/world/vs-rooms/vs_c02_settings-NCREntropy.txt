@@ -1,0 +1,15 @@
+DangerType: None
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 0
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Grime: 0.4176404
+Palette: 30
+Effects: Darkness-0.2173913-20-20, Coldness-0-40-40, ElectricDeath-0.2629302-30-30, DayNight-0-50-50, 
+PlacedObjects: DayNightSettings><261.2025><1812.27><5~8.660254~16~10, 
+AmbientSounds: SPOT><AM_ENV-LightWind.ogg><588.8573><590.8312><0.326087><1><672.8573><2214.831><-153.3553><-184.3553><0><1, SPOT><SO_WAT-MoreDrips.ogg><770.6365><437.1038><0.326087><0.8630434><198.6365><449.1038><-171.3553><-204.3553><0><0.4152175, SPOT><SO_IND-HeatDuct.ogg><573.5884><470.1321><0.3369565><1><1128.588><670.1321><-188.3553><-197.3553><0><0.5673915, 
+FadePalette: 8, 0.5217391, 0.5760869, 0.6413044

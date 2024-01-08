@@ -1,0 +1,6 @@
+DangerType: Flood
+Clouds: 1
+Effects: Coldness-0-20-20, Fog-0-30-30, Darkness-0.7826087-40-40, 
+PlacedObjects: BrokenShelterWaterLevel><452.1407><339.1079><, 
+AmbientSounds: OMNI><AM_WAT-Sea01.ogg><654.1245><638.5935><0><1, 
+FadePalette: 9, 0.6956522

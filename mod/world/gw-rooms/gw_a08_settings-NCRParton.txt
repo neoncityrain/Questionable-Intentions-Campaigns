@@ -1,0 +1,11 @@
+Template: NONE
+DangerType: Flood
+CeilingDrips: 0.9021739
+Clouds: 0.75
+BkgDroneVolume: 0.2769565
+Palette: 13
+EffectColorA: 9
+EffectColorB: 9
+Effects: Desaturation-0.3043478-20-20, 
+AmbientSounds: OMNI><SO_WAT-OpenFlow.ogg><827.3027><647.2173><0.4021739><1, SPOT><SO_WAT-RunningWater.ogg><62.67188><503.8977><0.326087><1><590.6719><242.8977><-161.3553><-46.35535><0><0.2847827, SPOT><SO_WAT-OpenFlow.ogg><64.72992><384.301><0.5652174><1><594.7299><252.301><-209.3553><-54.35535><0><0.3717391, 
+FadePalette: 10, 0.8152174

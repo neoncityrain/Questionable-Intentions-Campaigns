@@ -1,0 +1,11 @@
+Template: VS_SettingsTemplate_Sewer
+DangerType: None
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+Grime: 0.1630435
+Palette: 30
+Effects: Fog-0.75-20-20, Coldness-0-30-30, DayNight-0-40-40, ElectricDeath-0.4891304-50-50, 
+PlacedObjects: LillyPuck><4014.031><311.0524><0~0~2~3, LillyPuck><3866.124><308.4071><0~0~2~3, DayNightSettings><74.8017><368.5568><5~8.660254~16~10, 
+FadePalette: 17, 0.5760869, 0.5978261, 0.5978261, 0.5760869, 0.5869565
+WetTerrain: OFF

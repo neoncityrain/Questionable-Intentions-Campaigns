@@ -1,0 +1,15 @@
+Template: SI_SettingsTemplate_Inside
+DangerType: Rain
+CeilingDrips: 1
+WaveSpeed: 0.5044281
+WaveLength: 0.9977859
+WaveAmplitude: 0.01551252
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.1086956
+Grime: 0.2391304
+Palette: 27
+EffectColorA: 8
+Effects: Hue-0.9456522-297-69, Desaturation-0.2826087-39-67, Contrast-0.06521739-299-128, Darkness-0.3152174-41-127, Coldness-0-30-30, 
+AmbientSounds: SPOT><AM_IND-DeepHum.ogg><799.2922><307.9455><0.3369565><1><535.2922><428.9455><-173.3553><33.64465><0><0.4586958, SPOT><AM_IND-Utility02.ogg><806.6412><165.6417><0.4456522><1><445.6412><163.6417><-277.3553><76.64465><0><0.4695654, OMNI><SO_WAT-LilDrips.ogg><720.775><604.9484><0.6086956><1, 
+FadePalette: 3, 0.5869565

@@ -1,0 +1,15 @@
+Template: NONE
+WaveSpeed: 0.5095648
+WaveLength: 0.8827894
+WaveAmplitude: 0.02352244
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.502661
+Grime: 0.1956522
+BkgDroneVolume: 0.2769565
+Palette: 23
+EffectColorB: 1
+Effects: Coldness-0-20-20, 
+PlacedObjects: LightSource><492.2079><240.2795><0.2498746~EffectColor2~27.03534~219.4667~-383.2781~-234.1086~0~0~None~0~0, PWLightrod><547.5891><438.9348><17.32051~-10~0.2938631~270~109.3865~0.2930935~1~0~1~1~0~1~1~0~1~1~0~1, 
+AmbientSounds: SPOT><AM_IND-Utility02.ogg><60.07574><506.1518><0.4021739><0.9413043><493.0757><306.1518><-83.35535><-75.35535><0><0.2086958, SPOT><waterGurgleLOOP1.wav><748.8686><280.9008><0.1847826><0.7456522><492.8686><147.9008><-57.35535><-54.35535><0><0.2086958, 
+FadePalette: 33, 0.4914063

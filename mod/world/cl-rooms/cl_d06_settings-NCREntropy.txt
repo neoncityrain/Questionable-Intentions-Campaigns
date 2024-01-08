@@ -1,0 +1,16 @@
+Template: CL_SettingsTemplate_DarkSun
+DangerType: Rain
+CeilingDrips: 0.7065217
+WaveSpeed: 0.4839701
+WaveLength: 0.9497302
+WaveAmplitude: 0.009743501
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.2826087
+EffectColorA: 6
+EffectColorB: 21
+Effects: Coldness-1-21-71, Dustpuffs-0-21-125, LightRain-0.1086956-30-30, HeavyRain-0.01086957-40-40, 
+PlacedObjects: SteamPipe><173.0881><452.6796><32~23, SteamPipe><168.9779><453.6988><62~-5, 
+AmbientSounds: OMNI><AM_ENV-CityTone.ogg><875.6453><654.9204><0.2391304><1, OMNI><AM_ENV-NatWind.ogg><699.6121><653.5844><0.25><1, SPOT><AM_WIN-StrongWnd2.ogg><873.797><539.9444><0.5><1><1121.797><2227.944><-882.3553><3.644653><0><1, SPOT><MSC-Subtundra.ogg><695.3746><537.5941><0.4565217><1><-168.6254><327.5941><540.6447><158.6447><0><0.4152175, SPOT><AM_WIN-SubWnd.ogg><874.9199><420.5667><0.4456522><1><232.9199><2629.567><210.6447><-214.3553><0><0.4260871, 
+FadePalette: 0, 0.4456522, 0.4347826, 0.4347826, 0.4347826
+WetTerrain: OFF

@@ -1,0 +1,13 @@
+Template: NONE
+DangerType: Flood
+CeilingDrips: 0.9021739
+Clouds: 0.75
+Grime: 0.423913
+BkgDroneVolume: 0.2769565
+Palette: 23
+EffectColorA: 4
+EffectColorB: 1
+Effects: Desaturation-0.3043478-20-20, Coldness-0-30-72, Darkness-0.6086956-27-96, MossWater-0-30-30, MossWaterRGB-0-364-216-Red:255-Green:0-Blue:255-Red:255-Green:0-Blue:255-Red:255-Green:0-Blue:255-Red:255-Green:0-Blue:255, LethalWater-0.01086957-238-79, LavaSurface-1-40-40, 
+PlacedObjects: CustomDecal><73.58228><371.6411><0~201.89~874.1045~201.89~874.1045~0~-186~-358~0.2826087~1~0~zGWMarks - A04~1~0~0.8260869~0~0.7391304~0.08695652~0.8478261~0.09782609, 
+AmbientSounds: SPOT><SO_WAT-OpenFlow.ogg><736.4175><248.3907><0.2717391><1><666.4175><99.39067><-70.35535><-44.35535><0><0.1978262, OMNI><AM_ENV-LightWind.ogg><829.4735><645.6982><0.2282609><0.9413043, OMNI><SO_WAT-LilDrips.ogg><656.3374><646.8835><0.2391304><1, 
+FadePalette: 33, 0.6195652

@@ -1,0 +1,10 @@
+DangerType: FloodAndRain
+WaveSpeed: 0.5217391
+WaveAmplitude: 0.06521739
+SecondWaveAmplitude: 0
+Grime: 0.2608696
+Palette: 14
+Effects: LightBurn-0.1195652-272-71, ElectricDeath-0-265-184, BrokenZeroG-0.4021739-270-126, 
+PlacedObjects: JellyFish><2836.022><552.6934><0~0~2~3, JellyFish><2478.906><547.6656><0~0~2~3, BubbleGrass><2122.338><591.8829><0~0~4~9, BubbleGrass><2166.447><585.8071><0~0~4~9, BigJellyFish><3205.335><578.5691><10~182, DeadTokenStalk><3013.107><1036.122><-9~-60, DeadTokenStalk><2927.455><965.3078><31~-15, DeadTokenStalk><2941.303><893.3073><20~34, 
+AmbientSounds: SPOT><AM_WIN-SubWnd.ogg><827.4312><447.1654><0.5><1><2081.479><766.2212><791.6447><517.6447><0><1, OMNI><SO_WAT-OpenFlow.ogg><637.4379><488.5684><0.2391304><1, OMNI><SO_WAT-Splashes.ogg><647.45><410.252><0.173913><1, 
+FadePalette: 50, 0.8152174, 0.8260869, 0.8695652, 0.8478261, 0.8369565, 0.8478261

@@ -1,0 +1,40 @@
+OFFSCREEN : 0-KingVulture-3, 0-MirosBird-5, 0-MirosVulture-2, 0-Scavenger-10, 0-BigEel, 0-ScavengerElite-2
+SB_F01 : 3-YellowLizard-3, 5-YellowLizard
+SB_E07 : 7-YellowLizard, 6-YellowLizard, 5-LanternMouse, 10-LanternMouse, 11-YellowLizard, 12-YellowLizard
+SB_C02 : 4-Eel-{PreCycle}, 3-JetFish-2, 2-RedCentipede-{Night}
+SB_G04 : 7-LanternMouse-5, 6-LanternMouse, 11-DropBug, 13-Centipede, 15-WhiteLizard
+SB_C10 : 12-LanternMouse, 17-LanternMouse, 18-LanternMouse, 6-PoleMimic-{5}, 4-SpitterSpider, 5-BigSpider, 7-Spider-2, 10-BigSpider, 13-BigSpider, 16-LanternMouse, 19-Spider, 16-Spider, 8-SpitterSpider, 15-MotherSpider
+SB_F02 : 8-LanternMouse, 4-LanternMouse, 5-DropBug, 6-BigSpider, 7-MotherSpider
+SB_D04 : 5-BlackLizard, 3-BlackLizard, 7-BlackLizard, 11-WhiteLizard, 6-LanternMouse, 4-RedLizard
+SB_J03 : 5-LanternMouse-2, 8-Eel, 4-WhiteLizard
+SB_B04 : 6-DropBug, 4-DropBug, 5-BigSpider
+SB_TESTC : 3-Centipede, 4-LanternMouse, 2-WhiteLizard, 5-TentaclePlant, 5-TentaclePlant
+SB_J10 : 12-Hazer, 3-Spider, 5-Spider, 6-Spider, 4-BigSpider, 4-SpitterSpider, 2-MotherSpider, 10-Eel
+SB_A04 : 4-DropBug
+SB_J02 : 4-Salamander, 3-Eel, 5-JetFish, 3-Snail
+SB_C11 : 3-LanternMouse
+SB_C07 : 2-CyanLizard, 3-Eel
+SB_I01 : 10-BlackLizard, 14-BlackLizard, 11-BlackLizard, 15-WhiteLizard, 13-LanternMouse, 7-LanternMouse, 6-EggBug
+SB_A12 : 2-WhiteLizard
+SB_B02 : 2-SpitLizard, 3-TentaclePlant, 4-FireBug
+SB_GOR01 : 5-DropBug, 6-Centipede, 4-Centipede, 3-ZoopLizard
+LINEAGE : SB_A10 : 2 : EggBug-1, FireBug-0.5, NONE-0
+SB_C06 : 4-Centipede, 3-DropBug
+SB_A11 : 2-BigSpider-2, 2-MotherSpider-3, 2-SpitterSpider
+SB_B01 : 4-BigNeedleWorm, 5-SmallNeedleWorm, 3-SmallNeedleWorm-2, 3-FireBug
+SB_J01 : 4-ZoopLizard, 5-ZoopLizard
+SB_C01 : 2-LanternMouse, 8-LanternMouse, 5-LanternMouse, 7-ZoopLizard, 4-ZoopLizard, 3-FireBug
+SB_TESTB : 2-LanternMouse, 3-ZoopLizard
+SB_E04 : 6-LanternMouse-3, 5-BlackLizard
+SB_G02 : 4-SpitLizard, 11-TentaclePlant, 9-LanternMouse-5, 7-LanternMouse, 8-DropBug, 6-WhiteLizard, 5-RedLizard-{Night}
+SB_E02 : 7-LanternMouse, 3-DaddyLongLegs-{Ignorecycle}, 6-PoleMimic-{15}, 4-PoleMimic-{7}
+SB_A03 : 6-Snail, 3-Snail-3, 4-Snail, 4-LanternMouse
+SB_TOPSIDE : 2-SpitLizard
+SB_H03 : 6-WhiteLizard, 8-RedLizard
+SB_A01 : 4-BigNeedleWorm, 4-SmallNeedleWorm, 3-DropBug
+LINEAGE : SB_E02 : 5 : BrotherLongLegs-{Ignorecycle}-0.5, DaddyLongLegs-{Ignorecycle}-0.5, NONE-0.5
+SB_H02 : 6-RedCentipede, 6-Centiwing, 7-Centiwing
+SB_GOR02 : 2-SpitLizard
+LINEAGE : SB_J01 : 6 : EggBug-1, FireBug-0.5, NONE-0
+SB_G03 : 4-RedLizard, 3-WhiteLizard, 7-FireBug
+LINEAGE : SB_C02 : 2 : NONE-1, Salamander-0.5, Eel-0

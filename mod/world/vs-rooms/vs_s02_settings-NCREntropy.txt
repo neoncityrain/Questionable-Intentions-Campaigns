@@ -1,0 +1,17 @@
+Template: VS_SettingsTemplate_Sewer
+DangerType: None
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 5.900868E-42
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Grime: 0.3586957
+Palette: 30
+EffectColorB: 6
+Effects: Coldness-1-20-20, DayNight-0-30-30, ReplaceEffectColorB-0-40-40-Color-0-0-0, 
+PlacedObjects: DayNightSettings><67.83392><330.0685><5~8.660254~16~10, BrokenShelterWaterLevel><276.0081><406.6998><, 
+FadePalette: 8, 0.4673913
+WetTerrain: OFF

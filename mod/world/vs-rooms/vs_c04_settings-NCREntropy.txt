@@ -1,0 +1,11 @@
+Template: VS_SettingsTemplate_Surface
+DangerType: None
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+Clouds: 0.2826087
+Grime: 0.2608696
+Palette: 30
+Effects: Coldness-0-134.6239-73.42226, Fog-0.317063-15.13855-127.5111, DustWave-1-20-20, ElectricDeath-0.2474639-30-30, DayNight-0-40-40, 
+PlacedObjects: DeadTokenStalk><2747.724><458.4483><24~41, DeadTokenStalk><2743.734><435.0507><41~23, DeadTokenStalk><2640.723><473.0518><38~45, DayNightSettings><53.06186><341.5013><5~8.660254~16~10, 
+FadePalette: 9, 0.2399911, 0.2337184, 0.2368546

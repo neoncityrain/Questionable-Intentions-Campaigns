@@ -1,0 +1,11 @@
+Template: NONE
+DangerType: Rain
+CeilingDrips: 0.4565217
+RainIntensity: 0
+RumbleIntensity: 0
+EffectColorA: 18
+EffectColorB: 12
+Effects: Fog-0.4782609-19-133, Darkness-0.173913-272-126, CorruptionSpores-0.1195652-18-78, ZeroGSpecks-0.1413043-270-71, 
+PlacedObjects: Corruption><439.5349><583.6941><133~90, Corruption><265.0005><480.7017><0~88, Corruption><606.5561><477.2991><3~79, LightFixture><59.94299><603.0268><RedLight~17.32051~-10~1, LightFixture><855.9709><275.7346><RedLight~17.32051~-10~0, LightFixture><107.3401><13.74365><RedLight~17.32051~-10~0, LightSource><-15.72459><31.83537><0.1521739~EffectColor1~760~391~50~86.60254~0~0~Fade~0.8804885~0, WallMycelia><152.3377><304.4187><0~100, WallMycelia><624.148><86.88472><11~140, WallMycelia><263.5502><84.75743><0~100, ExitSymbolHidden><750.4911><371.9724><, 
+AmbientSounds: OMNI><SO_WAT-MoreDrips.ogg><834.9872><419.0504><0.5><1, SPOT><waterGurgleLOOP1.wav><833.9866><304.0504><0.5869565><0.6086956><-13.76518><143.6047><98.64465><23.64465><0><0.154348, SPOT><AM_ENV-WallHum.ogg><821.5324><184.0526><0.2934783><1.332609><466.5319><285.0515><185.6447><-65.35535><0><0.1000001, SPOT><Weird Deep Hole.wav><660.9627><593.6965><0.326087><0.4717391><188.5823><710.8572><16.64465><-216.3553><0><0.1760871, 
+FadePalette: 50, 0.8043478

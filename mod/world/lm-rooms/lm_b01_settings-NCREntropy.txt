@@ -1,0 +1,15 @@
+DangerType: Blizzard
+RainIntensity: 0.09782609
+RumbleIntensity: 0.06521739
+WaveSpeed: 0.5002175
+WaveLength: 0.9998912
+WaveAmplitude: 1.910513E-11
+SecondWaveLength: 0
+SecondWaveAmplitude: 0
+Grime: 0.6195652
+Palette: 25
+Effects: Fog-0.3695652-0-0, ElectricDeath-0-20-20, ZeroGSpecks-1-494-10, GreenSparks-0.2282609-240-8, WaterDepth-0.1086956-0-0, SilenceWater-0.2173913-247-191, Coldness-0-30-30, WaterFluxMinLevel-0.05434782-49-109, WaterFluxMaxLevel-0.1304348-48-94, WaterFluxSpeed-0.06521739-12-120, 
+PlacedObjects: VoidSpawnEgg><515.5501><1596.257><0~0~2~3~0, SnowSource><518.5413><1572.14><Strip~-3~40~50~86.60254~0.5543478~0, SnowSource><419.9836><1409.282><Strip~-119~106~50~86.60254~0.4456522~0.08695652, SnowSource><436.0466><1589.664><Radial~79~80~50~86.60254~0.4673913~0, SnowSource><152.4472><1351.702><Radial~3~101~50~86.60254~0.6086956~0, SnowSource><322.7509><966.4094><Strip~-18~115~50~86.60254~0.4891304~0, SnowSource><71.67099><962.7638><Strip~-1~86~50~86.60254~0.3695652~0, SnowSource><574.7615><951.1749><Strip~0~84~50~86.60254~0.423913~0, SnowSource><309.1006><878.945><Strip~15~277~50~86.60254~0.75~0, SnowSource><727.5167><884.7431><Strip~-48~96~50~86.60254~0.5652174~0, SnowSource><81.61142><618.5961><Radial~-53~4~50~86.60254~0.2282609~0, SnowSource><673.2675><537.1802><Radial~-1~87~50~86.60254~0.5760869~0, 
+AmbientSounds: OMNI><AM_ENV-LightWind.ogg><746.5655><515.5771><0.3478261><0.9413043, SPOT><AM_ENV-NatWind.ogg><792.3282><149.1841><0.3695652><1><436.3282><1428.184><-126.3553><44.64465><0><0.3826088, OMNI><AM_WAT-Sea01.ogg><833.6553><646.626><0.02173913><0.1, OMNI><AM_RAIN-QuietThunder.ogg><741.5999><424.6733><0.3043478><1, OMNI><MSC-StructureStrain.ogg><625.3441><563.3235><0.1956522><0.1, 
+FadePalette: 10, 0.06521739, 0.0326087
+WetTerrain: OFF

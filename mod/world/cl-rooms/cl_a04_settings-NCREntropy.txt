@@ -1,0 +1,17 @@
+Template: CL_SettingsTemplate_DarkSun
+DangerType: Rain
+CeilingDrips: 1
+WaveSpeed: 0.4968313
+WaveLength: 0.9794617
+WaveAmplitude: 0.001386713
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 1
+Grime: 0.5335939
+EffectColorA: 2
+EffectColorB: 6
+Effects: Coldness-1-21-79, Dustpuffs-0-20-132, HeavyRain-0.02319983-30-30, 
+PlacedObjects: LightBeam><537.9454><324.0424><-37~451~78~418~282.3083~-138.7111~-552~-6~0.4652173~0~0~1~None~0~0, LightSource><641.5501><313.2569><0.1304348~Environment~-604~302~-10~244.6025~1~1~None~0~0, KarmaFlower><653.7617><308.8993><0~0~7~50, DangleFruit><772.9184><463.1079><0~0~2~9, Corruption><572.3776><641.8787><-150.1177~-72.08887, 
+AmbientSounds: OMNI><AM_IND-SuperStructure.ogg><867.7319><642.4492><0.1086956><1, OMNI><MSC-StructureStrain.ogg><875.7568><562.9499><0.3369565><0.1782609, SPOT><AM_ENV-NatWind.ogg><693.933><599.0806><0.4021739><1><563.933><717.0806><-5.355347><-54.35535><0><0.7413045, OMNI><SO_WAT-MoreDrips.ogg><760.1652><502.3275><0.5386658><1.055679, OMNI><SO_WAT-Pour.ogg><522.7486><512.1279><0><1, OMNI><SO_WAT-RainishDrips.ogg><772.6636><445.5294><0.6391987><1.055679, 
+FadePalette: 0, 0.3043478
+WetTerrain: OFF

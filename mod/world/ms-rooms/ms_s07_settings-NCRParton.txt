@@ -1,0 +1,14 @@
+Template: NONE
+DangerType: AerieBlizzard
+WaveSpeed: 0.5
+WaveLength: 0.75
+WaveAmplitude: 0.04999999
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Grime: 0.3478261
+Palette: 50
+EffectColorA: 6
+EffectColorB: 9
+Effects: Contrast-0.02173913-20-20, 
+AmbientSounds: SPOT><Deep Weird Wind.wav><721.9257><417.0643><0.06521739><1><298.9257><394.0643><129.6447><17.64465><0><0.3826088, OMNI><SO_WAT-LilDrips.ogg><717.483><161.3007><0.3478261><1, OMNI><SO_SFX-Kepler.ogg><745.9258><323.6857><0.1304348><0.4913043, OMNI><SO_IND-HeatDuct.ogg><737.187><237.3209><0.2173913><1, OMNI><MSC-RitualMetal.ogg><752.9333><78.08002><0.2173913><0.3934783, OMNI><AM_WIN-StrongWnd2.ogg><746.9475><509.5316><0.4021739><1, OMNI><OM.wav><543.9429><253.9471><0.2282609><1, OMNI><AM_IND-DeepHum.ogg><539.5887><357.3208><0.8043478><1, OMNI><AM_IND-Warehouse01.ogg><536.3388><153.3683><0.4021739><1, 
+FadePalette: 37, 0.173913

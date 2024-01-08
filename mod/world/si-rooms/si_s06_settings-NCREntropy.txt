@@ -1,0 +1,4 @@
+Template: SI_SettingsTemplate_Inside
+Palette: 3
+Effects: Contrast-0-20-20, Hue-0-24-70, Desaturation-0-270-65, Darkness-0-278-16, HeavyRain-0-30-30, Coldness-0-30-30, 
+FadePalette: 8, 0.2173913

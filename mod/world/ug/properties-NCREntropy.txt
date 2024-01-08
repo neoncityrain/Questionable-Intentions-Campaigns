@@ -1,0 +1,61 @@
+Palette: 4
+waterColorOverride: 0.15, 0.35, 0.15
+batDepleteCyclesMin: 12
+batDepleteCyclesMax: 17
+batDepleteCyclesMaxIfLessThanTwoLeft: 13
+batDepleteCyclesMaxIfLessThanFiveLeft: 14
+overseersSpawnChance: 0.2
+overseersMin: 0
+overseersMax: 2
+earlyCycleChance: 0.1
+earlyCycleFloodChance: 0.5
+playerGuideOverseerSpawnChance: 0.0
+pupSpawnChance: 0.05
+Subregion: Flower's Paradise
+Room Setting Templates: Inside
+Room_Attr: GATE_DS_SB: BigSpider-Forbidden,SpitterSpider-Forbidden,
+Room_Attr: GATE_SU_DS: BigSpider-Forbidden,SpitterSpider-Forbidden,
+Room_Attr: GATE_DS_GW: Scavenger-Avoid,BigSpider-Forbidden,SpitterSpider-Forbidden,ScavengerElite-Avoid,
+Room_Attr: GATE_DS_CC: BigSpider-Avoid,SpitterSpider-Avoid,
+Room_Attr: UG_B02: BigSpider-Forbidden,SpitterSpider-Forbidden,DropBug-Like,
+Room_Attr: UG_A22: BigSpider-Forbidden,SpitterSpider-Forbidden,
+Room_Attr: UG_A06: BigSpider-Forbidden,SpitterSpider-Forbidden,DropBug-Avoid,
+Room_Attr: UG_A02: Scavenger-Like,BigSpider-Forbidden,SpitterSpider-Forbidden,DropBug-Avoid,ScavengerElite-Like,
+Room_Attr: UG_A20: BigSpider-Forbidden,SpitterSpider-Forbidden,
+Room_Attr: UG_S01r: BigSpider-Forbidden,SpitterSpider-Forbidden,
+Room_Attr: UG_B03: Snail-Forbidden,Scavenger-Like,BigSpider-Forbidden,SpitterSpider-Forbidden,ScavengerElite-Like,
+Room_Attr: UG_A09: Scavenger-Avoid,BigSpider-Forbidden,SpitterSpider-Forbidden,DropBug-Forbidden,ScavengerElite-Avoid,
+Room_Attr: UG_A19: Scavenger-Avoid,BigSpider-Forbidden,SpitterSpider-Forbidden,DropBug-Forbidden,ScavengerElite-Avoid,
+Room_Attr: UG_B04: Snail-Like,Scavenger-Avoid,BigSpider-Forbidden,SpitterSpider-Forbidden,DropBug-Forbidden,ScavengerElite-Avoid,
+Room_Attr: UG_A08: Snail-Like,Scavenger-Avoid,BigSpider-Forbidden,SpitterSpider-Forbidden,DropBug-Forbidden,ScavengerElite-Avoid,
+Room_Attr: UG_S04: Scavenger-Avoid,BigSpider-Forbidden,SpitterSpider-Forbidden,DropBug-Forbidden,ScavengerElite-Avoid,
+Room_Attr: UG_B07: Salamander-Like,Snail-Stay,Scavenger-Avoid,BigSpider-Avoid,SpitterSpider-Avoid,DropBug-Forbidden,ScavengerElite-Avoid,
+Room_Attr: UG_A16: Scavenger-Like,BigSpider-Forbidden,SpitterSpider-Forbidden,ScavengerElite-Like,
+Room_Attr: UG_A07: BigSpider-Forbidden,SpitterSpider-Forbidden,
+Room_Attr: UG_A24: BigSpider-Forbidden,SpitterSpider-Forbidden,DropBug-Avoid,
+Room_Attr: UG_A11: BigSpider-Forbidden,SpitterSpider-Forbidden,DropBug-Avoid,
+Room_Attr: UG_C04: Scavenger-Avoid,DropBug-Avoid,ScavengerElite-Avoid,
+Room_Attr: UG_A25: Scavenger-Avoid,BigSpider-Forbidden,SpitterSpider-Forbidden,ScavengerElite-Avoid,
+Room_Attr: UG_B08: Scavenger-Avoid,BigSpider-Avoid,SpitterSpider-Avoid,DropBug-Avoid,ScavengerElite-Avoid,
+Room_Attr: UG_C01: Scavenger-Avoid,BigSpider-Avoid,SpitterSpider-Avoid,DropBug-Forbidden,ScavengerElite-Avoid,
+Room_Attr: UG_S02l: Scavenger-Avoid,BigSpider-Forbidden,SpitterSpider-Forbidden,ScavengerElite-Avoid,
+Room_Attr: UG_A21: Scavenger-Like,ScavengerElite-Like,
+Room_Attr: UG_C03: Leech-Forbidden,Scavenger-Avoid,BigSpider-Avoid,SpitterSpider-Avoid,DropBug-Avoid,ScavengerElite-Avoid,
+Room_Attr: UG_B10: Scavenger-Avoid,BigSpider-Forbidden,SpitterSpider-Forbidden,ScavengerElite-Avoid,
+Room_Attr: UG_D01: Leech-Forbidden,Scavenger-Avoid,BigSpider-Forbidden,SpitterSpider-Forbidden,DropBug-Avoid,ScavengerElite-Avoid,
+Room_Attr: UG_A05: Snail-Stay,Scavenger-Avoid,BigSpider-Forbidden,SpitterSpider-Forbidden,DropBug-Avoid,ScavengerElite-Avoid,
+Room_Attr: UG_D03: Leech-Forbidden,Scavenger-Avoid,BigSpider-Forbidden,SpitterSpider-Forbidden,DropBug-Forbidden,ScavengerElite-Avoid,
+Room_Attr: UG_C02: Scavenger-Forbidden,BigSpider-Forbidden,SpitterSpider-Forbidden,DropBug-Forbidden,ScavengerElite-Forbidden,
+Room_Attr: UG_D02: Scavenger-Avoid,BigSpider-Forbidden,SpitterSpider-Forbidden,ScavengerElite-Avoid,
+Room_Attr: UG_DARK01: Scavenger-Avoid,ScavengerElite-Avoid,
+Room_Attr: UG_DARK02: Scavenger-Avoid,ScavengerElite-Avoid,
+Room_Attr: UG_A26: Scavenger-Avoid,BigSpider-Forbidden,SpitterSpider-Forbidden,DropBug-Forbidden,ScavengerElite-Avoid,
+Room_Attr: UG_B06: Snail-Forbidden,Scavenger-Avoid,BigSpider-Forbidden,SpitterSpider-Forbidden,DropBug-Forbidden,ScavengerElite-Avoid,
+Room_Attr: UG_TOLL: Scavenger-Like,BigSpider-Forbidden,SpitterSpider-Forbidden,DropBug-Forbidden,ScavengerElite-Like,
+Room_Attr: UG_Filters: BigSpider-Forbidden,SpitterSpider-Forbidden,DropBug-Forbidden,
+Room_Attr: UG_GUTTER01: BigSpider-Avoid,SpitterSpider-Avoid,DropBug-Avoid,
+Room_Attr: UG_GUTTER02: DropBug-Avoid,
+Room_Attr: UG_GUTTER03: BigSpider-Like,SpitterSpider-Like,DropBug-Avoid,
+Room_Attr: UG_GUTTER04: BigSpider-Like,SpitterSpider-Like,DropBug-Avoid,
+Room_Attr: UG_GUTTER05: Scavenger-Like,BigSpider-Like,SpitterSpider-Like,DropBug-Avoid,ScavengerElite-Like,
+Room_Attr: UG_RIVSTART: BigSpider-Avoid,SpitterSpider-Avoid,DropBug-Avoid,

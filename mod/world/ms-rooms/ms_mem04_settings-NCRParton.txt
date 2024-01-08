@@ -1,0 +1,9 @@
+Template: MS_SettingsTemplate_Vents
+RumbleIntensity: 0.9021739
+Clouds: 0
+WaterReflectionAlpha: 1
+Palette: 50
+Effects: Darkness-1-279-16, SilenceWater-1-266-70, WaterDepth-0-272-127, BrokenZeroG-0.3913043-267-186, ElectricDeath-0.1847826-23-23, 
+PlacedObjects: LightFixture><675.0392><1751.85><RedSubmersible~17.32051~-10~8, LightFixture><894.9852><2167.165><RedSubmersible~17.32051~-10~0, LightFixture><144.8371><1366.034><RedSubmersible~17.32051~-10~0, LightFixture><228.9575><571.844><RedSubmersible~17.32051~-10~0, LightFixture><887.7944><567.2565><RedSubmersible~17.32051~-10~0, LightFixture><328.9003><86.1546><RedSubmersible~17.32051~-10~0, LightFixture><811.8489><1011.159><RedSubmersible~17.32051~-10~0, LightFixture><-44.11932><184.7115><RedSubmersible~17.32051~-10~11, LightFixture><129.6641><1054.155><RedSubmersible~17.32051~-10~23, LightFixture><900.5433><342.0638><RedSubmersible~17.32051~-10~15, LightFixture><788.9339><2175.918><RedSubmersible~17.32051~-10~0, LightFixture><247.7449><2071.266><RedSubmersible~17.32051~-10~0, LightFixture><-13.98141><1625.071><RedSubmersible~17.32051~-10~28, ExitSymbolHidden><911.9543><128.9081><, LightSource><128.8766><1365.579><0.238948~EffectColor1~994~861~-239~-195.3975~0~0~None~0~0, LightSource><813.5894><1012.381><0.2608696~EffectColor1~-974~1211~-303~-132.3975~0~0~None~0~0, LightSource><329.8711><87.6591><0.2499728~EffectColor1~574~2143~273~-10.39746~0~0~None~0~0, 
+AmbientSounds: SPOT><Weird Deep Hole.wav><731.6208><382.5973><0.1521739><1><438.6208><1911.597><126.6447><-212.3553><0><1, OMNI><SO_SFX-Drowning.ogg><813.3069><562.6976><0.326087><1.371739, OMNI><SO_SFX-LakeBottom.ogg><816.3024><484.969><0.6195652><1, 
+FadePalette: 38, 0.75, 0.8586956, 1

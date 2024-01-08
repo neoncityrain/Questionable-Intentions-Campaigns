@@ -1,0 +1,10 @@
+Template: NONE
+Clouds: 0.3804348
+Grime: 0.1630435
+Palette: 10
+EffectColorA: 9
+EffectColorB: 9
+Effects: FireFlies-0.3043478-20-20, LightBurn-0.05434782-24-74, Desaturation-0.2282609-26-128, LightRain-0.2391304-278-20, 
+PlacedObjects: NoSpearStickZone><1708.183><287.6688><-9~273, ScavengerOutpost><682.9299><139.9369><-87~396~0~0~0.2455789~80~14, SporePlant><1776.934><608.9218><10~51~7~10, InsectGroup><1267.9><261.8671><-296~283~0~0~RockFlea~0.5, DeadSeedCob><1235.125><239.4059><, DeadSeedCob><1577.07><320.1637><, SeedCob><1537.594><279.6254><0~0~7~10, DeadSeedCob><845.7513><264.3><, 
+AmbientSounds: OMNI><AM_ENV-NatWind.ogg><656.676><646.8142><0.3369565><1, OMNI><AM_ENV-Outside.ogg><830.05><645.748><0.3369565><1, SPOT><AM_ENV-Pasture.ogg><829.7066><531.9453><0.4456522><1><2006.707><708.9453><-504.3552><-291.3553><0><1, SPOT><AM_ENV-WindGrass.ogg><824.2499><423.95><0.3478261><1><2052.25><717.95><-371.3553><-430.3553><0><1, 
+FadePalette: 12, 0.1630435, 0.1304348

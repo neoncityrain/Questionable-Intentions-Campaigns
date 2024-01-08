@@ -1,0 +1,7 @@
+DangerType: Flood
+Grime: 0.2065217
+Palette: 39
+Effects: Fog-0.2065217-277-128, WaterDepth-0.07608695-283-72, SilenceWater-0.3913043-16-124, HeatWave-0.2065217-30-30, 
+PlacedObjects: InsectGroup><562.828><909.684><0~100~0~0~RockFlea~0.5, 
+AmbientSounds: OMNI><SO_WAT-DripTap.ogg><649.0363><567.9467><0.25><1, OMNI><SO_WAT-LilDrips.ogg><648.3156><637.689><0.4021739><1, OMNI><AM_ENV-LushNight.ogg><816.4695><496.4477><0.3478261><1, OMNI><AM_IND-Utility02.ogg><837.3013><645.9775><0><1, OMNI><SO_IND-HeatDuct.ogg><857.5117><573.3004><0><1, 
+FadePalette: 9, 0.4456522, 0.3586957

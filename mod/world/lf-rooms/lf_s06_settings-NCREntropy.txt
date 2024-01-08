@@ -1,0 +1,7 @@
+Clouds: 1
+Grime: 0.4130435
+Palette: 1
+Effects: Coldness-1-60-60, 
+PlacedObjects: BrokenShelterWaterLevel><148.8739><341.343><, 
+AmbientSounds: OMNI><AM_ENV-LightWind.ogg><831.4781><643.8012><0.3043478><0.7652174, SPOT><AM_IND-DeepHum.ogg><745.4012><304.6191><0.3152174><1><155.4012><149.6191><-83.35535><-109.3553><0><0.1869567, 
+FadePalette: 8, 0.5217391

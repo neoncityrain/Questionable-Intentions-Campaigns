@@ -1,0 +1,16 @@
+Template: CL_SettingsTemplate_DarkSun
+DangerType: Rain
+CeilingDrips: 0.6739131
+WaveSpeed: 0.5167164
+WaveLength: 0.9383313
+WaveAmplitude: 0.01173737
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.2065217
+EffectColorA: 6
+EffectColorB: 21
+Effects: SilenceWater-0.6521739-19-68, Coldness-1-21-128, Dustpuffs-1-275-24, BorderPushBack-1-277-73, LightRain-1-30-30, 
+PlacedObjects: LightSource><3328.143><719.6411><0.1304348~White~-3269~-191~-521~-144.3975~1~1~None~0~0, ExitSymbolHidden><2008.895><650.888><, 
+AmbientSounds: OMNI><AM_ENV-CityTone.ogg><871.5679><645.1673><0.326087><1, OMNI><AM_ENV-NatWind.ogg><710.8524><644.8849><0.2934783><1, SPOT><AM_WIN-HowlingWnd.ogg><871.5618><527.3176><0.1304348><1><3640.562><721.2051><697.6447><-703.3553><0><1, SPOT><AM_WIN-StrongWnd2.ogg><707.1999><526.4937><0.4130435><1><3124.2><326.4937><-1168.355><-670.3553><0><1, SPOT><AM_WIN-SubWnd.ogg><880.4286><406.84><0.5><1><114.4286><349.84><303.6447><28.64465><0><0.6326088, SPOT><MSC-Subtundra.ogg><704.2573><406.9499><0.3478261><1><96.25726><78.94986><436.6447><306.6447><0><0.9152175, 
+FadePalette: 0, 0.4782609, 0.4891304, 0.5217391, 0.5326087, 0.5434783
+WetTerrain: OFF

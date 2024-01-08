@@ -1,0 +1,13 @@
+Template: HI_SettingsTemplate_Inside
+DangerType: Blizzard
+RainIntensity: 0.2717391
+RumbleIntensity: 0.2717391
+WaveSpeed: 0.4999146
+WaveLength: 0.9999573
+WaveAmplitude: 1.99504E-13
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Palette: 0
+Effects: Coldness-0.02319966-20-20, 
+PlacedObjects: BrokenShelterWaterLevel><473.9116><445.8823><, 
+FadePalette: 20, 0.1521739

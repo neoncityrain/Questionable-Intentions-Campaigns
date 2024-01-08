@@ -1,0 +1,18 @@
+Template: LM_SettingsTemplate_Sewer
+DangerType: Blizzard
+CeilingDrips: 0
+RainIntensity: 0.1521739
+RumbleIntensity: 0
+WaveSpeed: 0.4997015
+WaveLength: 0.9998507
+WaveAmplitude: 1.129225E-11
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 1
+Grime: 0.4347826
+EffectColorB: 6
+Effects: Contrast-0.0326087-299-177, Darkness-0.75-292-262, Coldness-0-20-20, Fog-0-30-30, WaterFluxMaxLevel-0.3043478-40-40, WaterFluxMinLevel-0.04347826-50-50, WaterFluxMaxDelay-1-60-60, WaterFluxMinDelay-1-70-70, WaterFluxSpeed-0.1413043-80-80, 
+PlacedObjects: CustomDecal><130.348><106.38><0~551.0846~157.7242~551.0846~157.7242~0~382~181~0.06521739~1~0~Rust3~1~0~1~0~0~0~0.5326087~0, 
+AmbientSounds: SPOT><SO_WAT-RunningWater.ogg><773.1981><449.5272><0.4130435><1><210.1981><68.52722><-200.3553><-37.35535><0><0.502174, 
+FadePalette: 35, 0.6195652
+WetTerrain: OFF

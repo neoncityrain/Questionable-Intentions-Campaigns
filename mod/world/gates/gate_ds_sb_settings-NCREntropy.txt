@@ -1,0 +1,17 @@
+DangerType: Blizzard
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 5.605194E-45
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Grime: 0
+BkgDroneVolume: 0
+Palette: 26
+Effects: Coldness-0-20-20, HeatWave-0.04347826-30-30, 
+PlacedObjects: ExitSymbolShelter><735.5929><117.3229><, NoSpearStickZone><483.5829><238.318><-236~137, CommonGateData><484.7499><244.7><100~50~False~False~True~False~False~False~False~True~0~0.8478261~1, 
+AmbientSounds: SPOT><AM_IND-DeepHum.ogg><78.57001><473.1873><0.3369565><1><464.57><-39.81265><-132.3553><-32.35534><0><0.3173914, OMNI><AM_SUB-BlankState.ogg><829.9221><646.3518><0.326087><1, 
+FadePalette: 39, 0.05434782
+WetTerrain: OFF

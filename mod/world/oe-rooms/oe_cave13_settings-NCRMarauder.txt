@@ -1,0 +1,13 @@
+Template: OE_SettingsTemplate_Cave
+CeilingDrips: 0
+WaveSpeed: 0.5002518
+WaveLength: 0.9975773
+WaveAmplitude: 0.0004619004
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Palette: 41
+Effects: SilenceWater-0.3586957-260-122, DayNight-0.1304348-256-194, Darkness-0.3152174-259-67, 
+PlacedObjects: LanternOnStick><1289.095><602.623><38~-134, LanternOnStick><1358.12><556.5985><-48~-135, DeadTokenStalk><1278.389><555.3938><-1~-64, DeadTokenStalk><1425.08><510.1448><-46~-34, DeadTokenStalk><1384.411><524.3691><-22~-44, DeadTokenStalk><1244.214><569.0533><62~-77, DayNightSettings><1502.693><374.9459><5~8.660254~10~76, 
+AmbientSounds: OMNI><SO_WAT-MoreDrips.ogg><778.1729><562.3505><0.5><1, OMNI><SO_WAT-ProperDrips.ogg><780.285><487.8031><0.5><1, 
+FadePalette: 20, 0.5978261, 0.5760869
+WetTerrain: OFF

@@ -1,0 +1,9 @@
+Template: LF_SettingsTemplate_Farms
+BkgDroneVolume: 0.2569565
+Palette: 1
+EffectColorA: 7
+EffectColorB: 1
+Effects: LightRain-0.2065217-30-30, Hue-0.07608695-40-40, Desaturation-0.1521739-50-50, Coldness-1-60-60, Fog-1-20-20, ZeroG-1-70-70, BorderPushBack-0-80-80, 
+PlacedObjects: CustomDecal><36.59406><175.5735><-8~219~975~206~927~-1~-196~145~0.6413044~0.75~0~YellowBubbly~0.5543478~1~0.4891304~0~0~1~0.5652174~1, NoSpearStickZone><989.8875><401.1653><-55~140, NoSpearStickZone><-12.62146><426.0967><-112~123, Rainbow><283.3127><189.8202><399~296~-203~-203~0,0,0.3369565,0,0.9130435,0.04130422, PlayerPushback><71.83017><635.1057><42~-172, PlayerPushback><977.614><653.8357><-114~-157, PlayerPushback><275.0504><702.7367><3~-109, PlayerPushback><725.1892><711.1851><2~-85, PlayerPushback><443.9509><715.9438><6~-106, PlayerPushback><606.0957><717.8728><2~-91, 
+AmbientSounds: OMNI><AM_ENV-Outside.ogg><808.2621><634.3004><0.4565217><0.8043478, OMNI><AM_ENV-LightWind.ogg><632.9614><634.4463><0.423913><0.8434783, SPOT><AM_ENV-NatWind.ogg><33.39227><267.3315><0.3804348><1><-120.8571><579.3315><116.6447><-215.3553><0><0.3717393, SPOT><AM_ENV-NatWind.ogg><1133.026><200.6982><0.3152174><1.097826><1077.924><592.7404><-92.35535><-215.3553><0><0.360869, 
+FadePalette: 11, 0.1086956

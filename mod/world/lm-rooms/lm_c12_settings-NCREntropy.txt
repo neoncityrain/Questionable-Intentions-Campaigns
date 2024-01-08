@@ -1,0 +1,6 @@
+DangerType: Flood
+CeilingDrips: 0.6304348
+Palette: 35
+Effects: RockFlea-0.1521739-281-117, Coldness-0-20-20, Darkness-0.6086956-30-30, 
+PlacedObjects: WaterNut><1241.945><339.5577><-307~137~8~10, 
+FadePalette: 9, 0.5760869, 0.4565217, 0.3478261

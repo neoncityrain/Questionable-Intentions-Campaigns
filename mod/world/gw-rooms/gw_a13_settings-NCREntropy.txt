@@ -1,0 +1,12 @@
+Template: NONE
+DangerType: Flood
+CeilingDrips: 0.9021739
+Clouds: 0.75
+BkgDroneVolume: 0.2769565
+Palette: 33
+EffectColorA: 4
+EffectColorB: 13
+Effects: Desaturation-0.3043478-30-30, Coldness-0-20-20, MossWater-0-40-40, MossWaterRGB-0-427-494-Blue:255-Green:0-Red:255, LavaSurface-0-60-60, LethalWater-0.01086957-70-70, 
+PlacedObjects: Mushroom><278.6079><129.8592><-375~420~2~3, 
+AmbientSounds: SPOT><SO_NAT-LilDrips.ogg><59.91577><503.8186><0.2608696><1><462.9158><317.8186><-183.3553><-87.35535><0><0.3934784, SPOT><OM.wav><60.53912><386.3039><0.25><1><735.5391><244.3039><-50.35535><-65.35535><0><0.1, SPOT><AM_ENV-WinterTrees.ogg><747.6876><389.5693><0.3804348><0.726087><452.6876><480.5693><-88.35535><-31.35535><0><0.2956523, 
+FadePalette: 23, 0.5869565

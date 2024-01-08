@@ -1,0 +1,16 @@
+DangerType: Thunder
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 5.605194E-45
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 1
+Grime: 0.4021739
+RandomItemDensity: 0.3804348
+Palette: 30
+Effects: Darkness-0.4918365-20-20, DayNight-0-30-30, ElectricDeath-0.7501244-28.61667-89.77778, 
+PlacedObjects: DayNightSettings><-7.957108><1003.092><5~8.660254~10~10, 
+FadePalette: 10, 0.5760869, 0.6304348

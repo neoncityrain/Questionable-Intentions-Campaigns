@@ -1,0 +1,18 @@
+Template: CL_SettingsTemplate_DarkSun
+DangerType: Rain
+CeilingDrips: 0
+WaveSpeed: 0.4803288
+WaveLength: 0.824563
+WaveAmplitude: 0.03438585
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.875
+Grime: 0.1
+Palette: 9091
+EffectColorA: 15
+EffectColorB: 10
+Effects: LightBurn-0.07608695-30-30, Coldness-1-31-86, Dustpuffs-0-33-134, HeavyRain-0.06959915-20-20, DayNight-0.96-0-0, BulletRainFlux-0.2010644-40-40, 
+PlacedObjects: LightSource><693.9435><725.4495><0.3913043~Environment~1221~-748~-503~-204.3975~1~0~None~0~0, LightSource><1443.449><724.265><0.5760869~Environment~342~-578~130~-248.3975~1~0~None~0~0, LanternOnStick><529.7888><285.5538><-53~-224, LanternOnStick><470.9078><224.8729><14~-149, DeadSeedCob><1341.929><256.589><, DeadSeedCob><1312.921><285.3965><, SeedCob><675.2124><266.6964><0~0~29~50, DeadSeedCob><762.0938><256.6252><, DeadTokenStalk><1745.234><263.9493><-30~-59, DeadTokenStalk><1651.053><310.7823><-36~-58, DeadTokenStalk><1537.775><281.6985><27~-63, DayNightSettings><0><0><5~8.660254~9104~9900, 
+AmbientSounds: OMNI><AM_ENV-NatWind.ogg><823.309><643.6906><0.2717391><1, OMNI><AM_ENV-CityTone.ogg><828.6997><572.3064><0.2608696><1, 
+FadePalette: 9091, 0.8152174, 0.7608696
+WetTerrain: OFF

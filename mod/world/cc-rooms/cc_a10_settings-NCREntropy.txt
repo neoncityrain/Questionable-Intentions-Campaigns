@@ -1,0 +1,14 @@
+DangerType: Blizzard
+WaveSpeed: 0.48916
+WaveLength: 0.99458
+WaveAmplitude: 2.570643E-05
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.4021739
+Grime: 0.3369565
+BkgDroneVolume: 0.2869565
+Palette: 10
+Effects: Fog-0.173913-20-20, Flies-0-21-73, Coldness-1-30-30, Dustpuffs-1-40-40, SkyAndLightBloom-0.2010644-50-50, 
+PlacedObjects: UniqueDataPearl><461.3973><347.8669><-47~-143~0~0~Misc~0, DeadTokenStalk><832.1953><83.4574><-8~39, Rainbow><557.8529><80.42151><-402~555~-481~190~0,0,0.1195652,0.2282609,0.8152174,0.05434782, SnowSource><508.8906><345.3578><Radial~1174~673~50~86.60254~0.6086956~1, LanternOnStick><584.6661><407.8184><17~-74, LanternOnStick><617.7428><428.9498><0~-101, 
+AmbientSounds: SPOT><SO_IND-Generator.ogg><858.8719><50.90363><0.1413043><1><661.8719><220.9036><-130.3553><35.64465><0><0.502174, OMNI><AM_ENV-LightWind.ogg><711.424><492.3486><0><1, OMNI><AM_ENV-WinterHum.ogg><728.1713><398.6031><0.2826087><1, 
+FadePalette: 6, 0.2173913

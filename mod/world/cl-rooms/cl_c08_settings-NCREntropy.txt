@@ -1,0 +1,16 @@
+Template: CL_SettingsTemplate_DarkSun
+DangerType: Rain
+CeilingDrips: 0.7282609
+WaveSpeed: 0.51
+WaveLength: 1
+WaveAmplitude: 0.0001
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.173913
+WaterReflectionAlpha: 0.423913
+EffectColorB: 13
+Effects: SilenceWater-0.5108696-21-76, HeatWave-0.6739131-22-133, WaterDepth-0-279-19, 
+PlacedObjects: LightFixture><101.5184><444.5508><RedLight~17.32051~-10~20, LightFixture><493.6431><533.8897><RedLight~17.32051~-10~57, LightSource><1414.589><365.429><0.2826087~White~965~428~50~86.60254~1~0~None~0~0, LightFixture><2407.825><562.1532><RedLight~17.32051~-10~87, LightFixture><2835.192><325.193><RedLight~17.32051~-10~19, LightSource><1205.198><311.027><0.08695652~Environment~513~365~50~86.60254~1~1~None~0~0, 
+AmbientSounds: OMNI><MSC-Subtundra.ogg><875.9265><648.8441><0.4021739><1, SPOT><AM_WIN-SubWnd.ogg><706.2679><608.1992><0.4456522><1><1248.268><365.1992><-394.3553><-98.35535><0><0.904348, SPOT><SO_WAT-MoreDrips.ogg><876.8123><536.5691><0.5><1><2639.812><518.5691><-407.3553><-210.3553><0><1, 
+FadePalette: 0, 0.2173913, 0.2282609, 0.173913
+WetTerrain: OFF

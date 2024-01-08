@@ -1,0 +1,15 @@
+Template: CL_SettingsTemplate_DarkSun
+DangerType: Rain
+CeilingDrips: 0.6413044
+WaveSpeed: 0.51
+WaveLength: 1
+WaveAmplitude: 0.0001
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.2717391
+EffectColorB: 13
+Effects: SilenceWater-0.5108696-21-70, HeatWave-0.6847826-19-123, WaterDepth-0.05434782-265-189, 
+PlacedObjects: LightSource><939.929><389.937><0.06521739~Environment~-989~-335~-308~-158.3975~1~1~None~0~0, LightFixture><599.8><749.5036><RedLight~-218.6795~-207~100, LightFixture><208.0139><160.2981><RedLight~17.32051~-10~90, LightSource><1660.747><349.05><0.06521739~Environment~-362~2~-129~208.6025~1~1~None~0~0, LightSource><2363.097><348.3708><0.05434782~Environment~597~430~218~179.6025~1~1~None~0~0, LightFixture><2035.951><729.0561><RedLight~20.3205~-138~54, LightFixture><2865.188><739.3196><RedLight~15.3205~-172~67, LightFixture><3618.547><591.5556><RedLight~17.32051~-10~90, LightFixture><3970.651><310.8812><RedLight~17.32051~-10~65, LightSource><3415.654><349.8777><0.05434782~Environment~63~285~50~86.60254~1~1~None~0~0, LightSource><3474.709><101.5543><0.06521739~Environment~227~227~50~86.60254~1~1~None~0~0, LightFixture><4284.966><691.6971><RedLight~17.32051~-10~35, LightFixture><4818.2><524.4891><RedLight~17.32051~-10~17, CentipedeAttractor><2350.476><419.0515><117~90, CentipedeAttractor><1756.847><399.6212><0~100, CentipedeAttractor><1524.799><184.944><0~100, CentipedeAttractor><666.6255><400.6565><0~100, CentipedeAttractor><1106.742><173.6998><0~100, CentipedeAttractor><894.7524><633.7><0~100, 
+AmbientSounds: OMNI><MSC-Subtundra.ogg><880.5815><653.5674><0.326087><1, SPOT><AM_WIN-SubWnd.ogg><704.093><611.1261><0.3804348><1><1071.093><413.1261><-341.3553><-202.3553><0><0.8065219, SPOT><SO_WAT-MoreDrips.ogg><878.1962><541.7112><0.3695652><1><478.1962><476.7112><235.6447><-277.3553><0><0.6434784, SPOT><SO_WAT-ProperDrips.ogg><710.8614><499.1442><0.4347826><1><2498.861><441.1442><-481.3553><-147.3553><0><0.9586958, SPOT><SO_WAT-RainishDrips.ogg><883.9495><428.4853><0.4347829><1><4759.949><687.4852><-482.3553><-280.3553><0><0.7739132, SPOT><AM_WIN-SubWnd.ogg><712.6843><382.1724><0.4130435><1><4494.685><249.1724><-642.3553><-55.35535><0><0.6326088, OMNI><SO_IND-HeatDuct.ogg><533.8632><652.3351><0.1521739><0.9021739, 
+FadePalette: 0, 0.07608695, 0.09782609, 0.1304348, 0.1086956, 0.07608695
+WetTerrain: OFF

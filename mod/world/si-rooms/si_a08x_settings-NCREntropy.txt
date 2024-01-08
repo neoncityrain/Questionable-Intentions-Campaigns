@@ -1,0 +1,4 @@
+Effects: Contrast-0.05434782-52-134, Desaturation-0.1847826-307-137, Darkness-0.2934783-309-82, Hue-0.9456522-49-82, LightRain-0.4021739-462-21, Coldness-0-20-20, SkyDandelions-0-30-30, HeavyRain-0.01086957-40-40, 
+PlacedObjects: ExitSymbolHidden><491.2729><534.4487><, DeadSeedCob><233.2442><704.8><, DeadSeedCob><430.0524><675.9689><, DeadSeedCob><455.3767><709.1548><, DandelionPeach><413.1836><598.6707><0~0~9~22, DandelionPeach><442.1298><607.9022><0~0~5~17, 
+AmbientSounds: SPOT><AM_ENV-LightWind.ogg><862.1068><480.1691><0.3369565><1><-113.8932><361.1691><256.6447><-246.3553><0><1, 
+FadePalette: 18, 0.1956522

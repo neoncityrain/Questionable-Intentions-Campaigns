@@ -1,0 +1,13 @@
+DangerType: Blizzard
+RainIntensity: 0.2065217
+RumbleIntensity: 0.1413043
+WaveSpeed: 0.4997974
+WaveLength: 0.9998987
+WaveAmplitude: 5.311934E-05
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Palette: 5
+Effects: Flies-0-20-20, Coldness-0-30-30, 
+PlacedObjects: BrokenShelterWaterLevel><403.3209><331.5661><, SnowSource><467.3793><366.5921><Radial~12.80627~44.53336~50~86.60254~0.7834691~0.1546651, 
+AmbientSounds: OMNI><AM_ENV-LightWind.ogg><711.424><492.3486><0><1, OMNI><AM_ENV-WinterHum.ogg><749.1927><398.4465><0.2934783><1, 
+FadePalette: 8, 0.4021739

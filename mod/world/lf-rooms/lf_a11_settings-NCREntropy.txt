@@ -1,0 +1,7 @@
+BkgDroneVolume: 0.2569565
+Palette: 1
+EffectColorB: 1
+Effects: Coldness-0-20-20, ZeroG-1-30-30, 
+PlacedObjects: PuffBall><405.908><603.6227><0~0~2~3, 
+AmbientSounds: OMNI><AM_ENV-Outside.ogg><833.1677><636.359><0.2608696><0.823913, OMNI><AM_ENV-LightWind.ogg><648.1544><635.3772><0.326087><0.6869565, 
+FadePalette: 8, 0.3152174

@@ -1,0 +1,6 @@
+Template: MS_SettingsTemplate_Vents
+DangerType: Rain
+Palette: 50
+Effects: ElectricDeath-0.08695652-17-131, 
+PlacedObjects: LightSource><277.3727><1003.596><0.3029089~EffectColor2~432~335~50~86.60254~0~0~None~0~0, LightSource><1673.2><1041.543><0.1304348~EffectColor2~-414~222~50~86.60254~0~0~None~0~0, LightSource><1097.992><930.2871><0.1957404~EffectColor2~58~264~50~86.60254~0~0~None~0~0, LightSource><216.0932><279.478><0.3254998~EffectColor2~1271~736~50~86.60254~0~0~None~0~0, LightSource><696.0831><102.3897><0.1956522~EffectColor2~-748~559~48~-86.39746~0~0~None~0~0, LightSource><665.1069><606.1691><0.5652174~EffectColor2~-646~-79~-326~-408.3975~0~0~None~0~0, LightSource><2360.013><988.1449><0.2065217~EffectColor2~-521~407~50~86.60254~0~0~None~0~0, WaterNut><2416.372><982.5533><0~0~2~3, WaterNut><2442.32><963.8524><0~0~2~3, WaterNut><1687.387><1014.415><0~0~2~3, WaterNut><1722.523><1022.449><0~0~2~3, WaterNut><1760.347><1013.121><0~0~2~3, BubbleGrass><1509.895><972.8301><0~0~4~9, BubbleGrass><1550.093><992.1769><0~0~4~9, 
+FadePalette: 5, 0.3804348, 0.3586957, 0.3478261, 0.3478261

@@ -1,0 +1,6 @@
+Clouds: 0.2717391
+Grime: 0
+Palette: 50
+Effects: Fog-1-285-21, LightBurn-0.2717391-259-81, WaterDepth-0.05434782-259-181, BrokenZeroG-0.4021739-257-133, Moth-0.06521739-269-231, ElectricDeath-0-274-280, 
+PlacedObjects: SuperStructureFuses><53.23822><569.6996><115~94, SuperStructureFuses><271.0821><568.3912><279~38, SuperStructureFuses><811.3291><368.6837><17~137, LightSource><580.3102><211.6871><0.5217391~Environment~-729~232~45~-50.39746~1~0~None~0~0, 
+FadePalette: 13, 0.1086956

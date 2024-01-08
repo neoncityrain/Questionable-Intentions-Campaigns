@@ -1,0 +1,15 @@
+Template: VS_SettingsTemplate_Filter
+DangerType: None
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.51
+WaveLength: 1
+WaveAmplitude: 0.0001
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Palette: 30
+Effects: Coldness-0-30-30, DayNight-0-20-20, 
+PlacedObjects: DayNightSettings><207.33><265.8946><5~8.660254~16~10, BrokenShelterWaterLevel><368.9151><447.3189><, 
+FadePalette: 34, 0.173913
+WetTerrain: OFF

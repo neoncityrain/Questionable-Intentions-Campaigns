@@ -1,0 +1,6 @@
+Template: SU_SettingsTemplate_Inside
+Palette: 10
+EffectColorA: 9
+EffectColorB: 9
+Effects: Desaturation-0.3043478-17-77, 
+FadePalette: 10, 0.5326087

@@ -1,0 +1,58 @@
+{
+	"id": "NCRMarauder",
+	"name": "The Marauder",
+	"description": "A theif and eater of carrion, you must rely on quick wits rather than strength.<LINE>Your journey will be rough, as the path you walk is a lonely one.",
+	"features": {
+		"color": "A9D1DE",
+		"custom_colors": [
+			{
+				"name": "Body",
+				"story": "A9D1DE"
+			},
+			{
+				"name": "Eyes",
+				"story": "41B7A9"
+			}
+		],
+		"weight": [ 0.9, 0.5 ],
+		"tunnel_speed": [ 1.3, 1.6 ],
+		"climb_speed": [ 1.2, 1.5 ],
+		"walk_speed": [ 1.2, 1.5 ],
+		"crouch_stealth": [ 1.0, 0.6 ],
+		"throw_skill": [ 0, 1 ],
+		"lung_capacity": [ 1.1, 1.4 ],
+		"can_maul": true,
+		"karma": 0,
+		"karma_cap": 0,
+		"food_min": 6,
+		"food_max": 7,
+		"world_state": ["NCRMarauder", "Saint"],
+
+		"alignments": {
+			"Lizards": {
+				"like": -0.5,
+				"strength": 1
+			},
+			"Scavengers": {
+				"like": -0.6,
+				"strength": 1
+			}
+		},
+
+		"diet": {
+			"corpses": 0.5,
+			"plants": 0,
+			"meat": 0.25,
+			"overrides": {
+				"Scavenger": 0.25,
+				"SlugNPC": 2
+			}
+		},
+
+		"start_room": "OE_SEXTRA",
+		"select_menu_scene": "Slugcat_Marauder",
+		"select_menu_scene_ascended": "Ghost_Marauder",
+		"sleep_scene": "Sleep_Marauder",
+		"starve_scene": "Starve_Marauder"
+	}
+}

@@ -1,0 +1,18 @@
+Template: CL_SettingsTemplate_DarkSun
+DangerType: Rain
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 1.042802E-15
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.4130435
+Palette: 10
+EffectColorB: 10
+Effects: LightBurn-0.2934783-30-30, Coldness-1-31-81, 
+PlacedObjects: LightSource><426.7042><1187.806><0.06521739~Environment~689~-431~50~86.60254~1~1~None~0~0, Corruption><837.1948><218.2049><-4~92, Corruption><121.3442><249.3754><71~106, Corruption><326.2989><626.556><10~72, 
+AmbientSounds: OMNI><AM_ENV-CityTone.ogg><869.193><637.8083><0.2282609><1, OMNI><AM_WIN-SubWnd.ogg><695.1201><638.1521><0.3586957><1, SPOT><SO_WAT-Splashes.ogg><686.6929><515.0527><0.5><1><696.6929><850.0527><-158.3553><-5.355347><0><0.502174, SPOT><SO_WAT-OpenFlow.ogg><875.6174><440.5881><0.5><1><707.6174><1137.588><-312.3553><-79.35535><0><0.1869567, SPOT><AM_ENV-NatWind.ogg><703.6157><401.9131><0.2717391><1><811.6157><1851.913><-229.3553><-36.35535><0><0.3065219, SPOT><SO_WAT-Splashes.ogg><878.6868><315.8102><0.3804348><1><776.6868><930.8105><-162.3553><-32.35535><0><0.4913045, SPOT><AM_WIN-HowlingWnd.ogg><517.627><407.9077><0.1956522><1><542.627><1211.908><-209.3553><-177.3553><0><0.2739132, SPOT><SO_SFX-Drowning.ogg><519.6175><293.5882><0.5><1><542.6175><46.58817><-538.3553><333.6447><0><0.08913057, SPOT><SO_WAT-MoreDrips.ogg><888.7407><192.9498><0.5><1><565.7407><2050.95><-663.3553><-375.3553><0><0.2413043, 
+FadePalette: 0, 0.3695652, 0.3152174, 0.2282609
+WetTerrain: OFF

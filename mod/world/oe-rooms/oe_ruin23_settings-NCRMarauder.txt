@@ -1,0 +1,8 @@
+Template: OE_SettingsTemplate_RuinsInside
+Palette: 40
+EffectColorA: 21
+EffectColorB: 9
+Effects: LightRain-0-553-17, SilenceWater-0.1956522-263-245, Moth-0-264-297, FireFlies-0-266-129, DayNight-0.6521739-272-182, Contrast-0.08695652-20-20, Desaturation-0.04347826-30-30, Bloom-0.07608695-40-40, Coldness-1-50-50, 
+PlacedObjects: DayNightSettings><111.4728><2028.698><5~8.660254~10~76, 
+FadePalette: 4, 0.5543478, 0.7173913, 0.8913044
+WetTerrain: OFF

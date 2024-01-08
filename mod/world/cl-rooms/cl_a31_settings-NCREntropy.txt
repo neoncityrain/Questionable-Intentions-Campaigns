@@ -1,0 +1,17 @@
+Template: CL_SettingsTemplate_DarkSun
+DangerType: Flood
+CeilingDrips: 0
+RainIntensity: 1
+RumbleIntensity: 1
+WaveSpeed: 0.495816
+WaveLength: 0.9228234
+WaveAmplitude: 0.004878114
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.6195652
+EffectColorA: 15
+Effects: LightBurn-0.240206-30-30, Coldness-1-31-85, 
+PlacedObjects: LanternOnStick><371.0424><293.6954><-29~-151, LanternOnStick><268.9011><219.3262><31~-75, 
+AmbientSounds: SPOT><AM_ENV-NatWind.ogg><871.6792><513.937><0.2717391><1><755.6792><591.9371><-90.35535><-200.3553><0><1, OMNI><AM_ENV-CityTone.ogg><738.3481><632.9243><0.25><1, SPOT><AM_WIN-StrongWnd2.ogg><879.8585><395.168><0.3586957><1><-126.1415><91.168><336.6447><39.64465><0><0.7413045, 
+FadePalette: 0, 0.3913043
+WetTerrain: OFF

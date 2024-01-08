@@ -1,0 +1,8 @@
+Template: SL_SettingsTemplate_Sewer
+Clouds: 1
+Grime: 0
+Palette: 13
+Effects: Coldness-0-20-20, 
+PlacedObjects: BrokenShelterWaterLevel><478.6146><494.0861><, 
+AmbientSounds: OMNI><waterGurgleLOOP2.wav><654.7124><649.6964><0.2282609><1, OMNI><AM_IND-SuperStructure.ogg><478.6987><651.8066><0.2717391><1, 
+FadePalette: 35, 0.8586956

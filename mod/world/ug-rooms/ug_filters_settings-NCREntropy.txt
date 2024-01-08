@@ -1,0 +1,17 @@
+DangerType: Flood
+CeilingDrips: 0
+RainIntensity: 1
+RumbleIntensity: 1
+WaveSpeed: 0.5006328
+WaveLength: 0.9996836
+WaveAmplitude: 4.666623E-05
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.6243479
+Palette: 9
+EffectColorB: 2
+Effects: Fog-0-283-143, HeatWave-0.2391304-285-25, Flies-0-16-77, WaterDepth-0.07608695-277-194, 
+PlacedObjects: LanternOnStick><312.8477><373.3796><-18~-85, LanternOnStick><262.5961><413.0746><23~-141, 
+AmbientSounds: OMNI><AM_ENV-NatWind.ogg><831.8464><500.0748><0.3043478><1, OMNI><AM_IND-Utility02.ogg><837.3013><645.9775><0><1, OMNI><SO_IND-HeatDuct.ogg><819.5117><569.3004><0><1, OMNI><SO_WAT-ProperDrips.ogg><659.6927><568.8033><0.5><1, 
+FadePalette: 39, 0.4673913
+WetTerrain: OFF

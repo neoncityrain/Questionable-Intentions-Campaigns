@@ -1,0 +1,9 @@
+Template: VS_SettingsTemplate_Sewer
+Clouds: 0.8260869
+Grime: 0
+Palette: 35
+EffectColorA: 10
+EffectColorB: 2
+Effects: Fog-0.09782609-20-20, 
+PlacedObjects: LillyPuck><1337.231><230.2855><0~0~2~3, LillyPuck><1516.288><225.767><0~0~2~3, LillyPuck><1666.491><225.5505><0~0~2~2, 
+FadePalette: 33, 0.5326087, 0.5217391

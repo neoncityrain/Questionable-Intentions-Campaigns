@@ -1,0 +1,18 @@
+DangerType: Blizzard
+RainIntensity: 0.7173913
+RumbleIntensity: 0.2391304
+WaveSpeed: 0.5163626
+WaveLength: 0.9918187
+WaveAmplitude: 0.0009802032
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.7608696
+Grime: 0.3804348
+BkgDroneVolume: 0
+Palette: 6
+EffectColorA: 2
+EffectColorB: 21
+Effects: Fog-0.5760869-4-132, GreenSparks-0.1304348-264-212, Flies-0.1304348-264-276, Darkness-0-262-324, PixelShift-0.5-32-65, AboveCloudsView-1-20-20, ElectricDeath-0.01086957-261-85, Coldness-0-30-30, ZeroGSpecks-0.1956522-40-40, 
+PlacedObjects: DeadSeedCob><400.41><491.0714><, DeadSeedCob><620.6143><507.4141><, SeedCob><537.0029><537.55><0~0~7~10, WallSteamer><580.1583><710.3723><-49~7, WallSteamer><664.8046><631.2074><57~60, WallSteamer><581.8418><650.3724><41~35, WallSteamer><531.0911><658.072><-80~72, WallSteamer><374.885><643.0864><35~55, DevToken><1811.102><239.616><0~-76~0~0~0~~~0~0~0~1, SnowSource><1556.404><357.5271><Strip~-826~123~50~86.60254~1~0, 
+AmbientSounds: OMNI><AM_WAT-Sea01.ogg><826.1245><479.5935><0.01086957><1, OMNI><AM_ENV-WallHum.ogg><826.4205><564.0665><0.5543478><1, SPOT><AM_WIN-MedWind.ogg><478.5016><518.05><0.6739131><1><2174.501><200.05><-713.3553><4.644653><0><1, 
+FadePalette: 15, 0.2282609, 0.173913, 0.423913, 0.423913, 0.4130435, 0.4021739, 0.423913

@@ -1,0 +1,14 @@
+Template: MS_SettingsTemplate_Array
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 5.605194E-45
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.02173913
+Palette: 37
+EffectColorA: 11
+EffectColorB: 8
+Effects: Darkness-0.4891304-20-20, Contrast-0.04347826-11-121, Fog-0-16-75, LightRain-0.1086956-64-159,
+PlacedObjects: LightFixture><190.1239><174.907><RedLight~17.32051~-10~97, LightFixture><689.2075><157.5546><RedLight~17.32051~-10~63, 
+AmbientSounds: OMNI><AM_WIN-NiceWnd.ogg><35.06439><245.5745><0.3586957><1, 
+FadePalette: 51, 0.1847826

@@ -1,0 +1,18 @@
+DangerType: None
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 5.605194E-45
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.3695652
+Palette: 30
+EffectColorA: 5
+EffectColorB: 13
+Effects: Coldness-0-20-20, DayNight-0-30-30, 
+PlacedObjects: BrokenShelterWaterLevel><452.0651><463.4238><, DayNightSettings><206.1494><523.3671><5~8.660254~16~10, 
+AmbientSounds: SPOT><AM_IND-Utility02.ogg><768.4536><459.4445><0.3913043><1><243.4536><275.4445><-221.3553><-94.35535><0><0.4260871, SPOT><AM_ENV-SubTerr.ogg><773.8762><348.907><0.3804348><1><347.8762><153.907><-82.35535><-88.35535><0><0.328261, 
+FadePalette: 10, 0.4347826
+WetTerrain: OFF

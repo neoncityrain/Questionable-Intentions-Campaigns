@@ -1,0 +1,18 @@
+DangerType: Blizzard
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 5.605194E-45
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.865308
+BkgDroneVolume: 0
+Palette: 26
+EffectColorA: 11
+EffectColorB: 4
+Effects: Coldness-0-20-20, 
+PlacedObjects: BrokenShelterWaterLevel><704.0052><25.69995><, LanternOnStick><364.8304><95.64404><12.09485~-87.02219, LanternOnStick><401.923><133.4313><-6.403076~-127.5555, 
+AmbientSounds: OMNI><AM_SUB-CaveTone.ogg><656.6971><640.4665><0.2717391><1, OMNI><AM_SUB-BlankState.ogg><832.3633><641.4149><0.3152174><1, SPOT><AM_IND-Utility01.ogg><96.65448><479.6271><0.4673913><1><418.6545><-89.37292><-82.35535><-46.35535><0><0.1434784, 
+FadePalette: 1, 0.2474637
+WetTerrain: OFF

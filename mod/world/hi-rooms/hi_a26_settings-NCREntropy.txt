@@ -1,0 +1,17 @@
+Template: NONE
+DangerType: Blizzard
+RainIntensity: 0.2391304
+RumbleIntensity: 0.2391304
+WaveSpeed: 0.5018314
+WaveLength: 0.9393017
+WaveAmplitude: 0.01195652
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.25
+Grime: 0.3804348
+BkgDroneVolume: 0.2469565
+Palette: 0
+Effects: Coldness-0-20-20, 
+PlacedObjects: VultureGrub><655.6766><372.314><-509~182~7~10, InsectGroup><373.3822><254.1617><-6~101~0~0~Ant~0.8152174, DeadVultureGrub><690.5584><370.8087><-543~104~7~10, 
+AmbientSounds: OMNI><AM_IND-Warehouse02.ogg><771.6337><395.6488><0.5><0.5695652, 
+FadePalette: 20, 0.2391304

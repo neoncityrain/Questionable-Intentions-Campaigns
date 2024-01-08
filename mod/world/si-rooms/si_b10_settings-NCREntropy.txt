@@ -1,0 +1,12 @@
+Template: SI_SettingsTemplate_Inside
+DangerType: Rain
+CeilingDrips: 1
+Clouds: 0.1086956
+Grime: 0.2282609
+Palette: 3
+EffectColorA: 10
+EffectColorB: 13
+Effects: SkyAndLightBloom-0.08695652-20-20, Hue-0.9456522-47-61, Desaturation-0.1521739-311-58, Contrast-0.05434782-305-123, Darkness-0.2826087-45-124, Coldness-0-30-30, 
+PlacedObjects: DataPearl><679.5629><1359.747><0~0~0~0~Misc~0, UniqueDataPearl><576.9341><337.172><0~0~0~0~SI_chat5~0, 
+AmbientSounds: OMNI><SO_WAT-MoreDrips.ogg><531.3751><548.8438><0.5><1.03913, OMNI><SO_WAT-LightFlow.ogg><731.1735><532.6505><0><1, 
+FadePalette: 27, 0.5217391, 0.5108696

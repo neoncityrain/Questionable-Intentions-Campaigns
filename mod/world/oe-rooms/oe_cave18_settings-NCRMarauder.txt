@@ -1,0 +1,16 @@
+Template: OE_SettingsTemplate_Cave
+DangerType: Blizzard
+CeilingDrips: 0
+WaveSpeed: 0.5001084
+WaveLength: 0.9997101
+WaveAmplitude: 8.11771E-05
+SecondWaveLength: 0
+SecondWaveAmplitude: 0
+Palette: 43
+EffectColorA: 9
+EffectColorB: 11
+Effects: Darkness-0.1413043-260-275, SilenceWater-0.5108696-541-272, WaterDepth-0.07608695-536-197, Fog-0.02173913-23-99, AboveCloudsView-1-573-39, 
+PlacedObjects: LightFixture><1179.151><297.6307><RedLight~15.3205~-203~26, LightSource><1182.692><307.6937><0.1304348~EffectColor2~695~271~50~86.60254~0~0~Fade~0.75~0, LightSource><1180.627><306.6577><0.1956522~EffectColor2~891~406~192~-112.3975~0~0~None~0~0, 
+AmbientSounds: OMNI><SO_WAT-MoreDrips.ogg><779.187><561.0709><0.5><1, OMNI><SO_WAT-ProperDrips.ogg><776.1221><482.6538><0.5108696><1, OMNI><AM_WIN_Hilltop.ogg><777.1372><410.3955><0.5869565><0.6282609, SPOT><AM_IND-Utility02.ogg><605.0931><516.124><0.5543478><0.8434783><1104.093><323.124><-110.3553><-101.3553><0><0.7413045, SPOT><SO_IND-HVAC.ogg><602.6243><399.9066><0.3152174><0.9217392><1242.624><110.9066><-56.35535><-73.35535><0><0.3608697, 
+FadePalette: 4, 0.7173913, 0.75
+WetTerrain: OFF

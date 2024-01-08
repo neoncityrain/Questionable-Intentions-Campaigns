@@ -1,0 +1,13 @@
+Template: VS_SettingsTemplate_Surface
+DangerType: None
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 1.460151E-30
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Effects: Fog-0.28613-29.28851-128.8445, Darkness-0.1855978-28.45831-0, DustWave-1-20-20, DayNight-0-41.42291-80.53333, ElectricDeath-0.6031925-301.1448-156.6667, 
+PlacedObjects: ExitSymbolHidden><130.6743><385.3483><, DayNightSettings><25.83801><270.4959><5~8.660254~16~10, 
+AmbientSounds: SPOT><AM_ENV-LightWind.ogg><503.6385><582.834><0.3478261><1><503.6385><698.834><-65.35535><-279.3553><0><0.3826088, SPOT><AM_IND-Utility02.ogg><866.8912><516.5822><0.4130435><1><-54.10883><265.5822><-55.35535><-233.3553><0><0.3173914, 
+FadePalette: 22, 0.7173913

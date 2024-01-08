@@ -1,0 +1,8 @@
+Template: NONE
+WaveSpeed: 0.4891304
+Palette: 50
+EffectColorA: 19
+EffectColorB: 12
+PlacedObjects: LightSource><445.0668><288.9199><0.2717391~EffectColor1~666~438~50~86.60254~0~0~Fade~0.9673913~0, LightSource><583.5558><605.5477><1~EffectColor1~-243~-165~50~86.60254~0~0~None~0~0, LightSource><374.7102><147.446><1~EffectColor1~-185~253~109~-10.39746~0~0~None~0~0, Corruption><445.6708><141.4336><3~63, Corruption><288.6365><148.3962><31~73, Corruption><381.9928><102.8001><0~100, Corruption><290.8688><385.5891><54~-6, Corruption><750.7566><545.5501><-84~5, LightSource><111.6979><472.721><1~EffectColor1~127~59~50~86.60254~1~0~None~0~0, LightSource><876.0729><54.6571><1~EffectColor1~-224~161~50~86.60254~1~0~None~0~0, 
+AmbientSounds: SPOT><AM_IND-Midsex01.ogg><826.0744><361.9356><0.6847826><0.5304348><73.0744><462.9357><-35.35534><-35.35534><0><0.1, OMNI><SO_IND-Humm.ogg><825.3539><481.1133><0.08695652><1.332609, 
+FadePalette: 1, 0.2608696

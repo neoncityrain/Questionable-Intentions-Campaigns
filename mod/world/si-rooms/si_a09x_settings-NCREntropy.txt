@@ -1,0 +1,8 @@
+Template: SI_SettingsTemplate_Inside
+DangerType: Rain
+CeilingDrips: 1
+Palette: 3
+Effects: SkyAndLightBloom-0.1413043-30-30, DarkenLights-0.8804348-29-85, Hue-0.9456522-262-181, Desaturation-0.1304348-281-12, Contrast-0.06521739-283-69, Darkness-0.3043478-279-126, Coldness-0-20-20, 
+PlacedObjects: ScavengerTreasury><338.3984><249.4223><7~127, ScavengerTreasury><606.3019><257.2223><0~100, LanternOnStick><623.5101><308.3002><27~-127, LanternOnStick><691.3082><330.4434><-34~-176, ScavengerTreasury><474.6992><279.0182><0~100, DataPearl><377.1653><229.1125><0~0~0~0~Misc~0, DataPearl><565.9664><206.8028><0~0~0~0~Misc~0, DataPearl><650.9048><216.1759><0~0~0~0~Misc~0, 
+AmbientSounds: SPOT><AM_ENV-NatWind.ogg><743.0071><485.3001><0.2934783><1><496.0071><613.3002><-8.355347><-112.3553><0><0.6000001, OMNI><SO_WAT-LilDrips.ogg><751.8989><523.9226><0.5><1, OMNI><SO_WAT-MoreDrips.ogg><746.9471><509.466><0.5><1, 
+FadePalette: 27, 0.5326087

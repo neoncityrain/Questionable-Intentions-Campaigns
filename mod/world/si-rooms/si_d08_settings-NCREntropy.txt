@@ -1,0 +1,4 @@
+Effects: Contrast-0.09782609-20-20, Hue-0.9456522-24-70, Desaturation-0.173913-270-65, Darkness-0.3043478-278-16, LightRain-0.4021739-264-115, Coldness-0-30-30, HeavyRain-0.01086957-40-40, 
+PlacedObjects: DandelionPatch><395.3013><134.2736><15~134, ReliableSpear><1693.115><128.9134><, ReliableSpear><1776.904><130.9252><, DandelionPatch><2753.664><218.4304><0~100, DandelionPatch><3598.197><191.5362><0~100, 
+AmbientSounds: OMNI><AM_ENV-LightWind.ogg><686.8946><583.08><0.2934783><1, SPOT><AM_WIN-HowlingWnd.ogg><869.9518><474.1941><0.25><0.8630434><2461.952><77.19409><-284.3553><-149.3553><0><0.3934784, 
+FadePalette: 3, 0.1956522, 0.2065217, 0.1956522, 0.1956522

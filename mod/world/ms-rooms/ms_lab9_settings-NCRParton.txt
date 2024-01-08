@@ -1,0 +1,5 @@
+Grime: 0.1195652
+Palette: 50
+Effects: Fog-1-259-189, LightBurn-0.1304348-258-72, BrokenZeroG-0.4021739-262-132, Moth-0.06521739-276-18, ElectricDeath-0-263-251, 
+PlacedObjects: LightSource><633.9619><245.4466><0.2173913~Environment~-791~325~50~86.60254~1~0~None~0~0, ExitSymbolShelter><109.6395><652.1398><, SuperStructureFuses><650.0872><35.52888><119~96, SuperStructureFuses><146.6748><101.417><23~34, VoidSpawnEgg><158.8278><234.6483><0~0~2~3~2, 
+FadePalette: 13, 0.1086956

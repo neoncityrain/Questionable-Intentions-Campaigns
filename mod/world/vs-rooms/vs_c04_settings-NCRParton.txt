@@ -1,0 +1,4 @@
+Template: VS_SettingsTemplate_Surface
+Effects: LightRain-0.1086956-20-20, 
+PlacedObjects: DeadTokenStalk><2747.724><458.4483><24~41, DeadTokenStalk><2743.734><435.0507><41~23, DeadTokenStalk><2640.723><473.0518><38~45, GoldToken><2713.321><457.3396><-5~62~-312~70~0~VS~~0~0~0, FlyLure><2080.396><343.8872><0~0~4~9, FlyLure><2144.591><421.8787><0~0~4~9, Mushroom><732.947><223.5572><0~0~2~3, Mushroom><744.8914><238.9179><0~0~2~3, 
+FadePalette: 33, 0.6521739, 0.6304348, 0.6630435

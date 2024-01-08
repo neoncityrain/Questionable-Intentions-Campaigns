@@ -1,0 +1,18 @@
+DangerType: None
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 9.729215E-42
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 1
+Palette: 30
+EffectColorA: 5
+EffectColorB: 13
+Effects: Coldness-0-30-30, Darkness-0.1956522-28.61664-134.5778, ElectricDeath-0.05413254-34.3479-93.37778, DayNight-0-242.8052-101.2, 
+PlacedObjects: DeadTokenStalk><155.1361><511.0856><-55~-19, DeadTokenStalk><150.4473><495.2832><-54~16, DeadTokenStalk><161.05><443.2448><-61~23, DayNightSettings><111.0688><293.2117><5~8.660254~10~10, 
+AmbientSounds: SPOT><AM_ENV-NatWind.ogg><589.8354><588.1365><0.3369565><1><904.8354><587.1365><-219.3553><-176.3553><0><0.4478262, SPOT><AM_ENV-NatWind.ogg><735.6583><488.6223><0.3478261><0.9804348><-19.34174><134.6223><288.6447><-217.3553><0><0.1760871, 
+FadePalette: 10, 0.5156816
+WetTerrain: OFF

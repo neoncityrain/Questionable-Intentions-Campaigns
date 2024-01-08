@@ -1,0 +1,16 @@
+Template: NONE
+DangerType: Flood
+WaveSpeed: 0.5
+WaveLength: 0.75
+WaveAmplitude: 0.04641051
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.8043478
+BkgDroneVolume: 0.2769565
+Palette: 23
+EffectColorA: 4
+EffectColorB: 1
+Effects: SilenceWater-1-287-18, Darkness-0.326087-20-20, LethalWater-0.01086957-286-78, WaterDepth-0.08695652-23-129, LavaSurface-1-30-30, Coldness-0-40-40, HeatWave-0.2608696-50-50, 
+PlacedObjects: LightSource><454.8535><-12.13617><0.4673913~EffectColor2~-629~474~195~-84.39746~0~0~None~0~0, SteamPipe><480.1918><254.6933><5~36, SteamPipe><362.043><253.9453><-12~31, SteamPipe><604.0171><256.9493><3~37, SteamPipe><517.829><136.6462><0~100, SteamPipe><374.1362><62.60361><0~100, SteamPipe><445.4449><64.79449><0~100, SteamPipe><616.0574><73.804><0~100, DangleFruit><374.1281><445.5964><-304~26.00003~4~18, DangleFruit><350.0585><416.5587><-297~28~7~18, SteamPipe><548.9484><252.0255><51~81, SteamPipe><456.6721><250.8158><-83~38, 
+AmbientSounds: OMNI><waterGurgleLOOP1.wav><849.6308><645.4013><0.4347826><0.5891304, OMNI><SO_NAT-Burning.ogg><668.0651><648.5761><0.4347826><0.6478261, SPOT><AM_IND-Utility02.ogg><666.6594><528.8708><0.3804348><1><-163.3406><713.8708><-158.3553><-74.35535><0><0.6326088, SPOT><AM_IND-Utility04.ogg><853.212><526.0536><0.3478261><1><496.212><-42.94641><-112.3553><-77.35535><0><0.5673915, SPOT><SO_WAT-RunningWater.ogg><849.8647><417.0862><0.3586957><0.6282609><548.8647><247.0862><-136.3553><-7.355347><0><0.2304349, SPOT><SO_WAT-OpenFlow.ogg><491.4632><529.8034><0.4021739><0.5108696><550.4632><411.8034><-62.35535><-91.35535><0><0.2956523, 
+FadePalette: 33, 0.5869565

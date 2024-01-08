@@ -1,0 +1,19 @@
+Template: NONE
+RainIntensity: 0.2717391
+RumbleIntensity: 0.2717391
+WaveSpeed: 0.5022698
+WaveLength: 0.9988651
+WaveAmplitude: 2.864524E-10
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 1
+Grime: 0.3043478
+BkgDroneVolume: 0.2608696
+Palette: 26
+EffectColorA: 10
+EffectColorB: 2
+Effects: PixelShift-0.5-32-65, AboveCloudsView-1-20-20, Flies-0-18-92, SkyDandelions-0.2282609-285-101, DayNight-1-290-24, HeavyRain-0.07608695-30-30, Coldness-0-40-40, Darkness-0.3247963-50-50, 
+PlacedObjects: DataPearl><409.6669><146.3896><-525~385~0~0~BroadcastMisc~1, UniqueDataPearl><546.3074><143.0584><-660~257~0~0~Misc~0, BlueToken><479.648><339.1155><0~-59~70~197~1~KingVulture~White|Yellow|Rivulet|Saint|NCREntropy~0~0~0~0, DeadTokenStalk><439.0966><312.1283><11~-53, DeadTokenStalk><518.5503><280.2612><-16~-35, Rainbow><711.7341><36.80063><-484~536~0~0~0.6304348,0,0.6956522,0.4021739,0.7608696,1, DayNightSettings><615.8922><386.8315><5~8.660254~3~31, 
+AmbientSounds: OMNI><AM_ENV-LightWind.ogg><749.2><521.5049><0.3043478><0.8826087, SPOT><AM_WIN-StrongWnd2.ogg><786.4443><219.0579><0.2282609><1.03913><51.44434><142.0579><-277.3553><53.64465><0><0.3826088, OMNI><AM_ENV-NatWind.ogg><798.1593><444.379><0.3043478><1, 
+FadePalette: 2, 0.5048572
+RoomSpecificScriptActive: ON

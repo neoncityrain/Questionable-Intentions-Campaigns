@@ -1,0 +1,16 @@
+DangerType: FloodAndRain
+CeilingDrips: 0.4130435
+RainIntensity: 1
+RumbleIntensity: 1
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 5.605194E-45
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.06521739
+EffectColorA: 21
+Effects: SilenceWater-0.4347826-20-20, Coldness-1-22-73, 
+PlacedObjects: LightSource><460.36><1331.582><0.04347826~White~-1195~-725~-249~-227.3975~1~1~None~0.5108696~0, LightBeam><314.6619><733.8675><115~331~150~110~107~-123~104~-206~0.4326086~0~0~1~None~0~0, 
+AmbientSounds: SPOT><SO_WAT-MoreDrips.ogg><736.8812><562.5891><0.5><1><517.8812><504.5891><-541.3553><-0.3553467><0><1, SPOT><MSC-LowGroans.ogg><737.7703><313.551><0.1956522><0.1978261><788.7703><1316.551><-486.3553><-7.355347><0><1, SPOT><AM_WIN-SubWnd.ogg><742.8123><441.1901><0.3586957><1><535.8123><337.1901><-748.3553><-71.35535><0><0.2739132, SPOT><AM_ENV-CityTone.ogg><555.9301><554.663><0.2065217><1><174.9301><1588.663><451.6447><-293.3553><0><0.3391306, SPOT><SO_WAT-OpenFlow.ogg><726.5353><199.1968><0.5><0.726087><96.53534><113.1968><-14.35535><188.6447><0><0.3173914, 
+FadePalette: 0, 0.3369565, 0.1413043
+WetTerrain: OFF

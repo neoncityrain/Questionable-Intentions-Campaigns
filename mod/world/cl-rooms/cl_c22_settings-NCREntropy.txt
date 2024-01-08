@@ -1,0 +1,16 @@
+DangerType: Rain
+CeilingDrips: 0.3478261
+RainIntensity: 1
+RumbleIntensity: 1
+WaveSpeed: 0.4853571
+WaveLength: 0.9457428
+WaveAmplitude: 0.02020792
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+EffectColorA: 15
+EffectColorB: 11
+Effects: Coldness-0-20-20, Darkness-0.4456522-30-30, 
+PlacedObjects: DangleFruit><572.2233><165.0518><0~0~2~3, 
+AmbientSounds: SPOT><AM_ENV-NatWind.ogg><833.994><596.2><0.2826087><1><-155.006><169.1999><490.6447><-52.35535><0><0.5543478, SPOT><AM_ENV-NatWind.ogg><836.5656><487.9227><0.25><1><3143.565><141.9227><-402.3553><127.6447><0><0.6304348, SPOT><AM_WIN-HowlingWnd.ogg><658.3308><597.0671><0.2173913><0.4326087><1524.331><177.0671><-391.3553><231.6447><0><1, 
+FadePalette: 0, 0.3913043, 0.2826087, 0.3913043
+WetTerrain: OFF
