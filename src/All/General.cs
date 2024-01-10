@@ -13,7 +13,8 @@ using On.Expedition;
 using DressMySlugcat;
 using System.Linq;
 using System.Collections.Generic;
-
+using System.Drawing;
+using System.Runtime.InteropServices;
 
 namespace NCRcatsmod
 {
@@ -23,6 +24,7 @@ namespace NCRcatsmod
         private const string MOD_ID = "neoncityrain.ncrcatsmod";
         FAtlas atlas;
         public bool IsDMSActive;
+        public bool MarauderCannibalising;
 
         public void OnEnable()
         {
@@ -59,12 +61,102 @@ namespace NCRcatsmod
             // disallow marauder from putting slugs on back
             On.Player.CanIPutDeadSlugOnBack += Player_CanIPutDeadSlugOnBack;
 
-            // worm grass
+            // worm grass ignores marauder
             On.WormGrass.WormGrassPatch.InteractWithCreature += WormGrassPatch_InteractWithCreature;
+
+            // blue objects !!!!!!!
+            On.SeedCob.ApplyPalette += SeedCob_ApplyPalette;
+            On.Lantern.ApplyPalette += Lantern_ApplyPalette;
+
+            // remove karma reinforcement and cannibalism buffs at the end of a cycle
+            On.SaveState.BringUpToDate += SaveState_BringUpToDate;
+
+            // checks if player ate a slugpup or player
+            On.PlayerSessionRecord.AddEat += PlayerSessionRecord_AddEat;
 
             // ---------------------------------------------------- VIVIATED STUFF ----------------------------------------------------
             //gross sounds when dying
             On.Player.Die += Player_Die;
+        }
+
+        private void Lantern_ApplyPalette(On.Lantern.orig_ApplyPalette orig, Lantern self, RoomCamera.SpriteLeaser sLeaser, RoomCamera rCam, RoomPalette palette)
+        {
+            orig(self, sLeaser, rCam, palette);
+            if (self.room.game.session.characterStats.name.value == "NCRMarauder")
+            {
+                sLeaser.sprites[0].color = new UnityEngine.Color(0.5f, 0.8f, 0.9f);
+                sLeaser.sprites[1].color = new UnityEngine.Color(1f, 1f, 1f);
+                sLeaser.sprites[2].color = UnityEngine.Color.Lerp(new UnityEngine.Color(0.5f, 0.8f, 0.9f), new UnityEngine.Color(1f, 1f, 1f), 0.3f);
+                sLeaser.sprites[3].color = new UnityEngine.Color(0.6f, 0.9f, 0.9f);
+                if (self.stick != null)
+                {
+                    sLeaser.sprites[4].color = palette.blackColor;
+                }
+            }
+        }
+
+        private void PlayerSessionRecord_AddEat(On.PlayerSessionRecord.orig_AddEat orig, PlayerSessionRecord self, PhysicalObject eatenObject)
+        {
+            orig(self, eatenObject);
+            if (eatenObject.room.game.session.characterStats.name.value == "NCRMarauder" && eatenObject.room.game.session is StoryGameSession && 
+                eatenObject is Player || (eatenObject as Player).room.game.session.characterStats.name.value == "Slugpup")
+            {
+                Debug.Log("MARAUDER FUCKED UP AND EVIL MOMENTS!!!!!!!!");
+                MarauderCannibalising = true;
+            }
+        }
+
+        private void SaveState_BringUpToDate(On.SaveState.orig_BringUpToDate orig, SaveState self, RainWorldGame game)
+        {
+            orig(self, game);
+            if (game.session.characterStats.name.value == "NCRMarauder" && game.session is StoryGameSession)
+            {
+
+                (game.session as StoryGameSession).saveState.deathPersistentSaveData.reinforcedKarma = false;
+                MarauderCannibalising = false;
+            }
+        }
+
+        private void SeedCob_ApplyPalette(On.SeedCob.orig_ApplyPalette orig, SeedCob self, RoomCamera.SpriteLeaser sLeaser, RoomCamera rCam, RoomPalette palette)
+        {
+            orig(self, sLeaser, rCam, palette);
+            if (self.room.game.session.characterStats.name.value == "NCRMarauder")
+            {
+                sLeaser.sprites[self.StalkSprite(0)].color = palette.blackColor;
+                self.StoredBlackColor = palette.blackColor;
+                UnityEngine.Color pixel = palette.texture.GetPixel(0, 5);
+                self.StoredPlantColor = pixel;
+                for (int i = 0; i < (sLeaser.sprites[self.StalkSprite(1)] as TriangleMesh).verticeColors.Length; i++)
+                {
+                    float num = (float)i / (float)((sLeaser.sprites[self.StalkSprite(1)] as TriangleMesh).verticeColors.Length - 1);
+                    (sLeaser.sprites[self.StalkSprite(1)] as TriangleMesh).verticeColors[i] = UnityEngine.Color.Lerp(palette.blackColor, pixel, 0.4f + Mathf.Pow(1f - num, 0.5f) * 0.4f);
+                }
+                self.yellowColor = UnityEngine.Color.Lerp(new UnityEngine.Color(0.5f, 0.83f, 0.9f), palette.blackColor, self.AbstractCob.dead ? (0.95f + 0.5f * rCam.PaletteDarkness()) : (0.18f + 0.7f * rCam.PaletteDarkness()));
+                for (int j = 0; j < 2; j++)
+                {
+                    for (int k = 0; k < (sLeaser.sprites[self.ShellSprite(j)] as TriangleMesh).verticeColors.Length; k++)
+                    {
+                        float num2 = 1f - (float)k / (float)((sLeaser.sprites[self.ShellSprite(j)] as TriangleMesh).verticeColors.Length - 1);
+                        (sLeaser.sprites[self.ShellSprite(j)] as TriangleMesh).verticeColors[k] = UnityEngine.Color.Lerp(palette.blackColor, new UnityEngine.Color(0f, 0.6f, 1f), Mathf.Pow(num2, 2.5f) * 0.4f);
+                    }
+                }
+                sLeaser.sprites[self.CobSprite].color = self.yellowColor;
+                UnityEngine.Color color = self.yellowColor + new UnityEngine.Color(0.2f, 0.3f, 0.3f) * Mathf.Lerp(1f, 0.15f, rCam.PaletteDarkness());
+                if (self.AbstractCob.dead)
+                {
+                    color = UnityEngine.Color.Lerp(self.yellowColor, pixel, 0.75f);
+                }
+                for (int l = 0; l < self.seedPositions.Length; l++)
+                {
+                    sLeaser.sprites[self.SeedSprite(l, 0)].color = self.yellowColor;
+                    sLeaser.sprites[self.SeedSprite(l, 1)].color = color;
+                    sLeaser.sprites[self.SeedSprite(l, 2)].color = UnityEngine.Color.Lerp(new UnityEngine.Color(0f, 0f, 1f), palette.blackColor, self.AbstractCob.dead ? 0.6f : 0.3f);
+                }
+                for (int m = 0; m < self.leaves.GetLength(0); m++)
+                {
+                    sLeaser.sprites[self.LeafSprite(m)].color = palette.blackColor;
+                }
+            }
         }
 
         private void WormGrassPatch_InteractWithCreature(On.WormGrass.WormGrassPatch.orig_InteractWithCreature orig, WormGrass.WormGrassPatch self, WormGrass.WormGrassPatch.CreatureAndPull creatureAndPull)
@@ -72,9 +164,11 @@ namespace NCRcatsmod
             orig(self, creatureAndPull);
             if (creatureAndPull.creature is Player && (creatureAndPull.creature as Player).GetMarCat().IsMarauder && !creatureAndPull.creature.dead)
             {
-                creatureAndPull.bury = 0f;
-                creatureAndPull.pull = 0f;
-                creatureAndPull.consumeTimer = 0;
+                // worm grass should never be able to fully consume marauder
+                self.LoseGrip(creatureAndPull);
+                creatureAndPull.consumeTimer = 1;
+                // doesnt track marauder and instantly removes them from the list of tracked creatures
+                self.trackedCreatures.Remove(creatureAndPull);
                 return;
             }
         }
@@ -105,52 +199,41 @@ namespace NCRcatsmod
 
         public void SetupDMSSprites()
         {
-            string sheetID = "neoncityrain.ncrentropydms";
             for (int index = 0; index < 4; index++)
             {
+                string EntropySheet = "neoncityrain.ncrentropydms";
                 SpriteDefinitions.AddSlugcatDefault(new Customization
                 {
                     Slugcat = "NCREntropy",
                     PlayerNumber = index,
-                    CustomSprites = new List<CustomSprite>
-            {
-                new CustomSprite
-                {
-                    Sprite = "TAIL",
-                    SpriteSheetID = sheetID
-                },
-                new CustomSprite
-                {
-                    Sprite = "LEGS",
-                    SpriteSheetID = sheetID
-                },
-                new CustomSprite
-                {
-                    Sprite = "ARMS",
-                    SpriteSheetID = sheetID
-                },
-                new CustomSprite
-                {
-                    Sprite = "HIPS",
-                    SpriteSheetID = sheetID
-                },
-                new CustomSprite
-                {
-                    Sprite = "BODY",
-                    SpriteSheetID = sheetID
-                },
-                new CustomSprite
-                {
-                    Sprite = "HEAD",
-                    SpriteSheetID = sheetID
-                }
-            },
-                    CustomTail = new CustomTail
-                    {
-                        Length = 4f
-                    }
+                    CustomSprites = new List<CustomSprite>{
+                        new CustomSprite{Sprite = "TAIL",SpriteSheetID = EntropySheet},
+                        new CustomSprite{Sprite = "LEGS",SpriteSheetID = EntropySheet},
+                        new CustomSprite{Sprite = "ARMS",SpriteSheetID = EntropySheet},
+                        new CustomSprite{Sprite = "HIPS",SpriteSheetID = EntropySheet},
+                        new CustomSprite{Sprite = "BODY",SpriteSheetID = EntropySheet},
+                        new CustomSprite{Sprite = "HEAD",SpriteSheetID = EntropySheet},
+                        new CustomSprite{Sprite = "EYES",SpriteSheetID = EntropySheet}
+                    },
+                    CustomTail = new CustomTail { Length = 4f }
                 });
-                Debug.Log("Entropy's default sprites set!");
+                string MarauderSheet = "neoncityrain.ncrmarauderdms";
+                SpriteDefinitions.AddSlugcatDefault(new Customization
+                {
+                    Slugcat = "NCRMarauder",
+                    PlayerNumber = index,
+                    CustomSprites = new List<CustomSprite>{
+                        new CustomSprite{Sprite = "TAIL",SpriteSheetID = MarauderSheet, ColorHex = "#ffffff"},
+                        new CustomSprite{Sprite = "LEGS",SpriteSheetID = MarauderSheet, ColorHex = "#ffffff"},
+                        new CustomSprite{Sprite = "ARMS",SpriteSheetID = MarauderSheet, ColorHex = "#ffffff"},
+                        new CustomSprite{Sprite = "HIPS",SpriteSheetID = MarauderSheet, ColorHex = "#ffffff"},
+                        new CustomSprite{Sprite = "BODY",SpriteSheetID = MarauderSheet, ColorHex = "#ffffff"},
+                        new CustomSprite{Sprite = "FACE",SpriteSheetID = MarauderSheet,ColorHex = "#ffffff"},
+                        new CustomSprite{Sprite = "HEAD",SpriteSheetID = MarauderSheet,ColorHex = "#ffffff"}
+                    },
+                    CustomTail = new CustomTail { Wideness = 1.5f, AsymTail = true, Roundness = 0.1f }
+                });
+                Debug.Log("NCR default sprites set!");
             }
         }
 
@@ -265,7 +348,7 @@ namespace NCRcatsmod
                     (obj as Player).Stun(80);
                     if ((obj as Player).Submersion > 0f)
                     {
-                        self.room.AddObject(new UnderwaterShock(self.room, null, (obj as Player).mainBodyChunk.pos, 14, Mathf.Lerp(ModManager.MMF ? 0f : 200f, 1200f, 2f), 0.2f + 1.9f * 2f, (obj as Player), new Color(0.7f, 0.7f, 1f)));
+                        self.room.AddObject(new UnderwaterShock(self.room, null, (obj as Player).mainBodyChunk.pos, 14, Mathf.Lerp(ModManager.MMF ? 0f : 200f, 1200f, 2f), 0.2f + 1.9f * 2f, (obj as Player), new UnityEngine.Color(0.7f, 0.7f, 1f)));
                     }
 
                     //still plays bite sfx
@@ -278,9 +361,9 @@ namespace NCRcatsmod
                     (obj as Player).GetEntCat().CollarShocks = false;
 
                     //visual effects
-                    self.room.AddObject(new Spark(self.mainBodyChunk.pos, Custom.RNV(), Color.white, null, 4, 8));
-                    (obj as Player).room.AddObject(new Spark((obj as Player).mainBodyChunk.pos, Custom.RNV(), Color.white, null, 4, 8));
-                    (obj as Player).room.AddObject(new Spark((obj as Player).mainBodyChunk.pos, Custom.RNV(), Color.white, null, 4, 8));
+                    self.room.AddObject(new Spark(self.mainBodyChunk.pos, Custom.RNV(), UnityEngine.Color.white, null, 4, 8));
+                    (obj as Player).room.AddObject(new Spark((obj as Player).mainBodyChunk.pos, Custom.RNV(), UnityEngine.Color.white, null, 4, 8));
+                    (obj as Player).room.AddObject(new Spark((obj as Player).mainBodyChunk.pos, Custom.RNV(), UnityEngine.Color.white, null, 4, 8));
                     (obj as Player).room.PlaySound(SoundID.Centipede_Shock, (obj as Player).mainBodyChunk.pos);
                     return false;
 
@@ -400,8 +483,8 @@ namespace NCRcatsmod
                 ((grasp.grabber as Player).room.game.session as StoryGameSession).saveState.deathPersistentSaveData.reinforcedKarma = false;
 
                 //visual effects
-                grasp.grabber.room.AddObject(new Spark(grasp.grabber.mainBodyChunk.pos, Custom.RNV(), Color.white, null, 4, 8));
-                grasp.grabber.room.AddObject(new Spark(grasp.grabber.mainBodyChunk.pos, Custom.RNV(), Color.white, null, 4, 8));
+                grasp.grabber.room.AddObject(new Spark(grasp.grabber.mainBodyChunk.pos, Custom.RNV(), UnityEngine.Color.white, null, 4, 8));
+                grasp.grabber.room.AddObject(new Spark(grasp.grabber.mainBodyChunk.pos, Custom.RNV(), UnityEngine.Color.white, null, 4, 8));
                 grasp.grabber.room.PlaySound(SoundID.Centipede_Shock, grasp.grabber.mainBodyChunk.pos);
             }
         }
@@ -454,47 +537,7 @@ namespace NCRcatsmod
             else
             {
 
-                if (self.player.GetEntCat().IsEntropy)
-                {
-                    if (self.player.GetEntCat().IsFree == false)
-                    {
-                        string DMSEntropyHead = "neoncityrain.ncrentropydms";
-                        for (int index = 0; index < 4; index++)
-                        {
-                            SpriteDefinitions.AddSlugcatDefault(new Customization
-                            {
-                                Slugcat = "NCREntropy",
-                                PlayerNumber = index,
-                                CustomSprites = new List<CustomSprite>
-                                {new CustomSprite
-                                {
-                                    Sprite = "HEAD",
-                                    SpriteSheetID = DMSEntropyHead
-                                }
-                                }
-                            });
-                        }
-                    }
-                    else
-                    {
-                        string DMSEntropyHead = "neoncityrain.ncrentropydmsfree";
-                        for (int index = 0; index < 4; index++)
-                        {
-                            SpriteDefinitions.AddSlugcatDefault(new Customization
-                            {
-                                Slugcat = "NCREntropy",
-                                PlayerNumber = index,
-                                CustomSprites = new List<CustomSprite>
-                                {new CustomSprite
-                                {
-                                    Sprite = "HEAD",
-                                    SpriteSheetID = DMSEntropyHead
-                                }
-                                }
-                            });
-                        }
-                    }
-                }
+                
                 
             }
         }

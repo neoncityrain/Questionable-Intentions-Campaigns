@@ -20,6 +20,7 @@ namespace NCRMarauder.MarauderCat
             {
                 // Initialize your variables here! (Anything not added here will be null or false or 0 (default values))
                 this.IsMarauder = false;
+
             }
         }
 
