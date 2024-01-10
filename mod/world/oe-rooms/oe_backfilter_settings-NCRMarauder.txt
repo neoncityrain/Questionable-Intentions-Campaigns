@@ -1,12 +1,23 @@
-Template: OE_SettingsTemplate_Cave
+Template: NONE
+DangerType: Blizzard
 CeilingDrips: 0
-WaveSpeed: 0.4999193
-WaveLength: 0.9998662
-WaveAmplitude: 0.0001979359
+RainIntensity: 0.009999814
+RumbleIntensity: 0
+WaveSpeed: 0.4998975
+WaveLength: 0.9997686
+WaveAmplitude: 7.086353E-05
 SecondWaveLength: 0
 SecondWaveAmplitude: 0
-Palette: 43
-Effects: AboveCloudsView-1-258-121, SkyAndLightBloom-0.2575183-268-247, DayNight-0.8043478-273-299, LightRain-0-40-40, Coldness-0-30-30, 
-PlacedObjects: DayNightSettings><108.2><382.0015><5~8.660254~76~10, GooieDuck><478.4111><554.1187><0~0~2~3, GooieDuck><520.1073><487.1401><0~0~2~3, GooieDuck><584.4467><501.0368><0~0~2~3, LightSource><498.1235><493.845><0.2065217~Environment~-697~-555~350~-521.3975~1~1~None~0~0, BlinkingFlower><755.0989><371.0761><, BlinkingFlower><794.1312><342.099><, BlinkingFlower><631.896><222.0792><, BlinkingFlower><406.0805><347.0669><, BlinkingFlower><375.1583><319.1277><, SnowSource><869.0587><327.0121><Radial~0~100~50~86.60254~0.5205396~0, SnowSource><164.8495><520.3149><Radial~0~100~50~86.60254~0.4586726~0, SnowSource><239.7118><246.8665><Radial~0~100~50~86.60254~0.3426746~0, 
-FadePalette: 37, 0.2531816
+Clouds: 0.814402
+Grime: 0.007733221
+RandomItemDensity: 0.5
+RandomItemSpearChance: 0.1999999
+WaterReflectionAlpha: 0
+Palette: 14
+EffectColorA: 9
+EffectColorB: 10
+Effects: AboveCloudsView-1-258-121, SkyAndLightBloom-0.4353828-327.7625-64.24445, Coldness-0-30-30, Fog-0.4871942-20-20, 
+PlacedObjects: DayNightSettings><108.2><382.0015><5~8.660254~76~10, GooieDuck><478.4111><554.1187><0~0~2~3, GooieDuck><520.1073><487.1401><0~0~2~3, GooieDuck><584.4467><501.0368><0~0~2~3, LightSource><498.1235><493.845><0.2065217~Environment~-697~-555~350~-521.3975~1~1~None~0~0, BlinkingFlower><755.0989><371.0761><, BlinkingFlower><794.1312><342.099><, BlinkingFlower><631.896><222.0792><, BlinkingFlower><406.0805><347.0669><, BlinkingFlower><375.1583><319.1277><, SnowSource><869.0587><327.0121><Radial~0~100~50~86.60254~0.5205396~0, SnowSource><164.8495><520.3149><Radial~0~100~50~86.60254~0.4586726~0, SnowSource><239.7118><246.8665><Radial~0~100~50~86.60254~0.3426746~0, ClimbablePoleH><467.9047><75.48889><0^9, 
+FadePalette: 33, 0.1913157
 RoomSpecificScriptActive: ON
+WetTerrain: OFF

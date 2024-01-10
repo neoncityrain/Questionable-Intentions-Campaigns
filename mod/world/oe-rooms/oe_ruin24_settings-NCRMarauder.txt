@@ -1,12 +1,17 @@
-Template: OE_SettingsTemplate_Ruins
-WaveSpeed: 0.5005011
-WaveLength: 0.9745276
-WaveAmplitude: 0.005219097
+Template: NONE
+DangerType: Blizzard
+CeilingDrips: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 5.605194E-45
 SecondWaveLength: 0.1666667
 SecondWaveAmplitude: 0
-EffectColorA: 21
-EffectColorB: 9
-Effects: PixelShift-0.5-32-65, AboveCloudsView-1-20-78, SkyBloom-1-248-252, DayNight-0.4456522-252-192, 
-PlacedObjects: DayNightSettings><434.8599><546.8927><5~8.660254~76~10, DeadSeedCob><1243.558><326.0556><, DeadSeedCob><2133.841><275.8217><, DeadSeedCob><1998.941><196.9404><, DeadSeedCob><915.7018><229.8059><, DeadSeedCob><1632.625><258.8435><, FirecrackerPlant><485.8865><139.6462><0~0~2~3, FirecrackerPlant><591.586><161.6144><0~0~2~3, FirecrackerPlant><614.9363><157.5727><0~0~2~3, FirecrackerPlant><428.9484><294.4744><0~0~2~3, SnowSource><991.2283><463.5359><None~-628.9292~213.0667~50~86.60254~0.5050725~0, SnowSource><318.2523><540.4788><Radial~-302.3698~1.866699~50~86.60254~0.5128061~0, SnowSource><425.5077><104.9069><Radial~-134.4656~-9.511108~50~86.60254~0.4973397~0, DeadSeedCob><1549.83><214.8355><, DeadSeedCob><1480.546><189.6436><, SnowSource><1986.891><334.7863><None~-628.9292~-60.71112~50~86.60254~0.497339~0, SnowSource><2650.166><137.9854><Radial~0~100~50~86.60254~0.4973397~0, SnowSource><2735.793><538.3303><Radial~281.7375~155.4667~50~86.60254~0.5282726~0, 
+Clouds: 0.6956522
+Grime: 0
+Palette: 37
+EffectColorA: 9
+EffectColorB: 10
+Effects: PixelShift-0.5-32-65, AboveCloudsView-1-246.9552-107.1556, SkyBloom-1-248-252, DayNight-0.4456522-252-192, Fog-0.2938634-10.03957-130.2222, LightBurn-0.1159986-20-20, Contrast-0.0232-326.0063-21.51111, Coldness-0-30-30, 
+PlacedObjects: DayNightSettings><434.8599><546.8927><5~8.660254~76~10, DeadSeedCob><1243.558><326.0556><, DeadSeedCob><2133.841><275.8217><, DeadSeedCob><1998.941><196.9404><, DeadSeedCob><915.7018><229.8059><, DeadSeedCob><1632.625><258.8435><, FirecrackerPlant><485.8865><139.6462><-182.1333~-202.6667~2~3, FirecrackerPlant><591.586><161.6144><-147.2719~-197.6889~2~3, FirecrackerPlant><614.9363><157.5727><93.20105~-167.8222~2~3, FirecrackerPlant><428.9484><294.4744><0~0~2~3, SnowSource><1051.702><371.8026><None~-1032.326~218.7556~50~86.60254~0.636538~0.06186577, SnowSource><286.2367><610.1677><Radial~-490.9063~44.53333~50~86.60254~0.8917349~0, SnowSource><425.5077><104.9069><Radial~-172.8843~1.155563~-542.6448~217.447~0.4973397~0, DeadSeedCob><1549.83><214.8355><, DeadSeedCob><1480.546><189.6436><, SnowSource><2021.752><309.1863><None~-1175.329~-37.24448~50~86.60254~0.497339~0, SnowSource><2544.159><125.1854><Radial~-422.6062~126.3111~50~86.60254~0.4973397~0, SnowSource><2735.793><711.1303><Radial~443.2385~-687.2~50~86.60254~0.5282726~0, SnowSource><615.0178><422.1855><Strip~-12.80621~79.37781~50~86.60254~0.9458658~0, SnowSource><612.8856><230.2293><Radial~99.60419~276.3556~-630.8657~34.69144~0.4122729~0, SnowSource><636.4258><153.5947><Radial~-322.2906~23.91112~50~86.60254~0.8530684~0, 
 AmbientSounds: OMNI><AM_ENV-Outside.ogg><772.1741><608.5649><0.4456522><1, DIR><AM_ENV-Pasture.ogg><586.0554><579.4421><0.5><1><-76.43895><0, DIR><AM_ENV-LightWind.ogg><742.0506><522.2657><0.3478261><1><-2.385944><0, 
-FadePalette: 40, 0.3152174, 0.3152174, 0.3152174
+FadePalette: 14, 0.3152174, 0.3152174, 0.3229506

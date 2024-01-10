@@ -1,0 +1,18 @@
+Template: NONE
+DangerType: Blizzard
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0.01086957
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 5.605194E-45
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Palette: 33
+EffectColorA: 9
+EffectColorB: 10
+Effects: Contrast-0-23-76, Desaturation-0-285-18, SilenceWater-0.5108696-265-245, DayNight-0.6086956-271-192, Darkness-0.2173913-270-299, Coldness-0-20-20, Fog-0.5108696-40-40, LightBurn-0.2608696-25-121, 
+PlacedObjects: DayNightSettings><533.9218><436.3976><5~8.660254~76~10, 
+AmbientSounds: OMNI><SO_WAT-ProperDrips.ogg><744.569><442.335><0.5><1, OMNI><SO_WAT-Splashes.ogg><747.8077><367.1915><0.09782609><1, OMNI><SO_WAT-RunningWater.ogg><746.4293><292.0629><0.1304348><1, OMNI><SO_WAT-MoreDrips.ogg><745.139><609.6063><0.5><1, DIR><AM_ENV-LightWind.ogg><743.1793><517.6614><0.1521739><0.1782609><54.0677><0, OMNI><AM_WIN-SubWnd.ogg><564.1725><605.4344><0.2065217><1, SPOT><SO_WAT-OpenFlow.ogg><748.9427><169.5535><0.3152174><1><132.9427><521.5535><347.6447><-305.3553><0><0.3717393, 
+FadePalette: 4, 0.5978261, 0.6847826
+WetTerrain: OFF

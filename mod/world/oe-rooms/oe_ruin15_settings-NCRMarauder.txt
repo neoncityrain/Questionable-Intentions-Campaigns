@@ -1,15 +1,17 @@
-Template: OE_SettingsTemplate_RuinsInside
+Template: NONE
+DangerType: Blizzard
 CeilingDrips: 0
-WaveSpeed: 0.51
-WaveLength: 1
-WaveAmplitude: 0.0001
+WaveSpeed: 0.50092
+WaveLength: 0.9850527
+WaveAmplitude: 0.006744272
 SecondWaveLength: 1
 SecondWaveAmplitude: 0.0001
 Clouds: 0.3478261
+Grime: 0
 Palette: 40
-EffectColorA: 21
-EffectColorB: 9
-Effects: Desaturation-0.09782609-19-75, Contrast-0.02173913-288-17, PixelShift-0.5-32-65, AboveCloudsView-1-266-290, SkyAndLightBloom-0.01086957-269-239, LightRain-0-20-20, DayNight-0.3586957-271-186, Coldness-1-20-20,
+EffectColorA: 9
+EffectColorB: 10
+Effects: Desaturation-0.09782609-19-75, Contrast-0.02173913-288-17, PixelShift-0.5-32-65, AboveCloudsView-1-292-93, SkyAndLightBloom-0.01086957-269-239, LightRain-0-20-20, DayNight-0.3586957-282-132, Coldness-1-20-20, LightBurn-0.2391304-30-30, Fog-0.3369565-40-40, 
 PlacedObjects: DayNightSettings><354.1069><582.3897><5~8.660254~76~10, LightSource><2515.17><423.9333><0.1956522~Environment~-291~149~22~-252.3975~0~0~None~0~1, LightSource><1967.061><461.6904><0.1956522~Environment~1173~-182~50~86.60254~1~0~None~0~0, LightSource><877.1539><463.9254><0.1847826~Environment~-541~68~-133~-443.3975~1~0~None~0~0, LightSource><1472.259><448.8028><0.3043478~Environment~-362~237~50~86.60254~1~0~None~0~0, LightSource><3273.238><429.4501><0.3369565~Environment~527~-301~50~86.60254~1~0~None~0~0, FlyLure><2266.938><390.9306><0~0~4~9, FlyLure><2305.93><396.0865><0~0~4~9, FirecrackerPlant><2777.673><390.0656><0~0~2~3, FirecrackerPlant><2801.567><393.1695><0~0~2~3, FirecrackerPlant><2848.57><394.337><0~0~2~3, 
-FadePalette: 43, 0.7934783, 0.7934783, 0.7934783, 0.7826087
+FadePalette: 41, 0.7934783, 0.7934783, 0.7934783, 0.7826087
 WetTerrain: OFF

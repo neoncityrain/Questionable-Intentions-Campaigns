@@ -64,7 +64,7 @@ namespace NCRcatsmod
             On.Player.CanIPutDeadSlugOnBack += Player_CanIPutDeadSlugOnBack;
             On.Player.SlugcatGrab += Player_SlugcatGrab;
 
-            // worm grass ignores marauder
+            // worm grass ignores marauder as long as marauder is alive
             On.WormGrass.WormGrassPatch.InteractWithCreature += WormGrassPatch_InteractWithCreature;
 
             // blue objects !!!!!!!
@@ -95,7 +95,10 @@ namespace NCRcatsmod
                 if (MarauderCannibalising)
                 {
                     BodyChunk firstChunk = spear.firstChunk;
-                    firstChunk.vel.x = firstChunk.vel.x * 0.88f;
+                    firstChunk.vel.x = firstChunk.vel.x * 1.3f;
+                    spear.spearDamageBonus = 2.5f;
+                    spear.room.AddObject(new Spark(spear.thrownPos, firstChunk.vel, UnityEngine.Color.Lerp(new UnityEngine.Color(1f, 0.2f, 0f), new UnityEngine.Color(1f, 1f, 1f), UnityEngine.Random.value * 0.5f), null, 19, 47));
+                    spear.room.AddObject(new Spark(spear.thrownPos, firstChunk.vel, UnityEngine.Color.Lerp(new UnityEngine.Color(1f, 0.2f, 0f), new UnityEngine.Color(1f, 1f, 1f), UnityEngine.Random.value * 0.5f), null, 19, 47));
                     spear.room.AddObject(new Spark(spear.thrownPos, firstChunk.vel, UnityEngine.Color.Lerp(new UnityEngine.Color(1f, 0.2f, 0f), new UnityEngine.Color(1f, 1f, 1f), UnityEngine.Random.value * 0.5f), null, 19, 47));
                     Debug.Log("Marauder spear thrown after cannibalising");
                 }
@@ -106,6 +109,7 @@ namespace NCRcatsmod
                 }
                 else
                 {
+                    //im weeping. it looks so stupid. its beautiful
                     spear.throwModeFrames = 2;
                     spear.spearDamageBonus = 0.2f;
                     Debug.Log("Marauder spear thrown while NOT malnourished");
@@ -170,11 +174,46 @@ namespace NCRcatsmod
         private void PlayerSessionRecord_AddEat(On.PlayerSessionRecord.orig_AddEat orig, PlayerSessionRecord self, PhysicalObject eatenObject)
         {
             orig(self, eatenObject);
-            if (eatenObject.room.game.session.characterStats.name.value == "NCRMarauder" && eatenObject.room.game.session is StoryGameSession && 
-                (eatenObject is Player || (eatenObject as Player).room.game.session.characterStats.name.value == "Slugpup"))
+            if (eatenObject.room.game.session.characterStats.name.value == "NCRMarauder")
             {
-                Debug.Log("MARAUDER FUCKED UP AND EVIL MOMENTS!!!!!!!!");
-                MarauderCannibalising = true;
+                for (int i = self.eats.Count - 1; i >= 0; i--)
+                {
+                    if (self.eats[i].ID == eatenObject.abstractPhysicalObject.ID)
+                    {
+                        return;
+                    }
+                }
+                if (eatenObject.room != null && eatenObject.room.game.Players[self.playerNumber] != null && 
+                    eatenObject.room.game.Players[self.playerNumber].realizedCreature != null)
+                {
+                    if (eatenObject is Player || (eatenObject as Player).room.game.session.characterStats.name.value == "Slugpup")
+                    {
+                        Debug.Log("MARAUDER FUCKED UP AND EVIL MOMENTS!!!!!!!!");
+                        MarauderCannibalising = true;
+                        eatenObject.room.game.Players[self.playerNumber].Hypothermia -= 0.02f;
+                    }
+                    if (eatenObject is Creature)
+                    {
+                        self.eats.Add(new PlayerSessionRecord.EatRecord((eatenObject as Creature).Template.type, eatenObject.abstractPhysicalObject.type, eatenObject.abstractPhysicalObject.ID));
+                    }
+                    else
+                    {
+                        self.eats.Add(new PlayerSessionRecord.EatRecord(null, eatenObject.abstractPhysicalObject.type, 
+                            eatenObject.abstractPhysicalObject.ID));
+                    }
+                    if (eatenObject is KarmaFlower || eatenObject is Mushroom)
+                    {
+                        return;
+                    }
+                    self.ateAnything = true;
+                    if (eatenObject is Creature || eatenObject.abstractPhysicalObject.type == AbstractPhysicalObject.AbstractObjectType.JellyFish 
+                        || eatenObject.abstractPhysicalObject.type == AbstractPhysicalObject.AbstractObjectType.EggBugEgg)
+                    {
+                        self.vegetarian = false;
+                        return;
+                    }
+                    self.carnivorous = false;
+                }
             }
         }
 
@@ -306,7 +345,7 @@ namespace NCRcatsmod
                     },
                     CustomTail = new CustomTail { Wideness = 1.5f, AsymTail = true, Roundness = 0.1f }
                 });
-                Debug.Log("NCR default sprites set!");
+                Debug.Log("Questionable Intention's default DMS sprites set!");
             }
         }
 
@@ -385,11 +424,13 @@ namespace NCRcatsmod
             if (self.slugcatStats.name.value == "NCRMarauder")
             {
                 self.GetMarCat().IsMarauder = true;
+                // freezes to death slower
+                self.HypothermiaExposure -= 0.1f;
 
                 if (self.room.game.session is StoryGameSession)
                 {
                     string name = self.room.abstractRoom.name;
-                    if (name == "OE_RUIN04")
+                    if (name == "OE_RUINCourtYard")
                     {
                         self.room.AddObject(new MarauderIntro(self.room));
                     }
@@ -463,12 +504,12 @@ namespace NCRcatsmod
             //marader has a larger jump boost when hungry
             if (self.GetMarCat().IsMarauder)
             {
-                if (self.playerState.foodInStomach > 1)
-                { self.jumpBoost += 1.5f; }
-                else if (MarauderCannibalising)
+                if (MarauderCannibalising || self.Malnourished)
                 {
                     self.jumpBoost += 4f;
                 }
+                else if (self.playerState.foodInStomach > 1 && !self.Malnourished)
+                { self.jumpBoost += 1.5f; }
                 else
                 { self.jumpBoost += 3f; }
             }
@@ -612,6 +653,7 @@ namespace NCRcatsmod
                         sLeaser.sprites[3].element = adulthead;
                     }
                 }
+
             }
             else
             {

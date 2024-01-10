@@ -1,8 +1,9 @@
-Template: OE_SettingsTemplate_Ruins
+Template: NONE
+DangerType: Blizzard
 RainIntensity: 0.05217378
-WaveSpeed: 0.5003808
-WaveLength: 0.9894489
-WaveAmplitude: 0.002110385
+WaveSpeed: 0.4999523
+WaveLength: 0.9999762
+WaveAmplitude: 5.550001E-05
 SecondWaveLength: 0.1666667
 SecondWaveAmplitude: 0
 Palette: 40

@@ -1,0 +1,19 @@
+Template: NONE
+DangerType: Blizzard
+CeilingDrips: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 6.583406E-29
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.3586957
+Grime: 0.1956522
+Palette: 27
+EffectColorA: 9
+EffectColorB: 10
+Effects: Contrast-0.08695652-108-27, Desaturation-0.2065217-548-26, SkyAndLightBloom-0.0326087-114-90, DayNight-0.5-72-138, AboveCloudsView-1-20-20, LightBurn-0.1521739-30-30, 
+PlacedObjects: DayNightSettings><403.6733><1343.066><5~8.660254~76~10, LightSource><1039.618><1543.216><0.3692574~Environment~2105~-658~127~-278.3975~1~0~None~0~0, SnowSource><1038.183><301.3498><Radial~-337~450~50~86.60254~1~0, SnowSource><1031.616><867.0522><Strip~0~100~50~86.60254~1~0, SnowSource><1037.463><1539.683><Radial~390~-254~-138~-371.3975~1~0, SnowSource><713.2875><935.968><Strip~0~100~50~86.60254~1~0, SnowSource><1319.783><932.222><Strip~0~100~50~86.60254~1~0, 
+AmbientSounds: OMNI><AM_ENV-Outside.ogg><122.8055><457.5468><0.4021739><1, SPOT><AM_ENV-LightWind.ogg><739.8862><519.4145><0.4021739><1><1008.886><1277.415><223.6447><-485.3553><0><1, 
+Triggers: Spot<tA>event<tB>MusicEvent<eA>songName<eB>RW_64 - Daze<eA>vol<eB>0.3<eA>prio<eB>0.5<eA>mxThrt<eB>1<eA>loop<eB>0<eA>droneTol<eB>0<eA>rooms<eB>-1<eA>rest<eB>5<eA>fadeIn<eB>0<eA>oneSongPerCycle<eB>0<eA>stopAtDeath<eB>0<eA>stopAtGate<eB>0<tA>multiUse<tB>0<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>414.2455<tB>466.45<tA>fireChance<tB>1<tA>entrance<tB>-1<tA>karma<tB>0<tA>slugcats<tB><tA>pos<tB>862.2452<tB>781.4502<tA>handlePos<tB>1280.645<tB>764.6447, 
+FadePalette: 41, 0.6521739, 0.6304348, 0.6413044, 0.6521739
+WetTerrain: OFF

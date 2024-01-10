@@ -1,19 +1,21 @@
-Template: OE_SettingsTemplate_Cave
+Template: NONE
 DangerType: Blizzard
 CeilingDrips: 0
-WaveSpeed: 0.4999193
-WaveLength: 0.9998662
-WaveAmplitude: 5.546165E-05
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 5.605194E-45
 SecondWaveLength: 1
 SecondWaveAmplitude: 0.0001
-Clouds: 0.6630435
+Clouds: 0.4310462
 Grime: 0.1956522
 BkgDroneVolume: 0
-Palette: 41
+Palette: 33
 EffectColorA: 21
 EffectColorB: 10
-Effects: LightRain-0-20-20, FireFlies-0-22-74, Fog-0-24-124, Bloom-1-280-21, LightBurn-0.6304348-271-70, DayNight-0.6956522-271-135, Darkness-0.25-264-192, Coldness-0-30-30, 
+Effects: Fog-0.4639946-24-124, Bloom-1-280-21, LightBurn-0.4757697-271-70, Darkness-0.25-7.875015-27.02222, Coldness-0-21.46252-74.8, WaterDepth-0.03866627-20-20, 
 PlacedObjects: LightSource><992.316><3250.438><0.2717391~Environment~672~530~428.0001~-228.3975~1~0~None~0~0, LightSource><990.2999><3249.493><0.1630435~Environment~-416~278~449~-81.39746~1~1~None~0~0, LightSource><958.6731><3455.649><0.173913~Environment~-38~249~193~-438.3975~1~1~None~0~0, LightSource><949.16><2910.621><0.2065217~Environment~-299~218~312~-354.3975~1~1~None~0~0, LightSource><784.4337><2697.672><0.1630435~Environment~6~284~495~-260.3975~1~1~None~0~0, LightSource><866.0616><2777.568><0.1521739~Environment~-595~351~146~-352.3975~1~0~None~0~0, LightSource><1201.568><2223.834><0.1086956~Environment~376~-52~299~-229.3975~1~0~None~0~0, LightSource><1179.166><2237.388><0.1195652~Environment~554~-7~50~86.60254~1~1~None~0~0, LightSource><1057.183><1951.83><0.3369565~Environment~129~212~-336~301.6025~1~0~None~0~0, LightSource><1057.138><1948.856><0.07608695~Environment~-72~370~-341~181.6025~1~1~None~0~0, LightSource><1472.19><1935.312><0.07608695~Environment~-513~48~93~-131.3975~1~0~None~0~0, LightSource><1472.66><1936.63><0.1413043~Environment~-419~123~-212~-214.3975~1~1~None~0~0, LightSource><730.9341><1501.871><0.25~Environment~-235~48~-565~75.60254~1~0~None~0~0, LightSource><754.1289><1184.903><0.07608695~Environment~-200~192~-577~273.6025~1~0~None~0~0, LightSource><1014.922><1447.185><0.1847826~Environment~-300~36~-848~-112.3975~1~0~None~0~0, LightSource><768.1968><1491.036><0.1630435~Environment~326~103~-459~-488.3975~1~1~None~0~0, LightSource><758.5795><1183.396><0.09782609~Environment~-41~331~-200~-188.3975~1~1~None~0~0, LightSource><1011.688><1447.81><0.1195652~Environment~-83~229~-145~-440.3975~1~1~None~0~0, LightSource><1024.784><2252.698><0.07608695~Environment~241~13~25~-153.3975~1~1~None~0~0, LightSource><1583.255><990.7001><0.06523132~EffectColor1~-616~-546~359~-578.3975~1~0~None~0~0, LightSource><1235.802><1078.943><0.04347826~EffectColor1~415~-221~187~-674.3975~1~0~None~0~0, LightSource><843.7501><502.7001><0.07608695~EffectColor1~412~326~35.00031~-231.3976~1~0~None~0~0, LightSource><524.8347><440.6374><0.09782609~EffectColor1~-625~125~50~86.60254~1~0~None~0~0, LanternOnStick><1230.606><1099.831><-2~-123, LanternOnStick><1695.688><922.0671><-35~-144, LanternOnStick><1262.686><1045.177><-24~-90, DayNightSettings><1591.95><553.2579><5~8.660254~76~10, GooieDuck><654.6908><1527.386><0~0~2~3, GooieDuck><688.5969><1546.404><0~0~2~3, SnowSource><964.275><3592.432><Radial~0~100~50~86.60254~1~0, SnowSource><1000.097><3444.209><Radial~0~100~50~86.60254~1~0, SnowSource><908.6791><3361.273><Radial~271.0656~-301.0667~50~86.60254~0.1570766~0, SnowSource><771.8332><2611.068><Radial~-143.7146~98.57776~50~86.60254~0.1029438~0, SnowSource><1616.003><1908.727><Radial~-171.4614~42.39999~50~86.60254~0.1184102~0, 
 AmbientSounds: SPOT><AM_ENV-LightWind.ogg><778.6623><526.8831><0.3804348><1><960.6624><3810.883><48.64465><-351.3553><0><1, SPOT><AM_ENV-Outside.ogg><780.8507><414.6331><0.5><1><963.8507><3817.633><25.64465><-239.3553><0><0.4478262, OMNI><AM_ENV-SubTerr.ogg><606.4448><560.5577><0.3913043><1, 
-FadePalette: 20, 0.2579485, 0.3369565, 0.4193162, 0.4074161, 0.2778418, 0.213485
+FadePalette: 14, 0.2579485, 0.3369565, 0.4193162, 0.4074161, 0.2778418, 0.213485
 WetTerrain: OFF

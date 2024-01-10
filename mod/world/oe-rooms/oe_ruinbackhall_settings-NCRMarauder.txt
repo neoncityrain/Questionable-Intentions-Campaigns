@@ -1,0 +1,19 @@
+Template: NONE
+DangerType: Blizzard
+CeilingDrips: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 5.605194E-45
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.2391304
+Palette: 33
+EffectColorA: 10
+EffectColorB: 9
+Effects: Contrast-0.0326087-280-20, LightBurn-0.06521739-272-74, Desaturation-0.3695652-279.1146-132.0444, SkyAndLightBloom-0.01086957-276-290, PixelShift-0.5026607-20-20, AboveCloudsView-1-40-40, Fog-0.3402627-50-50, 
+PlacedObjects: DayNightSettings><550.436><509.8235><5~8.660254~76~10, LightSource><1133.184><866.8289><0.3152174~Environment~998~-762~-182~-231.3975~1~1~None~0~0, LightBeam><194.1281><151.5964><334~716~1442~726~3738~-30~24~128~0.03970966~0.2826087~0~1~None~0~0, LanternOnStick><1841.052><443.275><-28~-180, LanternOnStick><1788.191><497.9412><14~-248, LanternOnStick><803.6335><442.9125><-52~-212, LanternOnStick><745.868><396.4115><38~-194, LanternOnStick><2376.698><388.2799><40~-192, LanternOnStick><2725.011><340.9496><-12~-186, LanternOnStick><1385.066><428.5611><-68~-250, LanternOnStick><3278.356><449.6097><22~-284, LanternOnStick><3306.638><405.6063><-16~-244, LanternOnStick><3616.142><503.8902><48~-212, LanternOnStick><3297.362><723.604><-8~-40, LanternOnStick><2681.7><732.7546><10~-48, LightSource><3767.808><706.1942><0.5434783~Environment~-352~-170~-93~-589.3975~1~1~None~0~0, LightSource><3536.115><623.4138><0.3695652~Environment~-654~-234~-168~-387.3975~1~1~None~0~0, LightSource><2502.431><661.9376><0.4021739~Environment~-607~-312~-84~-205.3975~1~1~None~0~0, Vine><538.8458><398.4256><-189~173, Vine><505.5798><479.1449><-152~74, Vine><353.0533><563.0366><120~195, Vine><1873.305><696.0438><-110~122, Vine><1909.107><697.1393><373~77, Vine><1916.446><688.9597><182~86, Vine><3396.194><771.2984><232~-5, Vine><3707.958><631.4457><-130~137, Vine><3332.806><668.1994><280~100, DangleFruit><3288.802><623.9734><25~-186~2~3, DangleFruit><3308.026><594.1984><0~0~2~3, DangleFruit><3323.804><609.9611><-11~-90~2~3, 
+AmbientSounds: OMNI><AM_ENV-CricketsWnd.ogg><773.0856><553.9307><0.6521739><1, OMNI><AM_ENV-Outside.ogg><767.4241><474.565><0.6086956><1, 
+Triggers: Spot<tA>event<tB>MusicEvent<eA>songName<eB>RW_97 - Open Skies<eA>vol<eB>0.3<eA>prio<eB>0.5<eA>mxThrt<eB>1<eA>loop<eB>0<eA>droneTol<eB>0<eA>rooms<eB>-1<eA>rest<eB>5<eA>fadeIn<eB>65.21739<eA>oneSongPerCycle<eB>0<eA>stopAtDeath<eB>0<eA>stopAtGate<eB>0<tA>multiUse<tB>0<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>226.4487<tB>425.7724<tA>fireChance<tB>1<tA>entrance<tB>-1<tA>karma<tB>0<tA>slugcats<tB><tA>pos<tB>1164.449<tB>423.7724<tA>handlePos<tB>838.6447<tB>228.6447, 
+FadePalette: 14, 0.8423235, 0.6801403, 0.4870244, 0.2429121
+WetTerrain: OFF

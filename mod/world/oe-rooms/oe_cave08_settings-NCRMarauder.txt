@@ -1,0 +1,20 @@
+Template: NONE
+DangerType: FloodAndRain
+CeilingDrips: 0
+RainIntensity: 0.1847826
+RumbleIntensity: 0.7065217
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 8.099999E-05
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 1
+WaterReflectionAlpha: 0
+Palette: 33
+EffectColorA: 10
+EffectColorB: 9
+Effects: Darkness-0.2391304-269-128, DayNight-0.7282609-265-190, Fog-0.6195652-9-135, Coldness-0-20-20, 
+PlacedObjects: DayNightSettings><507.0732><367.8139><5~8.660254~10~76, 
+AmbientSounds: SPOT><SO_WAT-OpenFlow.ogg><725.6762><231.0641><0.5><1><430.6763><303.0641><-228.3553><9.644653><0><0.7739132, OMNI><SO_WAT-ProperDrips.ogg><776.3334><493.0682><0.5><1, OMNI><SO_WAT-MoreDrips.ogg><772.6521><561.8702><0.5><1, 
+FadePalette: 4, 0.5326087
+WetTerrain: OFF

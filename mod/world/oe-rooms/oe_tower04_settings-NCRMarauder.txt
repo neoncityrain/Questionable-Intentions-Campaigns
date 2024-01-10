@@ -1,0 +1,19 @@
+Template: NONE
+DangerType: Blizzard
+CeilingDrips: 0.1478262
+RainIntensity: 0.6086956
+RumbleIntensity: 0.9130435
+WaveSpeed: 0.4994307
+WaveLength: 0.9997153
+WaveAmplitude: 0.0006475022
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.7934783
+RandomItemDensity: 0.1847826
+Palette: 33
+EffectColorA: 13
+EffectColorB: 18
+Effects: Fog-0.3369565-272-129, Darkness-0.08695652-17-135, WaterDepth-0.1195652-55-75, BorderPushBack-1-68-19, 
+PlacedObjects: ScavengerOutpost><2701.911><624.1793><94~326~134~-226~0.9331658~68~83, LanternOnStick><2652.804><737.0382><23~-144, LanternOnStick><2519.043><728.1987><-37~-135, LanternOnStick><2444.819><773.9674><36~-169, LanternOnStick><2848.016><778.8007><18~-177, LanternOnStick><2902.928><742.8134><-38~-143, CustomDecal><2341.6><320.3234><-3~289~601~293~589~-25~198~-219.8803~0~1~1~Scav Wedges2~0.8478261~0.5543478~0.3478261~0.5543478~0.7826087~0.5543478~0.2934783~0.5543478, ExitSymbolHidden><2672.552><990.1529><, ScavengerTreasury><2625.81><645.1892><59~194, LanternOnStick><2036.05><426.9287><-72~-162, LanternOnStick><1717.122><757.4366><54~-263, LanternOnStick><3375.946><824.5415><-37~-184, LanternOnStick><1957.603><627.6357><-36~-218, LanternOnStick><4069.687><866.8181><-18~-150, LanternOnStick><3308.31><753.8167><20~-126, LanternOnStick><3863.488><815.9498><21~-158, CustomDecal><1303.178><472.9168><-38~477~812~445~796~-60~64~-211~0.1630435~0.6304348~0.1195652~ScavMark MS_scavtrader~0.5~0.4130435~0.1956522~0.4130435~0.3369565~0.4130435~0.2826087~0.4130435, CustomDecal><2475.636><623.6465><-40~335~344~346~317~-30~-261~-595~0.6521739~1~0.4782609~ScavMark Stonehead2~0.5~0.3695652~0.5~0.3695652~0.5~0.3695652~0.5~0.3695652, CustomDecal><2345.696><612.7889><-3~235~603~228~594~7~-276~30~0~0.1086956~0~Scav Wedges3(vert)~0~0.3913043~0~0.3913043~0.8478261~0.3913043~0.8586956~0.3913043, BlinkingFlower><4805.198><888.307><, BlinkingFlower><5021.247><914.3><, BlinkingFlower><5012.222><956.302><, BlinkingFlower><4926.432><955.5824><, BlinkingFlower><4159.16><734.6299><, BlinkingFlower><4151.926><796.8142><, BlinkingFlower><1410.661><905.0712><, BlinkingFlower><1471.939><760.1843><, BlinkingFlower><1445.63><751.4105><, BlinkingFlower><1403.925><807.1533><, BlinkingFlower><1401.95><719.2416><, BlinkingFlower><1379.949><760.273><, 
+AmbientSounds: OMNI><SO_WAT-Splashes.ogg><20.06165><98.55974><0.2608696><1, OMNI><AM_ENV-LushNight.ogg><24.80676><178.1985><0.5><1, SPOT><SO_WAT-MoreDrips.ogg><860.173><476.9346><0.5><1><3300.173><342.9347><-362.3553><87.64465><0><0.502174, SPOT><SO_WAT-LilDrips.ogg><844.9494><595.4845><0.5><1><2017.949><385.4846><-248.3553><-179.3553><0><0.5239132, 
+FadePalette: 40, 0.07608695, 0.2608696, 0.423913, 0.4891304, 0.1847826, 0.6739131, 0.6739131, 0.6739131

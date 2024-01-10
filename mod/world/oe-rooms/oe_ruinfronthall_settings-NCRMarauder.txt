@@ -1,0 +1,22 @@
+Template: NONE
+DangerType: Blizzard
+CeilingDrips: 0
+RainIntensity: 0.1423347
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 5.605194E-45
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.7608696
+Grime: 0
+RandomItemDensity: 0.5
+RandomItemSpearChance: 0.1999999
+Palette: 14
+EffectColorA: 10
+EffectColorB: 9
+Effects: LightBurn-0.1956522-282-72, Bloom-0.2391304-246.7906-132.6222, Contrast-0.05434782-288-18, Fog-0.4098619-20-20, 
+PlacedObjects: DayNightSettings><1851.14><156.3929><5~8.660254~76~10, LanternOnStick><1595.174><333.6522><-71~-193, LanternOnStick><574.126><625.5947><57~-130, LanternOnStick><135.8661><331.6014><52~-166, LightSource><1706.223><659.3><0.5~Environment~-334~288~-126~-283.3975~1~1~None~0~0, LightSource><1431.183><666.1698><0.2391304~Environment~116~-286~58~-117.3975~1~1~None~0~0, LightSource><1204.418><695.5673><0.3043478~Environment~174~-226~14~-125.3974~1~1~None~0~0, LightBeam><205.9148><610.431><1596~248~1612~-350~238~-520~790.999~-297.0011~0.5086955~0.4130435~0~1~None~0~0, LightSource><941.0895><651.5712><0.5434783~Environment~-268~32~-283~-113.3974~1~1~None~0~0, Vine><674.6212><526.6591><142~250, Vine><480.3206><771.9717><340~5, Vine><411.5125><450.1133><178~318, Vine><51.58397><732.8233><305~-61, Vine><33.8407><594.0668><274~179, DangleFruit><842.4185><708.5674><0~0~2~3, DangleFruit><465.4188><662.9327><0~0~2~3, 
+AmbientSounds: OMNI><AM_ENV-CricketsWnd.ogg><119.6849><226.6737><0.6956522><1, OMNI><AM_ENV-Outside.ogg><116.1873><146.6798><0.6739131><1, 
+FadePalette: 33, 0.4157494, 0.6404439
+WetTerrain: OFF

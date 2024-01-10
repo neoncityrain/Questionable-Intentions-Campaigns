@@ -1,7 +1,7 @@
 {
 	"id": "NCRMarauder",
 	"name": "The Marauder",
-	"description": "A theif and eater of carrion, you must rely on quick wits rather than strength.<LINE>Your journey will be rough, as the path you walk is a lonely one.",
+	"description": "A thief and eater of carrion, you must rely on quick wits rather than strength.<LINE>Your journey will be rough, as the path you walk is a lonely one.",
 	"features": {
 		"color": "A9D1DE",
 		"custom_colors": [
@@ -19,9 +19,10 @@
 		"climb_speed": [ 1.2, 1.5 ],
 		"walk_speed": [ 1.2, 1.5 ],
 		"crouch_stealth": [ 1.0, 0.6 ],
-		"throw_skill": [ 0, 1 ],
 		"lung_capacity": [ 1.1, 1.4 ],
 		"can_maul": true,
+		"expedition_enabled": false,
+		"auto_grab_batflies": false,
 		"karma": 0,
 		"karma_cap": 0,
 		"food_min": 6,
@@ -44,15 +45,18 @@
 			"plants": 0,
 			"meat": 0.25,
 			"overrides": {
+				"Fly": 0.25,
+				"Lizard": 0.25,
+				"SmallCentipede": 0.25,
 				"Scavenger": 0.25,
 				"SlugNPC": 2
 			}
 		},
 
-		"start_room": "OE_SEXTRA",
-		"select_menu_scene": "Slugcat_Marauder",
-		"select_menu_scene_ascended": "Ghost_Marauder",
-		"sleep_scene": "Sleep_Marauder",
-		"starve_scene": "Starve_Marauder"
+		"start_room": "OE_RUIN04",
+		"select_menu_scene": "Slugcat_NCRMarauder",
+		"select_menu_scene_ascended": "Ghost_NCRMarauder",
+		"sleep_scene": "Sleep_NCRMarauder",
+		"starve_scene": "Starve_NCRMarauder"
 	}
 }

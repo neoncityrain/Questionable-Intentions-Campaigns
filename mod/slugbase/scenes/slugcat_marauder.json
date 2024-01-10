@@ -1,25 +1,17 @@
 {
-	"id": "Slugcat_Marauder",
-	"scene_folder": "scenes/slugcat - marauder",
+	"id": "Slugcat_NCRMarauder",
+	"scene_folder": "scenes/marauderselect",
 	"images": [
-		{ "name": "marBackground", "pos": [492, 297], "depth": 3.7, "shader": "Basic" },
-		{
-			"name": "marBlood",
-			"pos": [ 492, 297 ],
-			"depth": 2.8,
-			"shader": "Multiply"
-		},
-		{ "name": "marSlugcat",    "pos": [602, 364], "depth": 2.2, "shader": "Basic" },
-		{
-			"name": "marBones",
-			"pos": [ 492, 297 ],
-			"depth": 2.0,
-			"shader": "Basic"
-		}
+		{ "name": "snowground", "pos": [400, 300], "depth": 3.1, "shader": "Basic" },
+		{ "name": "skull",    "pos": [400, 300], "depth": 3.0, "shader": "Basic" },
+		{ "name": "eyesback",    "pos": [400, 300], "depth": 2.6, "shader": "Basic" },
+		{ "name": "eyes",    "pos": [395, 300], "depth": 2.5, "shader": "Basic" },
+		{ "name": "tail",    "pos": [400, 300], "depth": 1.8, "shader": "Basic" },
+		{ "name": "mar",    "pos": [400, 300], "depth": 1.5, "shader": "Basic" }
 	],
 	"idle_depths": [ 2.8 ],
 	"glow_pos": [688, 484],
 	"mark_pos": [689, 583],
 	"select_menu_pos": [0, 0],
-	"slugcat_depth": 2.8
+	"slugcat_depth": 1.5
 }

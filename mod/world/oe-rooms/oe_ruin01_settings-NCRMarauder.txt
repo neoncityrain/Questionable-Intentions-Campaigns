@@ -1,0 +1,18 @@
+Template: NONE
+DangerType: Blizzard
+RainIntensity: 0.1499999
+RumbleIntensity: 0.2934783
+WaveSpeed: 0.4998622
+WaveLength: 0.9999311
+WaveAmplitude: 0.0001595628
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.7391304
+Grime: 0.1304348
+Palette: 41
+EffectColorA: 10
+EffectColorB: 9
+Effects: LightBurn-0.09782609-53-86, DayNight-0.5760869-90-121, Contrast-0.02173913-68-26, 
+PlacedObjects: LightSource><512.5984><1541.381><0.3804348~Environment~40~-452~22~-163.3975~1~1~None~0~0, LightBeam><411.7543><804.9502><-6~748~138~742~294~24~-342~64~0.4652173~0.5869565~0.1304348~1~None~0~0, LightSource><600.1644><869.431><0.1521738~Environment~-574~182~50~86.60254~1~1~None~0~0, DayNightSettings><532.3002><1191.51><5~8.660254~33~10, SnowSource><505.3011><721.1512><Strip~47~0~50~86.60254~0.5~0, 
+AmbientSounds: OMNI><AM_ENV-NatWind.ogg><757.052><487.7782><0.4130435><1, OMNI><AM_ENV-WindGrass.ogg><758.3323><406.9323><0.4130435><1, 
+FadePalette: 12, 0.5326087, 0.6630435

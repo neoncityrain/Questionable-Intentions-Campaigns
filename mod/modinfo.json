@@ -1,10 +1,10 @@
 ﻿{
-	"id": "neoncityrain.NCREntropy",
-	"name": "The Entropy Slugcat",
-	"version": "0.2.0",
+	"id": "neoncityrain.ncrcatsmod",
+	"name": "Questionable Intentions Campaigns",
+	"version": "0.1",
 	"authors": "NeonCityRain",
-	"description": "A slugpup flees the confines of a cage to find itself in an ever-shifting world... or maybe it's not the world that's changing.",
-	"requirements": [ "slime-cubed.slugbase", "moreslugcats", "regionkit", "pom" ],
-	"requirements_names": [ "SlugBase", "More Slugcats", "Region Kit", "POM" ],
+	"description": "Adds some unique slugcats and campaigns to the game.<LINE>This mod is actively getting updates.",
+	"requirements": [ "slime-cubed.slugbase", "moreslugcats", "regionkit", "pom", "fisobs" ],
+	"requirements_names": [ "SlugBase", "More Slugcats", "Region Kit", "POM", "Fisobs" ],
 	"tags" : ["Campaigns", "Custom Slugcat"]
 }

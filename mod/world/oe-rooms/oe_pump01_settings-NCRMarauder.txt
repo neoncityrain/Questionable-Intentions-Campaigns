@@ -1,0 +1,20 @@
+Template: NONE
+DangerType: Blizzard
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 2.227653E-28
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 1
+Grime: 0.1956522
+BkgDroneVolume: 0
+RandomItemDensity: 0
+Palette: 14
+EffectColorB: 18
+Effects: Coldness-0-20-20, 
+PlacedObjects: LightFixture><4863.209><391.4458><RedSubmersible~17.32051~-10~81, LightFixture><4253.214><4.053192><RedSubmersible~17.32051~-10~5, LightFixture><4004.439><562.3156><RedLight~17.32051~-10~63, LightFixture><1830.675><247.1855><RedSubmersible~17.32051~-10~44, LightFixture><2894.197><30.28748><RedSubmersible~17.32051~-10~51, LightFixture><577.4496><51.98721><RedSubmersible~17.32051~-10~87, LightSource><4488.921><688.6837><0.1956522~EffectColor2~-1665~-546~90~-220.3975~0~0~Fade~0.5978261~0, 
+AmbientSounds: OMNI><Mech Basic.wav><606.3081><653.3064><0.2282609><1, OMNI><Deep Weird Wind.wav><786.6104><653.3932><0.1413043><1, SPOT><SO_IND-Generator.ogg><790.6301><538.3481><0.2826087><0.8630434><5102.63><330.3481><-1282.355><-22.35535><0><1, SPOT><SO_IND-HeatDuct.ogg><796.0894><424.6308><0.4456522><1><3947.088><538.6309><134.6447><-55.35535><0><0.2195653, 
+FadePalette: 8, 0.8695652, 0.8586956, 0.8478261, 0.8369565, 0.8369565
+RoomSpecificScriptActive: ON

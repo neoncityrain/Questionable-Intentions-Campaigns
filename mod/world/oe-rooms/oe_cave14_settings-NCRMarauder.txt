@@ -1,14 +1,16 @@
-Template: OE_SettingsTemplate_Cave
+Template: NONE
 CeilingDrips: 0
-WaveSpeed: 0.4999982
-WaveLength: 0.9990645
-WaveAmplitude: 0.0002116977
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 0.0001905279
 SecondWaveLength: 1
 SecondWaveAmplitude: 0.0001
-Clouds: 0.8043478
-Palette: 43
-Effects: LightBurn-0.423913-279-131, Darkness-0-17-132, DayNight-0.2065217-266-190, 
+Clouds: 0.7811481
+Palette: 33
+EffectColorA: 10
+EffectColorB: 9
+Effects: LightBurn-0.1687161-279-131, Darkness-0-17-132, Fog-0.4562613-20-20, 
 PlacedObjects: LightSource><538.5546><399.7928><0.3586957~Environment~-687~52~-374~89.60254~1~0~None~0~0, LightSource><799.8037><513.0388><0.09782609~Environment~332~309~-455~-437.3975~1~1~None~0~0, LightSource><1703.198><409.027><0.3152174~Environment~-666~171~-326~-361.3975~1~0~None~0~0, LightSource><1450.832><384.0676><0.07608695~Environment~527~230~218~-286.3975~1~1~None~0~0, LightSource><810.1835><359.8267><0.3043478~Environment~108~-354~111~-172.3975~1~0~None~0~0, DayNightSettings><1334.093><414.1772><5~8.660254~76~10, GooieDuck><495.2997><449.8063><7~107~2~3, GooieDuck><605.2607><476.8003><-98~0~2~3, GooieDuck><832.3759><560.8446><0~0~2~3, 
 AmbientSounds: SPOT><SO_WAT-Splashes.ogg><736.9692><471.8024><0.1956522><1><1822.969><399.8024><-198.3553><0.6446533><0><1, 
-FadePalette: 40, 0.2143002, 0.2326881
+FadePalette: 14, 0.3093297, 0.2962749
 WetTerrain: OFF

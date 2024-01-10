@@ -1,0 +1,16 @@
+Template: NONE
+DangerType: Blizzard
+WaveSpeed: 0.4990499
+WaveLength: 0.999525
+WaveAmplitude: 0.001063754
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.09782609
+Grime: 0.2173913
+Palette: 33
+EffectColorA: 10
+EffectColorB: 10
+Effects: WaterDepth-0.1304348-57-80, Darkness-0.2391304-22-133, 
+PlacedObjects: NoSpearStickZone><552.946><294.7105><110~144, LanternOnStick><1783.564><407.8242><-108~-241, LanternOnStick><748.244><247.4499><38~-165, LanternOnStick><1038.448><287.3069><76~-149, CustomDecal><1200.95><293.242><-136~176~-14~280~156~36~-8~-502~0.4565217~1~0~UNQ - BubbleDevil~0.2391304~0.04347826~0.2391304~0.04347826~0.2391304~0.04347826~0.2391304~0.04347826, DayNightSettings><834.3912><392.1678><5~8.660254~17~10, LanternOnStick><2931.508><348.0476><69~-201, LanternOnStick><3882.601><269.0774><87~-217, LanternOnStick><4990.755><238.3001><55~-143, LanternOnStick><5242.939><596.4362><44~-137, BlinkingFlower><3156.012><311.5504><, BlinkingFlower><3082.2><322.7503><, BlinkingFlower><3040.188><273.8171><, BlinkingFlower><630.5715><383.1598><, BlinkingFlower><617.5708><315.1613><, BlinkingFlower><1141.946><263.2915><, BlinkingFlower><1164.587><278.134><, BlinkingFlower><1107.553><285.2838><, BlinkingFlower><636.1519><291.8802><, BlinkingFlower><1141.8><235.745><, BlinkingFlower><1105.976><247.5514><, BlinkingFlower><854.0797><332.5666><, BlinkingFlower><839.8097><284.8115><, BlinkingFlower><926.0543><268.5575><, 
+AmbientSounds: OMNI><AM_ENV-LushNight.ogg><63.30011><443.0062><0.5><1, OMNI><SO_WAT-Splashes.ogg><64.87689><353.3424><0.2608696><1, 
+FadePalette: 4, 0.6086956, 0.6304348, 0.6086956, 0.6304348, 0.5978261

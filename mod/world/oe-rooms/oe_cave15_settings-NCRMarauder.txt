@@ -1,0 +1,20 @@
+Template: NONE
+DangerType: FloodAndRain
+CeilingDrips: 0
+RainIntensity: 0.3034781
+RumbleIntensity: 1
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 8.999999E-05
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.3695652
+Grime: 0
+Palette: 33
+EffectColorA: 9
+EffectColorB: 10
+Effects: SilenceWater-0.3695652-260-119, Darkness-0-268-66, Fog-0.1630435-287-6, AboveCloudsView-1-40.5625-65.91112, 
+PlacedObjects: LanternOnStick><901.5934><567.8232><-28~-158, LanternOnStick><827.347><542.8712><43~-144, LanternOnStick><1385.68><481.0872><-34~-193, DayNightSettings><551.6655><592.8623><-14~38.66025~10~76, CentipedeAttractor><905.8479><553.8256><-184~150, CentipedeAttractor><1538.826><552.1852><141~107, LightSource><1538.39><449.1669><0.326087~Environment~-502~199~50~86.60254~1~0~None~0~0, LightSource><569.077><447.3997><0.1521739~Environment~-398~339~38~28.60254~1~0~None~0~0, 
+AmbientSounds: OMNI><SO_WAT-MoreDrips.ogg><781.1763><564.8141><0.5><1, SPOT><AM_WIN-SubWnd.ogg><781.2386><452.3003><0.3586957><1><1060.239><534.3003><232.6447><7.644653><0><1, 
+FadePalette: 14, 0.5217391, 0.5543478
+WetTerrain: OFF

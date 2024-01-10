@@ -7,7 +7,7 @@ overseersSpawnChance: 0.35
 overseersMin: 3
 overseersMax: 9
 playerGuideOverseerSpawnChance: 0
-pupSpawnChance: 0.4
+pupSpawnChance: 1
 GlacialWasteland: 1
 Subregion: Outer Expanse
 Subregion: Sunken Pier

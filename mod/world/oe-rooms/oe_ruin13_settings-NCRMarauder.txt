@@ -1,0 +1,17 @@
+Template: NONE
+DangerType: Blizzard
+CeilingDrips: 0
+RainIntensity: 1
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 5.605194E-45
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.8152174
+Palette: 14
+EffectColorA: 9
+EffectColorB: 10
+Effects: LightRain-0-20-20, PixelShift-0.5-32-65, AboveCloudsView-1-24-79, SkyAndLightBloom-0.09782609-260-243, Darkness-0.1086956-530-80, Fog-0.2783968-30-30, LightBurn-0.2397305-40-40, Coldness-0-50-50, 
+PlacedObjects: DayNightSettings><510.1954><364.2926><5~8.660254~76~10, LightSource><490.3092><438.94><0.09782609~Environment~-652~253~50~86.60254~1~1~None~0~0, 
+FadePalette: 33, 0.5848505
+WetTerrain: OFF

@@ -1,0 +1,14 @@
+Template: NONE
+DangerType: Blizzard
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 5.605194E-45
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.6304348
+Palette: 33
+EffectColorA: 9
+EffectColorB: 10
+Effects: Contrast-0.08695652-25-73, Desaturation-0.2282609-285-18, PixelShift-0.5-32.71146-79.93333, AboveCloudsView-1-295-81, SkyBloom-1-274-140, LightRain-0-20-20, DayNight-0.1086956-267-185, LightBurn-0.2391304-30-136, 
+PlacedObjects: LightSource><1908.306><448.0485><0.09782609~Environment~1233~-491~50~86.60254~1~1~None~0~0, LightSource><728.05><395.0072><0.1086956~Environment~-834~211~-487~125.6025~1~1~None~0~0, DayNightSettings><535.8005><369.7352><19~215.6602~76~10, LightSource><1952.819><470.8342><0.6086956~Environment~566~-434~169~-81.39746~1~0~None~0~0, Vine><2870.694><556.1987><-211~51, Vine><2905.7><474.2487><-170~128, Vine><2908.511><435.4498><-175~161, DangleFruit><2459.2><551.7555><0~0~2~3, DangleFruit><2613.181><551.8352><0~0~2~3, DangleFruit><2852.85><497.8823><0~0~2~3, DangleFruit><2813.074><538.5642><0~0~2~3, DevToken><2612.314><144.5607><21~-81~0~0~0~~~0~0~0~1~0~0~0~1~0~0~0~1, BlinkingFlower><1012.949><303.0215><, BlinkingFlower><936.5712><310.9105><, BlinkingFlower><477.7072><334.8047><, BlinkingFlower><986.6133><332.1459><, BlinkingFlower><1011.837><386.1803><, BlinkingFlower><847.913><385.116><, BlinkingFlower><821.6191><413.1512><, BlinkingFlower><823.5525><357.9686><, BlinkingFlower><640.8779><353.1537><, BlinkingFlower><375.5922><369.1228><, BlinkingFlower><389.8656><413.1632><, BlinkingFlower><1799.573><351.9364><, BlinkingFlower><1628.331><411.643><, BlinkingFlower><1597.329><367.8538><, BlinkingFlower><1155.487><320.9496><, 
+FadePalette: 14, 0.9209011, 0.7468184, 0.5545629

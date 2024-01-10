@@ -1,0 +1,15 @@
+DangerType: Rain
+CeilingDrips: 0
+RainIntensity: 0.1521739
+RumbleIntensity: 0
+WaveSpeed: 0.4984166
+WaveLength: 0.9892831
+WaveAmplitude: 0.0004598658
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.5760869
+Grime: 0.1956522
+Palette: 54
+EffectColorA: 6
+EffectColorB: 18
+Effects: Darkness-0-261-235, Fog-1-21-72, PixelShift-0.5-32-65, AboveCloudsView-1-277-136, SkyBloom-0.423913-12-126, DayNight-0.1956522-278-77, 

@@ -1,0 +1,4 @@
+OFFSCREEN : 0-Vulture-2, 0-MirosVulture-{Night}-1, 0-MirosVulture-{PreCycle}-1, 0-KingVulture-1, 0-Scavenger-13, 0-EliteScavenger-2
+
+OE_FINAL02 : 4-Yeek-2, 5-Cicada-3, 6-SmallCentipede-1
+OE_JUNGLE03 : 3-Cicada-2, 3-SlugNPC-1

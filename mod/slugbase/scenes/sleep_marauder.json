@@ -1,12 +1,12 @@
 {
-	"id": "sleep_marauder",
-	"scene_folder": "scenes/sleep-marauder",
+	"id": "sleep_NCRmarauder",
+	"scene_folder": "scenes/maraudersleep",
 	"images": [
-		{"name": "sleep - 5", "pos": [672, 236], "depth": 5.5, "shader": "Basic"},
-		{"name": "sleep - 4", "pos": [685, 138], "depth": 4.8, "shader": "Basic"},
-		{"name": "sleep - 3", "pos": [740, 138], "depth": 4, "shader": "Basic"},
-		{"name": "sleep-marauder", "pos": [758, 117], "depth": 3, "shader": "Basic"},
-		{"name": "sleep - 1", "pos": [498, -38], "depth": 1.8, "shader": "Basic"}
+		{"name": "coolsymbolthing", "pos": [672, 236], "depth": 5.5, "shader": "Basic"},
+		{"name": "backgrass2", "pos": [685, 138], "depth": 4.8, "shader": "Basic"},
+		{"name": "backgrass1", "pos": [740, 138], "depth": 4, "shader": "Basic"},
+		{"name": "marauder", "pos": [758, 117], "depth": 3, "shader": "Basic"},
+		{"name": "frontgrass", "pos": [498, -38], "depth": 1.8, "shader": "Basic"}
 	],
 	"idle_depths": [2.9],
 	"sleep scene_depth": 3.0

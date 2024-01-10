@@ -1,15 +1,19 @@
-Template: OE_SettingsTemplate_Cave
+Template: NONE
+DangerType: Blizzard
 CeilingDrips: 0
-WaveSpeed: 0.500102
-WaveLength: 0.9997188
-WaveAmplitude: 7.987425E-05
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 8.293312E-11
 SecondWaveLength: 0
 SecondWaveAmplitude: 0
+Clouds: 1
 BkgDroneVolume: 0.1304348
 Palette: 52
 EffectColorA: 0
 EffectColorB: 21
-Effects: WaterDepth-0.06521739-632-21, SilenceWater-0.326087-629-102, SkyAndLightBloom-0.1086956-613-192, 
+Effects: WaterDepth-0.06521739-307-73, SilenceWater-0.326087-324-106, SkyAndLightBloom-0.1086956-321-157, DayNight-0.3152174-20-20, 
 PlacedObjects: LightFixture><683.8114><443.6835><RedLight~17.32051~-10~31, BrokenShelterWaterLevel><572.1052><331.9201><, LightSource><219.633><214.9122><1~Environment~0~110~50~86.60254~1~0~None~0~0, 
 AmbientSounds: SPOT><AM_WAT-Lakeside.ogg><802.05><204.9951><0.5652174><1><225.05><121.9951><76.64465><-7.355347><0><0.4152175, SPOT><AM_IND-Utility01.ogg><749.1088><470.6678><0.3913043><0.9217392><739.1088><442.681><-80.35535><-58.35535><0><0.2086958, SPOT><MSC-LowGroans.ogg><723.3699><311.3481><0.5><0.5891304><198.3699><482.3481><13.64465><-60.35535><0><0.3391306, OMNI><SO_WAT-ProperDrips.ogg><502.5817><540.3918><0.1956522><0.8434783, OMNI><SO_WAT-RunningWater.ogg><520.0568><436.1982><0.08695652><0.823913, SPOT><SO_WAT-OpenFlow.ogg><148.564><412.3235><0.5><1><209.564><127.3235><-34.35535><-76.35535><0><0.3173913, 
 FadePalette: 4, 1

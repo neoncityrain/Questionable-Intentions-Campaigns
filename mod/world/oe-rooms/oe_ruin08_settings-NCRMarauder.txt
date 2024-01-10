@@ -1,0 +1,19 @@
+Template: NONE
+DangerType: Blizzard
+CeilingDrips: 0
+RainIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 5.605194E-45
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.1195652
+Grime: 0
+Palette: 27
+EffectColorA: 10
+EffectColorB: 10
+Effects: Desaturation-0-26-83, Contrast-0.06521739-292-20, PixelShift-0.5-32-65, AboveCloudsView-1-266-240, DayNight-0.07608695-273-186, Fog-0.4130435-44-88, LightBurn-0.2391304-20-20, 
+PlacedObjects: DayNightSettings><476.7362><484.0505><-266~100.6603~76~10, LanternOnStick><930.3933><501.6395><-16~-136, LanternOnStick><884.449><469.5201><19~-98, LanternOnStick><1655.305><470.6923><19~-108, LanternOnStick><2505.057><441.5565><-16~-78, LanternOnStick><2455.246><483.2997><20~-113, 
+AmbientSounds: DIR><AM_ENV-LightWind.ogg><789.1793><599.6614><0.07608695><1><7.070343><0, 
+FadePalette: 41, 0.4021739, 0.4347826, 0.423913
+WetTerrain: OFF

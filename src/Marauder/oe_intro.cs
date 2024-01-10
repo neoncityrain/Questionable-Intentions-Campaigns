@@ -2,6 +2,7 @@
 using System.Threading;
 using MoreSlugcats;
 using RWCustom;
+using NCRcatsmod;
 using UnityEngine;
 
 namespace NCRMarauder.OE_INTRO
@@ -9,8 +10,7 @@ namespace NCRMarauder.OE_INTRO
     public class MarauderIntro : UpdatableAndDeletable
     {
         bool CreaturesMade;
-        bool TimerSet;
-        int Timer;
+        int Awaketimer;
         
         public MarauderIntro(Room room)
         {
@@ -21,46 +21,48 @@ namespace NCRMarauder.OE_INTRO
             base.Update(eu);
             if (room.game.AllPlayersRealized)
             {
-                if (TimerSet == false)
+                if (this.room.game.cameras[0].hud != null && this.room.game.cameras[0].hud.textPrompt != null && this.room.game.cameras[0].hud.textPrompt.subregionTracker != null)
                 {
-                    Timer = 0;
-                    TimerSet = true;
+                    this.room.game.cameras[0].hud.textPrompt.subregionTracker.showCycleNumber = false;
+                    this.room.game.cameras[0].hud.textPrompt.subregionTracker.lastRegion = 1;
+                    this.room.game.cameras[0].hud.textPrompt.subregionTracker.lastShownRegion = 1;
                 }
 
                 AbstractCreature firstAlivePlayer = room.game.FirstAlivePlayer;
                 Player player = firstAlivePlayer.realizedCreature as Player;
                 if (CreaturesMade == false)
                 {
-                    player.SuperHardSetPosition(room.MiddleOfTile(7, 38));
+                    player.SuperHardSetPosition(room.MiddleOfTile(15, 68));
+                    player.standing = false;
+                    player.SetMalnourished(true);
+                    player.flipDirection = 1;
+                    player.sleepCounter = 99;
+                    player.sleepCurlUp = 1f;
+                    player.Hypothermia = 0f;
+                    Awaketimer = 0;
+                    this.room.world.rainCycle.timer = this.room.world.rainCycle.cycleLength - 200;
 
-                    AbstractCreature abstractCreature = new AbstractCreature(this.room.world, StaticWorld.GetCreatureTemplate(MoreSlugcatsEnums.CreatureTemplateType.SlugNPC), null, this.room.ToWorldCoordinate(new Vector2(135f, 773f)), this.room.game.GetNewID());
-                    if (!this.room.world.game.rainWorld.setup.forcePup)
-                    {
-                        (abstractCreature.state as PlayerState).forceFullGrown = true;
-                    }
-                    this.room.abstractRoom.AddEntity(abstractCreature);
-                    abstractCreature.Die();
-                    abstractCreature.RealizeInRoom();
-
-                    player.standing = true;
-                    player.SlugcatGrab(abstractCreature.realizedCreature, 0);
                     CreaturesMade = true;
+                    
+                }
+                if (!player.Sleeping)
+                {
+                    this.Awaketimer++;
+                    player.Hypothermia = 0f;
                 }
 
-                if (Timer < 220)
+                if (this.Awaketimer == 150)
                 {
-                    Timer += 1;
-
-                }
-                if (Timer >= 220)
-                {
+                    this.room.game.cameras[0].hud.textPrompt.AddMessage(this.room.game.rainWorld.inGameTranslator.Translate("You are starving. You will be faster and stronger than normal, but take care not to starve to death."), 20, 500, true, true);
                     Destroy();
                 }
 
+
+                
             }
             else
             {
-                Debug.Log("Player not realized");
+                Debug.Log("Error in Marauder Intro!");
             }
         }
 

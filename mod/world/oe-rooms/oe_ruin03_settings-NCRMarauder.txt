@@ -1,0 +1,19 @@
+Template: NONE
+DangerType: Blizzard
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 5.605194E-45
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 1
+Grime: 0
+Palette: 14
+EffectColorA: 9
+EffectColorB: 10
+Effects: DayNight-0.4021739-193-142, Contrast-0.08695652-125-24, Desaturation-0.1086956-27-76, AboveCloudsView-1-20-76, 
+PlacedObjects: LightSource><588.5787><1501.647><1~White~6~-206~26~-201.3975~1~1~None~0~0, LightSource><391.8612><1506.083><1~White~12~-138~222~-325.3975~1~1~None~0~0, LightBeam><191.8645><1156.914><168~372~258~368~14~-346~-290~-206~0.3130434~0.3043478~0~1~None~0~0, LightBeam><338.3127><1036.06><216~488~290~482~137~-148~-427~-240~0.2260868~0.3478261~0~1~None~0~0, LightSource><487.4487><1440.772><1~White~599~-762~-618~-111.3975~1~0~None~0~0, LightSource><545.1695><946.6437><0~Environment~31~141~305~-170.3975~0~0~None~0~0, LightSource><350.4187><955.4325><0~Environment~-80~144~505~-63.39749~1~0~None~0~0, LightSource><290.0549><1082.706><0.5652174~Environment~2~120~-392~-405.3975~1~0~None~0~0, LightSource><449.4142><778.5942><0.326087~Environment~428~536~-86~-176.3975~1~0~None~0~0, LanternOnStick><190.8751><293.9062><-14~-64, LanternOnStick><334.5529><549.5571><45~-141, DayNightSettings><282.9423><891.8122><-73~-107.3398~76~10, Vine><465.5929><1222.376><-259~26, Vine><487.5971><1187.629><-285~72, Vine><253.5509><1166.481><202~288, Vine><222.9438><1244.549><221~213, DangleFruit><235.9378><1315.609><-332~-153~2~3, DangleFruit><266.9033><1340.639><-353~-98~2~3, DangleFruit><293.8607><1292.668><-391~-203~2~3, BlinkingFlower><274.3311><1267.893><, BlinkingFlower><304.5431><1124.188><, BlinkingFlower><277.3121><1211.068><, BlinkingFlower><329.3613><1194.856><, BlinkingFlower><278.6852><839.0754><, BlinkingFlower><330.5524><994.1927><, BlinkingFlower><698.1736><1091.849><, BlinkingFlower><323.0554><1319.548><, BlinkingFlower><695.8058><980.7974><, BlinkingFlower><649.2><1003.744><, 
+FadePalette: 33, 0.2567482, 0.2598844
+WetTerrain: OFF

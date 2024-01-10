@@ -1,0 +1,16 @@
+Template: NONE
+DangerType: Blizzard
+CeilingDrips: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 5.605194E-45
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.5326087
+Palette: 14
+EffectColorA: 10
+EffectColorB: 10
+Effects: Contrast-0.0326087-283-26, Desaturation-0.1195652-26-73, PixelShift-0.5-32-65, AboveCloudsView-1-262-234, SkyAndLightBloom-0.02173913-257-286, LightRain-0-20-20, LightBurn-0.2474637-30-30, Fog-0.4175951-40-40, 
+PlacedObjects: DayNightSettings><39.08282><336.1402><-93~10.66025~76~10, LightSource><796.5417><552.3044><0.1956522~Environment~-789~-357~0~-577.3975~1~0~None~0~0, LanternOnStick><302.7897><529.554><4~-109, LanternOnStick><337.5509><503.7312><-28~-89, GooieDuck><1053.234><530.6993><0~0~2~3, GooieDuck><1145.45><561.5048><0~0~2~3, DeadTokenStalk><673.1951><539.2061><-17~-55, DeadTokenStalk><531.3188><517.4377><30~-60, DeadTokenStalk><584.9481><494.7224><11~-37, 
+FadePalette: 33, 0.5459692, 0.5459692
+WetTerrain: OFF

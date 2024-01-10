@@ -1,14 +1,21 @@
-DangerType: Rain
+Template: NONE
+DangerType: Blizzard
 CeilingDrips: 0
-RainIntensity: 0
+RainIntensity: 0.3478261
 RumbleIntensity: 0
+WaveSpeed: 0.5074337
+WaveLength: 0.9521083
+WaveAmplitude: 0.009515344
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
 Clouds: 0.1802763
+Grime: 0
 Palette: 41
-EffectColorA: 21
-EffectColorB: 21
+EffectColorA: 10
+EffectColorB: 10
 Effects: Fog-0.05413271-18-72, LightBurn-0.07608695-277-21, DayNight-0.07608695-274-73, SkyAndLightBloom-0.1086956-256-175, 
 PlacedObjects: LightSource><533.1459><835.6708><0.3478261~Environment~-601~-402~-629~-279.3975~1~1~None~0~0, LightSource><516.669><812.643><0.2391304~Environment~-528~-435~75~-274.3975~1~0~None~0~0, DayNightSettings><458.5536><402.0573><5~8.660254~76~10, DeadTokenStalk><357.4529><681.5557><-36~-65, DeadTokenStalk><305.3002><661.7422><1~-46, DeadTokenStalk><264.4789><689.5511><-2~-72, SnowSource><444.4449><436.1563><None~-594.0677~141.9556~50~86.60254~0.203476~0, 
 AmbientSounds: OMNI><AM_ENV-Pasture.ogg><820.0264><578.3018><0.423913><1, OMNI><AM_ENV-Outside.ogg><820.1475><649.5782><0.4021739><1, OMNI><AM_ENV-SubTerr.ogg><822.5965><505.1218><0.1521739><1, OMNI><AM_ENV-LushNight.ogg><644.9436><649.0581><0.3478261><1, OMNI><SO_WAT-Splashes.ogg><652.4424><575.0585><0.1847819><1, SPOT><SO_WAT-OpenFlow.ogg><827.0591><386.0589><0.5><1><-92.94092><708.0589><229.6447><-19.35535><0><0.1652175, 
-FadePalette: 4, 0.7065217
+FadePalette: 37, 0.7065217
 RoomSpecificScriptActive: ON
 WetTerrain: OFF

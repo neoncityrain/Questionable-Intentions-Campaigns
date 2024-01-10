@@ -1,12 +1,14 @@
+Template: NONE
+DangerType: Blizzard
 CeilingDrips: 0
-WaveSpeed: 0.5013993
-WaveLength: 0.9993004
-WaveAmplitude: 0.0001739489
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 5.605194E-45
 SecondWaveLength: 0.1666667
 SecondWaveAmplitude: 0
 Clouds: 1
 Palette: 41
-Effects: Bloom-0.2065217-40-40, FireFlies-0-50-50, 
-PlacedObjects: LightSource><414.1394><362.6666><0.3804348~Environment~525~-276~471~-396.3975~1~0~None~0~0, LightSource><414.8413><375.6283><0.09782609~Environment~380~-305~50~86.60254~1~1~None~0~0, 
-FadePalette: 40, 0.6847826
+Effects: Bloom-0.2065217-76-53, Coldness-0-20-20, Fog-0.1956522-36-81, 
+PlacedObjects: LightSource><414.1394><362.6666><0.3804348~Environment~525~-276~471~-396.3975~1~0~None~0~0, LightSource><414.8413><375.6283><0.09782609~Environment~380~-305~50~86.60254~1~1~None~0~0, SnowSource><793.8907><120.4175><Strip~-11~76~50~86.60254~0.6739131~0, SnowSource><152.724><319.3998><Radial~0~100~-337.7448~-101.1308~0.450939~0, LightBeam><230.9951><282.3778><-61.18539~284.6222~-113.675~286.7556~-108.6948~70.39999~-309.4844~-210.4889~0.5237327~0.6597376~0~1~None~0~0, LightSource><157.3608><528.5488><0.5050725~Environment~93.91251~-48.62225~-352.6854~-228.4197~1~0~None~0~0, LightSource><793.7697><536.3851><0.5514712~Environment~-5.691711~-113.3333~43.59686~-246.9086~1~0~None~0~0, 
+FadePalette: 40, 0.3695652
 WetTerrain: OFF
