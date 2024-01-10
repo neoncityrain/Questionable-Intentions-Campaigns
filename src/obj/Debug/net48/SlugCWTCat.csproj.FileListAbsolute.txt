@@ -1,0 +1,9 @@
+D:\RWMods\SlugCatCWTExample\src\bin\Debug\net48\SlugCWTCat.dll
+D:\RWMods\SlugCatCWTExample\src\bin\Debug\net48\SlugCWTCat.pdb
+D:\RWMods\SlugCatCWTExample\src\obj\Debug\net48\SlugCWTCat.csproj.AssemblyReference.cache
+D:\RWMods\SlugCatCWTExample\src\obj\Debug\net48\SlugCWTCat.GeneratedMSBuildEditorConfig.editorconfig
+D:\RWMods\SlugCatCWTExample\src\obj\Debug\net48\SlugCWTCat.AssemblyInfoInputs.cache
+D:\RWMods\SlugCatCWTExample\src\obj\Debug\net48\SlugCWTCat.AssemblyInfo.cs
+D:\RWMods\SlugCatCWTExample\src\obj\Debug\net48\SlugCWTCat.csproj.CoreCompileInputs.cache
+D:\RWMods\SlugCatCWTExample\src\obj\Debug\net48\SlugCWTCat.dll
+D:\RWMods\SlugCatCWTExample\src\obj\Debug\net48\SlugCWTCat.pdb

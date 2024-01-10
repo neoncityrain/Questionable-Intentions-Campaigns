@@ -1,0 +1,9 @@
+C:\Users\tongu\3D Objects\NCREntropy\src\bin\Debug\net48\NCREntropy.dll
+C:\Users\tongu\3D Objects\NCREntropy\src\bin\Debug\net48\NCREntropy.pdb
+C:\Users\tongu\3D Objects\NCREntropy\src\obj\Debug\net48\NCREntropy.csproj.AssemblyReference.cache
+C:\Users\tongu\3D Objects\NCREntropy\src\obj\Debug\net48\NCREntropy.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\tongu\3D Objects\NCREntropy\src\obj\Debug\net48\NCREntropy.AssemblyInfoInputs.cache
+C:\Users\tongu\3D Objects\NCREntropy\src\obj\Debug\net48\NCREntropy.AssemblyInfo.cs
+C:\Users\tongu\3D Objects\NCREntropy\src\obj\Debug\net48\NCREntropy.csproj.CoreCompileInputs.cache
+C:\Users\tongu\3D Objects\NCREntropy\src\obj\Debug\net48\NCREntropy.dll
+C:\Users\tongu\3D Objects\NCREntropy\src\obj\Debug\net48\NCREntropy.pdb

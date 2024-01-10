@@ -1,0 +1,47 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\tongu\\3D Objects\\NCRqints\\src\\Neon's Cats.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\tongu\\3D Objects\\NCRqints\\src\\Neon's Cats.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\tongu\\3D Objects\\NCRqints\\src\\Neon's Cats.csproj",
+        "projectName": "Neon's Cats",
+        "projectPath": "C:\\Users\\tongu\\3D Objects\\NCRqints\\src\\Neon's Cats.csproj",
+        "packagesPath": "C:\\Users\\tongu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tongu\\3D Objects\\NCRqints\\src\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\tongu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net48"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net48": {
+            "targetAlias": "net48",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net48": {
+          "targetAlias": "net48",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

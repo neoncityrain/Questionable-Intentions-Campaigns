@@ -13,8 +13,11 @@ using On.Expedition;
 using DressMySlugcat;
 using System.Linq;
 using System.Collections.Generic;
+using JollyCoop;
 using System.Drawing;
 using System.Runtime.InteropServices;
+using NCRMarauder.OE_INTRO;
+using static MonoMod.InlineRT.MonoModRule;
 
 namespace NCRcatsmod
 {
@@ -47,6 +50,7 @@ namespace NCRcatsmod
             On.RainWorld.OnModsInit += Init;
             On.RainWorld.PostModsInit += RainWorld_PostModsInit;
 
+
             // ---------------------------------------------------- ENTROPY STUFF ----------------------------------------------------
             //entropy karma seizure. here for future parton usage as well
             On.KarmaFlower.BitByPlayer += KarmaFlower_BitByPlayer;
@@ -55,11 +59,10 @@ namespace NCRcatsmod
             On.Creature.Grab += Creature_Grab;
 
             // ---------------------------------------------------- MARAUDER STUFF ----------------------------------------------------
-            // marauder more mauling
+            // marauder interacting with other slugcats
             On.Player.CanMaulCreature += Player_CanMaulCreature;
-
-            // disallow marauder from putting slugs on back
             On.Player.CanIPutDeadSlugOnBack += Player_CanIPutDeadSlugOnBack;
+            On.Player.SlugcatGrab += Player_SlugcatGrab;
 
             // worm grass ignores marauder
             On.WormGrass.WormGrassPatch.InteractWithCreature += WormGrassPatch_InteractWithCreature;
@@ -67,6 +70,8 @@ namespace NCRcatsmod
             // blue objects !!!!!!!
             On.SeedCob.ApplyPalette += SeedCob_ApplyPalette;
             On.Lantern.ApplyPalette += Lantern_ApplyPalette;
+            On.Lantern.TerrainImpact += Lantern_TerrainImpact;
+            On.Lantern.Update += Lantern_Update;
 
             // remove karma reinforcement and cannibalism buffs at the end of a cycle
             On.SaveState.BringUpToDate += SaveState_BringUpToDate;
@@ -74,9 +79,76 @@ namespace NCRcatsmod
             // checks if player ate a slugpup or player
             On.PlayerSessionRecord.AddEat += PlayerSessionRecord_AddEat;
 
+            // cant throw spears when not starving or cannibalising
+            On.Player.ThrownSpear += Player_ThrownSpear;
+
             // ---------------------------------------------------- VIVIATED STUFF ----------------------------------------------------
             //gross sounds when dying
             On.Player.Die += Player_Die;
+        }
+
+        private void Player_ThrownSpear(On.Player.orig_ThrownSpear orig, Player self, Spear spear)
+        {
+            orig(self, spear);
+            if (self.GetMarCat().IsMarauder)
+            {
+                if (MarauderCannibalising)
+                {
+                    BodyChunk firstChunk = spear.firstChunk;
+                    firstChunk.vel.x = firstChunk.vel.x * 0.88f;
+                    spear.room.AddObject(new Spark(spear.thrownPos, firstChunk.vel, UnityEngine.Color.Lerp(new UnityEngine.Color(1f, 0.2f, 0f), new UnityEngine.Color(1f, 1f, 1f), UnityEngine.Random.value * 0.5f), null, 19, 47));
+                    Debug.Log("Marauder spear thrown after cannibalising");
+                }
+                else if (self.Malnourished)
+                {
+                    spear.spearDamageBonus = 2.5f;
+                    Debug.Log("Marauder spear thrown while malnourished");
+                }
+                else
+                {
+                    spear.throwModeFrames = 2;
+                    spear.spearDamageBonus = 0.2f;
+                    Debug.Log("Marauder spear thrown while NOT malnourished");
+                }
+            }
+        }
+
+        private void Player_SlugcatGrab(On.Player.orig_SlugcatGrab orig, Player self, PhysicalObject obj, int graspUsed)
+        {
+            orig(self, obj, graspUsed);
+            if (self.GetMarCat().IsMarauder && obj is Player)
+            {
+                (obj as Player).dangerGrasp = self.grasps[graspUsed];
+                (obj as Player).dangerGraspTime = 0;
+            }
+        }
+
+        private void Lantern_Update(On.Lantern.orig_Update orig, Lantern self, bool eu)
+        {
+            orig(self, eu);
+            if (self.room.game.session.characterStats.name.value == "NCRMarauder" && self.lightSource == null)
+            {
+                self.lightSource = new LightSource(self.firstChunk.pos, false, new UnityEngine.Color(0.5f, 0.8f, 0.9f), self);
+                self.room.AddObject(self.lightSource);
+            }
+
+        }
+
+        private void Lantern_TerrainImpact(On.Lantern.orig_TerrainImpact orig, Lantern self, int chunk, IntVector2 direction, float speed, bool firstContact)
+        {
+            orig(self, chunk, direction, speed, firstContact);
+            // if the world belongs to marauder, lanterns will have blue sparks when hitting things. small change but important to me
+            // unsure how to remove the red ones, though...
+            if (speed > 5f && firstContact && self.room.game.session.characterStats.name.value == "NCRMarauder")
+            {
+                Vector2 pos = self.bodyChunks[chunk].pos + direction.ToVector2() * self.bodyChunks[chunk].rad * 0.9f;
+                int num = 0;
+                while ((float)num < Mathf.Round(Custom.LerpMap(speed, 5f, 15f, 2f, 8f)))
+                {
+                    self.room.AddObject(new Spark(pos, direction.ToVector2() * Custom.LerpMap(speed, 5f, 15f, -2f, -8f) + Custom.RNV() * UnityEngine.Random.value * Custom.LerpMap(speed, 5f, 15f, 2f, 4f), UnityEngine.Color.Lerp(new UnityEngine.Color(0f, 0.8f, 0.9f), new UnityEngine.Color(1f, 1f, 1f), UnityEngine.Random.value * 0.5f), null, 19, 47));
+                    num++;
+                }
+            }
         }
 
         private void Lantern_ApplyPalette(On.Lantern.orig_ApplyPalette orig, Lantern self, RoomCamera.SpriteLeaser sLeaser, RoomCamera rCam, RoomPalette palette)
@@ -99,7 +171,7 @@ namespace NCRcatsmod
         {
             orig(self, eatenObject);
             if (eatenObject.room.game.session.characterStats.name.value == "NCRMarauder" && eatenObject.room.game.session is StoryGameSession && 
-                eatenObject is Player || (eatenObject as Player).room.game.session.characterStats.name.value == "Slugpup")
+                (eatenObject is Player || (eatenObject as Player).room.game.session.characterStats.name.value == "Slugpup"))
             {
                 Debug.Log("MARAUDER FUCKED UP AND EVIL MOMENTS!!!!!!!!");
                 MarauderCannibalising = true;
@@ -111,8 +183,9 @@ namespace NCRcatsmod
             orig(self, game);
             if (game.session.characterStats.name.value == "NCRMarauder" && game.session is StoryGameSession)
             {
-
+                // marauder is unable to keep reinforced karma through cycles
                 (game.session as StoryGameSession).saveState.deathPersistentSaveData.reinforcedKarma = false;
+                // prevent a constant cannibalising buff
                 MarauderCannibalising = false;
             }
         }
@@ -264,25 +337,18 @@ namespace NCRcatsmod
         private bool Player_CanMaulCreature(On.Player.orig_CanMaulCreature orig, Player self, Creature crit)
         {
             orig(self, crit);
-            if (self.GetMarCat().IsMarauder)
-            {
-                return !(crit is IPlayerEdible) && self.IsCreatureLegalToHoldWithoutStun(crit) && !crit.dead;
-            }
-            else
-            {
-                bool flag = true;
-                if (ModManager.CoopAvailable)
+            bool flag = true;
+            if (ModManager.CoopAvailable)
                 {
                     Player player = crit as Player;
-                    if (player != null && (player.isNPC || !Custom.rainWorld.options.friendlyFire))
+                    if (player != null && (player.isNPC || !Custom.rainWorld.options.friendlyFire || !self.GetMarCat().IsMarauder))
                     {
                         flag = false;
                     }
                 }
-                return !(crit is Fly) && !crit.dead && (!(crit is IPlayerEdible) || (crit is Centipede && !(crit as Centipede).Edible) ||
-                    self.FoodInStomach >= self.MaxFoodInStomach) && flag && (crit.Stunned || (!(crit is Cicada) && !(crit is Player) &&
-                    self.IsCreatureLegalToHoldWithoutStun(crit))) && SlugcatStats.SlugcatCanMaul(self.SlugCatClass);
-            }
+            return !(crit is Fly) && !crit.dead && (!(crit is IPlayerEdible) || (crit is Centipede && !(crit as Centipede).Edible) ||
+                    self.FoodInStomach >= self.MaxFoodInStomach) && flag && (crit.Stunned || (!(crit is Cicada) && (!(crit is Player) ||
+                    self.GetMarCat().IsMarauder) && self.IsCreatureLegalToHoldWithoutStun(crit))) && SlugcatStats.SlugcatCanMaul(self.SlugCatClass);
         }
 
         private void Player_ctor(On.Player.orig_ctor orig, Player self, AbstractCreature abstractCreature, World world)
@@ -319,6 +385,15 @@ namespace NCRcatsmod
             if (self.slugcatStats.name.value == "NCRMarauder")
             {
                 self.GetMarCat().IsMarauder = true;
+
+                if (self.room.game.session is StoryGameSession)
+                {
+                    string name = self.room.abstractRoom.name;
+                    if (name == "OE_RUIN04")
+                    {
+                        self.room.AddObject(new MarauderIntro(self.room));
+                    }
+                }
             }
             // ---------------------------------------------------- VIVIATED STUFF ----------------------------------------------------
             if (self.slugcatStats.name.value == "NCRParton")
@@ -390,6 +465,10 @@ namespace NCRcatsmod
             {
                 if (self.playerState.foodInStomach > 1)
                 { self.jumpBoost += 1.5f; }
+                else if (MarauderCannibalising)
+                {
+                    self.jumpBoost += 4f;
+                }
                 else
                 { self.jumpBoost += 3f; }
             }
