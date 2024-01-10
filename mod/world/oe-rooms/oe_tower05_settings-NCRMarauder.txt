@@ -1,0 +1,18 @@
+Template: NONE
+DangerType: Blizzard
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 5.605194E-45
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0
+Grime: 0.1956522
+Palette: 33
+EffectColorA: 0
+EffectColorB: 0
+Effects: Fog-0.7391304-22-84, 
+PlacedObjects: LightFixture><816.2365><560.4495><RedLight~-190.6795~213~34, LightSource><535.4704><2999.553><0.3913043~Environment~-370~32~102~-97.39752~1~0~None~0~0, DayNightSettings><533.8774><2700.658><-105~-71.33975~10~10, GooieDuck><428.4328><618.9188><192~-13~2~3, GooieDuck><474.442><684.0558><148~10~2~3, GooieDuck><573.933><733.0807><48~-210~2~3, GooieDuck><566.3215><2744.59><105~-84~2~3, GooieDuck><578.4009><2814.674><54~9~2~3, GooieDuck><541.6954><2852.542><98~-110~2~3, 
+AmbientSounds: OMNI><AM_WIN-SubWnd.ogg><64.68561><396.9394><0.6739131><1, OMNI><Noise Wind.wav><57.16541><301.0688><0.3478261><1, SPOT><AM_IND-ElectricHum01.ogg><751.8501><291.1176><0.6521739><1><829.8501><501.1176><-77.35535><-5.355347><0><0.2086958, SPOT><SO_WAT-Splashes.ogg><755.6998><162.9436><0.2826087><1><379.6998><2814.944><60.64465><-77.35535><0><0.2304349, 
+FadePalette: 10, 0.1413043, 0.3043478, 0.5434783, 0.7282609

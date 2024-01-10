@@ -4,13 +4,13 @@ RainIntensity: 0
 RumbleIntensity: 0
 WaveSpeed: 0.5
 WaveLength: 1
-WaveAmplitude: 2.936395E-10
+WaveAmplitude: 5.605194E-45
 SecondWaveLength: 0.1666667
 SecondWaveAmplitude: 0
 Clouds: 1
 Grime: 0.1956522
 Palette: 14
 EffectColorA: 18
-EffectColorB: 6
+EffectColorB: 21
 PlacedObjects: BrokenShelterWaterLevel><495.3025><438.557><, 
 FadePalette: 8, 0.9565217

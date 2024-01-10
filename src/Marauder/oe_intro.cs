@@ -35,12 +35,11 @@ namespace NCRMarauder.OE_INTRO
                     player.SuperHardSetPosition(room.MiddleOfTile(15, 68));
                     player.standing = false;
                     player.SetMalnourished(true);
+                    player.Hypothermia = 0f;
                     player.flipDirection = 1;
                     player.sleepCounter = 99;
                     player.sleepCurlUp = 1f;
-                    player.Hypothermia = 0f;
                     Awaketimer = 0;
-                    this.room.world.rainCycle.timer = this.room.world.rainCycle.cycleLength - 200;
 
                     CreaturesMade = true;
                     
@@ -55,6 +54,7 @@ namespace NCRMarauder.OE_INTRO
                 {
                     this.room.game.cameras[0].hud.textPrompt.AddMessage(this.room.game.rainWorld.inGameTranslator.Translate("You are starving. You will be faster and stronger than normal, but take care not to starve to death."), 20, 500, true, true);
                     Destroy();
+
                 }
 
 

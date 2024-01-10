@@ -1,10 +1,10 @@
 Template: NONE
-DangerType: FloodAndRain
-RainIntensity: 0.7369564
+DangerType: Blizzard
+RainIntensity: 1
 RumbleIntensity: 1
-WaveSpeed: 0.5
-WaveLength: 1
-WaveAmplitude: 0
+WaveSpeed: 0.5365602
+WaveLength: 0.8043542
+WaveAmplitude: 0.03654091
 SecondWaveLength: 0.1666667
 SecondWaveAmplitude: 0
 Clouds: 0.6956522
@@ -12,7 +12,7 @@ BkgDroneVolume: 0
 Palette: 33
 EffectColorA: 10
 EffectColorB: 9
-Effects: SkyAndLightBloom-0.2002494-147.4948-102.0889, LightBurn-0.0850656-283.2396-71.91112, Fog-0.28613-20-20, PixelShift-0.5026608-40-40, AboveCloudsView-1-30-30, 
+Effects: SkyAndLightBloom-0.2002494-147.4948-102.0889, LightBurn-0.0850656-283.2396-71.91112, Fog-0.28613-20-20, PixelShift-0.5026608-40-40, AboveCloudsView-1-35-105, MossWater-0-30-30, MossWaterRGB-0-530-470-Blue:255-Green:255-Red:227.3369, 
 PlacedObjects: LightSource><218.7193><1001.302><0.1630435~EffectColor1~10~328~50~86.60254~1~1~None~0~0, LightSource><396.6714><1238.684><0.1195652~EffectColor1~223~-139~159~-111.3975~1~1~None~0.4565217~0, LightSource><706.0982><524.3698><0.3152174~EffectColor1~-232~-314~-518~-139.3975~1~1~None~0~0, LightSource><437.3245><320.8458><0.1195652~EffectColor1~162~256~-557~31.60254~1~0~None~0~0, KarmaFlower><672.4337><326.3132><0~0~5~7, DangleFruit><651.8594><571.8922><0~0~2~3, DangleFruit><679.8235><525.6559><0~0~2~3, 
 AmbientSounds: SPOT><AM_ENV-CricketsWnd.ogg><113.9147><464.3634><0.3586957><1><762.9147><602.3634><-240.3553><-102.3553><0><0.3934784, 
 FadePalette: 14, 0.4932972, 0.4304007

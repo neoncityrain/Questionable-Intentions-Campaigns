@@ -2,16 +2,16 @@ Template: NONE
 DangerType: Blizzard
 CeilingDrips: 0
 RumbleIntensity: 0
-WaveSpeed: 0.5
-WaveLength: 1
-WaveAmplitude: 5.605194E-45
+WaveSpeed: 0.4375586
+WaveLength: 0.8696151
+WaveAmplitude: 0.02206325
 SecondWaveLength: 1
 SecondWaveAmplitude: 0.0001
 Clouds: 0.8893231
 Palette: 33
 EffectColorA: 9
 EffectColorB: 9
-Effects: AboveCloudsView-1-302-16, Fog-0-296-82, Darkness-0.2391304-29.27814-106.3333, ZeroG-0-30-30, MossWater-0-20-20, MossWaterRGB-0-440.551-515.7333-Green:255-Red:255-Blue:255-Height:1, WaterDepth-0.0386661-40-40, 
+Effects: AboveCloudsView-1-302-16, Fog-0-296-82, Darkness-0.2391304-29.27814-106.3333, ZeroG-0-30-30, MossWater-0-20-20, MossWaterRGB-0-440.551-515.7333-Green:255-Red:199.5652-Blue:255-Height:1, WaterDepth-0.0386661-40-40, 
 PlacedObjects: LanternOnStick><1731.035><2019.947><-48~-254, LanternOnStick><1262.064><1939.94><-46~-254, LanternOnStick><1642.804><1963.711><56~-212, LightFixture><2636.699><1908.943><RedLight~17.32051~-10~25, LightFixture><3104.604><2078.614><RedLight~17.32051~-10~65, LightFixture><2246.807><2260.558><RedLight~17.32051~-10~77, LanternOnStick><768.825><2074.848><46~-119, LanternOnStick><1289.907><1408.573><-17~-196, CentipedeAttractor><1399.866><389.1487><151~169, Mushroom><1798.303><1937.787><0~0~2~3, Mushroom><1829.602><1947.922><0~0~2~3, Mushroom><1860.358><1960.891><0~0~2~3, Mushroom><733.9074><1975.677><0~0~2~3, Mushroom><761.2><1987.5><0~0~2~3, 
 AmbientSounds: OMNI><SO_WAT-MoreDrips.ogg><431.1642><636.1142><0.5><1, OMNI><AM_SUB-MysticCave2.ogg><604.1166><636.101><0.2391304><1, SPOT><AM_IND-Utility03.ogg><783.303><529.7152><0.2826087><0.9217392><603.303><1985.716><-35.35534><-35.35534><0><1, SPOT><SO_IND-HeatDuct.ogg><779.8204><409.8128><0.3478261><0.6086956><1598.82><1958.813><-128.3553><-47.35535><0><0.5565219, SPOT><AM_WIN-SubWnd.ogg><779.0106><295.8003><0.5><1><1175.011><564.8003><507.6447><-255.3553><0><0.6326088, 
 FadePalette: 14, 0.6421195, 0.623947, 0.5579146, 0.346626, 0.7826087

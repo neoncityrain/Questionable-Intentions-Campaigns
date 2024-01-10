@@ -1,16 +1,19 @@
-DangerType: Rain
-RainIntensity: 0.5217391
-RumbleIntensity: 0.3478261
-WaveSpeed: 0.5
-WaveLength: 1
-WaveAmplitude: 0.000175031
+Template: NONE
+DangerType: Blizzard
+CeilingDrips: 0
+RainIntensity: 1
+RumbleIntensity: 0.4130435
+WaveSpeed: 0.5294218
+WaveLength: 0.9211238
+WaveAmplitude: 0.01557542
 SecondWaveLength: 0.1666667
 SecondWaveAmplitude: 0
 Clouds: 0.75
+Grime: 0.2173913
 Palette: 12
 EffectColorA: 21
 EffectColorB: 21
-Effects: LightRain-0.04347826-284-84, BorderPushBack-1-24-136, AboveCloudsView-1-260-246, DayNight-0.5-270-188, 
+Effects: BorderPushBack-1-24-136, AboveCloudsView-1-260-246, Coldness-0-40-40, Fog-0.5869565-50-50, 
 PlacedObjects: CustomDecal><895.9467><762.6894><-8~160~956~246~926~41~392~-32~0~1~0~AwfulLongB&W~0.2391304~1~0.2391304~1~0.2391304~1~0.2391304~1, LanternOnStick><2512.691><1346.809><-28~-90, LanternOnStick><2349.057><1377.058><14~-90, LanternOnStick><2367.859><1357.622><4~-74, LanternOnStick><2823.303><1434.678><-18~-64, LanternOnStick><2770.86><1426.898><24~-61, CustomDecal><2210.398><1105.323><-101~199~912~209~787~5~-382.3574~-127.7804~0~1~1~Scav Wedges2~0.6630435~1~0.6630435~1~0.6630435~1~0.6630435~1, CustomDecal><2260.634><1148.899><-87~100~49~166~128~35~-113~-339~0~1~0.5760869~ScavMark~0.8586956~0.5326087~0.8586956~0.5326087~0.8586956~0.5326087~0.8586956~0.5326087, DayNightSettings><640.8583><464.4489><5~8.660254~76~10, NoSpearStickZone><4354.802><1210.625><3~141, ScavengerTreasury><2693.034><1290.053><80~32, ScavengerTreasury><2574.448><1301.775><-1~75, ScavengerTreasury><2470.51><1332.7><-1~72, 
 AmbientSounds: OMNI><AM_ENV-NatWind.ogg><743.5627><492.3201><0.4673913><0.6478265, OMNI><SO_WAT-Splashes.ogg><748.8643><404.9141><0.2608696><1, 
-FadePalette: 41, 0.8260869, 0.6847826, 0.6195652, 0.5543478, 0.5, 0.75, 0.6630435, 0.5869565, 0.5326087, 0.4891304
+FadePalette: 41, 0.7934783, 0.7065217, 0.6195652, 0.5108696, 0.3369565, 0.1847826, 0.3369565, 0.5326087, 0.5, 0.4456522

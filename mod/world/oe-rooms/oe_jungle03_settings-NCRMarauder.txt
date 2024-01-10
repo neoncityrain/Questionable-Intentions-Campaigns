@@ -3,9 +3,9 @@ DangerType: Blizzard
 CeilingDrips: 0
 RainIntensity: 1
 RumbleIntensity: 1
-WaveSpeed: 0.4916455
-WaveLength: 0.9876342
-WaveAmplitude: 0.005299357
+WaveSpeed: 0.5040863
+WaveLength: 0.9912976
+WaveAmplitude: 0.004940456
 SecondWaveLength: 1
 SecondWaveAmplitude: 0.0001
 Clouds: 0.6956522
@@ -16,7 +16,7 @@ WaterReflectionAlpha: 1
 Palette: 40
 EffectColorA: 9
 EffectColorB: 10
-Effects: Darkness-0.02173913-305.7073-129.8889, Contrast-0.02173913-290-20, SilenceWater-0.5543478-266-283, SkyBloom-1-283-338, LightBurn-0.1005322-278-66, WaterDepth-0-537-17, Coldness-1-20-20, AboveCloudsView-1-13.63647-80.48888, Fog-0.4175951-3.755219-146.7111, MossWater-0-30-30, MossWaterRGB-0-40-40, 
+Effects: Darkness-0.02173913-305.7073-129.8889, Contrast-0.02173913-290-20, SilenceWater-0.5543478-266-283, SkyBloom-1-283-338, LightBurn-0.1005322-278-66, WaterDepth-0-537-17, AboveCloudsView-1-13.63647-80.48888, Fog-0.4175951-3.755219-146.7111, MossWater-0-30-30, MossWaterRGB-0-453-511-Blue:255-Green:255-Red:216.25, Coldness-0-20-20, 
 PlacedObjects: Vine><870.45><769.4957><161~72, Vine><2036.3><702.7535><-252~111, Vine><1462.321><808.8394><338~-1, Vine><1502.308><795.6949><-330~37, Vine><1802.381><798.5989><-270~103, Vine><2314.512><650.5504><182~220, Vine><2544.531><599.5524><-526~127, Vine><2021.7><708.7461><481~158, Vine><2535.948><603.026><-47~262, DayNightSettings><258.8><640.4965><5~8.660254~76~10, ExitSymbolHidden><1429.467><468.5527><, BlinkingFlower><2408.696><325.7892><, BlinkingFlower><2608.471><434.9479><, SnowSource><1494.37><501.4001><Radial~525.7677~23.20001~50~86.60254~1~0.04639933, SnowSource><551.1241><483.8708><Radial~-340.7885~223.7333~50~86.60254~1~0.1237322, SnowSource><1063.089><675.0433><Radial~-184.2678~-218.5777~50~86.60254~1~0.317063, SnowSource><1049.823><318.0043><Radial~-180.7104~134.8445~50~86.60254~1~0, SnowSource><2560.505><539.4579><Radial~-404.1083~-99.82224~50~86.60254~1~0.09279865, SnowSource><2071.409><531.9885><Radial~-434.701~-284~50~86.60254~1~0.2165308, 
 AmbientSounds: OMNI><AM_ENV-Pasture.ogg><807.0521><568.0286><0.2391304><1.019565, OMNI><AM_ENV-Outside.ogg><800.8477><637.1205><0.4021739><1, OMNI><AM_ENV-LushNight.ogg><806.7668><495.6993><0.3478261><1, OMNI><AM_ENV-CricketsWnd.ogg><627.8747><638.6564><0.5><1, 
 FadePalette: 14, 0.6661345, 0.7029099, 0.6893342

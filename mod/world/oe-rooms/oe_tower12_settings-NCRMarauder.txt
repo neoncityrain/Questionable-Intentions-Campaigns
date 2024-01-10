@@ -1,0 +1,19 @@
+Template: NONE
+DangerType: Blizzard
+CeilingDrips: 0
+RainIntensity: 0.6195652
+RumbleIntensity: 0
+WaveSpeed: 0.5251248
+WaveLength: 0.8734661
+WaveAmplitude: 0.02336895
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.8586956
+BkgDroneVolume: 0
+Palette: 12
+EffectColorB: 9
+Effects: Darkness-0.4021739-23-130, Fog-0.25-25-76, 
+PlacedObjects: LightFixture><19.02948><1179.552><RedLight~17.32051~-10~27, LightFixture><979.2995><982.3065><RedLight~17.32051~-10~89, LightFixture><852.8065><295.3007><RedLight~17.32051~-10~89, 
+AmbientSounds: OMNI><SO_WAT-LilDrips.ogg><848.8854><632.8528><0.1521739><1, OMNI><AM_WIN-StrongWnd2.ogg><849.9929><554.6998><0.173913><1, OMNI><AM_IND-SuperStructure.ogg><852.4448><478.7956><0.3586957><0.7456522, SPOT><SO_WAT-Splashes.ogg><848.55><363.0005><0.2282609><1><-8.450012><62.00049><361.6447><132.6447><0><0.2413045, SPOT><SO_WAT-Splashes.ogg><850.1598><243.6785><0.1630435><1><-167.8402><1157.678><262.6447><-215.3553><0><0.328261, SPOT><AM_ENV-LushNight.ogg><673.7023><247.6942><0.5><1><20.70233><147.6942><336.6447><-5.355347><0><0.6000001, SPOT><AM_ENV-NatWind.ogg><679.3799><364.4021><0.4456522><1><-49.62012><1208.402><-155.3553><-259.3553><0><0.6652175, SPOT><SO_IND-HeatDuct.ogg><680.7642><479.9495><0.2826087><1><590.7641><1454.949><-188.3553><-250.3553><0><0.404348, 
+FadePalette: 33, 0.4565217, 0.4565217
+WetTerrain: OFF

@@ -1,18 +1,18 @@
 Template: NONE
 DangerType: Blizzard
 CeilingDrips: 0
-RainIntensity: 0.173913
+RainIntensity: 0.1195652
 RumbleIntensity: 0
-WaveSpeed: 0.5
-WaveLength: 1
-WaveAmplitude: 5.605194E-45
+WaveSpeed: 0.5004762
+WaveLength: 0.9988587
+WaveAmplitude: 0.000613133
 SecondWaveLength: 1
 SecondWaveAmplitude: 0.0001
 Clouds: 0.7282609
 Palette: 44
 EffectColorA: 11
-Effects: DayNight-0.5108696-273-186, Fog-0-31-136, SkyAndLightBloom-0.04347826-282-119, Darkness-0.423913-269-73, 
-PlacedObjects: LanternOnStick><612.4495><410.2361><68~-210, LanternOnStick><343.05><385.2461><-53~-190, LanternOnStick><934.4458><437.041><12~-112, LanternOnStick><472.551><1302.27><-28~148, LanternOnStick><1353.21><463.6959><0~-138, LanternOnStick><1392.437><442.5717><-26~-107, LanternOnStick><2865.015><421.0505><-65~-121, LanternOnStick><2824.87><475.4017><-21~-153, LanternOnStick><2446.198><447.2816><47~-138, TradeOutpost><2664.077><386.3995><-231~-130, LanternOnStick><3483.17><404.3167><61~-173, DayNightSettings><100.688><1410.932><5~8.660254~10~17, Mushroom><1209.199><419.0213><0~0~2~3, Mushroom><1239.199><429.0178><0~0~2~3, Mushroom><1273.81><389.9362><0~0~2~3, Mushroom><1317.192><369.9455><0~0~2~3, GooieDuck><2176.31><460.9408><0~0~2~3, GooieDuck><2059.056><644.7977><0~0~2~3, GooieDuck><2155.131><608.9105><0~0~2~3, 
+Effects: Fog-0-31-136, SkyAndLightBloom-0.04347826-282-119, Darkness-0.423913-269-73, 
+PlacedObjects: LanternOnStick><612.4495><410.2361><68~-210, LanternOnStick><343.05><385.2461><-53~-190, LanternOnStick><934.4458><437.041><12~-112, LanternOnStick><472.551><1302.27><-28~148, LanternOnStick><1353.21><463.6959><0~-138, LanternOnStick><1392.437><442.5717><-26~-107, LanternOnStick><2865.015><421.0505><-65~-121, LanternOnStick><2824.87><475.4017><-21~-153, LanternOnStick><2446.198><447.2816><47~-138, LanternOnStick><3483.17><404.3167><61~-173, Mushroom><1209.199><419.0213><0~0~2~3, Mushroom><1239.199><429.0178><0~0~2~3, Mushroom><1273.81><389.9362><0~0~2~3, Mushroom><1317.192><369.9455><0~0~2~3, GooieDuck><2176.31><460.9408><0~0~2~3, GooieDuck><2059.056><644.7977><0~0~2~3, GooieDuck><2155.131><608.9105><0~0~2~3, 
 AmbientSounds: SPOT><SO_WAT-OpenFlow.ogg><787.3011><528.5216><0.5><1><1660.301><321.5216><-268.3553><56.64465><0><0.7630436, SPOT><SO_WAT-Splashes.ogg><795.6718><416.8159><0.4130435><1><1666.672><455.8159><-143.3553><-229.3553><0><0.6326088, SPOT><SO_WAT-OpenFlow.ogg><810.6287><298.659><0.3586957><1><3341.629><418.659><-24.35535><-206.3553><0><0.6217393, SPOT><SO_WAT-Splashes.ogg><806.0695><189.664><0.3913043><1><3362.069><465.6639><-39.35535><-197.3553><0><0.3826088, SPOT><AM_WIN-SubWnd.ogg><635.5605><398.814><0.3369565><1><1114.561><428.814><183.6447><-281.3553><0><0.4260871, 
 FadePalette: 33, 0.7065217, 0.6956522, 0.6847826, 0.7065217, 0.7173913
 WetTerrain: OFF

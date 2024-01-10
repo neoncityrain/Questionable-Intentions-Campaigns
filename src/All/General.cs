@@ -72,6 +72,7 @@ namespace NCRcatsmod
             On.Lantern.ApplyPalette += Lantern_ApplyPalette;
             On.Lantern.TerrainImpact += Lantern_TerrainImpact;
             On.Lantern.Update += Lantern_Update;
+            On.FlyLure.ApplyPalette += FlyLure_ApplyPalette;
 
             // remove karma reinforcement and cannibalism buffs at the end of a cycle
             On.SaveState.BringUpToDate += SaveState_BringUpToDate;
@@ -82,9 +83,20 @@ namespace NCRcatsmod
             // cant throw spears when not starving or cannibalising
             On.Player.ThrownSpear += Player_ThrownSpear;
 
+
             // ---------------------------------------------------- VIVIATED STUFF ----------------------------------------------------
             //gross sounds when dying
             On.Player.Die += Player_Die;
+        }
+
+        private void FlyLure_ApplyPalette(On.FlyLure.orig_ApplyPalette orig, FlyLure self, RoomCamera.SpriteLeaser sLeaser, RoomCamera rCam, RoomPalette palette)
+        {
+            orig(self, sLeaser, rCam, palette);
+            if (self.room.game.session.characterStats.name.value == "NCRMarauder")
+            {
+                self.color = UnityEngine.Color.Lerp(new UnityEngine.Color(0.6f, 0.8f, 1f), palette.fogColor, 0.3f);
+                self.UpdateColor(sLeaser, false);
+            }
         }
 
         private void Player_ThrownSpear(On.Player.orig_ThrownSpear orig, Player self, Spear spear)
@@ -424,8 +436,8 @@ namespace NCRcatsmod
             if (self.slugcatStats.name.value == "NCRMarauder")
             {
                 self.GetMarCat().IsMarauder = true;
-                // freezes to death slower
-                self.HypothermiaExposure -= 0.1f;
+                // freezes to death a little slower
+                self.HypothermiaExposure -= 0.05f;
 
                 if (self.room.game.session is StoryGameSession)
                 {

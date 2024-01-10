@@ -1,13 +1,19 @@
-Template: OE_SettingsTemplate_Cave
+Template: NONE
+DangerType: Blizzard
 CeilingDrips: 0
-WaveSpeed: 0.5000526
-WaveLength: 0.99849
-WaveAmplitude: 0.0003121573
+RainIntensity: 0.0752172
+RumbleIntensity: 0
+WaveSpeed: 0.5000977
+WaveLength: 0.98122
+WaveAmplitude: 0.003743004
 SecondWaveLength: 0
 SecondWaveAmplitude: 0
+Clouds: 0.9130435
+Grime: 0
 BkgDroneVolume: 0
+WaterReflectionAlpha: 0
 Palette: 41
-Effects: Fog-0-271-132, DayNight-0.1956522-270-189, SkyAndLightBloom-0.06521739-270-71, 
+Effects: SkyAndLightBloom-0.06521739-270-71, Fog-0-30-30, MossWater-0-20-20, MossWaterRGB-0-40-40-Blue:255-Green:255-Red:182.9891-Blue:255-Green:255-Red:182.9891, WaterDepth-0.0326087-50-50, 
 PlacedObjects: LightSource><1186.949><321.8835><0.1195652~Environment~817~300~50~86.60254~1~1~None~0~0, DayNightSettings><1212.129><226.1529><5~8.660254~10~76, SnowSource><1195.286><317.5933><Radial~7.114624~267.1111~50~86.60254~0.3040082~0, 
 AmbientSounds: SPOT><AM_WIN-SubWnd.ogg><784.1849><525.3262><0.3043478><1.841304><1203.185><339.3262><-40.35535><-248.3553><0><1, SPOT><AM_ENV-Pasture.ogg><781.3801><417.6601><0.4021739><1><1108.38><530.6601><16.64465><-82.35535><0><0.3826088, SPOT><AM_ENV-Outside.ogg><779.39><308.8929><0.4347826><1><1107.39><533.8928><41.64465><-129.3553><0><0.4260871, SPOT><SO_WAT-Splashes.ogg><784.35><198.1176><0.2065217><1><1091.35><653.1177><93.64465><-198.3553><0><0.4695654, 
 FadePalette: 37, 0.4782609, 0.4891304, 0.423913

@@ -1,0 +1,17 @@
+Template: NONE
+DangerType: Blizzard
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 5.605194E-45
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.8478261
+Grime: 0.07608695
+BkgDroneVolume: 0
+Palette: 12
+EffectColorB: 9
+Effects: Darkness-0.2717391-22-126, Fog-0-40-40, 
+AmbientSounds: OMNI><SO_WAT-LilDrips.ogg><825.3334><633.8894><0.1521739><1, OMNI><AM_IND-SuperStructure.ogg><823.6931><558.0523><0.3586957><0.7456522, OMNI><AM_WIN-StrongWnd2.ogg><821.6989><488.7711><0.173913><1, SPOT><SO_WAT-MoreDrips.ogg><652.4369><592.0712><0.423913><1><1719.437><340.0712><-250.3553><-146.3553><0><0.4695654, 
+FadePalette: 33, 0.5760869, 0.5760869
