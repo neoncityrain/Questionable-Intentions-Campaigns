@@ -28,6 +28,7 @@ namespace NCRcatsmod
         FAtlas atlas;
         public bool IsDMSActive;
         public bool MarauderCannibalising;
+        public bool MarauderKarmaCheck;
 
         public void OnEnable()
         {
@@ -83,10 +84,19 @@ namespace NCRcatsmod
             // cant throw spears when not starving or cannibalising
             On.Player.ThrownSpear += Player_ThrownSpear;
 
+            // allow subterranian gate opening
+            On.RegionGate.customOEGateRequirements += RegionGate_customOEGateRequirements;
+
 
             // ---------------------------------------------------- VIVIATED STUFF ----------------------------------------------------
             //gross sounds when dying
             On.Player.Die += Player_Die;
+        }
+
+        private bool RegionGate_customOEGateRequirements(On.RegionGate.orig_customOEGateRequirements orig, RegionGate self)
+        {
+            orig(self);
+            return self.room.game.session.characterStats.name.value == "NCRMarauder";
         }
 
         private void FlyLure_ApplyPalette(On.FlyLure.orig_ApplyPalette orig, FlyLure self, RoomCamera.SpriteLeaser sLeaser, RoomCamera rCam, RoomPalette palette)
@@ -188,29 +198,48 @@ namespace NCRcatsmod
             orig(self, eatenObject);
             if (eatenObject.room.game.session.characterStats.name.value == "NCRMarauder")
             {
-                for (int i = self.eats.Count - 1; i >= 0; i--)
-                {
-                    if (self.eats[i].ID == eatenObject.abstractPhysicalObject.ID)
-                    {
-                        return;
-                    }
-                }
-                if (eatenObject.room != null && eatenObject.room.game.Players[self.playerNumber] != null && 
+                if (eatenObject.room != null && eatenObject.room.game.Players[self.playerNumber] != null &&
                     eatenObject.room.game.Players[self.playerNumber].realizedCreature != null)
                 {
                     if (eatenObject is Player || (eatenObject as Player).room.game.session.characterStats.name.value == "Slugpup")
                     {
-                        Debug.Log("MARAUDER FUCKED UP AND EVIL MOMENTS!!!!!!!!");
-                        MarauderCannibalising = true;
+                        // the debug log gets pinged 3 times each time. but it do be like that
+                        MarauderKarmaCheck = true;
+                        if (MarauderKarmaCheck == true && MarauderCannibalising == false)
+                        {
+                            (eatenObject.room.game.session as StoryGameSession).saveState.deathPersistentSaveData.karma += 1;
+                            (eatenObject.room.game.session as StoryGameSession).saveState.deathPersistentSaveData.karmaCap -= 1;
+                            if ((eatenObject.room.game.session as StoryGameSession).saveState.deathPersistentSaveData.karmaCap < 0)
+                            {
+                                (eatenObject.room.game.session as StoryGameSession).saveState.deathPersistentSaveData.karmaCap = 0;
+                            }
+                            if ((eatenObject.room.game.session as StoryGameSession).saveState.deathPersistentSaveData.karmaCap > 9)
+                            {
+                                (eatenObject.room.game.session as StoryGameSession).saveState.deathPersistentSaveData.karma = 9;
+                            }
+
+                        (eatenObject.room.game.session as StoryGameSession).saveState.deathPersistentSaveData.reinforcedKarma = true;
+
+                            // pings the hud to show the reinforced karma
+                            for (int i = 0; i < eatenObject.room.game.cameras.Length; i++)
+                            {
+                                eatenObject.room.game.cameras[i].hud.karmaMeter.reinforceAnimation = 0;
+                            }
+
+                            Debug.Log("MARAUDER FUCKED UP AND EVIL MOMENTS!!!!!!!!");
+                            MarauderKarmaCheck = false;
+                            MarauderCannibalising = true;
+                        }
+
                         eatenObject.room.game.Players[self.playerNumber].Hypothermia -= 0.02f;
                     }
-                    if (eatenObject is Creature)
+                    else if (eatenObject is Creature)
                     {
                         self.eats.Add(new PlayerSessionRecord.EatRecord((eatenObject as Creature).Template.type, eatenObject.abstractPhysicalObject.type, eatenObject.abstractPhysicalObject.ID));
                     }
                     else
                     {
-                        self.eats.Add(new PlayerSessionRecord.EatRecord(null, eatenObject.abstractPhysicalObject.type, 
+                        self.eats.Add(new PlayerSessionRecord.EatRecord(null, eatenObject.abstractPhysicalObject.type,
                             eatenObject.abstractPhysicalObject.ID));
                     }
                     if (eatenObject is KarmaFlower || eatenObject is Mushroom)
@@ -218,7 +247,7 @@ namespace NCRcatsmod
                         return;
                     }
                     self.ateAnything = true;
-                    if (eatenObject is Creature || eatenObject.abstractPhysicalObject.type == AbstractPhysicalObject.AbstractObjectType.JellyFish 
+                    if (eatenObject is Creature || eatenObject.abstractPhysicalObject.type == AbstractPhysicalObject.AbstractObjectType.JellyFish
                         || eatenObject.abstractPhysicalObject.type == AbstractPhysicalObject.AbstractObjectType.EggBugEgg)
                     {
                         self.vegetarian = false;
@@ -238,6 +267,7 @@ namespace NCRcatsmod
                 (game.session as StoryGameSession).saveState.deathPersistentSaveData.reinforcedKarma = false;
                 // prevent a constant cannibalising buff
                 MarauderCannibalising = false;
+                MarauderKarmaCheck = false;
             }
         }
 
@@ -288,7 +318,7 @@ namespace NCRcatsmod
             orig(self, creatureAndPull);
             if (creatureAndPull.creature is Player && (creatureAndPull.creature as Player).GetMarCat().IsMarauder && !creatureAndPull.creature.dead)
             {
-                // worm grass should never be able to fully consume marauder
+                // worm grass should never be able to fully consume marauder as long as theyre alive
                 self.LoseGrip(creatureAndPull);
                 creatureAndPull.consumeTimer = 1;
                 // doesnt track marauder and instantly removes them from the list of tracked creatures
@@ -446,6 +476,12 @@ namespace NCRcatsmod
                     {
                         self.room.AddObject(new MarauderIntro(self.room));
                     }
+
+                }
+                if (self.dead)
+                {
+                    MarauderCannibalising = false;
+                    MarauderKarmaCheck = false;
                 }
             }
             // ---------------------------------------------------- VIVIATED STUFF ----------------------------------------------------
