@@ -78,7 +78,7 @@ namespace NCRcatsmod
             On.SaveState.BringUpToDate += SaveState_BringUpToDate;
 
             // checks if player ate a slugpup or player
-            On.PlayerSessionRecord.AddEat += PlayerSessionRecord_AddEat;
+            On.Player.EatMeatUpdate += Player_EatMeatUpdate;
 
             // cant throw spears when not starving or cannibalising
             On.Player.ThrownSpear += Player_ThrownSpear;
@@ -90,6 +90,40 @@ namespace NCRcatsmod
             // ---------------------------------------------------- VIVIATED STUFF ----------------------------------------------------
             //gross sounds when dying
             On.Player.Die += Player_Die;
+        }
+
+        private void Player_EatMeatUpdate(On.Player.orig_EatMeatUpdate orig, Player self, int graspIndex) 
+        { 
+            orig(self, graspIndex);
+            if (self.grasps[graspIndex].grabbed is Player && self.GetMarCat().IsMarauder && self.eatMeat > 20) 
+            { 
+                MarauderKarmaCheck = true;
+                if (MarauderKarmaCheck && !MarauderCannibalising) 
+                { 
+                    (self.room.game.session as StoryGameSession).saveState.deathPersistentSaveData.karma++; 
+                    (self.room.game.session as StoryGameSession).saveState.deathPersistentSaveData.karmaCap--;
+
+                    if ((self.room.game.session as StoryGameSession).saveState.deathPersistentSaveData.karmaCap < 0) 
+                    { 
+                        (self.room.game.session as StoryGameSession).saveState.deathPersistentSaveData.karmaCap = 0; 
+                    } 
+                    if ((self.room.game.session as StoryGameSession).saveState.deathPersistentSaveData.karmaCap > 9) 
+                    { 
+                        (self.room.game.session as StoryGameSession).saveState.deathPersistentSaveData.karma = 9;
+                    } 
+                    
+                    (self.room.game.session as StoryGameSession).saveState.deathPersistentSaveData.reinforcedKarma = true; 
+                    for (int i = 0; i < self.room.game.cameras.Length; i++) 
+                    { 
+                        self.room.game.cameras[i].hud.karmaMeter.reinforceAnimation = 0; 
+                    } 
+
+                    Debug.Log("MARAUDER FUCKED UP AND EVIL MOMENTS!!!!!!!!");
+                    
+                    MarauderKarmaCheck = false; 
+                    MarauderCannibalising = true; 
+                } 
+            } 
         }
 
         private bool RegionGate_customOEGateRequirements(On.RegionGate.orig_customOEGateRequirements orig, RegionGate self)
@@ -188,71 +222,6 @@ namespace NCRcatsmod
                 if (self.stick != null)
                 {
                     sLeaser.sprites[4].color = palette.blackColor;
-                }
-            }
-        }
-
-        private void PlayerSessionRecord_AddEat(On.PlayerSessionRecord.orig_AddEat orig, PlayerSessionRecord self, PhysicalObject eatenObject)
-        {
-            orig(self, eatenObject);
-            if (eatenObject.room.game.session.characterStats.name.value == "NCRMarauder")
-            {
-                if (eatenObject.room != null && eatenObject.room.game.Players[self.playerNumber] != null &&
-                    eatenObject.room.game.Players[self.playerNumber].realizedCreature != null)
-                {
-                    if (eatenObject is Player || (eatenObject as Player).room.game.session.characterStats.name.value == "Slugpup")
-                    {
-                        // the debug log gets pinged 3 times each time. but it do be like that
-                        MarauderKarmaCheck = true;
-                        if (MarauderKarmaCheck == true && MarauderCannibalising == false)
-                        {
-                            (eatenObject.room.game.session as StoryGameSession).saveState.deathPersistentSaveData.karma += 1;
-                            (eatenObject.room.game.session as StoryGameSession).saveState.deathPersistentSaveData.karmaCap -= 1;
-                            if ((eatenObject.room.game.session as StoryGameSession).saveState.deathPersistentSaveData.karmaCap < 0)
-                            {
-                                (eatenObject.room.game.session as StoryGameSession).saveState.deathPersistentSaveData.karmaCap = 0;
-                            }
-                            if ((eatenObject.room.game.session as StoryGameSession).saveState.deathPersistentSaveData.karmaCap > 9)
-                            {
-                                (eatenObject.room.game.session as StoryGameSession).saveState.deathPersistentSaveData.karma = 9;
-                            }
-
-                        (eatenObject.room.game.session as StoryGameSession).saveState.deathPersistentSaveData.reinforcedKarma = true;
-
-                            // pings the hud to show the reinforced karma
-                            for (int i = 0; i < eatenObject.room.game.cameras.Length; i++)
-                            {
-                                eatenObject.room.game.cameras[i].hud.karmaMeter.reinforceAnimation = 0;
-                            }
-
-                            Debug.Log("MARAUDER FUCKED UP AND EVIL MOMENTS!!!!!!!!");
-                            MarauderKarmaCheck = false;
-                            MarauderCannibalising = true;
-                        }
-
-                        eatenObject.room.game.Players[self.playerNumber].Hypothermia -= 0.02f;
-                    }
-                    else if (eatenObject is Creature)
-                    {
-                        self.eats.Add(new PlayerSessionRecord.EatRecord((eatenObject as Creature).Template.type, eatenObject.abstractPhysicalObject.type, eatenObject.abstractPhysicalObject.ID));
-                    }
-                    else
-                    {
-                        self.eats.Add(new PlayerSessionRecord.EatRecord(null, eatenObject.abstractPhysicalObject.type,
-                            eatenObject.abstractPhysicalObject.ID));
-                    }
-                    if (eatenObject is KarmaFlower || eatenObject is Mushroom)
-                    {
-                        return;
-                    }
-                    self.ateAnything = true;
-                    if (eatenObject is Creature || eatenObject.abstractPhysicalObject.type == AbstractPhysicalObject.AbstractObjectType.JellyFish
-                        || eatenObject.abstractPhysicalObject.type == AbstractPhysicalObject.AbstractObjectType.EggBugEgg)
-                    {
-                        self.vegetarian = false;
-                        return;
-                    }
-                    self.carnivorous = false;
                 }
             }
         }
