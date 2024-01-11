@@ -7,16 +7,11 @@ using NCRMarauder.MarauderCat;
 using MoreSlugcats;
 using NCREntropy.SB_L01ENT;
 using Viviated.PartonCat;
-using Expedition;
-using On.Expedition;
+using RegionKit;
 using DressMySlugcat;
 using System.Linq;
 using System.Collections.Generic;
-using JollyCoop;
-using System.Drawing;
-using System.Runtime.InteropServices;
 using NCRMarauder.OE_INTRO;
-using static MonoMod.InlineRT.MonoModRule;
 
 namespace NCRcatsmod
 {
@@ -28,6 +23,8 @@ namespace NCRcatsmod
         public bool IsDMSActive;
         public bool MarauderCannibalising;
         public bool MarauderKarmaCheck;
+        public int MarauderStarvedForCycles;
+        public int MarauderDidntCannibaliseCycles;
 
         public void OnEnable()
         {
@@ -50,6 +47,9 @@ namespace NCRcatsmod
             On.RainWorld.OnModsInit += Init;
             On.RainWorld.PostModsInit += RainWorld_PostModsInit;
 
+            // edits to gates
+            On.RegionGate.customOEGateRequirements += RegionGate_customOEGateRequirements;
+            On.RegionGate.customKarmaGateRequirements += RegionGate_customKarmaGateRequirements;
 
             // ---------------------------------------------------- ENTROPY STUFF ----------------------------------------------------
             //entropy karma seizure. here for future parton usage as well
@@ -75,7 +75,7 @@ namespace NCRcatsmod
             On.FlyLure.ApplyPalette += FlyLure_ApplyPalette;
 
             // remove karma reinforcement and cannibalism buffs at the end of a cycle
-            On.SaveState.BringUpToDate += SaveState_BringUpToDate;
+            On.SaveState.SessionEnded += SaveState_SessionEnded;
 
             // checks if player ate a slugpup or player
             On.Player.EatMeatUpdate += Player_EatMeatUpdate;
@@ -83,13 +83,137 @@ namespace NCRcatsmod
             // cant throw spears when not starving or cannibalising
             On.Player.ThrownSpear += Player_ThrownSpear;
 
-            // allow subterranian gate opening
-            On.RegionGate.customOEGateRequirements += RegionGate_customOEGateRequirements;
-
 
             // ---------------------------------------------------- VIVIATED STUFF ----------------------------------------------------
             //gross sounds when dying
             On.Player.Die += Player_Die;
+        }
+
+        private void SaveState_SessionEnded(On.SaveState.orig_SessionEnded orig, SaveState self, RainWorldGame game, bool survived, bool newMalnourished)
+        {
+            orig(self, game, survived, newMalnourished);
+            if (game.session.characterStats.name.value == "NCRMarauder")
+            {
+                for (int k = 0; k < game.GetStorySession.playerSessionRecords.Length; k++)
+                {
+                    for (int l = 0; l < game.world.GetAbstractRoom(game.Players[k].pos).creatures.Count; l++)
+                    {
+
+                        if (game.world.GetAbstractRoom(game.Players[k].pos).creatures[l].creatureTemplate.type != MoreSlugcatsEnums.CreatureTemplateType.SlugNPC
+                            || game.world.GetAbstractRoom(game.Players[k].pos).creatures[l].creatureTemplate.type == null)
+                        {
+                            if (!MarauderCannibalising)
+                            {
+                                self.forcePupsNextCycle = 1;
+                            }
+                        }
+                        else
+                        {
+                            if (survived && newMalnourished)
+                            {
+                                MarauderStarvedForCycles++;
+                            }
+                            if (survived && !MarauderCannibalising)
+                            {
+                                MarauderDidntCannibaliseCycles++;
+                                newMalnourished = true;
+                            }
+                            if (survived && !MarauderCannibalising && MarauderDidntCannibaliseCycles >= 4 &&
+                                MarauderStarvedForCycles >= 2)
+                            {
+                                self.deathPersistentSaveData.karmaCap++;
+                                MarauderStarvedForCycles = 0;
+                                MarauderDidntCannibaliseCycles = 0;
+                            }
+                        }
+                        if (MarauderCannibalising)
+                        {
+                            MarauderStarvedForCycles = 0;
+                            MarauderDidntCannibaliseCycles = 0;
+                            MarauderCannibalising = false;
+                        }
+                        //cannot keep reinforced karma
+                        self.deathPersistentSaveData.reinforcedKarma = false;
+                    }
+                }
+            }
+        }
+
+        private void RegionGate_customKarmaGateRequirements(On.RegionGate.orig_customKarmaGateRequirements orig, RegionGate self)
+        {
+            orig(self);
+            if (self.room.game.session.characterStats.name.value == ("NCRMarauder"))
+            {
+                if (self.room.abstractRoom.name == "GATE_SB_OE")
+                {
+                    int num;
+                    if (int.TryParse(self.karmaRequirements[0].value, out num))
+                    {
+                        self.karmaRequirements[0] = RegionGate.GateRequirement.OneKarma;
+                    }
+                    int num2;
+                    if (int.TryParse(self.karmaRequirements[1].value, out num2))
+                    {
+                        self.karmaRequirements[1] = RegionGate.GateRequirement.ThreeKarma;
+                    }
+                }
+            }
+            if (self.room.game.session.characterStats.name.value == ("NCREntropy"))
+            {
+                System.Random rd = new System.Random();
+                int rand_num = rd.Next(1, 5);
+                System.Random rd2 = new System.Random();
+                int rand_num2 = rd2.Next(1, 5);
+                int num;
+                if (int.TryParse(self.karmaRequirements[0].value, out num))
+                {
+                    if (rand_num == 1)
+                    {
+                        self.karmaRequirements[0] = RegionGate.GateRequirement.OneKarma;
+                    }
+                    else if (rand_num == 2)
+                    {
+                        self.karmaRequirements[0] = RegionGate.GateRequirement.TwoKarma;
+                    }
+                    else if (rand_num == 3)
+                    {
+                        self.karmaRequirements[0] = RegionGate.GateRequirement.ThreeKarma;
+                    }
+                    else if (rand_num == 4)
+                    {
+                        self.karmaRequirements[0] = RegionGate.GateRequirement.FourKarma;
+                    }
+                    else
+                    {
+                        self.karmaRequirements[0] = RegionGate.GateRequirement.FiveKarma;
+                    }
+                }
+                int num2;
+                if (int.TryParse(self.karmaRequirements[1].value, out num2))
+                {
+                    if (rand_num2 == 1)
+                    {
+                        self.karmaRequirements[0] = RegionGate.GateRequirement.OneKarma;
+                    }
+                    else if (rand_num2 == 2)
+                    {
+                        self.karmaRequirements[0] = RegionGate.GateRequirement.TwoKarma;
+                    }
+                    else if (rand_num2 == 3)
+                    {
+                        self.karmaRequirements[0] = RegionGate.GateRequirement.ThreeKarma;
+                    }
+                    else if (rand_num2 == 4)
+                    {
+                        self.karmaRequirements[0] = RegionGate.GateRequirement.FourKarma;
+                    }
+                    else
+                    {
+                        self.karmaRequirements[0] = RegionGate.GateRequirement.FiveKarma;
+                    }
+                }
+                Debug.Log("Entropy's gate requirements randomized!");
+            }
         }
 
         private void Player_EatMeatUpdate(On.Player.orig_EatMeatUpdate orig, Player self, int graspIndex) 
@@ -129,7 +253,21 @@ namespace NCRcatsmod
         private bool RegionGate_customOEGateRequirements(On.RegionGate.orig_customOEGateRequirements orig, RegionGate self)
         {
             orig(self);
-            return self.room.game.session.characterStats.name.value == "NCRMarauder";
+            bool flag = self.room.game.rainWorld.progression.miscProgressionData.beaten_Gourmand ||
+                self.room.game.rainWorld.progression.miscProgressionData.beaten_Gourmand_Full;
+            if (!(self.room.game.session is StoryGameSession) && self.room.game.session.characterStats.name.value != "NCRMarauder" 
+                && self.room.game.session.characterStats.name.value != ("NCREntropy"))
+            {
+                return false;
+            }
+            if ((self.room.game.session as StoryGameSession).saveStateNumber == MoreSlugcatsEnums.SlugcatStatsName.Gourmand)
+            {
+                return (self.room.game.session as StoryGameSession).saveState.deathPersistentSaveData.theMark || flag;
+            }
+            return (((self.room.game.session as StoryGameSession).saveStateNumber == SlugcatStats.Name.White ||
+                (self.room.game.session as StoryGameSession).saveStateNumber == SlugcatStats.Name.Yellow) && flag) ||
+                self.room.game.session.characterStats.name.value == ("NCRMarauder") ||
+                self.room.game.session.characterStats.name.value == ("NCREntropy");
         }
 
         private void FlyLure_ApplyPalette(On.FlyLure.orig_ApplyPalette orig, FlyLure self, RoomCamera.SpriteLeaser sLeaser, RoomCamera rCam, RoomPalette palette)
@@ -223,19 +361,6 @@ namespace NCRcatsmod
                 {
                     sLeaser.sprites[4].color = palette.blackColor;
                 }
-            }
-        }
-
-        private void SaveState_BringUpToDate(On.SaveState.orig_BringUpToDate orig, SaveState self, RainWorldGame game)
-        {
-            orig(self, game);
-            if (game.session.characterStats.name.value == "NCRMarauder" && game.session is StoryGameSession)
-            {
-                // marauder is unable to keep reinforced karma through cycles
-                (game.session as StoryGameSession).saveState.deathPersistentSaveData.reinforcedKarma = false;
-                // prevent a constant cannibalising buff
-                MarauderCannibalising = false;
-                MarauderKarmaCheck = false;
             }
         }
 
