@@ -5,7 +5,6 @@ using UnityEngine;
 using NCREntropy.EntropyCat;
 using NCRMarauder.MarauderCat;
 using MoreSlugcats;
-using LizardCosmetics;
 using NCREntropy.SB_L01ENT;
 using Viviated.PartonCat;
 using Expedition;
