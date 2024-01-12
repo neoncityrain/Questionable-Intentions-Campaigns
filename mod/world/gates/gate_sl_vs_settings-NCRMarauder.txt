@@ -1,0 +1,18 @@
+Template: NONE
+DangerType: Blizzard
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 5.605194E-45
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.7065217
+BkgDroneVolume: 0
+Palette: 0
+Effects: WaterDepth-0.1304348-14-125, SilenceWater-1-12-63, Coldness-1-271-65, 
+PlacedObjects: NoSpearStickZone><473.1508><249.3814><9~287, 
+AmbientSounds: OMNI><waterGurgleLOOP1.wav><99.68927><529.6906><0.5><1, 
+FadePalette: 10, 0.6956522
+WetTerrain: OFF

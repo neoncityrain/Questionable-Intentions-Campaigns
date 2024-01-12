@@ -1,0 +1,14 @@
+DangerType: Blizzard
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 5.605194E-45
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Palette: 12
+Effects: Coldness-1-20-20, 
+AmbientSounds: SPOT><AM_IND-Factory02.ogg><773.014><426.5505><0.2717391><1><854.014><723.5505><-146.3553><-197.3553><0><0.9260871, 
+FadePalette: 33, 0.5869565, 0.5869565
+WetTerrain: OFF

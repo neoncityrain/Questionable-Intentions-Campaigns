@@ -1,0 +1,17 @@
+Template: VS_SettingsTemplate_Sewer
+DangerType: Blizzard
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 4.362232E-11
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.8043478
+Palette: 33
+Effects: Coldness-1-20-20, 
+PlacedObjects: WaterNut><106.0572><264.0532><0~0~2~3, WaterNut><135.3655><247.8367><0~0~2~3, WaterNut><744.3779><263.8416><0~0~2~3, 
+AmbientSounds: SPOT><SO_WAT-Splashes.ogg><727.4076><527.5726><0.423913><1><602.4076><279.5726><-117.3553><-226.3553><0><0.4913045, SPOT><SO_WAT-OpenFlow.ogg><728.3011><413.479><0.5><1><1947.301><320.479><-266.3553><-287.3553><0><0.5130436, 
+FadePalette: 10, 0.5326087, 0.5760869
+WetTerrain: OFF

@@ -10,5 +10,5 @@ SecondWaveAmplitude: 0.0001
 Palette: 33
 Effects: Coldness-1-20-20, 
 PlacedObjects: ReliableSpear><795.5182><458.9492><, ReliableSpear><865.5632><552.5603><, ReliableSpear><856.3109><459.8152><, DangleFruit><567.3156><446.189><0~0~2~3, DangleFruit><624.2222><432.8019><0~0~2~3, DangleFruit><587.4302><385.0867><0~0~2~3, CustomDecal><474.8254><202.1852><-3~161~303~240~316~-9~-359~22~0.6086956~1~0.1086956~hoko cutcables~0.7065217~0.7934783~0.1956522~0.3043478~0.326087~0.6630435~0.4782609~0.9456522, 
-FadePalette: 13, 0.3626472
+FadePalette: 12, 0.3626472
 WetTerrain: OFF

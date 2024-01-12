@@ -1,14 +1,40 @@
-OFFSCREEN : 0-Vulture-2, 0-MirosVulture-{Night}-1, 0-MirosVulture-{PreCycle}-1, 0-KingVulture-1, 0-Scavenger-13, 0-EliteScavenger-2
+OFFSCREEN : 0-Vulture-2, 0-MirosVulture-{Night}-3, 0-MirosVulture-{PreCycle}-1, 0-KingVulture-1, 0-Scavenger-13, 0-EliteScavenger-2, 0-Scavenger-{IgnoreCycle}-5, 0-EliteScavenger-2
 
-OE_FINAL02 : 4-Yeek-2, 5-Cicada-3, 6-SmallCentipede-1
+OE_FINAL02 : 4-Yeek-2, 5-Cicada-3
 OE_JUNGLE03 : 3-Cicada-2
 OE_CAVE14 : 2-Eel
 OE_RUIN25 : 2-ZoopLizard
-OE_RUIN10 : 3-Caramel
-OE_RUIN24 : 2-Mimic-{10}
-OE_TOWER03 : 4-White, 5-Blue
+OE_RUIN10 : 3-Caramel-{IgnoreCycle}
+OE_RUIN24 : 2-Mimic-{10}, 2-Caramel-{Night}, 2-Caramel-{PreCycle}
+OE_TOWER03 : 4-White-{IgnoreCycle}, 5-Blue, 6-Mimic-{28}
+OE_CAVE12 : 9-Centipede, 8-Centipede
+OE_RAIL03 : 6-Cyan, 8-Cyan, 13-Centiwing
+OE_CAVE03 : 2-ZoopLizard
+OE_CAVE15 : 5-Salamander
+OE_RUINBackHall : 10-Cyan
+OE_RUINCourtYard : 4-Yeek-{IgnoreCycle}-2, 5-Yeek-4, 5-ZoopLizard-{PreCycle}
+OE_RUINFrontHall : 3-Mimic-{9}, 2-Yeek-3
+OE_RUIN15 : 5-Green-{IgnoreCycle}
+OE_RUIN06 : 6-Eel-{PreCycle}
+OE_JUNGLE05 : 5-TentaclePlant-{Night}
+OE_RUIN17 : 5-White
+OE_RUIN05 : 9-White, 4-Caramel
+OE_RUIN08 : 2-Caramel
+OE_JUNGLEESCAPE : 8-DropBug
+OE_RAIL06 : 6-Red-{PreCycle}
+OE_RUIN02 : 4-Mimic-{15}
+OE_TOWER07 : 3-JungleLeech
+OE_CAVE09 : 8-JungleLeech, 8-JungleLeech-{Night}
+OE_PUMP02 : 3-Eel-{IgnoreCycle}
+OE_JUNGLE01 : 6-JungleLeech
+OE_FINAL01 : 4-White
+OE_TOWER14 : 4-White, 3-Centipede, 3-SmallCentipede-2
+OE_TOWER11 : 4-Centiwing
+OE_TOWER09 : 6-AquaCenti
 
 
 
-
-LINEAGE : OE_JUNGLE03 : 3 : SlugNPC-1, NONE-0
+LINEAGE : OE_CAVE12 : 6 : SlugNPC-1, NONE-0
+LINEAGE : OE_TOWER09 : 4 : SlugNPC-1, NONE-0
+LINEAGE : OE_RUINBackHall : 8 : SlugNPC-1, NONE-0
+LINEAGE : OE_JUNGLE05 : 2 : SlugNPC-1, NONE-0

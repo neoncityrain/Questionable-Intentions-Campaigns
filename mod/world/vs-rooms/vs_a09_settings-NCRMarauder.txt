@@ -5,11 +5,11 @@ RainIntensity: 0
 RumbleIntensity: 0
 WaveSpeed: 0.5
 WaveLength: 1
-WaveAmplitude: 6.547475E-12
+WaveAmplitude: 1.408672E-16
 SecondWaveLength: 1
 SecondWaveAmplitude: 0.0001
 Grime: 0.173913
-Palette: 14
+Palette: 12
 Effects: WaterDepth-0.1195652-20-20, 
 Triggers: RegionBump<tA>event<tB>MusicEvent<eA>songName<eB>RW_93 - Veiled Northstar<eA>vol<eB>0.18<eA>prio<eB>0.6630435<eA>mxThrt<eB>1<eA>loop<eB>0<eA>droneTol<eB>0<eA>rooms<eB>-1<eA>rest<eB>5<eA>fadeIn<eB>19.56522<eA>oneSongPerCycle<eB>0<eA>stopAtDeath<eB>0<eA>stopAtGate<eB>0<tA>multiUse<tB>0<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>156<tA>panPos<tB>609.8<tB>424.999<tA>fireChance<tB>1<tA>entrance<tB>1<tA>karma<tB>0<tA>slugcats<tB>, 
 FadePalette: 33, 0.7817482

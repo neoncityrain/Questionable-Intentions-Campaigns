@@ -4,13 +4,13 @@ RainIntensity: 0
 RumbleIntensity: 0
 WaveSpeed: 0.5
 WaveLength: 1
-WaveAmplitude: 9.918955E-26
+WaveAmplitude: 5.605194E-45
 SecondWaveLength: 0.1666667
 SecondWaveAmplitude: 0
 Grime: 0
 Palette: 33
 EffectColorA: 21
 EffectColorB: 9
-Effects: SilenceWater-0.1956522-263-245, Contrast-0.08695652-20-20, Desaturation-0.04347826-30-30, Bloom-0.07608695-39-108, Coldness-1-225-51, LightBurn-0.2608696-211-115, MossWater-0-75-136, MossWaterRGB-0-48-217, 
+Effects: SilenceWater-0.1956522-339.126-171.0444, Contrast-0.08695652-20-20, Desaturation-0.04347826-30-30, Bloom-0.07608695-54.6521-93.77777, Coldness-1-225-51, LightBurn-0.2608696-211-115, MossWater-0-75-136, MossWaterRGB-0-457.0886-481.5334-Blue:255-Green:255-Red:236.0015, WaterDepth-0.0386661-40-40, 
 FadePalette: 4, 0.7826087, 0.8478261, 0.8913044
 WetTerrain: OFF

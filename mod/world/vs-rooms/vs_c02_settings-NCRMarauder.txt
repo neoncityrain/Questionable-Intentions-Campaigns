@@ -1,0 +1,14 @@
+DangerType: Blizzard
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 2.089056E-41
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Palette: 12
+Effects: Darkness-0.2173913-20-20, Coldness-1-20-79, 
+AmbientSounds: SPOT><SO_WAT-MoreDrips.ogg><770.6365><437.1038><0.326087><0.8630434><198.6365><449.1038><-171.3553><-204.3553><0><0.4152175, SPOT><SO_IND-HeatDuct.ogg><573.5884><470.1321><0.3369565><1><1128.588><670.1321><-188.3553><-197.3553><0><0.5673915, 
+FadePalette: 32, 0.3695652, 0.4782609, 0.5434783
+WetTerrain: OFF

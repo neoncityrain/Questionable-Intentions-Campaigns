@@ -1,0 +1,14 @@
+Template: VS_SettingsTemplate_Surface
+DangerType: Blizzard
+CeilingDrips: 0
+WaveSpeed: 0.4561635
+WaveLength: 0.9780818
+WaveAmplitude: 5.605194E-45
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Palette: 13
+Effects: Dustpuffs-1-20-20, Coldness-1-30-30, 
+PlacedObjects: DevToken><2245.399><147.6163><5~-68~0~0~0~~~0~0~0~1~0~0~0~1, FirecrackerPlant><686.0845><284.3623><0~0~2~3, FirecrackerPlant><508.3514><318.0776><0~0~2~3, FirecrackerPlant><457.2878><308.0536><0~0~2~3, FlyLure><1587.399><175.6168><0~0~4~9, FlyLure><2476.909><256.6216><0~0~4~9, FirecrackerPlant><2716.44><146.8118><0~0~2~3, FirecrackerPlant><2879.089><138.8687><0~0~2~3, SnowSource><1813.367><385.8987><None~1358~54~190~161.4498~0.1086956~1, SnowSource><2802.688><162.9404><Radial~173~18~-283~315.6025~1~0, SnowSource><245.0409><246.1957><None~942~-158~50~86.60254~0.3152174~0.3478261, SnowSource><213.5752><401.3471><Radial~248~-68~50~86.60254~0.1956522~0, SnowSource><815.9298><103.1624><Radial~-128~80~50~86.60254~1~0, SnowSource><1889.173><85.89923><Radial~301~-29~111~367.6024~1~0, SnowSource><2231.302><82.27972><Radial~0~100~-223~283.6025~1~0, SnowSource><1177.25><106.8><Radial~160~109~50~86.60254~1~0, SnowSource><282.8279><229.8518><Radial~271~37~31~-32.39746~0.3913043~1, SnowSource><3111.527><456.8018><Radial~137~-226~-530~-73.39746~0.8043478~0.6630435, SnowSource><1377.368><482.4114><Radial~339~-50~50~86.60254~0.9347826~0, SnowSource><2536.092><316.3779><Radial~388~61~-244~31.60254~0.6195652~0, SnowSource><2226.568><358.5836><Radial~134~87~50~86.60254~0.8043478~0, SnowSource><843.3823><476.9><Radial~-15~128~-295~91.60254~0.7934783~0, SnowSource><1489.953><149.8057><Radial~-115~138~19~-131.3975~1~0, 
+AmbientSounds: SPOT><AM_ENV-LightWind.ogg><737.9443><522.2026><0.4021739><1><3049.944><696.2026><-522.3553><-540.3553><0><0.6978262, 
+FadePalette: 32, 0.4447916, 0.4525249, 0.4324616
+WetTerrain: OFF

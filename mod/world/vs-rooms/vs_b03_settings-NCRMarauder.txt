@@ -1,0 +1,16 @@
+DangerType: Blizzard
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 5.605194E-45
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+RandomItemSpearChance: 0.4717391
+Palette: 12
+Effects: Darkness-0.2717391-20-20, Coldness-1-20-74, 
+PlacedObjects: SnowSource><483.5563><953.5496><Radial~-663~-545~50~86.60254~0.3695652~1, 
+AmbientSounds: SPOT><AM_IND-Utility02.ogg><765.2369><439.1996><0.4021739><1><706.2369><591.1996><-198.3553><-118.3553><0><0.4369566, SPOT><SO_IND-Fridge.ogg><776.86><314.8571><0.25><1><60.86005><1218.857><-163.3553><-312.3553><0><0.328261, SPOT><SO_WAT-RainishDrips.ogg><594.0318><465.4474><0.3913043><1><131.0318><546.4475><-124.3553><-218.3553><0><0.6760871, 
+FadePalette: 32, 0.25, 0.2934783
+WetTerrain: OFF

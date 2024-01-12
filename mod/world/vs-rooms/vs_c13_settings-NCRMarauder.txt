@@ -1,0 +1,14 @@
+Template: VS_SettingsTemplate_Surface
+DangerType: Blizzard
+CeilingDrips: 0
+WaveSpeed: 0.4567666
+WaveLength: 0.9783833
+WaveAmplitude: 5.605194E-45
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Palette: 5
+Effects: Coldness-1-30-30, Dustpuffs-0-20-20, 
+PlacedObjects: DevToken><614.484><531.8007><-2~-72~0~0~0~~~0~0~0~1~0~0~0~1, SnowSource><566.803><395.9653><Radial~1275~741~50~86.60254~0.6630435~1, SnowSource><2405.901><392.4236><Radial~1279~769~50~86.60254~0.6413044~1, 
+Triggers: RegionBump<tA>event<tB>MusicEvent<eA>songName<eB>RW_61 - Rain<eA>vol<eB>0.3<eA>prio<eB>0.5<eA>mxThrt<eB>1<eA>loop<eB>0<eA>droneTol<eB>0<eA>rooms<eB>-1<eA>rest<eB>5<eA>fadeIn<eB>0<eA>oneSongPerCycle<eB>0<eA>stopAtDeath<eB>0<eA>stopAtGate<eB>0<tA>multiUse<tB>0<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>731.3849<tB>386.1477<tA>fireChance<tB>1<tA>entrance<tB>-1<tA>karma<tB>0<tA>slugcats<tB>, 
+FadePalette: 32, 0.2065217, 0.1630435, 0.1195652
+WetTerrain: OFF

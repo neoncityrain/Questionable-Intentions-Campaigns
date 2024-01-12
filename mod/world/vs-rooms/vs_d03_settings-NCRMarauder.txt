@@ -1,0 +1,15 @@
+Template: VS_SettingsTemplate_Filter
+DangerType: Blizzard
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 1.521016E-11
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Palette: 33
+Effects: WaterDepth-0.1086956-20-20, 
+Triggers: Spot<tA>event<tB>StopMusicEvent<eA>songName<eB>RW_93 - Veiled Northstar<eA>prio<eB>1<eA>type<eB>SpecificSong<eA>fadeOut<eB>552.1736<tA>multiUse<tB>1<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>729.9537<tB>467.6946<tA>fireChance<tB>1<tA>entrance<tB>-1<tA>karma<tB>0<tA>slugcats<tB><tA>pos<tB>1453.954<tB>324.6946<tA>handlePos<tB>-226.3553<tB>-238.3553, 
+FadePalette: 10, 0.4274796, 0.4460824, 0.5662477, 0.5631114
+WetTerrain: OFF

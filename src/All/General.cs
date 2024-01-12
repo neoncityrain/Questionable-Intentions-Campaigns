@@ -800,9 +800,22 @@ namespace NCRcatsmod
                     {
                         sLeaser.sprites[3].element = babyhead;
                     }
-                    if (self.player.KarmaCap >= 8 && name != null && name.StartsWith("HeadA") && atlas._elementsByName.TryGetValue("adultent" + name, out var adulthead))
+                    else if (self.player.KarmaCap >= 8 && name != null && name.StartsWith("HeadA") && atlas._elementsByName.TryGetValue("adultent" + name, out var adulthead))
                     {
                         sLeaser.sprites[3].element = adulthead;
+                    }
+                }
+                if (self.player.GetMarCat().IsMarauder)
+                {
+                    string name = sLeaser.sprites[3]?.element?.name; //head
+                    if (name != null && name.StartsWith("HeadA") && atlas._elementsByName.TryGetValue("mar" + name, out var head))
+                    {
+                        sLeaser.sprites[3].element = head;
+                    }
+                    string name2 = sLeaser.sprites[9]?.element?.name; //face
+                    if (name2 != null && name2.StartsWith("Face") && atlas._elementsByName.TryGetValue("mar" + name2, out var face))
+                    {
+                        sLeaser.sprites[9].element = face;
                     }
                 }
 
@@ -821,6 +834,8 @@ namespace NCRcatsmod
 
             atlas ??= Futile.atlasManager.LoadAtlas("atlases/enthead");
             atlas ??= Futile.atlasManager.LoadAtlas("atlases/adultenthead");
+            atlas ??= Futile.atlasManager.LoadAtlas("atlases/marhead");
+            atlas ??= Futile.atlasManager.LoadAtlas("atlases/marface");
         }
 
         // Load any resources, such as sprites or sounds

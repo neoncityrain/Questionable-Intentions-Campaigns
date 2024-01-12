@@ -1,0 +1,16 @@
+Template: VS_SettingsTemplate_Filter
+DangerType: Blizzard
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 5.605194E-45
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Palette: 33
+Effects: WaterDepth-0.1086956-20-20, 
+PlacedObjects: LightFixture><380.9111><1165.619><RedLight~17.32051~-10~65, LightFixture><748.1992><844.517><RedLight~17.32051~-10~95, LightFixture><774.7><1432.501><RedLight~17.32051~-10~47, LightFixture><62.5799><445.1448><RedLight~17.32051~-10~63, 
+AmbientSounds: SPOT><AM_WIN-SubWnd.ogg><687.7><606.7504><0.5><1><497.7><293.7504><-194.3553><-193.3553><0><0.9260871, SPOT><SO_WAT-MoreDrips.ogg><855.8413><449.3717><0.3913043><1><537.8413><1133.372><-89.35535><-184.3553><0><0.3934784, 
+FadePalette: 10, 0.8207995, 0.901268
+WetTerrain: OFF

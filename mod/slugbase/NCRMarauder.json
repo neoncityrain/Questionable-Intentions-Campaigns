@@ -7,11 +7,22 @@
 		"custom_colors": [
 			{
 				"name": "Body",
-				"story": "A9D1DE"
+				"story": "A9D1DE",
+				"arena" : ["EEEFEF", "D3BF90", "906263", "27262B"]
 			},
 			{
 				"name": "Eyes",
-				"story": "41B7A9"
+				"story": "41B7A9",
+				"arena" : ["20514E", "8D5E58", "FFB787", "E6E6E6"]
+			},
+			{
+				"name" : "Patterns (NOT YET IMPLEMENTED)",
+				"story" : "DFEAED",
+				"arena" : ["C8D4E0", "FFFBAF", "410203", "B2A9C1"]
+			},
+			{
+				"name" : "Hypothermia (NOT YET IMPLEMENTED)",
+				"story" : "706975"
 			}
 		],
 		"weight": [ 0.9, 0.5 ],
@@ -21,13 +32,17 @@
 		"crouch_stealth": [ 1.0, 0.6 ],
 		"lung_capacity": [ 1.1, 1.4 ],
 		"can_maul": true,
-		"expedition_enabled": false,
 		"auto_grab_batflies": false,
+		
+		"expedition_enabled": true,
+		"expedition_description": "A thief and eater of carrion.<LINE>Starving gives a boost to power, but you are weak otherwise.",
+		
 		"karma": 0,
-		"karma_cap": 0,
+		"karma_cap": 2,
 		"food_min": 6,
 		"food_max": 7,
-		"world_state": ["NCRMarauder", "Saint"],
+		
+		"world_state": ["NCRMarauder", "Saint", "Rivulet"],
 
 		"alignments": {
 			"Lizards": {
@@ -53,10 +68,9 @@
 			}
 		},
 
-		"start_room": "OE_RUIN04",
+		"start_room": "OE_RUINCourtYard",
 		"select_menu_scene": "Slugcat_NCRMarauder",
 		"select_menu_scene_ascended": "Ghost_NCRMarauder",
-		"sleep_scene": "Sleep_NCRMarauder",
-		"starve_scene": "Starve_NCRMarauder"
+		"sleep_scene": "Sleep_NCRMarauder"
 	}
 }

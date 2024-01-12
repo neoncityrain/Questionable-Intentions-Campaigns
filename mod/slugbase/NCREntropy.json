@@ -12,8 +12,8 @@
 		"weight": 0.5,
 		"walk_speed": 1.1,
 		"start_room": "SB_L01",
-		"expedition_enabled": false,
-		"expedition_description": "A slugpup who has escaped from confinement and wishes for peace.<LINE>While agile, its world is aggressive.",
+		"expedition_enabled": true,
+		"expedition_description": "A slugpup who has escaped from confinement.<LINE>While agile, its world is brutal.",
 		
 		"world_state": [ "NCREntropy", "Rivulet", "Spearmaster", "Gourmand" ],
 		"auto_grab_batflies": false,

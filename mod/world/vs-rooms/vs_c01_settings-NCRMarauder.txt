@@ -1,0 +1,16 @@
+DangerType: Blizzard
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 5.605194E-45
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+WaterReflectionAlpha: 0.4021739
+Palette: 12
+Effects: WaterDepth-0.08695652-20-81, Coldness-1-20-20, 
+PlacedObjects: ReliableSpear><2184.317><118.8312><, ReliableSpear><2272.663><117.8665><, ReliableSpear><2381.479><128.5511><, ReliableSpear><1087.051><95.48315><, ReliableSpear><1372.168><137.6822><, ReliableSpear><1506.414><142.3859><, ReliableSpear><1587.103><96.63507><, ReliableSpear><452.8251><99.40308><, ReliableSpear><571.1847><76.42328><, ReliableSpear><700.8024><112.5306><, 
+AmbientSounds: SPOT><SO_IND-HeatDuct.ogg><762.3771><444.8423><0.3804348><1><741.3771><717.8423><-221.3553><-174.3553><0><0.4478262, SPOT><SO_IND-HVAC.ogg><592.6961><593.7109><0.3804348><1><1624.696><720.7109><-28.35535><-196.3553><0><0.5130436, SPOT><AM_WIN-WndTone.ogg><598.3243><485.4357><0.3152174><1><2371.324><447.4357><-282.3553><-212.3553><0><0.6869566, SPOT><SO_WAT-MoreDrips.ogg><592.8703><364.0977><0.3586957><1><799.8703><435.0977><-268.3553><-218.3553><0><1, 
+FadePalette: 33, 0.5, 0.4891304, 0.5
+WetTerrain: OFF

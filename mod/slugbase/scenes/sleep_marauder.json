@@ -1,5 +1,5 @@
 {
-	"id": "sleep_NCRmarauder",
+	"id": "Sleep_NCRMarauder",
 	"scene_folder": "scenes/maraudersleep",
 	"images": [
 		{"name": "coolsymbolthing", "pos": [672, 236], "depth": 5.5, "shader": "Basic"},

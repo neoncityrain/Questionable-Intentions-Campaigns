@@ -1,0 +1,13 @@
+Template: VS_SettingsTemplate_Surface
+DangerType: Blizzard
+CeilingDrips: 0
+WaveSpeed: 0.4673974
+WaveLength: 0.9836987
+WaveAmplitude: 5.605194E-45
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Palette: 12
+Effects: Dustpuffs-1-20-20, Coldness-1-21-73, 
+PlacedObjects: DeadTokenStalk><2747.724><458.4483><24~41, DeadTokenStalk><2743.734><435.0507><41~23, DeadTokenStalk><2640.723><473.0518><38~45, GoldToken><2713.321><457.3396><-5~62~-312~70~0~VS~~0~0~0~0~0~0~0, FlyLure><2080.396><343.8872><0~0~4~9, FlyLure><2144.591><421.8787><0~0~4~9, Mushroom><732.947><223.5572><0~0~2~3, Mushroom><744.8914><238.9179><0~0~2~3, SnowSource><601.1968><567.0361><None~-1248~-731~-238~-415.3975~0.5543478~1, SnowSource><2434.547><285.0555><Radial~1142~732~143~-131.3975~0.6413044~1, 
+FadePalette: 32, 0.173913, 0.173913, 0.173913
+WetTerrain: OFF

@@ -1,0 +1,15 @@
+Template: VS_SettingsTemplate_Sewer
+DangerType: Rain
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 8.999999E-05
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 1
+Effects: HeatWave-0.2391304-20-20, 
+AmbientSounds: OMNI><AM_WIN-SubWnd.ogg><724.3123><641.6812><0.2173913><0.8434783, 
+FadePalette: 10, 0.5
+WetTerrain: OFF

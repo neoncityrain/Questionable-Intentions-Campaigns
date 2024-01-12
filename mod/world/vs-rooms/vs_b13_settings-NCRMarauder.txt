@@ -1,0 +1,16 @@
+Template: VS_SettingsTemplate_Sewer
+DangerType: Rain
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 8.999999E-05
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 1
+Palette: 33
+PlacedObjects: DangleFruit><689.5524><345.7808><0~0~2~3, DangleFruit><324.5806><409.1848><0~0~2~3, DangleFruit><660.6948><368.967><0~0~2~3, 
+AmbientSounds: SPOT><SO_WAT-Splashes.ogg><728.3713><520.5969><0.3478261><1><599.3713><292.5969><-166.3553><-150.3553><0><0.2304349, SPOT><SO_WAT-OpenFlow.ogg><731.3688><400.4109><0.4021739><0.9413043><605.3688><459.4109><-115.3553><-194.3553><0><0.2413045, 
+FadePalette: 10, 0.5652174, 0.5869565
+WetTerrain: OFF

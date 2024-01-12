@@ -1,0 +1,15 @@
+Template: VS_SettingsTemplate_Filter
+DangerType: Blizzard
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 4.174558E-07
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Palette: 33
+PlacedObjects: LightFixture><329.0131><542.0504><RedLight~17.32051~-10~17, LightFixture><692.0142><65.05051><RedLight~17.32051~-10~76, DeadTokenStalk><417.0815><1731.567><-37~24, DeadTokenStalk><423.166><1772.862><-44~0, DeadTokenStalk><412.8511><1850.617><-33~-43, RedToken><448.6794><1809.588><-68~-23~-340~119~0~VS~~0~0~1~0~0~0~1, DangleFruit><475.6573><1205.378><0~0~2~3, DangleFruit><506.488><1159.7><0~0~2~3, 
+AmbientSounds: SPOT><waterGurgleLOOP1.wav><858.0381><454.5536><0.5><1><1657.038><2268.554><-211.3553><-291.3553><0><0.6760871, 
+FadePalette: 10, 0.4456522, 0.4456522, 0.4456522, 0.4456522, 0.25
+WetTerrain: OFF
