@@ -1,0 +1,17 @@
+Template: SU_SettingsTemplate_Inside
+DangerType: Blizzard
+CeilingDrips: 0
+RainIntensity: 0.3586957
+WaveSpeed: 0.5027404
+WaveLength: 0.9986297
+WaveAmplitude: 2.926876E-06
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Palette: 5
+EffectColorA: 18
+EffectColorB: 6
+Effects: Desaturation-0.4347826-17-78, LightBurn-0.1521739-21-129, Coldness-1-275-20, Dustpuffs-1-273-79, Flies-0-30-30, 
+PlacedObjects: SnowSource><368.6609><377.8688><Radial~617~-491~50~86.60254~0.6195652~1, LightSource><332.731><410.5509><0.7391304~Environment~649~-441~88~134.6025~1~0~None~0~0, 
+AmbientSounds: OMNI><AM_ENV-LushNight.ogg><767.3403><549.6204><0.2826087><1, SPOT><waterGurgleLOOP1.wav><766.4363><356.9273><0.5><1><1098.436><549.9273><-286.3553><-127.3553><0><0.3173914, SPOT><AM_ENV-LightWind.ogg><578.1331><505.3993><0.5><1><324.1331><719.3993><-139.3553><-177.3553><0><0.6326088, 
+FadePalette: 10, 0.423913
+WetTerrain: OFF

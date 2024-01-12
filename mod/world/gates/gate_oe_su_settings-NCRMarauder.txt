@@ -1,0 +1,13 @@
+Template: NONE
+DangerType: Blizzard
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 5.605194E-45
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Grime: 0.1605527
+PlacedObjects: LightFixture><300.0635><373.8222><RedLight~17.32051~-10~28, LightFixture><1014.329><277.9337><RedLight~17.32051~-10~10, NoSpearStickZone><470.6046><256.3296><178~194, CommonGateData><493.0366><249.6737><100~50~False~False~False~False~False~False~False~True~0.4949274~1~1, 
+FadePalette: 8, 0.9782609
+RoomSpecificScriptActive: ON

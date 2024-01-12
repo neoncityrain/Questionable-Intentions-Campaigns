@@ -1,0 +1,21 @@
+DangerType: Blizzard
+CeilingDrips: 0
+RumbleIntensity: 0.3913043
+WaveSpeed: 0.5424359
+WaveLength: 0.978782
+WaveAmplitude: 0.0005829101
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.3152174
+Grime: 0.1086956
+BkgDroneVolume: 0
+RandomItemDensity: 0.7282609
+RandomItemSpearChance: 0.3956521
+Palette: 5
+EffectColorA: 2
+EffectColorB: 8
+Effects: Coldness-1-19-69, Dustpuffs-1-20-122, LightBurn-0.2282609-271-106, Flies-0-30-30, 
+PlacedObjects: LightFixture><564.6865><1157.072><RedLight~17.32051~-10~84, LightFixture><147.6993><1138.984><RedLight~17.32051~-10~6, LightFixture><204.441><23.9407><RedSubmersible~17.32051~-10~49, LightBeam><366.1384><2802.166><-48~134~79~129~150~59~-519~-230~0.6282607~1~0~1~None~0~0, LightSource><395.0837><2855.861><0.2391304~White~224~-197~-550~-451.3975~1~1~None~0~0, InsectGroup><522.55><3383.006><-659~192~13~-199~StandardFly~0.09782609, CustomDecal><138.2783><3213.198><-15~168~459~91~361~-147~-298~-477~0.6195652~1~0.3586957~Long Tag~0.2934783~0.4130435~0.2934783~0.4130435~0.2934783~0.4130435~0.2934783~0.4130435, CustomDecal><-29.953><3226.806><2~491~611~149~399~-206~823~-326~0.3804348~1~0~RustB3~0.4130435~1~0.4130435~1~0.4130435~1~0.4130435~1, LightBeam><494.5544><3566.208><-251~213~289~209~429~-106~-657~-192~0.2043477~0.7065217~0~1~None~0~0, LightSource><475.039><3765.554><0.4782609~Environment~401~-493~257.1572~-175.5308~1~0~None~0~0, DangleFruit><158.056><3347.201><-357~-170~1~7, DangleFruit><541.0514><3236.226><-56~-270~1~7, DangleFruit><509.1259><3222.407><3~-114~1~7, DangleFruit><229.4124><3267.367><-416~-154~1~7, DangleFruit><246.2349><3303.449><-391~-253~1~7, DeadSeedCob><209.8001><3263.757><, DeadSeedCob><176.8048><3292.706><, SeedCob><270.5234><3253.949><234~-211~7~10, CustomDecal><207.4496><3187.512><1~180~246~183~185~-69~251.8625~183.3333~0.5760869~1~0~sadcat~0.6630435~0.07002921~0.2717391~0.07002921~0.2173913~0.07002921~0.8804348~0.07002921, SnowSource><439.3565><3500.581><Radial~682~-500~-108~117.6025~0.6956522~0.9673913, 
+AmbientSounds: SPOT><Mech Basic.wav><109.1753><405.9037><0.1630435><1><1096.175><775.9037><-616.3553><-580.3553><0><0.4130435, SPOT><Deep Weird Wind.wav><109.7941><517.8049><0.1304348><1><1116.794><774.8049><-641.3553><-567.3553><0><0.3913043, SPOT><AM_ENV-Outside.ogg><108.767><290.3007><0.7717391><1><464.767><3607.301><432.6447><-379.3553><0><0.328261, SPOT><AM_ENV-LightWind.ogg><111.188><184.0681><0.4021739><0.6478261><464.188><3449.069><401.6447><-267.3553><0><0.5456523, SPOT><SO_IND-FlourLight.ogg><741.6688><234.1427><0.5><1><294.6688><3649.144><116.6447><-19.35535><0><0.2630436, OMNI><AM_ENV-Outside.ogg><765.4963><477.05><0.02173913><0.1, 
+Triggers: Spot<tA>event<tB>MusicEvent<eA>songName<eB>NA_30 - Distance<eA>vol<eB>0.3<eA>prio<eB>0.5<eA>mxThrt<eB>1<eA>loop<eB>0<eA>droneTol<eB>0<eA>rooms<eB>-1<eA>rest<eB>5<eA>fadeIn<eB>123.913<eA>oneSongPerCycle<eB>0<eA>stopAtDeath<eB>0<eA>stopAtGate<eB>0<tA>multiUse<tB>0<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>651.7927<tB>364.6954<tA>fireChance<tB>1<tA>entrance<tB>-1<tA>karma<tB>0<tA>slugcats<tB><tA>pos<tB>430.7927<tB>3512.695<tA>handlePos<tB>-315.3553<tB>-407.3553, 
+FadePalette: 33, 0.1086956, 0.6195652, 0.7173913, 0.9021739, 0.7173913

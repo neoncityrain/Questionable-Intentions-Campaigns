@@ -1,7 +1,10 @@
 [MERGE]
 CONDITIONAL LINKS
 
+NCRMarauder : SB_D06 : SB_E05 : SB_E05SAINT
 
+
+// leave entropys values down here please, theres so many of them.................
 
 NCREntropy : GATE_DS_SB : SB_D04 : SB_H02
 NCREntropy : GATE_SB_SL : SB_G02 : SB_J01

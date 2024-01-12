@@ -1,0 +1,14 @@
+Template: SU_SettingsTemplate_Inside
+DangerType: Blizzard
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 5.605194E-45
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Palette: 5
+Effects: Coldness-1-30-30, ReplaceEffectColorB-1-36.44272-83.37778-Color-0.1778646-0.2344088-0.07733237, 
+FadePalette: 33, 0.3394475
+WetTerrain: OFF

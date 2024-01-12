@@ -1,6 +1,12 @@
 [MERGE]
 CONDITIONAL LINKS
-// Saint-like
+
+// normal shoreline for mar
+NCRMarauder : DISCONNECTED
+
+
+// Saint-like Entropy
+// this is no longer relevant
 NCREntropy : SL_B02 : SL_A02 : DISCONNECTED
 NCREntropy : SL_B02 : SL_C11 : DISCONNECTED
 NCREntropy : SL_B02 : SL_A14 : DISCONNECTED
@@ -40,5 +46,6 @@ NCREntropy : HIDEROOM : SL_S13
 NCREntropy : HIDEROOM : SL_EDGE01
 NCREntropy : HIDEROOM : SL_EDGE02
 NCREntropy : HIDEROOM : SL_BRIDGE01
+
 END CONDITIONAL LINKS
 [ENDMERGE]

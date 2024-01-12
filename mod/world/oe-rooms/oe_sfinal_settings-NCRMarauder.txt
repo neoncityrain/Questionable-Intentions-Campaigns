@@ -1,8 +1,8 @@
 Template: NONE
 DangerType: Blizzard
-WaveSpeed: 0.5058278
-WaveLength: 0.9817953
-WaveAmplitude: 0.006596541
+WaveSpeed: 0.5746149
+WaveLength: 0.8601444
+WaveAmplitude: 0.02290853
 SecondWaveLength: 0.1666667
 SecondWaveAmplitude: 0
 Clouds: 0.2934783
@@ -10,5 +10,6 @@ Grime: 0
 Palette: 41
 EffectColorB: 10
 Effects: Contrast-0.0326087-297-15, AboveCloudsView-1-391-137, SkyAndLightBloom-0.6847826-120-107, Coldness-0.1546649-30-30, LightBurn-0.2717391-251-64, 
+PlacedObjects: SnowSource><94.83209><227.8246><Radial~0~100~50~86.60254~0.4586731~0, SnowSource><453.5261><256.0435><Radial~2.845825~101.4222~50~86.60254~0.3968075~0, 
 AmbientSounds: OMNI><AM_ENV-NatWind.ogg><746.3958><613.6368><0.3804348><0.9413043, SPOT><AM_ENV-Pasture.ogg><749.6595><397.3216><0.4347826><1><874.6596><344.3217><-348.3553><-155.3553><0><1, 
 FadePalette: 33, 0.3586957

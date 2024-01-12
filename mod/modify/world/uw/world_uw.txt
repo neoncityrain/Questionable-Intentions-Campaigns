@@ -1,6 +1,8 @@
 [MERGE]
 CONDITIONAL LINKS
- //Riv Rooms
+
+
+ //Riv Rooms for Parton. i literally dont remember typing this ngl
  //far left side
 NCRParton : UW_C04 : UW_D05 : UW_D05RIV
 NCRParton : UW_D05 : UW_C04 : DISCONNECTED

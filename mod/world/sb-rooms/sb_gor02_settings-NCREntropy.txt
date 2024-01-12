@@ -1,0 +1,15 @@
+DangerType: Blizzard
+RumbleIntensity: 0.7717391
+WaveSpeed: 0.5135502
+WaveLength: 0.9679841
+WaveAmplitude: 0.008459567
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.02173913
+Palette: 26
+EffectColorA: 18
+EffectColorB: 18
+Effects: Coldness-0-20-20, 
+PlacedObjects: LightSource><343.6098><558.6074><0.07608695~Environment~223~304~-304~65.60254~1~1~None~0~0, LightSource><412.3708><472.3474><0.1956522~Environment~115~319~-371~265.6025~1~0~None~0~0, LightSource><666.6069><868.1102><0.2391304~Environment~343~-275~-81~-287.3975~1~1~None~0~0, 
+AmbientSounds: OMNI><AM_WIN-NiceWnd.ogg><75.94751><530.7816><0.3913043><1, SPOT><AM_IND-Utility03.ogg><760.2935><448.5548><0.4130435><1><1407.293><249.5548><-105.3553><12.64466><0><0.1, SPOT><AM_IND-ElectricHum03.ogg><778.1654><266.6812><0.2173913><1><1397.165><189.6812><6.644653><122.6447><0><0.2739132, 
+FadePalette: 1, 0.4673913, 0.7065217, 0.8695652

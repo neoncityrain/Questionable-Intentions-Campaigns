@@ -1,12 +1,13 @@
 Template: NONE
 DangerType: Blizzard
 CeilingDrips: 0
-WaveSpeed: 0.5
-WaveLength: 1
-WaveAmplitude: 5.605194E-45
+WaveSpeed: 0.5004815
+WaveLength: 0.9725683
+WaveAmplitude: 0.009030914
 SecondWaveLength: 1
 SecondWaveAmplitude: 0.0001
 Clouds: 0.8369565
+Grime: 0.08695652
 Palette: 27
 EffectColorA: 9
 EffectColorB: 10

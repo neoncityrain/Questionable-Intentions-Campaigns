@@ -1,6 +1,10 @@
 [MERGE]
 CONDITIONAL LINKS
+//allow access to peebs
+NCRMarauder : DISCONNECTED
 
+
+// prevent access to peebs
 NCREntropy : CC_A06 : CC_H01 : CC_H01SAINT
 NCREntropy : CC_H01 : CC_A06 : DISCONNECTED
 NCREntropy : CC_H01SAINT : 1 : CC_A06

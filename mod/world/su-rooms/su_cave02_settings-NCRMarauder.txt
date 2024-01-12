@@ -1,0 +1,16 @@
+DangerType: Blizzard
+CeilingDrips: 0
+RainIntensity: 0.3804348
+WaveSpeed: 0.4988521
+WaveLength: 0.9994261
+WaveAmplitude: 3.09143E-07
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.75
+Palette: 5
+EffectColorB: 6
+Effects: LightBurn-0.1304348-24-63, Coldness-1-24-125, Dustpuffs-1-281-15, 
+PlacedObjects: DangleFruit><1186.661><449.6317><0~0~2~3, DangleFruit><1220.309><416.8094><0~0~2~3, DangleFruit><599.2152><362.553><0~0~2~3, DangleFruit><446.3068><333.9486><0~0~2~3, DangleFruit><2726.386><452.6031><0~0~2~3, DangleFruit><2760.444><395.7969><0~0~2~3, SnowSource><2535.428><522.6865><Radial~-480~-563~57~37.60254~0.6413044~1, 
+AmbientSounds: SPOT><SO_WAT-Splashes.ogg><770.3821><357.5999><0.326087><1><1039.382><309.5999><-157.3553><-130.3553><0><0.4369566, SPOT><SO_WAT-RunningWater.ogg><766.4489><564.2709><0.3695652><0.8434783><1047.449><497.2709><-38.35535><-68.35535><0><0.3065219, SPOT><AM_IND-Utility02.ogg><774.3703><242.8402><0.2934783><1><1279.37><292.8402><-95.35535><-144.3553><0><0.502174, 
+FadePalette: 10, 0.3152174, 0.326087, 0.326087
+WetTerrain: OFF

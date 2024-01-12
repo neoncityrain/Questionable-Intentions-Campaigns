@@ -1,0 +1,20 @@
+Template: NONE
+DangerType: Blizzard
+CeilingDrips: 0
+RainIntensity: 0.2065217
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 5.605194E-45
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.7934783
+Grime: 0.1086956
+WaterReflectionAlpha: 0
+Palette: 6
+EffectColorA: 10
+EffectColorB: 9
+Effects: SilenceWater-1-19-130, WaterDepth-1-17-76, Darkness-0.07608695-20-20, 
+PlacedObjects: NoSpearStickZone><474.3><252.4997><-232~132, CommonGateData><492.3984><244.366><100~50~False~False~False~False~False~False~False~True~0.4891304~1~1, 
+AmbientSounds: OMNI><AM_IND-SuperStructure.ogg><830.6804><648.8125><0.3586957><0.7456522, OMNI><AM_WIN-StrongWnd2.ogg><650.9935><645.8001><0.173913><1, OMNI><SO_WAT-LilDrips.ogg><470.3357><647.136><0.3043478><1, 
+FadePalette: 33, 0.6521739

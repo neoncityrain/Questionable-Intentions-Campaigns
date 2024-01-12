@@ -1,0 +1,16 @@
+Template: SU_SettingsTemplate_Inside
+DangerType: Blizzard
+CeilingDrips: 0
+RainIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 5.605194E-45
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Palette: 5
+EffectColorA: 18
+EffectColorB: 6
+Effects: Darkness-0.2065217-16-74, Coldness-1-20-134, Dustpuffs-1-274-24, LightBurn-0.4456522-280-80, 
+PlacedObjects: DangleFruit><833.9724><332.3019><0~0~2~3, DangleFruit><863.9297><296.3128><0~0~2~3, 
+FadePalette: 10, 0.4565217
+WetTerrain: OFF

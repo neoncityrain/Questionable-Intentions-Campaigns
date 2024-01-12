@@ -102,10 +102,7 @@ namespace NCRcatsmod
                         if (game.world.GetAbstractRoom(game.Players[k].pos).creatures[l].creatureTemplate.type != MoreSlugcatsEnums.CreatureTemplateType.SlugNPC
                             || game.world.GetAbstractRoom(game.Players[k].pos).creatures[l].creatureTemplate.type == null)
                         {
-                            if (!MarauderCannibalising)
-                            {
-                                self.forcePupsNextCycle = 1;
-                            }
+
                         }
                         else
                         {
@@ -243,7 +240,8 @@ namespace NCRcatsmod
                     } 
 
                     Debug.Log("MARAUDER FUCKED UP AND EVIL MOMENTS!!!!!!!!");
-                    
+
+                    self.SetMalnourished(false);
                     MarauderKarmaCheck = false; 
                     MarauderCannibalising = true; 
                 } 
@@ -515,7 +513,7 @@ namespace NCRcatsmod
             if (ModManager.CoopAvailable)
                 {
                     Player player = crit as Player;
-                    if (player != null && (player.isNPC || !Custom.rainWorld.options.friendlyFire || !self.GetMarCat().IsMarauder))
+                    if (player != null && (player.isNPC || !Custom.rainWorld.options.friendlyFire) && !self.GetMarCat().IsMarauder)
                     {
                         flag = false;
                     }
@@ -763,7 +761,7 @@ namespace NCRcatsmod
             }
             if (self.GetMarCat().IsMarauder)
             {
-                if (self.playerState.foodInStomach > 1)
+                if (self.playerState.foodInStomach > 1 || !self.Malnourished)
                 {
                     self.waterFriction = 0.965f;
                 }

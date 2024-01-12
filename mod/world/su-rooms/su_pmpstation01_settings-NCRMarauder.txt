@@ -1,0 +1,20 @@
+Template: SU_SettingsTemplate_Inside
+DangerType: Blizzard
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0.8478261
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 5.605194E-45
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.8913044
+Palette: 5
+EffectColorA: 0
+EffectColorB: 6
+Effects: Contrast-0-12-61, LightBurn-0.1195652-6-119, Coldness-1-268-21, Flies-0-30-30, 
+PlacedObjects: LightSource><386.9354><2049.325><0.1413043~Environment~492~-292~-264~0.6025391~1~1~None~0~0, LightBeam><542.2806><1679.948><-682~700~-36~714~299~62~-414~60~0.345652~0.7173913~0.2608696~1~None~0~0, CustomDecal><548.3747><1898.406><-42~234~346~290~360~-32~-688~-48~0.1956522~0.4130435~0~AwfulLongB&W~0.3478261~0.4347826~0.2391304~0.4347826~0.8043478~0.4347826~0.3913043~0.4347826, ExitSymbolHidden><462.5981><2175.88><, LightFixture><466.8961><203.5791><RedSubmersible~17.32051~-10~17, PlayerPushback><482.174><202.1514><48~586, PlayerPushback><480.8481><427.8699><132~1252, 
+AmbientSounds: DIR><AM_IND-Factory01.ogg><733.35><214.9232><0.4565217><1><-123.7205><0, SPOT><SO_IND-MechHum01.ogg><771.4352><30.43921><0.7173913><1><478.4352><205.4392><6.644653><466.6447><0><0.4260871, OMNI><AM_ENV-Outside.ogg><764.0152><469.9494><0><1, OMNI><AM_ENV-NatWind.ogg><773.0822><541.8176><0.1847826><1, 
+FadePalette: 10, 0.5, 0.5652174, 0.6413044
+RoomSpecificScriptActive: ON
+WetTerrain: OFF

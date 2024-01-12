@@ -1,0 +1,15 @@
+Template: NONE
+DangerType: Blizzard
+WaveSpeed: 0.4501276
+WaveLength: 0.9750638
+WaveAmplitude: 6.613509E-05
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.5288272
+Grime: 0
+BkgDroneVolume: 0
+Palette: 16
+EffectColorA: 20
+EffectColorB: 20
+PlacedObjects: NoSpearStickZone><479.6824><242.1882><-259~110, 
+FadePalette: 33, 0.5824049
