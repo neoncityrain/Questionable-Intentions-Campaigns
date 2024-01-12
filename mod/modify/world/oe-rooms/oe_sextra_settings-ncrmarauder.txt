@@ -1,5 +1,0 @@
-[MERGE]
-WaveSpeed: 0.4958299
-WaveLength: 0.9974834
-WaveAmplitude: 0.004068702
-[ENDMERGE]

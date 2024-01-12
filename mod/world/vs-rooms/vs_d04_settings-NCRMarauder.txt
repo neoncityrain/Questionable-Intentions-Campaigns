@@ -1,0 +1,13 @@
+Template: VS_SettingsTemplate_Filter
+DangerType: Blizzard
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 5.605194E-45
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Palette: 33
+FadePalette: 10, 0.7391304, 0.7717391, 0.7608696, 0.75
+WetTerrain: OFF

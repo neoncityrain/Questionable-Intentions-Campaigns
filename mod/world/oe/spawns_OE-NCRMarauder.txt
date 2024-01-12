@@ -1,4 +1,14 @@
 OFFSCREEN : 0-Vulture-2, 0-MirosVulture-{Night}-1, 0-MirosVulture-{PreCycle}-1, 0-KingVulture-1, 0-Scavenger-13, 0-EliteScavenger-2
 
 OE_FINAL02 : 4-Yeek-2, 5-Cicada-3, 6-SmallCentipede-1
-OE_JUNGLE03 : 3-Cicada-2, 3-SlugNPC-1
+OE_JUNGLE03 : 3-Cicada-2
+OE_CAVE14 : 2-Eel
+OE_RUIN25 : 2-ZoopLizard
+OE_RUIN10 : 3-Caramel
+OE_RUIN24 : 2-Mimic-{10}
+OE_TOWER03 : 4-White, 5-Blue
+
+
+
+
+LINEAGE : OE_JUNGLE03 : 3 : SlugNPC-1, NONE-0

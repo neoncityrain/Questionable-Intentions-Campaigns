@@ -83,10 +83,23 @@ namespace NCRcatsmod
             // cant throw spears when not starving or cannibalising
             On.Player.ThrownSpear += Player_ThrownSpear;
 
+            // prevent starve stunning
+            On.Player.Update += Player_Update;
+
 
             // ---------------------------------------------------- VIVIATED STUFF ----------------------------------------------------
             //gross sounds when dying
             On.Player.Die += Player_Die;
+        }
+
+        private void Player_Update(On.Player.orig_Update orig, Player self, bool eu)
+        {
+            orig(self, eu);
+            if (self.GetMarCat().IsMarauder && self.slugcatStats.malnourished && !self.submerged)
+            {
+                self.exhausted = false;
+                self.lungsExhausted = false;
+            }
         }
 
         private void SaveState_SessionEnded(On.SaveState.orig_SessionEnded orig, SaveState self, RainWorldGame game, bool survived, bool newMalnourished)

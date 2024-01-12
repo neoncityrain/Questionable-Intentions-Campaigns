@@ -1,0 +1,14 @@
+DangerType: Blizzard
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 5.605194E-45
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Palette: 14
+Effects: Coldness-1-20-20, 
+PlacedObjects: DangleFruit><669.2874><444.6965><0~0~2~3, DangleFruit><710.0965><485.3718><0~0~2~3, DangleFruit><753.1346><386.6634><0~0~2~3, 
+FadePalette: 33, 0.8260869
+WetTerrain: OFF

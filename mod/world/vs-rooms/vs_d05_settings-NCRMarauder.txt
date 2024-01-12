@@ -1,0 +1,15 @@
+Template: VS_SettingsTemplate_Sewer
+DangerType: Blizzard
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 1.568424E-09
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 1
+Palette: 33
+Effects: Coldness-1-20-20, 
+FadePalette: 10, 0.5217391, 0.5, 0.5108696, 0.5108696
+WetTerrain: OFF

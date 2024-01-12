@@ -1,8 +1,0 @@
-[FIND]BlueToken><1435.569><554.3124><65~12~-331~-76~1~SpitLizard~Red|Rivulet|Artificer|Saint|Spear~0~0~0~0, 
-[REPLACE]
-[MERGE]
-WaveSpeed: 0.4995655
-WaveLength: 0.9987767
-WaveAmplitude: 0.0001124867
-PlacedObjects: BlueToken><1435.569><554.3124><65~12~-331~-76~1~SpitLizard~Red|Rivulet|Artificer|Saint|Spear~0~0~0~0~0~0~0~0, 
-[ENDMERGE]

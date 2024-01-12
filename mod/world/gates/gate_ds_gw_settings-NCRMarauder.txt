@@ -1,0 +1,10 @@
+DangerType: Flood
+WaveSpeed: 0.4995313
+WaveLength: 0.9997657
+WaveAmplitude: 9.430715E-05
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Grime: 0.2391304
+Palette: 8
+PlacedObjects: ExitSymbolShelter><913.1998><269.9436><, NoSpearStickZone><483.6084><243.3913><-147~221, 
+FadePalette: 4, 0.7173913
