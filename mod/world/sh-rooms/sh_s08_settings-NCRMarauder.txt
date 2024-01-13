@@ -1,0 +1,9 @@
+WaveSpeed: 0.4747944
+WaveLength: 0.9873972
+WaveAmplitude: 4.366743E-12
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+BkgDroneVolume: 0
+PlacedObjects: BrokenShelterWaterLevel><228.3082><469.3068><, 
+AmbientSounds: OMNI><waterGurgleLOOP3.wav><839.0552><646.3077><0.2173913><0.7652174, SPOT><SO_WAT-OpenFlow.ogg><831.1941><538.2982><0.1413043><0.8434783><265.1941><583.2982><-35.35534><-35.35534><0><0.1, OMNI><SO_WAT-DripTap.ogg><664.834><646.3884><0.2173913><1, 
+FadePalette: 9, 0.1086956

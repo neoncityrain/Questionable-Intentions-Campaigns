@@ -1,0 +1,13 @@
+DangerType: Blizzard
+CeilingDrips: 0.6086956
+RainIntensity: 0.2189424
+RumbleIntensity: 0.203476
+WaveSpeed: 0.4992257
+WaveLength: 0.9996129
+WaveAmplitude: 0.0002346245
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Grime: 0
+PlacedObjects: CustomDecal><507.9052><237.8739><-1~140~201~127~158~-16~-355~-33~0.2391304~1~0~Miros_Bird_Warning~0.4320765~0.4767549~0.5434783~0.4767549~0.1304348~0.4767549~0.6045287~0.4767549, 
+AmbientSounds: OMNI><AM_ENV-CityTone.ogg><839.627><641.9077><0.3478261><0.9217392, OMNI><SO_WAT-LilDrips.ogg><655.0596><638.5611><0.1956522><1, 
+FadePalette: 0, 0.1086956

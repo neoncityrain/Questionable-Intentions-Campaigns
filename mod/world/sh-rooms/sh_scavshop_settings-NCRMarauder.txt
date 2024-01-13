@@ -1,0 +1,12 @@
+Template: SH_SettingsTemplate_DarkSun
+DangerType: Blizzard
+WaveSpeed: 0.5476652
+WaveLength: 0.9761674
+WaveAmplitude: 5.605194E-45
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.423913
+Effects: LightBurn-0.4565217-16-20, Coldness-0-30-30, Dustpuffs-0-40-40, 
+PlacedObjects: LightSource><298.9321><427.0828><0.02173912~Environment~1038~-380~358~-396.3975~1~1~None~0~0, TradeOutpost><744.5414><333.8044><331~4, LightSource><741.55><412.9965><0.2717391~Environment~-691~-374~50~86.60254~1~0~None~0~0, SnowSource><1001.307><374.2154><Radial~-494.4635~370.2223~-401.8229~-11.57318~0.3890261~0, SnowSource><145.8542><425.6889><Radial~596.2021~301.2445~-401.8229~-11.57318~0.3890261~0, SnowSource><716.4438><379.4667><Radial~596.2021~301.2445~-401.8229~-11.57318~0.3890261~0, SnowSource><549.3695><159.045><UnSnow~137.3115~36~50~86.60254~1~0, SnowSource><811.7792><124.8889><UnSnow~137.3115~36~50~86.60254~1~0, SnowSource><996.7584><142.6667><UnSnow~97.46979~0.4444351~50~86.60254~1~0, 
+AmbientSounds: OMNI><AM_ENV-CityTone.ogg><855.8068><656.0518><0.423913><0.8826087, OMNI><AM_WIN-SubWnd.ogg><682.6971><654.5339><0.423913><1, OMNI><AM_RAIN-Rumbles.ogg><858.9675><581.5527><0.2608696><1, 
+FadePalette: 0, 0.173913

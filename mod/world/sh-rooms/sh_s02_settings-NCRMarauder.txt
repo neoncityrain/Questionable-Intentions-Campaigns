@@ -1,0 +1,11 @@
+DangerType: Blizzard
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 2.101948E-44
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+BkgDroneVolume: 0
+PlacedObjects: BrokenShelterWaterLevel><492.5716><342.1596><, LanternOnStick><490.2813><370.9525><-18.49792~-70.66669, 
+AmbientSounds: OMNI><AM_ENV-CityTone.ogg><773.9447><562.7042><0.2934783><0.9021739, 

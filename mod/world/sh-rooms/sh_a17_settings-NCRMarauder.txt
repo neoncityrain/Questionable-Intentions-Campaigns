@@ -1,0 +1,10 @@
+DangerType: Blizzard
+WaveSpeed: 0.6016285
+WaveLength: 0.9491857
+WaveAmplitude: 0.008849394
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+BkgDroneVolume: 0
+PlacedObjects: FlareBomb><333.5612><221.3159><0~0~2~3, FlareBomb><644.2783><193.302><0~0~2~3, ExitSymbolHidden><388.6465><70.86389><, SnowSource><304.2578><332.774><Radial~282.4489~43.11111~50~86.60254~0.4509403~0, SnowSource><631.7032><335.6814><Radial~-212.7261~-13.77777~50~86.60254~0.4277397~0, 
+AmbientSounds: SPOT><Weird Deep Hole.wav><728.7072><510.0547><0.1413043><1><467.7072><385.0547><-304.3553><-148.3553><0><0.2413045, OMNI><SO_WAT-DripTap.ogg><711.8578><633.1093><0.2065217><1, SPOT><SO_WAT-RunningWater.ogg><772.9362><188.3105><0.2391304><0.5695652><388.9362><27.31047><-35.35534><-35.35534><0><0.154348, 
+FadePalette: 0, 0
