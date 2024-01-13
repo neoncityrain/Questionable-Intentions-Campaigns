@@ -3,9 +3,9 @@ DangerType: Blizzard
 CeilingDrips: 0
 RainIntensity: 0.009999814
 RumbleIntensity: 0
-WaveSpeed: 0.5001872
-WaveLength: 0.9985473
-WaveAmplitude: 0.0002886416
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 5.605194E-45
 SecondWaveLength: 1
 SecondWaveAmplitude: 0.0001
 Clouds: 0.9021739
@@ -16,8 +16,8 @@ WaterReflectionAlpha: 0
 Palette: 41
 EffectColorA: 9
 EffectColorB: 10
-Effects: Darkness-0-277-85, AboveCloudsView-1-15-135, Coldness-0-274-37, Fog-0.3913043-255-9, MossWater-0-20-20, MossWaterRGB-0-431-490-Blue:255-Green:255-Red:210.7065, WaterDepth-0.04347826-30-30, 
+Effects: Darkness-0-277-85, AboveCloudsView-1-15-135, Coldness-0-274-37, Fog-0.3913043-255-9, MossWater-0-20-20, MossWaterRGB-0-431-490-Blue:255-Green:255-Red:210.7065-Blue:255-Green:255-Red:210.7065, WaterDepth-0.04347826-30-30, 
 PlacedObjects: LanternOnStick><263.3049><473.7045><-31~-132, LanternOnStick><278.6669><444.6398><-45~-103, DayNightSettings><449.0347><486.697><5~8.660254~10~76, 
 AmbientSounds: SPOT><Deep Weird Wind.wav><749.8811><418.599><0.25><1><435.8812><457.599><274.6447><-59.35535><0><0.9478262, OMNI><SO_WAT-ProperDrips.ogg><745.0795><226.0665><0.5><1, OMNI><SO_WAT-MoreDrips.ogg><557.1462><226.4209><0.5><1, 
-FadePalette: 37, 0.5217391, 0.6521739
+FadePalette: 33, 0.3586957, 0.5108696
 WetTerrain: OFF

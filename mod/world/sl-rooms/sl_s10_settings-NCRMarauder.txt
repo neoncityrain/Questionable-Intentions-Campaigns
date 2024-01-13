@@ -1,0 +1,18 @@
+Template: SL_SettingsTemplate_Sewer
+DangerType: Blizzard
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 2.454882E-21
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.4021739
+Grime: 0
+Palette: 5
+Effects: WaterDepth-0.2608696-41-77, BrokenZeroG-0.5-20-20, 
+PlacedObjects: BrokenShelterWaterLevel><470.6973><505.6929><, 
+AmbientSounds: OMNI><waterGurgleLOOP2.wav><654.7124><649.6964><0.2282609><1, OMNI><AM_IND-SuperStructure.ogg><478.6987><651.8066><0.2717391><1, 
+FadePalette: 10, 0.4891304
+WetTerrain: OFF

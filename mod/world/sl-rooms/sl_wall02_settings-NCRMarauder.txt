@@ -1,0 +1,18 @@
+Template: SL_SettingsTemplate_Sewer
+DangerType: Rain
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 1.465936E-34
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 1
+Palette: 35
+EffectColorA: 12
+Effects: HeatWave-0.4673913-2-56, 
+PlacedObjects: LightFixture><2646.898><866.5782><RedLight~-30.6795~-123~30, LightFixture><3129.941><591.9412><RedLight~-324.6795~-175~24, GlowWeed><2072.816><464.9387><0~0~2~3, GlowWeed><1954.185><512.0771><0~0~2~3, BubbleGrass><2424.614><661.5854><0~0~4~9, BubbleGrass><2472.527><664.5519><0~0~4~9, Filter><2028.835><513.3872><5~143~95~161~Rivulet|Artificer|Saint|Spear, 
+AmbientSounds: OMNI><MSC-WetConduits.ogg><791.0762><457.8151><0.5><1, SPOT><SO_WAT-OpenFlow.ogg><807.5837><540.6816><0.3478261><1><1643.584><625.6816><-149.3553><-55.35535><0><0.3934784, SPOT><SO_WAT-Splashes.ogg><635.1547><533.6268><0.3586957><1><2206.155><619.6268><-107.3553><-68.35535><0><0.4152175, 
+FadePalette: 10, 0.3369565, 0.4565217, 0.5760869
+WetTerrain: OFF

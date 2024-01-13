@@ -1,0 +1,9 @@
+Template: NONE
+DangerType: Blizzard
+Clouds: 0.2391304
+BkgDroneVolume: 0.2469565
+Palette: 0
+Effects: Flies-0-20-20, LightBurn-0.06521739-23-74, Coldness-1-21-136, Dustpuffs-1-276-20, 
+PlacedObjects: NoSpearStickZone><37.04559><252.4447><-77~88, NoSpearStickZone><243.5723><357.4083><0~100, SnowSource><103.2335><396.0507><Radial~925~-306~743~-407.3975~0.6195652~1, SnowSource><403.0905><273.6206><Radial~227~323~175~-279.3975~0.8043478~1, 
+AmbientSounds: SPOT><AM_IND-Utility03.ogg><471.3587><253.6679><0.5><1><833.3586><656.6678><-26.35535><-67.35535><0><0.3500001, OMNI><AM_ENV-NatWind.ogg><736.6118><634.8554><0.2282609><1, OMNI><AM_ENV-WinterTrees.ogg><744.1459><552.3292><0.326087><1, 
+FadePalette: 15, 0.6086956

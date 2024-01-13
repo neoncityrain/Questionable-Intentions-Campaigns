@@ -1,0 +1,13 @@
+DangerType: Blizzard
+CeilingDrips: 0
+RainIntensity: 0.8369565
+WaveSpeed: 0.5408276
+WaveLength: 0.9795862
+WaveAmplitude: 5.811344E-12
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+EffectColorB: 6
+Effects: Coldness-1-25-73, LightBurn-0.1521739-30-126, Dustpuffs-1-280-19, 
+PlacedObjects: DangleFruit><210.3367><478.6346><0~0~2~3, DangleFruit><243.3143><447.6755><0~0~2~3, DangleFruit><638.3671><511.6005><0~0~2~3, SnowSource><423.6239><303.843><Radial~233~336~50~86.60254~0.7065217~1, DevToken><523.5842><415.3619><-15~-57~44~-129~0~~White|Yellow|Red|Rivulet|Artificer|Saint|Gourmand~0~0~0~1, 
+FadePalette: 10, 0.2934783
+WetTerrain: OFF

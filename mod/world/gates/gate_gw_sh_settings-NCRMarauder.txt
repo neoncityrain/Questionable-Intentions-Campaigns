@@ -1,0 +1,21 @@
+Template: NONE
+DangerType: Blizzard
+CeilingDrips: 0.2717391
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.7717391
+WaveLength: 0.4891304
+WaveAmplitude: 0
+SecondWaveLength: 0.1992755
+SecondWaveAmplitude: 0
+Clouds: 0.2934783
+Grime: 0
+RandomItemDensity: 0.5
+RandomItemSpearChance: 0.1891304
+WaterReflectionAlpha: 1
+Palette: 10
+EffectColorA: 0
+EffectColorB: 18
+Effects: Bloom-0.423913-30-30, Fog-0-295-33, LightBurn-0.1413043-24-81, Coldness-1-289-88, 
+PlacedObjects: ExitSymbolHidden><230.0419><105.449><, ExitSymbolHidden><731.0359><393.4482><, LightSource><483.4669><223.8027><0.05434782~White~-353~226~50~86.60254~1~1~None~0~0, NoSpearStickZone><473.8926><239.3598><1~305, LanternOnStick><210.2746><295.0515><-51~-144, CustomDecal><678.31><153.8087><4~128~173~43~112~-29~-714~148~0.6195652~1~0.3152174~Miros_Bird_Warning~0.3369565~0.1956522~0.75~0.1956522~0.3913043~0.1956522~0.9239131~0.1956522, 
+FadePalette: 0, 0.326087

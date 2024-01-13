@@ -1,0 +1,14 @@
+Template: NONE
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 2.238936E-27
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Grime: 0.2608696
+Palette: 4
+EffectColorA: 13
+FadePalette: 11, 0.6413044
+WetTerrain: OFF

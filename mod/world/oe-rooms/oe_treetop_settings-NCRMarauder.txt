@@ -1,9 +1,10 @@
 Template: NONE
 DangerType: Blizzard
+CeilingDrips: 0
 RainIntensity: 1
-WaveSpeed: 0.4987912
-WaveLength: 0.9993956
-WaveAmplitude: 0.003371371
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 1.278308E-25
 SecondWaveLength: 0.1666667
 SecondWaveAmplitude: 0
 Grime: 0
@@ -14,3 +15,4 @@ PlacedObjects: Vine><511.9263><1030.406><200~356, Vine><541.7117><1016.304><245~
 AmbientSounds: OMNI><AM_ENV-Outside.ogg><103.1786><455.9101><0.326087><1, OMNI><AM_ENV-WinterTrees.ogg><111.0734><534.564><0.5217391><1, SPOT><AM_ENV-NatWind.ogg><838.6397><599.6669><0.3695652><1><484.6397><1493.667><-544.3553><-619.3553><0><1, SPOT><AM_WIN-NiceWnd.ogg><837.3203><484.4123><0.423913><1><477.3203><1783.412><-35.35535><-715.3553><0><1, SPOT><AM_WIN-StrongWnd2.ogg><835.5635><367.1896><0.326087><1><493.5635><2234.19><-21.35535><-540.3553><0><1, SPOT><AM_ENV-NatWind.ogg><833.9><245.6323><0.326087><1><501.9><1.632296><64.64465><506.6447><0><0.328261, SPOT><AM_ENV-Pasture.ogg><834.6374><6.604645><0.3586957><1><348.6374><4.604647><502.6447><119.6447><0><1, 
 Triggers: Spot<tA>event<tB>MusicEvent<eA>songName<eB>NA_11 - Reminiscence<eA>vol<eB>0.419565<eA>prio<eB>0.4347826<eA>mxThrt<eB>1<eA>loop<eB>0<eA>droneTol<eB>0<eA>rooms<eB>-1<eA>rest<eB>-1<eA>fadeIn<eB>0<eA>oneSongPerCycle<eB>0<eA>stopAtDeath<eB>0<eA>stopAtGate<eB>0<tA>multiUse<tB>0<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>889.3956<tB>469.1706<tA>fireChance<tB>1<tA>entrance<tB>-1<tA>karma<tB>0<tA>slugcats<tB><tA>pos<tB>476.3956<tB>2046.17<tA>handlePos<tB>89.64465<tB>-274.3553, 
 FadePalette: 40, 0.8119905, 0.7329823, 0.6466711
+WetTerrain: OFF

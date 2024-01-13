@@ -1,0 +1,10 @@
+Template: SL_SettingsTemplate_Sewer
+DangerType: Blizzard
+RainIntensity: 0
+RumbleIntensity: 0
+Clouds: 1
+Palette: 35
+Effects: Coldness-1-30-30, 
+PlacedObjects: LightFixture><731.938><1665.432><RedSubmersible~17.32051~-10~31, LightFixture><1509.3><939.5><RedSubmersible~17.32051~-10~63, LightFixture><524.3165><857.42><RedSubmersible~17.32051~-10~92, LightSource><1419.151><2252.611><0~Environment~11~-359~86~-198.3975~1~1~None~0~0, LightBeam><1375.902><1975.38><2~319~70~317~80~-1~-80~-308~0.01956508~0~0.2717391~1~None~0~0, LightSource><545.6606><2241.881><0.07608691~Environment~182~-398~80~-273.3975~1~1~None~0~0, LightBeam><557.9851><1847.949><0~445~64~438~65~-3~-716~-10~0.01956525~0~0~1~None~0~0, LightBeam><458.1742><1801.848><6~487~72~491~63~2~-617~-112~0.01956525~0~0~1~None~0~0, LightSource><133.1979><2252.971><0.1521736~Environment~0~100~40~-253.3975~1~0~None~0~0, 
+AmbientSounds: OMNI><MSC-WetConduits.ogg><795.3938><455.889><0.5><1, 
+FadePalette: 10, 0.7173913, 0, 0, 0, 0, 0.6413044

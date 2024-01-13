@@ -1,0 +1,9 @@
+DangerType: Blizzard
+RainIntensity: 0.2608696
+RumbleIntensity: 0.25
+Grime: 0.06521739
+Palette: 0
+Effects: Flies-0-20-20, Coldness-1-13-71, 
+PlacedObjects: BrokenShelterWaterLevel><613.0516><344.9432><, DeadVultureGrub><656.1284><358.4088><-343~-294~7~10, DeadVultureGrub><678.4487><357.227><-121~-382~7~10, DeadVultureGrub><699.353><358.4214><-400~-389~7~10, Filter><695.1954><334.5428><-8~-55~-105~-269~White|Yellow|Rivulet, 
+AmbientSounds: SPOT><AM_IND-Utility03.ogg><775.0753><447.1527><0.3804348><1><356.0753><410.1527><-232.3553><-56.35535><0><0.2630436, 
+FadePalette: 8, 0.3804348

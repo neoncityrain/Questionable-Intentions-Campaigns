@@ -1,0 +1,20 @@
+Template: NONE
+DangerType: Blizzard
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 1.579585E-36
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 1
+Grime: 0.2065217
+BkgDroneVolume: 0
+Palette: 17
+EffectColorA: 18
+Effects: Coldness-1-20-20, SilenceWater-0.4021739-18-77, 
+PlacedObjects: LightFixture><1888.93><1129.087><RedLight~17.32051~-10~78, LightFixture><2915.639><1157.167><RedLight~17.32051~-10~31, LightFixture><2526.651><1334.881><RedLight~17.32051~-10~17, LightFixture><53.35779><406.4185><RedLight~17.32051~-10~26, CosmeticSlimeMold2><170.4019><1185.075><49~114, SlimeMold><165.0882><1153.07><0~0~2~3, SlimeMold><138.1555><1191.124><0~0~2~3, SlimeMold><143.9453><1156.057><0~0~2~3, DangleFruit><1812.423><1205.934><0~0~2~3, DangleFruit><1336.49><1190.55><0~0~2~3, 
+AmbientSounds: OMNI><MSC-ShadowAlley.ogg><847.6636><636.135><0.3478261><1, OMNI><SO_WAT-MoreDrips.ogg><669.0075><637.6998><0.3913043><1, SPOT><AM_WIN-SubWnd.ogg><847.3655><518.648><0.5><1><1534.365><583.648><-539.3553><-333.3553><0><0.8826088, 
+FadePalette: 16, 0.4565217, 0.4565217, 0.4673913, 0.3478261, 0.3369565, 0.3369565
+WetTerrain: OFF

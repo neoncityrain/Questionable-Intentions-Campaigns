@@ -1,0 +1,15 @@
+Template: GW_SettingsTemplate_Inside
+DangerType: Blizzard
+CeilingDrips: 0
+RainIntensity: 0.6847826
+RumbleIntensity: 0.6847826
+Clouds: 0.423913
+Grime: 0.2934783
+Palette: 0
+EffectColorA: 13
+EffectColorB: 5
+Effects: Flies-0-20-20, LightBurn-0.1630435-18-66, Coldness-1-18-118, Dustpuffs-1-269-19, 
+PlacedObjects: ScavengerOutpost><1481.135><152.5862><-55~187~-360~365~0.1955838~81~24, CustomDecal><998.3082><-36.55687><-6~97~662~89~668~0~840~-248~0~0.1630435~0~Scav Wedges2~1~0~1~0~0~1~0~1, CustomDecal><978.2142><140.4468><-40~-191~1015~-86~935~169~-712~-216~0.3043478~0.3478261~0~zGWMarks - A01~1~0.3586957~1~0.2065217~0~0~0.06521739~0, CustomDecal><2419.833><321.5681><0~205~663~364~768~212~-301~2~0.3043478~0.3586957~0~zGWMarks - C06~1~0~1~0~0~0.1847826~0~0.6630435, CustomDecal><686.9218><33.81595><-42~701~1157~679~1070~-76~600~-334.1289~0~0.6630435~0~RustB3~0.4456522~1~1~1~0~1~0.4456522~1, SnowSource><1263.942><14.05562><Radial~812~-102~288~-70.39746~0.5217391~1, LanternOnStick><1928.562><351.9316><52~-93, LanternOnStick><1126.674><155.185><-45~-145, LanternOnStick><1288.727><154.1987><9~-158, LanternOnStick><1227.601><179.871><66~-181, LanternOnStick><1728.643><204.831><12~-120, LanternOnStick><1546.922><179.8972><-28~-176, 
+AmbientSounds: OMNI><SO_WAT-LilDrips.ogg><663.4489><647.729><0.1847826><1, OMNI><AM_ENV-NatWind.ogg><840.0562><650.7992><0.2608696><1, 
+FadePalette: 11, 0.4130435, 0.3152174, 0.423913
+WetTerrain: OFF

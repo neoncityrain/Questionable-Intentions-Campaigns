@@ -1,0 +1,10 @@
+DangerType: Blizzard
+Clouds: 0.173913
+Grime: 0.3478261
+BkgDroneVolume: 0.2769565
+EffectColorA: 2
+EffectColorB: 8
+Effects: Flies-0-20-20, LightBurn-0.1847826-18-70, Coldness-1-17-124, Dustpuffs-1-267-22, 
+PlacedObjects: CustomDecal><512.9027><81.37085><-48~327~573~350~490~-19~-322~-364~0.3043478~1~0.7065217~GhostGraffiti~0.5108696~0.01086957~0.9565217~0.2065217~0.173913~0.6195652~0~0.4891304, NoSpearStickZone><1045.115><549.8863><-155~78, SnowSource><364.9451><390.7062><Radial~1~121~-221~-292.3975~1~0.4130435, SnowSource><144.8846><392.6021><Radial~-7~178~11~-176.3975~1~0, SnowSource><758.6969><140.535><Radial~43~277~184~-170.3975~1~0.4565217, SnowSource><1077.273><602.6987><Radial~21~135~-398~-636.3975~1~0.3804348, 
+AmbientSounds: OMNI><AM_ENV-Outside.ogg><765.4963><477.05><0><1, OMNI><AM_ENV-NatWind.ogg><776.6807><577.3124><0.3586957><1, 
+FadePalette: 8, 0.02173913

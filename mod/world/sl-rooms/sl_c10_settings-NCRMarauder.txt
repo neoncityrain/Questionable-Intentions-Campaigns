@@ -1,0 +1,12 @@
+Template: SL_SettingsTemplate_Sewer
+DangerType: Blizzard
+RainIntensity: 0
+RumbleIntensity: 0
+Clouds: 0.4673913
+Grime: 0.1847826
+Palette: 0
+EffectColorB: 6
+Effects: Fog-0.4347826-20-20, Coldness-1-30-30, 
+PlacedObjects: CustomDecal><315.1534><907.325><0~1516.688~434.0866~1516.688~434.0866~0~-382~241~0.07608695~1~0~Rust3~1~1~0.5326087~1~0~1~0~1, 
+AmbientSounds: SPOT><Basic Mech.ogg><779.5594><156.1895><0.2391304><0.7847826><817.5594><750.1895><-62.35535><-75.35535><0><0.3391306, SPOT><AM_ENV-NatWind.ogg><740.8887><490.1441><0.2826087><1><559.8887><1381.144><-88.35535><-103.3553><0><0.7195653, SPOT><AM_ENV-NatWind.ogg><831.9673><367.8027><0.3478261><1><559.9673><2166.803><-88.35535><-119.3553><0><0.5239132, 
+FadePalette: 8, 0.4347826, 0.4782609, 0.5108696

@@ -1,0 +1,6 @@
+DangerType: Blizzard
+RainIntensity: 0.2065217
+RumbleIntensity: 0.2065217
+Grime: 0.2065217
+AmbientSounds: OMNI><AM_ENV-Outside.ogg><765.4963><477.05><0><1, 
+FadePalette: 10, 0.09782609

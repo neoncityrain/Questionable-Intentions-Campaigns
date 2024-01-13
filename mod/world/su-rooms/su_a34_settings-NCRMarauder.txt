@@ -1,0 +1,13 @@
+Template: NONE
+DangerType: Blizzard
+RainIntensity: 0.2282609
+RumbleIntensity: 0.25
+Clouds: 0.3043478
+Grime: 0.1195652
+BkgDroneVolume: 0.2769565
+Palette: 0
+EffectColorA: 9
+EffectColorB: 7
+PlacedObjects: LightSource><340.0509><116.5566><0.3369565~Environment~0~100~-225~164.6025~1~0~None~0~0, LightSource><639.7815><293.1975><1~Environment~0~100~50~86.60254~1~0~None~0~0, Mushroom><256.0798><84.39499><-360~398~2~3, Mushroom><170.1946><61.70363><-276~496~2~3, Mushroom><200.363><89.66498><-300~305~2~3, 
+AmbientSounds: SPOT><SO_IND-MechHum02.ogg><552.8458><545.3245><0.3152174><1><420.8458><292.3244><-76.35535><-72.35535><0><0.3717393, SPOT><AM_IND-ElectricHum02.ogg><880.3017><390.4741><0.2391303><1><622.3017><311.4741><-61.35535><-74.35535><0><0.2956521, OMNI><AM_ENV-NatWind.ogg><733.1888><489.4404><0.3043478><1, 
+FadePalette: 10, 0.2934783

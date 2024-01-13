@@ -1,0 +1,10 @@
+Template: NONE
+DangerType: Blizzard
+Clouds: 0.1304348
+Grime: 0.3913043
+BkgDroneVolume: 0.2769565
+EffectColorB: 8
+Effects: Coldness-1-20-20, Dustpuffs-0.9782609-20-76, LightBurn-0.1304348-19-133, 
+PlacedObjects: SnowSource><546.6174><396.1003><None~631~-450~391~-439.3975~0.4456522~1, SnowSource><458.5134><94.19952><Radial~722~444~219~-140.3975~0.2065217~1, SnowSource><599.8178><73.08246><Radial~361~66~50~86.60254~1~0, 
+AmbientSounds: SPOT><SO_IND-Fridge.ogg><753.3087><369.3082><0.1956522><1><124.3087><354.3082><55.64465><-43.35535><0><0.3173914, OMNI><AM_ENV-NatWind.ogg><737.55><490.7475><0.3043478><1, 
+FadePalette: 8, 0.0326087

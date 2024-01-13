@@ -3,16 +3,16 @@ DangerType: Blizzard
 CeilingDrips: 0
 RainIntensity: 0.0752172
 RumbleIntensity: 0.5652174
-WaveSpeed: 0.4995717
-WaveLength: 0.9874911
-WaveAmplitude: 0.002551933
+WaveSpeed: 0.4997959
+WaveLength: 0.9995198
+WaveAmplitude: 0.0003549054
 SecondWaveLength: 1
 SecondWaveAmplitude: 0.0001
 Clouds: 1
 Grime: 0.1956522
 Palette: 33
 EffectColorB: 10
-Effects: WaterDepth-0.09782609-272-257, SilenceWater-0.2934783-277-132, Darkness-0-13-133, AboveCloudsView-1-298-314, Fog-0.173913-271-69, DayNight-0.3043478-20-20, MossWaterRGB-0-425-481-Blue:255-Green:255-Red:227.3369, MossWater-0-40-40, 
-PlacedObjects: LanternOnStick><2000.011><598.551><19~-126, LanternOnStick><2371.982><650.9492><-27~-187, LanternOnStick><2702.904><770.5687><104~-83, LanternOnStick><1409.861><605.8955><-22~-127, LanternOnStick><946.2><574.7377><57~-163, LanternOnStick><454.132><455.5996><-14~164, LanternOnStick><730.8521><454.6154><-48~-197, 
+Effects: WaterDepth-0.09782609-272-257, SilenceWater-0.2934783-277-132, Darkness-0-13-133, AboveCloudsView-1-298-314, Fog-0.173913-271-69, MossWaterRGB-0-425-481-Blue:255-Green:255-Red:227.3369-Blue:255-Green:255-Red:227.3369-Blue:255-Green:255-Red:227.3369, MossWater-0-40-40, IceWater-1-30-30, 
+PlacedObjects: LanternOnStick><2000.011><598.551><19~-126, LanternOnStick><2371.982><650.9492><-27~-187, LanternOnStick><2702.904><770.5687><104~-83, LanternOnStick><1409.861><605.8955><-22~-127, LanternOnStick><946.2><574.7377><57~-163, LanternOnStick><454.132><455.5996><-14~164, LanternOnStick><730.8521><454.6154><-48~-197, PlacedWaterfall><2248.315><847.1727><100~50~3.13044~3, 
 FadePalette: 4, 0.5760869, 0.5543478, 0.5326087
 WetTerrain: OFF

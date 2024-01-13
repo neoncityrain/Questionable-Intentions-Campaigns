@@ -1,0 +1,9 @@
+Template: SU_SettingsTemplate_Inside
+DangerType: Blizzard
+RainIntensity: 0.25
+RumbleIntensity: 0.2717391
+Clouds: 0.09782609
+Effects: Contrast-0.05434782-18-65, LightBurn-0.07608695-19-122, 
+PlacedObjects: LightBeam><558.6733><39.93472><-531~629~393~678~40~0~0~0~0.8021738~0~0~1~None~0~0, LightSource><457.5773><509.3992><0~Environment~29~-305~50~86.60254~1~0~Flash~0.9347826~0, DangleFruit><328.1061><404.8889><-300~22~2~3, DangleFruit><362.6041><373.6707><0~0~2~3, DangleFruit><651.0236><393.5514><0~0~2~3, LightSource><811.5599><536.6908><0.3152174~Environment~-2~47~50~86.60254~1~0~None~0~0, CustomDecal><-210.687><127.8209><11~262~541~415~852~-167~-48.00002~178~0.3043478~1~0~Scav Wedges2~0.4021739~1~0.4021739~1~0.4021739~1~0.4021739~1, 
+AmbientSounds: OMNI><AM_ENV-Outside.ogg><764.0152><469.9494><0><1, OMNI><AM_ENV-NatWind.ogg><776.3513><556.0775><0.1304348><1, 
+FadePalette: 10, 0.2391304

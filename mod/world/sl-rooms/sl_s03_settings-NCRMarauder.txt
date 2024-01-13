@@ -1,0 +1,8 @@
+DangerType: Blizzard
+RainIntensity: 0
+RumbleIntensity: 0
+Grime: 0.1956522
+Palette: 0
+Effects: Coldness-1-20-20, 
+AmbientSounds: SPOT><waterGurgleLOOP1.wav><783.5607><547.5594><0.2173913><1><461.5607><197.5594><-131.3553><-64.35535><0><0.1978262, SPOT><SO_IND-MechHum02.ogg><497.4251><540.9034><0.2282609><1><635.4251><305.9034><-158.3553><-83.35535><0><0.2195653, OMNI><AM_ENV-LightWind.ogg><831.1455><642.5795><0><1, OMNI><AM_ENV-NatWind.ogg><751.1734><487.5652><0.2282609><1, 
+FadePalette: 8, 0.5978261

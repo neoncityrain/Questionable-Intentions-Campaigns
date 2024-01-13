@@ -1,0 +1,17 @@
+Template: SL_SettingsTemplate_Sewer
+DangerType: Blizzard
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 5.605194E-45
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Palette: 0
+Effects: Coldness-1-20-20, 
+PlacedObjects: CustomDecal><326.6406><1600.358><0~1461.553~455.6256~1461.553~455.6256~0~0~0~0.04347826~1~0~BlackRust1~0.5434783~1~0.6521739~1~0.1086956~1~0~1, BigJellyFish><558.1665><395.139><0~-731, 
+AmbientSounds: SPOT><AM_IND-DeepHum.ogg><853.1762><124.0641><0.3695652><1><529.1762><809.0641><-111.3553><11.64465><0><0.3608697, OMNI><SO_WAT-DripTap.ogg><652.9296><629.3379><0.2391304><1, SPOT><AM_ENV-NatWind.ogg><757.9364><488.6896><0.2934783><1><565.9364><2856.69><11.64465><-149.3553><0><0.6760871, SPOT><AM_ENV-NatWind.ogg><582.6874><486.6801><0.2391304><1><462.6874><2017.68><0.6446533><-156.3553><0><0.4478262, 
+FadePalette: 8, 0.4565217, 0.5, 0.5543478, 0.5978261
+Triggers: Spot<tA>event<tB>StopMusicEvent<eA>songName<eB>RW_93 - Veiled Northstar<eA>prio<eB>1<eA>type<eB>SpecificSong<eA>fadeOut<eB>630.4345<tA>multiUse<tB>1<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>679.287<tB>217.5535<tA>fireChance<tB>1<tA>entrance<tB>-1<tA>karma<tB>0<tA>slugcats<tB><tA>pos<tB>550.287<tB>600.5535<tA>handlePos<tB>-159.3553<tB>-105.3553, 
+WetTerrain: OFF

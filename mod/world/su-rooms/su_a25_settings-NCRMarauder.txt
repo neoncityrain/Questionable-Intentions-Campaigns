@@ -1,0 +1,14 @@
+Template: SU_SettingsTemplate_Inside
+DangerType: Blizzard
+CeilingDrips: 0.6739131
+RainIntensity: 0.5217391
+RumbleIntensity: 0.2391304
+Clouds: 0.04347826
+Grime: 0.2391304
+BkgDroneVolume: 0.2769565
+BkgDroneNoThreatVolume: 0
+EffectColorB: 6
+Effects: Coldness-1-25-84, Flies-0-30-30, Dustpuffs-1-28-138, LightBurn-0.2065217-292-25, 
+PlacedObjects: InsectGroup><381.2867><204.1966><-113~100~0~-150~RockFlea~0.326087, CustomDecal><490.6689><144.6828><-33~259~162~269~141~-23~-530~-40~0~0.6521739~0~Pink Face~0.5760869~0.5978261~0.2173913~0~0.5869565~0~0.6413044~1, CustomDecal><581.8515><180.116><-46~295~315~268~298~-42~-381~157~0.3152174~1~0~Big Letters~1~0.4782609~0.3152174~0.4782609~1~0.8586956~0~1, SnowSource><743.9497><709.5114><Radial~179~28~34~-203.3975~1~0.4021739, 
+AmbientSounds: SPOT><SO_IND-MechHum01.ogg><796.1148><232.6026><0.2391304><1><734.1148><423.6026><-93.35535><-38.35535><0><0.3065219, OMNI><SO_WAT-DripTap.ogg><616.45><588.9956><0.1413043><1, OMNI><AM_ENV-Outside.ogg><764.0152><469.9494><0><1, OMNI><AM_ENV-NatWind.ogg><809.303><586.5349><0.25><1, 
+FadePalette: 8, 0.1304348

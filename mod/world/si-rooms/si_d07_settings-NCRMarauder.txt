@@ -1,0 +1,13 @@
+DangerType: Blizzard
+CeilingDrips: 0
+WaveSpeed: 0.5998273
+WaveLength: 0.9500864
+WaveAmplitude: 0.0013403
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Palette: 0
+Effects: Flies-0-38-126, SkyDandelions-0-36-73, Coldness-1-40-19, Dustpuffs-1-293-11, LightBurn-0.06521739-307-78, 
+PlacedObjects: SnowSource><1050.7><853.0106><None~1275~756~50~86.60254~0.3477398~1, SnowSource><2188.6><1519.132><Radial~43~181~-478.2021~-53.83496~0.4782609~0.6739131, SnowSource><94.61975><1618.4><Radial~236~-65~92~-208.3975~0.3913043~0.9782609, 
+AmbientSounds: OMNI><AM_ENV-WinterHum.ogg><862.9001><511.4232><0.326087><1, 
+FadePalette: 2, 0.4782609, 0.4782609, 0.4021739, 0.4021739
+WetTerrain: OFF

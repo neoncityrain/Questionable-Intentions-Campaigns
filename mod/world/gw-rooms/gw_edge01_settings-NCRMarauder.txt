@@ -1,0 +1,17 @@
+Template: GW_SettingsTemplate_Inside
+DangerType: Blizzard
+CeilingDrips: 0
+RainIntensity: 0.423913
+RumbleIntensity: 0.5
+WaveSpeed: 0.498025
+WaveLength: 0.8930342
+WaveAmplitude: 0.02119564
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+BkgDroneVolume: 0
+Palette: 10
+Effects: RockFlea-0-18-77, Coldness-1-280-21, Dustpuffs-1-20-20, Flies-0-30-30, 
+PlacedObjects: DevToken><373.4498><405.9906><-22~48~0~0~0~~~0~0~0~1, SnowSource><658.9059><389.6247><Radial~672~91~50~86.60254~0.3043478~1, SnowSource><133.7157><345.697><Radial~291~-46~50~86.60254~0.7282609~1, 
+AmbientSounds: OMNI><AM_ENV-CityTone.ogg><852.2225><642.9481><0.2391304><1, OMNI><SO_WAT-ProperDrips.ogg><673.7934><643.3048><0.3369565><1, SPOT><AM_ENV-NatWind.ogg><848.2039><528.4446><0.2717391><1><-130.7961><379.4446><-40.35535><-246.3553><0><1, 
+FadePalette: 0, 0.5217391, 0.4782609, 0.4456522
+WetTerrain: OFF

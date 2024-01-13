@@ -1,0 +1,11 @@
+Template: NONE
+DangerType: None
+Clouds: 0.2826087
+Grime: 0
+BkgDroneVolume: 0
+Palette: 17
+EffectColorB: 8
+Effects: Lightning-0.6413044-25-68, ZeroGSpecks-0.1630435-20-20, BrokenZeroG-0.01086957-28-124, 
+PlacedObjects: NoSpearStickZone><484.4697><229.7156><-251~100, Corruption><125.5657><334.172><0~100, Corruption><877.8284><232.3962><9~163, CorruptionTube><752.1134><148.747><83~191, LightFixture><468.1396><434.1006><RedLight~17.32051~-10~36, LightFixture><84.04103><88.40424><RedLight~17.32051~-10~16, 
+AmbientSounds: SPOT><AM_IND-DeepHum.ogg><67.55426><500.7911><0.5><1><478.0962><-12.64191><-100.3553><-40.35535><0><0.2304349, OMNI><SO_WAT-RainishDrips.ogg><829.1453><647.1125><0.3586957><1, SPOT><AM_IND-SuperStructure.ogg><793.1928><489.8083><0.2934783><0.9021739><968.1939><235.8147><-144.3553><-81.35535><0><0.3065219, 
+FadePalette: 14, 0.2717391

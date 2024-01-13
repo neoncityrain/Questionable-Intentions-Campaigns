@@ -1,0 +1,20 @@
+Template: NONE
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.51
+WaveLength: 1
+WaveAmplitude: 0.0001
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.7826087
+Grime: 0.3695652
+BkgDroneVolume: 0.2769565
+WaterReflectionAlpha: 0.2717391
+Palette: 4
+EffectColorB: 13
+Effects: RockFlea-0.2173913-20-20, HeatWave-0.2934783-24-82, 
+PlacedObjects: InsectGroup><803.8026><191.4675><0~100~63~-160~RockFlea~0.3043478, CustomDecal><871.45><207.5058><86~161~-851~145~-803~-105~-258~150~0.6413044~1~0~zGWMarks - C06~0~0~1~0~0.2173913~0.2717391~1~0.3913043, CustomDecal><810.3535><175.8639><0~234~1099~275~1086~1~1113~-191~0.6413044~0.6956522~0~zGWMarks - C05~0.2065217~0~0.5~0~0.7608696~0.5217391~0.4021739~0.5217391, InsectGroup><707.6676><348.6409><44~192~0~0~StandardFly~0.5, InsectGroup><1538.422><349.684><-3~181~0~0~StandardFly~0.5, LanternOnStick><925.4197><264.8559><11~-97, LanternOnStick><997.2695><298.551><-52~-141, 
+AmbientSounds: SPOT><SO_NAT-LilDrips.ogg><38.05475><494.2067><0.3043478><1><1305.055><118.2067><-162.3553><-66.35535><0><0.2847827, OMNI><SO_WAT-OpenFlow.ogg><828.1614><636.4293><0.3369565><0.8826087, SPOT><SO_WAT-OpenFlow.ogg><36.42694><245.3138><0.4130435><1><230.4269><152.3138><-207.3553><-72.35535><0><0.9152175, SPOT><SO_WAT-RunningWater.ogg><36.21228><365.1964><0.3478261><1><233.2123><158.1964><-112.3553><-84.35535><0><0.752174, OMNI><AM_ENV-LushNight.ogg><744.6937><508.7999><0.3695652><0.9413043, 
+FadePalette: 11, 0.4347826, 0.4673913
+WetTerrain: OFF

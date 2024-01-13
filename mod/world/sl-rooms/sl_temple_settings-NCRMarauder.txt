@@ -1,0 +1,19 @@
+Template: NONE
+DangerType: Blizzard
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 2.456163E-22
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Grime: 0.2282609
+Palette: 27
+EffectColorA: 12
+EffectColorB: 6
+Effects: WaterDepth-0.09782609-20-20, SilenceWater-0.5760869-17-62, LightBurn-0.06521739-14-117, Moth-0.2065217-273-22, Coldness-1-275-69, 
+PlacedObjects: DevToken><1492.389><1120.917><-23~360~0~0~0~~~0~0~0~1, LightSource><566.5947><1054.074><0.1956522~Environment~-964~705~50~86.60254~1~0~None~0~0, 
+AmbientSounds: SPOT><AM_ENV-WindGrass.ogg><873.4142><604.8641><0.3478261><1><2191.414><1221.864><-554.3553><-29.35535><0><1, SPOT><AM_WIN-SubWnd.ogg><872.3613><489.8338><0.3369565><1><633.3613><815.8339><315.6447><-490.3553><0><1, SPOT><SO_IND-HeatDuct.ogg><699.1826><605.0815><0.2717391><1><1587.183><820.0815><-474.3553><180.6447><0><0.6326088, OMNI><AM_IND-SuperStructure.ogg><523.4177><642.109><0.2826087><1, 
+FadePalette: 35, 0.8260869, 0.8478261, 0.8913044
+WetTerrain: OFF

@@ -1,0 +1,4 @@
+DangerType: Blizzard
+Template: GW_SettingsTemplate_Inside
+EffectColorA: 5
+Effects: 

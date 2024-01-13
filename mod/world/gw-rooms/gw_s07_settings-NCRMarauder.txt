@@ -1,0 +1,8 @@
+DangerType: Blizzard
+RainIntensity: 0
+RumbleIntensity: 0
+Clouds: 0.2173913
+Palette: 0
+Effects: Flies-0-30-30, 
+AmbientSounds: OMNI><SO_WAT-LilDrips.ogg><650.6083><644.3912><0.1847826><1, OMNI><AM_ENV-WinterTrees.ogg><830.0384><643.3037><0.3478261><1, 
+FadePalette: 8, 0.3695652

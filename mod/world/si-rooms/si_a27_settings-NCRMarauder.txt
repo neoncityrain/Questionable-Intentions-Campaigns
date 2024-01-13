@@ -1,0 +1,12 @@
+Template: SI_SettingsTemplate_Inside
+DangerType: Blizzard
+RainIntensity: 0.2173913
+RumbleIntensity: 0.2065217
+Clouds: 0.1086956
+Grime: 0.2391304
+Palette: 3
+EffectColorA: 8
+Effects: Flies-0-30-30, Coldness-1-40-40, 
+PlacedObjects: DangleFruit><575.3774><503.5958><67~-513~2~3, DangleFruit><643.1866><551.9397><-559~-539~2~3, DangleFruit><653.1774><418.9364><-325~-430~2~3, Filter><609.8414><480.8718><0~100~-150~-393~White|Red|Artificer|Spear, 
+AmbientSounds: SPOT><AM_IND-DeepHum.ogg><799.2922><307.9455><0.3369565><1><498.2922><471.9455><-173.3553><33.64465><0><0.4586958, SPOT><AM_IND-Utility02.ogg><806.6412><165.6417><0.4456522><1><445.6412><163.6417><-277.3553><76.64465><0><0.4695654, OMNI><AM_ENV-LightWind.ogg><765.3163><518.5792><0><1, OMNI><AM_ENV-NatWind.ogg><764.4453><440.4424><0.2282609><1, 
+FadePalette: 0, 0.3369565

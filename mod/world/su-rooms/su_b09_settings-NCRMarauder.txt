@@ -1,0 +1,20 @@
+Template: SU_SettingsTemplate_Inside
+DangerType: Blizzard
+CeilingDrips: 0
+RainIntensity: 0.25
+RumbleIntensity: 0.2065217
+WaveSpeed: 0.498694
+WaveLength: 0.999347
+WaveAmplitude: 3.869602E-10
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.1521739
+Grime: 0.3913043
+BkgDroneVolume: 0.2769565
+EffectColorA: 9
+EffectColorB: 8
+Effects: Flies-0-20-20, Coldness-0.1630435-21-73, LightBurn-0.1413043-19-130, 
+PlacedObjects: LightSource><524.0766><774.1503><1~White~-3~-103~88~-92.39746~1~0~None~0~0, SteamPipe><577.1342><1094.587><7~-59, SteamPipe><617.2937><1089.945><-32~-58, 
+AmbientSounds: OMNI><AM_IND-Utility02.ogg><738.4164><391.111><0.3586957><1, SPOT><AM_IND-ElectricHum02.ogg><782.9419><281.4436><0.2282609><1><521.9419><852.4436><-186.3553><189.6447><0><0.4152175, SPOT><SO_IND-Fridge.ogg><814.6729><595.8506><0.2391304><1><517.6729><1479.851><-35.35534><-35.35534><0><0.4260871, OMNI><AM_ENV-Outside.ogg><764.0152><469.9494><0><1, 
+FadePalette: 8, 0.06521739, 0.1086956
+WetTerrain: OFF

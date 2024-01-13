@@ -1,0 +1,10 @@
+DangerType: Blizzard
+RainIntensity: 0
+RumbleIntensity: 0
+WaveAmplitude: 0.01086957
+SecondWaveAmplitude: 0.3478261
+Grime: 0.1521739
+Palette: 0
+PlacedObjects: BrokenShelterWaterLevel><440.3228><338.6573><, 
+AmbientSounds: OMNI><AM_ENV-LightWind.ogg><831.1455><642.5795><0><1, OMNI><AM_ENV-NatWind.ogg><719.0047><491.7><0.3152174><1, 
+FadePalette: 8, 0.4565217

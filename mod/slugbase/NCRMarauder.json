@@ -42,7 +42,7 @@
 		"food_min": 6,
 		"food_max": 7,
 		
-		"world_state": ["NCRMarauder", "Saint", "Rivulet"],
+		"world_state": ["NCRMarauder", "Rivulet"],
 
 		"alignments": {
 			"Lizards": {

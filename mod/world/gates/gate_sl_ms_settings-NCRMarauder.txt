@@ -1,0 +1,14 @@
+Template: NONE
+DangerType: Blizzard
+RainIntensity: 0
+RumbleIntensity: 0
+Clouds: 0.5760869
+Grime: 0.1195652
+BkgDroneVolume: 0
+Palette: 27
+EffectColorA: 12
+EffectColorB: 6
+Effects: Contrast-0.05434782-20-20, SilenceWater-1-19-80, WaterDepth-1-276-18, Moth-0.1521739-270-77, RockFlea-0.05434782-288-142, Coldness-1-30-30, 
+PlacedObjects: NoSpearStickZone><483.5829><238.318><-236~137, LightSource><375.1804><603.0625><0.08695652~White~-408~-121~113~-215.3975~1~1~None~0~0, LightFixture><772.4195><512.3938><RedLight~17.32051~-10~52, LightFixture><-64.57666><280.5998><RedLight~17.32051~-10~5, 
+AmbientSounds: SPOT><AM_IND-DeepHum.ogg><78.57001><473.1873><0.3369565><1><464.57><-39.81265><-132.3553><-32.35534><0><0.3173914, OMNI><AM_SUB-BlankState.ogg><829.9221><646.3518><0.326087><1, OMNI><Deep Weird Wind.wav><830.9498><574.7589><0.1630435><1, OMNI><AM_IND-SuperStructure.ogg><827.4743><501.3017><0.2173913><1, 
+FadePalette: 35, 0.6086956

@@ -1,0 +1,14 @@
+Template: NONE
+DangerType: Rain
+CeilingDrips: 0.5652174
+RainIntensity: 0
+Clouds: 0.1413043
+Grime: 0.06521739
+BkgDroneVolume: 0
+Palette: 17
+EffectColorA: 0
+EffectColorB: 4
+Effects: Darkness-0.1304348-21-126, Lightning-0.5326087-24-24, GreenSparks-0.3913043-22-79, ElectricDeath-1-278-22, 
+PlacedObjects: NoSpearStickZone><479.6824><242.1882><-259~110, SuperStructureFuses><1043.885><423.3972><44~58, ExitSymbolShelter><48.091><232.6781><, ExitSymbolShelter><732.6699><117.6445><, 
+AmbientSounds: OMNI><AM_ENV-NatWind.ogg><653.4124><651.9298><0.5869565><1, OMNI><AM_RAIN-Rumbles.ogg><830.3721><650.1584><0.4130435><1, 
+FadePalette: 14, 0.3478261

@@ -1,0 +1,12 @@
+DangerType: Blizzard
+CeilingDrips: 0
+WaveSpeed: 0.6367481
+WaveLength: 0.931626
+WaveAmplitude: 1.455072E-14
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Effects: AboveCloudsView-0-20-20, LightBurn-0.04347826-20-77, SkyDandelions-0-279-133, Flies-0-15-127, Dustpuffs-1-288-26, 
+PlacedObjects: DangleFruit><463.8067><816.0511><0~0~2~3, DangleFruit><478.8087><862.9413><0~0~2~3, DangleFruit><454.8906><915.1671><0~0~2~3, SnowSource><497.8137><761.3228><Radial~-663~-767~-198~-286.3975~0.6086956~1, BlueToken><469.8278><1119.898><11~-77~66~127~1~VultureMask~~0~0~0~0, DeadTokenStalk><434.6464><1075.136><34~-35, DeadTokenStalk><512.3615><1091.856><-9~-52, 
+AmbientSounds: SPOT><AM_WIN-StrongWnd2.ogg><859.412><471.0704><0.1847826><1><459.412><1328.07><308.6447><-459.3553><0><1, 
+FadePalette: 18, 0.1956522, 0.2608696
+WetTerrain: OFF

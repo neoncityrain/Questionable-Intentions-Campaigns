@@ -1,0 +1,21 @@
+Template: SU_SettingsTemplate_Inside
+DangerType: Blizzard
+CeilingDrips: 0
+RainIntensity: 0.2717391
+RumbleIntensity: 0.2391304
+WaveSpeed: 0.4976848
+WaveLength: 0.9988424
+WaveAmplitude: 2.615689E-10
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.07608695
+Grime: 0.1956522
+BkgDroneVolume: 0.2769565
+Palette: 0
+EffectColorA: 0
+EffectColorB: 7
+PlacedObjects: DangleFruit><197.1321><403.1501><-294~60~2~3, DangleFruit><164.9713><360.8021><-258~17~2~3, DangleFruit><236.397><394.6143><-338~153~2~3, ProjectedImagePosition><713.5549><383.7943><, BlueToken><487.6984><410.0998><-11~72~74~112~1~PoleMimic~~0~0~0, DeadTokenStalk><427.8035><407.0367><-8~73, DeadHazer><355.3683><267.0887><101~-190~7~18, Filter><376.3596><246.8327><3~-45~79~-90~White|Rivulet|Saint, 
+AmbientSounds: OMNI><AM_ENV-Outside.ogg><764.0152><469.9494><0><1, OMNI><AM_ENV-NatWind.ogg><770.4064><548.6254><0.2391304><1, 
+Triggers: Spot<tA>event<tB>ShowProjectedImageEvent<eA>afterEncounter<eB>0<eA>fromCycle<eB>0<eA>onlyWhenShowingDirection<eB>1<tA>multiUse<tB>1<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>698.1999<tB>212.4939<tA>fireChance<tB>1<tA>entrance<tB>-1<tA>karma<tB>0<tA>slugcats<tB><tA>pos<tB>351.1999<tB>281.4939<tA>handlePos<tB>-144.3553<tB>-21.35535, 
+FadePalette: 4, 0.3369565
+WetTerrain: OFF

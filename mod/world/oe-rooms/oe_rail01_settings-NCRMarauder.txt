@@ -3,16 +3,16 @@ DangerType: Blizzard
 CeilingDrips: 0
 RainIntensity: 1
 RumbleIntensity: 1
-WaveSpeed: 0.498756
-WaveLength: 0.9683885
-WaveAmplitude: 0.009436719
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 5.605194E-45
 SecondWaveLength: 1
 SecondWaveAmplitude: 0.0001
 Clouds: 0.75
 Grime: 0.1956522
-Palette: 12
+Palette: 27
 Effects: PixelShift-0.5-32-65, AboveCloudsView-1-282-132, Fog-0.5217391-27-121, Coldness-0-20-20, 
-PlacedObjects: CustomDecal><380.1859><96.67606><-68~237~477~277~417~-10~-126~193~0.2065217~0.5~0.4673913~Rust2~0.7173913~1~0.7173913~1~0.7173913~1~0.7173913~1, NoSpearStickZone><456.6898><1120.813><0~100, GooieDuck><6527.801><1281.285><0~0~2~3, GooieDuck><6456.805><1309.301><0~0~2~3, PlayerPushback><7285.508><1263.205><-131~-2, PlayerPushback><7286.274><945.9266><-79~0, PlayerPushback><-32.87444><1308.722><145~0, PlayerPushback><-28.38116><954.3506><86~0, 
+PlacedObjects: CustomDecal><380.1859><96.67606><-68~237~477~277~417~-10~-126~193~0.2065217~0.5~0.4673913~Rust2~0.7173913~1~0.7173913~1~0.7173913~1~0.7173913~1, GooieDuck><6527.801><1281.285><0~0~2~3, GooieDuck><6456.805><1309.301><0~0~2~3, PlayerPushback><7285.508><1263.205><-131~-2, PlayerPushback><7286.274><945.9266><-79~0, PlayerPushback><-32.87444><1308.722><145~0, PlayerPushback><-28.38116><954.3506><86~0, SnowSource><244.8561><1240.16><Radial~620~30~50~86.60254~1~0, SnowSource><741.0009><1462.829><Radial~727~-154~50~86.60254~1~0, SnowSource><1312.882><1298.948><Radial~771~-55~50~86.60254~1~0, SnowSource><2015.092><1511.477><Radial~307~-497~50~86.60254~1~0, SnowSource><2680.507><1282.508><Radial~609~12~50~86.60254~1~0, SnowSource><3244.247><1363.72><Radial~346~-29~50~86.60254~1~0, SnowSource><3227.177><969.6964><Strip~318~13~50~86.60254~1~0, SnowSource><3860.824><1562.5><Radial~562~43~50~86.60254~1~0, SnowSource><4353.361><1493.967><Radial~515~-40~50~86.60254~1~0, SnowSource><4395.028><1015.414><Radial~-57~331~50~86.60254~1~0, SnowSource><684.2113><969.9><Radial~551~111~50~86.60254~1~0, SnowSource><4830.187><1236.411><Radial~-338~84~50~86.60254~1~0, SnowSource><4575.59><1283.71><Radial~250~56~50~86.60254~1~0, SnowSource><3870.732><1199.932><Radial~-452~-18~50~86.60254~1~0, SnowSource><4159.251><1209.217><Radial~385~-7~50~86.60254~1~0, SnowSource><3473.783><1202.52><Radial~346~18~50~86.60254~1~0, SnowSource><2328.806><1301.365><Radial~271~5~50~86.60254~1~0, SnowSource><2992.802><1286.397><Radial~-380~41~50~86.60254~1~0, SnowSource><922.0577><1268.961><Radial~277~-6~50~86.60254~1~0, SnowSource><452.1919><1191.875><Radial~-209~-21~50~86.60254~1~0, SnowSource><125.7432><1199.128><Radial~289~13~50~86.60254~1~0, SnowSource><-19.29223><1228.902><Radial~175~-17~50~86.60254~1~0, SnowSource><408.1727><1351.009><Radial~343~4~50~86.60254~1~0, SnowSource><1873.263><1202.109><Radial~13~158~50~86.60254~1~0, SnowSource><1145.905><1245.912><Radial~18~130~50~86.60254~1~0, SnowSource><2028.443><1213.948><Radial~308~2~50~86.60254~1~0, SnowSource><1975.218><996.7052><Radial~230~25~50~86.60254~1~0, SnowSource><3696.51><1361.204><Radial~129~-221~50~86.60254~1~0, SnowSource><4331.595><1384.499><Radial~13~-316~50~86.60254~1~0, SnowSource><1716.046><1265.327><Radial~-249~78~50~86.60254~1~0, SnowSource><1653.708><1268.768><Radial~-183~92~50~86.60254~1~0, SnowSource><3669.56><1243.247><Radial~234~-14~50~86.60254~1~0, Stowaway><6382.32><1348.998><0~-50, 
 AmbientSounds: OMNI><AM_ENV-NatWind.ogg><69.81915><439.6646><0.4673913><0.6478261, OMNI><SO_WAT-Splashes.ogg><78.15137><353.6193><0.2608696><1, 
 Triggers: RegionBump<tA>event<tB>MusicEvent<eA>songName<eB>NA_05 - Sparkles<eA>vol<eB>0.3<eA>prio<eB>0.5<eA>mxThrt<eB>1<eA>loop<eB>0<eA>droneTol<eB>0<eA>rooms<eB>-1<eA>rest<eB>5<eA>fadeIn<eB>97.82609<eA>oneSongPerCycle<eB>0<eA>stopAtDeath<eB>0<eA>stopAtGate<eB>0<tA>multiUse<tB>0<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>573<tA>panPos<tB>795.0696<tB>446.1875<tA>fireChance<tB>1<tA>entrance<tB>1<tA>karma<tB>0<tA>slugcats<tB>, 
 FadePalette: 41, 0.5543478, 0.5652174, 0.5760869, 0.5978261, 0.6086956, 0.6195652, 0.5108696, 0.5326087, 0.5652174, 0.5869565, 0.5978261, 0.6086956

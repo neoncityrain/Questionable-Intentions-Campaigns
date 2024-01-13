@@ -1,0 +1,9 @@
+Template: CC_SettingsTemplate_Inside
+DangerType: Blizzard
+RainIntensity: 0.1847826
+RumbleIntensity: 0.173913
+Clouds: 0.1413043
+BkgDroneVolume: 0.2869565
+Palette: 0
+AmbientSounds: SPOT><AM_ENV-NatWind.ogg><784.3524><295.3282><0.25><0.8434783><729.3524><369.3282><-122.3553><-16.35535><0><0.2304349, OMNI><AM_ENV-LightWind.ogg><751.1393><523.5834><0><1, OMNI><AM_ENV-WinterHum.ogg><768.4244><399.8148><0.2608696><1, 
+FadePalette: 8, 0.4782609

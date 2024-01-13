@@ -1,0 +1,10 @@
+DangerType: Blizzard
+CeilingDrips: 0.6630435
+RainIntensity: 0
+RumbleIntensity: 0
+WaveAmplitude: 0.01086957
+SecondWaveAmplitude: 0.3478261
+BkgDroneVolume: 0
+PlacedObjects: BrokenShelterWaterLevel><320.1801><378.9133><, 
+AmbientSounds: OMNI><waterGurgleLOOP1.wav><745.424><552.1514><0.2282609><0.6869565, OMNI><AM_WAT-Sea02.ogg><752.6169><478.8994><0.2608696><0.6869565, SPOT><SO_WAT-LilDrips.ogg><777.571><276.437><0.2065217><1><269.571><442.437><-77.35535><-32.35535><0><0.2195653, OMNI><AM_ENV-LightWind.ogg><831.1455><642.5795><0><1, OMNI><AM_ENV-NatWind.ogg><796.5525><391.0316><0.2717391><1, 
+FadePalette: 8, 0.173913

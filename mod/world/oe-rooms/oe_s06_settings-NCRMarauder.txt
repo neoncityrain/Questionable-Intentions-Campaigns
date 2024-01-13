@@ -14,7 +14,7 @@ BkgDroneVolume: 0
 Palette: 13
 EffectColorA: 10
 Effects: Darkness-0-22-134, Fog-0-18-74, LightBurn-0.3913043-268-123, WaterDepth-0.1956522-281-23, 
-PlacedObjects: BrokenShelterWaterLevel><354.1896><258.6877><, LightSource><337.0394><400.3039><0.1630435~EffectColor1~269~-386~50~86.60254~1~1~None~0~0, 
+PlacedObjects: BrokenShelterWaterLevel><366.1896><282.6877><, LightSource><337.0394><400.3039><0.1630435~EffectColor1~269~-386~50~86.60254~1~1~None~0~0, 
 AmbientSounds: OMNI><AM_ENV-Outside.ogg><872.1786><531.66><0.2391304><1, OMNI><AM_ENV-Pasture.ogg><828.1663><594.8611><0.2173913><1, SPOT><AM_ENV-LightWind.ogg><839.4075><404.0726><0.1630435><1><-27.59247><630.0726><253.6447><-173.3553><0><0.7086958, SPOT><SO_WAT-OpenFlow.ogg><840.1998><285.2598><0.3695652><1><694.1998><262.2598><-99.35535><-177.3553><0><0.5673915, 
 FadePalette: 33, 0.5978261
 WetTerrain: OFF

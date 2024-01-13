@@ -1,0 +1,9 @@
+Template: SL_SettingsTemplate_Sewer
+DangerType: Blizzard
+CeilingDrips: 0.7173913
+RainIntensity: 0
+RumbleIntensity: 0
+Palette: 0
+Effects: Coldness-1-30-30, 
+AmbientSounds: SPOT><AM_IND-Utility02.ogg><761.8668><460.9123><0.3586957><1.058696><447.8668><534.9124><-141.3553><-30.35535><0><0.3608697, OMNI><AM_ENV-NatWind.ogg><828.1603><630.6304><0.3152174><1, 
+FadePalette: 8, 0.5978261

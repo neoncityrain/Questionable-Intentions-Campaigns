@@ -1,0 +1,5 @@
+Palette: 0
+DangerType: Blizzard
+Effects: Coldness-1-20-20, Flies-0-30-30, Dustpuffs-1-40-40, 
+PlacedObjects: NoSpearStickZone><0.984375><1554.551><-40~45, NoSpearStickZone><923.697><1273.284><0~100, SnowSource><458.1011><1152.173><Radial~1271~-741~50~86.60254~0.7391304~1, 
+FadePalette: 15, 0.6304348, 0.6304348

@@ -1,0 +1,18 @@
+Template: GW_SettingsTemplate_Inside
+DangerType: Blizzard
+CeilingDrips: 0
+RainIntensity: 1
+RumbleIntensity: 0.3695652
+WaveSpeed: 0.4986545
+WaveLength: 0.8926919
+WaveAmplitude: 0.02364716
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.07608695
+BkgDroneVolume: 0.2769565
+Palette: 0
+Effects: Flies-0-20-20, Coldness-1-26-74, 
+PlacedObjects: KarmaFlower><374.95><1211.746><-509~112~5~7, CustomDecal><110.9399><831.4408><-84~696~675~681~633~87~67~-221~0.04347826~1~0~RustB3~0.8043478~1~0.5434783~1~0~1~0~1, CustomDecal><249.6998><422.0097><-12~214~556~206~532~-42~-350~-95~0.02173913~1~0~DirtyWaterLine~1~1~1~1~0.326087~1~1~1, CustomDecal><121.337><829.4301><0~644.9026~730.8896~644.9026~730.8896~0~-267~81~0.326087~1~0~zGWMarks - B07~0.7173913~0~0~0~1~0.3152174~1~0.326087, WaterNut><611.9019><1149.076><0~0~2~3, WaterNut><582.1996><1167.238><0~0~2~3, WaterNut><536.0031><1175.05><0~0~2~3, WaterNut><307.8519><1201.385><0~0~2~3, WaterNut><275.9383><1189.932><0~0~2~3, 
+AmbientSounds: SPOT><SO_WAT-LilDrips.ogg><781.2606><278.6997><0.2934783><1><649.2606><477.6997><-203.3553><-88.35535><0><0.2304349, OMNI><SO_WAT-LilDrips.ogg><651.3533><644.1713><0.2608696><1, OMNI><AM_ENV-NatWind.ogg><826.066><647.4388><0.2391304><1, 
+FadePalette: 11, 0.4021739, 0.4565217
+WetTerrain: OFF

@@ -1,16 +1,16 @@
 Template: NONE
 DangerType: Blizzard
-WaveSpeed: 0.5078515
-WaveLength: 0.9845088
-WaveAmplitude: 0.005999164
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 5.605194E-45
 SecondWaveLength: 0.1666667
 SecondWaveAmplitude: 0
 Grime: 0.1195652
 Palette: 4
 EffectColorA: 10
 EffectColorB: 9
-Effects: Darkness-0.3152174-24-138, WaterDepth-0.09782609-281-126, MossWater-0-20-20, MossWaterRGB-0-474-468-Blue:255-Green:255-Red:230.1086, 
-PlacedObjects: LightFixture><1774.713><1683.197><RedLight~17.32051~-10~90, LanternOnStick><598.218><499.4474><-18~-221, LanternOnStick><480.1457><375.4205><49~-160, LanternOnStick><1444.479><305.4489><-52~-233, LightSource><1783.302><1930.971><0.6847826~White~-28~129~-199~146.6025~0~1~None~0~0, LightBeam><-124.1836><1589.17><1907~370~1937~334~1339~-1498~1329~397~0.09782609~1~0~0~None~0~0, ReliableSpear><1474.062><130.0598><, ReliableSpear><1571.872><104.4034><, ReliableSpear><1615.874><128.0945><, BlinkingFlower><755.1793><346.0887><, BlinkingFlower><664.8147><382.9247><, BlinkingFlower><601.1826><369.9185><, BlinkingFlower><694.1084><403.1681><, BlinkingFlower><661.8051><328.9553><, BlinkingFlower><287.1814><481.0842><, BlinkingFlower><333.8001><472.962><, BlinkingFlower><319.1326><504.1498><, BlinkingFlower><242.8401><451.1201><, 
+Effects: Darkness-0.3152174-24-138, WaterDepth-0.09782609-281-126, MossWater-0-492.4083-460.1778, MossWaterRGB-0-474-468-Blue:255-Green:255-Red:230.1086-Blue:255-Green:255-Red:230.1086-Blue:255-Green:255-Red:230.1086-Blue:255-Green:255-Red:230.1086, IceWater-1-320.9469-154.4, WaterFluxMinLevel-0.2706636-20-20, WaterFluxMaxLevel-0.317063-30-30, 
+PlacedObjects: LightFixture><1774.713><1683.197><RedLight~17.32051~-10~90, LanternOnStick><598.218><499.4474><-18~-221, LanternOnStick><480.1457><375.4205><49~-160, LanternOnStick><1444.479><305.4489><-52~-233, LightSource><1783.302><1930.971><0.6847826~White~-28~129~-199~146.6025~0~1~None~0~0, LightBeam><-124.1836><1589.17><1907~370~1937~334~1339~-1498~1329~397~0.09782609~1~0~0~None~0~0, ReliableSpear><1474.062><130.0598><, ReliableSpear><1571.872><104.4034><, ReliableSpear><1615.874><128.0945><, BlinkingFlower><755.1793><346.0887><, BlinkingFlower><664.8147><382.9247><, BlinkingFlower><601.1826><369.9185><, BlinkingFlower><694.1084><403.1681><, BlinkingFlower><661.8051><328.9553><, BlinkingFlower><287.1814><481.0842><, BlinkingFlower><333.8001><472.962><, BlinkingFlower><319.1326><504.1498><, BlinkingFlower><242.8401><451.1201><, SnowSource><1079.982><2188.981><Radial~1055.093~-139.6444~50~86.60254~1~0, SnowSource><717.5236><1778.281><Radial~470.274~70.84445~50~86.60254~1~0, SnowSource><771.1616><526.9825><Radial~637.4666~205.9556~50~86.60254~1~0, SnowSource><-95.38425><2102.333><Radial~767.6636~-252.7111~50~86.60254~1~0, SnowSource><28.88139><939.6912><Radial~630.3521~16.79999~50~86.60254~1~0, SnowSource><523.4103><257.6316><Radial~309.4844~55.20001~50~86.60254~1~0, SnowSource><1471.566><629.5857><Radial~318.0219~358.8444~50~86.60254~1~0, SnowSource><1660.323><1194.809><Radial~-251.8562~130.5778~50~86.60254~1~0, SnowSource><1136.353><1367.068><Radial~-106.7188~311.2~50~86.60254~1~0, SnowSource><1699.123><1725.775><Radial~175.0187~264.2667~50~86.60254~1~0, SnowSource><1551.349><2198.188><Radial~-927.0303~-29.42218~50~86.60254~1~0, SnowSource><1176.701><410.6763><Radial~191.3823~324~50~86.60254~1~0, 
 AmbientSounds: OMNI><AM_ENV-LushNight.ogg><860.9226><640.1011><0.5><1, OMNI><SO_WAT-Splashes.ogg><869.6239><562.5948><0.2608696><1, SPOT><AM_IND-ElectricHum03.ogg><685.5633><573.0717><0.3913043><1><1800.563><1952.072><-35.35534><-35.35534><0><0.404348, SPOT><AM_ENV-CityTone.ogg><687.5884><452.8679><0.3695652><1><2145.588><443.8679><-639.3553><-303.3553><0><0.6434784, SPOT><AM_IND-SuperStructure.ogg><509.2617><575.5504><0.25><0.7456522><2141.262><2247.551><-911.3553><-561.3553><0><1, 
 Triggers: RegionBump<tA>event<tB>MusicEvent<eA>songName<eB>NA_05 - Sparkles<eA>vol<eB>0.3<eA>prio<eB>0.5<eA>mxThrt<eB>1<eA>loop<eB>0<eA>droneTol<eB>0<eA>rooms<eB>-1<eA>rest<eB>5<eA>fadeIn<eB>91.30434<eA>oneSongPerCycle<eB>0<eA>stopAtDeath<eB>0<eA>stopAtGate<eB>0<tA>multiUse<tB>0<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>103<tA>panPos<tB>1011.605<tB>434.9204<tA>fireChance<tB>1<tA>entrance<tB>0<tA>karma<tB>0<tA>slugcats<tB>, 
 FadePalette: 33, 0.5978261, 0.5760869, 0.5869565, 0.5869565, 0.5652174, 0.5869565

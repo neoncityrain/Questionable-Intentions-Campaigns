@@ -1,0 +1,17 @@
+Template: SL_SettingsTemplate_Sewer
+DangerType: Rain
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 3.323032E-15
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+BkgDroneVolume: 0
+Palette: 45
+EffectColorA: 12
+Effects: HeatWave-0.3804348-3-56, 
+AmbientSounds: OMNI><MSC-WetConduits.ogg><787.6705><457.1835><0.2826087><1, OMNI><AM_IND-SuperStructure.ogg><790.9429><531.1972><0.1521739><1, 
+FadePalette: 31, 0.4673913, 0.2826087, 0.1413043
+WetTerrain: OFF

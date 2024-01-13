@@ -1,0 +1,13 @@
+DangerType: Blizzard
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0.5108696
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 7.372249E-18
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Effects: Coldness-1-25-66, 
+PlacedObjects: BlueToken><502.5674><409.0617><17~-59~0~0~1~RedLizard~White|Yellow|Rivulet|Artificer|Spear|Gourmand~0~0~0, 
+FadePalette: 0, 0.4130435
+WetTerrain: OFF

@@ -1,0 +1,6 @@
+Palette: 0
+DangerType: Blizzard
+Effects: Flies-0-20-20, Coldness-1-30-30, Dustpuffs-1-40-40, 
+PlacedObjects: DangleFruit><558.2941><1305.695><-676~77~2~3, DangleFruit><582.7129><1266.303><-707~34~2~3, SnowSource><455.3555><812.6699><None~1279~759~50~86.60254~0.4782609~1, SnowSource><158.8633><1312.165><Radial~172~-228~50~86.60254~0.75~0.6086956, 
+AmbientSounds: SPOT><AM_ENV-NatWind.ogg><767.6144><487.147><0.3043478><1><400.6144><282.147><-193.3553><-119.3553><0><0.1869567, OMNI><AM_ENV-LightWind.ogg><711.424><492.3486><0><1, OMNI><AM_ENV-WinterHum.ogg><763.136><396.8357><0.3152174><1, 
+FadePalette: 15, 0.7065217, 0.6956522

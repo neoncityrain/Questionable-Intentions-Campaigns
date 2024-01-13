@@ -1,0 +1,16 @@
+Template: CC_SettingsTemplate_Inside
+DangerType: Blizzard
+CeilingDrips: 0
+RainIntensity: 0.2065217
+RumbleIntensity: 0.1956522
+WaveSpeed: 0.499681
+WaveLength: 0.9998405
+WaveAmplitude: 9.033359E-10
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Palette: 0
+Effects: Coldness-1-20-20, 
+PlacedObjects: Mushroom><1215.641><277.6417><-245~282~2~3, Mushroom><1195.677><281.5637><-271~204~2~3, Mushroom><1137.861><264.6664><-205~120~2~3, VultureGrub><1886.15><240.4232><-943~-37~12~16, InsectGroup><1792.41><457.6205><-101~100~0~0~Moth~0.3043478, InsectGroup><1439.599><440.5762><-128~70~0~0~Moth~0.2282609, DeadVultureGrub><1427.588><245.8821><-530~-127~12~16, GoldToken><1499.816><309.0612><-26~-69~0~0~0~CC~~0~0~0, DeadTokenStalk><1554.811><284.8159><-24~-42, BlueToken><1295.574><297.686><23~-58~-124~-255~1~CyanLizard~White|Yellow|Rivulet~0~0~0, 
+AmbientSounds: OMNI><SO_WAT-LilDrips.ogg><658.095><648.6235><0.326087><1, OMNI><AM_ENV-LightWind.ogg><751.1393><523.5834><0><1, OMNI><AM_ENV-NatWind.ogg><752.8297><444.4335><0.3369565><1, 
+FadePalette: 8, 0.3804348, 0.423913, 0.4673913
+WetTerrain: OFF

@@ -1,0 +1,17 @@
+DangerType: Blizzard
+CeilingDrips: 0
+WaveSpeed: 0.3513861
+WaveLength: 0.925693
+WaveAmplitude: 3.128671E-11
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.1304348
+Grime: 0.3043478
+BkgDroneVolume: 0.2769565
+BkgDroneNoThreatVolume: 0
+Effects: Flies-0-30-30, Coldness-1-22-84, Dustpuffs-1-19-139, LightBurn-0.07608695-282-28, 
+PlacedObjects: DevToken><781.2886><471.0538><32~-94~0~0~0~~~0~0~0~1, CustomDecal><179.1475><302.5783><633~93~661~-305~-79~-319~-300~-226~0.326087~1~0~Vertical Pink~0~0.1847826~0.7717391~0.4782609~0.2608696~0.7391304~0.5652174~0.4782609, CustomDecal><218.511><4.800293><7~315~562~337~553~-36~668.0001~-103~0.6521739~0.7173913~0.7173913~Fat Tag~0.173913~0.4782609~0.1521739~0.1304348~0.4782609~0.5543478~0.8586956~0.1304348, CustomDecal><272.9351><357.174><-2~86~-81~80~-72~-2~-425~15~0.173913~1~0~Ghostling1~1~0.4347826~1~0.4347826~0.423913~0.4347826~1~0.4347826, Rainbow><544.991><394.2956><-52~236~71~-488~0,0,0.5869565,1,0.8152174,0.2717391, SnowSource><487.8516><408.3841><Radial~639~470~-168~-419.3975~0.5760869~1, SnowSource><481.7628><125.8004><Radial~57~450~131~-70.39746~0.6521739~1, SnowSource><364.9297><726.1623><Radial~190~-289~-88~-304.3975~0.6739131~0.75, 
+AmbientSounds: OMNI><AM_ENV-Outside.ogg><765.4963><477.05><0><1, OMNI><AM_ENV-NatWind.ogg><770.4981><552.2><0.3152174><1, 
+Triggers: Spot<tA>event<tB>MusicEvent<eA>songName<eB>RW_80 - Frosted Festival<eA>vol<eB>0.3326084<eA>prio<eB>1<eA>mxThrt<eB>1<eA>loop<eB>0<eA>droneTol<eB>0<eA>rooms<eB>-1<eA>rest<eB>5<eA>fadeIn<eB>0<eA>oneSongPerCycle<eB>0<eA>stopAtDeath<eB>0<eA>stopAtGate<eB>0<tA>multiUse<tB>0<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>1045.554<tB>564.2087<tA>fireChance<tB>1<tA>entrance<tB>-1<tA>karma<tB>0<tA>slugcats<tB><tA>pos<tB>506.5544<tB>409.2087<tA>handlePos<tB>-312.3553<tB>-241.3553, 
+FadePalette: 10, 0.04347826
+WetTerrain: OFF

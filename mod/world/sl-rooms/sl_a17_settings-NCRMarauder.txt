@@ -1,0 +1,9 @@
+Template: SL_SettingsTemplate_Sewer
+DangerType: Blizzard
+RainIntensity: 0
+RumbleIntensity: 0
+Clouds: 0.7391304
+Palette: 0
+EffectColorB: 6
+Effects: Coldness-1-20-20, 
+FadePalette: 8, 0.5978261

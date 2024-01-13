@@ -1,0 +1,9 @@
+Template: NONE
+DangerType: Blizzard
+RainIntensity: 0
+RumbleIntensity: 0
+Grime: 0.2608696
+Palette: 0
+EffectColorA: 13
+PlacedObjects: BrokenShelterWaterLevel><463.8011><407.2717><, 
+FadePalette: 8, 0.5326087

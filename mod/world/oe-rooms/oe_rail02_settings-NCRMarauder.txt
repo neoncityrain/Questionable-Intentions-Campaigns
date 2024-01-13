@@ -3,9 +3,9 @@ DangerType: Blizzard
 CeilingDrips: 0
 RainIntensity: 1
 RumbleIntensity: 0.04347826
-WaveSpeed: 0.5034993
-WaveLength: 0.9649781
-WaveAmplitude: 0.009885864
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 5.605194E-45
 SecondWaveLength: 0.1666667
 SecondWaveAmplitude: 0
 Clouds: 0.8260869
@@ -13,7 +13,7 @@ Grime: 0
 BkgDroneVolume: 0.3043478
 Palette: 12
 Effects: AboveCloudsView-1-20-20, PixelShift-0.5-40-40, LightBurn-0.07608695-50-50, Contrast-0.02173913-60-60, Fog-0.4673913-70-70, Coldness-0-30-30, 
-PlacedObjects: LightBeam><-92.64569><362.3293><346~380~2222~378~776~-360~0~0~0.1391303~0.326087~0~1~None~0~0, PlayerPushback><4077.202><241.463><-93~1, SnowSource><3643.562><585.6767><Strip~163~-1~-317~-187.3975~0.5108696~0, SnowSource><2438.154><585.0601><Strip~208~0~-317~-187.3975~0.5108696~0, ClimbablePoleH><3676.273><469.6317><-3^0, 
+PlacedObjects: LightBeam><-92.64569><362.3293><346~380~2222~378~776~-360~0~0~0.1391303~0.326087~0~1~None~0~0, PlayerPushback><4077.202><241.463><-93~1, SnowSource><3643.562><585.6767><Strip~163~-1~-317~-187.3975~0.5108696~0, SnowSource><2438.154><585.0601><Strip~208~0~-317~-187.3975~0.5108696~0, ClimbablePoleH><3676.273><469.6317><-3^0, SnowSource><1350.554><702.212><Radial~136~104~50~86.60254~1~0, SnowSource><38.03668><697.8487><Radial~72~-165~50~86.60254~1~0, SnowSource><224.0568><699.2018><Radial~0~100~50~86.60254~1~0, SnowSource><-120.1882><631.1935><Radial~0~100~50~86.60254~1~0, 
 AmbientSounds: OMNI><AM_ENV-NatWind.ogg><115.6309><220.6606><0.4782609><0.6478265, OMNI><SO_WAT-Splashes.ogg><118.95><305.7476><0.1086956><1, 
 Triggers: Spot<tA>event<tB>MusicEvent<eA>songName<eB>RW_63 - Wandering Cut<eA>vol<eB>0.3<eA>prio<eB>0.6086956<eA>mxThrt<eB>1<eA>loop<eB>0<eA>droneTol<eB>0<eA>rooms<eB>-1<eA>rest<eB>5<eA>fadeIn<eB>58.69565<eA>oneSongPerCycle<eB>0<eA>stopAtDeath<eB>0<eA>stopAtGate<eB>0<tA>multiUse<tB>0<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>562.9431<tB>449.6978<tA>fireChance<tB>1<tA>entrance<tB>0<tA>karma<tB>0<tA>slugcats<tB><tA>pos<tB>593.943<tB>212.6978<tA>handlePos<tB>122.6447<tB>-105.3553, Spot<tA>event<tB>MusicEvent<eA>songName<eB>RW_63 - Wandering Cut<eA>vol<eB>0.3<eA>prio<eB>0.6195656<eA>mxThrt<eB>1<eA>loop<eB>0<eA>droneTol<eB>0<eA>rooms<eB>-1<eA>rest<eB>5<eA>fadeIn<eB>65.21743<eA>oneSongPerCycle<eB>0<eA>stopAtDeath<eB>0<eA>stopAtGate<eB>0<tA>multiUse<tB>0<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>818.1356<tB>429.164<tA>fireChance<tB>1<tA>entrance<tB>2<tA>karma<tB>0<tA>slugcats<tB><tA>pos<tB>598.135<tB>216.164<tA>handlePos<tB>-4.355347<tB>-170.3553, 
 FadePalette: 41, 0.5434783, 0.4565217, 0.3043478, 0.1304348

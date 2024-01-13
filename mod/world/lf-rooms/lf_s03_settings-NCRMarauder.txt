@@ -1,0 +1,7 @@
+DangerType: Blizzard
+RainIntensity: 0.25
+RumbleIntensity: 0.25
+Palette: 8
+Effects: Flies-0-20-20, 
+PlacedObjects: BrokenShelterWaterLevel><318.348><349.7294><, 
+FadePalette: 0, 0.4347826

@@ -1,0 +1,9 @@
+Template: SI_SettingsTemplate_Inside
+DangerType: Blizzard
+RainIntensity: 0.2282609
+RumbleIntensity: 0.25
+Palette: 0
+Effects: Flies-0-30-30, Coldness-1-23-69, 
+PlacedObjects: BrokenShelterWaterLevel><568.3526><472.6149><, 
+AmbientSounds: SPOT><AM_IND-Utility02.ogg><692.8223><459.0635><0.423913><1><573.8223><377.0635><-64.35535><-58.35535><0><0.1760871, OMNI><AM_ENV-LightWind.ogg><831.3163><595.5792><0><1, OMNI><AM_ENV-NatWind.ogg><849.0554><516.954><0.2065217><1, 
+FadePalette: 3, 0.5434783

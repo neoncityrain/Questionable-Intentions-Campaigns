@@ -1,0 +1,20 @@
+Template: SL_SettingsTemplate_Sewer
+DangerType: Blizzard
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 5.605194E-45
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.4565217
+Grime: 0.578261
+BkgDroneVolume: 0
+Palette: 5
+Effects: Darkness-0.5652174-7-133, Fog-0-7-79, Contrast-0-7-20, Moth-0.1413043-263-22, RockFlea-0.05434782-262-78, BrokenZeroG-0.7065217-261-132, WaterDepth-0.1413043-256-190, SilenceWater-0.5-258-250, 
+PlacedObjects: LightFixture><-7.266205><2009.967><RedLight~48.99861~98.67554~0, LightFixture><1031.899><1594.284><RedLight~17.32051~-10~40, LightFixture><248.6788><1583.698><RedLight~17.32051~-10~36, LightFixture><945.4349><2255.172><RedLight~17.32051~-10~19, LightFixture><258.2998><2520.443><RedLight~-222.6795~115~0, LightFixture><28.72871><1283.463><RedLight~17.32051~-10~43, LightFixture><874.3841><815.1849><RedLight~17.32051~-10~0, LightFixture><957.1976><1287.718><RedLight~17.32051~-10~33, SSLightRod><918.0157><1026.656><-330.6795~30~0.206539~180~445.2318~0.1956522, LightFixture><60.01917><351.5712><RedLight~17.32051~-10~22, LightFixture><858.9176><431.9398><RedLight~17.32051~-10~76, DevToken><437.6024><2477.821><-78~46~-402~237~0~~~0~0~0~1, 
+AmbientSounds: OMNI><AM_IND-SuperStructure.ogg><754.3148><619.9247><0.1847826><1, OMNI><AM_WIN-SubWnd.ogg><576.8196><621.9375><0.3695652><1, 
+FadePalette: 35, 1, 0.9347826, 0.8695652, 0.8043478, 0.7391304, 0.6739131
+RoomSpecificScriptActive: ON
+WetTerrain: OFF

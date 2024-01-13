@@ -5,7 +5,7 @@ RainIntensity: 0
 RumbleIntensity: 0
 WaveSpeed: 0.5
 WaveLength: 1
-WaveAmplitude: 1.551488E-12
+WaveAmplitude: 5.605194E-45
 SecondWaveLength: 0.1666667
 SecondWaveAmplitude: 0
 Clouds: 0.8586956
@@ -13,6 +13,6 @@ Grime: 0
 Palette: 27
 EffectColorB: 9
 Effects: Darkness-0.4130435-263-129, Fog-0.4347826-40-40, 
-PlacedObjects: LightSource><421.6551><303.1237><0.2173913~White~0~100~93~-95.39746~1~0~None~0~0, LightSource><361.4831><410.0507><0.2282609~White~104~-46~178~-9.397461~1~0~None~0~0, BrokenShelterWaterLevel><431.6168><346.1008><, DayNightSettings><205.8004><119.5119><5~8.660254~43~10, 
+PlacedObjects: LightSource><421.6551><303.1237><0.2173913~White~0~100~93~-95.39746~1~0~None~0~0, LightSource><361.4831><410.0507><0.2282609~White~104~-46~178~-9.397461~1~0~None~0~0, BrokenShelterWaterLevel><431.6168><346.1008><, DayNightSettings><205.8004><119.5119><5~8.660254~43~10, SnowSource><430.8004><337.2622><Strip~5~42~50~86.60254~0.7282609~0.3586957, 
 FadePalette: 40, 0.5434783
 WetTerrain: OFF

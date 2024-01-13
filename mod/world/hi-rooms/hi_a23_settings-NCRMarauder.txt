@@ -1,0 +1,19 @@
+Template: NONE
+DangerType: Blizzard
+CeilingDrips: 0
+RainIntensity: 0.2826087
+RumbleIntensity: 0.25
+WaveSpeed: 0.5026545
+WaveLength: 0.9986728
+WaveAmplitude: 6.591181E-08
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.1195652
+Grime: 0.2173913
+BkgDroneVolume: 0.2469565
+Palette: 0
+EffectColorA: 0
+PlacedObjects: Mushroom><336.111><247.1062><-382~305~2~3, Mushroom><293.0612><273.6904><-336~211~2~3, Mushroom><310.3163><260.9387><-348~119~2~3, CustomDecal><281.8593><89.08249><-37~497~637~500~583~-1~2~-376~0.2934783~0.7391304~0~NoseBleed~0.6739131~0.1630435~0~0~0.4021739~0.6847826~0~0, CustomDecal><1075.444><395.6997><-9~101~-323~185~-348~1~-1182~-334~0.423913~1~0~WhiteJunkArrows~0~0.326087~0.3695652~0.326087~0.6413044~0.326087~0.4021739~0.326087, CustomDecal><530.1251><308.1561><4~55~99~27~66~-41~16~-593~0.5869565~1~0~goblinCrude~0.5~0.4130435~0.5~0.4130435~0.5~0.4130435~0.5~0.4130435, InsectGroup><733.8757><111.9067><-250~215~0~0~RockFlea~0.3695656, LanternOnStick><794.1633><478.3198><25~-87, LanternOnStick><558.4411><396.559><-33~-161, Lantern><767.0438><247.4451><55~39~4~9, 
+AmbientSounds: OMNI><AM_IND-Warehouse02.ogg><823.3002><631.5102><0.3586957><0.9021739, OMNI><SO_WAT-LilDrips.ogg><471.5779><633.3981><0.2717391><1, OMNI><AM_ENV-WinterTrees.ogg><646.743><631.1999><0.2826087><1, 
+FadePalette: 20, 0.1956522
+WetTerrain: OFF

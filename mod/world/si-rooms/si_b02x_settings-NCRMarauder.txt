@@ -1,0 +1,6 @@
+DangerType: Blizzard
+CeilingDrips: 0
+Effects: Flies-0-279-291, SkyDandelions-0-271-237, Coldness-1-20-20, Dustpuffs-1-25-75, 
+PlacedObjects: DeadSeedCob><1810.146><350.8631><, DeadSeedCob><1834.828><323.8988><, DeadSeedCob><624.6057><351.3616><, SeedCob><687.0821><336.8587><0~0~7~10, SnowSource><1705.438><373.3175><Radial~-1135~-717~-294~-165.3975~0.5543478~1, SnowSource><425.0516><309.2758><Radial~1264~752~50~86.60254~0.6086956~1, 
+FadePalette: 0, 0.3586957, 0.3695652
+WetTerrain: OFF

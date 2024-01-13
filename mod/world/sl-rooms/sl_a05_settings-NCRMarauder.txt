@@ -1,0 +1,16 @@
+Template: SL_SettingsTemplate_Sewer
+DangerType: Blizzard
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 8.962932E-19
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Palette: 0
+Effects: Coldness-1-30-30, 
+PlacedObjects: DataPearl><147.911><565.3813><-253~-98~0~0~Misc~0, 
+AmbientSounds: SPOT><AM_IND-Utility02.ogg><845.1892><403.5649><0.4891304><0.7847826><272.1892><444.5649><-131.3553><-19.35535><0><0.3826088, SPOT><Basic Mech.ogg><838.0535><260.2125><0><0.9021739><352.0535><384.2125><-80.35535><-33.35535><0><0.3173914, 
+FadePalette: 8, 0.6304348
+WetTerrain: OFF

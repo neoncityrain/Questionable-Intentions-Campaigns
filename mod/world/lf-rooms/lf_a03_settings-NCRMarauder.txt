@@ -1,0 +1,18 @@
+DangerType: Blizzard
+CeilingDrips: 0
+RainIntensity: 0.2608696
+RumbleIntensity: 0.2608696
+WaveSpeed: 0.4977268
+WaveLength: 0.9988634
+WaveAmplitude: 4.584378E-12
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+BkgDroneVolume: 0.2569565
+Palette: 0
+EffectColorB: 18
+Effects: LightBurn-0.04347826-1-57, 
+PlacedObjects: DevToken><214.4127><306.8662><13~-45~0~0~0~~~0~0~0~1, LightSource><456.7446><262.8001><0.3369565~Environment~171~193~149~-354.3975~1~0~None~0~0, LightSource><705.8439><264.8234><0.2065217~Environment~-3~140~157~-291.3975~1~0~None~0~0, PuffBall><511.6416><195.4181><-165~-274~2~3, CentipedeAttractor><204.224><71.55171><-161~70, CentipedeAttractor><831.0066><74.30013><-162~72, DangleFruit><565.3536><409.3863><0~0~2~3, DangleFruit><578.3271><350.3506><0~0~2~3, DangleFruit><605.6774><370.3425><0~0~2~3, 
+AmbientSounds: SPOT><SO_NAT-LilDrips.ogg><38.8645><178.086><0.2173913><1><341.8645><157.086><-181.3553><-63.35535><0><0.3934784, SPOT><SO_NAT-LilDrips.ogg><40.9458><65.70914><0.1956522><1><669.9458><190.7091><-150.3553><-50.35535><0><0.2847827, SPOT><AM_IND-Utility02.ogg><763.9665><464.6972><0.3804348><1><501.9665><570.6971><-212.3553><-60.35535><0><0.404348, SPOT><AM_ENV-Outside.ogg><35.00702><291.4499><0.3043478><0.8630434><66.00696><621.4499><-104.3553><-16.35535><0><0.2847826, OMNI><AM_ENV-NatWind.ogg><761.3763><597.5949><0.3043478><1, 
+FadePalette: 8, 0.25
+RoomSpecificScriptActive: ON
+WetTerrain: OFF

@@ -1,0 +1,18 @@
+DangerType: Blizzard
+CeilingDrips: 0
+WaveSpeed: 0.3362847
+WaveLength: 0.9181424
+WaveAmplitude: 2.611092E-10
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.4130435
+Grime: 0.3586957
+BkgDroneVolume: 0.2608696
+Palette: 2
+EffectColorA: 10
+EffectColorB: 2
+Effects: SkyDandelions-0-20-20, Flies-0-30-30, Coldness-1-31-65, Dustpuffs-1-34-123, LightBurn-0.02173913-287-21, 
+PlacedObjects: SnowSource><2524.948><423.2771><None~1278~-708~189~-168.3975~0.4782609~1, SnowSource><514.6989><418.7292><None~1286~-760~-118~-132.3975~0.4565217~1, DeadTokenStalk><2486.357><751.9191><-22~-31, DeadTokenStalk><2390.05><765.7427><26~-48, DeadTokenStalk><2381.413><678.8654><23~34, BlueToken><2433.724><761.3017><6~-37~-177~-282~1~DandelionPeach~Artificer|Saint|Spear~0~0~0, 
+AmbientSounds: SPOT><AM_WIN-StrongWnd2.ogg><697.6901><521.3123><0.3043478><1.117391><1497.69><287.3123><-327.3553><225.6447><0><0.3065219, SPOT><AM_ENV-WinterHum.ogg><741.653><399.8712><0.3586957><1><3221.653><400.8712><-255.3553><-47.35535><0><1, SPOT><AM_ENV-WinterHum.ogg><743.5541><284.5406><0.3695652><1><-101.4459><452.5406><209.6447><-41.35535><0><1, 
+FadePalette: 0, 0.3695652, 0.3695652, 0.3586957
+WetTerrain: OFF

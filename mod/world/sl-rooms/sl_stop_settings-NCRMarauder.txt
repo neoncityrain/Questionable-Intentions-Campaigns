@@ -1,0 +1,20 @@
+Template: NONE
+DangerType: Blizzard
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5003374
+WaveLength: 0.9998313
+WaveAmplitude: 0.0002434218
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Grime: 0.2934783
+BkgDroneVolume: 0
+Palette: 27
+EffectColorA: 12
+EffectColorB: 6
+Effects: LightBurn-0.2717391-20-20, 
+PlacedObjects: SuperStructureFuses><367.2426><513.3001><103~63, SuperStructureFuses><318.0522><571.5304><40~40, SuperStructureFuses><216.4486><512.4563><66~86, BrokenShelterWaterLevel><317.9437><381.2996><, 
+AmbientSounds: SPOT><SO_WAT-MoreDrips.ogg><863.511><581.6997><0.3804348><1><952.5109><-7.300308><-356.3553><86.64465><0><0.3608697, OMNI><AM_IND-SuperStructure.ogg><862.0514><495.8067><0.2282609><1, SPOT><SO_SFX-Data5.ogg><689.6908><583.8099><0.25><1><329.6907><622.8099><192.6447><-59.35535><0><0.4695654, 
+FadePalette: 35, 0.6304348
+WetTerrain: OFF

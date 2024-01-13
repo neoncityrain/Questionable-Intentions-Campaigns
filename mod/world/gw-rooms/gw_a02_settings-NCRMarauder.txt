@@ -1,0 +1,2 @@
+Template: GW_SettingsTemplate_Inside
+DangerType: Blizzard

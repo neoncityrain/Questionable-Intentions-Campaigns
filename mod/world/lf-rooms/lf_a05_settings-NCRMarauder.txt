@@ -1,0 +1,10 @@
+DangerType: Blizzard
+RainIntensity: 0
+RumbleIntensity: 0.1521739
+Clouds: 0.1847826
+BkgDroneVolume: 0.2569565
+Palette: 0
+Effects: Flies-0-20-20, 
+PlacedObjects: PuffBall><315.1287><515.341><0~0~2~3, PuffBall><331.9199><543.8167><0~0~2~3, PuffBall><374.3384><521.1321><0~0~2~3, CentipedeAttractor><443.4341><195.8282><-220~-83, 
+AmbientSounds: OMNI><AM_ENV-NatWind.ogg><807.6965><632.0372><0.3369565><1, 
+FadePalette: 8, 0.4130435

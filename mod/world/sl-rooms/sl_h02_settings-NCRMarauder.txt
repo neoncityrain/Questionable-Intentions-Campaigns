@@ -1,0 +1,13 @@
+DangerType: Blizzard
+CeilingDrips: 0
+WaveSpeed: 0.4981417
+WaveLength: 0.9990709
+WaveAmplitude: 0.003496088
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+BkgDroneVolume: 0.2769565
+Palette: 0
+PlacedObjects: SnowSource><3589.697><1241.968><Radial~332~190~50~86.60254~0.6739131~1, SnowSource><2253.664><1206.135><Radial~497~-114~31~128.6025~0.4782609~1, SnowSource><641.9223><1389.352><Radial~-802~-584~-113~-155.3975~0.6847826~1, BigJellyFish><1636.354><1137.613><0~100, BigJellyFish><2583.404><1135.373><0~100, WaterNut><403.5375><1189.583><0~0~2~3, WaterNut><366.5475><1162.922><0~0~2~3, WaterNut><430.5968><1182.925><0~0~2~3, GlowWeed><2637.31><578.6403><0~0~2~3, GlowWeed><2300.285><447.5873><0~0~2~3, GlowWeed><2192.641><377.6611><0~0~2~3, GlowWeed><1799.629><254.6146><0~0~2~3, GlowWeed><1422.413><186.5673><0~0~2~3, GlowWeed><1330.675><213.6564><0~0~2~3, GlowWeed><2884.123><548.1543><0~0~2~3, WaterNut><3620.34><1234.13><0~0~2~3, WaterNut><3636.304><1229.211><0~0~2~3, 
+AmbientSounds: OMNI><AM_WAT-Sea01.ogg><654.1245><638.5935><0.423913><1, OMNI><AM_ENV-LightWind.ogg><831.1455><642.5795><0><1, OMNI><AM_ENV-NatWind.ogg><834.3><567.5017><0.3369565><1, 
+FadePalette: 5, 0.4021739, 0.4021739, 0.4021739, 0.4021739, 0.4021739, 0.4021739, 0.4021739, 0.4021739
+WetTerrain: OFF

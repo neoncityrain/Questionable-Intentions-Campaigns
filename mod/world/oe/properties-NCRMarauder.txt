@@ -1,0 +1,7 @@
+Palette: 14
+waterColorOverride: 0.05, 0.43, 0.41
+overseersSpawnChance: 0.3
+overseersMin: 0
+overseersMax: 4
+pupSpawnChance: 1
+GlacialWasteland: 1

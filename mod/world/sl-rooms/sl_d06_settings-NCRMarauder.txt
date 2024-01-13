@@ -1,0 +1,17 @@
+DangerType: Blizzard
+CeilingDrips: 0
+WaveSpeed: 0.1645121
+WaveLength: 0.8322561
+WaveAmplitude: 4.932089E-13
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Grime: 0.4347826
+BkgDroneVolume: 0.2769565
+Palette: 0
+EffectColorA: 3
+Effects: Fog-0.6086956-0-0, Coldness-1-20-20, 
+PlacedObjects: DataPearl><2328.141><391.1678><0~0~0~0~Misc~0, InsectGroup><724.3063><296.0609><-45~110~0~0~RockFlea~0.1805499, InsectGroup><370.9653><306.553><0~100~0~0~RockFlea~0.25, InsectGroup><2523.854><286.0462><-177~102~0~0~RockFlea~0.3369565, SnowSource><500.4394><517.3144><Radial~585~-396~73~51.60254~0.7065217~1, SnowSource><1342.228><635.5511><Radial~601~-397~28~-261.3975~0.75~1, SnowSource><1904.149><627.0775><Radial~377~165~-454~-123.3975~0.7934783~1, SnowSource><2363.883><706.3503><Radial~289~-33~-250~-192.3975~0.7282609~1, SnowSource><2679.37><700.9022><Radial~251~156~-14~-257.3975~0.7065217~1, SnowSource><3186.404><496.5748><Radial~371~-226~50~86.60254~0.8043478~1, SnowSource><3923.763><448.3004><Radial~258~249~-461~-290.3975~0.6195652~1, 
+AmbientSounds: SPOT><AM_WAT-Sea01.ogg><850.6497><462.8269><0.4891304><1><500.6498><275.6758><-214.3553><-105.3553><0><0.5130436, SPOT><AM_WAT-Sea03.ogg><846.8648><344.9138><0.4565217><1><1840.865><260.9138><-130.3553><-58.35535><0><0.502174, SPOT><AM_WAT-Sea02.ogg><840.8428><224.9272><0.3913043><0.9217392><2618.843><272.9272><-89.35535><-64.35535><0><0.404348, SPOT><AM_WAT-Sea01.ogg><839.0762><106.401><0.4456522><0.9804348><3465.077><271.3666><-88.35535><-34.35535><0><0.2847827, OMNI><AM_WAT-Sea01.ogg><651.1999><650.5057><0.3913043><1, OMNI><AM_ENV-LightWind.ogg><831.1455><642.5795><0><1, OMNI><AM_ENV-NatWind.ogg><672.4323><564.4382><0.3043478><1, 
+Triggers: Spot<tA>event<tB>MusicEvent<eA>songName<eB>RW_46 - Lonesound<eA>vol<eB>0.2891308<eA>prio<eB>0.5<eA>mxThrt<eB>1<eA>loop<eB>0<eA>droneTol<eB>0<eA>rooms<eB>5<eA>rest<eB>3<eA>fadeIn<eB>163.0435<eA>oneSongPerCycle<eB>0<eA>stopAtDeath<eB>0<eA>stopAtGate<eB>0<tA>multiUse<tB>0<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>96.9671<tB>485.5527<tA>fireChance<tB>1<tA>entrance<tB>0<tA>karma<tB>0<tA>slugcats<tB><tA>pos<tB>915.9677<tB>333.561<tA>handlePos<tB>-220.3553<tB>-254.3553, Spot<tA>event<tB>MusicEvent<eA>songName<eB>RW_46 - Lonesound<eA>vol<eB>0.2891308<eA>prio<eB>0.5<eA>mxThrt<eB>1<eA>loop<eB>0<eA>droneTol<eB>0<eA>rooms<eB>5<eA>rest<eB>3<eA>fadeIn<eB>163.0435<eA>oneSongPerCycle<eB>0<eA>stopAtDeath<eB>0<eA>stopAtGate<eB>0<tA>multiUse<tB>0<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>376.5617<tB>485.8174<tA>fireChance<tB>1<tA>entrance<tB>2<tA>karma<tB>0<tA>slugcats<tB><tA>pos<tB>3463.555<tB>346.8169<tA>handlePos<tB>-19.35535<tB>-288.3553, 
+FadePalette: 5, 0.4021739, 0.4021739, 0.4021739, 0.4021739
+WetTerrain: OFF

@@ -5,16 +5,16 @@ RainIntensity: 0
 RumbleIntensity: 0
 WaveSpeed: 0.5
 WaveLength: 1
-WaveAmplitude: 1.232941E-05
+WaveAmplitude: 1.086003E-27
 SecondWaveLength: 1
 SecondWaveAmplitude: 0.0001
 Clouds: 0.6086956
 Grime: 0
-Palette: 5
+Palette: 14
 EffectColorA: 10
 EffectColorB: 10
 Effects: PixelShift-0.5-32-65, AboveCloudsView-1-259-244, SkyAndLightBloom-0.01086957-264-296, DayNight-0.1304348-264-109, Contrast-0.02173913-283-16, Desaturation-0.2826087-17-79, LightBurn-0.2934783-31-106, Fog-0.4456522-32-113, 
 PlacedObjects: DayNightSettings><1532.373><371.6542><5~8.660254~76~10, LightSource><534.1198><322.4102><0.1521739~Environment~-632~125~50~86.60254~1~0~None~0~0, LightSource><1540.555><313.9431><0.3695652~Environment~-678~320~81~181.6025~1~0~None~0~0, LightSource><1138.274><346.3014><0.25~Environment~578~282~50~86.60254~1~0~None~0~0, 
 AmbientSounds: DIR><AM_ENV-LightWind.ogg><743.1793><517.6614><0.3043478><1><75.59715><0, 
-FadePalette: 33, 0.4021739, 0.4347826
+FadePalette: 33, 0.6630435, 0.6630435
 WetTerrain: OFF

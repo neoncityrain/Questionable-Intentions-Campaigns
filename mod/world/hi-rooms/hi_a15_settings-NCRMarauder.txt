@@ -1,0 +1,11 @@
+Template: NONE
+DangerType: Blizzard
+RainIntensity: 0.2717391
+RumbleIntensity: 0.2282609
+Clouds: 0.4130435
+Grime: 0.4130435
+BkgDroneVolume: 0.2469565
+Palette: 0
+EffectColorA: 8
+AmbientSounds: OMNI><AM_IND-Warehouse01.ogg><771.6984><421.7245><0.423913><0.8043478, SPOT><SO_IND-MechHum01.ogg><789.8796><64.5903><0.2717391><1><482.8796><84.5903><-50.35535><-46.35534><0><0.3173914, SPOT><AM_ENV-WinterTrees.ogg><772.8004><503.9874><0.2934783><1><321.8004><603.9874><-35.35534><-35.35534><0><0.2630436, 
+FadePalette: 20, 0.1956522

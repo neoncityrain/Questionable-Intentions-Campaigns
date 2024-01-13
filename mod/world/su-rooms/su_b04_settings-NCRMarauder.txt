@@ -1,0 +1,11 @@
+DangerType: Blizzard
+Clouds: 0.2826087
+Grime: 0.2934783
+BkgDroneVolume: 0.2769565
+EffectColorA: 9
+EffectColorB: 7
+Effects: Flies-0-20-20, Coldness-1-24-78, Dustpuffs-1-23-137, LightBurn-0.1304348-280-24, 
+PlacedObjects: LightSource><395.439><357.4347><0.6521739~Environment~0~100~71.99997~-421.3975~1~0~None~0~0, CustomDecal><664.3756><543.3434><-35~135~403~152~388~3~-806~-850~0.3478261~1~0~Long Tag~0.5434783~0.4021739~1~0~0.8152174~0.4673913~0.5~0.5978261, CustomDecal><1799.305><314.0449><-25~503~263~565~211~-129~143~-459~0~0.6630435~0~RustB3~0.5~0.7282609~0.7391304~0.7282609~0~0.7282609~0~0.7282609, CustomDecal><351.4107><-2.369171><0~394~553~365~544~-14~-314~-264~0.6413044~1~0~Rust1~0.7282609~1~0.7282609~1~0.2065217~1~0.2717391~1, SnowSource><1709.829><282.3164><Radial~-779~392~-34~-321.3975~0.6739131~1, SnowSource><1493.052><149.2187><Radial~87~366~-74~-188.3975~0.8152174~0.5217391, SnowSource><1018.591><604.0718><Radial~286~-59~279~-189.3975~0.8369565~0.4456522, SnowSource><363.8271><692.3155><Radial~214~199~-426~-181.3975~0.8260869~0.5543478, SnowSource><847.632><655.3385><Radial~-293~-18~-149~-187.3975~0.8695653~0.6086953, 
+AmbientSounds: SPOT><AM_IND-ElectricHum01.ogg><785.749><296.7><0.3152174><1><390.7489><346.7><-45.35535><-36.35535><0><0.328261, OMNI><AM_ENV-Outside.ogg><765.4963><477.05><0><1, OMNI><AM_ENV-NatWind.ogg><747.059><568.5594><0.3804348><1, 
+Triggers: Spot<tA>event<tB>MusicEvent<eA>songName<eB>RW_1 - Urban Jungle<eA>vol<eB>0.2999997<eA>prio<eB>0.5<eA>mxThrt<eB>1<eA>loop<eB>0<eA>droneTol<eB>0<eA>rooms<eB>-1<eA>rest<eB>5<eA>fadeIn<eB>45.65217<eA>oneSongPerCycle<eB>0<eA>stopAtDeath<eB>0<eA>stopAtGate<eB>0<tA>multiUse<tB>0<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>611.3611<tB>594.4163<tA>fireChance<tB>0.4565217<tA>entrance<tB>-1<tA>karma<tB>0<tA>slugcats<tB><tA>pos<tB>1670.361<tB>255.4163<tA>handlePos<tB>-338.3553<tB>68.64465, 
+FadePalette: 10, 0.06521739, 0.08695652

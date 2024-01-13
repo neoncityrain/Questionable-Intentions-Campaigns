@@ -1,0 +1,14 @@
+DangerType: Blizzard
+CeilingDrips: 0
+WaveSpeed: 0.5086011
+WaveLength: 0.9608934
+WaveAmplitude: 0.01065879
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+BkgDroneVolume: 0.2769565
+Palette: 0
+Effects: Coldness-1-20-20, 
+PlacedObjects: VoidSpawnEgg><843.7754><1348.934><-947~47.03235~2~3~0, SnowSource><1120.422><1370.102><Radial~1270~-735~231~-121.3975~0.6195652~1, SnowSource><511.5688><1374.812><Radial~615~-457~55~45.25238~0.5760869~1, GlowWeed><1856.197><278.7838><0~0~2~3, GlowWeed><1699.158><390.8728><0~0~2~3, GlowWeed><1.121765><283.5913><0~0~2~3, GlowWeed><760.1705><358.6453><0~0~2~3, GlowWeed><326.9679><433.5526><0~0~2~3, GlowWeed><287.1918><344.807><0~0~2~3, 
+AmbientSounds: SPOT><AM_WAT-Sea03.ogg><860.5536><535.8074><0.4130435><1><568.5536><1105.807><-130.3553><-20.35535><0><0.4369566, SPOT><AM_WAT-Sea01.ogg><741.3477><320.6296><0.3478261><1><1464.348><1100.625><-124.3553><-43.35535><0><0.3173914, OMNI><AM_WAT-Sea01.ogg><654.291><642.3043><0.4021739><1, OMNI><AM_ENV-LightWind.ogg><831.1455><642.5795><0><1, OMNI><AM_ENV-NatWind.ogg><743.1304><486.0984><0.3586957><1, 
+FadePalette: 5, 0.4021739, 0.4021739, 0.4021739, 0.4021739
+WetTerrain: OFF

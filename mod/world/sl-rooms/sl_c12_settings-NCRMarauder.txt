@@ -1,0 +1,16 @@
+DangerType: Blizzard
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 4.362232E-11
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Grime: 0.2717391
+Palette: 0
+Effects: RockFlea-0.1521739-281-117, 
+PlacedObjects: WaterNut><1264.316><340.6723><-345~221~2~3, WaterNut><1241.945><339.5577><-307~137~2~3, WaterNut><1222.649><332.617><-282~56~2~3, WaterNut><746.808><334.5587><-844~136~2~3, WaterNut><767.335><338.9312><-866~216~2~3, 
+AmbientSounds: OMNI><AM_ENV-LightWind.ogg><831.1455><642.5795><0><1, OMNI><AM_ENV-NatWind.ogg><713.691><490.1911><0.2608696><1, 
+FadePalette: 8, 0.6847826, 0.6630435, 0.6521739
+WetTerrain: OFF

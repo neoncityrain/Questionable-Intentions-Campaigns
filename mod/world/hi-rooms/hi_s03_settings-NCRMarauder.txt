@@ -1,0 +1,7 @@
+Template: HI_SettingsTemplate_Inside
+DangerType: Blizzard
+RainIntensity: 0.2717391
+RumbleIntensity: 0.2717391
+Palette: 0
+PlacedObjects: BrokenShelterWaterLevel><473.9116><445.8823><, 
+FadePalette: 20, 0.1521739

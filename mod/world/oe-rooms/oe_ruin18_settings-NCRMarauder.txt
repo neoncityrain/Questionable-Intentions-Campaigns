@@ -3,9 +3,9 @@ DangerType: Blizzard
 CeilingDrips: 0
 RainIntensity: 1
 RumbleIntensity: 1
-WaveSpeed: 0.4954241
-WaveLength: 0.997712
-WaveAmplitude: 0.002892508
+WaveSpeed: 0.4876364
+WaveLength: 0.9441248
+WaveAmplitude: 0.01291467
 SecondWaveLength: 1
 SecondWaveAmplitude: 0.0001
 Clouds: 0.6847826
@@ -13,7 +13,7 @@ Grime: 0.0592051
 Palette: 14
 EffectColorA: 9
 EffectColorB: 10
-Effects: Contrast-0.03093288-262-18, LightBurn-0.2282609-275-75, SilenceWater-0.4891304-11.58644-21.97779, PixelShift-0.5-24.88544-131.8445, AboveCloudsView-1-270-302, Darkness-0.1559554-517-17, SkyAndLightBloom-0.0882021-278-352, WaterDepth-0.04639999-386.1115-137.2, Fog-0.2474637-26.44272-66.97778, MossWater-0-30-30, MossWaterRGB-0-40-40, 
+Effects: Contrast-0.03093288-262-18, LightBurn-0.2282609-275-75, SilenceWater-0.4891304-11.58644-21.97779, PixelShift-0.5-24.88544-131.8445, AboveCloudsView-1-270-302, Darkness-0.1559554-517-17, SkyAndLightBloom-0.0882021-278-352, WaterDepth-0.04639999-386.1115-137.2, Fog-0.2474637-26.44272-66.97778, MossWater-0-30-30, MossWaterRGB-0-434-521-Blue:255-Green:255-Red:235.6521, IceWater-1-40-40, 
 PlacedObjects: LightSource><531.9329><2728.669><0.2608696~Environment~586~-1923~107~-430.3975~1~0~None~0~0, LightSource><535.8602><265.6431><0.1195652~Environment~255~536~50~86.60254~0~0~None~0~1, LightSource><535.3342><266.8618><0.1086956~Environment~-278~162~50~-28.39746~0~1~None~0~1, LightSource><261.8011><418.4434><0.1847826~Environment~267~-42~50~86.60254~0~0~None~0~1, LightSource><531.56><2744.313><0.25~Environment~-697~-433~-418~-437.3975~1~1~None~0~0, FlyLure><352.9854><2513.801><20~-224~4~9, FlyLure><634.0257><2488.198><0~0~4~9, FlyLure><656.8893><2492.833><-22~-78~4~9, FirecrackerPlant><143.2962><2497.195><-289~-164~2~3, FirecrackerPlant><558.3578><2638.832><97~178~2~3, FirecrackerPlant><914.3865><2528.854><0~0~2~3, FirecrackerPlant><216.438><2514.932><-336~-95~2~3, FirecrackerPlant><282.1272><2526.842><-400~-25~2~3, FirecrackerPlant><305.0604><2521.064><-164~-100~2~3, DayNightSettings><84.78766><2918.91><5~8.660254~76~10, BlinkingFlower><114.5659><2643.578><, BlinkingFlower><114.8297><2643.317><, BlinkingFlower><137.5824><2724.391><, BlinkingFlower><919.833><2613.682><, BlinkingFlower><918.5547><2671.543><, BlinkingFlower><167.5628><2581.43><, BlinkingFlower><87.89709><2746.635><, BlinkingFlower><156.6877><2559.31><, 
 FadePalette: 33, 0.1317255, 0.3127264, 0.4644701, 0.5760869
 WetTerrain: OFF

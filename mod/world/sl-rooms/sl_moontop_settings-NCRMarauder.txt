@@ -1,0 +1,19 @@
+Template: SL_SettingsTemplate_Sewer
+DangerType: Blizzard
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 5.605194E-45
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.9130435
+Grime: 0.06739144
+Palette: 5
+EffectColorB: 6
+Effects: BrokenZeroG-0.7608696-5-57, Darkness-0.5869565-3-125, Fog-0-7-0, 
+PlacedObjects: LightFixture><163.1161><810.4128><RedLight~17.32051~-10~90, LightFixture><1060.079><1006.434><RedLight~17.32051~-10~2, LightFixture><171.8648><1382.103><RedLight~17.32051~-10~0, LightFixture><162.1783><434.9643><RedLight~17.32051~-10~0, LightFixture><1038.166><679.5951><RedLight~17.32051~-10~0, 
+AmbientSounds: OMNI><AM_IND-SuperStructure.ogg><783.4694><493.1976><0.1847826><1, OMNI><AM_WIN-SubWnd.ogg><789.8393><567.369><0.3695652><1, OMNI><SO_WAT-OpenFlow.ogg><789.444><643.7014><0.2717391><1, SPOT><SO_WAT-Splashes.ogg><602.117><399.0878><0.4130435><1><634.117><330.0878><-546.3553><-102.3553><0><0.4478262, 
+FadePalette: 35, 0.7934783, 0.7934783
+WetTerrain: OFF

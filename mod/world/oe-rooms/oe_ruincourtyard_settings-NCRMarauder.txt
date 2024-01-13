@@ -3,9 +3,9 @@ DangerType: Blizzard
 CeilingDrips: 0
 RainIntensity: 1
 RumbleIntensity: 1
-WaveSpeed: 0.478018
-WaveLength: 0.9291692
-WaveAmplitude: 0.01494575
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 4.880801E-21
 SecondWaveLength: 1
 SecondWaveAmplitude: 0.0001
 Clouds: 0.6086956
@@ -14,7 +14,7 @@ WaterReflectionAlpha: 0.4456522
 Palette: 14
 EffectColorA: 10
 EffectColorB: 9
-Effects: Desaturation-0.3369565-536-19, LightBurn-0.1195652-284-72, Contrast-0.173913-282-18, SkyAndLightBloom-0.1086956-279-130, Fog-1-33-138, AboveCloudsView-1-20-20, PixelShift-0.5-40-40, Coldness-0-42-89, MossWater-0-45-81, MossWaterRGB-0-464-504-Red:230.0544-Green:255-Blue:255-Red:230.0544-Green:255-Blue:255, 
+Effects: Desaturation-0.3369565-536-19, LightBurn-0.1195652-284-72, Contrast-0.173913-282-18, SkyAndLightBloom-0.1086956-279-130, Fog-1-33-138, AboveCloudsView-1-20-20, PixelShift-0.5-40-40, Coldness-0-42-89, MossWater-0-45-81, MossWaterRGB-0-464-504-Red:230.0544-Green:255-Blue:255, IceWater-1-30-30, 
 PlacedObjects: LightBeam><148.3035><1209.171><-31~768~3886~759~2292~-612~1810.262~97.7301~0.1086598~0.3804348~0.2065217~1~None~0~0, LightSource><2445.8><1576.747><0.1304348~Environment~-1625~2~-165.0009~-214.3983~1~0~None~0~0, LanternOnStick><1125.137><1352.585><-18~-120, LanternOnStick><1623.87><992.9103><78~-132, LanternOnStick><2165.329><1136.934><22~-209, LanternOnStick><2532.777><1078.802><18~-176, LanternOnStick><2597.553><1014.963><-20~-126, LanternOnStick><3250.196><1124.193><-22~-141, LanternOnStick><3505.591><984.121><55~-82, LightSource><2465.695><937.2096><0.6521739~Environment~-341~126~50~86.60254~0~0~None~0~1, LightSource><2973.859><961.9019><0.1413043~Environment~-201~81~50~86.60254~0~0~None~0~1, LightSource><3601.384><892.6031><0.1630435~Environment~-279~96~-247~202.6025~0~0~None~0~1, SnowSource><1899.486><1083.964><Radial~854.4615~-244.8889~50~86.60254~1~0, SnowSource><641.754><1264.729><Radial~483.0802~-2.400024~50~86.60254~1~0, SnowSource><321.2253><895.8922><Strip~86.08649~-0.2666702~50~86.60254~1~0, SnowSource><3423.753><1212.845><Radial~-1060.784~25.33334~50~86.60254~1~0, SnowSource><1829.788><883.5768><UnSnow~-46.24481~-5.955597~50~86.60254~1~0, SnowSource><451.6071><860.1006><Radial~106~189~50~86.60254~1~0, SnowSource><1165.349><1279.351><Radial~-490~-3~50~86.60254~1~0, SnowSource><2549.24><1019.812><Radial~500~294~50~86.60254~0.5108696~0, WormgrassRect><193.902><1363.633><7^2, SnowSource><307.8142><1360.621><Strip~273~1~50~86.60254~0.4565217~0, WormgrassRect><250.9926><868.7587><15^6, WormgrassRect><837.4407><1253.082><6^3, 
 AmbientSounds: OMNI><AM_ENV-WindGrass.ogg><123.1874><383.8198><0.4130435><1, OMNI><AM_ENV-Outside.ogg><115.9341><461.3281><0.6521739><1, OMNI><AM_ENV-CricketsWnd.ogg><115.7236><229.5518><0.6521739><1, 
 FadePalette: 40, 0.2065217, 0.2316125, 0.2750908, 0.2673572, 0, 0.3478261

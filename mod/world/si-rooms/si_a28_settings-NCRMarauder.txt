@@ -1,0 +1,20 @@
+Template: SI_SettingsTemplate_Inside
+DangerType: Blizzard
+CeilingDrips: 0
+RainIntensity: 0.3152174
+RumbleIntensity: 0.2826087
+WaveSpeed: 0.5029193
+WaveLength: 0.919736
+WaveAmplitude: 0.01576086
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.2282609
+Grime: 0.1630435
+Palette: 0
+EffectColorA: 3
+EffectColorB: 3
+Effects: SkyAndLightBloom-0.07608695-20-20, Flies-0-30-30, Coldness-1-31-82, 
+PlacedObjects: LanternOnStick><140.3412><208.322><19~-83, LanternOnStick><101.2937><259.3048><-18~-111, 
+AmbientSounds: SPOT><AM_IND-DeepHum.ogg><756.6591><307.8712><0.4130435><1><495.6591><368.8712><-130.3553><4.644653><0><0.5456523, SPOT><AM_IND-Utility02.ogg><873.8831><405.9123><0.3913043><1><677.8831><69.91231><-311.3553><8.644661><0><0.5347831, OMNI><AM_ENV-LightWind.ogg><765.3163><518.5792><0><1, OMNI><AM_ENV-NatWind.ogg><591.5501><517.507><0.2717391><1, 
+FadePalette: 3, 0.423913
+WetTerrain: OFF

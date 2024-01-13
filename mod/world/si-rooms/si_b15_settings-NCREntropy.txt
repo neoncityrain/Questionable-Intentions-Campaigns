@@ -1,0 +1,15 @@
+Template: SI_SettingsTemplate_Inside
+DangerType: Blizzard
+CeilingDrips: 0
+RainIntensity: 0.2608696
+RumbleIntensity: 0.2391304
+WaveSpeed: 0.498413
+WaveLength: 0.9992065
+WaveAmplitude: 1.044284E-13
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Effects: Coldness-1-30-30, Flies-0-40-40, 
+PlacedObjects: SuperStructureFuses><349.0725><489.8422><280~122, SnowSource><559.3475><1158.325><Radial~-275~182~50~86.60254~0.3695646~1, 
+AmbientSounds: SPOT><SO_IND-Deep50hz.ogg><786.3112><399.6841><0.2826087><1><463.3112><603.6841><-137.3553><-128.3553><0><0.2739132, SPOT><SO_IND-HVAC.ogg><788.1246><279.0936><0.3804348><1><334.1246><1340.094><-88.35535><-257.3553><0><0.2739132, SPOT><AM_IND-Utility01.ogg><794.4634><163.8034><0.2391304><1><121.4634><437.8034><-222.3553><-355.3553><0><0.2086958, OMNI><AM_ENV-LightWind.ogg><765.3163><518.5792><0.01086957><0.1391304, OMNI><AM_ENV-NatWind.ogg><771.7819><590.1974><0.2608696><1, 
+FadePalette: 0, 0.2282609, 0.2173913
+WetTerrain: OFF

@@ -1,0 +1,11 @@
+DangerType: Blizzard
+Clouds: 0.3152174
+Grime: 0.3043478
+BkgDroneVolume: 0.2608696
+Palette: 2
+EffectColorA: 10
+EffectColorB: 13
+Effects: SkyDandelions-0-20-20, Flies-0-30-30, Coldness-1-40-40, Dustpuffs-1-50-50, LightBurn-0.02173913-60-60, 
+PlacedObjects: SnowSource><-23.85815><476.859><None~1279~-521~50~86.60254~0.4565217~1, SnowSource><3229.521><705.1989><None~-1424~-631~-396~-228.3975~0.4347826~1, SnowSource><1595.587><337.1343><Radial~613~-563~50~86.60254~0.6195652~1, DevToken><119.3032><218.4644><67~-72~0~0~0~~~0~0~0~1, 
+AmbientSounds: OMNI><AM_ENV-WinterHum.ogg><751.4133><400.8654><0.3043478><1, 
+FadePalette: 0, 0.3804348, 0.3804348, 0.3804348

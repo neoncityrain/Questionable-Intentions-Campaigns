@@ -3,19 +3,20 @@ DangerType: Blizzard
 CeilingDrips: 0
 RainIntensity: 1
 RumbleIntensity: 1
-WaveSpeed: 0.4525622
-WaveLength: 0.8700953
-WaveAmplitude: 0.02338194
+WaveSpeed: 0.5066649
+WaveLength: 0.856699
+WaveAmplitude: 0.02967583
 SecondWaveLength: 1
 SecondWaveAmplitude: 0.0001
 Clouds: 0.7065217
+Grime: 0.1413043
 BkgDroneVolume: 0
-Palette: 40
+Palette: 33
 EffectColorA: 9
 EffectColorB: 10
-Effects: LightBurn-0.06521739-275-69, Contrast-0-270-16, SkyBloom-1-277.0552-117.0667, RockFlea-0.3369565-73.5979-132.0444, AboveCloudsView-1-20-20, PixelShift-0.5026608-40-40, Fog-0.4330615-50-50, Coldness-0-30-30, 
-PlacedObjects: LightSource><1521.771><727.6989><0.2282609~EffectColor2~-1032~-631~51~-763.3975~1~0~None~0~0, LightBeam><636.3002><266.4133><296~509~1264~514~629~-381~940~-189~0.3021738~0.4347826~0.2282609~1~Fade~0~0, 
+Effects: LightBurn-0.06521739-275-69, Contrast-0-270-16, SkyBloom-1-277.0552-117.0667, AboveCloudsView-1-20-20, PixelShift-0.5026608-40-40, Fog-0.4330615-40-102, Coldness-0-35-78, Dustpuffs-0-30-30, 
+PlacedObjects: LightSource><1521.771><727.6989><0.2282609~EffectColor2~-1032~-631~51~-763.3975~1~0~None~0~0, LightBeam><636.3002><266.4133><296~509~1264~514~629~-381~940~-189~0.3021738~0.4347826~0.2282609~1~Fade~0~0, SnowSource><1318.438><479.1814><Radial~791~-315~50~86.60254~1~0, SnowSource><936.2608><238.1116><Radial~254~123~50~86.60254~1~0, 
 AmbientSounds: OMNI><AM_ENV-Outside.ogg><124.4473><456.217><0.6521739><1, OMNI><AM_ENV-WinterTrees.ogg><119.6562><529.1251><0.5><1, SPOT><SO_WAT-OpenFlow.ogg><118.3121><72.44011><0.5><1><1200.312><-52.55988><64.64465><146.6447><0><0.252174, SPOT><AM_ENV-LushNight.ogg><119.5506><190.5152><0.3804348><1><1348.551><721.5152><198.6447><-247.3553><0><1, SPOT><AM_ENV-SubTerr.ogg><295.5126><71.69962><0.326087><1><180.5127><372.6996><322.6447><74.64465><0><0.4804349, 
 Triggers: Spot<tA>event<tB>MusicEvent<eA>songName<eB>RW_Intro_Theme<eA>vol<eB>0.2021737<eA>prio<eB>0.5<eA>mxThrt<eB>1<eA>loop<eB>0<eA>droneTol<eB>0<eA>rooms<eB>-1<eA>rest<eB>5<eA>fadeIn<eB>84.78261<eA>oneSongPerCycle<eB>0<eA>stopAtDeath<eB>0<eA>stopAtGate<eB>0<tA>multiUse<tB>0<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>600.8883<tB>342.5841<tA>fireChance<tB>1<tA>entrance<tB>1<tA>karma<tB>0<tA>slugcats<tB><tA>pos<tB>1002.888<tB>377.5841<tA>handlePos<tB>-127.3553<tB>-203.3553, 
-FadePalette: 14, 0.6046988, 0.6057292
+FadePalette: 14, 0.8655684, 0.8774683
 WetTerrain: OFF

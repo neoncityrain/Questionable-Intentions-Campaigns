@@ -1,0 +1,9 @@
+Template: SL_SettingsTemplate_Sewer
+DangerType: Blizzard
+RainIntensity: 0.2391304
+RumbleIntensity: 0.2282609
+Palette: 0
+Effects: Coldness-1-20-20, 
+PlacedObjects: CustomDecal><319.8215><267.0903><0~717.4029~459.4744~883.4029~452.4744~-10~0~0~0.09782609~0.6521739~0~RustB1~0~1~0~1~1~1~0.5~1, CustomDecal><330.5776><951.1484><-27~1552.307~397.8325~1575.307~383.8325~-2~-288~164~0.04347826~1~0~BlackRust1~1~1~1~1~0~1~0~1, ExitSymbolHidden><590.7446><189.2><, 
+AmbientSounds: SPOT><AM_ENV-NatWind.ogg><730.4194><485.3936><0.3043478><1><559.4194><2187.394><157.6447><-137.3553><0><1, 
+FadePalette: 8, 0.4456522, 0.4782609, 0.5108696

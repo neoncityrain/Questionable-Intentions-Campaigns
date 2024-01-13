@@ -1,0 +1,11 @@
+Clouds: 0.2282609
+DangerType: Blizzard
+Grime: 0.173913
+BkgDroneVolume: 0.2869565
+Palette: 0
+EffectColorA: 10
+EffectColorB: 2
+Effects: Fog-0.2282609-20-20, Flies-0-30-30, Coldness-1-40-40, Dustpuffs-1-50-50, 
+PlacedObjects: DangleFruit><689.8058><585.9523><-186~-194~2~3, DangleFruit><736.3747><561.1564><-290~-191~2~3, Rainbow><453.6797><1043.412><302~443~-441~-108~0,0,0.5217391,0.3913043,0.8804348,0.1195599, SnowSource><481.908><844.8773><None~1274~726~89~-360.3975~0.5~1, SnowSource><476.5835><1402.139><Radial~468~-472~112~-138.3975~0.6847826~1, 
+AmbientSounds: SPOT><SO_IND-HVAC.ogg><745.2647><307.1995><0.2282609><0.9608696><504.2647><1099.199><-148.3553><37.64465><0><0.2304349, OMNI><AM_ENV-LightWind.ogg><711.424><492.3486><0><1, OMNI><AM_ENV-WinterHum.ogg><726.1336><417.8988><0.3043478><1, 
+FadePalette: 15, 0.7391304, 0.6847826

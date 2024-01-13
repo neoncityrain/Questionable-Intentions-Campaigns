@@ -1,0 +1,20 @@
+DangerType: Blizzard
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 2.349267E-17
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.1630435
+BkgDroneVolume: 0
+Palette: 10
+EffectColorA: 15
+EffectColorB: 18
+Effects: SilenceWater-0.1956522-20-71, Bloom-0.423913-19-123, LightBurn-0.1195652-274-73, Darkness-0.5108696-262-179, RedSwarmer-0-261-235, RockFlea-0.2391304-263-128, Flies-0-26-21, WaterDepth-0.07608695-265-296, 
+PlacedObjects: LanternOnStick><490.3259><526.4016><63~-302, LanternOnStick><591.5367><478.6967><-35~-238, LanternOnStick><277.3574><439.6403><58~-257, LightSource><1295.378><881.8414><0.05434782~White~-295~-504~-483~-109.3975~1~0~None~0~0, LightSource><1733.31><624.9376><0.0326087~White~-924~-293~-918~33.60254~1~1~None~0~0, LightBeam><1529.888><326.5844><-334~670~-263~664~82~43~-515~450.9872~0.01956508~0~0~1~None~0~0, LightBeam><1781.954><346.9446><-336~667~-259~664~82~44~0~273~0.3565216~0~0~1~None~0~0, LightBeam><2279.83><472.6165><-327~669~-258~665~33~25~-25~111~0.4108694~0~0~1~Fade~0.2934783~0, LightBeam><2479.198><434.7816><-337~673~-265~670~86~51~123~-251~0.3565216~0~0~1~Fade~0.3043478~0, LightBeam><1323.117><375.9121><-336~673~-262~670~30~34~-355~68~0.389131~0~0~1~None~0~0, LightBeam><1581.938><528.9401><-333~672~-264~672~85~51~-89~205~0.4~0~0~1~Fade~0.2826087~0, LightSource><3237.199><416.9787><0.1195652~EffectColor1~1~120~-132~202.6025~0~1~None~0~0, LightSource><2937.195><421.0461><0.1195652~EffectColor1~13~98~165~316.6025~0~1~None~0~0, LightSource><2592.897><424.1717><0.09782609~EffectColor1~10~114~-219~388.6025~0~1~None~0~0, LightSource><2927.321><428.4102><0.173913~EffectColor1~-512~543~-101~344.6025~0~0~None~0~0, LightSource><2082.93><907.1628><0.1195652~White~136~-288~-326~-111.3975~1~0~None~0~0, LanternOnStick><3026.812><541.067><-41~-198, LanternOnStick><2961.923><577.1848><44~-219, LanternOnStick><2047.873><404.8455><-75~-238, LanternOnStick><1941.8><429.9884><40~-225, LanternOnStick><1651.925><361.1852><43~-203, LanternOnStick><1410.804><369.9601><26~-187, LightFixture><2069.446><770.2903><RedLight~17.32051~-10~71, 
+AmbientSounds: OMNI><AM_ENV-CityTone.ogg><838.9108><634.619><0.09782609><1, OMNI><MSC-ShadowGully.ogg><663.278><633.198><0.3586957><0.726087, SPOT><AM_WIN-StrongWnd2.ogg><839.0582><515.8066><0.2826087><0.5695652><1824.058><347.8069><-549.3553><591.6447><0><0.7847828, SPOT><SO_IND-WeirdVent.ogg><663.9988><520.3><0.2173913><0.8434783><2068.998><1534.3><-3.355347><-32.35535><0><0.8717393, 
+FadePalette: 6, 0.2934783, 0.2282609, 0.1956522, 0.1630435, 0.4891304, 0.4673913, 0.4673913
+RoomSpecificScriptActive: ON
+WetTerrain: OFF

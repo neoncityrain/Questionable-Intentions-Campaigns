@@ -1,0 +1,20 @@
+Template: NONE
+DangerType: Blizzard
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 5.605194E-45
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 1
+Grime: 0
+BkgDroneVolume: 0
+Palette: 16
+EffectColorA: 18
+Effects: Coldness-1-20-20, 
+PlacedObjects: LightFixture><2541.379><564.9025><RedLight~17.32051~-10~67, LightFixture><2793.392><408.6096><RedLight~17.32051~-10~7, LightFixture><2043.556><415.192><RedLight~17.32051~-10~34, 
+AmbientSounds: OMNI><SO_WAT-MoreDrips.ogg><841.5511><646.271><0.3695652><1, OMNI><MSC-ShadowAlley.ogg><845.1825><566.1682><0.3586957><1, 
+FadePalette: 17, 0.5217391, 0.5108696, 0.5
+WetTerrain: OFF

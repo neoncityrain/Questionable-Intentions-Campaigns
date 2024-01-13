@@ -3,16 +3,16 @@ DangerType: Blizzard
 CeilingDrips: 0
 RainIntensity: 1
 RumbleIntensity: 0
-WaveSpeed: 0.4991654
-WaveLength: 0.9875681
-WaveAmplitude: 0.00237062
+WaveSpeed: 0.5115304
+WaveLength: 0.8112411
+WaveAmplitude: 0.03754604
 SecondWaveLength: 1
 SecondWaveAmplitude: 0.0001
-Clouds: 0.5760869
+Clouds: 0.8152174
 Grime: 0.1956522
 Palette: 14
 EffectColorA: 9
 EffectColorB: 10
-Effects: Darkness-0-280-83, Fog-1-21-72, PixelShift-0.5-19-18, AboveCloudsView-1-277-136, SkyBloom-0.423913-12-126, MossWater-0-30-30, MossWaterRGB-0-480-504-Blue:255-Green:255-Red:213.4782-Blue:255-Green:255-Red:213.4782, Coldness-0-40-40, 
-PlacedObjects: SnowSource><1075.332><649.5674><Radial~1015~-182~-83~-480.3975~0.75~0, 
-FadePalette: 40, 0.3586957, 0.3804348
+Effects: Darkness-0-280-83, Fog-1-21-72, PixelShift-0.5-19-18, AboveCloudsView-1-277-136, SkyBloom-0.423913-12-126, MossWater-0-458-598, MossWaterRGB-0-480-504-Blue:255-Green:255-Red:213.4782, Coldness-0-59-105, WaterDepth-0.09782609-619-429, IceWater-1-30-30, 
+PlacedObjects: SnowSource><1075.332><649.5674><Radial~1015~-182~-83~-480.3975~0.75~0, PlacedWaterfall><1663.962><533.5444><100~50~0.5217581~3, 
+FadePalette: 41, 0.3695652, 0.3804348

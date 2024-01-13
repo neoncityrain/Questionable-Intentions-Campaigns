@@ -1,0 +1,15 @@
+DangerType: Blizzard
+CeilingDrips: 0
+WaveSpeed: 0.5398884
+WaveLength: 0.8673036
+WaveAmplitude: 0.02482187
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+BkgDroneVolume: 0.2769565
+Palette: 0
+EffectColorB: 6
+Effects: Fog-0.6195652-0-0, Coldness-1-20-20, 
+PlacedObjects: InsectGroup><392.1395><366.6067><-215~47~170~-255~WaterGlowworm~0.2391304, InsectGroup><1774.553><313.4637><-201~141~0~0~WaterGlowworm~0.2391304, SnowSource><340.694><1575.701><Radial~825~-547~301~-355.3975~0.7282609~1, SnowSource><285.4495><1307.764><UnSnow~0~100~50~86.60254~0.25~0, SnowSource><1487.768><1592.301><Radial~582~-566~-363~-427.3975~0.8043478~1, SnowSource><1690.849><1407.369><UnSnow~0~100~-83~-269.3975~0.1630435~0, BigJellyFish><1003.348><1152.63><0~100, GlowWeed><1509.156><401.1255><0~0~2~3, GlowWeed><971.0896><435.8212><0~0~2~3, GlowWeed><1103.82><359.9124><0~0~2~3, GlowWeed><62.82263><311.0925><0~0~2~3, GlowWeed><290.9281><403.8134><0~0~2~3, GlowWeed><451.1045><281.1705><0~0~2~3, GlowWeed><1403.821><503.09><0~0~2~3, GlowWeed><1820.136><456.1468><0~0~2~3, 
+AmbientSounds: SPOT><AM_WAT-Shoreline.ogg><205.1047><5.637512><0.4130435><0.7847826><315.1047><1094.637><86.64465><-54.35535><0><0.5239132, SPOT><AM_WAT-Sea02.ogg><873.5836><543.9317><0.4130437><0.9413043><1706.124><1196.256><-120.3553><-74.35535><0><0.404348, OMNI><AM_WAT-Sea01.ogg><656.5712><644.4103><0.3913043><1, OMNI><AM_ENV-LightWind.ogg><831.1455><642.5795><0><1, OMNI><AM_ENV-NatWind.ogg><733.969><487.9476><0.2934783><1, 
+FadePalette: 5, 0.4021739, 0.4021739, 0.4021739, 0.4021739
+WetTerrain: OFF

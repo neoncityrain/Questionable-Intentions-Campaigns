@@ -1,0 +1,15 @@
+DangerType: Blizzard
+CeilingDrips: 0
+RainIntensity: 0.25
+RumbleIntensity: 0.25
+WaveSpeed: 0.5005857
+WaveLength: 0.9997072
+WaveAmplitude: 3.670408E-11
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Grime: 0
+Palette: 0
+Effects: RockFlea-0.3804348-0-0, Flies-0-0-0, 
+AmbientSounds: SPOT><SO_WAT-LilDrips.ogg><716.0529><449.5338><0.3369565><1><690.0529><518.5338><-130.3553><-250.3553><0><0.4478262, SPOT><AM_ENV-WindGrass.ogg><719.9621><341.6964><0.4130435><1><767.9621><1206.696><104.6447><-254.3553><0><1, SPOT><AM_IND-Utility02.ogg><724.2748><235.0515><0.2934783><1><138.2748><580.0515><262.6447><-89.35535><0><0.752174, OMNI><AM_ENV-NatWind.ogg><722.3097><639.8115><0.3152174><1, 
+FadePalette: 8, 0.2934783, 0.2826087
+WetTerrain: OFF

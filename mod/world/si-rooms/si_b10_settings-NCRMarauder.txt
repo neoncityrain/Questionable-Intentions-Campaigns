@@ -1,0 +1,13 @@
+Template: SI_SettingsTemplate_Inside
+DangerType: Blizzard
+RainIntensity: 0.2826087
+RumbleIntensity: 0.2282609
+Clouds: 0.1086956
+Grime: 0.2282609
+Palette: 3
+EffectColorA: 10
+EffectColorB: 13
+Effects: SkyAndLightBloom-0.04347826-20-20, 
+PlacedObjects: DataPearl><679.5629><1359.747><0~0~0~0~Misc~0, UniqueDataPearl><576.9341><337.172><0~0~0~0~SI_chat5~0, 
+AmbientSounds: OMNI><AM_ENV-NatWind.ogg><762.1146><437.1028><0.2173913><1, OMNI><AM_ENV-LightWind.ogg><765.3163><518.5792><0><1, 
+FadePalette: 0, 0.3369565, 0.3369565

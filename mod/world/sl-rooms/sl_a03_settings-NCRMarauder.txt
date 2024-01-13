@@ -1,0 +1,19 @@
+Template: SL_SettingsTemplate_Sewer
+DangerType: Blizzard
+CeilingDrips: 0
+RainIntensity: 0.2173913
+RumbleIntensity: 0
+WaveSpeed: 0.4993411
+WaveLength: 0.9856555
+WaveAmplitude: 0.00342247
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.1413043
+Grime: 0.3043478
+Palette: 0
+Effects: Coldness-1-30-30, 
+PlacedObjects: CustomDecal><496.5865><22.38478><35.08408~795.2388~-578.8871~654.9025~-397.6194~-35.08408~280~-237~0.05434782~1~0~Rust3~1~1~1~1~0.01086957~1~0.1847826~1, WaterNut><550.9044><441.0743><16~109~2~3, WaterNut><407.1654><446.3624><97~22~2~3, WaterNut><316.8604><450.3932><-88~103~2~3, WaterNut><294.1777><441.1583><-57~125~2~3, GlowWeed><710.6496><257.077><0~0~2~3, GlowWeed><117.9486><205.2733><0~0~2~3, GlowWeed><512.7961><173.0554><0~0~2~3, GlowWeed><267.6247><148.4059><0~0~2~3, GlowWeed><196.6301><196.0899><0~0~2~3, 
+AmbientSounds: SPOT><SO_WAT-OpenFlow.ogg><870.0305><462.8023><0.4891304><0.9804348><649.0305><358.8023><-118.3553><-28.35535><0><0.5565219, SPOT><SO_WAT-OpenFlow.ogg><865.5902><340.3215><0.5><1><308.5902><361.3215><-68.35535><-56.35535><0><0.502174, SPOT><SO_WAT-RunningWater.ogg><850.1359><213.3967><0.5><1><505.1359><326.3967><-56.35535><-48.35535><0><0.4804349, 
+Triggers: Spot<tA>event<tB>ShowProjectedImageEvent<eA>afterEncounter<eB>0<eA>fromCycle<eB>0<eA>onlyWhenShowingDirection<eB>0<tA>multiUse<tB>1<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>50.14563<tB>277.8629<tA>fireChance<tB>1<tA>entrance<tB>-1<tA>karma<tB>0<tA>slugcats<tB><tA>pos<tB>426.1456<tB>424.8629<tA>handlePos<tB>-104.3553<tB>-411.3553, 
+FadePalette: 8, 0.4782609
+WetTerrain: OFF

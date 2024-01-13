@@ -1,40 +1,50 @@
-OFFSCREEN : 0-Vulture-2, 0-MirosVulture-{Night}-3, 0-MirosVulture-{PreCycle}-1, 0-KingVulture-1, 0-Scavenger-13, 0-EliteScavenger-2, 0-Scavenger-{IgnoreCycle}-5, 0-EliteScavenger-2
+OFFSCREEN : 0-Vulture-2, 0-MirosVulture-{Night}-3, 0-MirosVulture-{PreCycle}-1, 0-KingVulture-1, 0-Scavenger-13, 0-EliteScavenger-2, 0-Scavenger-5-{Ignorecycle}, 0-EliteScavenger-2
 
 OE_FINAL02 : 4-Yeek-2, 5-Cicada-3
 OE_JUNGLE03 : 3-Cicada-2
 OE_CAVE14 : 2-Eel
+OE_CAVE16 : 5-JungleLeech-7-{Ignorecycle}
 OE_RUIN25 : 2-ZoopLizard
-OE_RUIN10 : 3-Caramel-{IgnoreCycle}
-OE_RUIN24 : 2-Mimic-{10}, 2-Caramel-{Night}, 2-Caramel-{PreCycle}
-OE_TOWER03 : 4-White-{IgnoreCycle}, 5-Blue, 6-Mimic-{28}
+OE_RUIN10 : 3-Caramel-{Ignorecycle}
+OE_RUIN24 : 2-Mimic-{10}-{Ignorecycle}, 2-Caramel-{Night}, 2-Caramel-{PreCycle}
+OE_TOWER03 : 4-White-{Ignorecycle}, 5-Blue, 6-Mimic-{28}
 OE_CAVE12 : 9-Centipede, 8-Centipede
-OE_RAIL03 : 6-Cyan, 8-Cyan, 13-Centiwing
+OE_RAIL03 : 6-Cyan-{Night}, 8-Cyan, 13-Centiwing, 7-Blue, 6-Eel-{Ignorecycle}
 OE_CAVE03 : 2-ZoopLizard
 OE_CAVE15 : 5-Salamander
-OE_RUINBackHall : 10-Cyan
-OE_RUINCourtYard : 4-Yeek-{IgnoreCycle}-2, 5-Yeek-4, 5-ZoopLizard-{PreCycle}
+OE_RUINBackHall : 10-Cyan, 6-White-{Night}, 9-TentaclePlant-{PreCycle}
+OE_RUINCourtYard : 4-Yeek-{Ignorecycle}-2, 5-Yeek-4, 5-ZoopLizard-{PreCycle}
 OE_RUINFrontHall : 3-Mimic-{9}, 2-Yeek-3
-OE_RUIN15 : 5-Green-{IgnoreCycle}
+OE_RUIN15 : 5-Green-{Ignorecycle}
 OE_RUIN06 : 6-Eel-{PreCycle}
 OE_JUNGLE05 : 5-TentaclePlant-{Night}
-OE_RUIN17 : 5-White
+OE_RUIN17 : 5-White, 3-Caramel, 4-Caramel-{Ignorecycle}
 OE_RUIN05 : 9-White, 4-Caramel
 OE_RUIN08 : 2-Caramel
-OE_JUNGLEESCAPE : 8-DropBug
+OE_JUNGLEESCAPE : 8-DropBug, 6-Blue-{Ignorecycle}, 3-Mimic-{Ignorecycle}-{16}, 9-DropBug-{Ignorecycle}, 8-Small Centipede-5-{Ignorecycle}
 OE_RAIL06 : 6-Red-{PreCycle}
-OE_RUIN02 : 4-Mimic-{15}
-OE_TOWER07 : 3-JungleLeech
-OE_CAVE09 : 8-JungleLeech, 8-JungleLeech-{Night}
-OE_PUMP02 : 3-Eel-{IgnoreCycle}
-OE_JUNGLE01 : 6-JungleLeech
+OE_RUIN02 : 4-Mimic-{15}-{Ignorecycle}
+OE_TOWER07 : 3-JungleLeech-5-{Ignorecycle}
+OE_EXITPATH : 7-TentaclePlant
+OE_CAVE09 : 8-JungleLeech-2, 8-JungleLeech-4-{Night}
+OE_PUMP02 : 3-Eel-{Ignorecycle}
+OE_JUNGLE01 : 6-JungleLeech-3
 OE_FINAL01 : 4-White
 OE_TOWER14 : 4-White, 3-Centipede, 3-SmallCentipede-2
-OE_TOWER11 : 4-Centiwing
+OE_TOWER11 : 4-Centiwing, 3-Centipede-2, 3-Small Centipede-5
 OE_TOWER09 : 6-AquaCenti
+OE_RUIN18 : 3-BigNeedleWorm, 3-SmallNeedleWorm-6, 4-CicadaB-3, 5-CicadaA-4
+OE_TOWER07 : 2-Centipede-2-{Ignorecycle}, 3-Small Centipede-5
+OE_JUNGLE06 : 2-CicadaB-1, 6-CicadaA-2, 4-Yeek-3-{Ignorecycle}
+OE_RUIN07 : 2-Yeek-5-{Ignorecycle}
+OE_RUIN08 : 4-Caramel-{Ignorecycle}, 5-Caramel-{Ignorecycle}, 7-Yeek-7-{Ignorecycle}
+OE_CAVE14 : 2-Small Centipede-5-{Ignorecycle}, 2-JungleLeech-7-{Ignorecycle}
+OE_CAVE10 : 4-Small Centipede-6-{Ignorecycle}, 5-JungleLeech-3-{Ignorecycle}, 11-TentaclePlant-{Ignorecycle}
+OE_RAIL06 : 5-DropBug-{Ignorecycle}
+OE_RUIN03 : 5-BigNeedleWorm, 6-SmallNeedleWorm-4
 
 
-
-LINEAGE : OE_CAVE12 : 6 : SlugNPC-1, NONE-0
-LINEAGE : OE_TOWER09 : 4 : SlugNPC-1, NONE-0
-LINEAGE : OE_RUINBackHall : 8 : SlugNPC-1, NONE-0
-LINEAGE : OE_JUNGLE05 : 2 : SlugNPC-1, NONE-0
+LINEAGE : OE_CAVE12 : 6 : NONE-1, SlugNPC-1, NONE-0
+LINEAGE : OE_TOWER09 : 4 : NONE-1, SlugNPC-1, NONE-0
+LINEAGE : OE_RUINBackHall : 5 : NONE-1, SlugNPC-1, NONE-0
+LINEAGE : OE_JUNGLE05 : 2 : NONE-1, SlugNPC-1, NONE-0

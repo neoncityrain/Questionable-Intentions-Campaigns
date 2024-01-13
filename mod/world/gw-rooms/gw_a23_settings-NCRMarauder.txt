@@ -1,0 +1,13 @@
+Template: GW_SettingsTemplate_Inside
+DangerType: Blizzard
+RainIntensity: 0.4565217
+RumbleIntensity: 0.4130435
+Clouds: 0.326087
+Grime: 0.25
+Palette: 0
+EffectColorA: 13
+EffectColorB: 7
+Effects: Flies-0-20-20, 
+PlacedObjects: CustomDecal><765.45><47.9996><-13~280~134~288~98~1~-471~-6~0.1630435~0.5978261~0~RustB3~1~0~1~0~0~0~0~0, 
+AmbientSounds: OMNI><SO_WAT-LilDrips.ogg><653.2384><650.3004><0.1847826><1, OMNI><AM_ENV-NatWind.ogg><832.3724><648.904><0.2717391><1, 
+FadePalette: 11, 0.3152174

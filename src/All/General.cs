@@ -126,7 +126,6 @@ namespace NCRcatsmod
                             if (survived && !MarauderCannibalising)
                             {
                                 MarauderDidntCannibaliseCycles++;
-                                newMalnourished = true;
                             }
                             if (survived && !MarauderCannibalising && MarauderDidntCannibaliseCycles >= 4 &&
                                 MarauderStarvedForCycles >= 2)

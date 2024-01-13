@@ -1,0 +1,16 @@
+Template: SI_SettingsTemplate_Inside
+DangerType: Rain
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 5.605194E-45
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Palette: 2
+Effects: SkyAndLightBloom-0.3152174-30-30, DarkenLights-0.6521739-29-85, Flies-0-295-25, HeatWave-0.3043478-29-137, 
+PlacedObjects: ScavengerTreasury><338.3984><249.4223><7~127, ScavengerTreasury><606.3019><257.2223><0~100, LanternOnStick><623.5101><308.3002><27~-127, LanternOnStick><691.3082><330.4434><-34~-176, ScavengerTreasury><474.6992><279.0182><0~100, DataPearl><377.1653><229.1125><205~-153~0~0~Misc~0, DataPearl><565.9664><206.8028><274~-139~0~0~Misc~0, DataPearl><650.9048><216.1759><188~-266~0~0~Misc~0, LanternOnStick><254.8802><297.1518><32~-121, 
+AmbientSounds: SPOT><AM_ENV-NatWind.ogg><743.0071><485.3001><0.2934783><1><496.0071><613.3002><-8.355347><-112.3553><0><0.6000001, OMNI><AM_ENV-LightWind.ogg><838.3163><606.5792><0><1, 
+FadePalette: 3, 0.6630435
+WetTerrain: OFF

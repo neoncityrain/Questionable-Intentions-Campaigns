@@ -1,0 +1,7 @@
+DangerType: Blizzard
+RainIntensity: 0
+RumbleIntensity: 0
+Grime: 0.1195652
+Palette: 34
+AmbientSounds: OMNI><AM_ENV-LightWind.ogg><831.1455><642.5795><0><1, OMNI><AM_ENV-NatWind.ogg><721.9086><491.6779><0.2065217><1, 
+FadePalette: 8, 0.3152174

@@ -1,0 +1,8 @@
+DangerType: Blizzard
+RainIntensity: 0.25
+RumbleIntensity: 0.2282609
+Grime: 0.423913
+Palette: 0
+Effects: Coldness-1-1-62, 
+PlacedObjects: BrokenShelterWaterLevel><290.7915><385.3127><, 
+FadePalette: 8, 0.5108696

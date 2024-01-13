@@ -1,0 +1,19 @@
+DangerType: Blizzard
+CeilingDrips: 0
+WaveSpeed: 0.6319392
+WaveLength: 0.9340304
+WaveAmplitude: 6.697092E-07
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.3478261
+Grime: 0.3913043
+BkgDroneVolume: 0.2469565
+Palette: 0
+EffectColorA: 10
+EffectColorB: 2
+Effects: Flies-0-30-30, LightBurn-0.04347826-30-82, Coldness-1-30-136, Dustpuffs-1-289-31, 
+PlacedObjects: DevToken><277.4067><304.5865><8~-123~-2~274~0~~~0~0~0~1, WaterNut><410.3454><161.0742><440~-140~2~3, WaterNut><470.0519><136.222><-147~-120~2~3, WaterNut><429.7427><167.4499><159~-147~2~3, WaterNut><830.8153><129.6732><0~0~2~3, CustomDecal><821.591><457.3813><-16~-412~182~-370~172~7~-926~-141~0~1~0~Rust1~1~1~1~1~0.6304348~1~0~1, CustomDecal><826.128><175.3463><7~78~101~90~107~-6~-923~-160~0.326087~1~0~ScavMark~1~0.1956522~1~0.1956522~0.4130435~0.1956522~1~0.1956522, SnowSource><491.6951><462.2938><Radial~682~295~66~-367.3975~0.6413044~0.7826087, SnowSource><224.8319><392.6083><Radial~568~213~-55~-375.3975~0.3586957~0.9565217, SnowSource><1094.209><610.5541><Radial~302~-256~-538~-427.3975~0.2391304~0.423913, SnowSource><1110.32><429.3127><Radial~66~118~-219~83.60254~0.8695652~0.5434783, LanternOnStick><663.1968><194.2142><26~-106, LanternOnStick><202.0246><274.4485><-9~-96, LanternOnStick><154.8329><723.1401><-33~-139, LanternOnStick><393.8101><277.3129><-49~-151, LanternOnStick><469.0926><265.0727><-31~-164, 
+AmbientSounds: OMNI><AM_ENV-LightWind.ogg><832.3755><565.6558><0><1, OMNI><AM_ENV-Outside.ogg><832.3298><640.8949><0><1, OMNI><AM_ENV-WinterTrees.ogg><833.402><487.3799><0.3478261><1, 
+Triggers: Spot<tA>event<tB>BringPlayerGuideToRoom<tA>multiUse<tB>0<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>986.8971<tB>373.3285<tA>fireChance<tB>1<tA>entrance<tB>0<tA>karma<tB>0<tA>slugcats<tB><tA>pos<tB>978.8971<tB>203.3285<tA>handlePos<tB>-35.35534<tB>-35.35534, 
+FadePalette: 15, 0.5978261
+WetTerrain: OFF

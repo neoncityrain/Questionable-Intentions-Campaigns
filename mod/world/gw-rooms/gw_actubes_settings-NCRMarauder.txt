@@ -1,0 +1,19 @@
+DangerType: Blizzard
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 4.165952E-14
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Clouds: 0.02173913
+BkgDroneVolume: 0
+WaterReflectionAlpha: 0
+Palette: 0
+EffectColorB: 18
+Effects: Flies-0-30-30, RedSwarmer-0-36-80, RockFlea-0.326087-28-131, Fog-0-286-22, Bloom-0.8804348-283-83, LightBurn-0.7282609-280-133, Darkness-0.6304348-260-195, SilenceWater-0.3695652-267-251, Coldness-1-265-305, 
+PlacedObjects: LanternOnStick><248.0557><167.0579><67~-103, LanternOnStick><363.8076><311.1955><-31~-241, CustomDecal><329.4487><624.5228><-88~269~443~218~305~-25~-172~-935~0~0.09782609~0~ScavMark GW_A24~0.1847826~0~0.1847826~0~0.1847826~0~0.1847826~0, CustomDecal><450.0844><52.36212><-8~279~282~281~263~-16~-18~-361~0~0.2173913~0~ScavMark Stonehead2~0.1521739~0.1847826~0.1521739~0.1847826~0.1521739~0.1847826~0.1521739~0.1847826, DeadTokenStalk><3140.417><168.6095><2~46, DeadTokenStalk><3123.295><148.3052><-17~67, DeadTokenStalk><3582.446><259.5424><17~-71, DeadTokenStalk><317.6854><202.0607><66~-75, DeadTokenStalk><619.9487><394.522><-37~-84, DeadTokenStalk><565.9055><375.5913><8~-61, DeadTokenStalk><1008.804><174.3073><13~-56, DeadTokenStalk><1069.79><204.304><-28~-85, CustomDecal><1023.609><8.641479><-36~119~1043~113~981~-10~38~-308~0~0.2065217~0~Scav Wedges~0.4021739~0.6195652~0.4021739~0.6195652~0.4021739~0.6195652~0.4021739~0.6195652, CustomDecal><1530.439><266.5652><-68~310~318~235~280~-33~-205~-566~0.2173913~1~0~ScavMark BigSun~0.2608696~0.3043478~0.2608696~0.3043478~0.2608696~0.3043478~0.2608696~0.3043478, CustomDecal><67.37592><33.15535><1~186~88~187~83~-14~629~-353~0~1~0~Scav Wedges3(vert)~0.6413044~0.3043478~0.6413044~0.3043478~0.6413044~0.3043478~0.6413044~0.3043478, ReliableSpear><3101.006><333.05><, ReliableSpear><3128.178><338.1598><, ReliableSpear><3546.891><243.4178><, ReliableSpear><3583.141><221.1161><, ReliableSpear><3153.335><340.3632><, ReliableSpear><3139.521><325.4489><, Mushroom><2415.037><158.6966><0~0~3~12, Mushroom><3541.069><241.6877><0~0~3~12, Mushroom><3591.909><274.6783><0~0~3~12, Mushroom><2384.837><193.6153><0~0~3~12, Mushroom><3605.026><227.6983><0~0~3~12, DeadSeedCob><1051.109><237.6087><, DeadSeedCob><1104.345><197.5741><, DeadSeedCob><531.9936><414.0501><, SeedCob><506.4499><454.008><0~0~7~10, DeadSeedCob><2179.093><236.3231><, DeadSeedCob><2317.19><275.4384><, DeadSeedCob><2356.904><228.8781><, LanternOnStick><3561.927><308.5638><24~-147, LanternOnStick><3268.399><266.8271><-45~-170, CentipedeAttractor><2906.301><310.9841><70~65, CentipedeAttractor><2245.422><140.184><42~120, 
+AmbientSounds: OMNI><MSC-ShadowGully.ogg><833.4474><632.9677><0.4021739><1, OMNI><SO_SFX-DeepStoneBass.ogg><663.9467><631.9635><0.2391304><1, SPOT><AM_ENV-LightWind.ogg><724.1086><523.1415><0.2717391><1><370.1086><606.1415><186.6447><-109.3553><0><1, 
+FadePalette: 11, 0.5, 0.4347826, 0.3586957, 0.3369565
+WetTerrain: OFF
