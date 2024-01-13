@@ -1,0 +1,8 @@
+[MERGE]
+CONDITIONAL LINKS
+
+// no access to Pebble's heart, you evil little bastard
+NCRMarauder : RM_LSCOREACCESS : RM_CORE : DISCONNECTED
+
+END CONDITIONAL LINKS
+[ENDMERGE]
