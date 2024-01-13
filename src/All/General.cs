@@ -554,15 +554,15 @@ namespace NCRcatsmod
                 else
                 {
                     self.playerState.isPup = false;
-                };
+                }
+            }
 
-                if (self.room.game.session is StoryGameSession && self.room.game.session.characterStats.name.value == "NCREntropy")
+            if (self.room.game.session is StoryGameSession && self.room.game.session.characterStats.name.value == "NCREntropy")
+            {
+                string name = self.room.abstractRoom.name;
+                if (name == "SB_L01")
                 {
-                    string name = self.room.abstractRoom.name;
-                    if (name == "SB_L01")
-                    {
-                        self.room.AddObject(new EntropyIntro(self.room));
-                    }
+                    self.room.AddObject(new EntropyIntro(self.room));
                 }
             }
             // ---------------------------------------------------- MARAUDER STUFF ----------------------------------------------------
@@ -571,21 +571,27 @@ namespace NCRcatsmod
                 self.GetMarCat().IsMarauder = true;
                 // freezes to death a little slower
                 self.HypothermiaExposure -= 0.05f;
-
-                if (self.room.game.session is StoryGameSession && self.room.game.session.characterStats.name.value == "NCRMarauder")
-                {
-                    string name = self.room.abstractRoom.name;
-                    if (name == "OE_RUINCourtYard")
-                    {
-                        self.room.AddObject(new MarauderIntro(self.room));
-                    }
-
-                }
                 if (self.dead)
                 {
                     MarauderCannibalising = false;
                     MarauderKarmaCheck = false;
                 }
+            }
+
+            if (self.room.game.session is StoryGameSession && self.room.game.session.characterStats.name.value == "NCRMarauder")
+            {
+                if (self.room.game.GetStorySession.saveState.miscWorldSaveData.pebblesEnergyTaken == false)
+                {
+                    self.room.game.GetStorySession.saveState.miscWorldSaveData.pebblesEnergyTaken = true;
+                    self.room.game.GetStorySession.saveState.miscWorldSaveData.moonHeartRestored = true;
+                }
+
+                string name = self.room.abstractRoom.name;
+                if (name == "OE_RUINCourtYard")
+                {
+                    self.room.AddObject(new MarauderIntro(self.room));
+                }
+
             }
             // ---------------------------------------------------- VIVIATED STUFF ----------------------------------------------------
             if (self.slugcatStats.name.value == "NCRParton")
