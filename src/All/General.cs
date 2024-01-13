@@ -557,7 +557,7 @@ namespace NCRcatsmod
                     self.playerState.isPup = false;
                 };
 
-                if (self.room.game.session is StoryGameSession)
+                if (self.room.game.session is StoryGameSession && self.room.game.session.characterStats.name.value == "NCREntropy")
                 {
                     string name = self.room.abstractRoom.name;
                     if (name == "SB_L01")
@@ -573,7 +573,7 @@ namespace NCRcatsmod
                 // freezes to death a little slower
                 self.HypothermiaExposure -= 0.05f;
 
-                if (self.room.game.session is StoryGameSession)
+                if (self.room.game.session is StoryGameSession && self.room.game.session.characterStats.name.value == "NCRMarauder")
                 {
                     string name = self.room.abstractRoom.name;
                     if (name == "OE_RUINCourtYard")
@@ -795,7 +795,11 @@ namespace NCRcatsmod
                 if (self.player.GetEntCat().IsEntropy && self.player.GetEntCat().IsFree == false)
                 {
                     string name = sLeaser.sprites[3]?.element?.name; //head
-                                                                     // uses different sprites for baby vs adult
+                    if (atlas == null)
+                    {
+                        return;
+                    }
+                    // uses different sprites for baby vs adult
                     if (self.player.KarmaCap < 8 && name != null && name.StartsWith("HeadC") && atlas._elementsByName.TryGetValue("ent" + name, out var babyhead))
                     {
                         sLeaser.sprites[3].element = babyhead;
@@ -805,9 +809,14 @@ namespace NCRcatsmod
                         sLeaser.sprites[3].element = adulthead;
                     }
                 }
-                if (self.player.GetMarCat().IsMarauder)
+                else if (self.player.GetMarCat().IsMarauder)
                 {
                     string name = sLeaser.sprites[3]?.element?.name; //head
+
+                    if (atlas == null)
+                    {
+                        return;
+                    }
                     if (name != null && name.StartsWith("HeadA") && atlas._elementsByName.TryGetValue("mar" + name, out var head))
                     {
                         sLeaser.sprites[3].element = head;
