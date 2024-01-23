@@ -14,6 +14,8 @@ using System.Linq;
 using System.Collections.Generic;
 using NCRMarauder.OE_INTRO;
 using Expedition;
+using RegionKit.API;
+using RegionKit.Modules.Misc;
 
 namespace NCRcatsmod
 {
@@ -88,10 +90,48 @@ namespace NCRcatsmod
             // prevent starve stunning
             On.Player.Update += Player_Update;
 
+            On.GraphicsModule.HypothermiaColorBlend += GraphicsModule_HypothermiaColorBlend;
+
 
             // ---------------------------------------------------- VIVIATED STUFF ----------------------------------------------------
             //gross sounds when dying
             On.Player.Die += Player_Die;
+        }
+
+        private Color GraphicsModule_HypothermiaColorBlend(On.GraphicsModule.orig_HypothermiaColorBlend orig, GraphicsModule self, Color oldCol)
+        {
+            orig(self, oldCol);
+            Color color;
+            color.g = 0;
+            color.b = 0;
+            color.a = 0;
+            color.r = 0;
+            if (self.owner is Creature)
+            {
+                float hypothermia = (self.owner.abstractPhysicalObject as AbstractCreature).Hypothermia;
+                if (self.owner is Player && (self.owner as Player).GetMarCat().IsMarauder)
+                {
+                    if (hypothermia < 1f)
+                    {
+                        color = Color.Lerp(oldCol, PlayerGraphics.CustomColorSafety(2), hypothermia);
+                    }
+                    else
+                    {
+                        color = Color.Lerp(PlayerGraphics.CustomColorSafety(2), PlayerGraphics.CustomColorSafety(3), hypothermia - 1f);
+                    }
+                }
+                else {
+                    if (hypothermia < 1f)
+                    {
+                        color = Color.Lerp(oldCol, new Color(0.8f, 0.8f, 1f), hypothermia);
+                    }
+                    else
+                    {
+                        color = Color.Lerp(new Color(0.8f, 0.8f, 1f), new Color(0.3f, 0.15f, 0.2f), hypothermia - 1f);
+                    }
+                }
+            }
+            return Color.Lerp(oldCol, color, 0.92f);
         }
 
         private void Player_Update(On.Player.orig_Update orig, Player self, bool eu)
@@ -153,7 +193,7 @@ namespace NCRcatsmod
         private void RegionGate_customKarmaGateRequirements(On.RegionGate.orig_customKarmaGateRequirements orig, RegionGate self)
         {
             orig(self);
-            if (self.room.game.session.characterStats.name.value == ("NCRMarauder"))
+            if (self.room.game.session.characterStats.name.value == "NCRMarauder")
             {
                 if (self.room.abstractRoom.name == "GATE_SB_OE")
                 {
@@ -169,7 +209,23 @@ namespace NCRcatsmod
                     }
                 }
             }
-            if (self.room.game.session.characterStats.name.value == ("NCREntropy"))
+            if (self.room.game.session.characterStats.name.value == "NCRRoc")
+            {
+                if (self.room.abstractRoom.name == "GATE_SS_UW")
+                {
+                    int num;
+                    if (int.TryParse(self.karmaRequirements[0].value, out num))
+                    {
+                        self.karmaRequirements[0] = RegionGate.GateRequirement.OneKarma;
+                    }
+                    int num2;
+                    if (int.TryParse(self.karmaRequirements[1].value, out num2))
+                    {
+                        self.karmaRequirements[1] = _Enums.TenKarma;
+                    }
+                }
+            }
+            if (self.room.game.session.characterStats.name.value == "NCREntropy")
             {
                 System.Random rd = new System.Random();
                 int rand_num = rd.Next(1, 5);
@@ -285,7 +341,8 @@ namespace NCRcatsmod
         private void FlyLure_ApplyPalette(On.FlyLure.orig_ApplyPalette orig, FlyLure self, RoomCamera.SpriteLeaser sLeaser, RoomCamera rCam, RoomPalette palette)
         {
             orig(self, sLeaser, rCam, palette);
-            if (self.room.game.session.characterStats.name.value == "NCRMarauder")
+            if (self.room.game.session.characterStats.name.value == "NCRMarauder" ||
+                self.room.game.session.characterStats.name.value == "NCRRoc")
             {
                 self.color = UnityEngine.Color.Lerp(new UnityEngine.Color(0.6f, 0.8f, 1f), palette.fogColor, 0.3f);
                 self.UpdateColor(sLeaser, false);
@@ -335,7 +392,8 @@ namespace NCRcatsmod
         private void Lantern_Update(On.Lantern.orig_Update orig, Lantern self, bool eu)
         {
             orig(self, eu);
-            if (self.room.game.session.characterStats.name.value == "NCRMarauder" && self.lightSource == null)
+            if ((self.room.game.session.characterStats.name.value == "NCRMarauder" ||
+                self.room.game.session.characterStats.name.value == "NCRRoc") && self.lightSource == null)
             {
                 self.lightSource = new LightSource(self.firstChunk.pos, false, new UnityEngine.Color(0.5f, 0.8f, 0.9f), self);
                 self.room.AddObject(self.lightSource);
@@ -348,7 +406,8 @@ namespace NCRcatsmod
             orig(self, chunk, direction, speed, firstContact);
             // if the world belongs to marauder, lanterns will have blue sparks when hitting things. small change but important to me
             // unsure how to remove the red ones, though...
-            if (speed > 5f && firstContact && self.room.game.session.characterStats.name.value == "NCRMarauder")
+            if (speed > 5f && firstContact && (self.room.game.session.characterStats.name.value == "NCRMarauder" || 
+                self.room.game.session.characterStats.name.value == "NCRRoc"))
             {
                 Vector2 pos = self.bodyChunks[chunk].pos + direction.ToVector2() * self.bodyChunks[chunk].rad * 0.9f;
                 int num = 0;
@@ -363,7 +422,8 @@ namespace NCRcatsmod
         private void Lantern_ApplyPalette(On.Lantern.orig_ApplyPalette orig, Lantern self, RoomCamera.SpriteLeaser sLeaser, RoomCamera rCam, RoomPalette palette)
         {
             orig(self, sLeaser, rCam, palette);
-            if (self.room.game.session.characterStats.name.value == "NCRMarauder")
+            if (self.room.game.session.characterStats.name.value == "NCRMarauder" ||
+                self.room.game.session.characterStats.name.value == "NCRRoc")
             {
                 sLeaser.sprites[0].color = new UnityEngine.Color(0.5f, 0.8f, 0.9f);
                 sLeaser.sprites[1].color = new UnityEngine.Color(1f, 1f, 1f);
@@ -379,7 +439,8 @@ namespace NCRcatsmod
         private void SeedCob_ApplyPalette(On.SeedCob.orig_ApplyPalette orig, SeedCob self, RoomCamera.SpriteLeaser sLeaser, RoomCamera rCam, RoomPalette palette)
         {
             orig(self, sLeaser, rCam, palette);
-            if (self.room.game.session.characterStats.name.value == "NCRMarauder")
+            if (self.room.game.session.characterStats.name.value == "NCRMarauder" || 
+                self.room.game.session.characterStats.name.value == "NCRRoc")
             {
                 sLeaser.sprites[self.StalkSprite(0)].color = palette.blackColor;
                 self.StoredBlackColor = palette.blackColor;

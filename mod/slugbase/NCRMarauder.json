@@ -16,12 +16,12 @@
 				"arena" : ["20514E", "8D5E58", "FFB787", "E6E6E6"]
 			},
 			{
-				"name" : "Patterns (NOT YET IMPLEMENTED)",
+				"name" : "Patterns (semi-implimented)",
 				"story" : "DFEAED",
 				"arena" : ["C8D4E0", "FFFBAF", "410203", "B2A9C1"]
 			},
 			{
-				"name" : "Hypothermia (NOT YET IMPLEMENTED)",
+				"name" : "Hypothermia",
 				"story" : "706975"
 			}
 		],
