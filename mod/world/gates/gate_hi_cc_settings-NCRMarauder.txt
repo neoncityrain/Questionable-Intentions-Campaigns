@@ -1,13 +1,20 @@
 Template: NONE
 DangerType: Blizzard
+CeilingDrips: 0
 RainIntensity: 0
 RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 0
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
 Clouds: 0.1847826
 Grime: 0.2282609
 BkgDroneVolume: 0
-Palette: 0
+Palette: 10
 EffectColorA: 2
 EffectColorB: 2
-PlacedObjects: NoSpearStickZone><477.519><248.0509><-244~98, 
+PlacedObjects: NoSpearStickZone><477.519><248.0509><-244~98, CommonGateData><489.7002><248.1443><100~50~False~False~False~False~False~False~False~True~0.4949261~1~1, 
 AmbientSounds: OMNI><AM_ENV-LightWind.ogg><760.437><518.571><0.326087><0.5695652, SPOT><AM_IND-DeepHum.ogg><773.1953><307.7929><0.3695652><1><481.1953><-31.20709><-111.3553><-34.35534><0><0.328261, 
-FadePalette: 20, 0.2717391
+FadePalette: 29, 0.2717391
+WetTerrain: OFF

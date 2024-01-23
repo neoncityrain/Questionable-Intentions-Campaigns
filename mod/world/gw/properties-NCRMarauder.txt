@@ -1,0 +1,11 @@
+Palette: 1431800
+corruptionEffectColor: 0.7,0.7,0.4
+corruptionEyeColor: 0.5,0.3,0
+scavsDelayInitialMin: 2800
+scavsDelayInitialMax: 3200
+scavsDelayRepeatMin: 2300
+scavsDelayRepeatMax: 5900
+waterColorOverride: 0.05, 0.43, 0.41
+pupSpawnChance: 0.9
+Subregion: Garbage Wastes
+Room Setting Templates: Outside, Inside

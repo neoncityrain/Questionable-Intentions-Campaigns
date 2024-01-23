@@ -1,0 +1,9 @@
+Template: NONE
+DangerType: Flood
+Clouds: 0.2065217
+Palette: 4
+EffectColorA: 2
+EffectColorB: 1
+PlacedObjects: LightSource><551.8002><363.2415><0.2934783~Environment~590~241~50~86.60254~1~0~None~0~0, 
+AmbientSounds: OMNI><SO_WAT-OpenFlow.ogg><724.1822><472.9381><0.2173913><1, SPOT><SO_WAT-RunningWater.ogg><732.4119><358.1325><0.2608696><1><746.4119><102.1325><-186.3553><134.6447><0><0.5565219, 
+FadePalette: 8, 0.2242639

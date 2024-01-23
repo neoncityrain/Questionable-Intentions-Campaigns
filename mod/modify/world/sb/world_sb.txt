@@ -185,7 +185,7 @@ NCREntropy : SB_C10 : SB_F01 : SB_G04
 NCREntropy : SB_C10 : SB_G04 : SB_C06
 NCREntropy : SB_C10 : SB_E07 : SB_A12
 NCREntropy : SB_G04 : SB_C10 : SB_B04
-NCREntropy : SB_G04 : 2 : SB_J04
+NCREntropy : SB_G04 : 1 : SB_J04
 NCREntropy : SB_G04 : GATE_SB_VS : SB_C06
 NCREntropy : SB_G04 : SB_B04 : SB_C10
 NCREntropy : SB_E05SAINT : 1 : SB_H03

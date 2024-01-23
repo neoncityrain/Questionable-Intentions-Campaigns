@@ -4,6 +4,7 @@ using BepInEx;
 using UnityEngine;
 using NCREntropy.EntropyCat;
 using NCRMarauder.MarauderCat;
+using NCRRoc.RocCat;
 using MoreSlugcats;
 using NCREntropy.SB_L01ENT;
 using Viviated.PartonCat;
@@ -12,6 +13,7 @@ using DressMySlugcat;
 using System.Linq;
 using System.Collections.Generic;
 using NCRMarauder.OE_INTRO;
+using Expedition;
 
 namespace NCRcatsmod
 {
@@ -578,7 +580,8 @@ namespace NCRcatsmod
                 }
             }
 
-            if (self.room.game.session is StoryGameSession && self.room.game.session.characterStats.name.value == "NCRMarauder")
+            if ((self.room.game.session is StoryGameSession || self.room.game.rainWorld.ExpeditionMode) && 
+                (self.room.game.session.characterStats.name.value == "NCRMarauder" || self.room.game.session.characterStats.name.value == "NCRRoc"))
             {
                 if (self.room.game.GetStorySession.saveState.miscWorldSaveData.pebblesEnergyTaken == false)
                 {
@@ -587,7 +590,7 @@ namespace NCRcatsmod
                 }
 
                 string name = self.room.abstractRoom.name;
-                if (name == "OE_RUINCourtYard")
+                if (name == "OE_RUINCourtYard" && self.room.game.session.characterStats.name.value == "NCRMarauder")
                 {
                     self.room.AddObject(new MarauderIntro(self.room));
                 }
@@ -597,6 +600,12 @@ namespace NCRcatsmod
             if (self.slugcatStats.name.value == "NCRParton")
             {
                 self.GetParCat().IsNCRPartonCat = true;
+            }
+            // ---------------------------------------------------- ROCCOCO STUFF ----------------------------------------------------
+            if (self.slugcatStats.name.value == "NCRRoc")
+            {
+                self.GetRocCat().IsRocCat = true;
+                self.playerState.isPup = true;
             }
         }
 
@@ -672,6 +681,11 @@ namespace NCRcatsmod
             }
             //viviated just jumps a lil higher
             if (self.GetParCat().IsNCRPartonCat)
+            {
+                self.jumpBoost += 1.5f;
+            }
+            //roccoco is near the same as viv
+            if (self.GetRocCat().IsRocCat)
             {
                 self.jumpBoost += 1f;
             }

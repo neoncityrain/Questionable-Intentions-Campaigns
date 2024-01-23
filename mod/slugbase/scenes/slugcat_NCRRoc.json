@@ -1,0 +1,15 @@
+{
+	"id": "Slugcat_NCRRoc",
+	"scene_folder": "scenes/rocselect",
+	"images": [
+		{ "name": "0-shadow", "pos": [400, 300], "depth": 2.1, "shader": "Basic" },
+		{ "name": "1-eyes",    "pos": [400, 300], "depth": 2.0, "shader": "Basic" },
+		{ "name": "2-wire",    "pos": [400, 300], "depth": 1.6, "shader": "Basic" },
+		{ "name": "3-roccoco",    "pos": [400, 300], "depth": 1.5, "shader": "Basic" },
+		{ "name": "4-flower glow",    "pos": [400, 300], "depth": 0.8, "shader": "Add" },
+		{ "name": "5-flower",    "pos": [400, 300], "depth": 0.7, "shader": "Basic" }
+	],
+	"idle_depths": [ 2.8 ],
+	"select_menu_pos": [0, 0],
+	"slugcat_depth": 1.5
+	}

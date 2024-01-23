@@ -7,7 +7,7 @@ WaveLength: 0.7424253
 WaveAmplitude: 0.005
 SecondWaveLength: 0.1666667
 SecondWaveAmplitude: 0
-Clouds: 0.5434783
+Clouds: 0.09782609
 RandomItemDensity: 0
 RandomItemSpearChance: 0
 Palette: 24

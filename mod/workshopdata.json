@@ -1,18 +1,18 @@
 {
-  "Title": "The Entropy Slugcat",
-  "Description": "A little slugpup awakens in a chaotic new place...\r\n[b]This is a custom campaign.[/b] As such, no information is necessary to know before playing.\r\nFor more information, check [url=https://rainworldmods.miraheze.org/wiki/Entropy]Entropy's wiki page[/url]. To see more of its gallery, check [url=https://toyhou.se/23744691.entropy]their Toyhouse[/url].\r\n\n\n- I am not associated with Nyctophobia. Witness and Entropy have (or will have?) a very similar ability; this is not intentional.\n- This campaign is not based on anything but Rain World. I do not know Fallout or Entropy Zero references. They get old very fast, refrain from bringing them up please.",
+  "Title": "Questionable Intentions Campaigns",
+  "Description": "[b]These are custom campaigns.[/b] As such, no information should be necessary to know before playing./nThis mod adds two slugcats: the Entropy and the Marauder. Both are intended to be difficult to play./n/nI am not a coder, I am a single person, there will be issues./nI am not associated with Nyctophobia. Witness and Entropy have a very similar ability. This is not intentional./nThis mod does work with DMS, and automatically sets the skins of the characters to their default./n[img]https://f2.toyhou.se/file/f2-toyhou-se/images/75958273_kToAMphNGgKCI6R.png[/img][img]https://f2.toyhou.se/file/f2-toyhou-se/images/75955322_6VOxS6hXLu5UUwc.png[/img]/n/n[h1]Before you comment:[/h1]/nRefrain from comparisons to other creations./nNeither campaign is completed to its entirety./nPlease disable other custom slugcat mods to play. The game WILL crash with some of them enabled; I am not entirely sure which./nDon't comment about what you want changed about this mod unless it is AN ERROR. I am not taking criticism at this time, do not offer it.*/nIs it mean? Consider not saying anything instead./n/n/n*If you want to offer help, especially with coding, I'd appreciate it- otherwise, keep it to yourself.",
   "ID": "neoncityrain.ncrcatsmod",
-  "Version": "0.4.0",
+  "Version": "0.1.0",
   "TargetGameVersion": "v1.9.06",
-  "Requirements": "slime-cubed.slugbase,moreslugcats,regionkit,pom",
-  "RequirementNames": "SlugBase,More Slugcats,Region Kit,POM",
+  "Requirements": "slime-cubed.slugbase,moreslugcats,regionkit,pom,fisobs",
+  "RequirementNames": "SlugBase,More Slugcats,Region Kit,POM,Fisobs",
   "Authors": "NeonCityRain",
   "Visibility": "Public",
   "Tags": [
     "Campaigns",
     "Custom Slugcat"
   ],
-  "WorkshopID": 3075403759,
-  "UploadFilesOnly": true,
+  "WorkshopID": 3138265033,
+  "UploadFilesOnly": false,
   "UploadThumbnail": false
 }

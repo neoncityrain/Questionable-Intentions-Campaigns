@@ -2,10 +2,15 @@ Template: GW_SettingsTemplate_Inside
 DangerType: Blizzard
 RainIntensity: 0.3695652
 RumbleIntensity: 0.3804348
+WaveSpeed: 0.5000771
+WaveLength: 0.9999614
+WaveAmplitude: 0.0007911071
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
 Clouds: 0.4130435
 Grime: 0
-Palette: 0
+Palette: 1431800
 Effects: Flies-0-20-20, 
 PlacedObjects: BrokenShelterWaterLevel><644.9269><476.6862><, 
 AmbientSounds: OMNI><AM_ENV-WinterTrees.ogg><831.1292><650.8473><0.3913043><0.726087, OMNI><SO_WAT-LilDrips.ogg><653.4498><652.759><0.2391304><1, 
-FadePalette: 11, 0.3913043, 0.1521739
+FadePalette: 1, 0.4939426, 0.1521739
