@@ -77,6 +77,9 @@ namespace NCRcatsmod
             On.Lantern.TerrainImpact += Lantern_TerrainImpact;
             On.Lantern.Update += Lantern_Update;
             On.FlyLure.ApplyPalette += FlyLure_ApplyPalette;
+            On.WormGrass.Worm.ApplyPalette += Worm_ApplyPalette;
+            On.PoleMimicGraphics.ApplyPalette += PoleMimicGraphics_ApplyPalette;
+            On.Player.StomachGlowLightColor += Player_StomachGlowLightColor;
 
             // remove karma reinforcement and cannibalism buffs at the end of a cycle
             On.SaveState.SessionEnded += SaveState_SessionEnded;
@@ -93,25 +96,108 @@ namespace NCRcatsmod
             // custom hypothermia colours
             On.GraphicsModule.HypothermiaColorBlend += GraphicsModule_HypothermiaColorBlend;
 
-
             // ---------------------------------------------------- VIVIATED STUFF ----------------------------------------------------
-            //gross sounds when dying
+            // gross sounds when dying
             On.Player.Die += Player_Die;
+
+            // flies swarm around him
+            On.MiniFly.ViableForBuzzaround += MiniFly_ViableForBuzzaround;
+
+            // ---------------------------------------------------- ROCCOCO STUFF ----------------------------------------------------
+
+        }
+
+        private void Worm_ApplyPalette(On.WormGrass.Worm.orig_ApplyPalette orig, WormGrass.Worm self, RoomCamera.SpriteLeaser sLeaser, RoomCamera rCam, RoomPalette palette)
+        {
+            if (self.room.game.session.characterStats.name.value == "NCRMarauder")
+            {
+                Color color = rCam.PixelColorAtCoordinate(self.belowGroundPos);
+                Color color2 = Color.Lerp(palette.texture.GetPixel(self.color, 3), new Color(0f, 0.8f, 1f), self.iFac * 0.5f);
+                sLeaser.sprites[1].color = new Color(0.2f, 0.5f, 1f);
+                for (int i = 0; i < self.segments.Length; i++)
+                {
+                    (sLeaser.sprites[0] as TriangleMesh).verticeColors[i * 4] = Color.Lerp(color2, color, (float)i / (float)(self.segments.Length - 1));
+                    (sLeaser.sprites[0] as TriangleMesh).verticeColors[i * 4 + 1] = Color.Lerp(color2, color, (float)i / (float)(self.segments.Length - 1));
+                    (sLeaser.sprites[0] as TriangleMesh).verticeColors[i * 4 + 2] = Color.Lerp(color2, color, ((float)i + 0.5f) / (float)(self.segments.Length - 1));
+                    if (i < self.segments.Length - 1)
+                    {
+                        (sLeaser.sprites[0] as TriangleMesh).verticeColors[i * 4 + 3] = Color.Lerp(color2, color, ((float)i + 0.5f) / (float)(self.segments.Length - 1));
+                    }
+                }
+            }
+            else
+            {
+                orig(self, sLeaser, rCam, palette);
+            }
+        }
+
+        private bool MiniFly_ViableForBuzzaround(On.MiniFly.orig_ViableForBuzzaround orig, MiniFly self, AbstractCreature crit)
+        {
+            if (crit.realizedCreature != null && crit.realizedCreature is Player && UnityEngine.Random.value > 0.00083333335f && 
+                (crit.realizedCreature as Player).GetParCat().IsNCRPartonCat && (self.mySwarm == null || 
+                Custom.DistLess(self.mySwarm.placedObject.pos, self.mySwarm.placedObject.pos, self.mySwarm.insectGroupData.Rad * 
+                (1f + UnityEngine.Random.value))) && !crit.realizedCreature.slatedForDeletetion && crit.realizedCreature.room == self.room)
+            {
+                return true;
+            }
+            else if (crit.realizedCreature != null && crit.realizedCreature is Player && (crit.realizedCreature as Player).GetMarCat().IsMarauder
+                && (crit.realizedCreature as Player).Malnourished)
+            {
+                return false;
+            }
+            else
+            {
+                return orig(self, crit);
+            }
+        }
+
+        private Color? Player_StomachGlowLightColor(On.Player.orig_StomachGlowLightColor orig, Player self)
+        {
+            AbstractPhysicalObject stomachObject;
+            if (self.AI == null)
+            {
+                stomachObject = self.objectInStomach;
+            }
+            else
+            {
+                stomachObject = (self.State as PlayerNPCState).StomachObject;
+            }
+            if ((self.room.game.session.characterStats.name.value == "NCRMarauder" ||
+                self.room.game.session.characterStats.name.value == "NCRRoc") && stomachObject != null && 
+                self.objectInStomach.type == AbstractPhysicalObject.AbstractObjectType.Lantern)
+            {
+                return new Color?(new Color(0.5f, 0.8f, 0.9f));
+            }
+            else
+            {
+                return orig(self);
+            }
+        }
+
+        private void PoleMimicGraphics_ApplyPalette(On.PoleMimicGraphics.orig_ApplyPalette orig, PoleMimicGraphics self, RoomCamera.SpriteLeaser sLeaser, RoomCamera rCam, RoomPalette palette)
+        {
+            if (self.owner.room.game.session.characterStats.name.value == "NCRMarauder" ||
+                self.owner.room.game.session.characterStats.name.value == "NCRRoc")
+            {
+                self.mimicColor = Color.Lerp(palette.texture.GetPixel(4, 3), palette.fogColor, palette.fogAmount * 0.13333334f);
+                self.blackColor = palette.blackColor;
+            }
+            else
+            {
+                orig(self, sLeaser, rCam, palette);
+            }
         }
 
         private Color GraphicsModule_HypothermiaColorBlend(On.GraphicsModule.orig_HypothermiaColorBlend orig, GraphicsModule self, Color oldCol)
         {
-            orig(self, oldCol);
-            Color color;
-            color.g = 0;
-            color.b = 0;
-            color.a = 0;
-            color.r = 0;
-            if (self.owner is Creature)
-            {
-                float hypothermia = (self.owner.abstractPhysicalObject as AbstractCreature).Hypothermia;
-                if (self.owner is Player && (self.owner as Player).GetMarCat().IsMarauder)
+            if (self.owner is Player && (self.owner as Player).GetMarCat().IsMarauder)
                 {
+                    float hypothermia = (self.owner.abstractPhysicalObject as AbstractCreature).Hypothermia;
+                    Color color;
+                    color.g = 0;
+                    color.b = 0;
+                    color.a = 0;
+                    color.r = 0;
                     if (PlayerGraphics.customColors != null)
                     {
                         if (hypothermia < 1f)
@@ -134,19 +220,9 @@ namespace NCRcatsmod
                             color = Color.Lerp(new Color(0.223f, 0.234f, 0.237f), new Color(0.112f, 0.105f, 0.117f), hypothermia - 1f);
                         }
                     }
-                }
-                else {
-                    if (hypothermia < 1f)
-                    {
-                        color = Color.Lerp(oldCol, new Color(0.8f, 0.8f, 1f), hypothermia);
-                    }
-                    else
-                    {
-                        color = Color.Lerp(new Color(0.8f, 0.8f, 1f), new Color(0.3f, 0.15f, 0.2f), hypothermia - 1f);
-                    }
-                }
+                return Color.Lerp(oldCol, color, 0.92f);
             }
-            return Color.Lerp(oldCol, color, 0.92f);
+            else { return orig(self, oldCol); }
         }
 
         private void Player_Update(On.Player.orig_Update orig, Player self, bool eu)
@@ -161,9 +237,9 @@ namespace NCRcatsmod
 
         private void SaveState_SessionEnded(On.SaveState.orig_SessionEnded orig, SaveState self, RainWorldGame game, bool survived, bool newMalnourished)
         {
-            orig(self, game, survived, newMalnourished);
             if (game.session.characterStats.name.value == "NCRMarauder")
             {
+                orig(self, game, survived, newMalnourished);
                 for (int k = 0; k < game.GetStorySession.playerSessionRecords.Length; k++)
                 {
                     for (int l = 0; l < game.world.GetAbstractRoom(game.Players[k].pos).creatures.Count; l++)
@@ -202,6 +278,10 @@ namespace NCRcatsmod
                         self.deathPersistentSaveData.reinforcedKarma = false;
                     }
                 }
+            }
+            else
+            {
+                orig(self, game, survived, newMalnourished);
             }
         }
 
@@ -339,31 +419,28 @@ namespace NCRcatsmod
         private bool RegionGate_customOEGateRequirements(On.RegionGate.orig_customOEGateRequirements orig, RegionGate self)
         {
             orig(self);
-            bool flag = self.room.game.rainWorld.progression.miscProgressionData.beaten_Gourmand ||
-                self.room.game.rainWorld.progression.miscProgressionData.beaten_Gourmand_Full;
-            if (!(self.room.game.session is StoryGameSession) && self.room.game.session.characterStats.name.value != "NCRMarauder" 
-                && self.room.game.session.characterStats.name.value != ("NCREntropy"))
+            if (self.room.game.session is StoryGameSession && self.room.game.session.characterStats.name.value == "NCRMarauder"
+                || self.room.game.session.characterStats.name.value == "NCRRoc" || self.room.game.session.characterStats.name.value == "NCREntropy")
             {
-                return false;
+                return true;
             }
-            if ((self.room.game.session as StoryGameSession).saveStateNumber == MoreSlugcatsEnums.SlugcatStatsName.Gourmand)
+            else
             {
-                return (self.room.game.session as StoryGameSession).saveState.deathPersistentSaveData.theMark || flag;
+                return orig(self);
             }
-            return (((self.room.game.session as StoryGameSession).saveStateNumber == SlugcatStats.Name.White ||
-                (self.room.game.session as StoryGameSession).saveStateNumber == SlugcatStats.Name.Yellow) && flag) ||
-                self.room.game.session.characterStats.name.value == ("NCRMarauder") ||
-                self.room.game.session.characterStats.name.value == ("NCREntropy");
         }
 
         private void FlyLure_ApplyPalette(On.FlyLure.orig_ApplyPalette orig, FlyLure self, RoomCamera.SpriteLeaser sLeaser, RoomCamera rCam, RoomPalette palette)
         {
-            orig(self, sLeaser, rCam, palette);
             if (self.room.game.session.characterStats.name.value == "NCRMarauder" ||
                 self.room.game.session.characterStats.name.value == "NCRRoc")
             {
                 self.color = UnityEngine.Color.Lerp(new UnityEngine.Color(0.6f, 0.8f, 1f), palette.fogColor, 0.3f);
                 self.UpdateColor(sLeaser, false);
+            }
+            else
+            {
+                orig(self, sLeaser, rCam, palette);
             }
         }
 
@@ -826,7 +903,6 @@ namespace NCRcatsmod
 
         private void KarmaFlower_BitByPlayer(On.KarmaFlower.orig_BitByPlayer orig, KarmaFlower self, Creature.Grasp grasp, bool eu)
         {
-            orig(self, grasp, eu);
             // entropys flower oddity
             if ((grasp.grabber as Player).GetEntCat().IsEntropy && self.bites < 1)
             {
@@ -848,13 +924,14 @@ namespace NCRcatsmod
 
                 }
 
-                //no reinforced karma we die like men
-                ((grasp.grabber as Player).room.game.session as StoryGameSession).saveState.deathPersistentSaveData.reinforcedKarma = false;
-
                 //visual effects
                 grasp.grabber.room.AddObject(new Spark(grasp.grabber.mainBodyChunk.pos, Custom.RNV(), UnityEngine.Color.white, null, 4, 8));
                 grasp.grabber.room.AddObject(new Spark(grasp.grabber.mainBodyChunk.pos, Custom.RNV(), UnityEngine.Color.white, null, 4, 8));
                 grasp.grabber.room.PlaySound(SoundID.Centipede_Shock, grasp.grabber.mainBodyChunk.pos);
+            }
+            else
+            {
+                orig(self, grasp, eu);
             }
         }
 

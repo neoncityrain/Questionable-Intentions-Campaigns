@@ -22,7 +22,7 @@ namespace NCRMarauder.RMOracleBehavior
             }
             else
             {
-                
+                //shouldnt do anything quite yet
             }
         }
     }
