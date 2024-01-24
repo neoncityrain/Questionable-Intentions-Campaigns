@@ -90,6 +90,7 @@ namespace NCRcatsmod
             // prevent starve stunning
             On.Player.Update += Player_Update;
 
+            // custom hypothermia colours
             On.GraphicsModule.HypothermiaColorBlend += GraphicsModule_HypothermiaColorBlend;
 
 
@@ -111,13 +112,27 @@ namespace NCRcatsmod
                 float hypothermia = (self.owner.abstractPhysicalObject as AbstractCreature).Hypothermia;
                 if (self.owner is Player && (self.owner as Player).GetMarCat().IsMarauder)
                 {
-                    if (hypothermia < 1f)
+                    if (PlayerGraphics.customColors != null)
                     {
-                        color = Color.Lerp(oldCol, PlayerGraphics.CustomColorSafety(2), hypothermia);
+                        if (hypothermia < 1f)
+                        {
+                            color = Color.Lerp(oldCol, PlayerGraphics.CustomColorSafety(2), hypothermia);
+                        }
+                        else
+                        {
+                            color = Color.Lerp(PlayerGraphics.CustomColorSafety(2), PlayerGraphics.CustomColorSafety(3), hypothermia - 1f);
+                        }
                     }
                     else
                     {
-                        color = Color.Lerp(PlayerGraphics.CustomColorSafety(2), PlayerGraphics.CustomColorSafety(3), hypothermia - 1f);
+                        if (hypothermia < 1f)
+                        {
+                            color = Color.Lerp(oldCol, new Color(0.223f, 0.234f, 0.237f), hypothermia);
+                        }
+                        else
+                        {
+                            color = Color.Lerp(new Color(0.223f, 0.234f, 0.237f), new Color(0.112f, 0.105f, 0.117f), hypothermia - 1f);
+                        }
                     }
                 }
                 else {
@@ -192,7 +207,6 @@ namespace NCRcatsmod
 
         private void RegionGate_customKarmaGateRequirements(On.RegionGate.orig_customKarmaGateRequirements orig, RegionGate self)
         {
-            orig(self);
             if (self.room.game.session.characterStats.name.value == "NCRMarauder")
             {
                 if (self.room.abstractRoom.name == "GATE_SB_OE")
@@ -209,7 +223,7 @@ namespace NCRcatsmod
                     }
                 }
             }
-            if (self.room.game.session.characterStats.name.value == "NCRRoc")
+            else if (self.room.game.session.characterStats.name.value == "NCRRoc")
             {
                 if (self.room.abstractRoom.name == "GATE_SS_UW")
                 {
@@ -225,7 +239,7 @@ namespace NCRcatsmod
                     }
                 }
             }
-            if (self.room.game.session.characterStats.name.value == "NCREntropy")
+            else if (self.room.game.session.characterStats.name.value == "NCREntropy")
             {
                 System.Random rd = new System.Random();
                 int rand_num = rd.Next(1, 5);
@@ -280,6 +294,10 @@ namespace NCRcatsmod
                     }
                 }
                 Debug.Log("Entropy's gate requirements randomized!");
+            }
+            else
+            {
+                orig.Invoke(self);
             }
         }
 
@@ -391,21 +409,22 @@ namespace NCRcatsmod
 
         private void Lantern_Update(On.Lantern.orig_Update orig, Lantern self, bool eu)
         {
-            orig(self, eu);
             if ((self.room.game.session.characterStats.name.value == "NCRMarauder" ||
                 self.room.game.session.characterStats.name.value == "NCRRoc") && self.lightSource == null)
             {
                 self.lightSource = new LightSource(self.firstChunk.pos, false, new UnityEngine.Color(0.5f, 0.8f, 0.9f), self);
                 self.room.AddObject(self.lightSource);
             }
+            else
+            {
+                orig.Invoke(self, eu);
+            }
 
         }
 
         private void Lantern_TerrainImpact(On.Lantern.orig_TerrainImpact orig, Lantern self, int chunk, IntVector2 direction, float speed, bool firstContact)
         {
-            orig(self, chunk, direction, speed, firstContact);
             // if the world belongs to marauder, lanterns will have blue sparks when hitting things. small change but important to me
-            // unsure how to remove the red ones, though...
             if (speed > 5f && firstContact && (self.room.game.session.characterStats.name.value == "NCRMarauder" || 
                 self.room.game.session.characterStats.name.value == "NCRRoc"))
             {
@@ -417,11 +436,14 @@ namespace NCRcatsmod
                     num++;
                 }
             }
+            else
+            {
+                orig.Invoke(self, chunk, direction, speed, firstContact);
+            }
         }
 
         private void Lantern_ApplyPalette(On.Lantern.orig_ApplyPalette orig, Lantern self, RoomCamera.SpriteLeaser sLeaser, RoomCamera rCam, RoomPalette palette)
         {
-            orig(self, sLeaser, rCam, palette);
             if (self.room.game.session.characterStats.name.value == "NCRMarauder" ||
                 self.room.game.session.characterStats.name.value == "NCRRoc")
             {
@@ -434,11 +456,14 @@ namespace NCRcatsmod
                     sLeaser.sprites[4].color = palette.blackColor;
                 }
             }
+            else
+            {
+                orig.Invoke(self, sLeaser, rCam, palette);
+            }
         }
 
         private void SeedCob_ApplyPalette(On.SeedCob.orig_ApplyPalette orig, SeedCob self, RoomCamera.SpriteLeaser sLeaser, RoomCamera rCam, RoomPalette palette)
         {
-            orig(self, sLeaser, rCam, palette);
             if (self.room.game.session.characterStats.name.value == "NCRMarauder" || 
                 self.room.game.session.characterStats.name.value == "NCRRoc")
             {
@@ -477,11 +502,14 @@ namespace NCRcatsmod
                     sLeaser.sprites[self.LeafSprite(m)].color = palette.blackColor;
                 }
             }
+            else
+            {
+                orig.Invoke(self, sLeaser, rCam, palette);
+            }
         }
 
         private void WormGrassPatch_InteractWithCreature(On.WormGrass.WormGrassPatch.orig_InteractWithCreature orig, WormGrass.WormGrassPatch self, WormGrass.WormGrassPatch.CreatureAndPull creatureAndPull)
         {
-            orig(self, creatureAndPull);
             if (creatureAndPull.creature is Player && (creatureAndPull.creature as Player).GetMarCat().IsMarauder && !creatureAndPull.creature.dead)
             {
                 // worm grass should never be able to fully consume marauder as long as theyre alive
@@ -490,6 +518,10 @@ namespace NCRcatsmod
                 // doesnt track marauder and instantly removes them from the list of tracked creatures
                 self.trackedCreatures.Remove(creatureAndPull);
                 return;
+            }
+            else
+            {
+                orig(self, creatureAndPull);
             }
         }
 
@@ -583,19 +615,14 @@ namespace NCRcatsmod
 
         private bool Player_CanMaulCreature(On.Player.orig_CanMaulCreature orig, Player self, Creature crit)
         {
-            orig(self, crit);
-            bool flag = true;
-            if (ModManager.CoopAvailable)
-                {
-                    Player player = crit as Player;
-                    if (player != null && (player.isNPC || !Custom.rainWorld.options.friendlyFire) && !self.GetMarCat().IsMarauder)
-                    {
-                        flag = false;
-                    }
-                }
-            return !(crit is Fly) && !crit.dead && (!(crit is IPlayerEdible) || (crit is Centipede && !(crit as Centipede).Edible) ||
-                    self.FoodInStomach >= self.MaxFoodInStomach) && flag && (crit.Stunned || (!(crit is Cicada) && (!(crit is Player) ||
-                    self.GetMarCat().IsMarauder) && self.IsCreatureLegalToHoldWithoutStun(crit))) && SlugcatStats.SlugcatCanMaul(self.SlugCatClass);
+            if ((crit as Player) != null && self.GetMarCat().IsMarauder && crit != null)
+            {
+                return true;
+            }
+            else
+            {
+                return orig(self, crit);
+            }
         }
 
         private void Player_ctor(On.Player.orig_ctor orig, Player self, AbstractCreature abstractCreature, World world)
@@ -672,7 +699,6 @@ namespace NCRcatsmod
 
         private bool Creature_Grab(On.Creature.orig_Grab orig, Creature self, PhysicalObject obj, int graspUsed, int chunkGrabbed, Creature.Grasp.Shareability shareability, float dominance, bool overrideEquallyDominant, bool pacifying)
         {
-            orig(self, obj, graspUsed, chunkGrabbed, shareability, dominance, overrideEquallyDominant, pacifying);
             if (self is Creature && (obj is Player player && player.GetEntCat().IsEntropy && !player.GetEntCat().IsFree && player.GetEntCat().CollarShocks == true)
                 && !(self is Player) && !(self is Leech) && !(self is Centipede) && !(self is Spider) && !(self is Cicada) && !(self is JetFish))
             {
@@ -721,7 +747,7 @@ namespace NCRcatsmod
             }
             else
             {
-                return true;
+                return orig(self, obj, graspUsed, chunkGrabbed, shareability, dominance, overrideEquallyDominant, pacifying);
             }
         }
 
@@ -782,7 +808,6 @@ namespace NCRcatsmod
 
         private bool Player_CanEatMeat(On.Player.orig_CanEatMeat orig, Player self, Creature crit)
         {
-            orig(self, crit);
             // entropy can eat meat if an adult
             if (self.GetEntCat().IsEntropy && self.KarmaCap > 7 && (!ModManager.CoopAvailable || !(crit is Player)))
             {
@@ -793,18 +818,10 @@ namespace NCRcatsmod
             {
                 return true;
             }
-            if (ModManager.MSC && (self.SlugCatClass == MoreSlugcatsEnums.SlugcatStatsName.Saint || self.SlugCatClass == MoreSlugcatsEnums.SlugcatStatsName.Spear))
+            else
             {
-                return false;
+                return orig(self, crit);
             }
-            if (self.EatMeatOmnivoreGreenList(crit) && crit.dead)
-            {
-                return !ModManager.MSC || self.pyroJumpCooldown <= 60f;
-            }
-            return !(crit is IPlayerEdible) && crit.dead && (self.slugcatStats.name == SlugcatStats.Name.Red || (ModManager.MSC &&
-                (self.slugcatStats.name == MoreSlugcatsEnums.SlugcatStatsName.Artificer || 
-                self.slugcatStats.name == MoreSlugcatsEnums.SlugcatStatsName.Gourmand || self.slugcatStats.name == MoreSlugcatsEnums.SlugcatStatsName.Sofanthiel))) 
-                && (!ModManager.CoopAvailable || !(crit is Player)) && (!ModManager.MSC || self.pyroJumpCooldown <= 60f);
         }
 
         private void KarmaFlower_BitByPlayer(On.KarmaFlower.orig_BitByPlayer orig, KarmaFlower self, Creature.Grasp grasp, bool eu)
