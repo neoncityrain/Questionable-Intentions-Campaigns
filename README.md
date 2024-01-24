@@ -9,12 +9,16 @@ This is a Rain World mod called **"Questionable Intentions."** Its goal is to br
 # FAQ
 Can you change...
 > Not unless it's a bug. This mod is still a work in progress; it is not completed. Therefore, what you see is not its final vision. _Don't give suggestions on what to change or unwanted criticism!_ I am not in a good place for it.
+
 Are these campaigns easy?
 > No. They are intended to be at least _somewhat_ challenging.
+
 I found a secret! What do I do about it?
 > Enjoy it! I'd love to know if you found something- I've purposefully hidden a few things and would like to hide even more.
+
 I found a bug, what do I do?
 > You're encouraged to either open an issue on this Github or let me know somewhere else. However, I am not a coder- I can't always fix it immediately, so keep that in mind.
+
 Can I help?
 > Sure! I need lots of help with coding in particular. Just let me know beforehand- I can tell you what I need help with.
 
