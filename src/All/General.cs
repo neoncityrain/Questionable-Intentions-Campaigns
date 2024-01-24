@@ -594,7 +594,7 @@ namespace NCRcatsmod
                 creatureAndPull.consumeTimer = 1;
                 // doesnt track marauder and instantly removes them from the list of tracked creatures
                 self.trackedCreatures.Remove(creatureAndPull);
-                return;
+                orig(self, creatureAndPull);
             }
             else
             {
