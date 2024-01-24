@@ -1,0 +1,6 @@
+Template: RM_SettingsTemplate_Lympathic
+CeilingDrips: 0.5108696
+Effects: SilenceWater-1-273-128, SSSwarmers-0.3913043-274-191, 
+PlacedObjects: LightFixture><854.4702><643.4478><RedLight~17.32051~-10~48, LightFixture><504.0308><152.3555><RedSubmersible~17.32051~-10~42, LightFixture><-86.69592><659.2096><RedLight~-3.314026~-139.937~0, WallMycelia><121.3918><636.6411><0~100, WallMycelia><488.0615><93.95177><0~100, WallMycelia><506.676><617.6458><0~100, 
+AmbientSounds: SPOT><SO_IND-Survey.ogg><838.6215><391.4088><0.7391304><0.3347826><618.6242><-27.59886><-316.3553><144.6447><0><0.08913057, SPOT><SO_IND-Turbine.ogg><655.8112><384.3158><0.3695652><1><-38.18306><423.1192><156.6447><-68.35535><0><0.578261, SPOT><SO_SFX-Pi.ogg><663.9423><492.4449><0.5><1><529.1868><609.8978><-20.35535><-145.3553><0><0.5565219, OMNI><SO_WAT-ProperDrips.ogg><841.4002><315.4233><0.5><1, 
+FadePalette: 17, 0.2173913

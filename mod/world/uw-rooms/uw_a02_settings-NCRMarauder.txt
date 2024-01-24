@@ -1,0 +1,11 @@
+Template: UW_SettingsTemplate_Wall
+CeilingDrips: 0.5978261
+RainIntensity: 0
+RumbleIntensity: 0.1413043
+Clouds: 1
+Palette: 28
+Effects: Flies-0-20-20, Fog-0.01086957-22-73, PixelShift-0.5-32-65, AboveCloudsView-1-23-139, DayNight-0.9239131-282-20, 
+PlacedObjects: LightSource><814.925><287.5646><0.2934783~Environment~-117~206~-73~243.6025~1~0~None~0~0, WallSteamer><675.8359><518.1143><84~4, WallSteamer><807.8002><520.0079><-101~-19, WallSteamer><614.8986><123.1724><-10~-5, WallSteamer><739.1861><88.0733><0~-13, WallSteamer><831.807><125.9476><7~11, WallSteamer><748.9019><469.9613><113~23, WallSteamer><821.1487><680.7393><-103~45, WallSteamer><509.7229><668.2958><214~30, WallSteamer><762.4475><681.7814><-107~-22, DayNightSettings><677.4061><362.8751><84~3.660248~3~33, 
+AmbientSounds: SPOT><SO_WAT-LilDrips.ogg><707.072><369.0634><0.2065217><1><760.072><419.0634><-249.3553><-52.35535><0><0.3173914, 
+FadePalette: 32, 0.2282609
+WetTerrain: OFF

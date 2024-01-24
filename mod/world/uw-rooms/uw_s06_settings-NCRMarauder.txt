@@ -1,0 +1,11 @@
+DangerType: Blizzard
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 4.395515E-21
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+EffectColorA: 2
+Effects: ElectricDeath-0.09782609-46-85, 
+FadePalette: 17, 0.3804348

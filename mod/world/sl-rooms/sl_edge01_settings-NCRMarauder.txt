@@ -1,0 +1,16 @@
+Template: NONE
+DangerType: Blizzard
+RainIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 0
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.8586956
+Grime: 0.1956522
+BkgDroneVolume: 0
+Palette: 29
+Effects: ElectricDeath-1-20-20, 
+PlacedObjects: SuperStructureFuses><94.3028><328.9667><181~129, SteamPipe><586.4453><633.1182><-26~-46, SteamPipe><448.2411><637.1846><16~-23, SteamPipe><436.6796><641.2642><-15~-42, SteamPipe><255.5352><633.0543><31~-18, SteamPipe><184.7072><620.2673><-4~-36, DangleFruit><763.0834><588.3893><0~0~2~3, DangleFruit><793.4277><604.5917><0~0~2~3, 
+AmbientSounds: OMNI><AM_ENV-WallHum.ogg><863.0539><635.2891><0.4130435><1, OMNI><AM_RAIN-Rumbles.ogg><683.95><632.9946><0.1086956><1, SPOT><AM_ENV-LightWind.ogg><866.186><519.6895><0.4456522><1><1118.186><512.6895><-343.3553><-180.3553><0><0.3173914, SPOT><AM_IND-DeepHum.ogg><733.4298><309.3376><0.423913><1><99.42987><269.3376><243.6447><-42.35535><0><0.2739132, SPOT><SO_SFX-Data5.ogg><694.2373><520.9496><0.5543478><0.8043478><190.2374><375.9496><99.64465><-108.3553><0><0.2739132, SPOT><SO_IND-FlourLight.ogg><879.8031><403.5349><0.5><1><938.8031><383.5349><-107.3553><-180.3553><0><0.1217393, SPOT><SO_IND-HeatDuct.ogg><870.4111><191.6315><0.3152174><1><403.4111><716.6315><205.6447><-115.3553><0><0.1, SPOT><SO_WAT-Splashes.ogg><587.1996><414.7377><0.2282609><1><829.1996><405.7377><-366.3553><3.644653><0><0.4152175, OMNI><SO_WAT-ProperDrips.ogg><498.4285><626.1868><0.5><1, 
+FadePalette: 33, 0.5652174

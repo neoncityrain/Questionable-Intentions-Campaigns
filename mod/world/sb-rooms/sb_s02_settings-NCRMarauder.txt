@@ -1,0 +1,11 @@
+DangerType: Blizzard
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 0
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Palette: 0
+PlacedObjects: BrokenShelterWaterLevel><226.7184><199.9475><, 
+FadePalette: 17, 0.6086956

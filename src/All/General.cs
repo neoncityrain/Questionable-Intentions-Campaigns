@@ -692,7 +692,7 @@ namespace NCRcatsmod
 
         private bool Player_CanMaulCreature(On.Player.orig_CanMaulCreature orig, Player self, Creature crit)
         {
-            if ((crit as Player) != null && self.GetMarCat().IsMarauder && crit != null)
+            if ((crit as Player) != null && self.GetMarCat().IsMarauder && crit != null && !crit.dead)
             {
                 return true;
             }

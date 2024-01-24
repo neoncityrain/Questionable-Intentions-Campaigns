@@ -1,0 +1,14 @@
+Template: NONE
+DangerType: Blizzard
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 5.072316E-09
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Grime: 0
+Palette: 28
+Effects: DayNight-0.7282609-29-123, 
+PlacedObjects: DayNightSettings><63.59399><399.1248><5~8.660254~35~10, 
+FadePalette: 3, 0.1304348

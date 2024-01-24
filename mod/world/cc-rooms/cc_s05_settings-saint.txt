@@ -1,8 +1,0 @@
-DangerType: Blizzard
-RainIntensity: 0.2065217
-RumbleIntensity: 0.1413043
-Palette: 0
-Effects: Flies-0-20-20, 
-PlacedObjects: BrokenShelterWaterLevel><470.9095><354.3216><, 
-AmbientSounds: OMNI><AM_ENV-LightWind.ogg><711.424><492.3486><0><1, OMNI><AM_ENV-WinterHum.ogg><749.1927><398.4465><0.2934783><1, 
-FadePalette: 8, 0.4021739

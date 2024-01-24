@@ -1,5 +1,5 @@
 Template: NONE
-DangerType: None
+DangerType: Blizzard
 Clouds: 1
 Grime: 0.1086956
 Palette: 8

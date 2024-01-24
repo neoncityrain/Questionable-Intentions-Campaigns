@@ -1,7 +1,7 @@
 Template: NONE
 DangerType: Flood
 Clouds: 1
-Grime: 0.2717391
+Grime: 0
 BkgDroneVolume: 0
 Palette: 50
 EffectColorA: 9

@@ -1,7 +1,13 @@
+DangerType: Blizzard
 RainIntensity: 0
 RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 0
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
 Grime: 0
 BkgDroneVolume: 0
-PlacedObjects: LightFixture><334.821><368.8393><RedLight~-436.6795~145~0, LightFixture><510.0917><463.0723><RedLight~-452.6795~131~83, LightFixture><251.8926><169.1402><RedLight~-547.6795~338~83, LightFixture><821.9026><362.0754><RedLight~-336.6795~205~57, ExitSymbolShelter><735.5929><117.3229><, NoSpearStickZone><483.5829><238.318><-236~137, 
+PlacedObjects: LightFixture><334.821><368.8393><RedLight~-436.6795~145~0, LightFixture><510.0917><463.0723><RedLight~-452.6795~131~83, LightFixture><251.8926><169.1402><RedLight~-547.6795~338~83, LightFixture><821.9026><362.0754><RedLight~-336.6795~205~57, ExitSymbolShelter><735.5929><117.3229><, NoSpearStickZone><483.5829><238.318><-236~137, CommonGateData><489.0688><250.8348><100~50~False~False~False~False~False~False~False~True~0.4891304~1~1, 
 AmbientSounds: SPOT><AM_IND-DeepHum.ogg><78.57001><473.1873><0.3369565><1><464.57><-39.81265><-132.3553><-32.35534><0><0.3173914, OMNI><AM_SUB-BlankState.ogg><829.9221><646.3518><0.326087><1, 
 FadePalette: 8, 0.8695652

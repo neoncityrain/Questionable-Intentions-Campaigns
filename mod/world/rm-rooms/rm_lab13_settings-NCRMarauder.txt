@@ -1,0 +1,13 @@
+Template: RM_SettingsTemplate_Dead
+DangerType: Rain
+CeilingDrips: 0.1521739
+RainIntensity: 0
+RumbleIntensity: 0
+Clouds: 1
+Grime: 0
+BkgDroneVolume: 0
+Palette: 14
+Effects: HeatWave-0.7934783-16-138, Darkness-0.4565217-282-20, 
+PlacedObjects: LightFixture><1195.699><492.2292><RedSubmersible~17.32051~-10~57, LightSource><1197.476><489.5515><0.2934783~EffectColor2~-963~-545~-608~-203.3975~0~0~Fade~0.423913~0, Corruption><328.7011><194.9439><31~77, Corruption><507.5139><120.3005><11~89, Corruption><1040.357><279.581><0~100, Corruption><847.3008><762.7314><0~76, CorruptionTube><1068.14><275.8928><-231~510, Corruption><851.9252><1234.096><16~93, Corruption><341.3969><905.8643><18~87, Corruption><1141.09><882.1788><-10~93, Corruption><1154.585><1456.886><-148~51, LightFixture><349.1439><1421.92><RedLight~14.3205~-78~66, LightFixture><931.0831><1434.86><RedLight~5.320496~-130~60, StuckDaddy><1061.651><1515.869><-208~-124, LightSource><680.9343><942.1724><0.1847826~EffectColor1~-582~546~50~86.60254~0~0~None~0~0, LightSource><498.1347><344.3127><0.1521739~EffectColor1~794~233~50~86.60254~0~0~None~0~0, LightSource><513.7018><1529.556><0.2391304~EffectColor2~828~-605~-149~-301.3975~0~0~Fade~0.7934783~0, LightFixture><372.5999><665.6322><RedLight~17.32051~-10~25, 
+AmbientSounds: OMNI><SO_SFX-Heartbeat1.ogg><834.939><563.5596><0.01086957><0.1, OMNI><SO_SFX-Heartbeat2.ogg><832.1455><486.8628><0.02173913><0.1, OMNI><SO_SFX-Drowning.ogg><661.6912><640.9412><0.02173913><0.1, SPOT><waterGurgleLOOP1.wav><655.6999><527.9927><0.4673913><1><253.6999><1485.993><99.64465><6.644653><0><0.1434784, SPOT><AM_WIN-StrongWnd2.ogg><832.0555><291.9421><0.2608696><1.704348><605.0555><1015.942><154.6447><54.64465><0><0.4478262, 
+FadePalette: 10, 0.8043478, 0.8043478

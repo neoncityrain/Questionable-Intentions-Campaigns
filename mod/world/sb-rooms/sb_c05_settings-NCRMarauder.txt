@@ -1,0 +1,18 @@
+Template: NONE
+DangerType: Blizzard
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 1.472E-20
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Grime: 0.1086956
+BkgDroneVolume: 0
+Palette: 0
+Effects: VoidSpawn-0.08695652-26-68, 
+PlacedObjects: SSLightRod><428.0669><427.4385><104.3205~-139~0.6195652~0~104.7826~0.3369565, SSLightRod><526.8474><429.1207><17.32051~-10~0.6195652~0~104.7826~0.326087, 
+AmbientSounds: OMNI><AM_ENV-SubTerr.ogg><830.5569><648.6979><0.423913><1, OMNI><AM_SUB-BlankState.ogg><653.1877><647.8099><0.3152174><1, 
+FadePalette: 17, 0.75, 0.7934783, 0.8478261
+WetTerrain: OFF

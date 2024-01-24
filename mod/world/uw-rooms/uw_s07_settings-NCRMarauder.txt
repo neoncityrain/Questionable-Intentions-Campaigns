@@ -1,0 +1,11 @@
+DangerType: Blizzard
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 1.684976E-05
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.1304348
+PlacedObjects: SuperStructureFuses><469.3578><78.63783><185~67, 
+FadePalette: 17, 0.4565217

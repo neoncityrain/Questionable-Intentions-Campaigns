@@ -1,0 +1,17 @@
+Template: UW_SettingsTemplate_Underhang
+DangerType: Blizzard
+CeilingDrips: 0.07608695
+RainIntensity: 0
+RumbleIntensity: 0.5
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 0
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.4130435
+Palette: 16
+EffectColorB: 12
+Effects: Lightning-0.8478261-2-67, GreenSparks-0.5543478-0-0, ExtraLoudThunder-0.8478261-3-125, ElectricDeath-1-256-1, Coldness-0-20-20, 
+PlacedObjects: LightSource><564.1506><570.9648><0.2485405~Environment~0~100~4~186.6025~1~0~None~0~0, SteamPipe><677.6588><242.3215><-17~21, SteamPipe><620.5052><208.1425><17~34, SteamPipe><479.9355><215.422><-18~34, SteamPipe><508.5808><237.4637><16~42, Corruption><86.11786><554.8362><112~92, Corruption><833.9467><559.6296><15~85, Corruption><2345.515><354.0213><6~73, Corruption><2708.45><315.5786><1~89, Corruption><2840.366><347.6631><0~57, Corruption><2144.122><301.1548><0~54, Corruption><2027.052><562.2209><0~100, CorruptionTube><2135.53><330.8524><-90~250, CorruptionTube><2869.311><356.2958><-151~5, CorruptionTube><2663.858><365.0859><93~-12, CorruptionTube><2063.585><577.8827><-69~8, 
+AmbientSounds: OMNI><SO_WAT-RainishDrips.ogg><474.7068><646.8047><0.4456522><1, SPOT><SO_IND-HeatDuct.ogg><66.92169><496.6474><0.4673913><1><2608.688><198.5648><-203.3553><-122.3553><0><0.2195653, SPOT><SO_IND-WeirdVent.ogg><67.89417><381.0803><0.3695652><1><1244.854><405.1331><-76.35535><-52.35535><0><0.2195653, SPOT><AM_ENV-WallHum.ogg><77.06598><270.0612><0.3369565><0.8826087><262.0696><636.0624><-231.3553><-8.355347><0><0.3173914, OMNI><AM_WIN-HowlingWnd.ogg><475.4408><568.1901><0.4673913><0.8630434, 
+FadePalette: 17, 0.4021739, 0.4021739, 0.4021739

@@ -1,0 +1,19 @@
+Template: UW_SettingsTemplate_Underhang
+DangerType: Blizzard
+CeilingDrips: 0.06521739
+RainIntensity: 0
+RumbleIntensity: 0.5
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 0
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.4456522
+Grime: 0.01086957
+Palette: 16
+EffectColorA: 18
+EffectColorB: 12
+Effects: Lightning-0.5760869-39-160, GreenSparks-0.3695652-40-107, ExtraLoudThunder-0.6413044-41-51, ElectricDeath-1-311-56, Coldness-0-20-20, 
+PlacedObjects: LightSource><632.8851><2327.169><0.3478261~Environment~0~100~-637.9771~-83.36017~1~0~None~0~0, LightSource><374.1983><2318.973><0.4565217~Environment~0~100~-320~-203.3975~1~0~None~0~0, DangleFruit><416.6784><1455.318><-556.0018~-329.9971~2~3, GoldToken><143.2151><1603.707><8~-63~-158.9969~-311.0013~0~UW~~0~0~0~0~0~0~0~0~0~0~0~0, DeadTokenStalk><206.0168><1580.697><-11~-41, BlueToken><80.05792><1583.798><16~-44~25.21382~-152.3621~1~YellowLizard~~0~0~0~0~0~0~0~0~0~0~0~0, SteamPipe><559.5949><2197.874><8~-27, SteamPipe><527.5518><2096.973><17~-20, SteamPipe><523.7847><2272.788><-21~27, SteamPipe><509.7136><2167.804><1~44, SteamPipe><476.6711><2136.186><-23~15, SteamPipe><425.4283><1908.063><-24~-39, SteamPipe><423.3417><1802.372><-39~5, SteamPipe><696.3871><1123.863><-32~18, SteamPipe><761.0668><1313.915><33~-34, SteamPipe><642.148><1327.172><-31~-29, Corruption><629.5759><2157.565><2~79, Corruption><691.2653><2233.042><0~100, Corruption><-42.30048><2268.341><17~159, Corruption><652.3309><1249.643><-58~123, 
+AmbientSounds: SPOT><SO_IND-Turbine.ogg><76.83661><484.1803><0.5978261><0.8630434><505.8461><2303.188><-385.3553><-46.35535><0><0.4913045, SPOT><SO_IND-HeatDuct.ogg><251.9165><489.6108><0.4130435><0.9608696><663.9271><1256.574><-249.3553><9.644653><0><0.3500001, SPOT><SO_SFX-Doomsday.ogg><831.4412><322.3087><0.5543478><0.9608696><546.4407><499.3081><-332.3553><-84.35535><0><0.1, OMNI><AM_WIN-HowlingWnd.ogg><826.8401><574.8215><0.4021739><0.7456522, SPOT><SO_SFX-Heartbeat2.ogg><824.7695><447.8009><0.5543478><0.726087><662.7695><2190.8><-122.3553><-83.35535><0><0.3717393, 
+FadePalette: 17, 0.4347826, 0.326087, 0.3478261

@@ -1,1 +1,0 @@
-OFFSCREEN : 0-Vulture-{LavaSafe}-3, 0-MirosVulture-{Night}-2, 0-MirosVulture-{PreCycle}-2

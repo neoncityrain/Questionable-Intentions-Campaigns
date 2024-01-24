@@ -1,6 +1,6 @@
 Template: NONE
 DangerType: Flood
-Grime: 0.3152174
+Grime: 0
 Palette: 50
 EffectColorA: 9
 EffectColorB: 9

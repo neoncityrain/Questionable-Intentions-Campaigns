@@ -1,0 +1,13 @@
+Template: SB_SettingsTemplate_Filter
+DangerType: Blizzard
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 0
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Grime: 0.06521739
+Palette: 17
+Effects: WaterDepth-0.1195652-20-20, 
+PlacedObjects: LightFixture><305.8066><527.949><RedLight~-170.6795~69~92, LightFixture><745.0292><593.5521><RedLight~-185.6795~7~54, BrokenShelterWaterLevel><487.6775><492.3136><, 

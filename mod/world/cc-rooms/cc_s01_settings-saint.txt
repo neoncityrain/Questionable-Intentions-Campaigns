@@ -1,9 +1,0 @@
-Template: CC_SettingsTemplate_Inside
-DangerType: Blizzard
-RainIntensity: 0.25
-RumbleIntensity: 0.2391304
-Grime: 0.1521739
-Palette: 0
-PlacedObjects: BrokenShelterWaterLevel><433.0844><336.1379><, 
-AmbientSounds: SPOT><SO_IND-Fridge.ogg><750.6847><410.0767><0.2391304><1><225.6847><368.0767><-67.35535><-13.35535><0><0.3717393, OMNI><AM_ENV-LightWind.ogg><751.1393><523.5834><0><1, OMNI><AM_ENV-NatWind.ogg><753.116><602.3371><0.3478261><1, 
-FadePalette: 8, 0.4782609

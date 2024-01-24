@@ -1,0 +1,17 @@
+Template: NONE
+DangerType: Blizzard
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 0.0002947947
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.7173913
+Grime: 0.05434782
+Palette: 29
+EffectColorA: 2
+Effects: WaterDepth-0.1847826-20-20, 
+PlacedObjects: BrokenShelterWaterLevel><485.4656><189.697><, 
+AmbientSounds: SPOT><AM_IND-Utility02.ogg><770.7397><385.9497><0.423913><1><727.7397><177.9497><-138.3553><-69.35535><0><0.2847827, 
+FadePalette: 33, 0.6304348

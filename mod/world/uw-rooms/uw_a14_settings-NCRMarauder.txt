@@ -1,0 +1,17 @@
+Template: NONE
+DangerType: Blizzard
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 0
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.0326087
+Grime: 0.2934783
+Palette: 6
+Effects: PixelShift-0.5-32-65, AboveCloudsView-1-20-20, DayNight-0.5760869-19-73, SkyAndLightBloom-0.07608695-330-140, Bloom-0.1413043-332-193, Contrast-0.04347826-328-82, Desaturation-0.09782609-330-251, Darkness-0.1195652-322-21, 
+PlacedObjects: GhostSpot><593.5597><552.3114><, NoSpearStickZone><-80.58911><346.3811><-110~155, NoSpearStickZone><819.8092><209.5601><-6~130, DayNightSettings><134.2339><435.4493><5~8.660254~35~10, 
+FadePalette: 3, 0.1630435
+WetTerrain: OFF

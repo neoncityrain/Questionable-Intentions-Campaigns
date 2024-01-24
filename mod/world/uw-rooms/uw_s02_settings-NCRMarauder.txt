@@ -1,0 +1,10 @@
+Template: UW_SettingsTemplate_Underhang
+DangerType: Blizzard
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 5.147213E-06
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+FadePalette: 8, 0.1630435

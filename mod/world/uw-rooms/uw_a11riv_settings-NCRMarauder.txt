@@ -1,0 +1,19 @@
+Template: NONE
+DangerType: Blizzard
+CeilingDrips: 0.04347826
+RainIntensity: 0
+RumbleIntensity: 0.5108696
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 0
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.1630435
+Grime: 0
+BkgDroneVolume: 0
+Palette: 16
+EffectColorB: 12
+Effects: Lightning-0.6847826-18-128, ExtraLoudThunder-0.4021739-19-73, ElectricDeath-1-20-20, 
+PlacedObjects: LightSource><186.3765><568.6548><0.5~Environment~0~100~50~86.60254~1~0~None~0~0, SlimeMold><315.0499><514.2567><-489.9911~-120.9804~2~3, SlimeMold><302.308><541.2076><-455~-71.99988~2~3, CosmeticSlimeMold><258.4331><565.343><-120~12, LightFixture><248.7412><543.0436><SlimeMoldLight~-425.6752~12.99329~40, SlimeMold><200.2957><554.0553><-376.0002~-421.0006~2~3, SlimeMold><161.7161><548.1971><-335~-498~2~3, CosmeticSlimeMold><197.0516><535.9722><0~100, CosmeticSlimeMold2><214.5544><554.7878><67~86, Corruption><399.353><107.3528><14~152, Corruption><579.0936><356.4872><-1~124, Corruption><590.6603><561.3801><12~140, Corruption><639.0287><240.802><0~100, StuckDaddy><355.5104><137.5147><61~224, 
+AmbientSounds: OMNI><SO_WAT-RainishDrips.ogg><830.3021><646.2792><0.3804348><1, SPOT><SO_IND-HeatDuct.ogg><66.06451><505.6752><0.4456522><1><369.063><402.6729><-41.35535><-37.35535><0><0.2304349, OMNI><AM_ENV-WallHum.ogg><493.9312><645.6652><0.3695652><0.7456522, OMNI><AM_RAIN-QuietThunder.ogg><657.8256><646.6521><0.423913><0.8434783, SPOT><SO_IND-Turbine.ogg><739.2742><389.6985><0.5><1.430435><874.2741><324.6985><-206.3553><-36.35535><0><1, SPOT><SO_SFX-Heartbeat1.ogg><741.8179><264.9173><0.6304348><0.7456522><444.8523><90.90639><-288.3553><6.644653><0><0.4695654, SPOT><SO_SFX-Heartbeat2.ogg><760.1506><159.6184><0.423913><1.097826><583.1086><682.5715><-97.35535><-136.3553><0><0.4260871, 
+FadePalette: 17, 0.3369565

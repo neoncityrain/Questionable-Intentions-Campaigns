@@ -1,0 +1,20 @@
+Template: UW_SettingsTemplate_Underhang
+DangerType: Blizzard
+CeilingDrips: 0.0326087
+RainIntensity: 0
+RumbleIntensity: 0.5
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 0
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.3695652
+Grime: 0.02173913
+BkgDroneVolume: 0
+Palette: 16
+EffectColorA: 18
+EffectColorB: 12
+Effects: Lightning-0.7065217-41-178, GreenSparks-0.2065217-44-124, ExtraLoudThunder-1-48-70, ElectricDeath-1-49-13, 
+PlacedObjects: LightSource><781.6825><478.3726><0.423913~Environment~0~100~-919.2409~-246.8766~1~0~None~0~0, LightSource><772.9437><145.9498><0.6848145~Environment~0~100~80~-184.3974~1~0~None~0~0, LightSource><183.5581><518.4439><0.6827087~Environment~0~100~50~86.60254~1~0~None~0~0, SteamPipe><795.2514><262.45><-13~-27, SteamPipe><754.2573><275.4499><-11~34, SteamPipe><676.4268><248.1566><-11~-28, Corruption><809.3235><93.90578><0~100, Corruption><740.4907><329.5941><-1~66, Corruption><260.3359><288.3849><0~100, Corruption><453.1198><527.5225><9~98, CorruptionTube><604.0466><490.481><-292~8, CorruptionTube><196.7963><270.1949><97~85, LightSource><598.6399><552.5331><0.7826465~Environment~-92~147~-118.9923~-231.3869~1~0~None~0~0, 
+AmbientSounds: SPOT><SO_IND-HeatDuct.ogg><67.64038><498.6673><0.4565217><1><317.2006><318.9073><-51.35535><-38.35535><0><0.3173913, SPOT><SO_IND-HeatDuct.ogg><70.09595><381.4255><0.4130435><0.9804348><634.0964><318.4251><-48.35535><-45.35535><0><0.2630434, SPOT><AM_IND-DeepHum.ogg><77.94592><261.9598><0.5><1><463.9543><38.95708><-159.3553><-58.35534><0><0.2956523, SPOT><SO_SFX-Doomsday.ogg><246.9172><496.3597><0.5><1><529.9173><189.3598><-226.3553><-78.35535><0><0.5130436, 
+FadePalette: 17, 0.3369565

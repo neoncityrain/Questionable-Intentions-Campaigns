@@ -1,0 +1,17 @@
+Template: UW_SettingsTemplate_Underhang
+DangerType: Blizzard
+CeilingDrips: 0
+RainIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 0
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.09782609
+EffectColorA: 18
+EffectColorB: 4
+Effects: ElectricDeath-1-276-19, 
+PlacedObjects: SteamPipe><979.8804><564.0898><23~-21, SteamPipe><885.8238><551.1554><39~-11, SteamPipe><703.8945><540.4199><-7~-53, SteamPipe><844.1004><547.077><-7~-30, DangleFruit><1613.42><488.6051><0~0~2~3, DangleFruit><1698.063><489.5699><0~0~2~3, DangleFruit><1731.419><465.6069><0~0~2~3, 
+AmbientSounds: SPOT><AM_WIN-HowlingWnd.ogg><833.8027><537.7172><0.2065217><1><998.8027><4.717163><-351.3553><52.64465><0><0.2630436, SPOT><AM_ENV-WallHum.ogg><827.4208><417.104><0.3152174><1><2197.421><483.104><-596.3553><58.64465><0><1, SPOT><AM_IND-DeepHum.ogg><655.433><533.0806><0.4021739><1><148.433><691.0806><123.6447><-237.3553><0><0.654348, SPOT><SO_WAT-MoreDrips.ogg><649.8085><421.8088><0.4130435><1><551.8085><394.8088><-66.35535><-278.3553><0><1, SPOT><SO_IND-HeatDuct.ogg><834.428><287.6588><0.5><1><802.428><736.6588><-36.35535><-190.3553><0><0.404348, 
+FadePalette: 17, 0.4130435, 0.2826087
+WetTerrain: OFF

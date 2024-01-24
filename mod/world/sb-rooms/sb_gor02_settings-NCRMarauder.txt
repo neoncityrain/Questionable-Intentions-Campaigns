@@ -1,16 +1,16 @@
 DangerType: Blizzard
 CeilingDrips: 0
-WaveSpeed: 0.5038323
-WaveLength: 0.9843642
-WaveAmplitude: 0.006237783
+WaveSpeed: 0.4589089
+WaveLength: 0.9260358
+WaveAmplitude: 0.01368772
 SecondWaveLength: 1
 SecondWaveAmplitude: 0.0001
 Clouds: 0.7717391
 Palette: 0
-EffectColorA: 10
+EffectColorA: 19
 EffectColorB: 9
 Effects: Fog-0.3369565-48-15, 
 PlacedObjects: LightFixture><1411.663><292.3659><RedLight~17.32051~-10~46, SnowSource><2125.688><556.1805><Radial~1207~-465~50~86.60254~0.8586956~1, SnowSource><2001.347><910.9249><Radial~871~-436~118~-228.3975~0.7934783~1, SnowSource><1660.478><534.6691><Radial~128~16~50~86.60254~0.75~0, 
 AmbientSounds: OMNI><AM_WIN-NiceWnd.ogg><75.94751><530.7816><0.3913043><1, SPOT><AM_IND-Utility03.ogg><760.2935><448.5548><0.4130435><1><1407.293><249.5548><-105.3553><12.64466><0><0.1, SPOT><AM_IND-ElectricHum03.ogg><778.1654><266.6812><0.2173913><1><1397.165><189.6812><6.644653><122.6447><0><0.2739132, 
-FadePalette: 8, 0.1521739, 0.25, 0.3478261
+FadePalette: 21, 0.1521739, 0.25, 0.3478261
 WetTerrain: OFF

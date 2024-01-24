@@ -1,0 +1,20 @@
+Template: NONE
+DangerType: Blizzard
+RainIntensity: 0.3152174
+RumbleIntensity: 0.3043478
+WaveSpeed: 0.5007154
+WaveLength: 0.9937481
+WaveAmplitude: 0.002284079
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.2391304
+Grime: 0
+BkgDroneVolume: 0
+Palette: 21
+EffectColorA: 0
+EffectColorB: 6
+Effects: LightBurn-0.6086956-20-20, Darkness-0.2826087-30-30, Coldness-0.2282609-40-40, 
+PlacedObjects: LightSource><155.2677><649.8716><0.1195652~White~606~-545~-244~-223.3975~1~1~None~0~0, LightSource><382.8458><118.461><1~White~2~198~348~-60.39745~1~0~None~0~0, LightSource><374.157><176.4491><0.3025002~White~33~177~332~-191.2646~1~1~None~0~0, LightSource><158.3434><696.989><0.2932082~White~126~-277~163~-681.3975~1~1~None~0~0, LightBeam><295.4364><255.6815><-120~364~-106~370~46~8~-370~-157~0.4130435~1~0.6630435~1~None~0~0, LightBeam><573.9491><291.5194><-128~254~-104~270~7~36~-646~-291~0.7282609~1~0.01086957~1~None~0~0, SnowSource><304.8848><210.8523><Radial~174~208~181~195.6025~0.5543478~0.5869565, 
+AmbientSounds: OMNI><AM_SUB-CaveTone.ogg><829.3027><640.0327><0.4021739><1, OMNI><AM_SUB-BlankState.ogg><655.7799><638.9478><0.3152174><1, SPOT><SO_WAT-LilDrips.ogg><91.90479><489.8241><0.1304348><1><763.9048><70.82411><-188.3553><-83.35534><0><0.502174, SPOT><AM_ENV-NatWind.ogg><746.619><487.9011><0.2826087><0.726087><935.6189><537.9011><-210.3553><-47.35535><0><0.404348, OMNI><SO_NAT-LilDrips.ogg><482.9494><636.5151><0.3152174><1, 
+Triggers: Spot<tA>event<tB>MusicEvent<eA>songName<eB>RW_41 - Grumblebum<eA>vol<eB>0.2782613<eA>prio<eB>0.5<eA>mxThrt<eB>1<eA>loop<eB>0<eA>droneTol<eB>0<eA>rooms<eB>-1<eA>rest<eB>5<eA>fadeIn<eB>163.0435<eA>oneSongPerCycle<eB>0<eA>stopAtDeath<eB>0<eA>stopAtGate<eB>0<tA>multiUse<tB>0<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>644.1574<tB>560.5728<tA>fireChance<tB>1<tA>entrance<tB>-1<tA>karma<tB>0<tA>slugcats<tB><tA>pos<tB>530.1573<tB>337.5728<tA>handlePos<tB>-383.3553<tB>-252.3553, 
+FadePalette: 0, 0.5869565

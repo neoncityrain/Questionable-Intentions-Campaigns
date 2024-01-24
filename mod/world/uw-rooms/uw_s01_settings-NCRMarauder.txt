@@ -1,0 +1,9 @@
+DangerType: Blizzard
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 5.441199E-11
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+FadePalette: 8, 0.2826087

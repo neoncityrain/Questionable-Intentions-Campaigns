@@ -1,0 +1,18 @@
+Template: NONE
+DangerType: Blizzard
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0.1847826
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 5.605194E-45
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+Grime: 0.06521739
+BkgDroneVolume: 0
+Palette: 21
+Effects: Darkness-0.4347826-20-20, 
+PlacedObjects: DevToken><133.7579><252.5502><-26~-91~0~0~0~~~0~0~0~1~0~0~0~1, Mushroom><248.3991><126.1167><-399~346~2~3, Mushroom><189.9847><148.0506><-335~250~2~3, Mushroom><152.4188><150.6428><-298~166~2~3, Mushroom><802.4333><149.42><0~0~2~3, Mushroom><755.6271><151.9044><0~0~2~3, Mushroom><215.6611><126.8208><-358~107~2~3, Mushroom><697.3141><526.5738><0~0~2~3, Mushroom><669.4023><530.3705><0~0~2~3, LanternOnStick><270.7795><544.0522><-22~-74, InsectGroup><187.1192><155.3487><0~100~0~0~RockFlea~0.2173913, GooieDuck><297.3973><554.0784><0~0~2~3, GooieDuck><786.4274><297.0637><0~0~2~3, GooieDuck><874.6889><263.1843><0~0~2~3, GooieDuck><174.6385><551.1057><0~0~2~3, GooieDuck><214.6924><547.3047><0~0~2~3, GooieDuck><830.6311><285.4011><0~0~2~3, 
+AmbientSounds: OMNI><AM_SUB-BlankState.ogg><831.6958><641.6925><0.3369565><1, OMNI><AM_SUB-CaveTone.ogg><652.1201><641.902><0.3586957><1, OMNI><SO_WAT-LilDrips.ogg><475.3262><639.9009><0.3804348><1, 
+FadePalette: 0, 0.173913
+WetTerrain: OFF
