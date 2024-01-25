@@ -4,6 +4,7 @@ using MoreSlugcats;
 using RWCustom;
 using NCRcatsmod;
 using UnityEngine;
+using IL.Menu.Remix;
 
 namespace NCRMarauder.OE_INTRO
 {

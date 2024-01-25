@@ -14,7 +14,6 @@ namespace NCRMarauder.MarauderCat
         {
             // Define your variables to store here!
             public bool IsMarauder;
-            public List<Creature> CreaturesYouPickedUp;
 
             public MarauderCWT()
             {

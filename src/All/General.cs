@@ -6,6 +6,7 @@ using NCREntropy.EntropyCat;
 using NCRMarauder.MarauderCat;
 using NCRRoc.RocCat;
 using MoreSlugcats;
+using Expedition;
 using NCREntropy.SB_L01ENT;
 using RegionKit;
 using DressMySlugcat;
@@ -15,19 +16,24 @@ using NCRMarauder.OE_INTRO;
 using Expedition;
 using RegionKit.API;
 using RegionKit.Modules.Misc;
+using UnityEngine.Assertions.Must;
+using IL.Expedition;
 
 namespace NCRcatsmod
 {
     [BepInPlugin(MOD_ID, "NCRCatsMod", "0.4.2")]
-    class NCREntropy : BaseUnityPlugin
+    class NCRCatsMod : BaseUnityPlugin
     {
         private const string MOD_ID = "neoncityrain.ncrcatsmod";
         FAtlas atlas;
         public bool IsDMSActive;
+
         public bool MarauderCannibalising;
         public bool MarauderKarmaCheck;
         public int MarauderStarvedForCycles;
         public int MarauderDidntCannibaliseCycles;
+        public int MarauderCatfear;
+        public int MarauderTrickster;
 
         public void OnEnable()
         {
@@ -95,26 +101,187 @@ namespace NCRcatsmod
             // custom hypothermia colours
             On.GraphicsModule.HypothermiaColorBlend += GraphicsModule_HypothermiaColorBlend;
 
+            // pups!!
+            On.AbstractRoom.RealizeRoom += AbstractRoom_RealizeRoom;
+            On.MoreSlugcats.SlugNPCAI.IUseARelationshipTracker_UpdateDynamicRelationship += UpdateDynamicRelationship;
+
             // ---------------------------------------------------- ROCCOCO STUFF ----------------------------------------------------
+            // not unlocked initially
             On.SlugcatStats.HiddenOrUnplayableSlugcat += SlugcatStats_HiddenOrUnplayableSlugcat;
 
             // flies swarm around him
             On.MiniFly.ViableForBuzzaround += MiniFly_ViableForBuzzaround;
 
+            // pup grabbing
+            On.Player.Grabability += Player_Grabability;
+
+            // roccoco 'crafting'
+            On.Player.SwallowObject += Player_SwallowObject;
+
+        }
+
+        private CreatureTemplate.Relationship UpdateDynamicRelationship(On.MoreSlugcats.SlugNPCAI.orig_IUseARelationshipTracker_UpdateDynamicRelationship orig, SlugNPCAI self, RelationshipTracker.DynamicRelationship dRelation)
+        {
+            Creature realizedCreature = dRelation.trackerRep.representedCreature.realizedCreature;
+            if (realizedCreature is Player && (realizedCreature as Player).GetMarCat().IsMarauder)
+            {
+                if (!self.abstractAI.isTamed)
+                {
+                    int fearcheck = MarauderCatfear + MarauderTrickster / 10;
+                    if (fearcheck > 1)
+                    {
+                        fearcheck = 1;
+                    }
+
+                    if (MarauderTrickster <= 2 && fearcheck < 0.5)
+                    {
+                        return new CreatureTemplate.Relationship(CreatureTemplate.Relationship.Type.Afraid, fearcheck);
+                    }
+                    else
+                    {
+                        return new CreatureTemplate.Relationship(CreatureTemplate.Relationship.Type.Attacks, fearcheck);
+                    }
+                }
+                else
+                {
+                    if (MarauderCannibalising)
+                    {
+                        return new CreatureTemplate.Relationship(CreatureTemplate.Relationship.Type.Afraid, 0.1f);
+                    }
+                }
+            }
+            return orig(self, dRelation);
+        }
+
+        private void AbstractRoom_RealizeRoom(On.AbstractRoom.orig_RealizeRoom orig, AbstractRoom self, World world, RainWorldGame game)
+        {
+            if (game.session.characterStats.name.value == "NCRMarauder")
+            {
+                if (ModManager.MMF && world.game.rainWorld.options.quality == Options.Quality.LOW)
+                {
+                    self.singleRealizedRoom = true;
+                }
+                if (self.realizedRoom == null && !self.offScreenDen && !MarauderCannibalising)
+                {
+                    if (self.shelter && !world.singleRoomWorld && !game.rainWorld.safariMode 
+                        && game.IsStorySession && game.GetStorySession.saveState.miscWorldSaveData.cyclesSinceLastSlugpup >= 0 && 
+                        self.name != game.GetStorySession.saveState.denPosition)
+                    {
+                        System.Random rand = new System.Random();
+                        int random_num = rand.Next(1, 200);
+                        if (random_num == 27)
+                        {
+                            AbstractCreature abstractCreature = new AbstractCreature(world, StaticWorld.GetCreatureTemplate(MoreSlugcatsEnums.CreatureTemplateType.SlugNPC), null, new WorldCoordinate(self.index, -1, -1, 0), game.GetNewID());
+                            (abstractCreature.state as PlayerNPCState).forceFullGrown = true;
+                            self.AddEntity(abstractCreature);
+                            (abstractCreature.state as PlayerNPCState).foodInStomach = 1;
+                            game.GetStorySession.saveState.miscWorldSaveData.cyclesSinceLastSlugpup = -game.GetStorySession.saveState.miscWorldSaveData.cyclesSinceLastSlugpup;
+                            Debug.Log("Marauder spawned non-pup slugcat!");
+                        }
+                        else
+                        {
+                            AbstractCreature abstractCreature = new AbstractCreature(world, StaticWorld.GetCreatureTemplate(MoreSlugcatsEnums.CreatureTemplateType.SlugNPC), null, new WorldCoordinate(self.index, -1, -1, 0), game.GetNewID());
+                            self.AddEntity(abstractCreature);
+                            (abstractCreature.state as PlayerNPCState).foodInStomach = 1;
+                            game.GetStorySession.saveState.miscWorldSaveData.cyclesSinceLastSlugpup = -game.GetStorySession.saveState.miscWorldSaveData.cyclesSinceLastSlugpup;
+                            Debug.Log("Marauder Pup Spawned!");
+                        }
+                    }
+                    Room room = new Room(game, world, self);
+                    world.loadingRooms.Add(new RoomPreparer(room, true, !game.setupValues.bake, false));
+                    self.realizedRoom = room;
+                    world.activeRooms.Add(self.realizedRoom);
+                }
+            }
+            else
+            {
+                orig(self, world, game);
+            }
+        }
+
+        private void Player_SwallowObject(On.Player.orig_SwallowObject orig, Player self, int grasp)
+        {
+            if (grasp < 0 || self.grasps[grasp] == null)
+            {
+                return;
+            }
+            AbstractPhysicalObject abstractPhysicalObject = self.grasps[grasp].grabbed.abstractPhysicalObject;
+            self.objectInStomach = abstractPhysicalObject;
+            if (self.GetRocCat().IsRocCat)
+            {
+                if (abstractPhysicalObject.type == AbstractPhysicalObject.AbstractObjectType.DataPearl)
+                {
+                    self.ReleaseGrasp(grasp);
+                    self.objectInStomach.realizedObject.RemoveFromRoom();
+                    self.objectInStomach.Abstractize(self.abstractCreature.pos);
+                    self.objectInStomach.Room.RemoveEntity(self.objectInStomach);
+
+                    self.AddFood(1);
+
+                    BodyChunk mainBodyChunk = self.mainBodyChunk;
+                    mainBodyChunk.vel.y = mainBodyChunk.vel.y + 2f;
+                    self.room.PlaySound(SoundID.Slugcat_Swallow_Item, self.mainBodyChunk);
+                }
+                if (abstractPhysicalObject.type == AbstractPhysicalObject.AbstractObjectType.ScavengerBomb)
+                {
+                    self.ReleaseGrasp(grasp);
+                    self.objectInStomach.realizedObject.RemoveFromRoom();
+                    self.objectInStomach.Abstractize(self.abstractCreature.pos);
+                    self.objectInStomach.Room.RemoveEntity(self.objectInStomach);
+
+                    self.Hypothermia = Mathf.Lerp(self.Hypothermia, 0f, 0.004f);
+
+                    BodyChunk mainBodyChunk = self.mainBodyChunk;
+                    mainBodyChunk.vel.y = mainBodyChunk.vel.y + 2f;
+                    self.room.PlaySound(SoundID.Slugcat_Swallow_Item, self.mainBodyChunk);
+                }
+                else
+                {
+                    orig(self, grasp);
+                }
+            }
+            else
+            {
+                orig(self, grasp);
+            }
+        }
+
+        private Player.ObjectGrabability Player_Grabability(On.Player.orig_Grabability orig, Player self, PhysicalObject obj)
+        {
+            if (self.GetRocCat().IsRocCat)
+            {
+                if ((obj is Weapon && obj is Spear) || obj is DangleFruit || (obj is Fly && (obj as Fly).shortcutDelay == 0) || obj is DataPearl ||
+                    obj is EggBugEgg || obj is VultureGrub || (obj is Hazer && !(obj as Hazer).spraying) || obj is JellyFish || obj is WaterNut ||
+                    obj is SwollenWaterNut || obj is Mushroom || obj is Lantern || obj is Centipede && (obj as Centipede).Small || obj is VultureMask ||
+                    (obj is SlimeMold && !(obj as SlimeMold).JellyfishMode) || obj is FlyLure || obj is SmallNeedleWorm || obj is NeedleEgg || obj is OverseerCarcass
+                    || obj is GooieDuck || obj is FireEgg || obj is SSOracleSwarmer || obj is SLOracleSwarmer || obj is NSHSwarmer || obj is JellyFish ||
+                    obj is GlowWeed)
+                {
+                    return Player.ObjectGrabability.TwoHands;
+                }
+                else
+                {
+                    return orig(self, obj);
+                }
+            }
+            else
+            {
+                return orig(self, obj);
+            }
         }
 
         private bool SlugcatStats_HiddenOrUnplayableSlugcat(On.SlugcatStats.orig_HiddenOrUnplayableSlugcat orig, SlugcatStats.Name i)
         {
             if (i.value == "NCRRoc" || i.value == "The Roccoco" || i.value == "Roccoco")
             {
-                return true;
+                return false;
             }
             else return orig(i);
         }
 
         private void Worm_ApplyPalette(On.WormGrass.Worm.orig_ApplyPalette orig, WormGrass.Worm self, RoomCamera.SpriteLeaser sLeaser, RoomCamera rCam, RoomPalette palette)
         {
-            if (self.room.game.session.characterStats.name.value == "NCRMarauder")
+            if (self.room.game.session.characterStats.name.value == "NCRMarauder" || self.room.game.session.characterStats.name.value == "NCRRoc")
             {
                 Color color = rCam.PixelColorAtCoordinate(self.belowGroundPos);
                 Color color2 = Color.Lerp(palette.texture.GetPixel(self.color, 3), new Color(0f, 0.8f, 1f), self.iFac * 0.5f);
@@ -272,6 +439,7 @@ namespace NCRcatsmod
                                 MarauderStarvedForCycles = 0;
                                 MarauderDidntCannibaliseCycles = 0;
                             }
+                            MarauderCatfear -= 1;
                         }
                         if (MarauderCannibalising)
                         {
@@ -315,12 +483,25 @@ namespace NCRcatsmod
                     int num;
                     if (int.TryParse(self.karmaRequirements[0].value, out num))
                     {
+                        self.karmaRequirements[0] = _Enums.TenKarma;
+                    }
+                    int num2;
+                    if (int.TryParse(self.karmaRequirements[1].value, out num2))
+                    {
+                        self.karmaRequirements[1] = RegionGate.GateRequirement.OneKarma;
+                    }
+                }
+                else if (self.room.abstractRoom.name == "GATE_UW_LC")
+                {
+                    int num;
+                    if (int.TryParse(self.karmaRequirements[0].value, out num))
+                    {
                         self.karmaRequirements[0] = RegionGate.GateRequirement.OneKarma;
                     }
                     int num2;
                     if (int.TryParse(self.karmaRequirements[1].value, out num2))
                     {
-                        self.karmaRequirements[1] = _Enums.TenKarma;
+                        self.karmaRequirements[1] = RegionGate.GateRequirement.OneKarma;
                     }
                 }
             }
@@ -394,29 +575,33 @@ namespace NCRcatsmod
                 MarauderKarmaCheck = true;
                 if (MarauderKarmaCheck && !MarauderCannibalising) 
                 { 
-                    (self.room.game.session as StoryGameSession).saveState.deathPersistentSaveData.karma++; 
-                    (self.room.game.session as StoryGameSession).saveState.deathPersistentSaveData.karmaCap--;
+                    if (!self.room.game.IsArenaSession)
+                    {
+                        (self.room.game.session as StoryGameSession).saveState.deathPersistentSaveData.karma++;
+                        (self.room.game.session as StoryGameSession).saveState.deathPersistentSaveData.karmaCap--;
 
-                    if ((self.room.game.session as StoryGameSession).saveState.deathPersistentSaveData.karmaCap < 0) 
-                    { 
-                        (self.room.game.session as StoryGameSession).saveState.deathPersistentSaveData.karmaCap = 0; 
-                    } 
-                    if ((self.room.game.session as StoryGameSession).saveState.deathPersistentSaveData.karmaCap > 9) 
-                    { 
-                        (self.room.game.session as StoryGameSession).saveState.deathPersistentSaveData.karma = 9;
-                    } 
-                    
-                    (self.room.game.session as StoryGameSession).saveState.deathPersistentSaveData.reinforcedKarma = true; 
-                    for (int i = 0; i < self.room.game.cameras.Length; i++) 
-                    { 
-                        self.room.game.cameras[i].hud.karmaMeter.reinforceAnimation = 0; 
-                    } 
+                        if ((self.room.game.session as StoryGameSession).saveState.deathPersistentSaveData.karmaCap < 0)
+                        {
+                            (self.room.game.session as StoryGameSession).saveState.deathPersistentSaveData.karmaCap = 0;
+                        }
+                        if ((self.room.game.session as StoryGameSession).saveState.deathPersistentSaveData.karmaCap > 9)
+                        {
+                            (self.room.game.session as StoryGameSession).saveState.deathPersistentSaveData.karma = 9;
+                        }
+                        (self.room.game.session as StoryGameSession).saveState.deathPersistentSaveData.reinforcedKarma = true;
+
+                        for (int i = 0; i < self.room.game.cameras.Length; i++)
+                        {
+                            self.room.game.cameras[i].hud.karmaMeter.reinforceAnimation = 0;
+                        }
+                    }
 
                     Debug.Log("MARAUDER FUCKED UP AND EVIL MOMENTS!!!!!!!!");
 
                     self.SetMalnourished(false);
                     MarauderKarmaCheck = false; 
-                    MarauderCannibalising = true; 
+                    MarauderCannibalising = true;
+                    MarauderCatfear += 1;
                 } 
             } 
         }
@@ -457,7 +642,7 @@ namespace NCRcatsmod
                 if (MarauderCannibalising)
                 {
                     BodyChunk firstChunk = spear.firstChunk;
-                    firstChunk.vel.x = firstChunk.vel.x * 1.3f;
+                    firstChunk.vel.x = firstChunk.vel.x * 2f;
                     spear.spearDamageBonus = 2.5f;
                     spear.room.AddObject(new Spark(spear.thrownPos, firstChunk.vel, UnityEngine.Color.Lerp(new UnityEngine.Color(1f, 0.2f, 0f), new UnityEngine.Color(1f, 1f, 1f), UnityEngine.Random.value * 0.5f), null, 19, 47));
                     spear.room.AddObject(new Spark(spear.thrownPos, firstChunk.vel, UnityEngine.Color.Lerp(new UnityEngine.Color(1f, 0.2f, 0f), new UnityEngine.Color(1f, 1f, 1f), UnityEngine.Random.value * 0.5f), null, 19, 47));
@@ -482,7 +667,7 @@ namespace NCRcatsmod
         private void Player_SlugcatGrab(On.Player.orig_SlugcatGrab orig, Player self, PhysicalObject obj, int graspUsed)
         {
             orig(self, obj, graspUsed);
-            if (self.GetMarCat().IsMarauder && obj is Player)
+            if (self.GetMarCat().IsMarauder && obj is Player && !(obj as Player).GetRocCat().IsRocCat)
             {
                 (obj as Player).dangerGrasp = self.grasps[graspUsed];
                 (obj as Player).dangerGraspTime = 0;
