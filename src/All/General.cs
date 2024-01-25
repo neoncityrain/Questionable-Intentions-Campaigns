@@ -123,17 +123,32 @@ namespace NCRcatsmod
         private CreatureTemplate.Relationship UpdateDynamicRelationship(On.MoreSlugcats.SlugNPCAI.orig_IUseARelationshipTracker_UpdateDynamicRelationship orig, SlugNPCAI self, RelationshipTracker.DynamicRelationship dRelation)
         {
             Creature realizedCreature = dRelation.trackerRep.representedCreature.realizedCreature;
-            if (realizedCreature is Player && (realizedCreature as Player).GetMarCat().IsMarauder)
+            if ((realizedCreature as Player) != null && realizedCreature is Player && realizedCreature != null && self.creature.state.alive && 
+                (realizedCreature as Player).GetMarCat().IsMarauder)
             {
                 if (!self.abstractAI.isTamed)
                 {
-                    int fearcheck = MarauderCatfear + MarauderTrickster / 10;
+                    int fearcheck;
+                    fearcheck = 0;
+                    if (MarauderCatfear == 0 && MarauderTrickster == 0)
+                    {
+
+                    }
+                    else if (MarauderCannibalising)
+                    {
+                        fearcheck = MarauderCatfear + MarauderTrickster / 10;
+                    }
+                    else
+                    {
+                        fearcheck = MarauderCatfear / 10;
+                    }
+
                     if (fearcheck > 1)
                     {
                         fearcheck = 1;
                     }
 
-                    if (MarauderTrickster <= 2 && fearcheck < 0.5)
+                    if (MarauderTrickster <= 2 && fearcheck < 0.6)
                     {
                         return new CreatureTemplate.Relationship(CreatureTemplate.Relationship.Type.Afraid, fearcheck);
                     }
@@ -142,12 +157,14 @@ namespace NCRcatsmod
                         return new CreatureTemplate.Relationship(CreatureTemplate.Relationship.Type.Attacks, fearcheck);
                     }
                 }
-                else
+                else if (MarauderCannibalising)
                 {
-                    if (MarauderCannibalising)
-                    {
-                        return new CreatureTemplate.Relationship(CreatureTemplate.Relationship.Type.Afraid, 0.1f);
-                    }
+                    return new CreatureTemplate.Relationship(CreatureTemplate.Relationship.Type.Afraid, 0.2f);
+                }
+                else 
+                {
+
+                    return orig(self, dRelation);
                 }
             }
             return orig(self, dRelation);
@@ -157,14 +174,10 @@ namespace NCRcatsmod
         {
             if (game.session.characterStats.name.value == "NCRMarauder")
             {
-                if (ModManager.MMF && world.game.rainWorld.options.quality == Options.Quality.LOW)
-                {
-                    self.singleRealizedRoom = true;
-                }
                 if (self.realizedRoom == null && !self.offScreenDen && !MarauderCannibalising)
                 {
                     if (self.shelter && !world.singleRoomWorld && !game.rainWorld.safariMode 
-                        && game.IsStorySession && game.GetStorySession.saveState.miscWorldSaveData.cyclesSinceLastSlugpup >= 0 && 
+                        && game.IsStorySession && game.GetStorySession.saveState.miscWorldSaveData.cyclesSinceLastSlugpup >= 5 && 
                         self.name != game.GetStorySession.saveState.denPosition)
                     {
                         System.Random rand = new System.Random();
@@ -187,10 +200,7 @@ namespace NCRcatsmod
                             Debug.Log("Marauder Pup Spawned!");
                         }
                     }
-                    Room room = new Room(game, world, self);
-                    world.loadingRooms.Add(new RoomPreparer(room, true, !game.setupValues.bake, false));
-                    self.realizedRoom = room;
-                    world.activeRooms.Add(self.realizedRoom);
+                    orig(self, world, game);
                 }
             }
             else
@@ -219,7 +229,7 @@ namespace NCRcatsmod
                     self.AddFood(1);
 
                     BodyChunk mainBodyChunk = self.mainBodyChunk;
-                    mainBodyChunk.vel.y = mainBodyChunk.vel.y + 2f;
+                    mainBodyChunk.vel.y = mainBodyChunk.vel.y + 1.5f;
                     self.room.PlaySound(SoundID.Slugcat_Swallow_Item, self.mainBodyChunk);
                 }
                 if (abstractPhysicalObject.type == AbstractPhysicalObject.AbstractObjectType.ScavengerBomb)
