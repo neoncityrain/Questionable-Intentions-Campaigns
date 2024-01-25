@@ -123,7 +123,7 @@ namespace NCRcatsmod
         private CreatureTemplate.Relationship UpdateDynamicRelationship(On.MoreSlugcats.SlugNPCAI.orig_IUseARelationshipTracker_UpdateDynamicRelationship orig, SlugNPCAI self, RelationshipTracker.DynamicRelationship dRelation)
         {
             Creature realizedCreature = dRelation.trackerRep.representedCreature.realizedCreature;
-            if (realizedCreature is Player && (realizedCreature as Player).GetMarCat().IsMarauder)
+            if (realizedCreature is Player && realizedCreature != null && (realizedCreature as Player).GetMarCat().IsMarauder && !self.cat.dead)
             {
                 if (!self.abstractAI.isTamed)
                 {
