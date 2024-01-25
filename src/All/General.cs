@@ -13,7 +13,6 @@ using DressMySlugcat;
 using System.Linq;
 using System.Collections.Generic;
 using NCRMarauder.OE_INTRO;
-using Expedition;
 using RegionKit.API;
 using RegionKit.Modules.Misc;
 using UnityEngine.Assertions.Must;
