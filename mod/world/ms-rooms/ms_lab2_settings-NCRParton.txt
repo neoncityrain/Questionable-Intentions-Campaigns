@@ -1,6 +1,0 @@
-Grime: 0
-Palette: 50
-Effects: LightBurn-0.1630435-270-72, Fog-1-269-183, BrokenZeroG-0.3913043-264-127, ElectricDeath-0-270-12, 
-PlacedObjects: LightSource><416.8346><370.6375><0.08660889~Environment~703~-98~50~86.60254~1~0~None~0~0, 
-AmbientSounds: SPOT><SO_WAT-OpenFlow.ogg><833.92><453.4333><0.2065217><1><1120.954><425.3611><-419.3553><-71.35535><0><0.5130436, 
-FadePalette: 13, 0.1086956

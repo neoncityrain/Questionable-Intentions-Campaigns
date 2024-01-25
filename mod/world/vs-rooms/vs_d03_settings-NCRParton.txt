@@ -1,5 +1,0 @@
-Template: VS_SettingsTemplate_Filter
-Effects: WaterDepth-0.1086956-20-20, 
-PlacedObjects: LillyPuck><722.1677><329.6982><0~0~2~3, LillyPuck><888.074><326.5942><0~0~2~3, LillyPuck><1493.448><332.527><0~0~2~3, LillyPuck><583.3515><331.8277><0~0~2~3, Stowaway><753.6244><1185.844><4~-83, Stowaway><1129.144><1227.861><0~-64, Filter><756.0605><1197.186><2~41~-329~-165~White|Yellow|Rivulet|Saint, Filter><1105.338><1251.07><-2~49~-683~-318~Yellow|Rivulet|Saint, 
-Triggers: Spot<tA>event<tB>StopMusicEvent<eA>songName<eB>RW_93 - Veiled Northstar<eA>prio<eB>1<eA>type<eB>SpecificSong<eA>fadeOut<eB>552.1736<tA>multiUse<tB>1<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>729.9537<tB>467.6946<tA>fireChance<tB>1<tA>entrance<tB>-1<tA>karma<tB>0<tA>slugcats<tB><tA>pos<tB>1453.954<tB>324.6946<tA>handlePos<tB>-226.3553<tB>-238.3553, 
-FadePalette: 33, 0.5434783, 0.5543478, 0.4347826, 0.423913

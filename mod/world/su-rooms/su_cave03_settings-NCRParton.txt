@@ -1,9 +1,0 @@
-Template: SU_SettingsTemplate_Inside
-DangerType: FloodAndRain
-Clouds: 0.6956522
-Palette: 50
-EffectColorA: 9
-EffectColorB: 9
-Effects: Desaturation-0.4347826-17-78, 
-AmbientSounds: OMNI><AM_ENV-LushNight.ogg><767.3403><549.6204><0.2826087><1, SPOT><waterGurgleLOOP1.wav><766.4363><356.9273><0.5><1><1098.436><549.9273><-286.3553><-127.3553><0><0.3173914, SPOT><AM_ENV-LightWind.ogg><578.1331><505.3993><0.5><1><324.1331><719.3993><-139.3553><-177.3553><0><0.6326088, 
-FadePalette: 10, 0.3152174

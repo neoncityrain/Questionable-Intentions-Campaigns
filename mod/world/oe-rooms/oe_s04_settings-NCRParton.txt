@@ -1,8 +1,0 @@
-RumbleIntensity: 0
-Grime: 0.1304348
-Palette: 23
-EffectColorA: 9
-EffectColorB: 9
-Effects: AboveCloudsView-0-16-132, Darkness-0.4130435-263-129, DayNight-0.8369565-257-201, 
-PlacedObjects: LightSource><421.6551><303.1237><0.2173913~White~0~100~93~-95.39746~1~0~None~0~0, LightSource><361.4831><410.0507><0.2282609~White~104~-46~178~-9.397461~1~0~None~0~0, BrokenShelterWaterLevel><431.6168><346.1008><, DayNightSettings><205.8004><119.5119><5~8.660254~43~10, 
-FadePalette: 14, 0.6413044

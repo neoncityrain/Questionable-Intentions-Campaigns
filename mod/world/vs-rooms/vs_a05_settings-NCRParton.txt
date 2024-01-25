@@ -1,5 +1,0 @@
-Template: VS_SettingsTemplate_Surface
-Effects: LightRain-0.09782609-20-20, 
-PlacedObjects: ExitSymbolHidden><130.6743><385.3483><, FlyLure><260.05><354.7472><0~0~4~9, FlyLure><548.1619><77.57047><0~0~4~9, DataPearl><823.1278><424.7959><-313~97.97562~0~0~BroadcastMisc~1, 
-AmbientSounds: SPOT><AM_ENV-LightWind.ogg><503.6385><582.834><0.3478261><1><503.6385><698.834><-65.35535><-279.3553><0><0.3826088, SPOT><AM_IND-Utility02.ogg><866.8912><516.5822><0.4130435><1><-54.10883><265.5822><-55.35535><-233.3553><0><0.3173914, 
-FadePalette: 33, 0.7173913

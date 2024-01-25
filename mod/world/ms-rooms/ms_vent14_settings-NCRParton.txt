@@ -1,6 +1,0 @@
-Template: MS_SettingsTemplate_Vents
-RumbleIntensity: 0.3804348
-Palette: 50
-Effects: WaterDepth-1-290-16, ElectricDeath-0.08695652-315-89, 
-PlacedObjects: LightSource><1449.831><906.0667><0.1086558~EffectColor2~340~520~50~86.60254~0~0~None~0~0, LightSource><583.9674><1014.197><0.1195652~EffectColor2~1279~760~89~235.6025~0~0~None~0~0, LightSource><480.6835><715.8695><0.1304348~EffectColor2~454~-257~-289.0539~-258.4568~0~0~None~0~0, LightSource><923.5651><307.1893><0.1521739~EffectColor2~-723~221~-614~-97.39746~0~0~None~0~0, LightSource><1694.896><390.0602><0.3043478~EffectColor2~-627~575~-66~113.6025~0~0~None~0~0, ExitSymbolHidden><1952.715><909.5531><, Filter><1947.566><902.9144><0~100~-281~-56, ExitSymbolHidden><128.4267><1252.093><, Filter><117.0241><1260.265><1~44~36~55~Rivulet, GlowWeed><1413.355><440.9203><0~0~2~3, GlowWeed><1343.086><375.6361><0~0~2~3, GlowWeed><1483.168><446.5675><0~0~2~3, GlowWeed><597.6151><957.8523><0~0~2~3, GlowWeed><708.5548><1072.956><0~0~2~3, GlowWeed><731.5685><1123.916><0~0~2~3, 
-FadePalette: 5, 0.2065217, 0.2173913, 0.1956522, 0.2173913

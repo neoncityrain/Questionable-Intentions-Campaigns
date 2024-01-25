@@ -1,5 +1,0 @@
-Grime: 0.1304348
-Palette: 50
-Effects: Fog-0.6521739-261-181, BrokenZeroG-0.3913043-268-120, ElectricDeath-0-267-58, 
-PlacedObjects: LightFixture><751.2971><267.7748><RedLight~-186.6795~-260~78, LightFixture><687.4372><550.4913><RedLight~-60.58478~32.91272~76, LightFixture><209.3748><553.6736><RedLight~17.32051~-10~0, SuperStructureFuses><767.0022><425.5423><60~67, SuperStructureFuses><768.8353><188.3865><61~93, DangleFruit><704.6342><474.2209><0~0~2~3, DangleFruit><722.0757><384.9989><0~0~2~3, WaterNut><279.2864><167.0168><0~0~2~3, WaterNut><218.4231><187.8321><0~0~2~3, WaterNut><253.9955><195.4021><0~0~2~3, 
-FadePalette: 13, 0.1086956

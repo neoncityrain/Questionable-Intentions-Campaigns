@@ -1,6 +1,0 @@
-Clouds: 0.2282609
-Grime: 0
-Palette: 50
-Effects: LightBurn-0.09782609-271-73, Fog-1-266-188, WaterDepth-0.05434782-278-16, BrokenZeroG-0.3913043-270-131, Moth-0.1304348-263-240, ElectricDeath-0-268-288, 
-PlacedObjects: LightSource><498.6705><340.3954><0.3369558~Environment~-621~536~-229~98.60248~1~0~None~0~0, SuperStructureFuses><128.1104><371.1668><66~142, SuperStructureFuses><833.8011><508.9791><121~196, DangleFruit><242.1541><520.1276><0~0~2~3, DangleFruit><850.1108><424.8335><0~0~2~3, DangleFruit><831.1684><402.1079><0~0~2~3, 
-FadePalette: 13, 0.1086956

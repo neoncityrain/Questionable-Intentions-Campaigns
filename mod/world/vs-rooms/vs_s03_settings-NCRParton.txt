@@ -1,3 +1,0 @@
-Template: VS_SettingsTemplate_Filter
-PlacedObjects: BrokenShelterWaterLevel><353.0511><474.2718><, 
-FadePalette: 33, 0.173913

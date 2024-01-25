@@ -2,15 +2,15 @@ Template: UW_SettingsTemplate_Wall
 DangerType: Blizzard
 RainIntensity: 0.5217391
 RumbleIntensity: 0.5326087
-WaveSpeed: 0.4947827
-WaveLength: 0.9973913
-WaveAmplitude: 0.005157872
+WaveSpeed: 0.496305
+WaveLength: 0.9981525
+WaveAmplitude: 0.001977631
 SecondWaveLength: 0.1666667
 SecondWaveAmplitude: 0
 Clouds: 1
 Grime: 0.25
 Palette: 29
 Effects: Fog-0.3152174-3-113, Flies-0-15-59, PixelShift-0.5-32-65, AboveCloudsView-1-20-8, DayNight-0.9130435-284-8, 
-PlacedObjects: CustomDecal><502.0504><344.0128><-34~140~478~142~462~-3~-384~-12~0.3043478~1~0~CrudeGrey~0.5108696~0.4565217~0.8152174~0.4565217~0.07608695~0.8695652~0.5217391~1, WallSteamer><677.1639><119.4305><-28~83, WallSteamer><612.1087><91.39154><28~71, WallSteamer><758.2346><120.0506><-29~65, WallSteamer><831.075><161.1532><34~59, WallSteamer><848.1013><61.11621><-47~56, WallSteamer><668.4804><77.80096><85~28, WallSteamer><562.6666><145.1106><13~65, WallSteamer><743.3044><724.4584><112~22, WallSteamer><724.3468><721.3715><-50~21, WallSteamer><784.5094><702.9402><-35~63, WallSteamer><634.1582><712.419><66~54, DayNightSettings><693.9243><401.3481><5~8.660254~3~33, 
+PlacedObjects: CustomDecal><502.0504><344.0128><-34~140~478~142~462~-3~-384~-12~0.3043478~1~0~CrudeGrey~0.5108696~0.4565217~0.8152174~0.4565217~0.07608695~0.8695652~0.5217391~1, WallSteamer><677.1639><119.4305><-28~83, WallSteamer><612.1087><91.39154><28~71, WallSteamer><758.2346><120.0506><-29~65, WallSteamer><831.075><161.1532><34~59, WallSteamer><848.1013><61.11621><-47~56, WallSteamer><668.4804><77.80096><85~28, WallSteamer><562.6666><145.1106><13~65, WallSteamer><743.3044><724.4584><112~22, WallSteamer><724.3468><721.3715><-50~21, WallSteamer><784.5094><702.9402><-35~63, WallSteamer><634.1582><712.419><66~54, DayNightSettings><693.9243><401.3481><5~8.660254~3~33, SnowSource><200.1601><558.6786><Radial~240~4~50~86.60254~0.5108696~0, SnowSource><463.8421><507.6272><Radial~289~38~50~86.60254~0.3804348~0, SnowSource><254.9202><33.89491><Strip~0~100~50~86.60254~1~0, SnowSource><308.1633><283.5698><Radial~201~-16~50~86.60254~0.7065218~0, SnowSource><250.9056><705.6255><Radial~-216~-6~50~86.60254~0.6630435~0, 
 AmbientSounds: SPOT><SO_WAT-LilDrips.ogg><764.6356><366.836><0.3043478><1><723.6356><242.836><-142.3553><-37.35535><0><0.404348, 
 FadePalette: 32, 0.6630435

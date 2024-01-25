@@ -1,6 +1,0 @@
-Grime: 0.1630435
-Palette: 50
-Effects: LightBurn-0.09782609-263-72, BrokenZeroG-0.4021739-267-127, WaterDepth-0.06521739-263-20, ElectricDeath-0-261-182, 
-PlacedObjects: LightSource><404.7006><425.6093><0.3793269~Environment~582~-347~50~86.60254~1~0~None~0~0, LightFixture><929.1385><512.3943><RedLight~17.32051~-10~59, SuperStructureFuses><253.731><446.539><41~63, SuperStructureFuses><776.6269><283.3311><51~21, SuperStructureFuses><773.827><140.0435><60~23, UniqueDataPearl><803.6411><348.5822><-788~-7~0~0~DM~1, DevToken><673.3396><298.6306><80~0~-644~2~0~~~0~0~0~1, 
-AmbientSounds: SPOT><SO_WAT-OpenFlow.ogg><828.3773><450.9042><0.4565217><0.8630434><567.3774><438.9042><-147.3553><-326.3553><0><0.3173914, SPOT><SO_WAT-Splashes.ogg><832.3129><335.3206><0.4021739><0.823913><582.783><165.9849><-155.3553><-99.35535><0><0.3608697, 
-FadePalette: 13, 0.1086956

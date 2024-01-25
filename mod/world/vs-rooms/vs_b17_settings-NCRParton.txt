@@ -1,4 +1,0 @@
-Template: VS_SettingsTemplate_Filter
-Effects: WaterDepth-0.1304348-20-20, 
-PlacedObjects: Stowaway><1312.699><504.3066><-6~-76, Filter><1326.433><527.4197><7~64~0~0~Yellow|Rivulet|Saint, 
-FadePalette: 33, 0.5543478, 0.5652174

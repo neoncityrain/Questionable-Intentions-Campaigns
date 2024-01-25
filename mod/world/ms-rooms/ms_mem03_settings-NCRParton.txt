@@ -1,6 +1,0 @@
-DangerType: Flood
-Clouds: 0.2717391
-Palette: 50
-Effects: Darkness-0.2717391-263-184, SilenceWater-0.5869565-277-75, BrokenZeroG-0.4565217-269-127, ElectricDeath-0.06521739-282-18, 
-PlacedObjects: LightSource><207.1048><373.7101><0.07608695~Environment~897~-227~-344~110.6025~1~1~None~0~0, LightFixture><660.7394><59.51419><RedSubmersible~17.32051~-10~40, SuperStructureFuses><610.6992><531.9819><161~40, 
-FadePalette: 12, 0.1195652

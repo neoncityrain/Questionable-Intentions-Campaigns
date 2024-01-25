@@ -1,5 +1,0 @@
-DangerType: Flood
-Palette: 50
-Effects: Darkness-0.3152174-263-73, SkyAndLightBloom-0.02173913-267-9, BrokenZeroG-0.25-267-128, ElectricDeath-0.01086957-264-176, 
-PlacedObjects: LightSource><1377.888><473.4238><0.3913043~Environment~534~-507~50~86.60254~1~0~None~0~0, LightSource><821.0032><211.5939><0.3804348~Environment~-520~353~-493~-42.39746~1~0~None~0~0, SuperStructureFuses><1552.665><15.97301><336~52, DangleFruit><1630.331><486.3573><38~56~2~3, DangleFruit><1590.621><454.0908><12~-105~2~3, 
-FadePalette: 35, 0.1521739, 0.1413043

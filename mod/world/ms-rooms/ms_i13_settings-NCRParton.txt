@@ -1,7 +1,0 @@
-Template: MS_SettingsTemplate_Vents
-RumbleIntensity: 0.6956522
-Palette: 50
-Effects: WaterDepth-0-272-16, BrokenZeroG-0.4565217-251-74, ElectricDeath-0.423913-245-131, 
-PlacedObjects: LightSource><635.4321><394.2736><0.2065217~EffectColor1~-1211~722~3~100.6025~0~0~Fade~0.3364663~0, LightFixture><1114.43><129.6637><RedSubmersible~17.32051~-10~36, LightFixture><331.3474><669.9243><RedSubmersible~17.32051~-10~0, LightFixture><892.0945><439.8165><RedSubmersible~17.32051~-10~0, LightFixture><224.3582><173.5817><RedSubmersible~70.3024~209.9828~0, LightFixture><630.1199><124.6514><RedSubmersible~17.32051~-10~69, SteamPipe><392.2861><132.9468><2~132, SteamPipe><396.2005><135.5563><5~46, SteamPipe><390.0696><130.7928><-17~71, SteamPipe><6.38443><435.323><-8~62, SteamPipe><118.655><168.2677><-22~24, SteamPipe><283.312><13.2057><-25~-30, 
-AmbientSounds: OMNI><SO_SFX-LakeBottom.ogg><822.655><636.6263><0.3695652><1, OMNI><SO_SFX-Drowning.ogg><821.908><563.1776><0.2282609><1, 
-FadePalette: 27, 0.3586957

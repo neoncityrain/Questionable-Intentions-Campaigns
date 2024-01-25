@@ -1,6 +1,0 @@
-Grime: 0.05434782
-Palette: 50
-Effects: LightBurn-0.1413043-266-182, BrokenZeroG-0.4021739-268-126, WaterDepth-0.1521739-271-67, ElectricDeath-0-278-12, 
-PlacedObjects: ExitSymbolShelter><131.8741><470.6223><, LightSource><396.8428><430.6201><0.1747291~Environment~811~-477~50~86.60254~1~0~None~0~0, SuperStructureFuses><800.8071><365.8969><36~82, SuperStructureFuses><800.4344><120.1525><39~117, 
-AmbientSounds: SPOT><SO_WAT-OpenFlow.ogg><837.31><453.5625><0.2934783><1><604.7631><643.0483><-70.35535><-138.3553><0><0.328261, 
-FadePalette: 13, 0.1086956

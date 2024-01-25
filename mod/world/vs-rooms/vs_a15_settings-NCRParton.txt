@@ -1,5 +1,0 @@
-Template: VS_SettingsTemplate_Sewer
-Clouds: 0.4130435
-PlacedObjects: LightSource><281.1451><363.3876><0.1195652~Environment~568~-348~328~37.60254~1~0~None~0~0, LightSource><353.2057><496.3049><0.06521739~Environment~393~-301~273~-33.39746~1~1~None~0~0, ReliableSpear><241.5844><284.8187><, DangleFruit><370.2172><392.3027><0~0~2~3, DangleFruit><191.3179><442.3119><-145~106~2~3, DangleFruit><144.4069><395.624><-233~62~2~3, 
-AmbientSounds: SPOT><SO_WAT-OpenFlow.ogg><724.1442><524.5803><0.4130435><1><-149.8558><284.5803><-138.3553><-330.3553><0><0.3934784, SPOT><AM_WIN-HowlingWnd.ogg><551.6993><527.016><0.3043478><0.8043478><1122.699><413.016><-304.3553><-195.3553><0><0.4804349, 
-FadePalette: 33, 0.6413044

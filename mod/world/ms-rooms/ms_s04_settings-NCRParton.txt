@@ -1,6 +1,0 @@
-Clouds: 0.2826087
-Grime: 0.09782609
-Palette: 50
-Effects: BrokenZeroG-0-278-6, ZeroG-0.01086957-271-55, WaterDepth-0-272-119, ElectricDeath-0.01086957-269-177, 
-PlacedObjects: LightSource><220.8903><304.5455><0.08601512~Environment~830~-372~-310.9948~24.59805~1~1~None~0~0, SuperStructureFuses><430.9144><89.73936><117~57, SuperStructureFuses><298.9072><350.6799><220~70, LightSource><647.3019><583.7226><0.1086956~Environment~-599~4~-123~-204.3975~1~1~None~0~0, BrokenShelterWaterLevel><341.9878><227.7159><, 
-FadePalette: 12, 0.2826087

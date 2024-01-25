@@ -1,8 +1,0 @@
-Template: MS_SettingsTemplate_Artery
-Clouds: 0.4456522
-EffectColorA: 11
-EffectColorB: 12
-Effects: Darkness-0.6413044-307-81, WaterDepth-0.1413043-296-21, ElectricDeath-0-30-23, BrokenZeroG-1-304-146, 
-PlacedObjects: LightFixture><360.1894><539.5645><RedLight~14.31696~52.03741~36, LightFixture><650.9897><300.3002><RedLight~-11.6795~44~20, LightFixture><489.6403><396.6074><DeepProcessing~335.3205~-276~100, NoSpearStickZone><473.5801><378.2312><-562~184, LightningMachine><472.8672><372.912><166~74~0~0~7~195.6025~0~215~0.2304422~0~1~0.6847826~0.5978261~0.7934783~1~0.6304348~0~0.5~1~1~1, LightSource><471.067><372.4384><0.2934783~EffectColor1~-622~339~85~-218.3975~1~0~None~0~0, EnergySwirl><471.3454><375.5742><EffectColor2~-442~183~107~-327.3975~0.1209903, 
-AmbientSounds: OMNI><MSC-FlangePad.ogg><123.1953><514.957><0><1.606521, OMNI><SO_SFX-Drowning.ogg><831.9498><649.0094><0><1, OMNI><SO_SFX-AlphaWaves.ogg><120.7224><416.6981><0><1.665217, OMNI><AM_IND-DeepHum.ogg><720.4944><308.3001><0.3586957><1, OMNI><AM_ENV-NatWind.ogg><794.2><489.9953><0.2065217><1, 
-FadePalette: 26, 0.326087

@@ -7,7 +7,6 @@ using NCRMarauder.MarauderCat;
 using NCRRoc.RocCat;
 using MoreSlugcats;
 using NCREntropy.SB_L01ENT;
-using Viviated.PartonCat;
 using RegionKit;
 using DressMySlugcat;
 using System.Linq;
@@ -19,7 +18,7 @@ using RegionKit.Modules.Misc;
 
 namespace NCRcatsmod
 {
-    [BepInPlugin(MOD_ID, "NCRCatsMod", "0.4.0")]
+    [BepInPlugin(MOD_ID, "NCRCatsMod", "0.4.2")]
     class NCREntropy : BaseUnityPlugin
     {
         private const string MOD_ID = "neoncityrain.ncrcatsmod";
@@ -96,15 +95,21 @@ namespace NCRcatsmod
             // custom hypothermia colours
             On.GraphicsModule.HypothermiaColorBlend += GraphicsModule_HypothermiaColorBlend;
 
-            // ---------------------------------------------------- VIVIATED STUFF ----------------------------------------------------
-            // gross sounds when dying
-            On.Player.Die += Player_Die;
+            // ---------------------------------------------------- ROCCOCO STUFF ----------------------------------------------------
+            On.SlugcatStats.HiddenOrUnplayableSlugcat += SlugcatStats_HiddenOrUnplayableSlugcat;
 
             // flies swarm around him
             On.MiniFly.ViableForBuzzaround += MiniFly_ViableForBuzzaround;
 
-            // ---------------------------------------------------- ROCCOCO STUFF ----------------------------------------------------
+        }
 
+        private bool SlugcatStats_HiddenOrUnplayableSlugcat(On.SlugcatStats.orig_HiddenOrUnplayableSlugcat orig, SlugcatStats.Name i)
+        {
+            if (i.value == "NCRRoc" || i.value == "The Roccoco" || i.value == "Roccoco")
+            {
+                return true;
+            }
+            else return orig(i);
         }
 
         private void Worm_ApplyPalette(On.WormGrass.Worm.orig_ApplyPalette orig, WormGrass.Worm self, RoomCamera.SpriteLeaser sLeaser, RoomCamera rCam, RoomPalette palette)
@@ -134,7 +139,7 @@ namespace NCRcatsmod
         private bool MiniFly_ViableForBuzzaround(On.MiniFly.orig_ViableForBuzzaround orig, MiniFly self, AbstractCreature crit)
         {
             if (crit.realizedCreature != null && crit.realizedCreature is Player && UnityEngine.Random.value > 0.00083333335f && 
-                (crit.realizedCreature as Player).GetParCat().IsNCRPartonCat && (self.mySwarm == null || 
+                (crit.realizedCreature as Player).GetRocCat().IsRocCat && (self.mySwarm == null || 
                 Custom.DistLess(self.mySwarm.placedObject.pos, self.mySwarm.placedObject.pos, self.mySwarm.insectGroupData.Rad * 
                 (1f + UnityEngine.Random.value))) && !crit.realizedCreature.slatedForDeletetion && crit.realizedCreature.room == self.room)
             {
@@ -666,19 +671,6 @@ namespace NCRcatsmod
             }
         }
 
-        private void Player_Die(On.Player.orig_Die orig, Player self)
-        {
-            orig(self);
-            if (self.GetParCat().IsNCRPartonCat && self.dead)
-            {
-                // the below gets the main body colour, possibly to be used for corruption bubble graphics if i can get those to work
-                // var color = self.ShortCutColor();
-
-                self.room.PlaySound(SoundID.Daddy_Digestion_Init, self.mainBodyChunk.pos);
-                self.room.InGameNoise(new Noise.InGameNoise(self.mainBodyChunk.pos, 9999f, self, 1f));
-            }
-        }
-
         private bool Player_CanIPutDeadSlugOnBack(On.Player.orig_CanIPutDeadSlugOnBack orig, Player self, Player pickUpCandidate)
         {
             orig(self, pickUpCandidate);
@@ -761,11 +753,6 @@ namespace NCRcatsmod
                 }
 
             }
-            // ---------------------------------------------------- VIVIATED STUFF ----------------------------------------------------
-            if (self.slugcatStats.name.value == "NCRParton")
-            {
-                self.GetParCat().IsNCRPartonCat = true;
-            }
             // ---------------------------------------------------- ROCCOCO STUFF ----------------------------------------------------
             if (self.slugcatStats.name.value == "NCRRoc")
             {
@@ -842,11 +829,6 @@ namespace NCRcatsmod
                 { self.jumpBoost += 1.5f; }
                 else
                 { self.jumpBoost += 3f; }
-            }
-            //viviated just jumps a lil higher
-            if (self.GetParCat().IsNCRPartonCat)
-            {
-                self.jumpBoost += 1.5f;
             }
             //roccoco is near the same as viv
             if (self.GetRocCat().IsRocCat)
@@ -941,10 +923,6 @@ namespace NCRcatsmod
             if (self.GetEntCat().IsEntropy)
             {
                 self.waterFriction = 0.97f;
-            }
-            if (self.GetParCat().IsNCRPartonCat)
-            {
-                self.waterFriction = 0.95f;
             }
             if (self.GetMarCat().IsMarauder)
             {

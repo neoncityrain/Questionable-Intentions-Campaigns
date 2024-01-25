@@ -1,9 +1,0 @@
-DangerType: Rain
-WaveSpeed: 0.4565831
-WaveLength: 0.9782915
-WaveAmplitude: 0.0004907258
-SecondWaveLength: 0.1666667
-SecondWaveAmplitude: 0
-Grime: 0.2717391
-PlacedObjects: ReliableSpear><795.5182><458.9492><, ReliableSpear><865.5632><552.5603><, ReliableSpear><856.3109><459.8152><, DangleFruit><567.3156><446.189><0~0~2~3, DangleFruit><624.2222><432.8019><0~0~2~3, DangleFruit><587.4302><385.0867><0~0~2~3, CustomDecal><474.8254><202.1852><-3~161~303~240~316~-9~-359~22~0.6086956~1~0.1086956~hoko cutcables~0.4673913~0.4891304~0.4891304~0~0.6847826~0.3369565~0.4782609~0.3478261, 
-FadePalette: 33, 0.8369565

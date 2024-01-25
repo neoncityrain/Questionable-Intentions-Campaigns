@@ -1,6 +1,0 @@
-Template: VS_SettingsTemplate_Surface
-Grime: 0.2065217
-Effects: LightRain-0.1304348-20-20, 
-PlacedObjects: DevToken><614.484><531.8007><-2~-72~0~0~0~~~0~0~0~1, 
-Triggers: RegionBump<tA>event<tB>MusicEvent<eA>songName<eB>RW_61 - Rain<eA>vol<eB>0.3<eA>prio<eB>0.5<eA>mxThrt<eB>1<eA>loop<eB>0<eA>droneTol<eB>0<eA>rooms<eB>-1<eA>rest<eB>5<eA>fadeIn<eB>0<eA>oneSongPerCycle<eB>0<eA>stopAtDeath<eB>0<eA>stopAtGate<eB>0<tA>multiUse<tB>0<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>731.3849<tB>386.1477<tA>fireChance<tB>1<tA>entrance<tB>-1<tA>karma<tB>0<tA>slugcats<tB>, 
-FadePalette: 33, 0.6739131, 0.6630435, 0.6521739

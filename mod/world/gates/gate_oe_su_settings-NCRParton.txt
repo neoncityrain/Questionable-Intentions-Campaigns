@@ -1,9 +1,0 @@
-Template: NONE
-DangerType: Flood
-Grime: 0
-Palette: 50
-EffectColorA: 9
-EffectColorB: 9
-PlacedObjects: NoSpearStickZone><470.6046><256.3296><178~194, LightSource><987.3109><278.1849><1~White~-67~138~50~86.60254~0~0~None~0~0, LightSource><306.4043><376.4256><1~White~-12~-217~50~86.60254~0~0~None~0~0, 
-FadePalette: 8, 0.9782609
-RoomSpecificScriptActive: ON

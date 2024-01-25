@@ -1,7 +1,13 @@
 Template: UW_SettingsTemplate_Wall
-CeilingDrips: 0.5978261
+DangerType: Blizzard
+CeilingDrips: 0
 RainIntensity: 0
 RumbleIntensity: 0.1413043
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 0
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
 Clouds: 1
 Palette: 28
 Effects: Flies-0-20-20, Fog-0.01086957-22-73, PixelShift-0.5-32-65, AboveCloudsView-1-23-139, DayNight-0.9239131-282-20, 

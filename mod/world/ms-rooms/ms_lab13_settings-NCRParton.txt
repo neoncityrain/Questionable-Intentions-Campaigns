@@ -1,5 +1,0 @@
-Grime: 0.06521739
-Palette: 50
-Effects: LightBurn-0.08695652-274-78, Fog-1-266-188, BrokenZeroG-0.4021739-275-26, Moth-0.05434782-275-134, ElectricDeath-0-265-241, 
-PlacedObjects: SuperStructureFuses><693.6042><3.863392><178~39, SuperStructureFuses><215.5776><127.8987><19~50, SuperStructureFuses><334.0518><649.223><251~41, SuperStructureFuses><796.1748><164.4028><20~36, SuperStructureFuses><795.0814><284.3173><23~59, SuperStructureFuses><795.9812><442.3009><14~119, LightSource><631.1346><276.1478><0.1739137~Environment~-743~266~-118~142.6025~1~0~None~0~0, 
-FadePalette: 13, 0.1086956

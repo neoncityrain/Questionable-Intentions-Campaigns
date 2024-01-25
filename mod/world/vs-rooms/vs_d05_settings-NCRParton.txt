@@ -1,5 +1,0 @@
-Template: VS_SettingsTemplate_Sewer
-Clouds: 1
-Effects: Fog-0.3478261-20-20, FastFloodDrain-0.326087-28-77, 
-AmbientSounds: SPOT><SO_WAT-Splashes.ogg><728.199><417.9807><0.3913043><1><2420.199><445.9807><-258.3553><-132.3553><0><0.6434784, SPOT><SO_WAT-OpenFlow.ogg><742.134><487.5871><0.326087><1><2415.134><481.587><-209.3553><-206.3553><0><0.2195653, 
-FadePalette: 33, 0.5217391, 0.5, 0.5108696, 0.5108696

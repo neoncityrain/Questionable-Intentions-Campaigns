@@ -1,6 +1,0 @@
-DangerType: FloodAndRain
-Grime: 0.2282609
-WaterReflectionAlpha: 0.5434783
-Effects: Fog-0-20-20, 
-PlacedObjects: LillyPuck><369.79><163.946><0~0~2~3, LillyPuck><542.6993><173.5565><-57~-133~2~3, LillyPuck><678.5582><177.8068><59~-142~2~3, DeadTokenStalk><828.7305><258.051><-24~27, DeadTokenStalk><698.7711><250.0511><22~29, DeadTokenStalk><787.7888><229.0538><-23~52, BlueToken><742.052><219.0285><5~63~-247~86~1~LillyPuck~Rivulet|Saint~0~0~0, UniqueDataPearl><630.7758><1046.802><0~0~0~0~VS~1, 
-FadePalette: 33, 0.75, 0.7717391, 0.7934783

@@ -1,2 +1,0 @@
-DangerType: FloodAndRain
-FadePalette: 33, 0.5869565, 0.6195652

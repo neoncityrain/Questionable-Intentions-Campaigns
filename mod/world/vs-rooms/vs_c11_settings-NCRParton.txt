@@ -1,3 +1,0 @@
-Template: VS_SettingsTemplate_Filter
-AmbientSounds: SPOT><waterGurgleLOOP1.wav><863.6801><431.3371><0.5><1><794.6801><2163.337><-240.3553><-157.3553><0><0.3608697, SPOT><waterGurgleLOOP1.wav><865.131><311.1512><0.5><1><879.131><146.1512><-222.3553><-91.35535><0><0.4478262, 
-FadePalette: 33, 0.4673913, 0.4673913, 0.4673913

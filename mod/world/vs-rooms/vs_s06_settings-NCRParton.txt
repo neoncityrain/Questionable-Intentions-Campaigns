@@ -1,4 +1,0 @@
-Template: VS_SettingsTemplate_Sewer
-Clouds: 1
-AmbientSounds: OMNI><AM_WIN-SubWnd.ogg><724.3123><641.6812><0.2173913><0.8434783, 
-FadePalette: 33, 0.5

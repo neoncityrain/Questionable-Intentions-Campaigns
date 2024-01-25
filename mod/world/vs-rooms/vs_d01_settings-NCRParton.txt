@@ -1,5 +1,0 @@
-Template: VS_SettingsTemplate_Surface
-Grime: 0.2717391
-Effects: LightRain-0.08695652-20-20, 
-PlacedObjects: FirecrackerPlant><696.7824><2393.947><0~0~2~3, FirecrackerPlant><749.6706><2399.934><0~0~2~3, DeadSeedCob><-54.97333><2880.802><, DeadSeedCob><40.20001><2904.999><, Mushroom><733.2892><535.6962><0~0~2~3, Mushroom><761.0978><545.6297><0~0~2~3, 
-FadePalette: 33, 0.6304348, 0.7173913, 0.7608696, 0.8478261
