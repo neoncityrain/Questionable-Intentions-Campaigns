@@ -18,6 +18,7 @@ using RegionKit.API;
 using RegionKit.Modules.Misc;
 using UnityEngine.Assertions.Must;
 using IL.Expedition;
+using IL;
 
 namespace NCRcatsmod
 {
@@ -177,7 +178,7 @@ namespace NCRcatsmod
                 if (self.realizedRoom == null && !self.offScreenDen && !MarauderCannibalising)
                 {
                     if (self.shelter && !world.singleRoomWorld && !game.rainWorld.safariMode 
-                        && game.IsStorySession && game.GetStorySession.saveState.miscWorldSaveData.cyclesSinceLastSlugpup >= 5 && 
+                        && game.IsStorySession && game.GetStorySession.saveState.miscWorldSaveData.cyclesSinceLastSlugpup >= 3 && 
                         self.name != game.GetStorySession.saveState.denPosition)
                     {
                         System.Random rand = new System.Random();
@@ -282,9 +283,9 @@ namespace NCRcatsmod
 
         private bool SlugcatStats_HiddenOrUnplayableSlugcat(On.SlugcatStats.orig_HiddenOrUnplayableSlugcat orig, SlugcatStats.Name i)
         {
-            if (i.value == "NCRRoc" || i.value == "The Roccoco" || i.value == "Roccoco")
+            if (i.value == "NCRRoc")
             {
-                return false;
+                return true;
             }
             else return orig(i);
         }
