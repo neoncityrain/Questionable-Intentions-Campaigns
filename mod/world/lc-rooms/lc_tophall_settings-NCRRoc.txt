@@ -1,0 +1,18 @@
+Template: LC_SettingsTemplate_Inside
+DangerType: Blizzard
+CeilingDrips: 0
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 2.454978E-18
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+BkgDroneVolume: 0.00434776
+EffectColorA: 10
+EffectColorB: 18
+Effects: Darkness-0.1195652-18-129, SkyAndLightBloom-0.04347826-24-24, DayNight-0.6195652-286-20, RoofTopView-1-289-70, PixelShift-0.5-40-40, 
+PlacedObjects: FairyParticleSettings><2203.308><307.6957><317~-653.3397~0~1~1~0~1~1.448696~60~495.2173~40~100~5~30~0~360~0~0.1999999~0.1521739~0.2282609~0.05434782~0.1413043~1~0.1195652~7.790894~Pixel~SIN_IO~SIN_IO~0~0~0, LightSource><1922.801><1453.193><0.05434782~Environment~1020~323~124~141.6025~1~1~None~0~0, LightSource><998.8524><1369.135><0.06521739~Environment~861~390~144~-209.3975~1~1~None~0~0, LightSource><1466.154><1362.373><0.1956522~Environment~1103~661~50~86.60254~1~0~None~0~0, DayNightSettings><2512.619><1413.651><5~8.660254~31~33, HangingPearls><1089.191><1562.559><, HangingPearls><1136.943><1564.692><, HangingPearls><1553.301><1563.52><, HangingPearls><1650.597><1563.825><, HangingPearls><1407.313><1564.93><, HangingPearls><1864.804><1568.209><, HangingPearls><2283.619><1560.661><, HangingPearls><2250.81><1561.809><, DangleFruit><609.845><1467.074><0~0~2~3, DangleFruit><631.6901><1416.059><0~0~2~3, HangingPearls><709.9913><1561.2><, 
+AmbientSounds: OMNI><AM_ENV-WallHum.ogg><753.3013><443.4771><0.2934783><0.8043478, 
+FadePalette: 60, 0.7065217, 0.7826087, 0.8804348
+WetTerrain: OFF

@@ -1,0 +1,16 @@
+Template: LC_SettingsTemplate_Inside
+DangerType: Blizzard
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 2.984339E-14
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 1
+BkgDroneVolume: 0
+EffectColorA: 14
+Effects: Darkness-0-17-131, SkyAndLightBloom-0-18-18, DayNight-0-269-21, 
+PlacedObjects: FairyParticleSettings><307.624><306.843><-958~-115.3398~0~1~1~0~1~1.448696~60~495.2173~40~100~5~30~0~360~0~0.1999999~0.1521739~0.2282609~0.05434782~0.1413043~1~0.1195652~7.790894~Pixel~SIN_IO~SIN_IO~0~0~0, LightSource><-98.19995><558.7438><0.02173913~EffectColor1~33~118~14~-241.3975~0~1~None~0~0, LightSource><76.11005><565.583><0.0326087~EffectColor1~12~124~-140~-497.3975~0~1~None~0~0, LightSource><266.9965><576.55><0.07608695~EffectColor1~24~129~-357~-377.3975~0~1~None~0~0, LightSource><148.1558><564.1254><0.1847501~EffectColor1~967~-535~381~-327.3975~0~0~None~0~0, LightFixture><4305.262><141.9768><RedLight~25.3205~-81~38, LightFixture><735.7><168.2783><RedLight~17.32051~-10~69, LightSource><2524.858><797.1045><0.09782609~Environment~2279~4~-491.9823~-165.4003~1~0~None~0~0, LightSource><4698.167><561.1407><0.05434782~EffectColor1~76~184~-371.0027~-427.4074~0~1~None~0~0, LightSource><4882.196><572.2909><0.05434782~EffectColor1~63~179~-43~-434.4~0~1~None~0~0, LightSource><5057.836><568.3663><0.04521113~EffectColor1~71~166~-473.0388~-434.5164~0~1~None~0~0, LightSource><4773.7><577.5143><0.1630435~EffectColor1~1258~600~-192~-324.3975~0~0~None~0~0, 
+AmbientSounds: OMNI><AM_ENV-LightWind.ogg><751.1393><523.5834><0.326087><0.6673913, OMNI><Deep Weird Wind.wav><754.752><439.2><0.2173913><1, OMNI><AM_IND-SuperStructure.ogg><755.8032><363.2147><0.5><0.8043478, SPOT><AM_WIN-HowlingWnd.ogg><757.303><236.0347><0.3695652><0.5891304><2649.398><416.7393><-605.3553><-242.3553><0><1, SPOT><AM_SUB-MysticCave1.ogg><581.8752><234.6563><0.3152174><1><9.875183><450.6563><796.6447><-42.35535><0><1, SPOT><AM_ENV-WallHum.ogg><577.139><361.6062><0.2391304><0.7652174><5112.139><657.6062><-582.3553><-54.35535><0><0.9152175, 
+FadePalette: 17, 0.9347826, 0.9130435, 0.8913044, 0.9130435, 0.9347826

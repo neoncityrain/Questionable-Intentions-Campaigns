@@ -1,10 +1,10 @@
 Template: NONE
 DangerType: Blizzard
-RainIntensity: 0.5
-RumbleIntensity: 0.3478261
-WaveSpeed: 0.4995344
-WaveLength: 0.9997672
-WaveAmplitude: 0.0005318769
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 2.142364E-05
 SecondWaveLength: 0.1666667
 SecondWaveAmplitude: 0
 Clouds: 0.8152174

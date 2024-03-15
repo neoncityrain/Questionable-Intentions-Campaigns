@@ -1,0 +1,18 @@
+Template: NONE
+DangerType: Blizzard
+RainIntensity: 1
+RumbleIntensity: 0
+WaveSpeed: 0.5494063
+WaveLength: 0.9752968
+WaveAmplitude: 6.849844E-06
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 1
+Grime: 0
+BkgDroneVolume: 0
+Palette: 30
+EffectColorA: 21
+Effects: DayNight-0.7934783-25-119, Coldness-0-20-20, Darkness-0.1956522-117-109, Fog-1-30-30, DustWave-1-40-40, 
+PlacedObjects: DayNightSettings><68.90796><472.1273><243~151.6602~35~10, Corruption><-190.3628><179.6454><508~46, Corruption><317.5896><239.8695><0~100, Corruption><744.7341><260.0506><44~169, Corruption><953.5992><272.8264><0~100, LanternOnStick><207.4466><369.715><-44~-191, LanternOnStick><131.7301><266.051><16~-95, LanternOnStick><994.1496><325.8269><-14~-80, SnowSource><118.1593><468.371><Radial~648~-10~50~86.60254~0.5434783~0.3369565, SnowSource><886.8489><270.8809><Radial~-514~146~-441~188.6025~0.5~0, SnowSource><518.5538><234.4614><UnSnow~0~100~50~86.60254~1~0, SnowSource><519.449><102.5204><UnSnow~0~100~50~86.60254~1~0, SnowSource><192.9493><213.7674><Radial~-225~97~-231~108.6025~0.5652174~0.5652174, 
+AmbientSounds: OMNI><AM_ENV-NatWind.ogg><833.3021><652.5293><0.1630435><1, OMNI><AM_ENV-LightWind.ogg><647.051><654.0204><0.3804348><0.9021739, SPOT><AM_ENV-WallHum.ogg><715.2798><427.5522><0.2608696><1><509.2798><105.5523><-24.35535><75.64465><0><0.08913057, 
+FadePalette: 42, 0

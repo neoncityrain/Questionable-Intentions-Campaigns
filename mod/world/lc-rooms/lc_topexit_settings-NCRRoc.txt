@@ -1,0 +1,18 @@
+Template: LC_SettingsTemplate_Inside
+DangerType: Blizzard
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 4.470427E-11
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.1304348
+Grime: 0.09782609
+BkgDroneVolume: 0
+EffectColorA: 13
+EffectColorB: 18
+Effects: Darkness-0.05434782-12-135, SkyAndLightBloom-0.06521739-20-24, DayNight-0.5326087-287-27, 
+PlacedObjects: FairyParticleSettings><87.58191><377.8584><-1052~-6.339752~0~1~1~0~1~1.448696~60~495.2173~40~100~5~30~0~360~0~0.1999999~0.1521739~0.2282609~0.05434782~0.1413043~1~0.1195652~7.790894~Pixel~SIN_IO~SIN_IO~0~0~0, LightSource><408.4495><1004.742><0.1847826~Environment~-608~522~180~289.6025~1~0~None~0~0, SuperStructureFuses><904.7549><685.6696><53~105, NoSpearStickZone><927.9376><627.0693><24~190, LightSource><510.397><498.6356><0.1195652~Environment~788~-401~-587~-402.3975~1~1~None~0~0, CustomDecal><292.5069><629.6337><5~407~420~411~419~-2~2~477~0.3152174~1~0~UNQ - LCPlate2~1~0~1~0~1~0~1~0, LightSource><525.8965><956.3639><0.3478261~Environment~255~363~74.99997~185.6025~1~0~None~0~0, SuperStructureFuses><26.40869><613.6281><65~182, SuperStructureFuses><915.4312><435.6653><53~87, DayNightSettings><608.9499><1060.925><5~8.660254~31~33, 
+AmbientSounds: OMNI><AM_ENV-LightWind.ogg><751.1393><523.5834><0.02173913><0.1, OMNI><AM_ENV-NatWind.ogg><577.326><636.6512><0.2608696><1, OMNI><AM_ENV-WallHum.ogg><575.551><566.0204><0.2608696><0.8043478, SPOT><AM_ENV-LightWind.ogg><756.4287><602.5898><0.4456522><1><-78.57104><1189.59><-320.3553><-120.3553><0><0.5347828, 
+FadePalette: 60, 0.7717391, 0.9565217

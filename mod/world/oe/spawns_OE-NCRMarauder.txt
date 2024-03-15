@@ -27,7 +27,6 @@ OE_RUIN02 : 4-Mimic-{15}-{Ignorecycle}
 OE_TOWER07 : 3-JungleLeech-5-{Ignorecycle}
 OE_EXITPATH : 7-TentaclePlant
 OE_CAVE09 : 8-JungleLeech-2, 8-JungleLeech-4-{Night}
-OE_PUMP02 : 3-Eel-{Ignorecycle}
 OE_JUNGLE01 : 6-JungleLeech-3
 OE_FINAL01 : 4-White
 OE_TOWER14 : 4-White, 3-Centipede, 3-SmallCentipede-2

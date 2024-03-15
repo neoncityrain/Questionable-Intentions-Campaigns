@@ -2,9 +2,9 @@ DangerType: Blizzard
 CeilingDrips: 0
 RainIntensity: 0.2065217
 RumbleIntensity: 0.1956522
-WaveSpeed: 0.5
-WaveLength: 1
-WaveAmplitude: 5.605194E-45
+WaveSpeed: 0.5022916
+WaveLength: 0.9830733
+WaveAmplitude: 0.003706746
 SecondWaveLength: 1
 SecondWaveAmplitude: 0.0001
 Clouds: 0.2608696
@@ -13,7 +13,7 @@ BkgDroneVolume: 0
 Palette: 0
 EffectColorB: 18
 Effects: Darkness-0.173913-20-20, Coldness-0.4130435-24-80, 
-PlacedObjects: KarmaFlower><404.5757><358.0649><-233~196~5~7, InsectGroup><638.1793><347.6614><-163~66~0~0~RockFlea~0.2826087, ReliableSpear><536.8878><371.0845><, ReliableSpear><54.17651><269.1559><, ReliableSpear><355.9343><366.0611><, ReliableSpear><318.0892><337.071><, ReliableSpear><678.8734><323.4048><, ReliableSpear><594.9587><364.4457><, ReliableSpear><558.0179><368.4492><, ReliableSpear><511.051><369.2296><, SnowSource><256.684><240.4214><Radial~-113~88~50~86.60254~0.6847826~1, SnowSource><179.9462><149.7893><Radial~-11~115~50~86.60254~0.4891304~1, SnowSource><758.7402><322.4498><Radial~-29~129~50~86.60254~0.6195652~1, SnowSource><754.27><188.801><UnSnow~0~100~50~86.60254~1~0, SnowSource><748.6392><422.5836><UnSnow~0~100~50~86.60254~1~0, GooieDuck><97.12384><335.593><0~0~2~3, GooieDuck><167.8442><342.8755><0~0~2~3, 
+PlacedObjects: KarmaFlower><404.5757><358.0649><-233~196~5~7, ReliableSpear><536.8878><371.0845><, ReliableSpear><54.17651><269.1559><, ReliableSpear><355.9343><366.0611><, ReliableSpear><318.0892><337.071><, ReliableSpear><678.8734><323.4048><, ReliableSpear><594.9587><364.4457><, ReliableSpear><558.0179><368.4492><, ReliableSpear><511.051><369.2296><, SnowSource><256.684><240.4214><Radial~-113~88~50~86.60254~0.6847826~1, SnowSource><179.9462><149.7893><Radial~-11~115~50~86.60254~0.4891304~1, SnowSource><758.7402><322.4498><Radial~-29~129~50~86.60254~0.6195652~1, SnowSource><754.27><188.801><UnSnow~0~100~50~86.60254~1~0, SnowSource><748.6392><422.5836><UnSnow~0~100~50~86.60254~1~0, GooieDuck><97.12384><335.593><0~0~2~3, GooieDuck><167.8442><342.8755><0~0~2~3, 
 AmbientSounds: OMNI><SO_WAT-LilDrips.ogg><647.6005><638.8672><0.1847826><1, OMNI><AM_SUB-CaveTone.ogg><830.9134><641.8197><0.3152174><1, OMNI><AM_SUB-BlankState.ogg><831.8081><556.9437><0.2065217><1, 
 FadePalette: 14, 0.2065217
 WetTerrain: OFF

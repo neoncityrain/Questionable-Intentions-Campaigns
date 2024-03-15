@@ -1,0 +1,15 @@
+Template: LC_SettingsTemplate_Inside
+DangerType: Blizzard
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 8.534105E-16
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Palette: 29
+EffectColorA: 8
+Effects: SkyAndLightBloom-0-13-21, LightBurn-0.1086956-10-133, Fog-0.4673913-273-82, DayNight-0.2608696-269-24, 
+PlacedObjects: FairyParticleSettings><275.131><351.4108><-893~-118.3398~0~1~1~0~1~1.448696~60~495.2173~40~100~5~30~0~360~0~0.1999999~0.1521739~0.2282609~0.05434782~0.1413043~1~0.1195652~7.790894~Pixel~SIN_IO~SIN_IO~0~0~0, LightSource><444.4641><221.9467><0.1521739~Environment~685~428~-315~-231.3975~1~0~None~0~0, LightSource><721.5613><451.6956><0.5108696~Environment~271~-274~-377~-217.3975~1~0~None~0~0, LightSource><426.1047><707.6375><0.1304348~EffectColor1~171~-177~-335~-136.3975~1~1~None~0~0, LightSource><1747.331><583.8568><0.1413043~Environment~-882~-625~-131~-222.3975~1~0~None~0~0, LightSource><1777.812><593.4316><0.2065216~Environment~-720~-531~-162.0035~-351.3975~1~0~None~0~0, LightSource><1332.141><432.6415><0.3152174~Environment~447~195~50~86.60254~1~0~None~0~0, DayNightSettings><1401.94><428.3092><5~8.660254~31~35, DevToken><1077.849><254.6306><57~-57~181~-11~0~~~0~0~0~1~0~0~0~1, 
+AmbientSounds: SPOT><SO_IND-FlourLight.ogg><752.9462><599.7109><0.2826087><1.156522><428.9462><720.7109><-73.35535><-160.3553><0><0.4804349, SPOT><AM_IND-SuperStructure.ogg><755.626><402.5931><0.3478261><0.7847826><-123.374><-39.40692><1266.645><639.6447><0><1, SPOT><Deep Weird Wind.wav><760.3533><289.136><0.326087><1><1538.354><426.136><-365.3553><-270.3553><0><0.7304349, 
+FadePalette: 10, 0.5760869, 0.6739131

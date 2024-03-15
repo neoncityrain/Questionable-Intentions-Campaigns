@@ -1,0 +1,15 @@
+Template: LC_SettingsTemplate_Inside
+DangerType: Blizzard
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 3.730469E-15
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 1
+BkgDroneVolume: 0
+Effects: Darkness-0.75-18-137, DayNight-0-276-20, 
+PlacedObjects: FairyParticleSettings><302.9324><251.832><-496~-45.33975~0~1~1~0~1~1.448696~60~495.2173~40~100~5~30~0~360~0~0.1999999~0.1521739~0.2282609~0.05434782~0.1413043~1~0.1195652~7.790894~Pixel~SIN_IO~SIN_IO~0~0~0, LightFixture><433.735><298.1995><RedLight~-159.6795~313~21, LightFixture><607.5964><298.1282><RedLight~-70.6795~302~9, LightSource><853.9496><343.2373><0.2717391~White~30~131~-433~-222.3975~0~1~None~0~0, LightSource><248.8708><336.0906><0.2065217~White~35~126~-247~205.6025~0~1~None~0~0, LightBeam><743.8881><37.14472><76~326~133~326~295~-18~-324~-72~0.08478247~1~0~0~None~0~0, LightBeam><108.6599><60.82148><112~304~173~303~289~-91~-196~253~0.06304351~1~0~0~None~0~0, LightSource><242.7957><254.3053><0.25~White~422~-133~-332~-63.39746~0~0~None~0~0, LightSource><847.0926><275.3767><0.4782609~White~89~232~-84~-300.3975~0~0~None~0~0, 
+AmbientSounds: OMNI><AM_ENV-LightWind.ogg><751.1393><523.5834><0.06521739><0.1978261, OMNI><Deep Weird Wind.wav><752.8676><442.6617><0.3043478><1, OMNI><AM_IND-SuperStructure.ogg><748.562><599.8098><0.5><0.8043478, 
+FadePalette: 17, 0.7391304

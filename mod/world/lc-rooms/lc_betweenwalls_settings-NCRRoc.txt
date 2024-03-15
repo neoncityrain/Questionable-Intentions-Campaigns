@@ -1,0 +1,14 @@
+DangerType: Blizzard
+CeilingDrips: 0.173913
+RainIntensity: 1
+RumbleIntensity: 0
+WaveSpeed: 0.7875553
+WaveLength: 0.8562223
+WaveAmplitude: 5.605194E-45
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0
+Palette: 29
+Effects: DayNight-0.6086956-16-59, PixelShift-0.5-20-20, HeatWave-0-30-30, Coldness-0-40-40, DustWave-1-50-50, Fog-1-60-60, 
+PlacedObjects: DayNightSettings><129.3215><461.0903><5~8.660254~35~10, SnowSource><515.3661><-35.9128><Radial~338~697~50~86.60254~0.6195652~0.2826087, SnowSource><534.4316><547.4379><Radial~-14~-406~50~86.60254~0.2608696~0.1630435, SnowSource><527.5934><755.1256><Radial~-52~360~50~86.60254~0.5326087~0.4565217, SnowSource><520><1169><Radial~-52~360~50~86.60254~0.5326087~0.4565217, SnowSource><506><1365><Radial~469~-201~-201~-296.3975~0.2826087~0.3152174, 
+FadePalette: 42, 0.04347826, 0.0326087

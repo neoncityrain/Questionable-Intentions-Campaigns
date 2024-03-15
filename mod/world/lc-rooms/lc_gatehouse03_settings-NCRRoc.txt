@@ -1,0 +1,14 @@
+DangerType: Blizzard
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 1.723209E-31
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.2065217
+Palette: 30
+Effects: Darkness-0-275-56, DayNight-0.6195652-20-49, RoofTopView-1-275-3, HeatWave-0-20-20, 
+PlacedObjects: DayNightSettings><517.3978><391.1719><5~8.660254~35~31, 
+AmbientSounds: SPOT><AM_WIN-HowlingWnd.ogg><878.0502><542.2423><0.423913><0.726087><-158.9498><1455.243><389.6447><-333.3553><0><0.904348, SPOT><AM_ENV-WallHum.ogg><698.9445><541.2965><0.3804348><0.823913><977.9446><98.29728><-382.3553><251.6447><0><0.9152175, 
+FadePalette: 42, 0.06521739, 0.1195652

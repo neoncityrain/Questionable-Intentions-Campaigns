@@ -1,0 +1,15 @@
+DangerType: Blizzard
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 2.570168E-19
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+BkgDroneVolume: 0
+EffectColorA: 8
+EffectColorB: 18
+Effects: BorderPushBack-1-260-51, DayNight-0.7173913-12-56, RoofTopView-1-273-95, HeatWave-0-20-20, 
+PlacedObjects: NoSpearStickZone><186.1694><387.6064><1~250, LanternOnStick><589.0598><332.312><18~-150, LanternOnStick><705.4256><319.1542><-45~-141, ScavengerOutpost><637.1064><188.5806><-22~254~-321~93~0~31~76, DayNightSettings><-44.85547><471.8618><5~8.660254~35~10, HangingPearls><170.5276><409.4478><, HangingPearls><797.3725><397.0959><, HangingPearls><824.7><394.9994><, 
+AmbientSounds: SPOT><AM_IND-12thFloor.ogg><876.274><539.3015><0.4891304><1><1125.274><234.3015><-367.3553><3.644653><0><0.6978262, SPOT><AM_SUB-MysticCave2.ogg><700.6208><536.6594><0.4673913><1><1050.621><273.6594><-500.3553><83.64465><0><0.5891306, SPOT><AM_WIN-StrongWnd2.ogg><703.6951><416.2062><0.423913><1><-156.3049><1390.206><352.6447><-331.3553><0><0.5456523, 
+FadePalette: 42, 0.07608695, 0.1086956

@@ -1,0 +1,16 @@
+DangerType: Blizzard
+CeilingDrips: 0
+RainIntensity: 0.01826079
+RumbleIntensity: 1
+WaveSpeed: 0.4999864
+WaveLength: 0.9999932
+WaveAmplitude: 1.169325E-35
+SecondWaveLength: 1
+SecondWaveAmplitude: 0.0001
+EffectColorA: 11
+EffectColorB: 18
+Effects: DayNight-0.5652174-274-65, PixelShift-0.5-32-65, AboveCloudsView-1-17-51, HeatWave-0-20-20, 
+PlacedObjects: LightSource><993.3147><5488.311><1~EffectColor2~388~-262~136~186.6025~0~0~Flash~0.7~0, LightSource><991.6098><5488.857><1~EffectColor2~1~28~146~76.60254~0~1~Flash~0.7~0, GhostSpot><639.9398><5678.063><, DayNightSettings><852.5558><266.202><5~8.660254~35~10, ReliableSpear><934.3851><3247.336><, ReliableSpear><955.3006><2581.985><, ReliableSpear><917.971><1675.053><, ReliableSpear><1123.197><1692.216><, ReliableSpear><954.3295><1256.647><, ReliableSpear><1020.443><1273.942><, ReliableSpear><881.301><1307.77><, ReliableSpear><1206.7><1300.76><, ReliableSpear><722.0848><296.9311><, ReliableSpear><783.8252><296.8472><, ReliableSpear><1203.838><289.6333><, ReliableSpear><1309.81><298.6868><, DevToken><1131.843><439.3735><6~-56~0~0~0~~~0~0~0~1~0~0~0~1, 
+AmbientSounds: SPOT><AM_WIN-StrongWnd2.ogg><878.4378><542.9401><0.6630433><1><993.4377><4327.94><-739.3553><-502.3553><0><1, SPOT><AM_WIN-HowlingWnd.ogg><704.6733><540.0653><0.326087><1><993.6733><5090.065><-467.3553><-480.3553><0><1, 
+FadePalette: 42, 0.02173913, 0.0326087, 0.0326087, 0.0326087, 0.04347826, 0.02173913, 0.01086957, 0.02173913
+WetTerrain: OFF

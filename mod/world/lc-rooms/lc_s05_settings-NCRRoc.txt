@@ -1,0 +1,14 @@
+Template: LC_SettingsTemplate_Tower
+DangerType: Blizzard
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 4.027977E-10
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+BkgDroneVolume: 0
+EffectColorA: 18
+PlacedObjects: LightFixture><467.9395><415.0641><RedLight~17.32051~-10~32, SuperStructureFuses><428.8649><485.1026><121~67, SuperStructureFuses><429.1887><171.3287><52~143, SuperStructureFuses><553.0706><249.4372><71~74, LightSource><472.0953><419.1269><0.3478261~EffectColor1~643~278~146~132.6025~0~0~Fade~0.4891304~0, 
+AmbientSounds: SPOT><SO_SFX-Data4.ogg><870.8319><529.0675><0.173913><0.8826087><504.8318><140.0676><257.6447><57.64465><0><0.3608697, SPOT><SO_SFX-Data1.ogg><860.4496><105.7368><0.1086956><0.6673913><534.4495><580.7368><-18.35535><-130.3553><0><0.2847827, 
+FadePalette: 10, 0.3695652

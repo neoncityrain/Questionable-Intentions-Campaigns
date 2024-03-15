@@ -1,0 +1,14 @@
+DangerType: Blizzard
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 2.363798E-31
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+BkgDroneVolume: 0
+EffectColorA: 15
+EffectColorB: 18
+Effects: DayNight-0.7173913-20-55, RoofTopView-1-273-5, HeatWave-0-20-20, 
+PlacedObjects: DayNightSettings><47.34418><1146.824><5~8.660254~35~10, 
+FadePalette: 42, 0.09782609, 0.1413043

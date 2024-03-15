@@ -1,0 +1,14 @@
+DangerType: Blizzard
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 2.105586E-32
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Grime: 0
+BkgDroneVolume: 0
+Palette: 28
+Effects: Dustpuffs-1-306-61, Flies-0.2717391-317-132, LightBurn-0.02173913-20-20, DayNight-0.8043478-595-112, RoofTopView-0-24-80, PixelShift-0.5-30-30, HeatWave-0-40-40, 
+PlacedObjects: DayNightSettings><250.1542><676.8773><5~8.660254~35~10, DeadTokenStalk><1050.122><878.6534><35~-28, DeadTokenStalk><1072.327><763.6847><27~27, HangingPearls><475.6455><679.9205><, HangingPearls><505.6966><682.9427><, 
+FadePalette: 42, 0.02173913

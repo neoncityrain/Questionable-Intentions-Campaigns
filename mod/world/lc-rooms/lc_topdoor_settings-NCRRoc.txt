@@ -1,0 +1,15 @@
+Template: LC_SettingsTemplate_Inside
+DangerType: Blizzard
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 7.122582E-14
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.2282609
+BkgDroneVolume: 0
+Effects: Darkness-0-12-135, SkyAndLightBloom-0-20-24, DayNight-0.6739131-272-23, 
+PlacedObjects: FairyParticleSettings><87.58191><377.8584><-1052~-6.339752~0~1~1~0~1~1.448696~60~495.2173~40~100~5~30~0~360~0~0.1999999~0.1521739~0.2282609~0.05434782~0.1413043~1~0.1195652~7.790894~Pixel~SIN_IO~SIN_IO~0~0~0, LightSource><436.4495><1000.764><0.1195652~Environment~-608~522~180~289.6025~1~1~None~0~0, SuperStructureFuses><31.75482><1211.7><39~108, SuperStructureFuses><3.629395><1112.34><77~42, NoSpearStickZone><927.9376><627.0693><24~190, LightSource><415.397><539.6161><0.1195652~Environment~788~-401~-587~-402.3975~1~0~None~0~0, LightSource><328.1381><442.3342><0.2934783~Environment~393~-339~-486~-198.3975~1~0~None~0~0, CustomDecal><292.5069><629.6337><2~441~421~443~419~-2~-338~198~0.3152174~1~0~UNQ - LCPlate1~1~0~1~0~1~0~1~0, LightSource><296.8965><898.3639><0.2065217~Environment~255~363~50.99997~386.6025~1~0~None~0~0, SuperStructureFuses><26.40869><613.6281><65~182, SuperStructureFuses><908.4312><165.6653><50~132, DayNightSettings><444.319><215.1649><5~8.660254~31~33, DeadTokenStalk><807.1718><1175.684><36~-25, DeadTokenStalk><758.3907><1208.358><43~5, DeadTokenStalk><807.287><1102.697><41~24, DevToken><731.9596><1079.054><-4~-76~0~0~0~~White|Yellow|Red|Rivulet|Saint|Spear|Gourmand~0~0~0~1~0~0~0~1, 
+AmbientSounds: SPOT><AM_ENV-LightWind.ogg><747.975><599.5516><0.423913><1><-165.025><282.5516><253.6447><-327.3553><0><0.3065219, OMNI><AM_ENV-LightWind.ogg><751.1393><523.5834><0.02173913><0.1, OMNI><AM_ENV-NatWind.ogg><577.326><636.6512><0.2608696><1, OMNI><AM_ENV-WallHum.ogg><575.551><566.0204><0.2608696><0.8043478, SPOT><SO_SFX-Kepler.ogg><578.5511><449.9794><0.07608695><0.9217392><507.5511><859.9794><166.6447><166.6447><0><0.2847827, SPOT><SO_SFX-Data4.ogg><758.3364><411.1349><0.1956522><1><-0.6635742><1232.135><185.6447><-76.35535><0><0.7195653, SPOT><AM_ENV-LightWind.ogg><756.4287><306.5898><0.4456522><1><1036.429><1228.59><-320.3553><-120.3553><0><0.2847827, SPOT><SO_SFX-Data2.ogg><593.5505><328.7642><0.3152174><1><945.5505><209.7642><-96.35535><-82.35535><0><0.2956523, 
+FadePalette: 60, 0.5543478, 0.6956522

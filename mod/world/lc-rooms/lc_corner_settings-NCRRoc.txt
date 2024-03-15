@@ -1,0 +1,16 @@
+Template: LC_SettingsTemplate_Tower
+DangerType: Blizzard
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 6.514482E-13
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.7065217
+BkgDroneVolume: 0
+EffectColorA: 14
+Effects: SunBlock-1-20-20, SuperStructureProjector-0.04347826-19-76, ZeroG-0.3695652-22-130, 
+PlacedObjects: LightSource><967.5669><466.0804><0.1086956~EffectColor1~111~145~-121~-353.3975~0~1~None~0~0, LightSource><287.9257><465.9044><0.1086956~EffectColor1~0~100~261~-227.3975~0~1~None~0~0, LightSource><482.8416><460.8222><0.1086956~EffectColor1~13~165~333~-237.3975~0~1~None~0~0, LightSource><705.7806><455.8024><0.1086956~EffectColor1~-5~149~-150~-346.3975~0~1~None~0~0, LightSource><1483.802><456.7209><0.2065217~EffectColor1~-1274~705~411~-339.3975~0~0~None~0~0, LightSource><653.2271><461.1987><0.1304342~EffectColor1~913~682~50~86.60254~0~0~None~0~0, LightFixture><255.2334><541.8007><RedLight~17.32051~-10~71, LightFixture><429.072><1400.909><RedLight~17.32051~-10~29, LightSource><1707.278><480.5519><0.1413043~EffectColor1~99~177~50~86.60254~0~1~None~0~0, LightSource><1462.402><469.6194><0.1413043~EffectColor1~72~159~50~86.60254~0~1~None~0~0, LightSource><1228.219><459.5524><0.1413043~EffectColor1~75~174~50~86.60254~0~1~None~0~0, LightFixture><1975.948><514.7246><RedLight~17.32051~-10~96, SuperStructureFuses><176.371><1010.847><114~78, SuperStructureFuses><522.5582><928.1913><67~170, SuperStructureFuses><176.3648><776.8525><97~62, ExitSymbolHidden><493.4212><106.8534><, 
+AmbientSounds: SPOT><SO_SFX-Data4.ogg><690.3284><535.934><0.2065217><1><688.3284><998.9341><-130.3553><-155.3553><0><0.2956523, SPOT><SO_SFX-Data1.ogg><864.741><530.8002><0.2391304><1><221.741><1088.8><28.64465><-110.3553><0><0.2086958, SPOT><SO_SFX-Data2.ogg><865.5516><416.9748><0.2065217><1><139.5516><793.9749><-198.3553><-56.35534><0><0.2847827, SPOT><AM_ENV-WallHum.ogg><692.5691><422.5852><0.25><1.215217><207.5691><77.58524><271.6447><246.6447><0><0.3934784, 
+FadePalette: 10, 0.5217391, 0.5869565, 0.6630435

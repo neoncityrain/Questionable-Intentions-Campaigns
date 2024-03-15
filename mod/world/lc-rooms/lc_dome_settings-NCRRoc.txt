@@ -1,0 +1,15 @@
+DangerType: Blizzard
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 4.516689E-30
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+BkgDroneVolume: 0
+EffectColorA: 12
+EffectColorB: 18
+Effects: BorderPushBack-1-271-64, DayNight-0.7173913-12-59, PixelShift-0.5-32-65, AboveCloudsView-1-249-127, HeatWave-0-20-20, 
+PlacedObjects: DayNightSettings><4.051086><375.9791><5~8.660254~35~10, 
+AmbientSounds: SPOT><AM_WIN-StrongWnd2.ogg><879.2886><540.5538><0.5><1><2490.289><1386.554><-493.3553><-450.3553><0><1, SPOT><AM_WIN-HowlingWnd.ogg><880.6789><426.8395><0.4021736><0.5304345><2484.679><1470.84><-161.3553><-310.3553><0><1, SPOT><AM_ENV-WallHum.ogg><697.1852><540.8108><0.423913><0.7847826><-103.8148><222.8108><343.6447><-175.3553><0><0.6869566, SPOT><AM_ENV-WallHum.ogg><700.3014><425.1933><0.3913043><0.823913><5036.301><202.1933><-353.3553><-66.35535><0><0.4586958, DIR><AM_SUB-MysticCave2.ogg><773.6675><221.6822><0.3152174><1><180><0, 
+FadePalette: 42, 0.02173913, 0.05434782, 0.08695652, 0.1086956, 0.1086956, 0.08695652, 0.08695652, 0.06521739, 0.05434782

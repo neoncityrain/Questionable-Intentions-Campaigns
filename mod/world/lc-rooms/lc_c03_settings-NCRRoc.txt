@@ -1,0 +1,15 @@
+DangerType: Blizzard
+CeilingDrips: 0.0592051
+RainIntensity: 1
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 5.605194E-45
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Grime: 0.07608695
+Palette: 28
+EffectColorA: 18
+Effects: DayNight-0.4130435-285-73, Dustpuffs-1-541-54, HeatWave-0-20-20, DustWave-1-30-30, Fog-1-40-40, 
+PlacedObjects: LightFixture><411.6457><1986.113><RedLight~17.32051~-10~27, LightSource><412.163><1987.57><1~EffectColor1~17~125~50~86.60254~1~0~None~0~0, DayNightSettings><-64.40027><2088.631><5~8.660254~35~10, 
+FadePalette: 42, 0.1304348, 0.1413043, 0.1195652

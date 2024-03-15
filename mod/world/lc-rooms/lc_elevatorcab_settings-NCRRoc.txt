@@ -1,0 +1,15 @@
+Template: LC_SettingsTemplate_Inside
+DangerType: Blizzard
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 0
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.1521739
+BkgDroneVolume: 0
+EffectColorA: 10
+Effects: SkyAndLightBloom-0.05434782-22-17, Darkness-0.4673913-15-133, ZeroG-0.5-279-139, DayNight-0.8913044-283-22, RoofTopView-1-270-84, 
+PlacedObjects: FairyParticleSettings><130.1697><266.4332><-758~-47.33975~0~1~1~0~1~1.448696~60~495.2173~40~100~5~30~0~360~0~0.1999999~0.1521739~0.2282609~0.05434782~0.1413043~1~0.1195652~7.790894~Pixel~SIN_IO~SIN_IO~0~0~0, LightSource><521.8012><382.022><0.0326087~Environment~687~-402~272~-380.3975~1~1~None~0~0, ExitSymbolHidden><127.1702><46.93336><, DayNightSettings><-33.55737><505.3037><5~8.660254~31~33, 
+FadePalette: 60, 0.8695652

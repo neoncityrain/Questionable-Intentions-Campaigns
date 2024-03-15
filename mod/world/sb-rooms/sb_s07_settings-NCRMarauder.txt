@@ -9,6 +9,7 @@ WaveAmplitude: 5.605194E-45
 SecondWaveLength: 0.1666667
 SecondWaveAmplitude: 0
 Clouds: 0.7282609
+Grime: 0.2065217
 Palette: 21
 Effects: Darkness-0.3369565-20-20, MossWaterRGB-0-30-30, MossWater-0-40-40, 
 PlacedObjects: BrokenShelterWaterLevel><475.83><161.3167><, SnowSource><490.1985><188.0244><Radial~8~78~50~86.60254~0.5434783~0, 

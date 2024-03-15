@@ -1,0 +1,15 @@
+Template: LC_SettingsTemplate_Tower
+DangerType: Blizzard
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 1.555901E-10
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.8043478
+BkgDroneVolume: 0
+Effects: FairyParticles-0.04347826-20-20, SunBlock-0.9782609-21-136, SuperStructureProjector-0.09782609-274-21, ProjectedScanLines-0.06521739-272-73, SSSwarmers-0.02173913-277-133, BrokenZeroG-0.8804348-30-30, 
+PlacedObjects: FairyParticleSettings><417.9255><324.3458><-1026~-85.33981~1~1.521739~2.956523~0.08695652~6.220735~9.434219~43.47826~326.087~10.86957~97.82609~5~190.4349~0~360~0.3586957~0.3847829~0.4673913~0.4456522~0.1304348~0.1630435~0.7282609~1~5.516455~AncientGlyph~SIN_IO~SIN_IO~182.6087~0.1413826~0, LightFixture><81.07581><205.4017><RedLight~17.32051~-10~24, LightFixture><1146.499><45.29999><RedLight~17.32051~-10~21, LightFixture><1747.382><151.6614><RedLight~17.32051~-10~59, LightFixture><1759.511><641.6997><RedLight~-107.6795~-84~35, WallMycelia><315.1601><483.4286><0~100, WallMycelia><1087.972><91.302><0~100, WallMycelia><1725.7><260.7554><5~122, WallMycelia><1715.3><569.7411><6~154, 
+AmbientSounds: SPOT><SO_SFX-DataTrans2.ogg><869.2574><526.5502><0.2173913><0.8043478><-60.74255><366.5501><547.6447><-158.3553><0><1, SPOT><AM_IND-DeepHum.ogg><731.1791><310.661><0.5><1><1679.179><618.661><-201.3553><-194.3553><0><0.5891306, SPOT><SO_SFX-Data3.ogg><690.0508><522.7325><0.1956522><1><1676.051><2.732513><-371.3553><51.64465><0><0.5565219, 
+FadePalette: 10, 0.6956522, 0.6956522

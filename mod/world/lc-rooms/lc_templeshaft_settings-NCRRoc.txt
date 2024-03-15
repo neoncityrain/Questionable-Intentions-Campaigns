@@ -1,0 +1,14 @@
+Template: LC_SettingsTemplate_Tower
+DangerType: Blizzard
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 3.240838E-09
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+BkgDroneVolume: 0
+EffectColorA: 14
+Effects: BrokenZeroG-0.4130435-20-20, 
+PlacedObjects: LightSource><752.318><1698.833><0.07608695~EffectColor1~-193~182~-381~-36.39746~0~1~None~0~0, LightSource><740.4377><1662.681><0.1521739~EffectColor1~1174~620~-386~-146.3975~0~0~None~0~0, LightFixture><899.3993><1945.383><RedLight~-700.6795~-73~85, LightFixture><572.3774><2112.096><RedLight~-519.6795~-36~19, LightSource><363.05><1088.003><0.09782609~EffectColor1~541~267~-226~-207.3975~0~0~None~0~0, LightSource><372.113><1101.146><0.09782609~EffectColor1~144~204~50~86.60254~0~1~None~0~0, LightFixture><104.8096><1128.811><RedLight~17.32051~-10~19, LightSource><696.3113><484.9373><0.1847826~EffectColor1~995~715~-435~-240.3975~0~0~None~0~0, LightSource><763.6447><652.8882><0.09782609~EffectColor1~-152~176~-345~-172.3975~0~1~None~0~0, LightSource><701.4084><333.9279><0.09782609~EffectColor1~-207~88~-552~-258.3975~0~1~None~0~0, LightFixture><588.3851><64.5863><RedLight~-34.6795~-85~66, LightFixture><846.3285><108.8528><RedLight~-33.6795~-126~27, 
+FadePalette: 8, 0.5108696, 0.6521739, 0.6739131

@@ -1,0 +1,16 @@
+Template: LC_SettingsTemplate_Inside
+DangerType: Blizzard
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 1.541428E-44
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0
+Grime: 0.173913
+Palette: 29
+EffectColorA: 8
+Effects: LightBurn-0.3043478-20-20, SkyBloom-0.08695652-18-63, FairyParticles-0.4891304-278-102, Advertisements-1-282-40, Dustpuffs-0.1195652-544-65, DayNight-0.4891304-20-118, 
+PlacedObjects: LightSource><1259.475><337.5612><0.2934783~Environment~-400~149~-383~-193.3975~1~0~None~0~0, LightSource><1103.519><538.4097><0.3912566~Environment~-942~-478~-251~-282.3975~1~0~None~0~0, LightSource><1586.561><597.5613><0.7065217~Environment~672~-494~103~-151.3975~1~0~None~0~0, LightBeam><976.3571><427.9193><46~452~608~447~834~-114~-186~-530~0.06304335~0~0~1~None~0~0, FairyParticleSettings><859.4301><409.6629><-51~-695.3397~0~1~1~0~1~1.448696~60~495.2173~40~100~5~30~0~360~0~0.1999999~0.1521739~0.2282609~0.05434782~0.1413043~1~0.1195652~7.790894~Pixel~SIN_IO~SIN_IO~0~0~0, LightSource><3393.086><1410.136><0.5217391~Environment~-628~-14~-212~-193.3975~1~0~None~0~0, LightBeam><3229.698><1319.529><30~358~331~353~369~2~-417~-215~0.1826086~0~1~1~None~0~0, CustomDecal><2356.744><112.5493><-15~137~629~125~626~-18~127~179~0.2934783~1~0~pepsow - the sow~0.4347826~0.25~0.2391304~0.25~0.3586957~0.25~0.3152174~0.25, ScavengerOutpost><3442.566><316.3265><14~171~-145~199.9995~0.4872659~80~95, DayNightSettings><3640.633><597.8378><5~8.660254~31~33, HangingPearls><3009.704><707.6945><, HangingPearls><2606.879><693.663><, HangingPearls><2834.361><661.3578><, HangingPearls><2142.348><684.3629><, HangingPearls><680.6128><738.6038><, HangingPearls><707.9268><735.6625><, ReliableSpear><1421.67><152.1832><, ReliableSpear><1650.728><64.19874><, ReliableSpear><1714.602><135.1339><, ReliableSpear><1176.566><196.0673><, ReliableSpear><1212.58><162.8943><, ReliableSpear><1327.857><127.8306><, ReliableSpear><1394.68><131.8126><, ReliableSpear><1625.947><177.0345><, ReliableSpear><1715.685><152.8109><, ReliableSpear><1817.653><178.1746><, ReliableSpear><2101.826><257.4014><, ReliableSpear><1993.068><231.6879><, ReliableSpear><2187.049><166.6938><, ReliableSpear><2152.07><195.6873><, 
+FadePalette: 10, 0.7391304, 0.5760869, 0.6413044, 0.6195652

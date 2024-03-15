@@ -1,0 +1,15 @@
+DangerType: Blizzard
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 5.605194E-45
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+BkgDroneVolume: 0
+EffectColorA: 6
+EffectColorB: 18
+Effects: BorderPushBack-1-265-61, DayNight-0.7173913-13-60, RoofTopView-1-257-8, PixelShift-0.5-20-20, HeatWave-0-30-30, 
+PlacedObjects: ScavengerOutpost><1986.3><123.5026><34~416~11~-44~0.01256979~82~51, ScavengerOutpost><1325.684><163.5791><-46~431~202~-149~0.3404427~21~26, ScavengerTreasury><1401.341><225.8717><-58~171, ScavengerTreasury><1758.486><217.9495><35~163, LanternOnStick><1331.086><280.0693><-32~-142, LanternOnStick><1223.802><265.2744><35~-136, LanternOnStick><1805.961><255.1962><21~-132, DayNightSettings><-5.615723><392.3398><5~8.660254~35~10, HangingPearls><367.6903><483.3115><, HangingPearls><398.3164><481.4387><, LanternOnStick><2098.013><299.5504><-96~-157, LanternOnStick><2028.195><269.7038><-41~-120, 
+AmbientSounds: OMNI><AM_ENV-LightWind.ogg><875.3513><655.8275><0.5108696><1, 
+FadePalette: 42, 0.1304348, 0.1304348, 0.1413043

@@ -1,0 +1,15 @@
+Template: LC_SettingsTemplate_Tower
+DangerType: Blizzard
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 5.235759E-11
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+BkgDroneVolume: 0
+EffectColorA: 14
+Effects: Advertisements-1-20-20, 
+PlacedObjects: LightSource><1848.385><429.1635><0.1086956~EffectColor1~112~137~-433~-342.3975~0~1~None~0~0, LightSource><1697.693><433.9495><0.1086956~EffectColor1~77~147~-546~-338.3975~0~1~None~0~0, LightSource><1542.301><437.9789><0.1086956~EffectColor1~41~131~133~-464.3975~0~1~None~0~0, LightSource><1395.672><440.1019><0.1086956~EffectColor1~52~159~21~-464.3975~0~1~None~0~0, LightSource><1230.427><439.8139><0.1086956~EffectColor1~48~148~-77~-460.3975~0~1~None~0~0, LightSource><1543.136><418.8525><0.1304348~EffectColor1~3072~425~72~-175.3975~0~0~None~0~0, LightFixture><647.1694><645.1115><RedLight~-95.6795~-199.0018~89, LightSource><2806.201><425.806><0.1413043~EffectColor1~13~144~-184~-446.3975~0~1~None~0~0, LightSource><2326.354><439.171><0.1413043~EffectColor1~23~148~28~-466.3975~0~1~None~0~0, LightSource><3812.599><444.8698><0.1304348~EffectColor1~-78~160~-132~-469.3975~0~1~None~0~0, LightSource><3318.552><427.0156><0.1304348~EffectColor1~43~167~-131~-449.3975~0~1~None~0~0, LightFixture><2530.678><701.1553><RedLight~106.3205~-210~39, LightFixture><2328.563><372.4399><RedLight~-278.6795~-292~9, LightSource><3554.571><425.3038><0.2283352~EffectColor1~-734~-434~-98~-325.3975~0~0~None~0~0, DeadTokenStalk><3322.1><570.7675><4~30, DeadTokenStalk><3262.447><548.1567><32~56, DeadTokenStalk><3413.32><524.58><-29~78, GreenToken><3356.892><496.6689><-10~108~118~-2~0~Artificer~~1~0~0~0~1~0~0, 
+AmbientSounds: OMNI><Deep Weird Wind.wav><871.3001><561.9938><0.2173913><1, SPOT><AM_IND-12thFloor.ogg><692.0948><525.3738><0.173913><1><3781.095><477.3738><-732.3553><-335.3553><0><1, SPOT><AM_ENV-WallHum.ogg><737.7673><429.8008><0.2391304><0.7847826><88.76727><403.8008><541.6447><-161.3553><0><0.4695654, 
+FadePalette: 17, 0.3586957, 0.3478261, 0.3478261, 0.3695652

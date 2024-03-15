@@ -18,6 +18,8 @@ using RegionKit.Modules.Misc;
 using UnityEngine.Assertions.Must;
 using IL.Expedition;
 using IL;
+using System.Globalization;
+using Menu;
 
 namespace NCRcatsmod
 {
@@ -34,6 +36,7 @@ namespace NCRcatsmod
         public int MarauderDidntCannibaliseCycles;
         public int MarauderCatfear;
         public int MarauderTrickster;
+        public bool PlayingRoc;
 
         public void OnEnable()
         {
@@ -103,7 +106,7 @@ namespace NCRcatsmod
 
             // pups!!
             On.AbstractRoom.RealizeRoom += AbstractRoom_RealizeRoom;
-            On.MoreSlugcats.SlugNPCAI.IUseARelationshipTracker_UpdateDynamicRelationship += UpdateDynamicRelationship;
+            //On.MoreSlugcats.SlugNPCAI.IUseARelationshipTracker_UpdateDynamicRelationship += UpdateDynamicRelationship;
 
             // ---------------------------------------------------- ROCCOCO STUFF ----------------------------------------------------
             // not unlocked initially
@@ -118,57 +121,311 @@ namespace NCRcatsmod
             // roccoco 'crafting'
             On.Player.SwallowObject += Player_SwallowObject;
 
+            //roccoco karma
+            On.Menu.SleepAndDeathScreen.FoodCountDownDone += SleepAndDeathScreen_FoodCountDownDone;
+            On.DeathPersistentSaveData.SaveToString += DeathPersistentSaveData_SaveToString;
         }
 
-        private CreatureTemplate.Relationship UpdateDynamicRelationship(On.MoreSlugcats.SlugNPCAI.orig_IUseARelationshipTracker_UpdateDynamicRelationship orig, SlugNPCAI self, RelationshipTracker.DynamicRelationship dRelation)
+        private string DeathPersistentSaveData_SaveToString(On.DeathPersistentSaveData.orig_SaveToString orig, DeathPersistentSaveData self, bool saveAsIfPlayerDied, bool saveAsIfPlayerQuit)
         {
-            Creature realizedCreature = dRelation.trackerRep.representedCreature.realizedCreature;
-            if ((realizedCreature as Player) != null && realizedCreature is Player && realizedCreature != null && self.creature.state.alive && 
-                (realizedCreature as Player).GetMarCat().IsMarauder)
+            if (PlayingRoc)
             {
-                if (!self.abstractAI.isTamed)
+                Debug.Log("Saving death persistent data " + saveAsIfPlayerDied.ToString() + " " + saveAsIfPlayerQuit.ToString());
+                if (self.fresh)
                 {
-                    int fearcheck;
-                    fearcheck = 0;
-                    if (MarauderCatfear == 0 && MarauderTrickster == 0)
+                    Debug.Log("saving death persistent data that hasn't been loaded properly!!!");
+                }
+                string text = "";
+                if (saveAsIfPlayerDied || saveAsIfPlayerQuit)
+                {
+                    text += "REDSDEATH<dpA>";
+                }
+                if (self.ascended)
+                {
+                    text += "ASCENDED<dpA>";
+                }
+                if (saveAsIfPlayerDied)
+                {
+                    text += "REINFORCEDKARMA<dpB>0<dpA>";
+                    if (self.reinforcedKarma)
                     {
-
-                    }
-                    else if (MarauderCannibalising)
-                    {
-                        fearcheck = MarauderCatfear + MarauderTrickster / 10;
+                        text += string.Format(CultureInfo.InvariantCulture, "KARMA<dpB>{0}<dpA>", self.karma);
                     }
                     else
                     {
-                        fearcheck = MarauderCatfear / 10;
+                        text += string.Format(CultureInfo.InvariantCulture, "KARMA<dpB>{0}<dpA>", self.karma + 1);
                     }
-
-                    if (fearcheck > 1)
+                }
+                else
+                {
+                    text = text + "REINFORCEDKARMA<dpB>" + (self.reinforcedKarma ? "1" : "0") + "<dpA>";
+                    text += string.Format(CultureInfo.InvariantCulture, "KARMA<dpB>{0}<dpA>", self.karma);
+                }
+                text += string.Format(CultureInfo.InvariantCulture, "KARMACAP<dpB>{0}<dpA>", self.karmaCap);
+                if (self.theMark)
+                {
+                    text += "HASTHEMARK<dpA>";
+                }
+                if (self.karmaFlowerPosition != null)
+                {
+                    WorldCoordinate worldCoordinate = self.karmaFlowerPosition.Value;
+                    string text2 = worldCoordinate.ResolveRoomName();
+                    string str = text;
+                    IFormatProvider invariantCulture = CultureInfo.InvariantCulture;
+                    string format = "FLOWERPOS<dpB>{0}.{1}.{2}.{3}<dpA>";
+                    object[] array = new object[4];
+                    int num = 0;
+                    object obj;
+                    if (text2 == null)
                     {
-                        fearcheck = 1;
-                    }
-
-                    if (MarauderTrickster <= 2 && fearcheck < 0.6)
-                    {
-                        return new CreatureTemplate.Relationship(CreatureTemplate.Relationship.Type.Afraid, fearcheck);
+                        worldCoordinate = self.karmaFlowerPosition.Value;
+                        obj = worldCoordinate.room.ToString();
                     }
                     else
                     {
-                        return new CreatureTemplate.Relationship(CreatureTemplate.Relationship.Type.Attacks, fearcheck);
+                        obj = text2;
+                    }
+                    array[num] = obj;
+                    array[1] = self.karmaFlowerPosition.Value.x;
+                    array[2] = self.karmaFlowerPosition.Value.y;
+                    array[3] = self.karmaFlowerPosition.Value.abstractNode;
+                    text = str + string.Format(invariantCulture, format, array);
+                }
+                text += "GHOSTS<dpB>";
+                bool flag = true;
+                foreach (KeyValuePair<GhostWorldPresence.GhostID, int> keyValuePair in self.ghostsTalkedTo)
+                {
+                    text += string.Format(CultureInfo.InvariantCulture, flag ? "{0}:{1}" : ",{0}:{1}", keyValuePair.Key, keyValuePair.Value);
+                    flag = false;
+                }
+                foreach (string text3 in self.ghostsTalkedToUnrecognized)
+                {
+                    text += (flag ? text3 : ("," + text3));
+                    flag = false;
+                }
+                text += "<dpA>";
+                if (self.songsPlayRecords.Count > 0)
+                {
+                    text += "SONGSPLAYRECORDS<dpB>";
+                    for (int i = 0; i < self.songsPlayRecords.Count; i++)
+                    {
+                        text += string.Format(CultureInfo.InvariantCulture, "{0}<dpD>{1}{2}", self.songsPlayRecords[i].songName, self.songsPlayRecords[i].cycleLastPlayed, (i < self.songsPlayRecords.Count - 1) ? "<dpC>" : "");
+                    }
+                    text += "<dpA>";
+                }
+                if (self.sessionTrackRecord.Count > 0)
+                {
+                    text += "SESSIONRECORDS<dpB>";
+                    for (int j = 0; j < self.sessionTrackRecord.Count; j++)
+                    {
+                        text = text + self.sessionTrackRecord[j].ToString() + ((j < self.sessionTrackRecord.Count - 1) ? "<dpC>" : "");
+                    }
+                    text += "<dpA>";
+                }
+                string text4 = self.winState.SaveToString(saveAsIfPlayerDied);
+                if (text4 != "")
+                {
+                    text = text + "WINSTATE<dpB>" + text4 + "<dpA>";
+                }
+                if (self.consumedFlowers.Count > 0)
+                {
+                    text += "CONSUMEDFLOWERS<dpB>";
+                    for (int k = 0; k < self.consumedFlowers.Count; k++)
+                    {
+                        text = text + self.consumedFlowers[k].ToString() + ((k < self.consumedFlowers.Count - 1) ? "<dpC>" : "");
+                    }
+                    text += "<dpA>";
+                }
+                text += "TUTMESSAGES<dpB>";
+                for (int l = 0; l < self.tutorialMessages.Count; l++)
+                {
+                    string str2 = text;
+                    DeathPersistentSaveData.Tutorial tutorial = self.tutorialMessages[l];
+                    text = str2 + ((tutorial != null) ? tutorial.ToString() : null);
+                    if (l < self.tutorialMessages.Count - 1)
+                    {
+                        text += ",";
                     }
                 }
-                else if (MarauderCannibalising)
+                text += "<dpA>";
+                text += "METERSSHOWN<dpB>";
+                for (int m = 0; m < self.endGameMetersEverShown.Count; m++)
                 {
-                    return new CreatureTemplate.Relationship(CreatureTemplate.Relationship.Type.Afraid, 0.2f);
+                    string str3 = text;
+                    WinState.EndgameID endgameID = self.endGameMetersEverShown[m];
+                    text = str3 + ((endgameID != null) ? endgameID.ToString() : null);
+                    if (m < self.endGameMetersEverShown.Count - 1)
+                    {
+                        text += ",";
+                    }
                 }
-                else 
+                text += "<dpA>";
+                if (self.foodReplenishBonus > 0)
                 {
+                    text += string.Format(CultureInfo.InvariantCulture, "FOODREPBONUS<dpB>{0}<dpA>", self.foodReplenishBonus);
+                }
+                if (self.worldVersion > 0)
+                {
+                    text += string.Format(CultureInfo.InvariantCulture, "DDWORLDVERSION<dpB>{0}<dpA>", self.worldVersion);
+                }
+                text += string.Format(CultureInfo.InvariantCulture, "DEATHS<dpB>{0}<dpA>", self.deaths);
+                text += string.Format(CultureInfo.InvariantCulture, "SURVIVES<dpB>{0}<dpA>", self.survives);
+                text += string.Format(CultureInfo.InvariantCulture, "QUITS<dpB>{0}<dpA>", self.quits + (saveAsIfPlayerQuit ? 1 : 0));
+                if (self.pebblesHasIncreasedRedsKarmaCap)
+                {
+                    text += "PHIRKC<dpA>";
+                }
+                if (self.unlockedGates != null && self.unlockedGates.Count > 0)
+                {
+                    text += "UNLOCKEDGATES<dpB>";
+                    for (int n = 0; n < self.unlockedGates.Count; n++)
+                    {
+                        text = text + self.unlockedGates[n] + ((n < self.unlockedGates.Count - 1) ? "<dpC>" : "");
+                    }
+                    text += "<dpA>";
+                }
+                if (self.deathPositions.Count > 0)
+                {
+                    text += "DEATHPOSS<dpB>";
+                    for (int num2 = 0; num2 < self.deathPositions.Count; num2++)
+                    {
+                        string str4 = text;
+                        WorldCoordinate worldCoordinate = self.deathPositions[num2];
+                        text = str4 + worldCoordinate.SaveToString() + ((num2 < self.deathPositions.Count - 1) ? "<dpC>" : "");
+                    }
+                    text += "<dpA>";
+                }
+                if (ModManager.MSC)
+                {
+                    if (self.altEnding)
+                    {
+                        text += "ALTENDING<dpA>";
+                    }
+                    if (self.ripPebbles)
+                    {
+                        text += "ZEROPEBBLES<dpA>";
+                    }
+                    if (self.ripMoon)
+                    {
+                        text += "LOOKSTOTHEDOOM<dpA>";
+                    }
+                    if (self.SLSiren)
+                    {
+                        text += "SLSIREN<dpA>";
+                    }
+                    text += string.Format(CultureInfo.InvariantCulture, "DEATHTIME<dpB>{0}<dpA>", self.deathTime);
+                    if (self.friendsSaved > 0)
+                    {
+                        text += string.Format(CultureInfo.InvariantCulture, "FRIENDSAVEBONUS<dpB>{0}<dpA>", self.friendsSaved);
+                    }
+                    text += "CHATLOGS<dpB>";
+                    for (int num3 = 0; num3 < self.chatlogsRead.Count; num3++)
+                    {
+                        string str5 = text;
+                        ChatlogData.ChatlogID chatlogID = self.chatlogsRead[num3];
+                        text = str5 + ((chatlogID != null) ? chatlogID.ToString() : null);
+                        if (num3 < self.chatlogsRead.Count - 1)
+                        {
+                            text += ",";
+                        }
+                    }
+                    text += "<dpA>";
+                    text += "PREPEBCHATLOGS<dpB>";
+                    string str6 = text;
+                    text += "<dpA>";
+                }
+                if (ModManager.MMF)
+                {
+                    text += string.Format(CultureInfo.InvariantCulture, "TIPS<dpB>{0}<dpA>", self.tipCounter);
+                    text += string.Format(CultureInfo.InvariantCulture, "TIPSEED<dpB>{0}<dpA>", (self.tipSeed == 0) ? ((int)(UnityEngine.Random.value * 100f)) : self.tipSeed);
+                }
+                foreach (string str7 in self.unrecognizedSaveStrings)
+                {
+                    text = text + str7 + "<dpA>";
+                }
+                return text;
+            }
+            else return orig(self, saveAsIfPlayerDied, saveAsIfPlayerQuit);
+        }
 
-                    return orig(self, dRelation);
+        private void SleepAndDeathScreen_FoodCountDownDone(On.Menu.SleepAndDeathScreen.orig_FoodCountDownDone orig, Menu.SleepAndDeathScreen self)
+        {
+            if (PlayingRoc)
+            {
+                Debug.Log("Karma ladder move, ROCCOCO VERSION");
+                if (self.IsSleepScreen)
+                {
+                    self.karmaLadder.GoToKarma(self.karma.x - 1, true);
+                    if (self.showFlower && self.scene != null && (self.scene as InteractiveMenuScene).timer < 0)
+                    {
+                        (self.scene as InteractiveMenuScene).timer = 0;
+                    }
+                }
+                else if (self.IsAnyDeath)
+                {
+                    self.karmaLadder.GoToKarma(self.karma.x + 1, true);
+                    if (self.showFlower && self.scene != null && (self.scene as InteractiveMenuScene).timer < 0)
+                    {
+                        (self.scene as InteractiveMenuScene).timer = 0;
+                    }
+                }
+                if (self.starvedLabel != null)
+                {
+                    self.starvedWarningCounter = 0;
                 }
             }
-            return orig(self, dRelation);
+            else orig(self);
         }
+
+        //private CreatureTemplate.Relationship UpdateDynamicRelationship(On.MoreSlugcats.SlugNPCAI.orig_IUseARelationshipTracker_UpdateDynamicRelationship orig, SlugNPCAI self, RelationshipTracker.DynamicRelationship dRelation)
+        //{
+        //Creature realizedCreature = dRelation.trackerRep.representedCreature.realizedCreature;
+        //if ((realizedCreature as Player) != null && realizedCreature is Player && realizedCreature != null && self.creature.state.alive && 
+        //(realizedCreature as Player).GetMarCat().IsMarauder)
+        //{
+        //if (!self.abstractAI.isTamed)
+        //{
+        //int fearcheck;
+        //fearcheck = 0;
+        //if (MarauderCatfear == 0 && MarauderTrickster == 0)
+        //{
+
+        //  }
+        //  else if (MarauderCannibalising)
+        //  {
+        //      fearcheck = MarauderCatfear + MarauderTrickster / 10;
+        //  }
+        //  else
+        // {
+        //     fearcheck = MarauderCatfear / 10;
+        //  }
+
+        //  if (fearcheck > 1)
+        //  {
+        //      fearcheck = 1;
+        // }
+
+        //if (MarauderTrickster <= 2 && fearcheck < 0.6)
+        //{
+        //   return new CreatureTemplate.Relationship(CreatureTemplate.Relationship.Type.Afraid, fearcheck);
+        //  }
+        //  else
+        // {
+        //         return new CreatureTemplate.Relationship(CreatureTemplate.Relationship.Type.Attacks, fearcheck);
+        //    }
+        //  }
+        //  else if (MarauderCannibalising)
+        // {
+        //     return new CreatureTemplate.Relationship(CreatureTemplate.Relationship.Type.Afraid, 0.2f);
+        // }
+        // else 
+        //{
+
+        //return orig(self, dRelation);
+        //}
+        //}
+        //return orig(self, dRelation);
+        //}
 
         private void AbstractRoom_RealizeRoom(On.AbstractRoom.orig_RealizeRoom orig, AbstractRoom self, World world, RainWorldGame game)
         {
@@ -284,7 +541,7 @@ namespace NCRcatsmod
         {
             if (i.value == "NCRRoc")
             {
-                return true;
+                return false;
             }
             else return orig(i);
         }
@@ -652,7 +909,7 @@ namespace NCRcatsmod
                 if (MarauderCannibalising)
                 {
                     BodyChunk firstChunk = spear.firstChunk;
-                    firstChunk.vel.x = firstChunk.vel.x * 2f;
+                    firstChunk.vel.x = firstChunk.vel.x * 1.7f;
                     spear.spearDamageBonus = 2.5f;
                     spear.room.AddObject(new Spark(spear.thrownPos, firstChunk.vel, UnityEngine.Color.Lerp(new UnityEngine.Color(1f, 0.2f, 0f), new UnityEngine.Color(1f, 1f, 1f), UnityEngine.Random.value * 0.5f), null, 19, 47));
                     spear.room.AddObject(new Spark(spear.thrownPos, firstChunk.vel, UnityEngine.Color.Lerp(new UnityEngine.Color(1f, 0.2f, 0f), new UnityEngine.Color(1f, 1f, 1f), UnityEngine.Random.value * 0.5f), null, 19, 47));
@@ -667,7 +924,7 @@ namespace NCRcatsmod
                 else
                 {
                     //im weeping. it looks so stupid. its beautiful
-                    spear.throwModeFrames = 2;
+                    spear.throwModeFrames = 4;
                     spear.spearDamageBonus = 0.2f;
                     Debug.Log("Marauder spear thrown while NOT malnourished");
                 }
@@ -953,6 +1210,15 @@ namespace NCRcatsmod
             {
                 self.GetRocCat().IsRocCat = true;
                 self.playerState.isPup = true;
+            }
+
+            if (self.room.game.session is StoryGameSession && self.room.game.session.characterStats.name.value == "NCRRoc")
+            {
+                PlayingRoc = true;
+            }
+            else
+            {
+                PlayingRoc = false;
             }
         }
 

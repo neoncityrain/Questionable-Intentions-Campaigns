@@ -1,0 +1,13 @@
+Template: LC_SettingsTemplate_Inside
+DangerType: Blizzard
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 8.55177E-09
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Effects: SkyAndLightBloom-0-30-30, LightBurn-0.2826087-11-129, Darkness-0.4565217-277-79, DayNight-0.9673913-287-22, 
+PlacedObjects: FairyParticleSettings><328.6475><1050.865><-979~-241.3398~0~1~1~0~1~1.448696~60~495.2173~40~100~5~30~0~360~0~0.1999999~0.1521739~0.2282609~0.05434782~0.1413043~1~0.1195652~7.790894~Pixel~SIN_IO~SIN_IO~0~0~0, LightSource><687.5541><887.057><0.4021735~Environment~-771~337~-253~51.60254~1~0~None~0~0, LightSource><870.0615><251.5667><0.423913~Environment~-813~380~-642~112.6025~1~0~None~0~0, DayNightSettings><764.2966><400.3055><5~8.660254~31~33, UniqueDataPearl><1135.76><368.554><-385~94~0~0~LC~0, CentipedeAttractor><862.9948><1188.55><0~100, CentipedeAttractor><960.1794><259.9116><0~100, 
+AmbientSounds: OMNI><AM_ENV-LightWind.ogg><880.1393><655.5834><0.06521739><0.1978261, OMNI><AM_ENV-WallHum.ogg><879.5501><580.9927><0.1630435><0.8239135, OMNI><MSC-UnrelentingBreakage.ogg><705.6381><654.8947><0.173913><0.2565217, SPOT><Deep Weird Wind.wav><707.8345><540.3877><0.2934783><1><97.83453><-12.61234><499.6447><287.6447><0><0.7630436, SPOT><MSC-LowGroans.ogg><881.9472><468.5334><0.2717391><0.276087><1376.947><499.5334><-376.3553><124.6447><0><0.3391306, 
+FadePalette: 60, 0.6956522, 0.6521739

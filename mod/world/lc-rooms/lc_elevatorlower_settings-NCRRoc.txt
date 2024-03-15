@@ -1,0 +1,17 @@
+Template: LC_SettingsTemplate_Tower
+DangerType: Blizzard
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 3.898172E-19
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0
+BkgDroneVolume: 0
+Palette: 60
+EffectColorA: 18
+Effects: SkyAndLightBloom-0-20-15, Darkness-0-19-69, ZeroG-0.5108696-24-124, 
+PlacedObjects: FairyParticleSettings><206.2209><2503.302><-857~20.66025~0~1~1~0~1~1.448696~60~495.2173~40~100~5~30~0~360~0~0.1999999~0.1521739~0.2282609~0.05434782~0.1413043~1~0.1195652~7.790894~Pixel~SIN_IO~SIN_IO~0~0~0, LightSource><215.8664><2603.851><0.1956522~Environment~110~237~413.0001~-65.39746~1~0~None~0~0, LightSource><586.6625><2431.866><0.2826092~Environment~-327~296~38~349.6025~1~0~None~0~0, LightSource><460.6703><2246.067><0.4130435~Environment~120~246~164~413.6025~1~0~None~0~0, LightSource><235.2098><2007.804><0.5326087~Environment~203~108~50~86.60254~1~0~None~0~0, LightFixture><13.44495><319.0577><RedLight~-43.67949~-288~45, LightSource><14.05896><323.1907><0.4347826~EffectColor1~1103~1178~-46~-205.3975~0~0~Fade~0.5217391~0, LightSource><16.58978><327.3213><0.1304348~EffectColor1~1103~-303~319~-244.3975~0~0~None~0~0, LightFixture><355.4122><1313.93><RedLight~17.32051~-10~15, LightFixture><946.8706><1113.153><RedLight~17.32051~-10~42, LightFixture><916.1029><1928.328><RedLight~17.32051~-10~81, LightSource><360.9257><1318.064><0.1630435~EffectColor1~652~-424~-63~-223.3975~0~0~None~0~0, DevToken><54.33521><438.3867><59~-98~0~0~0~~~0~0~0~1~0~0~0~1, 
+AmbientSounds: SPOT><SO_IND-WeirdVent.ogg><870.6475><531.9218><0.2934783><0.3543478><551.6475><-13.07825><-628.3553><514.6447><0><0.6869566, SPOT><AM_WIN-HowlingWnd.ogg><695.7358><529.5505><0.4021739><0.3543478><549.7358><-17.44946><-501.3553><162.6447><0><0.8173915, SPOT><AM_ENV-LightWind.ogg><699.3805><416.3396><0.25><1><549.3805><2996.34><-522.3553><-396.3553><0><1, 
+FadePalette: 10, 0.2934783, 0.4347826, 0.6195652, 0.8152174

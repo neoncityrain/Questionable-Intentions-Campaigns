@@ -1,0 +1,14 @@
+DangerType: Blizzard
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 2.454064E-35
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 1
+Grime: 0.09782609
+EffectColorA: 7
+Effects: LightBurn-0-273-3, DayNight-0.3586957-20-54, RoofTopView-1-292-58, HeatWave-0-20-20, 
+PlacedObjects: LightSource><566.8721><254.8416><0.1630435~EffectColor1~-79~39~-328~190.6025~1~1~None~0~0, SeedCob><753.5543><496.7137><300~-375~7~10, CustomDecal><613.363><121.8542><42~140~276~107~245~-63~317~186~0~1~1~BigM~0.4565217~0.8260869~0.4565217~1~0.4565217~0.75~0.4565217~0.9239131, SuperStructureFuses><150.656><78.87512><64~100, CustomDecal><532.441><416.6909><-35~75~53~118~86~36~452~-418~0.2173913~1~0~ScavMark Ghost~0.4347826~0.4347826~0.75~0.2173913~0.3369565~0.3043478~0~0.4347826, DayNightSettings><247.6413><310.1416><5~8.660254~35~10, 
+FadePalette: 42, 0.04347826

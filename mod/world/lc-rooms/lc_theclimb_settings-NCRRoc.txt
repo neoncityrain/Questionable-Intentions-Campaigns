@@ -1,0 +1,14 @@
+DangerType: Blizzard
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 1.002132E-17
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0
+Grime: 0.1413043
+EffectColorA: 10
+Effects: DayNight-0.4673913-17-55, RoofTopView-1-282-13, HeatWave-0-20-20, 
+PlacedObjects: LightSource><756.4998><679.7><0.2826079~Environment~305~-155~-149~-176.3975~1~0~None~0~0, LightSource><733.8002><120.4919><0.2826087~Environment~401~273~50~86.60254~1~0~None~0~0, LightSource><1059.449><376.5186><0.2717389~Environment~-347~10~-467.9993~-77.39746~1~0~None~0~0, LightSource><1098.369><727.5988><0.4021739~Environment~-315~-23~-265~-193.3975~1~0~None~0~0, LightSource><332.7><88.50342><0.2608696~Environment~-333~193~50~86.60254~1~0~None~0~0, LightSource><834.6631><1255.93><0.5760869~Environment~-238~-463~50~86.60254~1~0~None~0~0, SuperStructureFuses><-9.050232><1890.694><79~142, CustomDecal><476.8862><2521.665><2~396~425~393~418~-3~-445~-119~0.6413044~1~0~CityRed~0.5~0~0.5~0~0.5~0~0.5~0, DayNightSettings><513.933><3451.169><5~8.660254~35~10, CustomDecal><247.0543><2750.709><-28~215~181~242~186~0~201~-272~0~1~0~SpecialEcho~0.5~0.1956522~0.7826087~0.07608695~0.3043478~0.05434782~0.07608695~0.05434782, DevToken><550.7426><1301.55><1~-61~0~0~0~LC~~0~0~0~1~0~0~0~1, 
+FadePalette: 42, 0.07608695, 0.1847826, 0.1630435, 0.09782609, 0.04347826

@@ -4,7 +4,7 @@
 	"version": "0.1",
 	"authors": "NeonCityRain",
 	"description": "Adds some unique slugcats and campaigns to the game.<LINE>This mod is actively getting updates.",
-	"requirements": [ "slime-cubed.slugbase", "moreslugcats", "regionkit", "fisobs" ],
-	"requirements_names": [ "SlugBase", "More Slugcats", "Region Kit", "Fisobs" ],
+	"requirements": [ "slime-cubed.slugbase", "moreslugcats", "regionkit", "pom", "fisobs" ],
+	"requirements_names": [ "SlugBase", "More Slugcats", "Region Kit", "POM", "Fisobs" ],
 	"tags" : ["Campaigns", "Custom Slugcat"]
 }

@@ -1,0 +1,16 @@
+Template: LC_SettingsTemplate_Inside
+DangerType: Blizzard
+RainIntensity: 0
+RumbleIntensity: 0.1086956
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 3.06208E-21
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.173913
+BkgDroneVolume: 0
+EffectColorA: 11
+EffectColorB: 18
+Effects: FairyParticles-0.2608696-24-76, Darkness-0.3043478-23-131, SkyAndLightBloom-0.0326087-26-24, ZeroG-0.3043478-282-131, DayNight-0.7282609-282-20, RoofTopView-1-288-76, PixelShift-0.5-40-40, 
+PlacedObjects: FairyParticleSettings><338.1199><235.84><-986~20.66025~0~1~1~0~1~1.448696~60~495.2173~40~100~5~30~0~360~0~0.1999999~0.1521739~0.2282609~0.05434782~0.1413043~1~0.1195652~7.790894~Pixel~SIN_IO~SIN_IO~0~0~0, LightSource><501.0585><2312.692><0.07608695~Environment~525~673~50~86.60254~1~1~None~0~0, LightSource><493.3697><2594.091><0.4565217~Environment~519~346~50~86.60254~1~0~None~0~0, LightSource><514.3055><2118.808><0.1086956~Environment~253~-343~-628~-95.39746~1~1~None~0~0, LightSource><550.8026><1781.968><0.5~Environment~515~241~-663~126.6025~1~0~None~0~0, LightSource><508.0505><1674.485><0.1086956~Environment~436~430~50~86.60254~1~1~None~0~0, LightSource><501.1977><881.9696><0.3478261~Environment~-656~469~-601~184.6025~1~0~None~0~0, LightSource><582.3184><1378.812><0.1521739~Environment~194~-333~-203~-231.3975~1~1~None~0~0, LightSource><530.448><765.2781><0.1413043~Environment~337~487~50~86.60254~1~1~None~0~0, LightSource><626.1844><396.6726><0.1413044~Environment~511~254~12~137.6025~1~1~None~0~0, LightSource><528.4984><29.70002><0.1630435~Environment~688~319~50~86.60254~1~0~None~0~0, DayNightSettings><570.7086><2824.804><5~8.660254~31~33, 
+FadePalette: 60, 0.8586956, 0.8478261, 0.8913044, 0.9673913

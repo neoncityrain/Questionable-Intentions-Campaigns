@@ -16,7 +16,7 @@
 				"arena" : ["20514E", "8D5E58", "FFB787", "E6E6E6"]
 			},
 			{
-				"name" : "Patterns (semi-implimented)",
+				"name" : "Cold",
 				"story" : "DFEAED",
 				"arena" : ["C8D4E0", "FFFBAF", "410203", "B2A9C1"]
 			},
@@ -31,6 +31,7 @@
 		"walk_speed": [ 1.2, 1.5 ],
 		"crouch_stealth": [ 1.0, 0.6 ],
 		"lung_capacity": [ 1.1, 1.4 ],
+		"maul_damage": 1.7,
 		"can_maul": true,
 		"auto_grab_batflies": false,
 		
@@ -38,11 +39,11 @@
 		"expedition_description": "A thief and eater of carrion.<LINE>Starving gives a boost to power, but you are weak otherwise.",
 		
 		"karma": 0,
-		"karma_cap": 2,
+		"karma_cap": 4,
 		"food_min": 6,
 		"food_max": 7,
 		
-		"world_state": ["NCRMarauder", "Rivulet"],
+		"world_state": [ "NCRMarauder", "Rivulet" ],
 
 		"alignments": {
 			"Lizards": {

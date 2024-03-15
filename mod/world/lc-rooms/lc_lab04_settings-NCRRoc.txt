@@ -1,0 +1,15 @@
+Template: LC_SettingsTemplate_Tower
+DangerType: Blizzard
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 1.192573E-11
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Clouds: 0.6739131
+BkgDroneVolume: 0
+Effects: SunBlock-1-20-20, SuperStructureProjector-0.1630435-19-77, FairyParticles-0.04347826-20-133, SSSwarmers-0.0326087-283-76, BrokenZeroG-0.7717391-30-30, 
+PlacedObjects: LightSource><467.0988><390.8691><0.1304348~EffectColor1~48~185~50~86.60254~0~1~Fade~0.75~0, LightSource><501.3123><200.1901><0.1630435~EffectColor1~74~175~50~86.60254~0~1~None~0~0, LightSource><440.4008><592.8264><0.2934783~EffectColor1~1001~484~236~-561.3975~0~0~Fade~0.8586956~0, LightFixture><20.82971><395.8165><RedLight~17.32051~-10~83, FairyParticleSettings><197.6852><122.5754><-849~80.66025~1~1.521739~2.956523~0.08695652~6.220735~9.434219~43.47826~326.087~10.86957~97.82609~5~190.4349~0~360~0.3586957~0.3847829~0.4673913~0.4456522~0.1304348~0.1630435~0.7282609~1~5.516455~AncientGlyph~SIN_IO~SIN_IO~67.3913~0.3152174~0, WallMycelia><274.0962><536.1221><0~100, WallMycelia><570.0604><512.1864><0~100, WallMycelia><733.2115><480.4463><0~100, 
+AmbientSounds: SPOT><AM_IND-DeepHum.ogg><874.0577><528.195><0.5><1><488.0577><259.195><-200.3553><-195.3553><0><0.2739132, 
+FadePalette: 10, 0.8043478

@@ -1,0 +1,14 @@
+DangerType: Blizzard
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 0
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+EffectColorA: 8
+EffectColorB: 18
+Effects: DayNight-0.2065217-13-53, LightBurn-0.2717391-270-8, Dustpuffs-0-13-113, HeatWave-0-20-20, 
+PlacedObjects: DayNightSettings><-54.508><436.0502><5~8.660254~10~35, LightSource><1372.77><208.051><0.1304348~Environment~33~272~-191~351.6017~1~1~None~0~0, LightSource><1393.833><137.0677><0.3152174~Environment~-495~663~-244~-200.3975~1~0~None~0~0, LightSource><1905.423><222.1002><0.1195652~Environment~299~-258~108~-286.3975~1~1~None~0~0, LightSource><2033.245><127.8><0.3695652~Environment~222~515~-45~-222.3975~1~0~None~0~0, LightSource><2799.46><178.054><0.05434782~Environment~-709~555~-470~-272.3975~1~1~None~0~0, LightSource><2685.654><508.3772><0.1304348~Environment~-168~-433~-428~-585.3975~1~1~None~0~0, LightSource><2740.35><108.1181><0.4347826~Environment~-647~411~-305~-210.3975~1~0~None~0~0, LanternOnStick><3704.406><347.3746><96~-195, LanternOnStick><1166.05><259.502><16~-246, LanternOnStick><1738.264><257.3005><-30~-218, LanternOnStick><3220.06><394.4371><-38~-213, LanternOnStick><2434.384><277.6483><38~-223, LanternOnStick><2162.197><287.6928><-53~-219, ScavengerOutpost><3660.439><83.90503><-29~411~-2~314~0.09598541~17~17, 
+FadePalette: 8, 0.6413044, 0.6086956, 0.5978261, 0.6195652
+RoomSpecificScriptActive: ON

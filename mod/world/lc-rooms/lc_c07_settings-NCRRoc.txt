@@ -1,0 +1,16 @@
+DangerType: Blizzard
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 2.165579E-10
+SecondWaveLength: 0.1666667
+SecondWaveAmplitude: 0
+Grime: 0.1304348
+BkgDroneVolume: 0.06956515
+Palette: 30
+EffectColorA: 10
+EffectColorB: 2
+Effects: Advertisements-1-286-66, Dustpuffs-1-290-11, DayNight-0.6195652-569-68, RoofTopView-1-21-76, HeatWave-0-20-20, 
+PlacedObjects: CustomDecal><954.322><72.34161><-5~235~237~231~224~-5~-295.9999~23~0.326087~1~0~CityRed~0.4021739~1~0.4021739~1~0.4021739~1~0.4021739~1, CustomDecal><298.3987><598.0776><-7~229~462~233~459~0~73~-493~0.2608696~1~0~CityRed~0.4021737~0~0.4021737~0~0.4021737~0~0.4021737~0, CustomDecal><1047.303><1393.693><0~210~328~206~319~1~-923~-325~0.326087~1~0~CityRed~0.7065217~0~0.7065217~0~0.7065217~0~0.7065217~0, DayNightSettings><749.8029><1135.966><5~8.660254~35~10, DangleFruit><1055.473><1013.645><0~0~2~3, DangleFruit><1083.328><1046.435><0~0~2~3, DangleFruit><1181.325><1041.404><0~0~2~3, DangleFruit><1110.401><1006.674><0~0~2~3, 
+FadePalette: 42, 0.08695652, 0.1086956
