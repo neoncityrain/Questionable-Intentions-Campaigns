@@ -10,7 +10,7 @@ SecondWaveLength: 1
 SecondWaveAmplitude: 0.0001
 Clouds: 1
 Palette: 28
-Effects: Fog-1-54.18958-70.53333, 
+Effects: Fog-1-54.18958-70.53333, SkyAndLightBloom-0-30-30, 
 PlacedObjects: FairyParticleSettings><12.82651><308.0995><-614.0001~-689.3395~0~1~1~0~1~1.448696~60~495.2173~40~100~5~30~0~360~0~0.1999999~0.1521739~0.2282609~0.05434782~0.1413043~1~0.1195652~7.790894~Pixel~SIN_IO~SIN_IO~0~0~0, DayNightSettings><621.6829><411.8309><5~8.660254~35~10, SnowSource><696.6419><128.4182><Radial~-15~147~50~86.60254~0.4891304~0.3369565, 
 FadePalette: 42, 0.1304348
 WetTerrain: OFF

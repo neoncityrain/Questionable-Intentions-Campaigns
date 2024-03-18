@@ -2,14 +2,15 @@ DangerType: Blizzard
 CeilingDrips: 0.0592051
 RainIntensity: 1
 RumbleIntensity: 0
-WaveSpeed: 0.5
-WaveLength: 1
-WaveAmplitude: 5.605194E-45
+WaveSpeed: 0.5170019
+WaveLength: 0.9914991
+WaveAmplitude: 2.558593E-05
 SecondWaveLength: 0.1666667
 SecondWaveAmplitude: 0
+Clouds: 0.9530796
 Grime: 0.07608695
 Palette: 28
 EffectColorA: 18
 Effects: DayNight-0.4130435-285-73, Dustpuffs-1-541-54, HeatWave-0-20-20, DustWave-1-30-30, Fog-1-40-40, 
-PlacedObjects: LightFixture><411.6457><1986.113><RedLight~17.32051~-10~27, LightSource><412.163><1987.57><1~EffectColor1~17~125~50~86.60254~1~0~None~0~0, DayNightSettings><-64.40027><2088.631><5~8.660254~35~10, 
+PlacedObjects: LightFixture><411.6457><1986.113><RedLight~501.3205~193~27, LightSource><412.163><1987.57><0.7608696~EffectColor1~17~125~471~171.6025~1~0~Flash~0.05434782~0, DayNightSettings><-64.40027><2088.631><5~8.660254~35~10, SnowSource><298.8522><2008.828><Radial~320~23~50~86.60254~0.5978261~0.1630435, SnowSource><409.0685><2294.166><Radial~30~-139~141~-241.3975~0.6847826~0.2826087, SnowSource><350.5535><1659.787><Radial~89~252~50~86.60254~0.6195652~0.4565217, SnowSource><202.543><1162.695><Radial~400~137~50~86.60254~0.5869565~0.7173913, SnowSource><122.4003><986.8819><Radial~114~24~50~86.60254~0.7391304~0.3913043, SnowSource><408.7><964.2551><Radial~27~440~50~86.60254~0.5217391~0.5434783, SnowSource><758.4138><129.1352><Radial~-455~393~50~86.60254~0.3804348~0.1304348, SnowSource><399.1068><634.8896><Radial~181~-265~81~-222.3975~0.7934783~0.1630435, SnowSource><256.9334><224.1702><Radial~64~177~50~86.60254~0.7173913~0.5434783, LanternOnStick><208.9165><271.8891><20~-111, LanternOnStick><269.8881><331.1447><-25~-172, 
 FadePalette: 42, 0.1304348, 0.1413043, 0.1195652

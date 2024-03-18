@@ -4,11 +4,11 @@ RainIntensity: 0
 RumbleIntensity: 0
 WaveSpeed: 0.5
 WaveLength: 1
-WaveAmplitude: 1.403775E-09
+WaveAmplitude: 5.488534E-30
 SecondWaveLength: 0.1666667
 SecondWaveAmplitude: 0
 BkgDroneVolume: 0
-Effects: Darkness-0.5978261-17-81, BrokenZeroG-0.2934783-20-20, 
+Effects: Darkness-0.5978261-17-81, Fog-1-20-20, 
 PlacedObjects: LightFixture><325.7903><1743.446><RedLight~17.32051~-10~11, LightFixture><112.5508><2158.237><RedLight~17.32051~-10~96, SuperStructureFuses><231.6949><1932.044><77~111, SuperStructureFuses><469.6954><2151.042><212~51, SuperStructureFuses><770.051><1090.48><110~51, SuperStructureFuses><411.0551><1289.545><295~71, LightFixture><148.1832><958.5802><RedLight~17.32051~-10~53, LightFixture><723.8512><1259.366><RedLight~17.32051~-10~2, SuperStructureFuses><470.9186><226.1827><39~124, SuperStructureFuses><390.8192><229.9145><43~139, LightFixture><112.6239><350.8447><RedLight~17.32051~-10~87, LightFixture><674.5651><209.9237><RedLight~17.32051~-10~64, 
 AmbientSounds: SPOT><SO_SFX-DataTrans2.ogg><868.0709><523.411><0.1956522><0.823913><118.0709><2120.411><207.6447><-211.3553><0><0.6326088, SPOT><Deep Weird Wind.wav><860.175><413.9032><0.2826087><0.3543478><991.175><78.90323><-312.3553><66.64465><0><0.6000001, SPOT><SO_SFX-Data4.ogg><690.3228><523.4363><0.2934783><0.8826087><441.3228><314.4363><-89.35535><-120.3553><0><0.1, SPOT><SO_SFX-Data2.ogg><691.2612><417.9497><0.423913><0.6869565><645.2612><2204.95><-154.3553><-224.3553><0><0.3500001, SPOT><SO_SFX-DataTrans2.ogg><695.597><298.6749><0.1847826><0.9217392><796.597><1217.675><-236.3553><-218.3553><0><0.2630436, 
 FadePalette: 60, 0.6847826, 0.6956522, 0.8043478

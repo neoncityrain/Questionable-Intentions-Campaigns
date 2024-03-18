@@ -1,14 +1,14 @@
 DangerType: Blizzard
-RainIntensity: 0
+RainIntensity: 1
 RumbleIntensity: 0
-WaveSpeed: 0.5
-WaveLength: 1
-WaveAmplitude: 5.106686E-22
+WaveSpeed: 0.5483307
+WaveLength: 0.9758346
+WaveAmplitude: 2.558593E-05
 SecondWaveLength: 0.1666667
 SecondWaveAmplitude: 0
-Clouds: 0.1086956
+Clouds: 0.9438862
 EffectColorA: 10
-Effects: DayNight-0.4673913-15-55, RoofTopView-1-266-82, HeatWave-0-20-20, 
-PlacedObjects: SuperStructureFuses><245.135><106.6476><68~83, DayNightSettings><-22.45972><379.0541><5~8.660254~35~10, 
+Effects: DayNight-0.4673913-15-55, HeatWave-0-20-20, DustWave-1-242.0146-0.8444405, Coldness-0-220.7104-30.75555, Fog-1-276.2438-15.15556, LightBurn-0.100532-30-30, 
+PlacedObjects: SuperStructureFuses><245.135><106.6476><68~83, DayNightSettings><-22.45972><379.0541><5~8.660254~35~10, SnowSource><791.321><215.0893><Radial~-611~82~50~86.60254~0.5326087~0.1195652, SnowSource><339.6168><349.8376><Radial~393~-16~50~86.60254~0.5~0.1956522, SnowSource><804.0049><668.3><Radial~-310~-129~-13~-325.3975~1~0, 
 AmbientSounds: OMNI><AM_WIN-StrongWnd2.ogg><880.053><585.0344><0.4130435><1, SPOT><AM_ENV-WallHum.ogg><706.0261><542.8017><0.3913043><1><-78.97394><265.8017><437.6447><-33.35535><0><1, 
 FadePalette: 42, 0.1086956

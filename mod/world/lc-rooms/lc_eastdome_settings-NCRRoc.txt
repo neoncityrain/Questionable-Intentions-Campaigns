@@ -1,14 +1,14 @@
 DangerType: Blizzard
-RainIntensity: 0
+RainIntensity: 1
 RumbleIntensity: 0
-WaveSpeed: 0.5
-WaveLength: 1
-WaveAmplitude: 2.363798E-31
+WaveSpeed: 0.5607566
+WaveLength: 0.9696217
+WaveAmplitude: 2.558593E-05
 SecondWaveLength: 0.1666667
 SecondWaveAmplitude: 0
 BkgDroneVolume: 0
 EffectColorA: 15
 EffectColorB: 18
-Effects: DayNight-0.7173913-20-55, RoofTopView-1-273-5, HeatWave-0-20-20, 
-PlacedObjects: DayNightSettings><47.34418><1146.824><5~8.660254~35~10, 
+Effects: DayNight-0.7173913--72.48958--35.31111, HeatWave-0--8.458328--39.02222, Fog-1-260.5125--11.24444, DustWave-1-244.9--41.06667, 
+PlacedObjects: DayNightSettings><47.34418><1146.824><5~8.660254~35~10, SnowSource><506.7269><479.7958><Radial~374.2271~-2.400024~50~86.60254~0.6210712~0.5413268, SnowSource><110.8505><1382.936><Radial~483.0802~-243.4667~136.7979~-143.7975~0.5978705~0.2706624, SnowSource><179.6171><974.4199><Radial~294.5437~87.20004~50~86.60254~0.497339~0.1701315, SnowSource><992.3137><602.6549><Radial~-293.1208~-134.6667~-713.3948~-226.2863~0.6674705~0.2319973, SnowSource><143.8195><170.4418><Radial~174.3073~170.4~50~86.60254~0.6442712~0.1005322, SnowSource><757.522><160.5483><Radial~-425.4521~83.64444~50~86.60254~0.5901383~0.2629302, SnowSource><141.6974><434.2324><Radial~141.5803~56.62219~50~86.60254~0.5592054~0.2165308, SnowSource><110.4247><616.3093><Radial~-86.79791~-13.06665~-182.6468~-226.2864~0.3890736~0.1469315, 
 FadePalette: 42, 0.09782609, 0.1413043

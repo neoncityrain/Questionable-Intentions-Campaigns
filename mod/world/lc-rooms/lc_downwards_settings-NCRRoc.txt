@@ -1,10 +1,10 @@
 Template: LC_SettingsTemplate_Inside
 DangerType: Blizzard
-RainIntensity: 0
+RainIntensity: 1
 RumbleIntensity: 0
-WaveSpeed: 0.5
-WaveLength: 1
-WaveAmplitude: 0
+WaveSpeed: 0.5115438
+WaveLength: 0.9942281
+WaveAmplitude: 2.53055E-05
 SecondWaveLength: 0.1666667
 SecondWaveAmplitude: 0
 Palette: 28

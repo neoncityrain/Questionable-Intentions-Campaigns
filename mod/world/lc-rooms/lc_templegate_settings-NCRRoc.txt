@@ -1,17 +1,17 @@
 Template: LC_SettingsTemplate_Inside
 DangerType: Blizzard
-RainIntensity: 0
+RainIntensity: 1
 RumbleIntensity: 0
-WaveSpeed: 0.5
-WaveLength: 1
-WaveAmplitude: 1.424932E-12
+WaveSpeed: 0.5784166
+WaveLength: 0.9607916
+WaveAmplitude: 2.173456E-16
 SecondWaveLength: 0.1666667
 SecondWaveAmplitude: 0
 BkgDroneVolume: 0
 Palette: 29
 EffectColorA: 8
 EffectColorB: 18
-Effects: SkyAndLightBloom-0-30-30, FairyParticles-0.5543478-18-85, Darkness-0.6195652-19-144, Advertisements-0.4021739-278-87, DayNight-0.4130435-284-26, 
-PlacedObjects: FairyParticleSettings><468.8441><340.6252><-1120~-210.3398~0~1~1~0~1~1.448696~60~495.2173~40~100~5~30~0~360~0~0.1999999~0.1521739~0.2282609~0.05434782~0.1413043~1~0.1195652~7.790894~Pixel~SIN_IO~SIN_IO~0~0~0, LightSource><757.5601><316.5627><0.04347826~Environment~-894~243~-627~-145.3975~1~1~None~0~0, LightSource><1024.906><638.0732><0.1086956~EffectColor1~48~-236~-504~-167.3975~1~1~None~0~0, LightSource><705.3482><354.4243><0.2391304~Environment~-822~320~-781~106.6025~1~0~None~0~0, LightFixture><1394.15><242.6328><RedLight~17.32051~-10~69, LightFixture><1764.807><243.4492><RedLight~17.32051~-10~80, DayNightSettings><295.1964><457.7877><5~8.660254~10~35, 
+Effects: SkyAndLightBloom-0-30-30, FairyParticles-0.5543478-18-85, Darkness-0.6195652-19-144, Advertisements-0.4021739-278-87, DayNight-0.4130435-284-26, Coldness-0-20-20, DustWave-1-40-40, 
+PlacedObjects: FairyParticleSettings><468.8441><340.6252><-1120~-210.3398~0~1~1~0~1~1.448696~60~495.2173~40~100~5~30~0~360~0~0.1999999~0.1521739~0.2282609~0.05434782~0.1413043~1~0.1195652~7.790894~Pixel~SIN_IO~SIN_IO~0~0~0, LightSource><757.5601><316.5627><0.0326087~Environment~-894~243~-627~-145.3975~1~1~None~0~0, LightSource><1024.906><638.0732><0.07608695~EffectColor1~48~-236~-386~-96.39752~1~1~None~0~0, LightSource><705.3482><354.4243><0.5434783~Environment~-822~320~-781~106.6025~1~0~None~0~0, LightFixture><1394.15><242.6328><RedLight~17.32051~-10~69, LightFixture><1764.807><243.4492><RedLight~17.32051~-10~80, DayNightSettings><295.1964><457.7877><5~8.660254~10~35, SnowSource><442.3995><421.8271><Radial~-535~-59~50~86.60254~0.5~0.2934783, SnowSource><920><382><Radial~-535~-59~50~86.60254~0.5~0.2934783, SnowSource><640><100><Radial~-535~-59~50~86.60254~0.5~0.2934783, 
 AmbientSounds: SPOT><SO_IND-FlourLight.ogg><753.9469><592.715><0.2826087><1.234783><1049.947><641.715><-171.3553><-103.3553><0><0.6434784, SPOT><AM_ENV-WallHum.ogg><752.699><410.9795><0.3695652><0.9217392><2038.699><311.9795><-1074.355><-50.35535><0><0.6413044, SPOT><AM_IND-SuperStructure.ogg><750.6989><300.7708><0.3152174><0.8043478><-108.3011><-50.22925><310.6447><220.6447><0><1, SPOT><Deep Weird Wind.wav><749.6288><183.9091><0.3478261><1><688.6288><712.9091><-159.3553><-339.3553><0><0.4478262, 
 FadePalette: 8, 0.4347826, 0.4673913

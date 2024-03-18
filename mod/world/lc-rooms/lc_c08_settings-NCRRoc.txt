@@ -1,10 +1,10 @@
 DangerType: Blizzard
 CeilingDrips: 0
-RainIntensity: 0
+RainIntensity: 1
 RumbleIntensity: 0
-WaveSpeed: 0.5
-WaveLength: 1
-WaveAmplitude: 5.605194E-45
+WaveSpeed: 0.5607541
+WaveLength: 0.969623
+WaveAmplitude: 2.558593E-05
 SecondWaveLength: 1
 SecondWaveAmplitude: 0.0001
 Clouds: 0.2065217
@@ -13,8 +13,8 @@ BkgDroneVolume: 0
 RandomItemDensity: 0.4565217
 Palette: 28
 EffectColorA: 8
-Effects: LightBurn-0.2065217-10-66, DayNight-0.1956522-266-65, Advertisements-0.3804348-519-49, Flies-0.326087-270-12, SilenceWater-0.5-268-119, HeatWave-0-20-20, 
-PlacedObjects: LightBeam><1725.052><158.275><322~767~709~760~672~-1~-325.7481~120.4154~0.07391291~0.1630435~0~1~None~0~0, LightSource><660.122><426.4085><0.3369565~Environment~58~119~-464~140.6025~1~0~None~0~0, SuperStructureFuses><4119.497><74.30002><70~94, LightSource><2359.465><500.5531><0.4891304~Environment~633~-384~105~114.6025~1~0~None~0~0, LightSource><2018.68><249.5861><0.4673913~Environment~-278~-232~50~86.60254~1~0~None~0~0, LightSource><1720.904><605.1218><0.6521739~Environment~-177~-344~-270~-53.39746~1~0~None~0~0, LightSource><1793.695><362.955><0.4456522~Environment~137~-361~-274~-20.39389~1~0~None~0~0, LightSource><1981.684><575.4388><0.4456522~Environment~328~-80~-196~-132.3975~1~0~None~0~0, CustomDecal><983.6107><469.4166><29~104~272~83~246~-29~-846~-264~0~1~1~sofantheil~0.173913~0.8043478~0.173913~1~0.173913~0.8804348~0.173913~0.9456522, CustomDecal><1273.435><413.0609><-4~84~93~103~123~13~-325~-311~0~1~0~WhiteTag14(UglyTag)~0.4456522~0.6195652~0.4456522~0.6195652~0.4456522~0.6195652~0.4456522~0.6195652, LightSource><1433.684><790.0792><0.4782609~EffectColor1~102~-174~85~-124.3975~0~0~None~0~0, DayNightSettings><3387.316><560.1886><5~8.660254~10~35, DangleFruit><708.3><571.0018><0~0~2~3, DangleFruit><746.3882><538.1658><0~0~2~3, DangleFruit><2366.399><242.5771><0~0~2~3, DangleFruit><2397.646><225.6135><0~0~2~3, DangleFruit><2443.419><234.9331><0~0~2~3, 
+Effects: LightBurn-0.07608695-10-66, DayNight-0.1956522-266-65, Advertisements-0.3804348-299-0, SilenceWater-0.5-268-119, HeatWave-0-20-20, DustWave-1-273.3188-175.0667, Fog-1-31.46249--7.644445, ReflectiveWater-1-313.2--37.51111, 
+PlacedObjects: LightBeam><1725.052><158.275><322~767~709~760~672~-1~-325.7481~120.4154~0.07391291~0.1630435~0~1~None~0~0, LightSource><660.122><426.4085><0.2282609~Environment~58~119~-464~140.6025~1~0~None~0~0, SuperStructureFuses><4119.497><74.30002><70~94, LightSource><2359.465><500.5531><0.3369565~Environment~633~-384~105~114.6025~1~0~None~0~0, LightSource><2018.68><249.5861><0.3043478~Environment~-278~-232~50~86.60254~1~0~None~0~0, LightSource><1720.904><605.1218><0.6521739~Environment~-177~-344~-270~-53.39746~1~0~None~0~0, LightSource><1793.695><362.955><0.4456522~Environment~137~-361~-274~-20.39389~1~0~None~0~0, LightSource><1981.684><575.4388><0.2173913~Environment~328~-80~17~-106.3776~1~0~None~0~0, CustomDecal><983.6107><469.4166><29~104~272~83~246~-29~-846~-264~0~1~1~sofantheil~0.06521739~0.8804348~0.06521739~1~0.06521739~0.8913044~0.06521739~0.9782609, CustomDecal><1273.435><413.0609><-4~84~93~103~123~13~-325~-311~0~1~0~WhiteTag14(UglyTag)~0.3369565~0.8369565~0.3369565~0.8369565~0.3369565~0.8369565~0.3369565~0.8369565, LightSource><1433.684><790.0792><0.4782609~EffectColor1~102~-174~85~-124.3975~0~0~None~0~0, DayNightSettings><3887.316><218.1886><5~8.660254~10~35, DangleFruit><708.3><571.0018><0~0~2~3, DangleFruit><746.3882><538.1658><0~0~2~3, DangleFruit><2366.399><242.5771><0~0~2~3, DangleFruit><2397.646><225.6135><0~0~2~3, DangleFruit><2443.419><234.9331><0~0~2~3, SnowSource><3395.138><604.3942><Radial~281~-16~-152~-327.3975~0.6956522~0.6086956, SnowSource><3003.861><589.6664><Radial~326~11~50~86.60254~0.7065217~0.2173913, SnowSource><2539.84><599.3698><Radial~324~-261~50~86.60254~0.6521739~0.6413044, SnowSource><2107.317><472.3313><Radial~412~16~50~86.60254~0.7934783~0.6739131, SnowSource><1872.656><803.1254><Radial~464~-262~195~-329.3975~0.4347826~0.3043478, SnowSource><1313.658><617.3226><Radial~551~-52~50~86.60254~0.6847826~0.3695652, SnowSource><693.3217><402.0906><Radial~201~51~50~86.60254~0.8586956~0.06521739, SnowSource><742.3586><737.8915><Radial~263~-87~-380~-370.3975~0.6630435~0.3804348, 
 AmbientSounds: OMNI><AM_ENV-NatWind.ogg><699.3284><655.6027><0.2934783><1, OMNI><AM_ENV-LightWind.ogg><875.3513><655.8275><0.09782609><1, SPOT><SO_SFX-GlassGhost.ogg><875.4263><540.9359><0.09782609><1><2392.426><447.9359><-440.3553><-336.3553><0><1, SPOT><AM_ENV-CityTone.ogg><700.2128><542.4465><0.4565217><1><107.2128><794.4465><567.6447><-156.3553><0><1, 
 Triggers: Spot<tA>event<tB>MusicEvent<eA>songName<eB>NA_07 - Phasing<eA>vol<eB>0.3<eA>prio<eB>0.5<eA>mxThrt<eB>1<eA>loop<eB>0<eA>droneTol<eB>0<eA>rooms<eB>-1<eA>rest<eB>5<eA>fadeIn<eB>0<eA>oneSongPerCycle<eB>0<eA>stopAtDeath<eB>0<eA>stopAtGate<eB>0<tA>multiUse<tB>0<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>844.4098<tB>439.3215<tA>fireChance<tB>1<tA>entrance<tB>1<tA>karma<tB>0<tA>slugcats<tB><tA>pos<tB>2457.41<tB>572.3149<tA>handlePos<tB>-335.3553<tB>-340.3553, 
 FadePalette: 22, 0.4456522, 0.6847826, 0.9347826, 0.3586957

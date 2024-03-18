@@ -1,5 +1,6 @@
 Template: LC_SettingsTemplate_Inside
 DangerType: Blizzard
+CeilingDrips: 0.09782609
 RainIntensity: 0
 RumbleIntensity: 0
 WaveSpeed: 0.5
@@ -7,7 +8,8 @@ WaveLength: 1
 WaveAmplitude: 0
 SecondWaveLength: 0.1666667
 SecondWaveAmplitude: 0
-Effects: Darkness-0.1847826-15-131, SkyAndLightBloom-0.1413043-22-19, DayNight-0.6847826-287-22, 
-PlacedObjects: FairyParticleSettings><250.3058><213.452><-904~20.66025~0~1~1~0~1~1.448696~60~495.2173~40~100~5~30~0~360~0~0.1999999~0.1521739~0.2282609~0.05434782~0.1413043~1~0.1195652~7.790894~Pixel~SIN_IO~SIN_IO~0~0~0, LightSource><541.8083><382.0572><0.369565~Environment~-455~-202~91~-330.3975~1~0~None~0~0, DayNightSettings><545.9434><487.301><5~8.660254~31~33, HangingPearls><328.0786><624.103><, HangingPearls><409.4161><622.8887><, HangingPearls><467.0518><624.0264><, 
+Clouds: 0.7608696
+Effects: Darkness-0.1847826-15-131, SkyAndLightBloom-0.1413043-22-19, DayNight-0.6847826-287-22, Fog-1-30-30, 
+PlacedObjects: FairyParticleSettings><250.3058><213.452><-904~20.66025~0~1~1~0~1~1.448696~60~495.2173~40~100~5~30~0~360~0~0.1999999~0.1521739~0.2282609~0.05434782~0.1413043~1~0.1195652~7.790894~Pixel~SIN_IO~SIN_IO~0~0~0, LightSource><541.8083><382.0572><0.369565~Environment~-455~-202~91~-330.3975~1~0~None~0~0, DayNightSettings><545.9434><487.301><5~8.660254~31~33, HangingPearls><409.4161><622.8887><, 
 AmbientSounds: OMNI><AM_ENV-NatWind.ogg><750.172><599.1021><0.2173913><1, SPOT><AM_ENV-WallHum.ogg><752.9415><404.0577><0.3478261><0.8043478><1008.942><40.05768><-475.3553><108.6447><0><1, 
 FadePalette: 60, 0.6847826

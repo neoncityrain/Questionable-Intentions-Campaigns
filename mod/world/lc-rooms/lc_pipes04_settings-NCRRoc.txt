@@ -4,12 +4,12 @@ RainIntensity: 0
 RumbleIntensity: 0
 WaveSpeed: 0.5
 WaveLength: 1
-WaveAmplitude: 3.684537E-09
+WaveAmplitude: 7.861284E-42
 SecondWaveLength: 0.1666667
 SecondWaveAmplitude: 0
 BkgDroneVolume: 0
 EffectColorB: 18
-Effects: BrokenZeroG-0.2065217-20-20, 
+Effects: Fog-1-20-20, 
 PlacedObjects: LightFixture><517.2223><1923.198><RedLight~17.32051~-10~58, SuperStructureFuses><171.1974><1608.693><167~64, SuperStructureFuses><291.2242><1810.302><175~72, LightFixture><288.5831><1009.36><RedLight~17.32051~-10~27, LightFixture><689.9477><1128.22><RedLight~17.32051~-10~16, SuperStructureFuses><290.1184><1128.151><39~144, SuperStructureFuses><371.9653><866.197><313~45, 
 AmbientSounds: SPOT><SO_SFX-DataTones.ogg><867.9376><524.4401><0.173913><1.03913><304.9376><1761.44><-145.3553><-141.3553><0><0.2304349, SPOT><MSC-ElectricPulse.ogg><864.5654><404.673><0.1847826><1><582.5654><1821.673><-101.3553><-249.3553><0><1, SPOT><SO_SFX-Data4.ogg><681.4432><531.8016><0.25><1><307.4432><1225.802><-61.35535><-95.35535><0><0.2304349, SPOT><SO_SFX-DataStream.ogg><687.8333><411.6104><0.3804348><1><468.8333><841.6104><-141.3553><-24.35535><0><0.3391306, SPOT><AM_IND-Utility02.ogg><686.8195><292.6875><0.2282609><1><492.8195><1127.688><-196.3553><-163.3553><0><0.3717393, 
 FadePalette: 8, 0.4673913, 0.7065217, 1

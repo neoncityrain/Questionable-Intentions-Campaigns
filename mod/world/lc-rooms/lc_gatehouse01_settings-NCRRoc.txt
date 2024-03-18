@@ -4,11 +4,11 @@ RainIntensity: 0
 RumbleIntensity: 0
 WaveSpeed: 0.5
 WaveLength: 1
-WaveAmplitude: 1.897229E-11
+WaveAmplitude: 5.605194E-45
 SecondWaveLength: 0.1666667
 SecondWaveAmplitude: 0
 Clouds: 0.1413043
-Effects: Darkness-0.3152174-22-132, DayNight-0.6413044-266-24, 
+Effects: Darkness-0.3152174-22-132, DayNight-0.6413044-266-24, Fog-1-30-30, 
 PlacedObjects: FairyParticleSettings><388.684><335.4215><-1002~-74.33975~0~1~1~0~1~1.448696~60~495.2173~40~100~5~30~0~360~0~0.1999999~0.1521739~0.2282609~0.05434782~0.1413043~1~0.1195652~7.790894~Pixel~SIN_IO~SIN_IO~0~0~0, LightSource><1434.996><134.45><0.07608695~Environment~216~437~50~86.60254~1~1~None~0~0, LightSource><507.3238><125.0945><0.09782609~Environment~180~330~50~86.60254~1~1~None~0~0, LightSource><916.8892><178.1437><0.05434782~Environment~344~413~50~86.60254~1~1~None~0~0, DayNightSettings><557.2875><596.6965><5~8.660254~31~33, 
 AmbientSounds: SPOT><AM_ENV-NatWind.ogg><755.1377><407.4155><0.5217391><1><-126.8623><41.4155><423.6447><96.64465><0><0.4347826, SPOT><AM_ENV-WallHum.ogg><759.1027><291.3647><0.3804348><0.8043478><1609.103><383.3647><-726.3553><-53.35535><0><1, 
 FadePalette: 60, 0.8260869, 0.8369565

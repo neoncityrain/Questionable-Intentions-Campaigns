@@ -1,0 +1,6 @@
+[MERGE]
+WaveSpeed: 0.6970887
+WaveLength: 0.9014556
+Effects: Coldness-0-40-40, 
+PlacedObjects: SnowSource><430.1272><1242.158><Radial~-323~-509~50~86.60254~1~0, 
+[ENDMERGE]

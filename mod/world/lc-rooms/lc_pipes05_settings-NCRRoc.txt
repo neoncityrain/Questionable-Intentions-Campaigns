@@ -4,11 +4,10 @@ RainIntensity: 0
 RumbleIntensity: 0
 WaveSpeed: 0.5
 WaveLength: 1
-WaveAmplitude: 5.593142E-15
+WaveAmplitude: 5.605194E-45
 SecondWaveLength: 0.1666667
 SecondWaveAmplitude: 0
 BkgDroneVolume: 0
-Effects: BrokenZeroG-0.1086956-20-20, 
-PlacedObjects: LightFixture><17.38531><630.6027><RedLight~-61.6795~-373~50, LightFixture><636.325><704.8468><RedLight~-191.6795~-337~60, 
+Effects: Fog-1-20-20, 
 AmbientSounds: SPOT><AM_IND-Utility04.ogg><869.5886><529.382><0.2282609><1><405.5886><588.382><298.6447><-361.3553><0><0.5891306, SPOT><Deep Weird Wind.wav><692.0642><524.4259><0.2934783><1><436.0642><-42.5741><314.6447><294.6447><0><0.654348, 
 FadePalette: 10, 0.5978261, 0.5760869

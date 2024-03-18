@@ -1,13 +1,16 @@
 Template: LC_SettingsTemplate_Tower
-WaveSpeed: 0.5338914
-WaveLength: 0.9830543
-WaveAmplitude: 4.838942E-06
+DangerType: Blizzard
+RainIntensity: 0
+RumbleIntensity: 0
+WaveSpeed: 0.5
+WaveLength: 1
+WaveAmplitude: 5.605194E-45
 SecondWaveLength: 0.1666667
 SecondWaveAmplitude: 0
 Clouds: 0.5652174
 BkgDroneVolume: 0
 EffectColorA: 15
-Effects: ProjectedScanLines-0.1847826-19-76, SunBlock-1-15-133, BrokenZeroG-0.6956522-20-20, 
-PlacedObjects: LightSource><994.5073><392.8001><0.1195652~EffectColor1~42~173~-263~-246.3975~0~1~None~0~0, LightSource><851.4046><387.1758><0.1195652~EffectColor1~36~159~-652~-357.3975~0~1~None~0~0, LightSource><717.3919><383.1683><0.1195652~EffectColor1~-65~144~-248~-347.3975~0~1~None~0~0, LightSource><580.6481><400.8655><0.1195652~EffectColor1~-68~160~-103~-245.3975~0~1~None~0~0, LightSource><443.6964><401.9619><0.1195652~EffectColor1~-25~156~-239~-247.3975~0~1~None~0~0, LightSource><309.3938><399.8306><0.1195652~EffectColor1~-65~147~421~-363.3975~0~1~None~0~0, LightSource><597.4405><386.9653><0.1413037~EffectColor1~988~524~-14~164.6687~0~0~None~0~0, LightFixture><40.55017><213.4911><RedLight~17.32051~-10~68, LightSource><1555.673><556.1493><0.1304348~EffectColor1~4~108~306~-559.3975~0~1~None~0~0, LightSource><1554.696><204.2083><0.1304348~EffectColor1~23~116~302~-77.39746~0~1~None~0~0, LightSource><1673.637><390.1038><0.1304348~EffectColor1~39~161~-589~-242.3975~0~1~None~0~0, LightSource><1447.7><403.2448><0.1304348~EffectColor1~4~162~-368~46.60254~0~1~None~0~0, LightSource><1215.303><402.2151><0.1304348~EffectColor1~24~165~-142~159.6025~0~1~None~0~0, LightSource><1557.612><390.1449><0.1847826~EffectColor1~-701~280~50~86.60254~0~0~None~0~0, LightFixture><1553.884><672.6391><RedLight~60.13959~-74.05341~98, LightFixture><1834.008><406.0228><RedLight~-210.6795~-356~87, 
+Effects: SunBlock-1-15-133, 
+PlacedObjects: LightSource><994.5073><392.8001><0.05769945~EffectColor1~42~173~-190.4313~-522.3087~0~1~None~0~0, LightSource><851.4046><387.1758><0.07316589~EffectColor1~36~159~-662.6719~-531.6198~0~1~None~0~0, LightSource><717.3919><383.1683><0.05769945~EffectColor1~-65~144~-138.4354~-521.6198~0~1~None~0~0, LightSource><580.6481><400.8655><0.0499659~EffectColor1~-68~160~-63.15839~-541.2197~0~1~None~0~0, LightSource><443.6964><401.9619><0.07316589~EffectColor1~-25~156~-75.36456~-545.3531~0~1~Fade~0.4639946~0, LightSource><309.3938><399.8306><0.04996656~EffectColor1~-65~147~480.051~-537.6197~0~1~None~0~0, LightSource><597.4405><386.9653><0.06397147~EffectColor1~988~524~-14~164.6687~0~0~None~0~0, LightFixture><40.55017><213.4911><RedLight~-29.63576~-315.0667~68, LightSource><1555.673><556.1493><0.03763613~EffectColor1~4~108~329.4781~-700.1975~0~1~None~0~0, LightSource><1554.696><204.2083><0.03763613~EffectColor1~23~116~314.0948~-346.1974~0~1~None~0~0, LightSource><1673.637><390.1038><0.1304348~EffectColor1~39~161~-664.4147~-532.5308~0~1~Fade~0.5570105~0, LightSource><1447.7><403.2448><0.06083547~EffectColor1~4~162~-488.9479~-545.0419~0~1~None~0~0, LightSource><1215.303><402.2151><0.03763613~EffectColor1~24~165~-250.1417~-537.2864~0~1~None~0~0, LightSource><1557.612><390.1449><0.09198396~EffectColor1~-701~280~-151.3428~-532.7753~0~0~None~0~0, LightFixture><1553.884><672.6391><RedLight~284.9604~-773.0756~98, LightFixture><1834.008><406.0228><RedLight~-170.8378~-512.4445~87, 
 AmbientSounds: SPOT><AM_IND-DeepHum.ogg><746.1564><311.6247><0.2717391><1><27.15637><191.6247><359.6447><73.64465><0><1, 
 FadePalette: 10, 0.9130435, 1

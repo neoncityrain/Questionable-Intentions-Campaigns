@@ -4,13 +4,13 @@ RainIntensity: 0
 RumbleIntensity: 0
 WaveSpeed: 0.5
 WaveLength: 1
-WaveAmplitude: 0.0002912408
+WaveAmplitude: 5.605194E-45
 SecondWaveLength: 0.1666667
 SecondWaveAmplitude: 0
-Clouds: 0
+Clouds: 1
 BkgDroneVolume: 0
 EffectColorA: 15
-EffectColorB: 7
-Effects: SkyAndLightBloom-0.423913-22-23, DayNight-0.5543478-14-131, 
+EffectColorB: 3
+Effects: DayNight-0.5543478-14-131, Fog-1-30-30, SkyAndLightBloom-0-40-40, ReplaceEffectColorB-1-266.1646-29.95555-Color-0.479461-0.5567936-0.3402627, 
 PlacedObjects: FairyParticleSettings><455.5601><318.8129><-1103~-57.33975~0~1~1~0~1~1.448696~60~495.2173~40~100~5~30~0~360~0~0.1999999~0.1521739~0.2282609~0.05434782~0.1413043~1~0.1195652~7.790894~Pixel~SIN_IO~SIN_IO~0~0~0, LightSource><562.3581><467.6683><0.02173912~Environment~-838~156~139~-277.3975~1~1~None~0~0, LightSource><850.6486><333.116><0.03260867~Environment~-238~88~-904~-156.3975~1~1~None~0~0, SuperStructureFuses><652.098><448.5757><182~70, SuperStructureFuses><410.1553><361.8759><58~114, DayNightSettings><156.1642><518.3859><5~8.660254~31~33, 
-FadePalette: 60, 0.7282609
+FadePalette: 60, 0.9370583

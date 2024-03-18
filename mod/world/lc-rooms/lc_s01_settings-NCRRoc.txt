@@ -4,12 +4,13 @@ RainIntensity: 0
 RumbleIntensity: 0
 WaveSpeed: 0.5
 WaveLength: 1
-WaveAmplitude: 6.735226E-10
+WaveAmplitude: 5.605194E-45
 SecondWaveLength: 0.1666667
 SecondWaveAmplitude: 0
+Clouds: 1
 Grime: 0
 Palette: 28
-Effects: FairyParticles-0.1195652-18-77, DayNight-0.7173913-279-21, 
-PlacedObjects: LightSource><653.9422><165.5554><0.3369565~Environment~-72~82~-365~-20.39746~1~0~None~0~0, SuperStructureFuses><763.0663><338.579><31~153, SuperStructureFuses><847.3555><336.6118><31~155, SuperStructureFuses><926.5667><336.4386><27~152, FairyParticleSettings><90.74573><244.2><-742~-63.33975~0~1~1~0~1~1.448696~60~495.2173~40~100~5~30~0~360~0~0.1999999~0.1521739~0.2282609~0.05434782~0.1413043~1~0.1195652~7.790894~Pixel~SIN_IO~SIN_IO~0~0~0, DayNightSettings><-58.31995><448.4374><5~8.660254~31~33, 
+Effects: FairyParticles-0.1195652-18-77, DayNight-0.7173913-279-21, Fog-0.2934783-26-86, SkyAndLightBloom-0-30-30, 
+PlacedObjects: LightSource><653.9422><165.5554><0.1847826~Environment~-72~82~-400~-191.3975~1~0~None~0~0, SuperStructureFuses><763.0663><338.579><31~153, SuperStructureFuses><847.3555><336.6118><31~155, SuperStructureFuses><926.5667><336.4386><27~152, FairyParticleSettings><90.74573><244.2><-742~-63.33975~0~1~1~0~1~1.448696~60~495.2173~40~100~5~30~0~360~0~0.1999999~0.1521739~0.2282609~0.05434782~0.1413043~1~0.1195652~7.790894~Pixel~SIN_IO~SIN_IO~0~0~0, DayNightSettings><-58.31995><448.4374><5~8.660254~31~33, 
 AmbientSounds: SPOT><SO_IND-Fridge.ogg><741.6847><367.0767><0.2934783><1><187.6847><469.0767><-67.35535><-62.35535><0><0.3717393, OMNI><AM_ENV-LightWind.ogg><740.5709><487.187><0.1847826><1, OMNI><AM_IND-SuperStructure.ogg><742.5298><557.8022><0.2826087><0.8043478, 
 FadePalette: 10, 0.6956522

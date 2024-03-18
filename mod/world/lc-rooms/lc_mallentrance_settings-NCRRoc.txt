@@ -1,16 +1,16 @@
 Template: LC_SettingsTemplate_Inside
-DangerType: Blizzard
-RainIntensity: 0
+RainIntensity: 1
 RumbleIntensity: 0
-WaveSpeed: 0.5
-WaveLength: 1
-WaveAmplitude: 3.522847E-09
+WaveSpeed: 0.7346408
+WaveLength: 0.8826796
+WaveAmplitude: 4.749032E-17
 SecondWaveLength: 0.1666667
 SecondWaveAmplitude: 0
+Clouds: 0
 Palette: 29
 EffectColorA: 8
 EffectColorB: 18
-Effects: SkyAndLightBloom-0-16-20, Fog-0.4673913-271-75, LightBurn-0.09782609-13-134, DayNight-0.1956522-278-22, Advertisements-1-30-30, 
-PlacedObjects: FairyParticleSettings><1.80603><320.9511><-893~23.66025~0~1~1~0~1~1.448696~60~495.2173~40~100~5~30~0~360~0~0.1999999~0.1521739~0.2282609~0.05434782~0.1413043~1~0.1195652~7.790894~Pixel~SIN_IO~SIN_IO~0~0~0, LightSource><646.199><159.4796><0.2065184~Environment~-707~182~-66~363.6025~1~0~None~0~0, LightSource><1636.014><704.5505><0.2826087~Environment~1165~-672~-658~-231.3975~1~0~None~0~0, LightSource><1628.812><710.8097><0.3586957~Environment~673~-473~-655~-349.3975~1~0~None~0~0, LightFixture><1552.331><350.683><RedLight~331.3206~-248~62, LightSource><1553.12><353.3482><0.1847826~EffectColor2~590~311~316~-380.3975~0~0~Fade~0.5326087~0, LightSource><1757.05><404.7472><0.1195652~EffectColor1~-100~119~50~86.60254~0~1~None~0~0, LightSource><1745.176><569.9359><0.1195652~EffectColor1~-67~117~50~86.60254~0~1~None~0~0, LightSource><1334.346><573.5712><0.1195652~EffectColor1~93~99~50~86.60254~0~1~None~0~0, DayNightSettings><1444.7><462.7445><184~-472.3397~10~35, HangingPearls><822.5881><405.1174><, HangingPearls><653.6375><403.8346><, HangingPearls><579.631><401.1608><, DevToken><1551.873><436.8453><0~-81~-313~-222~0~~~0~0~0~1~0~0~0~1, 
+Effects: SkyAndLightBloom-0-16-20, Fog-1-271-75, LightBurn-0.09782609-13-134, DayNight-0.1956522-278-22, Advertisements-0.5108696-259-141, DustWave-1-30-30, 
+PlacedObjects: FairyParticleSettings><1.80603><320.9511><-893~23.66025~0~1~1~0~1~1.448696~60~495.2173~40~100~5~30~0~360~0~0.1999999~0.1521739~0.2282609~0.05434782~0.1413043~1~0.1195652~7.790894~Pixel~SIN_IO~SIN_IO~0~0~0, LightSource><646.199><159.4796><0.2065184~Environment~-707~182~-66~363.6025~1~0~None~0~0, LightSource><1636.014><704.5505><0.1956522~Environment~1165~-672~-658~-231.3975~1~0~None~0~0, LightSource><1628.812><710.8097><0.1956522~Environment~673~-473~-655~-349.3975~1~0~None~0~0, LightFixture><1552.331><350.683><RedLight~353.3206~-455~62, LightSource><1553.12><353.3482><0.04347826~EffectColor2~590~311~292~-493.3975~0~0~Fade~0.5326087~0, LightSource><1757.05><404.7472><0.07608695~EffectColor1~-100~119~191~-546.3975~0~1~None~0~0, LightSource><1745.176><569.9359><0.07608695~EffectColor1~-67~117~50~86.60254~0~1~None~0~0, LightSource><1334.346><573.5712><0.08695652~EffectColor1~93~99~50~86.60254~0~1~None~0~0, DayNightSettings><1444.7><462.7445><184~-472.3397~10~35, HangingPearls><822.5881><405.1174><, DevToken><1551.873><436.8453><0~-81~196~-589~0~~~0~0~0~1~0~0~0~1~0~0~0~1~0~0~0~1, SnowSource><1561.406><153.8234><Radial~-378~-19~50~86.60254~0.8152174~0.1086956, SnowSource><1567.07><730.5863><Radial~-461~-27~-517~-404.3975~0.8804348~0.02173913, 
 AmbientSounds: SPOT><AM_IND-SuperStructure.ogg><752.9437><407.3081><0.3478261><0.8043478><189.9436><-44.77663><603.6447><413.6447><0><1, SPOT><Deep Weird Wind.wav><750.7341><294.3006><0.2282609><1><1560.734><371.3007><-44.35535><-282.3553><0><0.5239132, SPOT><AM_WIN-NiceWnd.ogg><760.6998><609.2582><0.2934783><1><1425.7><725.2582><-135.3553><-190.3553><0><0.5239132, SPOT><SO_IND-FlourLight.ogg><772.3033><176.7861><0.326087><0.7847826><1550.303><346.7861><-77.35535><-83.35535><0><0.4152175, 
 FadePalette: 10, 0.7608696, 0.7717391

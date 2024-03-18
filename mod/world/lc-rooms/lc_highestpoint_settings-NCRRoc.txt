@@ -1,16 +1,16 @@
 DangerType: Blizzard
 CeilingDrips: 0
-RainIntensity: 0.01826079
+RainIntensity: 1
 RumbleIntensity: 1
-WaveSpeed: 0.4999864
-WaveLength: 0.9999932
-WaveAmplitude: 1.169325E-35
+WaveSpeed: 0.2525591
+WaveLength: 0.8762796
+WaveAmplitude: 3.27282E-15
 SecondWaveLength: 1
 SecondWaveAmplitude: 0.0001
 EffectColorA: 11
 EffectColorB: 18
-Effects: DayNight-0.5652174-274-65, PixelShift-0.5-32-65, AboveCloudsView-1-17-51, HeatWave-0-20-20, 
-PlacedObjects: LightSource><993.3147><5488.311><1~EffectColor2~388~-262~136~186.6025~0~0~Flash~0.7~0, LightSource><991.6098><5488.857><1~EffectColor2~1~28~146~76.60254~0~1~Flash~0.7~0, GhostSpot><639.9398><5678.063><, DayNightSettings><852.5558><266.202><5~8.660254~35~10, ReliableSpear><934.3851><3247.336><, ReliableSpear><955.3006><2581.985><, ReliableSpear><917.971><1675.053><, ReliableSpear><1123.197><1692.216><, ReliableSpear><954.3295><1256.647><, ReliableSpear><1020.443><1273.942><, ReliableSpear><881.301><1307.77><, ReliableSpear><1206.7><1300.76><, ReliableSpear><722.0848><296.9311><, ReliableSpear><783.8252><296.8472><, ReliableSpear><1203.838><289.6333><, ReliableSpear><1309.81><298.6868><, DevToken><1131.843><439.3735><6~-56~0~0~0~~~0~0~0~1~0~0~0~1, 
+Effects: DayNight-0.5652174-274-65, PixelShift-0.5-23-24, HeatWave-0-20-20, DustWave-1-30-30, Fog-1-28-26, 
+PlacedObjects: LightSource><993.3147><5488.311><1~EffectColor2~388~-262~136~186.6025~0~0~Flash~0.7~0, LightSource><991.6098><5488.857><1~EffectColor2~1~28~146~76.60254~0~1~Flash~0.7~0, GhostSpot><639.9398><5678.063><, DayNightSettings><852.5558><266.202><5~8.660254~35~10, ReliableSpear><934.3851><3247.336><, ReliableSpear><955.3006><2581.985><, ReliableSpear><917.971><1675.053><, ReliableSpear><1123.197><1692.216><, ReliableSpear><954.3295><1256.647><, ReliableSpear><1020.443><1273.942><, ReliableSpear><881.301><1307.77><, ReliableSpear><1206.7><1300.76><, ReliableSpear><722.0848><296.9311><, ReliableSpear><783.8252><296.8472><, ReliableSpear><1203.838><289.6333><, ReliableSpear><1309.81><298.6868><, DevToken><1131.843><439.3735><6~-56~-765~-401~0~~~0~0~0~1~0~0~0~1~0~0~0~1, SnowSource><686.629><277.9093><Radial~-218~9~50~86.60254~0.6521739~0.1521739, SnowSource><481.7><188.255><Radial~-94~152~50~86.60254~0.5108696~0.3152174, SnowSource><1316.425><310.0647><Radial~265~15~50~86.60254~0.8043478~0.1847826, SnowSource><721.6961><533.5392><Radial~182~-80~50~86.60254~0.6739131~0.1630435, SnowSource><1225.946><541.0424><Radial~-129~-52~50~86.60254~0.7173913~0.2826087, SnowSource><762.4924><750.9499><Radial~11~141~50~86.60254~0.7282609~0.2934783, SnowSource><1202.189><767.8096><Radial~-54~131~50~86.60254~0.8369565~0.2282609, SnowSource><570.7><959.9985><Radial~320~130~50~86.60254~0.7282609~0.2934783, SnowSource><1337.887><959.835><Radial~-250~15~50~86.60254~0.7826087~0.09782609, SnowSource><1223.096><1233.325><Radial~-2~167~50~86.60254~0.7934783~0.2717391, SnowSource><738.1376><1321.335><Radial~192~-148~50~86.60254~0.8478261~0.1956522, SnowSource><1289.804><1492.789><Radial~-138~-186~-564~-159.3975~0.6956522~0.2173913, 
 AmbientSounds: SPOT><AM_WIN-StrongWnd2.ogg><878.4378><542.9401><0.6630433><1><993.4377><4327.94><-739.3553><-502.3553><0><1, SPOT><AM_WIN-HowlingWnd.ogg><704.6733><540.0653><0.326087><1><993.6733><5090.065><-467.3553><-480.3553><0><1, 
 FadePalette: 42, 0.02173913, 0.0326087, 0.0326087, 0.0326087, 0.04347826, 0.02173913, 0.01086957, 0.02173913
 WetTerrain: OFF

@@ -1173,7 +1173,7 @@ namespace NCRcatsmod
                 string name = self.room.abstractRoom.name;
                 if (name == "SB_L01")
                 {
-                    //self.room.AddObject(new EntropyIntro(self.room));
+                    // self.room.AddObject(new EntropyIntro(self.room));
                     // commented out to fix it with the new update
                 }
             }
@@ -1202,7 +1202,7 @@ namespace NCRcatsmod
                 string name = self.room.abstractRoom.name;
                 if (name == "OE_RUINCourtYard" && self.room.game.session.characterStats.name.value == "NCRMarauder")
                 {
-                    //self.room.AddObject(new MarauderIntro(self.room));
+                    // self.room.AddObject(new MarauderIntro(self.room));
                     // commented out to fix it with the new update
                 }
 

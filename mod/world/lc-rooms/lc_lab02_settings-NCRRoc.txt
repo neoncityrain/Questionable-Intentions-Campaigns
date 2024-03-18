@@ -4,13 +4,13 @@ RainIntensity: 0
 RumbleIntensity: 0
 WaveSpeed: 0.5
 WaveLength: 1
-WaveAmplitude: 1.063389E-35
+WaveAmplitude: 5.605194E-45
 SecondWaveLength: 0.1666667
 SecondWaveAmplitude: 0
 Clouds: 0.7282609
 BkgDroneVolume: 0
 EffectColorA: 14
-Effects: SuperStructureProjector-0.0326087-20-20, SunBlock-1-19-76, ProjectedScanLines-0.08695652-22-132, BrokenZeroG-0.5434783-30-30, 
-PlacedObjects: LightSource><1441.3><735.4874><0.1521739~EffectColor1~63~183~50~86.60254~0~1~None~0~0, LightSource><907.3275><816.3986><0.1304348~EffectColor1~68~171~50~86.60254~0~1~None~0~0, LightSource><1594.538><1114.303><0.1304348~EffectColor1~59~168~63~160.6025~0~1~None~0~0, LightSource><789.1074><1222.836><0.1195652~EffectColor1~-151~152~-120~63.60254~0~1~None~0~0, LightSource><1508.523><916.6987><0.1630435~EffectColor1~-1003~633~82~40.60254~0~0~None~0~0, LightSource><835.309><1013.804><0.1956522~EffectColor1~-966~627~-267~-113.3975~0~0~None~0~0, LightFixture><434.6759><1403.155><RedLight~-489.6795~-123~79, LightFixture><386.9405><703.1909><RedLight~17.32051~-10~96, LightFixture><429.4266><569.906><RedLight~17.32051~-10~56, LightFixture><1880.385><251.0863><RedLight~17.32051~-10~60, 
+Effects: SuperStructureProjector-0.01714209-20-20, SunBlock-1-19-76, ProjectedScanLines-0.06375686-22-132, 
+PlacedObjects: LightSource><1441.3><735.4874><0.0593746~EffectColor1~63~183~50~86.60254~0~1~None~0~0, LightSource><907.3275><816.3986><0.06856902~EffectColor1~68~171~50~86.60254~0~1~None~0~0, LightSource><1594.538><1114.303><0.08403479~EffectColor1~59~168~63~160.6025~0~1~None~0~0, LightSource><789.1074><1222.836><0.06543234~EffectColor1~-151~152~-120~63.60254~0~1~None~0~0, LightSource><1508.523><916.6987><0.1630435~EffectColor1~-1003~633~82~40.60254~0~0~None~0~0, LightSource><835.309><1013.804><0.1956522~EffectColor1~-966~627~-267~-113.3975~0~0~None~0~0, LightFixture><434.6759><1403.155><RedLight~-489.6795~-123~79, LightFixture><386.9405><703.1909><RedLight~17.32051~-10~96, LightFixture><429.4266><569.906><RedLight~17.32051~-10~56, LightFixture><1880.385><251.0863><RedLight~17.32051~-10~60, Corruption><1491.147><177.2395><-46.24481~166.8445, Corruption><816.7443><163.341><-153.675~98.57776, 
 AmbientSounds: SPOT><SO_SFX-DataTrans2.ogg><867.6453><531.5796><0.1630435><0.726087><1225.645><1001.58><519.6447><-241.3553><0><0.7086958, SPOT><SO_SFX-Data3.ogg><692.1005><526.1172><0.1847826><0.8434783><388.1005><632.1172><3.644653><-189.3553><0><0.3717393, 
 FadePalette: 10, 0.6847826, 0.7282609, 0.7173913, 0.7826087
