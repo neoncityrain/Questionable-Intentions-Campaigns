@@ -18,14 +18,18 @@ namespace NCREntropy.SB_L01ENT
             {
                 AbstractCreature firstAlivePlayer = room.game.FirstAlivePlayer;
                 Player player = firstAlivePlayer.realizedCreature as Player;
-                player.SuperHardSetPosition(room.MiddleOfTile(202, 87));
 
-                player.standing = false;
-                player.flipDirection = 1;
-                player.sleepCounter = 99;
-                player.sleepCurlUp = 1f;
-
-
+                for (int i = 0; i < this.room.game.Players.Count; i++)
+                {
+                    for (int j = 0; j < 2; j++)
+                    {
+                        (this.room.game.Players[i].realizedCreature as Player).bodyChunks[j].HardSetPosition(this.room.MiddleOfTile(202, 87));
+                    }
+                        (this.room.game.Players[i].realizedCreature as Player).standing = false;
+                    (this.room.game.Players[i].realizedCreature as Player).flipDirection = 1;
+                    (this.room.game.Players[i].realizedCreature as Player).sleepCounter = 99;
+                    (this.room.game.Players[i].realizedCreature as Player).sleepCurlUp = 1f;
+                }
 
                 Destroy();
             }

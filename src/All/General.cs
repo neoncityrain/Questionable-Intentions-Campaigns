@@ -20,6 +20,8 @@ using IL.Expedition;
 using IL;
 using System.Globalization;
 using Menu;
+using SlugBase.Features;
+using static SlugBase.Features.FeatureTypes;
 
 namespace NCRcatsmod
 {
@@ -30,6 +32,7 @@ namespace NCRcatsmod
         FAtlas atlas;
         public bool IsDMSActive;
 
+        // honestly these suck. theres gotta be a better way to do these thats still usable in non-player codes
         public bool MarauderCannibalising;
         public bool MarauderKarmaCheck;
         public int MarauderStarvedForCycles;
@@ -37,6 +40,9 @@ namespace NCRcatsmod
         public int MarauderCatfear;
         public int MarauderTrickster;
         public bool PlayingRoc;
+        public bool RoccocoPlayable;
+        static readonly PlayerFeature<bool> RocLock = PlayerBool("NCRCatsMod/IsLocked");
+        // end bools / ints
 
         public void OnEnable()
         {
@@ -110,7 +116,7 @@ namespace NCRcatsmod
 
             // ---------------------------------------------------- ROCCOCO STUFF ----------------------------------------------------
             // not unlocked initially
-            On.SlugcatStats.HiddenOrUnplayableSlugcat += SlugcatStats_HiddenOrUnplayableSlugcat;
+            On.SlugcatStats.HiddenOrUnplayableSlugcat += HIDEROC;
 
             // flies swarm around him
             On.MiniFly.ViableForBuzzaround += MiniFly_ViableForBuzzaround;
@@ -124,6 +130,16 @@ namespace NCRcatsmod
             //roccoco karma
             On.Menu.SleepAndDeathScreen.FoodCountDownDone += SleepAndDeathScreen_FoodCountDownDone;
             On.DeathPersistentSaveData.SaveToString += DeathPersistentSaveData_SaveToString;
+            On.SaveState.SessionEnded += Rockarma;
+        }
+
+        private void Rockarma(On.SaveState.orig_SessionEnded orig, SaveState self, RainWorldGame game, bool survived, bool newMalnourished)
+        {
+            orig(self, game, survived, newMalnourished);
+            if (PlayingRoc && survived)
+            {
+                // has not been working properly >:o
+            }
         }
 
         private string DeathPersistentSaveData_SaveToString(On.DeathPersistentSaveData.orig_SaveToString orig, DeathPersistentSaveData self, bool saveAsIfPlayerDied, bool saveAsIfPlayerQuit)
@@ -150,16 +166,31 @@ namespace NCRcatsmod
                     if (self.reinforcedKarma)
                     {
                         text += string.Format(CultureInfo.InvariantCulture, "KARMA<dpB>{0}<dpA>", self.karma);
+                        // karma does not raise when reinforced
                     }
                     else
                     {
                         text += string.Format(CultureInfo.InvariantCulture, "KARMA<dpB>{0}<dpA>", self.karma + 1);
+                        // karma raises upon death, but not on quit
                     }
                 }
                 else
                 {
                     text = text + "REINFORCEDKARMA<dpB>" + (self.reinforcedKarma ? "1" : "0") + "<dpA>";
-                    text += string.Format(CultureInfo.InvariantCulture, "KARMA<dpB>{0}<dpA>", self.karma);
+                    if (self.karma == self.karmaCap)
+                    {
+                        self.karma -= 1;
+                        text += string.Format(CultureInfo.InvariantCulture, "KARMA<dpB>{0}<dpA>", self.karma);
+                    }
+                    else
+                    {
+                        self.karma -= 2;
+                        if (self.karma < 0)
+                        {
+                            self.karma = 0;
+                        }
+                        text += string.Format(CultureInfo.InvariantCulture, "KARMA<dpB>{0}<dpA>", self.karma);
+                    }
                 }
                 text += string.Format(CultureInfo.InvariantCulture, "KARMACAP<dpB>{0}<dpA>", self.karmaCap);
                 if (self.theMark)
@@ -353,6 +384,7 @@ namespace NCRcatsmod
             if (PlayingRoc)
             {
                 Debug.Log("Karma ladder move, ROCCOCO VERSION");
+                // this code makes the laddder move to the proper direction
                 if (self.IsSleepScreen)
                 {
                     self.karmaLadder.GoToKarma(self.karma.x - 1, true);
@@ -537,9 +569,9 @@ namespace NCRcatsmod
             }
         }
 
-        private bool SlugcatStats_HiddenOrUnplayableSlugcat(On.SlugcatStats.orig_HiddenOrUnplayableSlugcat orig, SlugcatStats.Name i)
+        private bool HIDEROC(On.SlugcatStats.orig_HiddenOrUnplayableSlugcat orig, SlugcatStats.Name i)
         {
-            if (i.value == "NCRRoc")
+            if (i.value == "NCRRoc" && !RoccocoPlayable)
             {
                 return true;
             }
@@ -1168,13 +1200,17 @@ namespace NCRcatsmod
                 }
             }
 
-            if (self.room.game.session is StoryGameSession && self.room.game.session.characterStats.name.value == "NCREntropy")
+            if (self.room.game.session is StoryGameSession || self.room.game.rainWorld.ExpeditionMode && 
+                self.room.game.session.characterStats.name.value == "NCREntropy")
             {
-                string name = self.room.abstractRoom.name;
-                if (name == "SB_L01")
+                if (self.room.game.GetStorySession.saveState.deathPersistentSaveData.ripPebbles == false)
                 {
-                    // self.room.AddObject(new EntropyIntro(self.room));
-                    // commented out to fix it with the new update
+                    self.room.game.GetStorySession.saveState.deathPersistentSaveData.ripPebbles = true;
+                }
+                string name = self.room.abstractRoom.name;
+                if (name == "SB_L01" && self.room.game.session is StoryGameSession)
+                {
+                    self.room.AddObject(new EntropyIntro(self.room));
                 }
             }
             // ---------------------------------------------------- MARAUDER STUFF ----------------------------------------------------
@@ -1200,10 +1236,10 @@ namespace NCRcatsmod
                 }
 
                 string name = self.room.abstractRoom.name;
-                if (name == "OE_RUINCourtYard" && self.room.game.session.characterStats.name.value == "NCRMarauder")
+                if (name == "OE_RUINCourtYard" && self.room.game.session is StoryGameSession && 
+                    self.room.game.session.characterStats.name.value == "NCRMarauder")
                 {
-                    // self.room.AddObject(new MarauderIntro(self.room));
-                    // commented out to fix it with the new update
+                    self.room.AddObject(new MarauderIntro(self.room));
                 }
 
             }
@@ -1216,11 +1252,21 @@ namespace NCRcatsmod
 
             if (self.room.game.session is StoryGameSession && self.room.game.session.characterStats.name.value == "NCRRoc")
             {
+                //should trigger if in roccocos WORLDSTATE, not their CAT, to avoid jolly co-op fuckery
                 PlayingRoc = true;
             }
-            else
+            else if (PlayingRoc && !(self.room.game.session.characterStats.name.value == "NCRRoc") || !(self.room.game.session is StoryGameSession))
             {
+                //this should turn off playingroc as long as its on and the above does not apply
                 PlayingRoc = false;
+            }
+            else if (!PlayingRoc && self.room.game.session.characterStats.name.value == "NCRMarauder" && !RoccocoPlayable)
+            {
+                RocLock.TryGet(self, out bool RocLocked);
+                if (!RocLocked)
+                {
+                    RoccocoPlayable = true;
+                }
             }
         }
 

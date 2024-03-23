@@ -29,17 +29,24 @@ namespace NCRMarauder.OE_INTRO
                     this.room.game.cameras[0].hud.textPrompt.subregionTracker.lastShownRegion = 1;
                 }
 
+
+
                 AbstractCreature firstAlivePlayer = room.game.FirstAlivePlayer;
                 Player player = firstAlivePlayer.realizedCreature as Player;
                 if (CreaturesMade == false)
                 {
-                    player.SuperHardSetPosition(room.MiddleOfTile(15, 68));
-                    player.standing = false;
-                    player.SetMalnourished(true);
-                    player.Hypothermia = 0f;
-                    player.flipDirection = 1;
-                    player.sleepCounter = 99;
-                    player.sleepCurlUp = 1f;
+                    for (int i = 0; i < this.room.game.Players.Count; i++)
+                    {
+                        for (int j = 0; j < 2; j++)
+                        {
+                            (this.room.game.Players[i].realizedCreature as Player).bodyChunks[j].HardSetPosition(this.room.MiddleOfTile(15, 68));
+                        }
+                        (this.room.game.Players[i].realizedCreature as Player).standing = false;
+                        (this.room.game.Players[i].realizedCreature as Player).SetMalnourished(true);
+                        (this.room.game.Players[i].realizedCreature as Player).flipDirection = 1;
+                        (this.room.game.Players[i].realizedCreature as Player).sleepCounter = 99;
+                        (this.room.game.Players[i].realizedCreature as Player).sleepCurlUp = 1f;
+                    }
                     Awaketimer = 0;
 
                     CreaturesMade = true;
@@ -48,14 +55,12 @@ namespace NCRMarauder.OE_INTRO
                 if (!player.Sleeping)
                 {
                     this.Awaketimer++;
-                    player.Hypothermia = 0f;
                 }
 
                 if (this.Awaketimer == 150)
                 {
                     this.room.game.cameras[0].hud.textPrompt.AddMessage(this.room.game.rainWorld.inGameTranslator.Translate("You are starving. You will be faster and stronger than normal, but take care not to starve to death."), 20, 500, true, true);
                     Destroy();
-
                 }
 
 
