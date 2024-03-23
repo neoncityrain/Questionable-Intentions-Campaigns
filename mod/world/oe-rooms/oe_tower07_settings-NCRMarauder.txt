@@ -3,9 +3,9 @@ DangerType: Blizzard
 CeilingDrips: 0
 RainIntensity: 0.1542256
 RumbleIntensity: 0.5869565
-WaveSpeed: 0.5
-WaveLength: 1
-WaveAmplitude: 5.605194E-45
+WaveSpeed: 0.4997746
+WaveLength: 0.9998873
+WaveAmplitude: 0.000281776
 SecondWaveLength: 1
 SecondWaveAmplitude: 0.0001
 Clouds: 0.6599072
@@ -14,7 +14,7 @@ WaterReflectionAlpha: 0
 Palette: 33
 EffectColorA: 21
 EffectColorB: 21
-Effects: Fog-0-40-40, Darkness-0.25-271-125, Coldness-0-47.07498-113.9111, MossWater-0-7.3125-141.7333, MossWaterRGB-0-477-471-Blue:255-Green:255-Red:227.3369-Blue:255-Green:255-Red:227.3369-Blue:255-Green:255-Red:227.3369, IceWater-1-20-20, 
+Effects: Fog-0-40-40, Darkness-0.25-271-125, Coldness-0-47.07498-113.9111, MossWater-0-7.3125-141.7333, MossWaterRGB-0-477-471-Blue:255-Green:255-Red:227.3369, 
 PlacedObjects: LanternOnStick><258.5063><350.0501><-50~-170, LanternOnStick><176.8139><370.1768><26~-210, CentipedeAttractor><186.5246><336.0515><20~144, Mushroom><209.1536><272.1219><0~0~4~7, Mushroom><108.8526><334.3852><0~0~4~7, Mushroom><236.814><270.1765><0~0~4~7, Mushroom><157.1964><292.288><0~0~4~7, Mushroom><827.113><262.085><0~0~4~7, Mushroom><881.1803><302.1635><0~0~4~7, Mushroom><806.8052><242.2955><0~0~4~7, GooieDuck><691.8659><539.1016><0~0~2~3, GooieDuck><214.3876><423.3951><0~0~2~3, GooieDuck><742.4343><461.3276><0~0~2~3, GooieDuck><149.2137><403.3033><0~0~2~3, CustomDecal><-14.56567><129.8111><-49~755~1059~756~1084~-3~-53~-253~0.6521739~1~1~RustB2~0.5652174~1~0.5652174~1~0.5652174~1~0.5652174~1, SnowSource><579.711><2744.398><Strip~16.36353~40.26666~50~86.60254~0.8376027~0, 
 AmbientSounds: SPOT><SO_WAT-OpenFlow.ogg><859.8016><140.9744><0.3913043><1><575.8016><2664.974><-57.35535><-97.35535><0><1, OMNI><SO_WAT-Splashes.ogg><776.3003><560.4895><0.1956522><1, OMNI><SO_WAT-MoreDrips.ogg><599.305><560.0443><0.5217391><1, SPOT><SO_WAT-OpenFlow.ogg><733.9494><252.0565><0.5><1><575.9494><185.0565><-170.3553><71.64466><0><0.578261, OMNI><AM_WIN-SubWnd.ogg><779.1534><482.3717><0.3586957><1, 
 FadePalette: 14, 0.9565217, 0.8200296, 0.6557405, 0.4682519

@@ -1,9 +1,9 @@
 DangerType: Blizzard
 RainIntensity: 0.3586957
 RumbleIntensity: 0.2717391
-WaveSpeed: 0.5009452
-WaveLength: 0.9866548
-WaveAmplitude: 0.003805135
+WaveSpeed: 0.5000436
+WaveLength: 0.9999782
+WaveAmplitude: 3.987953E-05
 SecondWaveLength: 0.1666667
 SecondWaveAmplitude: 0
 Clouds: 0.5217391
@@ -14,4 +14,4 @@ Effects: LightBurn-0.1956522-20-20, FireFlies-0.1413043-17-77, Coldness-0.521739
 PlacedObjects: LightSource><607.7848><696.947><0.173913~Environment~250~-370~-480~-216.3975~1~1~None~0~0, LightSource><1411.184><718.828><0.3913043~Environment~466~-345~-175~-748.3975~1~1~None~0~0, LightSource><2278.828><721.8821><0.3695652~Environment~424~-319~228~-185.3975~1~1~None~0~0, LightBeam><2348.434><171.3203><-219~588~29~585~290~9~263~-100~0.1934781~0.1956522~0~1~None~0~0, LightSource><2475.639><111.0834><0.2934783~Environment~-524~408~132~98.60254~1~0~None~0~0, LightSource><2462.449><143.4928><0.08695652~White~427~385~160~164.6025~1~1~None~0~0, LightBeam><1401.354><219.6708><-123~541~77~541~274~20~89~-243~0.2043477~0.3152174~0~1~None~0~0, LightSource><1526.585><248.5691><0.3804348~Environment~-584~65~224~-285.3975~1~0~None~0~0, LightSource><1540.079><255.0665><0.1521739~Environment~-499~-23~50~86.60254~1~1~None~0~0, LightBeam><661.3104><432.8094><-116~308~52~311~146~-57~-211~-378~0.2043477~0.1956522~0~1~None~0~0, LightSource><747.0515><319.0241><0.09782609~Environment~-540~64~-610~-133.3975~1~1~None~0~0, InsectGroup><2169.231><255.0509><362~133~0~0~RockFlea~0.3695652, InsectGroup><1282.404><242.6219><119~243~0~0~RockFlea~0.2608696, LightFixture><1181.917><584.3179><RedLight~17.32051~-10~55, SnowSource><2264.715><132.8032><Radial~0~100~50~86.60254~0.6956522~0, SnowSource><2415.366><154.1016><Radial~-47~181~-64~-171.3975~0.6956522~1, SnowSource><2546.758><191.5502><Radial~7~129~70~-199.3975~0.7282609~1, SnowSource><2153.499><160.95><Radial~4~123~50~86.60254~0.6413044~1, SnowSource><2128.053><390.2155><Radial~1~62~50~86.60254~0.7826087~1, SnowSource><2319.315><323.4208><Radial~-26~153~50~86.60254~0.8369565~1, SnowSource><1366.047><183.1945><Radial~-8~180~50~86.60254~0.6739131~1, SnowSource><1469.867><172.8503><Radial~0~100~50~86.60254~0.8152174~1, SnowSource><1545.001><300.95><Radial~-42~90~50~86.60254~0.6086956~1, SnowSource><1250.923><257.8989><Radial~0~100~50~86.60254~0.6304348~1, SnowSource><1620.038><347.8036><Radial~0~100~50~86.60254~0.7282609~0.9891304, SnowSource><705.3692><450.9106><Radial~0~100~50~86.60254~0.7173913~1, SnowSource><604.1785><527.9368><Radial~0~100~50~86.60254~0.7717391~1, SnowSource><763.8279><486.0939><Radial~0~100~50~86.60254~0.6956522~1, 
 AmbientSounds: OMNI><AM_ENV-SubTerr.ogg><857.3643><629.4141><0.423913><1, OMNI><AM_SUB-BlankState.ogg><858.1651><551.1811><0.4021739><1, OMNI><AM_ENV-Outside.ogg><863.0049><476.95><0><1, OMNI><AM_ENV-NatWind.ogg><712.0892><488.6189><0.2391304><1, 
 Triggers: Spot<tA>event<tB>MusicEvent<eA>songName<eB>RW_62 - Orange Lizard<eA>vol<eB>0.3<eA>prio<eB>0.5<eA>mxThrt<eB>1<eA>loop<eB>0<eA>droneTol<eB>0<eA>rooms<eB>-1<eA>rest<eB>5<eA>fadeIn<eB>84.78261<eA>oneSongPerCycle<eB>0<eA>stopAtDeath<eB>0<eA>stopAtGate<eB>0<tA>multiUse<tB>0<tA>toCycle<tB>-1<tA>fromCycle<tB>0<tA>delay<tB>0<tA>panPos<tB>906.0116<tB>454.0504<tA>fireChance<tB>1<tA>entrance<tB>0<tA>karma<tB>0<tA>slugcats<tB><tA>pos<tB>2372.012<tB>236.0504<tA>handlePos<tB>-137.3553<tB>-131.3553, 
-FadePalette: 10, 0.3043478, 0.3043478, 0.3043478
+FadePalette: 1, 0.3043478, 0.3043478, 0.3043478

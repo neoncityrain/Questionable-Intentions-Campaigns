@@ -6,7 +6,7 @@ WaveLength: 0.7045873
 WaveAmplitude: 0.04999999
 SecondWaveLength: 0.1666667
 SecondWaveAmplitude: 0
-Effects: SilenceWater-0.5-267-70, WaterViscosity-0-30-30, Coldness-0-67-209, DirtyWater-1-40-40, 
-PlacedObjects: DevToken><428.9349><266.076><-40~-71~0~0~0~~~0~0~0~1, 
+Effects: SilenceWater-0.5-267-70, WaterViscosity-0-30-30, Coldness-0-212-83, DirtyWater-1-40-40, 
+PlacedObjects: CustomDecal><229.7022><565.5558><8~67~237~60~210~-77~-281~-397~0.326087~1~0~NCRjackconteeat~0.5978261~0.1630435~0.5978261~0.1630435~0.5978261~0.1630435~0.5978261~0.1630435, 
 AmbientSounds: SPOT><SO_WAT-OpenFlow.ogg><840.3209><378.187><0.2391304><1><800.3209><138.187><-184.3553><20.64465><0><0.2739132, SPOT><SO_WAT-MoreDrips.ogg><846.3469><262.6287><0.4456522><0.823913><510.3469><710.6287><-30.35535><-367.3553><0><1, 
-FadePalette: 21, 0.6956522
+FadePalette: 22, 0.6956522

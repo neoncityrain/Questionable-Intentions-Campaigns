@@ -12,7 +12,7 @@
 			{
 				"name": "Eyes",
 				"story": "FFFBE0"
-			}
+			},
 		],
 		"weight": [ 0.8 ],
 		"tunnel_speed": [ 1.4 ],
@@ -22,6 +22,7 @@
 		"loudness": [ 2, 1 ],
 		"guide_overseer": 1,
 		"auto_grab_batflies": false,
+		"NCRCatsMod/IsLocked": true,
 		
 		"expedition_enabled": false,
 		"expedition_description": "...",
@@ -60,6 +61,7 @@
 		},
 
 		"start_room": "LC_S06",
-		"select_menu_scene": "Slugcat_NCRRoc"
+		"select_menu_scene": "Slugcat_NCRRoc",
+		"sleep_scene": "Sleep_NCRRoc"
 	}
 }

@@ -7,6 +7,8 @@ WaveLength: 1
 WaveAmplitude: 0
 SecondWaveLength: 0.1666667
 SecondWaveAmplitude: 0
+Grime: 0
+Palette: 55
 Effects: Coldness-0-30-30, 
 PlacedObjects: BrokenShelterWaterLevel><450.6674><327.4108><, 
-FadePalette: 21, 0.6847826
+FadePalette: 22, 0.9347826
